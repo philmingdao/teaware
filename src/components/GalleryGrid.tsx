@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Link from 'next/link';
 import { artworks, dynasties, materials, objectTypes, museums } from '@/data/artworks';
 import ArtworkCard from './ArtworkCard';
 import { useSlideshowContext } from './SlideshowProvider';
@@ -169,8 +170,10 @@ export default function GalleryGrid() {
                 </svg>
                 <span>幻灯</span>
               </button>
-              <a
-                href={`/tv/${selectedValue !== '全部' ? `?${activeFilter === 'museum' ? 'museum' : activeFilter === 'dynasty' ? 'dynasty' : ''}=${encodeURIComponent(selectedValue)}` : ''}`}
+              <Link
+                href={selectedValue !== '全部' && (activeFilter === 'museum' || activeFilter === 'dynasty')
+                  ? `/tv?${activeFilter}=${encodeURIComponent(selectedValue)}`
+                  : '/tv'}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] text-[#faf9f7] hover:bg-[#333] text-sm tracking-wider transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -178,7 +181,7 @@ export default function GalleryGrid() {
                 </svg>
                 <span>电视模式</span>
                 <span className="font-serif-en text-xs opacity-60">TV</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
