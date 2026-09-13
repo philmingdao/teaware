@@ -17,22 +17,22 @@ A museum-quality digital gallery showcasing historic Chinese teapots and tea bow
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **912** |
+| Total Artworks | **1,031** |
 | Museums | 3 |
 | Dynasties | 15+ |
 | Object Types | 5 |
 
 ### By Museum
-- The Metropolitan Museum of Art: 465
-- Cleveland Museum of Art: 253
-- Art Institute of Chicago: 194
+- The Metropolitan Museum of Art: 510
+- Cleveland Museum of Art: 275
+- Art Institute of Chicago: 246
 
 ### By Dynasty
-- Qing (清): 213+ items
-- Ming (明): 102+ items
-- Song (宋/北宋/南宋): 120+ items
-- Yuan (元): 34 items
-- Tang (唐): 25 items
+- Qing (清): 250+ items
+- Ming (明): 120+ items
+- Song (宋/北宋/南宋): 140+ items
+- Yuan (元): 40+ items
+- Tang (唐): 30+ items
 - And more...
 
 ## ✨ 特色 Features
@@ -100,6 +100,7 @@ npm run start
 │   ├── crawl-log.jsonl        # 爬取日志（机器可读）
 │   └── sources.json           # 数据源注册表
 ├── scripts/
+│   ├── expand-collection.ts   # 增量扩展脚本（读取crawl-log避免重复）
 │   ├── fetch-artworks-v3.ts   # 数据获取脚本（推荐）
 │   ├── fetch-artworks-v2.ts   # 数据获取脚本（完整版）
 │   └── fetch-artworks.ts      # 数据获取脚本（旧版）
@@ -111,7 +112,7 @@ npm run start
 │   │   └── artwork/[id]       # 藏品详情页
 │   ├── components/            # React 组件
 │   ├── data/
-│   │   ├── artworks.json      # 藏品数据（912件）
+│   │   ├── artworks.json      # 藏品数据（1,031件）
 │   │   └── artworks.ts        # 数据加载器
 │   ├── lib/                   # 工具函数
 │   └── types/                 # TypeScript 类型定义
