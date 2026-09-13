@@ -21,6 +21,11 @@ const nextConfig: NextConfig = {
         hostname: 'openaccess-cdn.clevelandart.org',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.artic.edu',
+        pathname: '/iiif/**',
+      },
     ],
   },
 };

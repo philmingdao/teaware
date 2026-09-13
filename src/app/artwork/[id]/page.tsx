@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { artworks, getArtworkById } from '@/data/artworks';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ResilientImage from '@/components/ResilientImage';
+import ArtworkSlideshowButton from '@/components/ArtworkSlideshowButton';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -74,11 +75,12 @@ export default async function ArtworkPage({ params }: Props) {
             <div className="relative">
               <div className="sticky top-32">
                 <div className="relative aspect-square bg-[#ebe8e1] rounded-sm overflow-hidden shadow-xl">
-                  <Image
+                  <ResilientImage
                     src={artwork.imageUrl}
                     alt={artwork.imageAlt}
                     fill
-                    className="object-contain p-4"
+                    className="p-4"
+                    objectFit="contain"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     priority
                   />
@@ -165,18 +167,33 @@ export default async function ArtworkPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* External Link */}
-              <a
-                href={artwork.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-elegant inline-flex items-center gap-2"
-              >
-                在博物馆官网查看
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
+              {/* Action Buttons */}
+              <div className="flex flex-wrap gap-3">
+                <ArtworkSlideshowButton 
+                  allArtworks={artworks} 
+                  currentIndex={currentIndex} 
+                />
+                <a
+                  href={`/tv/?start=${artwork.id}`}
+                  className="btn-elegant inline-flex items-center gap-2"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  电视模式
+                </a>
+                <a
+                  href={artwork.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-elegant inline-flex items-center gap-2"
+                >
+                  在博物馆官网查看
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>

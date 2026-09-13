@@ -1,8 +1,8 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { Artwork } from '@/types/artwork';
+import ResilientImage from './ResilientImage';
 
 interface ArtworkCardProps {
   artwork: Artwork;
@@ -22,11 +22,11 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
     >
       {/* Image Container */}
       <div className="relative aspect-square overflow-hidden bg-[#ebe8e1]">
-        <Image
+        <ResilientImage
           src={artwork.imageUrl}
           alt={artwork.imageAlt}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className="transition-transform duration-700 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
         
