@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { artworks } from '@/data/artworks';
 import Link from 'next/link';
+import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
+import MuteToggle from './MuteToggle';
 
 export default function TVMode() {
   const router = useRouter();
@@ -28,6 +30,7 @@ export default function TVMode() {
   const [showUI, setShowUI] = useState(true);
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [musicStarted, setMusicStarted] = useState(false);
   
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState(0);
@@ -36,6 +39,8 @@ export default function TVMode() {
   const containerRef = useRef<HTMLDivElement>(null);
   const uiTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const autoplayRef = useRef<NodeJS.Timeout | null>(null);
+  
+  const { isMuted, toggleMute, startMusic, stopMusic } = useBackgroundMusic();
 
   const current = filteredArtworks[currentIndex];
   const total = filteredArtworks.length;
@@ -61,9 +66,26 @@ export default function TVMode() {
   }, [isPlaying]);
 
   const toggleAutoplay = useCallback(() => {
+    if (!musicStarted) {
+      startMusic();
+      setMusicStarted(true);
+    }
     setIsPlaying(prev => !prev);
     showUITemporarily();
-  }, [showUITemporarily]);
+  }, [showUITemporarily, musicStarted, startMusic]);
+
+  const handleFirstInteraction = useCallback(() => {
+    if (!musicStarted) {
+      startMusic();
+      setMusicStarted(true);
+    }
+  }, [musicStarted, startMusic]);
+
+  useEffect(() => {
+    return () => {
+      stopMusic();
+    };
+  }, [stopMusic]);
 
   useEffect(() => {
     if (isPlaying) {
@@ -82,6 +104,7 @@ export default function TVMode() {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      handleFirstInteraction();
       showUITemporarily();
       if (isPlaying && ['ArrowLeft', 'ArrowRight', ' '].includes(e.key)) {
         setIsPlaying(false);
@@ -102,6 +125,10 @@ export default function TVMode() {
         case 'P':
           toggleAutoplay();
           break;
+        case 'm':
+        case 'M':
+          toggleMute();
+          break;
       }
     };
 
@@ -119,7 +146,7 @@ export default function TVMode() {
       window.removeEventListener('keydown', handleKeyDown);
       window.removeEventListener('wheel', handleWheel);
     };
-  }, [goNext, goPrev, router, showUITemporarily, toggleAutoplay, isPlaying]);
+  }, [goNext, goPrev, router, showUITemporarily, toggleAutoplay, isPlaying, handleFirstInteraction, toggleMute]);
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
@@ -132,6 +159,7 @@ export default function TVMode() {
 
   const handlePointerDown = (e: React.PointerEvent) => {
     if ((e.target as HTMLElement).closest('a, button')) return;
+    handleFirstInteraction();
     setIsDragging(true);
     setDragStart(e.clientX);
     showUITemporarily();
@@ -155,6 +183,7 @@ export default function TVMode() {
 
   const handleTouchStart = (e: React.TouchEvent) => {
     if ((e.target as HTMLElement).closest('a, button')) return;
+    handleFirstInteraction();
     setIsDragging(true);
     setDragStart(e.touches[0].clientX);
     showUITemporarily();
@@ -332,24 +361,27 @@ export default function TVMode() {
             <span className="text-lg tracking-widest">器 · 茶</span>
           </Link>
 
-          {/* Autoplay Toggle */}
-          <button
-            onClick={toggleAutoplay}
-            className="flex items-center gap-2 text-white/50 hover:text-white transition-colors"
-          >
-            <span className="hidden sm:inline text-sm tracking-wide">
-              {isPlaying ? '暂停' : '播放'}
-            </span>
-            {isPlaying ? (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 9v6m4-6v6" />
-              </svg>
-            ) : (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-              </svg>
-            )}
-          </button>
+          {/* Controls */}
+          <div className="flex items-center gap-4">
+            <MuteToggle isMuted={isMuted} onToggle={toggleMute} className="text-white/50 hover:text-white" />
+            <button
+              onClick={toggleAutoplay}
+              className="flex items-center gap-2 text-white/50 hover:text-white transition-colors"
+            >
+              <span className="hidden sm:inline text-sm tracking-wide">
+                {isPlaying ? '暂停' : '播放'}
+              </span>
+              {isPlaying ? (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 9v6m4-6v6" />
+                </svg>
+              ) : (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -402,6 +434,10 @@ export default function TVMode() {
         <span className="flex items-center gap-1">
           <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">P</kbd>
           <span className="ml-1">播放</span>
+        </span>
+        <span className="flex items-center gap-1">
+          <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">M</kbd>
+          <span className="ml-1">静音</span>
         </span>
         <span className="flex items-center gap-1">
           <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">ESC</kbd>
