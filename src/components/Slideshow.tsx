@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { Artwork } from '@/types/artwork';
 import ResilientImage from './ResilientImage';
+import MuteToggle from './MuteToggle';
+import { useSlideshowContext } from './SlideshowProvider';
 
 interface SlideshowProps {
   artworks: Artwork[];
@@ -23,6 +25,8 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
   const controlsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const autoplayIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const router = useRouter();
+  
+  const { isMuted, toggleMute } = useSlideshowContext();
 
   const currentArtwork = artworks[currentIndex];
   const totalCount = artworks.length;
@@ -92,12 +96,16 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
         case 'p':
           toggleAutoplay();
           break;
+        case 'm':
+        case 'M':
+          toggleMute();
+          break;
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [goToNext, goToPrev, onClose, handleInteraction, toggleAutoplay]);
+  }, [goToNext, goToPrev, onClose, handleInteraction, toggleAutoplay, toggleMute]);
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
@@ -254,27 +262,30 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
             {currentIndex + 1} / {totalCount}
           </div>
           
-          <button
-            onClick={toggleAutoplay}
-            className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
-          >
-            {isPlaying ? (
-              <>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span className="hidden sm:inline text-sm">暂停</span>
-              </>
-            ) : (
-              <>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span className="hidden sm:inline text-sm">自动播放</span>
-              </>
-            )}
-          </button>
+          <div className="flex items-center gap-4">
+            <MuteToggle isMuted={isMuted} onToggle={toggleMute} />
+            <button
+              onClick={toggleAutoplay}
+              className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
+            >
+              {isPlaying ? (
+                <>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="hidden sm:inline text-sm">暂停</span>
+                </>
+              ) : (
+                <>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="hidden sm:inline text-sm">自动播放</span>
+                </>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -321,6 +332,11 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
         <span className="inline-flex items-center gap-1">
           <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-[10px]">P</kbd>
           <span className="ml-1">自动播放</span>
+        </span>
+        <span className="mx-2">·</span>
+        <span className="inline-flex items-center gap-1">
+          <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-[10px]">M</kbd>
+          <span className="ml-1">静音</span>
         </span>
         <span className="mx-2">·</span>
         <span className="inline-flex items-center gap-1">
