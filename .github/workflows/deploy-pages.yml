@@ -20,6 +20,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Verify artwork JPEGs (not LFS pointers)
+        run: |
+          set -euo pipefail
+          sample=$(find public/artworks -type f \( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' -o -name '*.webp' \) | head -1)
+          if [ -z "$sample" ]; then
+            echo "ERROR: no artwork images under public/artworks"
+            exit 1
+          fi
+          if head -c 64 "$sample" | grep -q 'git-lfs.github.com\|version https://git-lfs'; then
+            echo "ERROR: $sample is still a Git LFS pointer"
+            head -c 200 "$sample" || true
+            exit 1
+          fi
+          echo "OK: $sample looks like binary media ($(wc -c < "$sample") bytes)"
+          ls public/artworks | wc -l
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -36,6 +54,34 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Verify built image paths
+        run: |
+          set -euo pipefail
+          if [ ! -d out/artworks ]; then
+            echo "ERROR: out/artworks missing after build"
+            exit 1
+          fi
+          sample=$(find out/artworks -type f -name '*.jpg' | head -1)
+          if head -c 64 "$sample" | grep -q 'git-lfs.github.com\|version https://git-lfs'; then
+            echo "ERROR: built artifact still has LFS pointer"
+            exit 1
+          fi
+          if command -v rg >/dev/null 2>&1; then
+            if rg -l '/teaware/artworks/' out --glob '*.html' | head -1 | grep -q .; then
+              echo "OK: HTML references /teaware/artworks/"
+            else
+              echo "WARN: no /teaware/artworks/ found in HTML; sample:"
+              rg -n 'artworks/' out --glob '*.html' | head -20 || true
+            fi
+          else
+            if grep -R -l '/teaware/artworks/' out --include='*.html' | head -1 | grep -q .; then
+              echo "OK: HTML references /teaware/artworks/"
+            else
+              echo "WARN: no /teaware/artworks/ found in HTML"
+              grep -R -n 'artworks/' out --include='*.html' | head -20 || true
+            fi
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
