@@ -8,17 +8,17 @@ export default function GalleryPreview() {
   const previewArtworks = artworks.slice(0, 8);
 
   return (
-    <section className="py-24 bg-[#f5f3ef]">
+    <section className="py-24 bg-[#f5f3ef] dark:bg-[#171614]">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-sm tracking-[0.3em] text-[#b8956c] uppercase font-serif-en">
+          <span className="text-sm tracking-[0.3em] text-[#b8956c] dark:text-[#d4b896] uppercase font-serif-en">
             Featured Collection
           </span>
-          <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a]">
+          <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]">
             精选藏品
           </h2>
-          <p className="mt-4 text-[#666] max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 text-[#666] dark:text-[#9a9894] max-w-2xl mx-auto leading-relaxed">
             从宋代建盏的深沉到清代瓷器的华美，每一件藏品都是时代审美与工艺智慧的结晶
           </p>
           <div className="divider-elegant"></div>

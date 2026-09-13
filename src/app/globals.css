@@ -17,6 +17,17 @@
   --font-serif-en: 'Cormorant Garamond', 'Times New Roman', serif;
 }
 
+.dark {
+  --color-ink: #e8e6e3;
+  --color-ink-light: #c5c3bf;
+  --color-ink-muted: #9a9894;
+  --color-paper: #0f0f0e;
+  --color-paper-warm: #171614;
+  --color-cream: #252320;
+  --color-gold: #d4b896;
+  --color-gold-light: #b8956c;
+}
+
 @theme inline {
   --color-background: var(--color-paper);
   --color-foreground: var(--color-ink);
@@ -39,11 +50,17 @@ body {
   letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ::selection {
   background: var(--color-gold-light);
   color: var(--color-ink);
+}
+
+.dark ::selection {
+  background: var(--color-gold);
+  color: #0f0f0e;
 }
 
 /* Typography */
@@ -143,6 +160,10 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-item:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
+}
+
+.dark .gallery-item:hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
 }
 
 .gallery-item img {

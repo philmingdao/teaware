@@ -13,7 +13,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
   return (
     <Link 
       href={`/artwork/${artwork.id}`}
-      className="group gallery-item block bg-[#faf9f7] rounded-sm overflow-hidden"
+      className="group gallery-item block bg-[#faf9f7] dark:bg-[#1a1816] rounded-sm overflow-hidden"
       style={{ 
         animationDelay: `${index * 0.1}s`,
         opacity: 0,
@@ -21,7 +21,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
       }}
     >
       {/* Image Container */}
-      <div className="relative aspect-square overflow-hidden bg-[#ebe8e1]">
+      <div className="relative aspect-square overflow-hidden bg-[#ebe8e1] dark:bg-[#252320]">
         <ResilientImage
           src={artwork.imageUrl}
           alt={artwork.imageAlt}
@@ -35,7 +35,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
         
         {/* Dynasty badge */}
         <div className="absolute top-4 left-4">
-          <span className="inline-block px-3 py-1 text-xs tracking-wider bg-[#faf9f7]/90 text-[#1a1a1a] backdrop-blur-sm">
+          <span className="inline-block px-3 py-1 text-xs tracking-wider bg-[#faf9f7]/90 dark:bg-[#0f0f0e]/90 text-[#1a1a1a] dark:text-[#e8e6e3] backdrop-blur-sm">
             {artwork.dynasty}代
           </span>
         </div>
@@ -43,25 +43,25 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
 
       {/* Content */}
       <div className="p-5">
-        <h3 className="text-lg font-medium text-[#1a1a1a] group-hover:text-[#b8956c] transition-colors line-clamp-2">
+        <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3] group-hover:text-[#b8956c] dark:group-hover:text-[#d4b896] transition-colors line-clamp-2">
           {artwork.titleChinese}
         </h3>
-        <p className="mt-1 text-sm text-[#666] font-serif-en line-clamp-1">
+        <p className="mt-1 text-sm text-[#666] dark:text-[#9a9894] font-serif-en line-clamp-1">
           {artwork.titleEnglish}
         </p>
         
         <div className="mt-3 flex flex-wrap gap-2">
-          <span className="text-xs text-[#999]">
+          <span className="text-xs text-[#999] dark:text-[#6e6c68]">
             {artwork.material}
           </span>
-          <span className="text-xs text-[#ccc]">·</span>
-          <span className="text-xs text-[#999]">
+          <span className="text-xs text-[#ccc] dark:text-[#3d3b38]">·</span>
+          <span className="text-xs text-[#999] dark:text-[#6e6c68]">
             {artwork.objectType}
           </span>
         </div>
         
         {artwork.kiln && (
-          <p className="mt-2 text-xs text-[#b8956c]">
+          <p className="mt-2 text-xs text-[#b8956c] dark:text-[#d4b896]">
             {artwork.kiln}
           </p>
         )}
