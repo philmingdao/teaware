@@ -85,7 +85,6 @@ export default function ResilientImage({
           onError={handleError}
           onLoad={handleLoad}
           referrerPolicy="no-referrer"
-          crossOrigin="anonymous"
           loading={priority ? 'eager' : 'lazy'}
         />
       </>
@@ -132,7 +131,6 @@ export default function ResilientImage({
         onError={handleError}
         onLoad={handleLoad}
         referrerPolicy="no-referrer"
-        crossOrigin="anonymous"
       />
     </>
   );
