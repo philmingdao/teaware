@@ -44,6 +44,8 @@ A museum-quality digital gallery showcasing historic Chinese teapots and tea bow
 - 🌏 **中英双语** — 以中文为主，辅以英文标签
 - ⚡ **静态优化** — 支持静态导出，可部署至任意静态托管平台
 - 📄 **分页浏览** — 高效分页，支持 900+ 件藏品流畅浏览
+- 🌙 **深色模式** — 支持系统偏好自动切换或手动切换，优雅的深色主题
+- 📺 **电视模式** — Netflix 风格沉浸式全屏浏览，支持键盘/触摸/自动播放
 
 ## 📸 预览 Preview
 
@@ -55,6 +57,46 @@ A museum-quality digital gallery showcasing historic Chinese teapots and tea bow
 
 ### 藏品详情 Artwork Detail
 博物馆墙标式详细信息
+
+## 🌙 深色模式 Dark Mode
+
+网站支持三种主题模式：
+
+- **浅色模式** — 传统温暖的纸白色调
+- **深色模式** — 优雅的水墨黑配色，降低眼睛疲劳
+- **跟随系统** — 自动匹配操作系统偏好设置
+
+### 切换方式
+点击右上角的太阳/月亮图标循环切换：浅色 → 深色 → 跟随系统
+
+主题偏好会保存在 localStorage 中，下次访问时自动应用。
+
+## 📺 电视模式 TV Mode
+
+专为大屏幕和沉浸式浏览设计的 Netflix 风格展览模式。
+
+### 进入方式
+- 首页「电视模式」按钮
+- 藏品列表右上角「电视模式」按钮
+- 藏品详情页「电视模式」按钮
+- 直接访问 `/tv` 路径
+
+### 操作方式
+
+| 操作 | 桌面端 | 移动端 |
+|------|--------|--------|
+| 上一件 | `←` 方向键 / 点击左侧箭头 | 向右滑动 |
+| 下一件 | `→` / `空格` / 点击右侧箭头 | 向左滑动 |
+| 自动播放 | `P` 键 / 点击播放按钮 | 点击播放按钮 |
+| 退出 | `ESC` 键 / 点击返回 | 点击返回 |
+
+### 特性
+- 全屏沉浸式图片展示（object-fit: cover）
+- 电影级渐变遮罩保证文字可读性
+- 自动播放模式（8秒切换）
+- UI 空闲自动隐藏
+- 支持触摸滑动手势
+- 支持 URL 参数筛选（`?dynasty=宋` 或 `?museum=大都会艺术博物馆`）
 
 ## 🚀 快速开始 Getting Started
 
@@ -244,6 +286,48 @@ npm run fetch-data
 - **博物馆体验** — 每件藏品都有完整的「墙标」信息
 - **中国优先** — 中文为主要语言，英文为辅助标签
 - **可及性** — 语义化 HTML，键盘导航，图片 alt 文本
+
+## 🔗 开发指南：导航与 basePath
+
+本项目部署在 GitHub Pages 子路径 `/teaware/` 下，使用 Next.js 的 `basePath` 配置。
+
+### ⚠️ 重要：内部链接必须使用 next/link
+
+**正确做法：**
+```tsx
+import Link from 'next/link';
+
+<Link href="/gallery">藏品浏览</Link>
+<Link href={`/artwork/${id}`}>查看详情</Link>
+```
+
+**错误做法（会导致 404）：**
+```tsx
+// ❌ 不要这样做 - 绕过了 basePath
+<a href="/gallery">藏品浏览</a>
+<a href={`/artwork/${id}`}>查看详情</a>
+```
+
+### 为什么？
+
+在 GitHub Pages 上，网站部署在 `https://username.github.io/teaware/` 路径下。
+- `<Link href="/gallery">` → 自动转换为 `/teaware/gallery` ✅
+- `<a href="/gallery">` → 保持为 `/gallery`，导致 404 ❌
+
+### ESLint 规则
+
+项目配置了 ESLint 规则，当检测到 `<a href="/...">` 模式时会发出警告。
+
+运行 `npm run lint` 检查是否有违规使用。
+
+### 外部链接
+
+外部链接（http://、https://、mailto: 等）仍然使用普通 `<a>` 标签：
+```tsx
+<a href="https://www.metmuseum.org" target="_blank" rel="noopener noreferrer">
+  大都会艺术博物馆
+</a>
+```
 
 ## 📄 许可证 License
 

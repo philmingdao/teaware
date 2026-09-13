@@ -67,10 +67,11 @@ export default function TVMode() {
 
   useEffect(() => {
     if (isPlaying) {
-      autoplayRef.current = setInterval(goNext, 6000);
+      autoplayRef.current = setInterval(goNext, 8000);
       uiTimeoutRef.current = setTimeout(() => setShowUI(false), 4000);
     } else {
       if (autoplayRef.current) clearInterval(autoplayRef.current);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShowUI(true);
     }
     return () => {
@@ -122,7 +123,7 @@ export default function TVMode() {
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
-    document.body.style.backgroundColor = '#0a0a0a';
+    document.body.style.backgroundColor = '#000';
     return () => {
       document.body.style.overflow = '';
       document.body.style.backgroundColor = '';
@@ -177,7 +178,7 @@ export default function TVMode() {
 
   if (!current) {
     return (
-      <div className="fixed inset-0 bg-[#0a0a0a] flex items-center justify-center">
+      <div className="fixed inset-0 bg-black flex items-center justify-center">
         <div className="text-center text-white/60">
           <p className="text-xl">暂无藏品</p>
           <Link href="/gallery" className="mt-4 inline-block text-[#d4b896] hover:underline">
@@ -191,7 +192,7 @@ export default function TVMode() {
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 bg-[#0a0a0a] select-none cursor-none overflow-hidden"
+      className="fixed inset-0 bg-black select-none overflow-hidden"
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
@@ -202,168 +203,210 @@ export default function TVMode() {
       onMouseMove={showUITemporarily}
       style={{ cursor: showUI ? 'default' : 'none' }}
     >
-      {/* Artwork Image - Full Screen */}
+      {/* Full-bleed Background Image - Netflix Billboard Style */}
       <div 
-        className="absolute inset-0 flex items-center justify-center"
+        className="absolute inset-0"
         style={{
-          padding: 'env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(safe-area-inset-bottom, 100px) env(safe-area-inset-left, 20px)',
-          transform: `translateX(${dragOffset * 0.3}px)`,
-          transition: isDragging ? 'none' : 'transform 0.4s cubic-bezier(0.22, 1, 0.36, 1)',
+          transform: `translateX(${dragOffset * 0.1}px) scale(${isDragging ? 1.02 : 1})`,
+          transition: isDragging ? 'none' : 'transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)',
         }}
       >
-        <div className="relative w-full h-full max-w-[90vw] max-h-[85vh] flex items-center justify-center">
-          {!imageLoaded && !imageError && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
-            </div>
-          )}
-          {imageError ? (
+        {/* Loading State */}
+        {!imageLoaded && !imageError && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black z-10">
+            <div className="w-12 h-12 border-2 border-white/10 border-t-[#d4b896]/60 rounded-full animate-spin" />
+          </div>
+        )}
+        
+        {/* Error State */}
+        {imageError && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black z-10">
             <div className="text-white/40 text-center">
-              <svg className="w-16 h-16 mx-auto mb-4 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              <svg className="w-20 h-20 mx-auto mb-4 opacity-30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              <p>图片加载失败</p>
+              <p className="text-lg">图片加载失败</p>
             </div>
-          ) : (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img
-              key={current.id}
-              src={current.imageUrl}
-              alt={current.imageAlt}
-              className={`max-w-full max-h-full object-contain transition-opacity duration-700 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
-              onLoad={() => setImageLoaded(true)}
-              onError={() => setImageError(true)}
-              referrerPolicy="no-referrer"
-              draggable={false}
-            />
-          )}
-        </div>
+          </div>
+        )}
+        
+        {/* Main Image - Full Bleed Cover */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          key={current.id}
+          src={current.imageUrl}
+          alt={current.imageAlt}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+            imageLoaded ? 'opacity-100' : 'opacity-0'
+          }`}
+          onLoad={() => setImageLoaded(true)}
+          onError={() => setImageError(true)}
+          referrerPolicy="no-referrer"
+          draggable={false}
+        />
+        
+        {/* Cinematic Gradient Overlays */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" />
       </div>
 
-      {/* Caption Overlay - TV-optimized typography */}
+      {/* Netflix-style Title Card - Bottom Left */}
       <div
-        className={`absolute bottom-0 left-0 right-0 transition-all duration-700 ${
-          showUI ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+        className={`absolute bottom-0 left-0 right-0 transition-all duration-700 ease-out ${
+          showUI ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
         }`}
-        style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
+        style={{ 
+          paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 2rem)',
+          paddingLeft: 'max(env(safe-area-inset-left, 0px), 2rem)',
+          paddingRight: 'max(env(safe-area-inset-right, 0px), 2rem)',
+        }}
       >
-        <div className="bg-gradient-to-t from-black/90 via-black/60 to-transparent pt-24 pb-8 px-8 md:px-16">
-          <div className="max-w-5xl mx-auto">
-            {/* Title - Large for TV viewing */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-white tracking-wider leading-tight">
-              {current.titleChinese}
-            </h1>
-            <p className="mt-2 text-lg sm:text-xl md:text-2xl text-white/70 font-serif-en">
-              {current.titleEnglish}
-            </p>
-            
-            {/* Metadata - Clean, spaced for readability */}
-            <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-base sm:text-lg md:text-xl text-white/50">
-              <span className="text-[#d4b896]">{current.dynasty}代</span>
-              <span className="hidden sm:inline">·</span>
-              <span>{current.material}</span>
-              <span className="hidden sm:inline">·</span>
-              <span className="text-white/40">{current.sourceMuseum}</span>
+        <div className="max-w-4xl px-4 md:px-8 lg:px-12 pb-8 md:pb-12">
+          {/* Dynasty Badge */}
+          <div className="mb-4">
+            <span className="inline-flex items-center px-3 py-1 bg-[#d4b896]/20 backdrop-blur-sm border border-[#d4b896]/30 text-[#d4b896] text-sm tracking-widest">
+              {current.dynasty}代
+            </span>
+          </div>
+          
+          {/* Title - Large Cinematic Typography */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-white tracking-wider leading-[1.1] mb-4 drop-shadow-2xl">
+            {current.titleChinese}
+          </h1>
+          
+          {/* English Title */}
+          <p className="text-lg sm:text-xl md:text-2xl text-white/60 font-serif-en mb-6 drop-shadow-lg">
+            {current.titleEnglish}
+          </p>
+          
+          {/* Metadata Line - Clean & Minimal */}
+          <div className="flex flex-wrap items-center gap-3 text-sm sm:text-base text-white/40">
+            <span>{current.material}</span>
+            <span className="w-1 h-1 rounded-full bg-white/30" />
+            <span>{current.objectType}</span>
+            <span className="w-1 h-1 rounded-full bg-white/30" />
+            <span className="text-white/30">{current.sourceMuseum}</span>
+          </div>
+          
+          {/* Progress Bar - Subtle */}
+          <div className="mt-8 flex items-center gap-4">
+            <div className="flex-1 max-w-xs h-0.5 bg-white/10 rounded-full overflow-hidden">
+              <div 
+                className="h-full bg-[#d4b896]/60 transition-all duration-300"
+                style={{ width: `${((currentIndex + 1) / total) * 100}%` }}
+              />
             </div>
+            <span className="text-sm text-white/30 font-serif-en tabular-nums">
+              {currentIndex + 1} / {total}
+            </span>
           </div>
         </div>
       </div>
 
-      {/* Top Bar - Minimal controls */}
+      {/* Top Bar - Minimal Controls */}
       <div
-        className={`absolute top-0 left-0 right-0 transition-all duration-700 ${
-          showUI ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
+        className={`absolute top-0 left-0 right-0 transition-all duration-700 ease-out ${
+          showUI ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-8'
         }`}
-        style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
+        style={{ 
+          paddingTop: 'max(env(safe-area-inset-top, 0px), 1rem)',
+          paddingLeft: 'max(env(safe-area-inset-left, 0px), 1rem)',
+          paddingRight: 'max(env(safe-area-inset-right, 0px), 1rem)',
+        }}
       >
-        <div className="bg-gradient-to-b from-black/80 to-transparent py-6 px-8 md:px-16">
-          <div className="flex items-center justify-between max-w-7xl mx-auto">
-            {/* Back */}
-            <Link
-              href="/gallery"
-              className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-lg"
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
+        <div className="flex items-center justify-between px-4 md:px-8 lg:px-12 py-4">
+          {/* Back Button */}
+          <Link
+            href="/gallery"
+            className="group flex items-center gap-2 text-white/50 hover:text-white transition-colors"
+          >
+            <svg className="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+            </svg>
+            <span className="hidden sm:inline text-sm tracking-wide">返回</span>
+          </Link>
+
+          {/* Logo */}
+          <Link href="/" className="text-white/40 hover:text-white/60 transition-colors">
+            <span className="text-lg tracking-widest">器 · 茶</span>
+          </Link>
+
+          {/* Autoplay Toggle */}
+          <button
+            onClick={toggleAutoplay}
+            className="flex items-center gap-2 text-white/50 hover:text-white transition-colors"
+          >
+            <span className="hidden sm:inline text-sm tracking-wide">
+              {isPlaying ? '暂停' : '播放'}
+            </span>
+            {isPlaying ? (
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 9v6m4-6v6" />
               </svg>
-              <span className="hidden md:inline">退出展览</span>
-            </Link>
-
-            {/* Counter */}
-            <div className="text-xl md:text-2xl text-white/40 font-light tracking-wider">
-              <span className="text-white/70">{currentIndex + 1}</span>
-              <span className="mx-2">/</span>
-              <span>{total}</span>
-            </div>
-
-            {/* Autoplay */}
-            <button
-              onClick={toggleAutoplay}
-              className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-lg"
-            >
-              {isPlaying ? (
-                <>
-                  <span className="hidden md:inline">暂停</span>
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 9v6m4-6v6" />
-                  </svg>
-                </>
-              ) : (
-                <>
-                  <span className="hidden md:inline">自动播放</span>
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  </svg>
-                </>
-              )}
-            </button>
-          </div>
+            ) : (
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              </svg>
+            )}
+          </button>
         </div>
       </div>
 
-      {/* Side Navigation - Desktop only */}
+      {/* Side Navigation - Desktop */}
       <button
         onClick={() => { if (isPlaying) setIsPlaying(false); goPrev(); }}
-        className={`hidden lg:flex absolute left-8 top-1/2 -translate-y-1/2 w-16 h-16 items-center justify-center text-white/30 hover:text-white/80 transition-all duration-500 ${
+        className={`hidden lg:flex absolute left-4 xl:left-8 top-1/2 -translate-y-1/2 w-14 h-14 items-center justify-center text-white/20 hover:text-white/60 hover:bg-white/5 rounded-full transition-all duration-500 ${
           showUI ? 'opacity-100' : 'opacity-0'
         }`}
       >
-        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
       
       <button
         onClick={() => { if (isPlaying) setIsPlaying(false); goNext(); }}
-        className={`hidden lg:flex absolute right-8 top-1/2 -translate-y-1/2 w-16 h-16 items-center justify-center text-white/30 hover:text-white/80 transition-all duration-500 ${
+        className={`hidden lg:flex absolute right-4 xl:right-8 top-1/2 -translate-y-1/2 w-14 h-14 items-center justify-center text-white/20 hover:text-white/60 hover:bg-white/5 rounded-full transition-all duration-500 ${
           showUI ? 'opacity-100' : 'opacity-0'
         }`}
       >
-        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 5l7 7-7 7" />
         </svg>
       </button>
 
-      {/* Mobile swipe hint */}
-      <div className={`lg:hidden absolute left-1/2 -translate-x-1/2 bottom-40 text-sm text-white/20 transition-opacity duration-700 ${
-        showUI && currentIndex === 0 ? 'opacity-100' : 'opacity-0'
+      {/* Mobile Swipe Hint */}
+      <div className={`lg:hidden absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 pointer-events-none transition-opacity duration-700 ${
+        showUI && currentIndex === 0 && !isPlaying ? 'opacity-100' : 'opacity-0'
       }`}>
-        ← 滑动切换 →
+        <div className="flex items-center gap-4 text-white/20">
+          <svg className="w-6 h-6 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M15 19l-7-7 7-7" />
+          </svg>
+          <span className="text-sm">滑动浏览</span>
+          <svg className="w-6 h-6 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
       </div>
 
-      {/* Keyboard hints - Desktop only */}
-      <div className={`hidden lg:block absolute bottom-6 left-8 text-xs text-white/20 transition-opacity duration-500 ${
+      {/* Keyboard Hints - Desktop */}
+      <div className={`hidden lg:flex absolute bottom-6 right-8 items-center gap-4 text-xs text-white/15 transition-opacity duration-500 ${
         showUI ? 'opacity-100' : 'opacity-0'
       }`}>
-        <kbd className="px-2 py-1 bg-white/10 rounded mr-1">←</kbd>
-        <kbd className="px-2 py-1 bg-white/10 rounded mr-3">→</kbd>
-        切换
-        <span className="mx-3">|</span>
-        <kbd className="px-2 py-1 bg-white/10 rounded mr-1">P</kbd>
-        播放
-        <span className="mx-3">|</span>
-        <kbd className="px-2 py-1 bg-white/10 rounded">ESC</kbd>
-        退出
+        <span className="flex items-center gap-1">
+          <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">←</kbd>
+          <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">→</kbd>
+        </span>
+        <span className="flex items-center gap-1">
+          <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">P</kbd>
+          <span className="ml-1">播放</span>
+        </span>
+        <span className="flex items-center gap-1">
+          <kbd className="px-2 py-1 bg-white/5 rounded text-[10px]">ESC</kbd>
+          <span className="ml-1">退出</span>
+        </span>
       </div>
     </div>
   );

@@ -51,18 +51,18 @@ export default async function ArtworkPage({ params }: Props) {
   const nextArtwork = currentIndex < artworks.length - 1 ? artworks[currentIndex + 1] : null;
 
   return (
-    <main className="flex-1 bg-[#faf9f7]">
+    <main className="flex-1 bg-[#faf9f7] dark:bg-[#0f0f0e]">
       <Header />
       
       {/* Breadcrumb */}
-      <div className="pt-24 pb-4 bg-[#f5f3ef]">
+      <div className="pt-24 pb-4 bg-[#f5f3ef] dark:bg-[#171614]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <nav className="text-sm text-[#999]">
-            <Link href="/" className="hover:text-[#1a1a1a] transition-colors">首页</Link>
+          <nav className="text-sm text-[#999] dark:text-[#6e6c68]">
+            <Link href="/" className="hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors">首页</Link>
             <span className="mx-2">/</span>
-            <Link href="/gallery" className="hover:text-[#1a1a1a] transition-colors">藏品</Link>
+            <Link href="/gallery" className="hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors">藏品</Link>
             <span className="mx-2">/</span>
-            <span className="text-[#1a1a1a]">{artwork.titleChinese}</span>
+            <span className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.titleChinese}</span>
           </nav>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default async function ArtworkPage({ params }: Props) {
             {/* Image */}
             <div className="relative">
               <div className="sticky top-32">
-                <div className="relative aspect-square bg-[#ebe8e1] rounded-sm overflow-hidden shadow-xl">
+                <div className="relative aspect-square bg-[#ebe8e1] dark:bg-[#252320] rounded-sm overflow-hidden shadow-xl dark:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
                   <ResilientImage
                     src={artwork.imageUrl}
                     alt={artwork.imageAlt}
@@ -87,10 +87,10 @@ export default async function ArtworkPage({ params }: Props) {
                 </div>
                 
                 {/* Image credit */}
-                <p className="mt-4 text-xs text-[#999] text-center">
+                <p className="mt-4 text-xs text-[#999] dark:text-[#6e6c68] text-center">
                   图片来源：{artwork.sourceMuseumEnglish}
                   <br />
-                  <span className="text-[#b8956c]">{artwork.license}</span>
+                  <span className="text-[#b8956c] dark:text-[#d4b896]">{artwork.license}</span>
                 </p>
               </div>
             </div>
@@ -99,20 +99,20 @@ export default async function ArtworkPage({ params }: Props) {
             <div>
               {/* Title */}
               <div className="mb-8">
-                <span className="inline-block px-3 py-1 text-sm tracking-wider bg-[#1a1a1a] text-[#faf9f7] mb-4">
+                <span className="inline-block px-3 py-1 text-sm tracking-wider bg-[#1a1a1a] dark:bg-[#e8e6e3] text-[#faf9f7] dark:text-[#0f0f0e] mb-4">
                   {artwork.dynasty}代
                 </span>
-                <h1 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] leading-tight">
+                <h1 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3] leading-tight">
                   {artwork.titleChinese}
                 </h1>
-                <p className="mt-2 text-lg text-[#666] font-serif-en">
+                <p className="mt-2 text-lg text-[#666] dark:text-[#9a9894] font-serif-en">
                   {artwork.titleEnglish}
                 </p>
               </div>
 
               {/* Description - Wall Label Style */}
-              <div className="bg-[#f5f3ef] p-6 lg:p-8 rounded-sm mb-8">
-                <p className="text-[#3d3d3d] leading-relaxed">
+              <div className="bg-[#f5f3ef] dark:bg-[#171614] p-6 lg:p-8 rounded-sm mb-8">
+                <p className="text-[#3d3d3d] dark:text-[#c5c3bf] leading-relaxed">
                   {artwork.description}
                 </p>
               </div>
@@ -120,34 +120,34 @@ export default async function ArtworkPage({ params }: Props) {
               {/* Metadata Grid */}
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] uppercase mb-1">朝代 Dynasty</h3>
-                  <p className="text-[#1a1a1a]">{artwork.dynastyEnglish}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">朝代 Dynasty</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.dynastyEnglish}</p>
                 </div>
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] uppercase mb-1">年代 Date</h3>
-                  <p className="text-[#1a1a1a]">{artwork.date}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">年代 Date</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.date}</p>
                 </div>
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] uppercase mb-1">材质 Material</h3>
-                  <p className="text-[#1a1a1a]">{artwork.material}</p>
-                  <p className="text-sm text-[#666] font-serif-en">{artwork.materialEnglish}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">材质 Material</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.material}</p>
+                  <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.materialEnglish}</p>
                 </div>
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] uppercase mb-1">器型 Type</h3>
-                  <p className="text-[#1a1a1a]">{artwork.objectType}</p>
-                  <p className="text-sm text-[#666] font-serif-en">{artwork.objectTypeEnglish}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">器型 Type</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.objectType}</p>
+                  <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.objectTypeEnglish}</p>
                 </div>
                 {artwork.kiln && (
                   <div>
-                    <h3 className="text-xs tracking-widest text-[#999] uppercase mb-1">窑口 Kiln</h3>
-                    <p className="text-[#1a1a1a]">{artwork.kiln}</p>
-                    <p className="text-sm text-[#666] font-serif-en">{artwork.kilnEnglish}</p>
+                    <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">窑口 Kiln</h3>
+                    <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.kiln}</p>
+                    <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.kilnEnglish}</p>
                   </div>
                 )}
                 {artwork.dimensions && (
                   <div>
-                    <h3 className="text-xs tracking-widest text-[#999] uppercase mb-1">尺寸 Dimensions</h3>
-                    <p className="text-sm text-[#666]">{artwork.dimensions}</p>
+                    <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">尺寸 Dimensions</h3>
+                    <p className="text-sm text-[#666] dark:text-[#9a9894]">{artwork.dimensions}</p>
                   </div>
                 )}
               </div>
@@ -156,13 +156,13 @@ export default async function ArtworkPage({ params }: Props) {
 
               {/* Museum Info */}
               <div className="mb-8">
-                <h3 className="text-xs tracking-widest text-[#999] uppercase mb-3">收藏信息 Collection</h3>
+                <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-3">收藏信息 Collection</h3>
                 <div className="space-y-2">
-                  <p className="text-[#1a1a1a]">{artwork.sourceMuseum}</p>
-                  <p className="text-sm text-[#666] font-serif-en">{artwork.sourceMuseumEnglish}</p>
-                  <p className="text-sm text-[#999]">馆藏编号: {artwork.accessionNumber}</p>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.sourceMuseum}</p>
+                  <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.sourceMuseumEnglish}</p>
+                  <p className="text-sm text-[#999] dark:text-[#6e6c68]">馆藏编号: {artwork.accessionNumber}</p>
                   {artwork.creditLine && (
-                    <p className="text-sm text-[#999]">{artwork.creditLine}</p>
+                    <p className="text-sm text-[#999] dark:text-[#6e6c68]">{artwork.creditLine}</p>
                   )}
                 </div>
               </div>
@@ -200,19 +200,19 @@ export default async function ArtworkPage({ params }: Props) {
       </section>
 
       {/* Navigation */}
-      <section className="py-12 bg-[#f5f3ef] border-t border-[#ebe8e1]">
+      <section className="py-12 bg-[#f5f3ef] dark:bg-[#171614] border-t border-[#ebe8e1] dark:border-[#252320]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex justify-between items-center">
             {prevArtwork ? (
               <Link 
                 href={`/artwork/${prevArtwork.id}`}
-                className="group flex items-center gap-3 text-[#666] hover:text-[#1a1a1a] transition-colors"
+                className="group flex items-center gap-3 text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
               >
                 <svg className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
                 </svg>
                 <div className="text-left">
-                  <span className="block text-xs text-[#999]">上一件</span>
+                  <span className="block text-xs text-[#999] dark:text-[#6e6c68]">上一件</span>
                   <span className="block text-sm">{prevArtwork.titleChinese}</span>
                 </div>
               </Link>
@@ -222,7 +222,7 @@ export default async function ArtworkPage({ params }: Props) {
 
             <Link 
               href="/gallery"
-              className="text-sm text-[#b8956c] hover:text-[#1a1a1a] transition-colors"
+              className="text-sm text-[#b8956c] dark:text-[#d4b896] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
             >
               返回藏品列表
             </Link>
@@ -230,10 +230,10 @@ export default async function ArtworkPage({ params }: Props) {
             {nextArtwork ? (
               <Link 
                 href={`/artwork/${nextArtwork.id}`}
-                className="group flex items-center gap-3 text-[#666] hover:text-[#1a1a1a] transition-colors"
+                className="group flex items-center gap-3 text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
               >
                 <div className="text-right">
-                  <span className="block text-xs text-[#999]">下一件</span>
+                  <span className="block text-xs text-[#999] dark:text-[#6e6c68]">下一件</span>
                   <span className="block text-sm">{nextArtwork.titleChinese}</span>
                 </div>
                 <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

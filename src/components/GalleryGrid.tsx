@@ -102,14 +102,14 @@ export default function GalleryGrid() {
   };
 
   return (
-    <section className="py-20 bg-[#f5f3ef]">
+    <section className="py-20 bg-[#f5f3ef] dark:bg-[#171614]">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a]">
+          <h2 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]">
             藏品浏览
           </h2>
-          <p className="mt-2 text-sm text-[#666] font-serif-en tracking-wide">
+          <p className="mt-2 text-sm text-[#666] dark:text-[#9a9894] font-serif-en tracking-wide">
             Collection Gallery
           </p>
           <div className="divider-elegant"></div>
@@ -125,8 +125,8 @@ export default function GalleryGrid() {
                 onClick={() => handleFilterTypeChange(type)}
                 className={`px-4 sm:px-6 py-2 text-sm tracking-wider transition-all ${
                   activeFilter === type
-                    ? 'bg-[#1a1a1a] text-[#faf9f7]'
-                    : 'bg-transparent text-[#666] hover:text-[#1a1a1a]'
+                    ? 'bg-[#1a1a1a] dark:bg-[#e8e6e3] text-[#faf9f7] dark:text-[#0f0f0e]'
+                    : 'bg-transparent text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3]'
                 }`}
               >
                 {filterTypeLabels[type].chinese}
@@ -152,8 +152,8 @@ export default function GalleryGrid() {
 
           {/* Results Count & View Mode Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
-            <p className="text-sm text-[#999]">
-              共 <span className="text-[#b8956c]">{filteredArtworks.length}</span> 件藏品
+            <p className="text-sm text-[#999] dark:text-[#6e6c68]">
+              共 <span className="text-[#b8956c] dark:text-[#d4b896]">{filteredArtworks.length}</span> 件藏品
               {totalPages > 1 && (
                 <span className="ml-2">
                   · 第 {currentPage}/{totalPages} 页
@@ -163,7 +163,7 @@ export default function GalleryGrid() {
             <div className="flex gap-2">
               <button
                 onClick={() => openSlideshow(filteredArtworks, 0)}
-                className="inline-flex items-center gap-2 px-4 py-2 border border-[#1a1a1a] text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-[#faf9f7] text-sm tracking-wider transition-colors"
+                className="inline-flex items-center gap-2 px-4 py-2 border border-[#1a1a1a] dark:border-[#e8e6e3] text-[#1a1a1a] dark:text-[#e8e6e3] hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-[#faf9f7] dark:hover:text-[#0f0f0e] text-sm tracking-wider transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
@@ -174,7 +174,7 @@ export default function GalleryGrid() {
                 href={selectedValue !== '全部' && (activeFilter === 'museum' || activeFilter === 'dynasty')
                   ? `/tv?${activeFilter}=${encodeURIComponent(selectedValue)}`
                   : '/tv'}
-                className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] text-[#faf9f7] hover:bg-[#333] text-sm tracking-wider transition-colors"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] dark:bg-[#e8e6e3] text-[#faf9f7] dark:text-[#0f0f0e] hover:bg-[#333] dark:hover:bg-[#c5c3bf] text-sm tracking-wider transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -200,7 +200,7 @@ export default function GalleryGrid() {
         {/* Empty State */}
         {filteredArtworks.length === 0 && (
           <div className="text-center py-20">
-            <p className="text-[#666]">暂无符合条件的藏品</p>
+            <p className="text-[#666] dark:text-[#9a9894]">暂无符合条件的藏品</p>
           </div>
         )}
 
@@ -210,7 +210,7 @@ export default function GalleryGrid() {
             <button
               onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
               disabled={currentPage === 1}
-              className="px-3 py-2 text-sm border border-[#ddd] rounded hover:bg-[#1a1a1a] hover:text-white hover:border-[#1a1a1a] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-[#1a1a1a] disabled:hover:border-[#ddd] transition-colors"
+              className="px-3 py-2 text-sm border border-[#ddd] dark:border-[#3d3b38] rounded hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-white dark:hover:text-[#0f0f0e] hover:border-[#1a1a1a] dark:hover:border-[#e8e6e3] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-[#1a1a1a] dark:disabled:hover:text-[#e8e6e3] disabled:hover:border-[#ddd] dark:disabled:hover:border-[#3d3b38] transition-colors"
             >
               ← 上一页
             </button>
@@ -223,14 +223,14 @@ export default function GalleryGrid() {
                     onClick={() => setCurrentPage(page)}
                     className={`w-10 h-10 text-sm rounded transition-colors ${
                       currentPage === page
-                        ? 'bg-[#1a1a1a] text-white'
-                        : 'hover:bg-[#eee]'
+                        ? 'bg-[#1a1a1a] dark:bg-[#e8e6e3] text-white dark:text-[#0f0f0e]'
+                        : 'hover:bg-[#eee] dark:hover:bg-[#252320]'
                     }`}
                   >
                     {page}
                   </button>
                 ) : (
-                  <span key={idx} className="w-10 h-10 flex items-center justify-center text-[#999]">
+                  <span key={idx} className="w-10 h-10 flex items-center justify-center text-[#999] dark:text-[#6e6c68]">
                     {page}
                   </span>
                 )
@@ -240,7 +240,7 @@ export default function GalleryGrid() {
             <button
               onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
               disabled={currentPage === totalPages}
-              className="px-3 py-2 text-sm border border-[#ddd] rounded hover:bg-[#1a1a1a] hover:text-white hover:border-[#1a1a1a] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-[#1a1a1a] disabled:hover:border-[#ddd] transition-colors"
+              className="px-3 py-2 text-sm border border-[#ddd] dark:border-[#3d3b38] rounded hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-white dark:hover:text-[#0f0f0e] hover:border-[#1a1a1a] dark:hover:border-[#e8e6e3] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-[#1a1a1a] dark:disabled:hover:text-[#e8e6e3] disabled:hover:border-[#ddd] dark:disabled:hover:border-[#3d3b38] transition-colors"
             >
               下一页 →
             </button>

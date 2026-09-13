@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1a1a1a] text-[#faf9f7] mt-auto">
+    <footer className="bg-[#1a1a1a] dark:bg-[#0a0908] text-[#faf9f7] mt-auto">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
@@ -16,7 +16,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm tracking-widest text-[#b8956c] mb-4">导览</h4>
+            <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">导览</h4>
             <nav className="flex flex-col gap-3">
               <Link 
                 href="/" 
@@ -41,7 +41,7 @@ export default function Footer() {
 
           {/* Credits */}
           <div>
-            <h4 className="text-sm tracking-widest text-[#b8956c] mb-4">数据来源与致谢</h4>
+            <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">数据来源与致谢</h4>
             <div className="text-sm text-[#a0a0a0] leading-relaxed space-y-2">
               <p>
                 <a 
