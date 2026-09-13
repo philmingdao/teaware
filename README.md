@@ -6,9 +6,12 @@
 
 A museum-quality digital gallery showcasing historic Chinese teapots and tea bowls across dynasties — from Song dynasty Jian ware to Qing imperial porcelain.
 
+🌐 **Live Demo: [https://philmingdao.github.io/teaware/](https://philmingdao.github.io/teaware/)**
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue)
 
 ## ✨ 特色 Features
 
@@ -123,41 +126,18 @@ npm run fetch-data
 
 ### GitHub Pages
 
-1. 在仓库设置中启用 GitHub Pages
-2. 设置 Source 为 GitHub Actions
-3. 创建 `.github/workflows/deploy.yml`:
+本项目已配置自动部署到 GitHub Pages。
 
-```yaml
-name: Deploy to GitHub Pages
+**首次设置（仓库管理员）:**
+1. 进入仓库 **Settings → Pages**
+2. 将 **Source** 设置为 **GitHub Actions**
+3. 保存设置
 
-on:
-  push:
-    branches: [main]
+之后每次推送到 `main` 分支，GitHub Actions 会自动构建并部署。
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          
-      - name: Install dependencies
-        run: npm ci
-        
-      - name: Build
-        run: npm run build
-        
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-```
+**Live URL:** https://philmingdao.github.io/teaware/
+
+> 注意：`next.config.ts` 中已配置 `basePath: '/teaware'` 和 `assetPrefix: '/teaware'`，确保静态资源在项目子路径下正常加载。
 
 ### 其他静态托管
 
