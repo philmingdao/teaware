@@ -1,7 +1,18 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-13  
+Last updated: 2026-09-13 (Round 2 Update)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
+
+## Current Collection Status
+
+| Source | Artworks | Images | Status |
+|--------|----------|--------|--------|
+| Metropolitan Museum of Art | 693 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 307 | ✅ Self-hosted | Active |
+| Wikimedia Commons | 3 | ✅ Self-hosted | Active |
+| **Total** | **1,003** | **All local** | - |
+
+All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
 ---
 
@@ -194,8 +205,8 @@ Purpose: Document worldwide museum collections with Chinese/East Asian tea ware 
 - **Open Access Policy**: CC-BY-SA, CC-BY, CC0 (varies)
 - **API Documentation**: MediaWiki API
 - **Tea Ware Relevance**: MEDIUM - User-uploaded museum photos
-- **Status**: ⏸️ DEFERRED - Quality varies; attribution complex
-- **Notes**: Could supplement with carefully curated Commons images.
+- **Status**: ✅ ACTIVE - 3 CC0 images added
+- **Notes**: Many images have hotlink protection; only CC0/public domain selected. Direct download from Wikimedia servers often blocked.
 
 ---
 
@@ -203,16 +214,24 @@ Purpose: Document worldwide museum collections with Chinese/East Asian tea ware 
 
 | Category | Count |
 |----------|-------|
-| Active (key-free) | 3 (Met, CMA, AIC) |
+| Active (key-free) | 3 (Met, CMA, Wikimedia) |
+| Partial (blocked) | 1 (AIC - Cloudflare 403) |
 | Needs API key | 4 (Rijksmuseum, Smithsonian, Harvard, NPM Taiwan) |
-| Deferred (no API/complex) | 10 |
+| Deferred (no API/complex) | 9 |
 | **Total Surveyed** | **17** |
 
-## Round 1 Estimated Yield
+## Round 2 Actual Yield (2026-09-13)
 
-From key-free sources (Met + CMA + AIC), after deduplication and quality filtering:
-- **Conservative estimate**: 800-1,200 high-quality tea ware pieces
-- **Primary filters**: Public domain, has image, Chinese/East Asian origin, tea-related object type
+**Total Collection: 1,003 artworks with self-hosted images**
+
+| Source | Count | Notes |
+|--------|-------|-------|
+| Metropolitan Museum of Art | 693 | CC0, high-quality originals |
+| Cleveland Museum of Art | 307 | CC0, web-quality images |
+| Wikimedia Commons | 3 | CC0 only, many blocked |
+| Art Institute of Chicago | 0 | IIIF blocked by Cloudflare |
+
+All images downloaded to `public/artworks/{id}.jpg` (1600-2400px long edge where available).
 
 ## Future Expansion Recommendations
 
