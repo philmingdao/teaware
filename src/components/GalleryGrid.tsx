@@ -149,7 +149,7 @@ export default function GalleryGrid() {
             ))}
           </div>
 
-          {/* Results Count & Slideshow Button */}
+          {/* Results Count & View Mode Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
             <p className="text-sm text-[#999]">
               共 <span className="text-[#b8956c]">{filteredArtworks.length}</span> 件藏品
@@ -159,26 +159,27 @@ export default function GalleryGrid() {
                 </span>
               )}
             </p>
-            <button
-              onClick={() => openSlideshow(filteredArtworks, 0)}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] text-[#faf9f7] hover:bg-[#333] text-sm tracking-wider transition-colors"
-            >
-              <svg 
-                className="w-4 h-4" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
+            <div className="flex gap-2">
+              <button
+                onClick={() => openSlideshow(filteredArtworks, 0)}
+                className="inline-flex items-center gap-2 px-4 py-2 border border-[#1a1a1a] text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-[#faf9f7] text-sm tracking-wider transition-colors"
               >
-                <path 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  strokeWidth={1.5} 
-                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" 
-                />
-              </svg>
-              <span>幻灯浏览</span>
-              <span className="font-serif-en text-xs opacity-60">Slideshow</span>
-            </button>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                </svg>
+                <span>幻灯</span>
+              </button>
+              <a
+                href={`/tv/${selectedValue !== '全部' ? `?${activeFilter === 'museum' ? 'museum' : activeFilter === 'dynasty' ? 'dynasty' : ''}=${encodeURIComponent(selectedValue)}` : ''}`}
+                className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] text-[#faf9f7] hover:bg-[#333] text-sm tracking-wider transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>电视模式</span>
+                <span className="font-serif-en text-xs opacity-60">TV</span>
+              </a>
+            </div>
           </div>
         </div>
 
