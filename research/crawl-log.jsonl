@@ -76,3 +76,68 @@
 {"timestamp":"2026-09-13T13:27:59.287Z","source":"aic","query":"Jun ware","totalResults":132744,"idsAccepted":15,"idsRejected":485,"crawlBatchId":"expansion-1789305778140","durationMs":2304}
 {"timestamp":"2026-09-13T13:28:02.082Z","source":"aic","query":"Ding ware","totalResults":132744,"idsAccepted":4,"idsRejected":496,"crawlBatchId":"expansion-1789305778140","durationMs":2294}
 {"timestamp":"2026-09-13T13:28:04.947Z","source":"aic","query":"stem cup Chinese","totalResults":132744,"idsAccepted":4,"idsRejected":496,"crawlBatchId":"expansion-1789305778140","durationMs":2365}
+{"timestamp":"2026-09-13T15:23:29.104Z","source":"met","query":"porcelain bowl Chinese","idsAccepted":9,"crawlBatchId":"expansion-1789313001372","durationMs":7724}
+{"timestamp":"2026-09-13T15:23:42.016Z","source":"met","query":"stoneware cup Chinese","idsAccepted":4,"crawlBatchId":"expansion-1789313001372","durationMs":12412}
+{"timestamp":"2026-09-13T15:23:42.534Z","source":"met","query":"glazed bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":17}
+{"timestamp":"2026-09-13T15:23:52.832Z","source":"met","query":"Tang dynasty cup","idsAccepted":3,"crawlBatchId":"expansion-1789313001372","durationMs":9797}
+{"timestamp":"2026-09-13T15:24:02.022Z","source":"met","query":"Tang dynasty bowl","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":8689}
+{"timestamp":"2026-09-13T15:24:11.539Z","source":"met","query":"Northern Song bowl","idsAccepted":14,"crawlBatchId":"expansion-1789313001372","durationMs":9016}
+{"timestamp":"2026-09-13T15:24:19.274Z","source":"met","query":"Southern Song bowl","idsAccepted":6,"crawlBatchId":"expansion-1789313001372","durationMs":7233}
+{"timestamp":"2026-09-13T15:24:26.790Z","source":"met","query":"Yuan dynasty bowl","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":7015}
+{"timestamp":"2026-09-13T15:24:35.107Z","source":"met","query":"Yuan dynasty cup","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":7817}
+{"timestamp":"2026-09-13T15:24:46.673Z","source":"met","query":"ceramic cup Chinese","idsAccepted":2,"crawlBatchId":"expansion-1789313001372","durationMs":11066}
+{"timestamp":"2026-09-13T15:24:47.189Z","source":"met","query":"ceramic bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":15}
+{"timestamp":"2026-09-13T15:24:47.730Z","source":"met","query":"lacquer cup Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":41}
+{"timestamp":"2026-09-13T15:24:57.892Z","source":"met","query":"gilt cup Chinese","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":9662}
+{"timestamp":"2026-09-13T15:25:12.928Z","source":"met","query":"silver cup Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":14536}
+{"timestamp":"2026-09-13T15:25:26.814Z","source":"met","query":"jade cup Chinese","idsAccepted":29,"crawlBatchId":"expansion-1789313001372","durationMs":13386}
+{"timestamp":"2026-09-13T15:25:27.360Z","source":"met","query":"rhinoceros cup Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":46}
+{"timestamp":"2026-09-13T15:25:27.910Z","source":"met","query":"bronze cup Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":49}
+{"timestamp":"2026-09-13T15:25:33.439Z","source":"met","query":"cloisonne cup Chinese","idsAccepted":2,"crawlBatchId":"expansion-1789313001372","durationMs":5028}
+{"timestamp":"2026-09-13T15:25:46.625Z","source":"met","query":"enamel cup Chinese","idsAccepted":10,"crawlBatchId":"expansion-1789313001372","durationMs":12686}
+{"timestamp":"2026-09-13T15:25:47.773Z","source":"met","query":"saucer Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":648}
+{"timestamp":"2026-09-13T15:25:59.838Z","source":"met","query":"cup stand Chinese","idsAccepted":3,"crawlBatchId":"expansion-1789313001372","durationMs":11563}
+{"timestamp":"2026-09-13T15:26:10.013Z","source":"met","query":"covered cup Chinese","idsAccepted":3,"crawlBatchId":"expansion-1789313001372","durationMs":9674}
+{"timestamp":"2026-09-13T15:26:22.826Z","source":"met","query":"flared bowl Chinese","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":12313}
+{"timestamp":"2026-09-13T15:26:37.032Z","source":"met","query":"conical bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":13706}
+{"timestamp":"2026-09-13T15:26:51.981Z","source":"met","query":"lobed bowl Chinese","idsAccepted":8,"crawlBatchId":"expansion-1789313001372","durationMs":14447}
+{"timestamp":"2026-09-13T15:27:01.988Z","source":"met","query":"foliate bowl Chinese","idsAccepted":2,"crawlBatchId":"expansion-1789313001372","durationMs":9508}
+{"timestamp":"2026-09-13T15:27:13.288Z","source":"met","query":"petal bowl Chinese","idsAccepted":4,"crawlBatchId":"expansion-1789313001372","durationMs":10799}
+{"timestamp":"2026-09-13T15:27:23.290Z","source":"cma","query":"porcelain bowl","idsAccepted":3,"crawlBatchId":"expansion-1789313001372","durationMs":9502}
+{"timestamp":"2026-09-13T15:27:25.187Z","source":"cma","query":"stoneware bowl","idsAccepted":5,"crawlBatchId":"expansion-1789313001372","durationMs":1596}
+{"timestamp":"2026-09-13T15:27:26.756Z","source":"cma","query":"ceramic cup","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":1268}
+{"timestamp":"2026-09-13T15:27:28.571Z","source":"cma","query":"glazed bowl","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":1514}
+{"timestamp":"2026-09-13T15:27:29.791Z","source":"cma","query":"Tang ceramic","idsAccepted":2,"crawlBatchId":"expansion-1789313001372","durationMs":920}
+{"timestamp":"2026-09-13T15:27:31.288Z","source":"cma","query":"Song ceramic","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":1197}
+{"timestamp":"2026-09-13T15:27:33.189Z","source":"cma","query":"Yuan ceramic","idsAccepted":7,"crawlBatchId":"expansion-1789313001372","durationMs":1601}
+{"timestamp":"2026-09-13T15:27:34.739Z","source":"cma","query":"Ming ceramic","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":1249}
+{"timestamp":"2026-09-13T15:27:36.840Z","source":"cma","query":"Qing ceramic","idsAccepted":4,"crawlBatchId":"expansion-1789313001372","durationMs":1802}
+{"timestamp":"2026-09-13T15:27:38.336Z","source":"cma","query":"lacquer Chinese","idsAccepted":1,"crawlBatchId":"expansion-1789313001372","durationMs":1196}
+{"timestamp":"2026-09-13T15:27:39.503Z","source":"cma","query":"jade Chinese cup","idsAccepted":3,"crawlBatchId":"expansion-1789313001372","durationMs":867}
+{"timestamp":"2026-09-13T15:27:41.147Z","source":"cma","query":"silver Chinese","idsAccepted":2,"crawlBatchId":"expansion-1789313001372","durationMs":1344}
+{"timestamp":"2026-09-13T15:27:41.833Z","source":"cma","query":"bronze Chinese cup","idsAccepted":0,"crawlBatchId":"expansion-1789313001372","durationMs":386}
+{"timestamp":"2026-09-13T15:27:43.472Z","source":"cma","query":"enamel Chinese","idsAccepted":2,"crawlBatchId":"expansion-1789313001372","durationMs":1338}
+{"timestamp":"2026-09-13T15:28:41.456Z","source":"met","query":"drinking vessel Chinese","idsAccepted":1,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:28:41.872Z","source":"met","query":"libation cup jade","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:28:50.529Z","source":"met","query":"wine vessel Chinese","idsAccepted":20,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:28:57.953Z","source":"met","query":"ritual vessel Chinese","idsAccepted":7,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:02.203Z","source":"met","query":"chrysanthemum bowl Chinese","idsAccepted":1,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:10.994Z","source":"met","query":"lotus bowl Chinese","idsAccepted":6,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:20.509Z","source":"met","query":"dragon bowl Chinese","idsAccepted":19,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:25.158Z","source":"met","query":"peony bowl Chinese","idsAccepted":1,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:25.574Z","source":"met","query":"phoenix bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:26.018Z","source":"met","query":"bird bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:26.463Z","source":"met","query":"fish bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:26.904Z","source":"met","query":"landscape bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:27.342Z","source":"met","query":"scholar cup Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:36.229Z","source":"met","query":"imperial cup Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:36.676Z","source":"met","query":"palace bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:37.125Z","source":"met","query":"stem bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:37.566Z","source":"met","query":"footed bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:38.012Z","source":"met","query":"incised bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:29:52.045Z","source":"met","query":"carved bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:30:03.120Z","source":"met","query":"painted bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:30:03.537Z","source":"met","query":"overglaze bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:30:03.978Z","source":"met","query":"underglaze bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:30:06.957Z","source":"met","query":"moulded bowl Chinese","idsAccepted":0,"crawlBatchId":"expansion-round2-1789313313178"}
+{"timestamp":"2026-09-13T15:30:20.676Z","source":"met","query":"floral bowl Chinese","idsAccepted":26,"crawlBatchId":"expansion-round2-1789313313178"}
