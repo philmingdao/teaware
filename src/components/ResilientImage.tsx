@@ -26,11 +26,11 @@ export default function ResilientImage({
   priority,
   objectFit = 'cover',
 }: ResilientImageProps) {
-  const [hasError, setHasError] = useState(false);
+  const [errorCount, setErrorCount] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
   const handleError = useCallback(() => {
-    setHasError(true);
+    setErrorCount(prev => prev + 1);
     setIsLoading(false);
   }, []);
 
@@ -38,7 +38,10 @@ export default function ResilientImage({
     setIsLoading(false);
   }, []);
 
-  if (hasError) {
+  const showPlaceholder = errorCount >= 2;
+  const useNativeFallback = errorCount === 1;
+
+  if (showPlaceholder) {
     return (
       <div 
         className={`flex items-center justify-center bg-[#ebe8e1] ${className}`}
@@ -55,12 +58,37 @@ export default function ResilientImage({
               strokeLinecap="round" 
               strokeLinejoin="round" 
               strokeWidth={1} 
-              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2 2v12a2 2 0 002 2z" 
             />
           </svg>
           <p className="text-xs text-[#999]">暂无图片</p>
         </div>
       </div>
+    );
+  }
+
+  if (useNativeFallback) {
+    return (
+      <>
+        {isLoading && (
+          <div 
+            className={`flex items-center justify-center bg-[#ebe8e1] animate-pulse ${fill ? 'absolute inset-0' : ''}`}
+            style={!fill ? { width, height } : undefined}
+          />
+        )}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={src}
+          alt={alt}
+          className={`${fill ? 'absolute inset-0 w-full h-full' : ''} ${className} ${objectFit === 'contain' ? 'object-contain' : 'object-cover'} transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+          style={!fill ? { width, height } : undefined}
+          onError={handleError}
+          onLoad={handleLoad}
+          referrerPolicy="no-referrer"
+          crossOrigin="anonymous"
+          loading={priority ? 'eager' : 'lazy'}
+        />
+      </>
     );
   }
 
@@ -103,6 +131,8 @@ export default function ResilientImage({
         priority={priority}
         onError={handleError}
         onLoad={handleLoad}
+        referrerPolicy="no-referrer"
+        crossOrigin="anonymous"
       />
     </>
   );
