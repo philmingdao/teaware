@@ -128,14 +128,18 @@ npm run fetch-data
 
 本项目已配置自动部署到 GitHub Pages。
 
-**首次设置（仓库管理员）:**
-1. 进入仓库 **Settings → Pages**
-2. 将 **Source** 设置为 **GitHub Actions**
-3. 保存设置
+**⚠️ 首次设置（必须由仓库管理员完成）:**
 
-之后每次推送到 `main` 分支，GitHub Actions 会自动构建并部署。
+1. 进入仓库 **Settings → Pages**
+2. 在 "Build and deployment" 下，将 **Source** 设置为 **GitHub Actions**
+3. 点击 **Save** 保存设置
+4. 返回 **Actions** 标签页，点击失败的 workflow，选择 **Re-run all jobs** 重新运行
+
+> **重要**: GitHub Pages 必须手动启用后，Actions 工作流才能成功部署。这是 GitHub 的安全限制，无法通过 API 自动启用。
 
 **Live URL:** https://philmingdao.github.io/teaware/
+
+之后每次推送到 `main` 分支，GitHub Actions 会自动构建并部署。
 
 > 注意：`next.config.ts` 中已配置 `basePath: '/teaware'` 和 `assetPrefix: '/teaware'`，确保静态资源在项目子路径下正常加载。
 
