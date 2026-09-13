@@ -6,6 +6,7 @@ import { artworks } from '@/data/artworks';
 import Link from 'next/link';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 import MuteToggle from './MuteToggle';
+import { withBasePath } from '@/lib/paths';
 
 export default function TVMode() {
   const router = useRouter();
@@ -263,7 +264,7 @@ export default function TVMode() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           key={current.id}
-          src={current.imageUrl}
+          src={withBasePath(current.imageUrl)}
           alt={current.imageAlt}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
             imageLoaded ? 'opacity-100' : 'opacity-0'

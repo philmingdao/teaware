@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/paths';
 
 interface ResilientImageProps {
   src: string;
@@ -38,6 +39,7 @@ export default function ResilientImage({
     setIsLoading(false);
   }, []);
 
+  const resolvedSrc = withBasePath(src);
   const showPlaceholder = errorCount >= 2;
   const useNativeFallback = errorCount === 1;
 
@@ -78,7 +80,7 @@ export default function ResilientImage({
         )}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={src}
+          src={resolvedSrc}
           alt={alt}
           className={`${fill ? 'absolute inset-0 w-full h-full' : ''} ${className} ${objectFit === 'contain' ? 'object-contain' : 'object-cover'} transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
           style={!fill ? { width, height } : undefined}
@@ -120,7 +122,7 @@ export default function ResilientImage({
         </div>
       )}
       <Image
-        src={src}
+        src={resolvedSrc}
         alt={alt}
         fill={fill}
         width={!fill ? width : undefined}
@@ -131,6 +133,8 @@ export default function ResilientImage({
         onError={handleError}
         onLoad={handleLoad}
         referrerPolicy="no-referrer"
+        unoptimized
+        loader={({ src: s }) => s}
       />
     </>
   );
