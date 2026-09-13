@@ -89,7 +89,7 @@
         { "query": "Qing dynasty teapot", "status": "pending", "estimatedResults": 150 },
         { "query": "Jingdezhen porcelain", "status": "pending", "estimatedResults": 100 }
       ],
-      "notes": "Good East Asian collection. IIIF images available."
+      "notes": "Good East Asian collection. IIIF images available. Note: As of Sep 2026, AIC IIIF server has Cloudflare protection that returns 403 for server-side requests (curl/fetch from servers). Images work correctly in browser context (which handles the challenge). The frontend uses error fallback placeholders for any images that fail to load."
     },
     {
       "id": "rijksmuseum",

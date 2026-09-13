@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SlideshowProvider from "@/components/SlideshowProvider";
 
 export const metadata: Metadata = {
   title: "器 · 茶 | 中国茶具艺术展",
@@ -22,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-[#faf9f7] text-[#1a1a1a]">
-        {children}
+        <SlideshowProvider>
+          {children}
+        </SlideshowProvider>
       </body>
     </html>
   );

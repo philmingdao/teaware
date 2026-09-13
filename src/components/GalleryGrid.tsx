@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import { artworks, dynasties, materials, objectTypes, museums } from '@/data/artworks';
 import ArtworkCard from './ArtworkCard';
+import { useSlideshowContext } from './SlideshowProvider';
 
 type FilterType = 'dynasty' | 'material' | 'objectType' | 'museum';
 
@@ -12,6 +13,7 @@ export default function GalleryGrid() {
   const [activeFilter, setActiveFilter] = useState<FilterType>('dynasty');
   const [selectedValue, setSelectedValue] = useState<string>('全部');
   const [currentPage, setCurrentPage] = useState(1);
+  const { openSlideshow } = useSlideshowContext();
 
   const filterOptions = useMemo(() => {
     switch (activeFilter) {
@@ -147,15 +149,37 @@ export default function GalleryGrid() {
             ))}
           </div>
 
-          {/* Results Count */}
-          <p className="text-center mt-6 text-sm text-[#999]">
-            共 <span className="text-[#b8956c]">{filteredArtworks.length}</span> 件藏品
-            {totalPages > 1 && (
-              <span className="ml-2">
-                · 第 {currentPage}/{totalPages} 页
-              </span>
-            )}
-          </p>
+          {/* Results Count & Slideshow Button */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+            <p className="text-sm text-[#999]">
+              共 <span className="text-[#b8956c]">{filteredArtworks.length}</span> 件藏品
+              {totalPages > 1 && (
+                <span className="ml-2">
+                  · 第 {currentPage}/{totalPages} 页
+                </span>
+              )}
+            </p>
+            <button
+              onClick={() => openSlideshow(filteredArtworks, 0)}
+              className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] text-[#faf9f7] hover:bg-[#333] text-sm tracking-wider transition-colors"
+            >
+              <svg 
+                className="w-4 h-4" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={1.5} 
+                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" 
+                />
+              </svg>
+              <span>幻灯浏览</span>
+              <span className="font-serif-en text-xs opacity-60">Slideshow</span>
+            </button>
+          </div>
         </div>
 
         {/* Gallery Grid */}
