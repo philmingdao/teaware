@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch-data": "npx tsx scripts/fetch-artworks.ts"
+    "fetch-data": "npx tsx scripts/fetch-artworks-v3.ts",
+    "fetch-data-legacy": "npx tsx scripts/fetch-artworks.ts"
   },
   "dependencies": {
     "next": "16.3.5",
