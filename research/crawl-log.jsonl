@@ -1,0 +1,40 @@
+{"timestamp":"2026-09-13T12:05:04.601Z","source":"met","query":"tea bowl Chinese","totalResults":430,"idsAccepted":46,"idsRejected":354,"crawlBatchId":"batch-1789301030939","durationMs":73661}
+{"timestamp":"2026-09-13T12:05:06.032Z","source":"met","query":"teapot Chinese","totalResults":6,"idsAccepted":3,"idsRejected":3,"crawlBatchId":"batch-1789301030939","durationMs":931}
+{"timestamp":"2026-09-13T12:06:30.805Z","source":"met","query":"wine cup Chinese","totalResults":439,"idsAccepted":42,"idsRejected":358,"crawlBatchId":"batch-1789301030939","durationMs":84272}
+{"timestamp":"2026-09-13T12:08:06.350Z","source":"met","query":"stem cup Chinese","totalResults":293,"idsAccepted":18,"idsRejected":275,"crawlBatchId":"batch-1789301030939","durationMs":95045}
+{"timestamp":"2026-09-13T12:09:40.127Z","source":"met","query":"bowl Chinese Song","totalResults":623,"idsAccepted":169,"idsRejected":231,"crawlBatchId":"batch-1789301030939","durationMs":93277}
+{"timestamp":"2026-09-13T12:10:24.445Z","source":"met","query":"bowl Chinese Ming","totalResults":612,"idsAccepted":1,"idsRejected":399,"crawlBatchId":"batch-1789301030939","durationMs":43818}
+{"timestamp":"2026-09-13T12:11:12.371Z","source":"met","query":"bowl Chinese Qing","totalResults":629,"idsAccepted":0,"idsRejected":400,"crawlBatchId":"batch-1789301030939","durationMs":47426}
+{"timestamp":"2026-09-13T12:12:27.821Z","source":"met","query":"cup Chinese Ming","totalResults":485,"idsAccepted":82,"idsRejected":318,"crawlBatchId":"batch-1789301030939","durationMs":74950}
+{"timestamp":"2026-09-13T12:13:18.749Z","source":"met","query":"cup Chinese Qing","totalResults":501,"idsAccepted":0,"idsRejected":400,"crawlBatchId":"batch-1789301030939","durationMs":50428}
+{"timestamp":"2026-09-13T12:13:19.720Z","source":"met","query":"Jian ware","totalResults":2,"idsAccepted":0,"idsRejected":2,"crawlBatchId":"batch-1789301030939","durationMs":471}
+{"timestamp":"2026-09-13T12:13:20.481Z","source":"met","query":"tenmoku bowl","totalResults":1,"idsAccepted":0,"idsRejected":1,"crawlBatchId":"batch-1789301030939","durationMs":261}
+{"timestamp":"2026-09-13T12:13:37.342Z","source":"met","query":"celadon bowl Chinese","totalResults":93,"idsAccepted":49,"idsRejected":44,"crawlBatchId":"batch-1789301030939","durationMs":16361}
+{"timestamp":"2026-09-13T12:15:13.823Z","source":"met","query":"blue white bowl Chinese","totalResults":533,"idsAccepted":10,"idsRejected":390,"crawlBatchId":"batch-1789301030939","durationMs":95981}
+{"timestamp":"2026-09-13T12:16:04.320Z","source":"met","query":"blue white cup Chinese","totalResults":194,"idsAccepted":5,"idsRejected":189,"crawlBatchId":"batch-1789301030939","durationMs":49997}
+{"timestamp":"2026-09-13T12:16:24.417Z","source":"met","query":"famille rose bowl","totalResults":66,"idsAccepted":9,"idsRejected":57,"crawlBatchId":"batch-1789301030939","durationMs":19597}
+{"timestamp":"2026-09-13T12:16:40.913Z","source":"met","query":"famille rose cup","totalResults":64,"idsAccepted":0,"idsRejected":64,"crawlBatchId":"batch-1789301030939","durationMs":15996}
+{"timestamp":"2026-09-13T12:17:26.935Z","source":"met","query":"Yixing","totalResults":130,"idsAccepted":0,"idsRejected":130,"crawlBatchId":"batch-1789301030939","durationMs":45522}
+{"timestamp":"2026-09-13T12:17:28.021Z","source":"met","query":"ewer Chinese","totalResults":4,"idsAccepted":0,"idsRejected":4,"crawlBatchId":"batch-1789301030939","durationMs":586}
+{"timestamp":"2026-09-13T12:17:28.794Z","source":"met","query":"Kangxi cup","totalResults":1,"idsAccepted":0,"idsRejected":1,"crawlBatchId":"batch-1789301030939","durationMs":273}
+{"timestamp":"2026-09-13T12:17:30.148Z","source":"met","query":"Qianlong cup","totalResults":4,"idsAccepted":0,"idsRejected":4,"crawlBatchId":"batch-1789301030939","durationMs":853}
+{"timestamp":"2026-09-13T12:18:34.918Z","source":"met","query":"porcelain cup Chinese","totalResults":1408,"idsAccepted":31,"idsRejected":369,"crawlBatchId":"batch-1789301030939","durationMs":64270}
+{"timestamp":"2026-09-13T12:18:38.411Z","source":"cma","query":"tea Chinese","totalResults":124,"idsAccepted":60,"idsRejected":64,"crawlBatchId":"batch-1789301030939","durationMs":2992}
+{"timestamp":"2026-09-13T12:18:39.351Z","source":"cma","query":"teapot Chinese","totalResults":25,"idsAccepted":15,"idsRejected":10,"crawlBatchId":"batch-1789301030939","durationMs":440}
+{"timestamp":"2026-09-13T12:18:45.450Z","source":"cma","query":"bowl Chinese","totalResults":212,"idsAccepted":124,"idsRejected":88,"crawlBatchId":"batch-1789301030939","durationMs":5598}
+{"timestamp":"2026-09-13T12:18:49.212Z","source":"cma","query":"cup Chinese","totalResults":138,"idsAccepted":48,"idsRejected":90,"crawlBatchId":"batch-1789301030939","durationMs":3261}
+{"timestamp":"2026-09-13T12:18:50.041Z","source":"cma","query":"Yixing","totalResults":11,"idsAccepted":0,"idsRejected":11,"crawlBatchId":"batch-1789301030939","durationMs":329}
+{"timestamp":"2026-09-13T12:18:51.457Z","source":"cma","query":"celadon Chinese","totalResults":73,"idsAccepted":6,"idsRejected":67,"crawlBatchId":"batch-1789301030939","durationMs":916}
+{"timestamp":"2026-09-13T12:18:53.086Z","source":"cma","query":"blue white Chinese","totalResults":100,"idsAccepted":0,"idsRejected":100,"crawlBatchId":"batch-1789301030939","durationMs":1129}
+{"timestamp":"2026-09-13T12:18:54.141Z","source":"cma","query":"famille rose","totalResults":26,"idsAccepted":0,"idsRejected":26,"crawlBatchId":"batch-1789301030939","durationMs":554}
+{"timestamp":"2026-09-13T12:18:57.055Z","source":"aic","query":"teapot Chinese","totalResults":132744,"idsAccepted":42,"idsRejected":458,"crawlBatchId":"batch-1789301030939","durationMs":2414}
+{"timestamp":"2026-09-13T12:18:59.895Z","source":"aic","query":"tea bowl Chinese","totalResults":132744,"idsAccepted":110,"idsRejected":390,"crawlBatchId":"batch-1789301030939","durationMs":2340}
+{"timestamp":"2026-09-13T12:19:02.770Z","source":"aic","query":"bowl Chinese porcelain","totalResults":132744,"idsAccepted":22,"idsRejected":478,"crawlBatchId":"batch-1789301030939","durationMs":2375}
+{"timestamp":"2026-09-13T12:19:05.667Z","source":"aic","query":"cup Chinese porcelain","totalResults":132744,"idsAccepted":1,"idsRejected":499,"crawlBatchId":"batch-1789301030939","durationMs":2397}
+{"timestamp":"2026-09-13T12:19:08.450Z","source":"aic","query":"wine cup Chinese","totalResults":132744,"idsAccepted":10,"idsRejected":490,"crawlBatchId":"batch-1789301030939","durationMs":2284}
+{"timestamp":"2026-09-13T12:19:11.215Z","source":"aic","query":"celadon Chinese","totalResults":132744,"idsAccepted":4,"idsRejected":496,"crawlBatchId":"batch-1789301030939","durationMs":2265}
+{"timestamp":"2026-09-13T12:19:14.085Z","source":"aic","query":"blue white Chinese","totalResults":132744,"idsAccepted":0,"idsRejected":500,"crawlBatchId":"batch-1789301030939","durationMs":2370}
+{"timestamp":"2026-09-13T12:19:16.944Z","source":"aic","query":"Jingdezhen","totalResults":132744,"idsAccepted":2,"idsRejected":498,"crawlBatchId":"batch-1789301030939","durationMs":2359}
+{"timestamp":"2026-09-13T12:19:19.870Z","source":"aic","query":"Song dynasty ceramics","totalResults":132744,"idsAccepted":2,"idsRejected":498,"crawlBatchId":"batch-1789301030939","durationMs":2425}
+{"timestamp":"2026-09-13T12:19:22.678Z","source":"aic","query":"Ming dynasty ceramics","totalResults":132744,"idsAccepted":0,"idsRejected":500,"crawlBatchId":"batch-1789301030939","durationMs":2308}
+{"timestamp":"2026-09-13T12:19:25.447Z","source":"aic","query":"Qing dynasty ceramics","totalResults":132744,"idsAccepted":1,"idsRejected":499,"crawlBatchId":"batch-1789301030939","durationMs":2269}

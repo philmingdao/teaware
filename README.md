@@ -13,14 +13,37 @@ A museum-quality digital gallery showcasing historic Chinese teapots and tea bow
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue)
 
+## 📊 Collection Statistics
+
+| Metric | Count |
+|--------|-------|
+| Total Artworks | **912** |
+| Museums | 3 |
+| Dynasties | 15+ |
+| Object Types | 5 |
+
+### By Museum
+- The Metropolitan Museum of Art: 465
+- Cleveland Museum of Art: 253
+- Art Institute of Chicago: 194
+
+### By Dynasty
+- Qing (清): 213+ items
+- Ming (明): 102+ items
+- Song (宋/北宋/南宋): 120+ items
+- Yuan (元): 34 items
+- Tang (唐): 25 items
+- And more...
+
 ## ✨ 特色 Features
 
 - 🏛️ **博物馆级呈现** — 简洁优雅的展览式布局，专注于器物之美
-- 📜 **真实藏品** — 所有图片来自大都会艺术博物馆与克利夫兰艺术博物馆开放数据
-- 🔍 **智能筛选** — 按朝代、材质、器型分类浏览
+- 📜 **真实藏品** — 所有图片来自大都会艺术博物馆、克利夫兰艺术博物馆、芝加哥艺术博物馆开放数据
+- 🔍 **智能筛选** — 按朝代、材质、器型、来源博物馆分类浏览
 - 📱 **响应式设计** — 完美适配桌面与移动设备
 - 🌏 **中英双语** — 以中文为主，辅以英文标签
 - ⚡ **静态优化** — 支持静态导出，可部署至任意静态托管平台
+- 📄 **分页浏览** — 高效分页，支持 900+ 件藏品流畅浏览
 
 ## 📸 预览 Preview
 
@@ -71,23 +94,30 @@ npm run start
 ## 🗂️ 项目结构
 
 ```
-├── public/              # 静态资源
+├── public/                    # 静态资源
+├── research/                  # 研究日志与文档
+│   ├── museums-survey.md      # 博物馆调研报告
+│   ├── crawl-log.jsonl        # 爬取日志（机器可读）
+│   └── sources.json           # 数据源注册表
 ├── scripts/
-│   └── fetch-artworks.ts  # 数据获取脚本
+│   ├── fetch-artworks-v3.ts   # 数据获取脚本（推荐）
+│   ├── fetch-artworks-v2.ts   # 数据获取脚本（完整版）
+│   └── fetch-artworks.ts      # 数据获取脚本（旧版）
 ├── src/
-│   ├── app/             # Next.js App Router 页面
-│   │   ├── page.tsx     # 首页
-│   │   ├── gallery/     # 藏品浏览页
-│   │   ├── about/       # 关于展览页
-│   │   └── artwork/[id] # 藏品详情页
-│   ├── components/      # React 组件
+│   ├── app/                   # Next.js App Router 页面
+│   │   ├── page.tsx           # 首页
+│   │   ├── gallery/           # 藏品浏览页
+│   │   ├── about/             # 关于展览页
+│   │   └── artwork/[id]       # 藏品详情页
+│   ├── components/            # React 组件
 │   ├── data/
-│   │   └── artworks.ts  # 藏品数据
-│   ├── lib/             # 工具函数
-│   └── types/           # TypeScript 类型定义
-├── next.config.ts       # Next.js 配置
-├── tailwind.config.ts   # Tailwind CSS 配置
-└── tsconfig.json        # TypeScript 配置
+│   │   ├── artworks.json      # 藏品数据（912件）
+│   │   └── artworks.ts        # 数据加载器
+│   ├── lib/                   # 工具函数
+│   └── types/                 # TypeScript 类型定义
+├── next.config.ts             # Next.js 配置
+├── tailwind.config.ts         # Tailwind CSS 配置
+└── tsconfig.json              # TypeScript 配置
 ```
 
 ## 🖼️ 数据来源 Data Sources
@@ -104,11 +134,57 @@ npm run start
 - [Open Access API](https://openaccess-api.clevelandart.org/)
 - License: CC0 / Public Domain
 
+### Art Institute of Chicago
+- [Open Access](https://www.artic.edu/open-access/public-api)
+- [Collection API](https://api.artic.edu/docs/)
+- License: CC0 / Public Domain
+
+## 🔬 Research Infrastructure
+
+This project maintains durable research logs to support future expansion without duplicate crawling.
+
+### Research Files
+
+| File | Purpose |
+|------|---------|
+| `research/museums-survey.md` | Human-readable survey of 17+ museums worldwide: open-access policies, API documentation, tea ware relevance, license caveats |
+| `research/crawl-log.jsonl` | Machine-readable append-only log of every crawl: timestamps, queries, result counts, accepted/rejected IDs with reasons |
+| `research/sources.json` | Structured registry of sources with status (`active`/`needs_key`/`deferred`), query configurations |
+
+### Crawl Pipeline
+
+The crawl scripts implement:
+- **Deduplication** by museum object ID, accession number, and image URL
+- **Quality filtering**: Public domain only, has image, Chinese/East Asian origin, tea-related object types
+- **Rate limiting** with exponential backoff for API errors
+- **Comprehensive logging** for reproducibility
+
+### Avoiding Duplicate Crawls
+
+Before running a new crawl:
+1. Read `research/sources.json` to check source/query status
+2. Read `research/crawl-log.jsonl` to find completed query+source pairs
+3. Skip already-completed queries unless explicitly refreshing with `--refresh` flag
+
+### Future Expansion
+
+The following sources need API keys (see `research/museums-survey.md` for details):
+- **Smithsonian (Freer/Sackler)** — Excellent Chinese ceramics collection
+- **National Palace Museum Taiwan** — Premier imperial tea ware
+- **Rijksmuseum** — Chinese export porcelain
+- **Harvard Art Museums** — Good scholarly metadata
+
+Estimated additional yield with keys: 500-1000+ more artworks.
+
 ### 更新数据
 
 如需重新获取或更新藏品数据：
 
 ```bash
+# Run the comprehensive crawl (v3 - recommended)
+npx tsx scripts/fetch-artworks-v3.ts
+
+# Or use the legacy script
 npm run fetch-data
 ```
 
