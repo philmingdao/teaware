@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-13T10:31:00Z",
+  "lastUpdated": "2026-09-14T16:21:42.465198Z",
   "sources": [
     {
       "id": "met",
@@ -16,26 +16,106 @@
       "imageField": "primaryImage",
       "lastCrawl": null,
       "queries": [
-        { "query": "tea bowl China", "status": "pending", "estimatedResults": 426 },
-        { "query": "tea cup China", "status": "pending", "estimatedResults": 230 },
-        { "query": "teapot China", "status": "pending", "estimatedResults": 6 },
-        { "query": "Yixing", "status": "pending", "estimatedResults": 130 },
-        { "query": "tenmoku", "status": "pending", "estimatedResults": 129 },
-        { "query": "gaiwan", "status": "pending", "estimatedResults": 128 },
-        { "query": "Jian ware", "status": "pending", "estimatedResults": 2 },
-        { "query": "celadon bowl China", "status": "pending", "estimatedResults": 2 },
-        { "query": "wine cup China", "status": "pending", "estimatedResults": 436 },
-        { "query": "stoneware bowl China", "status": "pending", "estimatedResults": 319 },
-        { "query": "porcelain cup China", "status": "pending", "estimatedResults": 200 },
-        { "query": "famille rose teapot", "status": "pending", "estimatedResults": 50 },
-        { "query": "blue white teapot China", "status": "pending", "estimatedResults": 100 },
-        { "query": "Song dynasty bowl", "status": "pending", "estimatedResults": 959 },
-        { "query": "Ming dynasty cup", "status": "pending", "estimatedResults": 2169 },
-        { "query": "Qing dynasty teapot", "status": "pending", "estimatedResults": 6576 },
-        { "query": "Chinese ewer", "status": "pending", "estimatedResults": 50 },
-        { "query": "tea caddy China", "status": "pending", "estimatedResults": 20 },
-        { "query": "Longquan celadon", "status": "pending", "estimatedResults": 100 },
-        { "query": "Dehua porcelain", "status": "pending", "estimatedResults": 50 }
+        {
+          "query": "tea bowl China",
+          "status": "pending",
+          "estimatedResults": 426
+        },
+        {
+          "query": "tea cup China",
+          "status": "pending",
+          "estimatedResults": 230
+        },
+        {
+          "query": "teapot China",
+          "status": "pending",
+          "estimatedResults": 6
+        },
+        {
+          "query": "Yixing",
+          "status": "pending",
+          "estimatedResults": 130
+        },
+        {
+          "query": "tenmoku",
+          "status": "pending",
+          "estimatedResults": 129
+        },
+        {
+          "query": "gaiwan",
+          "status": "pending",
+          "estimatedResults": 128
+        },
+        {
+          "query": "Jian ware",
+          "status": "pending",
+          "estimatedResults": 2
+        },
+        {
+          "query": "celadon bowl China",
+          "status": "pending",
+          "estimatedResults": 2
+        },
+        {
+          "query": "wine cup China",
+          "status": "pending",
+          "estimatedResults": 436
+        },
+        {
+          "query": "stoneware bowl China",
+          "status": "pending",
+          "estimatedResults": 319
+        },
+        {
+          "query": "porcelain cup China",
+          "status": "pending",
+          "estimatedResults": 200
+        },
+        {
+          "query": "famille rose teapot",
+          "status": "pending",
+          "estimatedResults": 50
+        },
+        {
+          "query": "blue white teapot China",
+          "status": "pending",
+          "estimatedResults": 100
+        },
+        {
+          "query": "Song dynasty bowl",
+          "status": "pending",
+          "estimatedResults": 959
+        },
+        {
+          "query": "Ming dynasty cup",
+          "status": "pending",
+          "estimatedResults": 2169
+        },
+        {
+          "query": "Qing dynasty teapot",
+          "status": "pending",
+          "estimatedResults": 6576
+        },
+        {
+          "query": "Chinese ewer",
+          "status": "pending",
+          "estimatedResults": 50
+        },
+        {
+          "query": "tea caddy China",
+          "status": "pending",
+          "estimatedResults": 20
+        },
+        {
+          "query": "Longquan celadon",
+          "status": "pending",
+          "estimatedResults": 100
+        },
+        {
+          "query": "Dehua porcelain",
+          "status": "pending",
+          "estimatedResults": 50
+        }
       ],
       "notes": "Primary source for Chinese tea ware. Rich Song/Ming/Qing collection."
     },
@@ -53,14 +133,46 @@
       "imageField": "images.web.url",
       "lastCrawl": null,
       "queries": [
-        { "query": "teapot Chinese", "status": "pending", "estimatedResults": 121 },
-        { "query": "tea bowl Chinese", "status": "pending", "estimatedResults": 85 },
-        { "query": "Yixing", "status": "pending", "estimatedResults": 50 },
-        { "query": "celadon Chinese", "status": "pending", "estimatedResults": 100 },
-        { "query": "porcelain cup Chinese", "status": "pending", "estimatedResults": 80 },
-        { "query": "wine cup Chinese", "status": "pending", "estimatedResults": 50 },
-        { "query": "stoneware bowl Chinese", "status": "pending", "estimatedResults": 50 },
-        { "query": "Chinese ceramics", "status": "pending", "estimatedResults": 981 }
+        {
+          "query": "teapot Chinese",
+          "status": "pending",
+          "estimatedResults": 121
+        },
+        {
+          "query": "tea bowl Chinese",
+          "status": "pending",
+          "estimatedResults": 85
+        },
+        {
+          "query": "Yixing",
+          "status": "pending",
+          "estimatedResults": 50
+        },
+        {
+          "query": "celadon Chinese",
+          "status": "pending",
+          "estimatedResults": 100
+        },
+        {
+          "query": "porcelain cup Chinese",
+          "status": "pending",
+          "estimatedResults": 80
+        },
+        {
+          "query": "wine cup Chinese",
+          "status": "pending",
+          "estimatedResults": 50
+        },
+        {
+          "query": "stoneware bowl Chinese",
+          "status": "pending",
+          "estimatedResults": 50
+        },
+        {
+          "query": "Chinese ceramics",
+          "status": "pending",
+          "estimatedResults": 981
+        }
       ],
       "notes": "Good Yixing collection. Export porcelain tea ware."
     },
@@ -79,15 +191,51 @@
       "iiifBaseUrl": "https://www.artic.edu/iiif/2",
       "lastCrawl": null,
       "queries": [
-        { "query": "teapot Chinese", "status": "pending", "estimatedResults": 200 },
-        { "query": "tea bowl Chinese", "status": "pending", "estimatedResults": 150 },
-        { "query": "Yixing teapot", "status": "pending", "estimatedResults": 30 },
-        { "query": "celadon bowl China", "status": "pending", "estimatedResults": 80 },
-        { "query": "porcelain cup China", "status": "pending", "estimatedResults": 100 },
-        { "query": "Song dynasty ceramics", "status": "pending", "estimatedResults": 150 },
-        { "query": "Ming dynasty porcelain", "status": "pending", "estimatedResults": 200 },
-        { "query": "Qing dynasty teapot", "status": "pending", "estimatedResults": 150 },
-        { "query": "Jingdezhen porcelain", "status": "pending", "estimatedResults": 100 }
+        {
+          "query": "teapot Chinese",
+          "status": "pending",
+          "estimatedResults": 200
+        },
+        {
+          "query": "tea bowl Chinese",
+          "status": "pending",
+          "estimatedResults": 150
+        },
+        {
+          "query": "Yixing teapot",
+          "status": "pending",
+          "estimatedResults": 30
+        },
+        {
+          "query": "celadon bowl China",
+          "status": "pending",
+          "estimatedResults": 80
+        },
+        {
+          "query": "porcelain cup China",
+          "status": "pending",
+          "estimatedResults": 100
+        },
+        {
+          "query": "Song dynasty ceramics",
+          "status": "pending",
+          "estimatedResults": 150
+        },
+        {
+          "query": "Ming dynasty porcelain",
+          "status": "pending",
+          "estimatedResults": 200
+        },
+        {
+          "query": "Qing dynasty teapot",
+          "status": "pending",
+          "estimatedResults": 150
+        },
+        {
+          "query": "Jingdezhen porcelain",
+          "status": "pending",
+          "estimatedResults": 100
+        }
       ],
       "notes": "Good East Asian collection. IIIF images available. Note: As of Sep 2026, AIC IIIF server has Cloudflare protection that returns 403 for server-side requests (curl/fetch from servers). Images work correctly in browser context (which handles the challenge). The frontend uses error fallback placeholders for any images that fail to load."
     },
@@ -224,6 +372,39 @@
       "lastCrawl": null,
       "queries": [],
       "notes": "No public API. Imperial collection. Ultimate source."
+    },
+    {
+      "id": "wikimedia",
+      "name": "Wikimedia Commons",
+      "nameZh": "维基共享资源",
+      "country": "International",
+      "status": "active",
+      "apiEndpoint": "https://commons.wikimedia.org/w/api.php",
+      "apiDocs": "https://www.mediawiki.org/wiki/API:Imageinfo",
+      "authRequired": false,
+      "license": "file-specific: CC0 or public domain for the 2026-09-15 batch",
+      "licenseField": "imageinfo.extmetadata.LicenseShortName",
+      "imageField": "imageinfo.thumburl",
+      "lastCrawl": "2026-09-14T16:21:42.465198Z",
+      "queries": [
+        {
+          "query": "Category:Yixing_ware",
+          "status": "completed-reviewed"
+        },
+        {
+          "query": "Category:Jian_ware",
+          "status": "completed-reviewed"
+        },
+        {
+          "query": "Category:Gaiwan",
+          "status": "completed-reviewed"
+        },
+        {
+          "query": "Category:Teapots_from_China / Chinese_teaware / Ceramic_tea_bowls",
+          "status": "completed-reviewed"
+        }
+      ],
+      "notes": "49 curator-selected complete tea objects imported on 2026-09-15 after file-page license, museum metadata, visual, dimension, accession, and binary checks. Photos are self-hosted; rejected uncertain origin, alternate views, label-only images, and unrelated ceramics."
     }
   ],
   "crawlInstructions": {
