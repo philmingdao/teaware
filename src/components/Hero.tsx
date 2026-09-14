@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { featuredArtwork } from '@/data/artworks';
+import { withBasePath } from '@/lib/paths';
 
 export default function Hero() {
   return (
@@ -69,7 +70,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-[#ebe8e1] dark:bg-[#252320] rounded-sm transform rotate-3"></div>
                 <div className="relative aspect-square overflow-hidden rounded-sm shadow-2xl dark:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
                   <Image
-                    src={featuredArtwork.imageUrl}
+                    src={withBasePath(featuredArtwork.imageUrl)}
                     alt={featuredArtwork.imageAlt}
                     fill
                     className="object-cover"
