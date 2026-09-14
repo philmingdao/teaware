@@ -9,8 +9,8 @@ Purpose: Document worldwide museum collections with Chinese/East Asian tea ware 
 |--------|----------|--------|--------|
 | Metropolitan Museum of Art | 693 | ✅ Self-hosted | Active |
 | Cleveland Museum of Art | 307 | ✅ Self-hosted | Active |
-| Wikimedia Commons | 3 | ✅ Self-hosted | Active |
-| **Total** | **1,003** | **All local** | - |
+| Wikimedia Commons | 52 | ✅ Self-hosted | Active |
+| **Total** | **1,052** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -205,8 +205,8 @@ All images have been downloaded and self-hosted under `public/artworks/{id}.jpg`
 - **Open Access Policy**: CC-BY-SA, CC-BY, CC0 (varies)
 - **API Documentation**: MediaWiki API
 - **Tea Ware Relevance**: MEDIUM - User-uploaded museum photos
-- **Status**: ✅ ACTIVE - 3 CC0 images added
-- **Notes**: Many images have hotlink protection; only CC0/public domain selected. Direct download from Wikimedia servers often blocked.
+- **Status**: ✅ ACTIVE - 52 local images in collection (49 added in the 2026-09-15 batch)
+- **Notes**: File-page licenses are checked per item; the latest batch uses CC0 or public-domain images and downloads local JPEG copies.
 
 ---
 
@@ -232,6 +232,16 @@ All images have been downloaded and self-hosted under `public/artworks/{id}.jpg`
 | Art Institute of Chicago | 0 | IIIF blocked by Cloudflare |
 
 All images downloaded to `public/artworks/{id}.jpg` (1600-2400px long edge where available).
+
+## Curated Commons Expansion (2026-09-15)
+
+The collection now contains **1,052** self-hosted artworks: 693 Met, 307 Cleveland, and 52 acquired through Commons file pages (49 in this batch). The new batch contains **30 CC0** and **19 public-domain** images. All 49 are JPEG binaries under `public/artworks/`, with file-page provenance, museum credit where documented, and individual license labels in `src/data/artworks.json`.
+
+The accepted files came from `Yixing_ware`, `Jian_ware`, `Gaiwan`, `Teapots_from_China`, `Chinese_teaware`, and `Ceramic_tea_bowls`. Category membership alone was insufficient: review removed alternate views of the same object, label-only photographs, uncertain jade bowls, English and Korean bowls filed under tea categories, unrelated ceramics, and group photographs where no single tea object could be identified. One British Museum file title said “Southern Song,” while its description documented Northern Song; the collection follows the description.
+
+The 2026-09-14 Met/Commons exploratory crawl was aborted before retaining any artworks or images. Its log rows are marked `aborted-before-import`; this batch's 49 accepted files are recorded separately as `commons-curated-2026-09-15`.
+
+For the next expansion, continue with smaller, visually reviewed groups and check the originating museum's object record when a Commons filename conflicts with its description. The API image URL is a download source, never a production hotlink.
 
 ## Future Expansion Recommendations
 

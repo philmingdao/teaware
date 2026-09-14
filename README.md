@@ -6,6 +6,8 @@
 
 A museum-quality digital gallery showcasing historic Chinese teapots and tea bowls across dynasties — from Song dynasty Jian ware to Qing imperial porcelain.
 
+Gallery images are stored locally. Artwork image licenses and credit lines are recorded per item; the MIT badge applies to the site's code.
+
 🌐 **Live Demo: [https://philmingdao.github.io/teaware/](https://philmingdao.github.io/teaware/)**
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -17,33 +19,33 @@ A museum-quality digital gallery showcasing historic Chinese teapots and tea bow
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **1,031** |
-| Museums | 3 |
-| Dynasties | 15+ |
+| Total Artworks | **1,052** |
+| Credited Sources | 17 |
+| Dynasty Labels | 18 |
 | Object Types | 5 |
 
-### By Museum
-- The Metropolitan Museum of Art: 510
-- Cleveland Museum of Art: 275
-- Art Institute of Chicago: 246
+### By acquisition channel
+- The Metropolitan Museum of Art: 693
+- Cleveland Museum of Art: 307
+- Wikimedia Commons (museum objects with file-page provenance): 52
 
 ### By Dynasty
-- Qing (清): 250+ items
-- Ming (明): 120+ items
-- Song (宋/北宋/南宋): 140+ items
-- Yuan (元): 40+ items
-- Tang (唐): 30+ items
-- And more...
+- Qing and named Qing reigns (清): 218 items
+- Ming and named Ming reigns (明): 105 items
+- Song (宋/北宋/南宋): 154 items
+- Yuan (元): 52 items
+- Tang (唐): 32 items
+- Other/unknown labels remain in the source data; they are not assigned a dynasty by guesswork.
 
 ## ✨ 特色 Features
 
 - 🏛️ **博物馆级呈现** — 简洁优雅的展览式布局，专注于器物之美
-- 📜 **真实藏品** — 所有图片来自大都会艺术博物馆、克利夫兰艺术博物馆、芝加哥艺术博物馆开放数据
+- 📜 **真实藏品** — 图片来自大都会艺术博物馆、克利夫兰艺术博物馆开放数据及维基共享资源中有馆藏出处的文件页，全部本地托管
 - 🔍 **智能筛选** — 按朝代、材质、器型、来源博物馆分类浏览
 - 📱 **响应式设计** — 完美适配桌面与移动设备
 - 🌏 **中英双语** — 以中文为主，辅以英文标签
 - ⚡ **静态优化** — 支持静态导出，可部署至任意静态托管平台
-- 📄 **分页浏览** — 高效分页，支持 900+ 件藏品流畅浏览
+- 📄 **分页浏览** — 高效分页，支持 1,000+ 件藏品流畅浏览
 - 🌙 **深色模式** — 支持系统偏好自动切换或手动切换，优雅的深色主题
 - 📺 **电视模式** — Netflix 风格沉浸式全屏浏览，支持键盘/触摸/自动播放
 
