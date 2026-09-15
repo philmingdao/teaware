@@ -67,13 +67,12 @@ export default function Hero() {
           <div className="order-1 lg:order-2 animate-fade-in opacity-0" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
             <div className="relative">
               <div className="relative aspect-square max-w-lg mx-auto">
-                <div className="absolute inset-0 bg-[#ebe8e1] dark:bg-[#252320] rounded-sm transform rotate-3"></div>
-                <div className="relative aspect-square overflow-hidden rounded-sm shadow-2xl dark:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
+                <div className="relative aspect-square">
                   <Image
-                    src={withBasePath(featuredArtwork.imageUrl)}
+                    src={withBasePath('/artworks/met-44807-transparent.png')}
                     alt={featuredArtwork.imageAlt}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     priority
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
