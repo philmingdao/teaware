@@ -279,11 +279,11 @@ export default function TVMode() {
 
       {displayedArtwork && (
         <section
-          className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-[opacity,transform] duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'} ${showUI ? '' : 'lg:translate-y-3 lg:opacity-0'}`}
+          className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-[opacity,transform] duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}
           style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 3rem)' }}
         >
           <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{displayedArtwork.dynasty}代 · {displayedArtwork.objectType}</p>
-          <h1 className="max-w-5xl text-4xl font-medium leading-[1.08] tracking-[0.08em] text-white drop-shadow-2xl sm:text-6xl lg:text-7xl xl:text-8xl">
+          <h1 className="max-w-5xl text-[1.575rem] font-medium leading-[1.08] tracking-[0.08em] text-white drop-shadow-2xl sm:text-[2.625rem] lg:text-[3.15rem] xl:text-[4.2rem]">
             {displayedArtwork.titleChinese}
           </h1>
           <p className="mt-4 max-w-3xl font-serif-en text-base text-white/55 sm:text-xl lg:text-2xl">{displayedArtwork.titleEnglish}</p>
