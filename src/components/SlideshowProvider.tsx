@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useState, useCallback, ReactNode, useEffect } from 'react';
+import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 import { Artwork } from '@/types/artwork';
 import Slideshow from './Slideshow';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
@@ -9,8 +9,6 @@ interface SlideshowContextType {
   openSlideshow: (artworks: Artwork[], startIndex?: number) => void;
   closeSlideshow: () => void;
   isOpen: boolean;
-  isMuted: boolean;
-  toggleMute: () => void;
 }
 
 const SlideshowContext = createContext<SlideshowContextType | null>(null);
@@ -32,7 +30,7 @@ export default function SlideshowProvider({ children }: SlideshowProviderProps) 
   const [slideshowArtworks, setSlideshowArtworks] = useState<Artwork[]>([]);
   const [startIndex, setStartIndex] = useState(0);
   
-  const { isMuted, toggleMute, startMusic, stopMusic } = useBackgroundMusic();
+  const { startMusic, stopMusic } = useBackgroundMusic();
 
   const openSlideshow = useCallback((artworks: Artwork[], index: number = 0) => {
     setSlideshowArtworks(artworks);
@@ -46,16 +44,8 @@ export default function SlideshowProvider({ children }: SlideshowProviderProps) 
     setIsOpen(false);
   }, [stopMusic]);
 
-  useEffect(() => {
-    return () => {
-      if (isOpen) {
-        stopMusic();
-      }
-    };
-  }, [isOpen, stopMusic]);
-
   return (
-    <SlideshowContext.Provider value={{ openSlideshow, closeSlideshow, isOpen, isMuted, toggleMute }}>
+    <SlideshowContext.Provider value={{ openSlideshow, closeSlideshow, isOpen }}>
       {children}
       {isOpen && slideshowArtworks.length > 0 && (
         <Slideshow

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SlideshowProvider from "@/components/SlideshowProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { BackgroundMusicProvider } from "@/hooks/useBackgroundMusic";
 
 export const metadata: Metadata = {
   title: "器 · 茶 | 中国茶具艺术展",
@@ -44,9 +45,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-[#faf9f7] dark:bg-[#0f0f0e] text-[#1a1a1a] dark:text-[#e8e6e3] transition-colors">
         <ThemeProvider>
-          <SlideshowProvider>
-            {children}
-          </SlideshowProvider>
+          <BackgroundMusicProvider>
+            <SlideshowProvider>
+              {children}
+            </SlideshowProvider>
+          </BackgroundMusicProvider>
         </ThemeProvider>
       </body>
     </html>

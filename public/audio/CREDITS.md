@@ -1,45 +1,30 @@
 # Background Music Credits
 
-This project uses royalty-free Chinese traditional instrumental music licensed under **CC0 1.0 Universal (Public Domain Dedication)**.
+The TV and slideshow modes use the following instrumental tracks downloaded from Pixabay. Each track is used under the Pixabay Content License in effect on its source page.
 
-All tracks are pure instrumental with no vocals, suitable for quiet museum ambience.
+License terms: https://pixabay.com/service/terms/
 
 ## Tracks
 
-### 1. Blossom Valley in Paradise
-- **Author**: neolein (voices of oblivion)
-- **License**: CC0 1.0 Universal (Public Domain)
-- **Source**: https://freesound.org/people/neolein/sounds/521367/
-- **Description**: Chinese YangQin, Guzheng, and other traditional instruments. A dreamy, relaxing scene.
-- **Duration**: ~1 minute
+1. **Chinese Harmony** · LunarBoomMusic · 2:39
+   - https://pixabay.com/music/china-chinese-harmony-564699/
+2. **In the Bamboo Grove: Traditional Chinese Style Music** · Kaazoom · 3:20
+   - https://pixabay.com/music/china-in-the-bamboo-grove-traditional-chinese-style-music-434735/
+3. **Chinese Japanese Korean Music** · MFCC · 1:45
+   - https://pixabay.com/music/main-title-chinese-japanese-korean-music-324382/
+4. **Chinese China Music** · SoundGalleryDT · 2:20
+   - https://pixabay.com/music/china-chinese-china-music-175674/
+5. **Chinese New Year** · NastelBom · 1:19
+   - https://pixabay.com/music/modern-classical-chinese-new-year-455963/
+6. **Moonlit Whispers: Chinese Music, Traditional Instruments** · Kaazoom · 3:22
+   - https://pixabay.com/music/china-moonlit-whispers-chinese-music-traditional-instruments-353045/
+7. **China Chinese Asian Music** · APALONBeats · 2:00
+   - https://pixabay.com/music/china-china-chinese-asian-music-560419/
+8. **China Chinese Asian Music** · MondaMusic · 1:36
+   - https://pixabay.com/music/china-china-chinese-asian-music-589131/
+9. **Chinese** · Kulakovka · 2:17
+   - https://pixabay.com/music/china-chinese-295886/
+10. **China Chinese Asian Music** · SolarFLEX · 1:15
+    - https://pixabay.com/music/china-china-chinese-asian-music-569518/
 
-### 2. Guzheng Solo
-- **Author**: neolein (voices of oblivion)
-- **License**: CC0 1.0 Universal (Public Domain)
-- **Source**: https://freesound.org/people/neolein/sounds/472707/
-- **Description**: Solo guzheng with minor pentatonic scale, featuring expression and reverb.
-- **Duration**: ~1.5 minutes
-
-### 3. A Ride Through Chinese Valley
-- **Author**: neolein (voices of oblivion)
-- **License**: CC0 1.0 Universal (Public Domain)
-- **Source**: https://freesound.org/people/neolein/sounds/573972/
-- **Description**: Erhu, guzheng, and yangqin with valley reverb. Authentic expression of Chinese traditional instruments.
-- **Duration**: ~53 seconds
-
-## License Information
-
-These sounds are released under the **Creative Commons Zero (CC0 1.0)** license, which means:
-
-- ✅ Free for commercial and non-commercial use
-- ✅ No attribution required (though appreciated)
-- ✅ Can be modified, remixed, and built upon
-- ✅ No restrictions on use
-
-Full license text: https://creativecommons.org/publicdomain/zero/1.0/
-
-## Attribution (Optional)
-
-While not required under CC0, we appreciate the creators:
-
-> Background music by neolein (voices of oblivion) via Freesound.org
+Some Pixabay tracks may be registered with YouTube Content ID. Keep this file and the original download records with any published video that uses the music.

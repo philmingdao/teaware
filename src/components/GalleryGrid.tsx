@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
 import { artworks, dynasties, materials, objectTypes, museums } from '@/data/artworks';
 import ArtworkCard from './ArtworkCard';
 import { useSlideshowContext } from './SlideshowProvider';
+import TVModeLink from './TVModeLink';
 
 type FilterType = 'dynasty' | 'material' | 'objectType' | 'museum';
 
@@ -170,7 +170,7 @@ export default function GalleryGrid() {
                 </svg>
                 <span>幻灯</span>
               </button>
-              <Link
+              <TVModeLink
                 href={selectedValue !== '全部' && (activeFilter === 'museum' || activeFilter === 'dynasty')
                   ? `/tv?${activeFilter}=${encodeURIComponent(selectedValue)}`
                   : '/tv'}
@@ -181,7 +181,7 @@ export default function GalleryGrid() {
                 </svg>
                 <span>电视模式</span>
                 <span className="font-serif-en text-xs opacity-60">TV</span>
-              </Link>
+              </TVModeLink>
             </div>
           </div>
         </div>

@@ -2,8 +2,10 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { Monitor } from '@phosphor-icons/react';
 import { featuredArtwork } from '@/data/artworks';
 import { withBasePath } from '@/lib/paths';
+import TVModeLink from './TVModeLink';
 
 export default function Hero() {
   return (
@@ -43,17 +45,15 @@ export default function Hero() {
               >
                 进入展厅
               </Link>
-              <Link 
+              <TVModeLink
                 href="/tv" 
                 className="btn-elegant !bg-[#1a1a1a] dark:!bg-[#e8e6e3] !text-[#faf9f7] dark:!text-[#0f0f0e] hover:!bg-[#333] dark:hover:!bg-[#c5c3bf] !border-[#1a1a1a] dark:!border-[#e8e6e3]"
               >
                 <span className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
+                  <Monitor size={16} weight="light" />
                   电视模式
                 </span>
-              </Link>
+              </TVModeLink>
               <Link 
                 href="/about" 
                 className="btn-elegant !border-[#b8956c] !text-[#b8956c] hover:!bg-[#b8956c] hover:!text-[#faf9f7] dark:!border-[#d4b896] dark:!text-[#d4b896] dark:hover:!bg-[#d4b896] dark:hover:!text-[#0f0f0e]"

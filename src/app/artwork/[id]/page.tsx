@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ResilientImage from '@/components/ResilientImage';
 import ArtworkSlideshowButton from '@/components/ArtworkSlideshowButton';
+import TVModeLink from '@/components/TVModeLink';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -173,7 +174,7 @@ export default async function ArtworkPage({ params }: Props) {
                   allArtworks={artworks} 
                   currentIndex={currentIndex} 
                 />
-                <Link
+                <TVModeLink
                   href={`/tv?start=${artwork.id}`}
                   className="btn-elegant inline-flex items-center gap-2"
                 >
@@ -181,7 +182,7 @@ export default async function ArtworkPage({ params }: Props) {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   电视模式
-                </Link>
+                </TVModeLink>
                 <a
                   href={artwork.sourceUrl}
                   target="_blank"
