@@ -11,6 +11,18 @@ import MusicToggle from './MusicToggle';
 
 type Direction = 1 | -1;
 
+function createShuffleOrder(total: number, firstIndex: number | null) {
+  const order = Array.from({ length: total }, (_, index) => index)
+    .filter((index) => index !== firstIndex);
+
+  for (let index = order.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [order[index], order[swapIndex]] = [order[swapIndex], order[index]];
+  }
+
+  return firstIndex === null ? order : [firstIndex, ...order];
+}
+
 export default function TVMode() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -26,12 +38,15 @@ export default function TVMode() {
     return true;
   }), [filterDynasty, filterMuseum]);
 
-  const initialIndex = useMemo(() => {
-    if (!startId) return 0;
-    return Math.max(0, filteredArtworks.findIndex((artwork) => artwork.id === startId));
+  const requestedStartIndex = useMemo(() => {
+    if (!startId) return null;
+    const index = filteredArtworks.findIndex((artwork) => artwork.id === startId);
+    return index >= 0 ? index : null;
   }, [filteredArtworks, startId]);
 
-  const [targetIndex, setTargetIndex] = useState(initialIndex);
+  const [playOrder, setPlayOrder] = useState<number[]>([]);
+  const [targetPosition, setTargetPosition] = useState(0);
+  const [displayedPosition, setDisplayedPosition] = useState<number | null>(null);
   const [displayedIndex, setDisplayedIndex] = useState<number | null>(null);
   const [imageVisible, setImageVisible] = useState(false);
   const [detailsVisible, setDetailsVisible] = useState(false);
@@ -47,31 +62,43 @@ export default function TVMode() {
   const autoplayRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const detailsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const total = filteredArtworks.length;
-  const visibleIndex = displayedIndex ?? 0;
+  const targetIndex = playOrder[targetPosition] ?? null;
+  const visiblePosition = displayedPosition ?? 0;
   const displayedArtwork = displayedIndex === null ? null : filteredArtworks[displayedIndex];
 
-  const findAvailableIndex = useCallback((fromIndex: number, direction: Direction) => {
+  useEffect(() => {
+    if (!total) return;
+    const nextOrder = createShuffleOrder(total, requestedStartIndex);
+    // Browser-only initialization keeps random order out of the static HTML.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setPlayOrder(nextOrder);
+    setTargetPosition(0);
+  }, [requestedStartIndex, total]);
+
+  const findAvailablePosition = useCallback((fromPosition: number, direction: Direction) => {
     for (let step = 1; step < total; step += 1) {
-      const candidate = (fromIndex + direction * step + total) % total;
-      if (!brokenArtworkIdsRef.current.has(filteredArtworks[candidate].id)) return candidate;
+      const candidatePosition = (fromPosition + direction * step + total) % total;
+      const candidateIndex = playOrder[candidatePosition];
+      if (candidateIndex === undefined) continue;
+      if (!brokenArtworkIdsRef.current.has(filteredArtworks[candidateIndex].id)) return candidatePosition;
     }
     return null;
-  }, [filteredArtworks, total]);
+  }, [filteredArtworks, playOrder, total]);
 
-  const queueIndex = useCallback((nextIndex: number) => {
+  const queuePosition = useCallback((nextPosition: number) => {
     setDetailsVisible(false);
-    setTargetIndex(nextIndex);
+    setTargetPosition(nextPosition);
   }, []);
 
   const goNext = useCallback(() => {
-    const nextIndex = findAvailableIndex(targetIndex, 1);
-    if (nextIndex !== null) queueIndex(nextIndex);
-  }, [findAvailableIndex, queueIndex, targetIndex]);
+    const nextPosition = findAvailablePosition(targetPosition, 1);
+    if (nextPosition !== null) queuePosition(nextPosition);
+  }, [findAvailablePosition, queuePosition, targetPosition]);
 
   const goPrev = useCallback(() => {
-    const previousIndex = findAvailableIndex(targetIndex, -1);
-    if (previousIndex !== null) queueIndex(previousIndex);
-  }, [findAvailableIndex, queueIndex, targetIndex]);
+    const previousPosition = findAvailablePosition(targetPosition, -1);
+    if (previousPosition !== null) queuePosition(previousPosition);
+  }, [findAvailablePosition, queuePosition, targetPosition]);
 
   const pauseAndGo = useCallback((direction: Direction) => {
     setIsAutoPlaying(false);
@@ -79,18 +106,19 @@ export default function TVMode() {
     else goPrev();
   }, [goNext, goPrev]);
 
-  const skipBrokenTarget = useCallback((brokenIndex: number) => {
+  const skipBrokenTarget = useCallback((brokenPosition: number) => {
+    const brokenIndex = playOrder[brokenPosition];
     const brokenArtwork = filteredArtworks[brokenIndex];
     if (!brokenArtwork) return;
     brokenArtworkIdsRef.current.add(brokenArtwork.id);
-    const nextIndex = findAvailableIndex(brokenIndex, 1);
-    if (nextIndex === null) {
+    const nextPosition = findAvailablePosition(brokenPosition, 1);
+    if (nextPosition === null) {
       setAllImagesBroken(true);
       setIsAutoPlaying(false);
       return;
     }
-    queueIndex(nextIndex);
-  }, [filteredArtworks, findAvailableIndex, queueIndex]);
+    queuePosition(nextPosition);
+  }, [filteredArtworks, findAvailablePosition, playOrder, queuePosition]);
 
   useEffect(() => {
     startMusic();
@@ -98,7 +126,7 @@ export default function TVMode() {
   }, [startMusic, stopMusic]);
 
   useEffect(() => {
-    if (!total || allImagesBroken) return;
+    if (!total || allImagesBroken || targetIndex === null) return;
     const targetArtwork = filteredArtworks[targetIndex];
     if (!targetArtwork) return;
 
@@ -109,12 +137,13 @@ export default function TVMode() {
       void bufferedImage.decode().catch(() => undefined).then(() => {
         if (!cancelled) {
           setImageVisible(false);
+          setDisplayedPosition(targetPosition);
           setDisplayedIndex(targetIndex);
         }
       });
     };
     bufferedImage.onerror = () => {
-      if (!cancelled) skipBrokenTarget(targetIndex);
+      if (!cancelled) skipBrokenTarget(targetPosition);
     };
     bufferedImage.src = withBasePath(targetArtwork.imageUrl);
 
@@ -123,7 +152,7 @@ export default function TVMode() {
       bufferedImage.onload = null;
       bufferedImage.onerror = null;
     };
-  }, [allImagesBroken, filteredArtworks, skipBrokenTarget, targetIndex, total]);
+  }, [allImagesBroken, filteredArtworks, skipBrokenTarget, targetIndex, targetPosition, total]);
 
   useEffect(() => {
     if (!imageVisible) return;
@@ -134,13 +163,15 @@ export default function TVMode() {
   }, [imageVisible]);
 
   useEffect(() => {
-    if (displayedIndex === null || total < 2) return;
-    const nextIndex = findAvailableIndex(displayedIndex, 1);
-    if (nextIndex === null) return;
+    if (displayedPosition === null || total < 2) return;
+    const nextPosition = findAvailablePosition(displayedPosition, 1);
+    if (nextPosition === null) return;
+    const nextIndex = playOrder[nextPosition];
+    if (nextIndex === undefined) return;
     const image = new window.Image();
     image.referrerPolicy = 'no-referrer';
     image.src = withBasePath(filteredArtworks[nextIndex].imageUrl);
-  }, [displayedIndex, filteredArtworks, findAvailableIndex, total]);
+  }, [displayedPosition, filteredArtworks, findAvailablePosition, playOrder, total]);
 
   useEffect(() => {
     if (isAutoPlaying) {
@@ -256,7 +287,7 @@ export default function TVMode() {
             alt={displayedArtwork.imageAlt}
             className={`absolute inset-0 size-full object-cover transition-opacity duration-1000 motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
             onLoad={() => setImageVisible(true)}
-            onError={() => skipBrokenTarget(visibleIndex)}
+            onError={() => skipBrokenTarget(visiblePosition)}
             referrerPolicy="no-referrer"
             draggable={false}
           />
@@ -270,7 +301,7 @@ export default function TVMode() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-transparent to-transparent" />
       </div>
 
-      {displayedIndex !== targetIndex && (
+      {displayedPosition !== targetPosition && (
         <div className="absolute right-6 top-24 flex items-center gap-2 text-xs tracking-widest text-white/35">
           <span className="size-1.5 animate-pulse rounded-full bg-[#d4b896] motion-reduce:animate-none" />
           正在缓冲下一幅
@@ -294,9 +325,9 @@ export default function TVMode() {
           </div>
           <div className="mt-8 flex items-center gap-4">
             <div className="h-px w-48 max-w-[45vw] overflow-hidden bg-white/15">
-              <div className="h-full bg-[#d4b896]/75 transition-[width] duration-500" style={{ width: `${((visibleIndex + 1) / total) * 100}%` }} />
+              <div className="h-full bg-[#d4b896]/75 transition-[width] duration-500" style={{ width: `${((visiblePosition + 1) / total) * 100}%` }} />
             </div>
-            <span className="font-serif-en text-sm tabular-nums text-white/35">{visibleIndex + 1} / {total}</span>
+            <span className="font-serif-en text-sm tabular-nums text-white/35">{visiblePosition + 1} / {total}</span>
           </div>
         </section>
       )}

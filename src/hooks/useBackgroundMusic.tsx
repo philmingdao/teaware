@@ -25,7 +25,7 @@ const PLAYLIST = [
   '/audio/china-solarflex-569518.mp3',
 ] as const;
 
-const DEFAULT_VOLUME = 0.15;
+const DEFAULT_VOLUME = 0.42;
 const FADE_IN_DURATION = 900;
 const FADE_OUT_DURATION = 1800;
 
