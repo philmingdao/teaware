@@ -179,17 +179,17 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
       </main>
 
       <footer
-        className="z-20 border-t border-white/10 bg-[#181714] px-5 py-4 sm:px-8 sm:py-5"
+        className="z-20 flex h-32 items-center border-t border-white/10 bg-[#181714] px-5 py-4 sm:h-36 sm:px-8 sm:py-5"
         style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 1rem)' }}
       >
-        <div className="mx-auto flex max-w-7xl items-end justify-between gap-6">
-          <div className="min-w-0">
-            <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs tracking-[0.16em] text-[#d4b896]">
-              <span>{currentArtwork.dynasty}代</span>
+        <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-6">
+          <div className="min-w-0 flex-1">
+            <div className="mb-2 flex min-w-0 items-center gap-x-3 overflow-hidden whitespace-nowrap text-xs tracking-[0.16em] text-[#d4b896]">
+              <span className="shrink-0">{currentArtwork.dynasty}代</span>
               <span className="text-white/25">/</span>
-              <span className="text-white/45">{currentArtwork.material}</span>
+              <span className="truncate text-white/45">{currentArtwork.material}</span>
               <span className="hidden text-white/25 sm:inline">/</span>
-              <span className="hidden text-white/45 sm:inline">{currentArtwork.sourceMuseum}</span>
+              <span className="hidden truncate text-white/45 sm:inline">{currentArtwork.sourceMuseum}</span>
             </div>
             <h2 className="truncate text-xl font-medium tracking-wider text-white sm:text-2xl">{currentArtwork.titleChinese}</h2>
             <p className="mt-1 truncate font-serif-en text-sm text-white/45 sm:text-base">{currentArtwork.titleEnglish}</p>

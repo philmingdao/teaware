@@ -310,7 +310,7 @@ export default function TVMode() {
 
       {displayedArtwork && (
         <section
-          className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-[opacity,transform] duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}
+          className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-opacity duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'opacity-100' : 'opacity-0'}`}
           style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 3rem)' }}
         >
           <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{displayedArtwork.dynasty}代 · {displayedArtwork.objectType}</p>
@@ -333,7 +333,7 @@ export default function TVMode() {
       )}
 
       <header
-        className={`absolute left-0 right-0 top-0 flex items-center justify-between px-6 py-6 transition-[opacity,transform] duration-500 motion-reduce:transition-none sm:px-10 lg:px-16 ${showUI ? 'translate-y-0 opacity-100' : '-translate-y-3 opacity-0'}`}
+        className={`absolute left-0 right-0 top-0 flex items-center justify-between px-6 py-6 transition-opacity duration-500 motion-reduce:transition-none sm:px-10 lg:px-16 ${showUI ? 'opacity-100' : 'opacity-0'}`}
         style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 1.5rem)' }}
       >
         <Link href="/gallery" className="inline-flex items-center gap-2 text-sm tracking-wide text-white/55 transition-colors hover:text-white">

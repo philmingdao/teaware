@@ -25,8 +25,7 @@ const PLAYLIST = [
   '/audio/china-solarflex-569518.mp3',
 ] as const;
 
-const DEFAULT_VOLUME = 0.42;
-const FADE_IN_DURATION = 900;
+const PLAYBACK_VOLUME = 1;
 const FADE_OUT_DURATION = 1800;
 
 interface BackgroundMusicContextValue {
@@ -38,21 +37,32 @@ interface BackgroundMusicContextValue {
 
 const BackgroundMusicContext = createContext<BackgroundMusicContextValue | null>(null);
 
-function pickRandomTrack(previousIndex: number) {
-  let nextIndex = previousIndex;
-  while (nextIndex === previousIndex) {
-    nextIndex = Math.floor(Math.random() * PLAYLIST.length);
+function createShuffledQueue(previousIndex: number) {
+  const queue = Array.from({ length: PLAYLIST.length }, (_, index) => index);
+
+  for (let index = queue.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [queue[index], queue[swapIndex]] = [queue[swapIndex], queue[index]];
   }
-  return nextIndex;
+
+  if (queue.length > 1 && queue[0] === previousIndex) {
+    const swapIndex = 1 + Math.floor(Math.random() * (queue.length - 1));
+    [queue[0], queue[swapIndex]] = [queue[swapIndex], queue[0]];
+  }
+
+  return queue;
 }
 
 export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const currentTrackRef = useRef(-1);
+  const shuffleQueueRef = useRef<number[]>([]);
   const animationFrameRef = useRef<number | null>(null);
   const shouldPlayRef = useRef(false);
   const playRandomTrackRef = useRef<() => void>(() => undefined);
+  const attemptPlaybackRef = useRef<(audio: HTMLAudioElement) => void>(() => undefined);
+  const interactionRetryRef = useRef<(() => void) | null>(null);
 
   const clearFade = useCallback(() => {
     if (animationFrameRef.current !== null) {
@@ -61,11 +71,33 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  const clearInteractionRetry = useCallback(() => {
+    const retry = interactionRetryRef.current;
+    if (!retry) return;
+    document.removeEventListener('pointerdown', retry, true);
+    document.removeEventListener('keydown', retry, true);
+    document.removeEventListener('touchstart', retry, true);
+    interactionRetryRef.current = null;
+  }, []);
+
+  const retryOnNextInteraction = useCallback((callback: () => void) => {
+    clearInteractionRetry();
+    const retry = () => {
+      clearInteractionRetry();
+      callback();
+    };
+    interactionRetryRef.current = retry;
+    document.addEventListener('pointerdown', retry, true);
+    document.addEventListener('keydown', retry, true);
+    document.addEventListener('touchstart', retry, true);
+  }, [clearInteractionRetry]);
+
   const releaseAudio = useCallback(() => {
     const audio = audioRef.current;
     if (!audio) return;
     audio.onended = null;
     audio.onerror = null;
+    audio.onplaying = null;
     audio.pause();
     audio.removeAttribute('src');
     audio.load();
@@ -91,59 +123,86 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
     animationFrameRef.current = requestAnimationFrame(step);
   }, [clearFade]);
 
+  const attemptPlayback = useCallback((audio: HTMLAudioElement) => {
+    if (!shouldPlayRef.current || audioRef.current !== audio) return;
+
+    audio.volume = PLAYBACK_VOLUME;
+    void audio.play().then(() => {
+      if (!shouldPlayRef.current || audioRef.current !== audio) {
+        audio.pause();
+        return;
+      }
+      clearInteractionRetry();
+      setIsPlaying(true);
+    }).catch(() => {
+      if (!shouldPlayRef.current || audioRef.current !== audio) return;
+      setIsPlaying(false);
+      retryOnNextInteraction(() => attemptPlaybackRef.current(audio));
+    });
+  }, [clearInteractionRetry, retryOnNextInteraction]);
+
+  useEffect(() => {
+    attemptPlaybackRef.current = attemptPlayback;
+  }, [attemptPlayback]);
+
   const playRandomTrack = useCallback(() => {
     if (!shouldPlayRef.current) return;
 
     clearFade();
+    clearInteractionRetry();
     releaseAudio();
-    const nextIndex = pickRandomTrack(currentTrackRef.current);
+    if (shuffleQueueRef.current.length === 0) {
+      shuffleQueueRef.current = createShuffledQueue(currentTrackRef.current);
+    }
+    const nextIndex = shuffleQueueRef.current.shift();
+    if (nextIndex === undefined) return;
     currentTrackRef.current = nextIndex;
 
     const audio = new Audio(withBasePath(PLAYLIST[nextIndex]));
     audio.preload = 'auto';
-    audio.volume = 0;
+    audio.volume = PLAYBACK_VOLUME;
     audioRef.current = audio;
     audio.onended = () => playRandomTrackRef.current();
     audio.onerror = () => playRandomTrackRef.current();
-
-    void audio.play().then(() => {
-      if (!shouldPlayRef.current) return;
-      setIsPlaying(true);
-      fadeTo(audio, DEFAULT_VOLUME, FADE_IN_DURATION);
-    }).catch(() => {
-      setIsPlaying(false);
-      releaseAudio();
-    });
-  }, [clearFade, fadeTo, releaseAudio]);
+    audio.onplaying = () => setIsPlaying(true);
+    attemptPlayback(audio);
+  }, [attemptPlayback, clearFade, clearInteractionRetry, releaseAudio]);
 
   useEffect(() => {
     playRandomTrackRef.current = playRandomTrack;
   }, [playRandomTrack]);
 
   const startMusic = useCallback(() => {
-    if (shouldPlayRef.current && audioRef.current) return;
     shouldPlayRef.current = true;
+    const audio = audioRef.current;
+    if (audio) {
+      clearFade();
+      attemptPlayback(audio);
+      return;
+    }
     playRandomTrackRef.current();
-  }, []);
+  }, [attemptPlayback, clearFade]);
 
   const stopMusic = useCallback(() => {
     shouldPlayRef.current = false;
     setIsPlaying(false);
+    clearInteractionRetry();
     const audio = audioRef.current;
     if (!audio) return;
     fadeTo(audio, 0, FADE_OUT_DURATION, releaseAudio);
-  }, [fadeTo, releaseAudio]);
+  }, [clearInteractionRetry, fadeTo, releaseAudio]);
 
   const toggleMusic = useCallback(() => {
-    if (shouldPlayRef.current) stopMusic();
+    if (isPlaying) stopMusic();
     else startMusic();
-  }, [startMusic, stopMusic]);
+  }, [isPlaying, startMusic, stopMusic]);
 
   useEffect(() => () => {
     shouldPlayRef.current = false;
     clearFade();
+    clearInteractionRetry();
     releaseAudio();
-  }, [clearFade, releaseAudio]);
+  }, [clearFade, clearInteractionRetry, releaseAudio]);
 
   const value = useMemo(() => ({
     isPlaying,
