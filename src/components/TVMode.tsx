@@ -10,6 +10,8 @@ import { withBasePath } from '@/lib/paths';
 import MusicToggle from './MusicToggle';
 
 type Direction = 1 | -1;
+const AUTOPLAY_INTERVAL_MS = 8000;
+const CROSSFADE_DURATION_MS = 1200;
 
 function createShuffleOrder(total: number, firstIndex: number | null) {
   const order = Array.from({ length: total }, (_, index) => index)
@@ -48,9 +50,10 @@ export default function TVMode() {
   const [targetPosition, setTargetPosition] = useState(0);
   const [displayedPosition, setDisplayedPosition] = useState<number | null>(null);
   const [displayedIndex, setDisplayedIndex] = useState<number | null>(null);
+  const [outgoingIndex, setOutgoingIndex] = useState<number | null>(null);
   const [imageVisible, setImageVisible] = useState(false);
   const [detailsVisible, setDetailsVisible] = useState(false);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(false);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [showUI, setShowUI] = useState(true);
   const [allImagesBroken, setAllImagesBroken] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
@@ -61,10 +64,14 @@ export default function TVMode() {
   const uiTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const autoplayRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const detailsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const transitionTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const transitionFrameRef = useRef<number | null>(null);
+  const displayedIndexRef = useRef<number | null>(null);
   const total = filteredArtworks.length;
   const targetIndex = playOrder[targetPosition] ?? null;
   const visiblePosition = displayedPosition ?? 0;
   const displayedArtwork = displayedIndex === null ? null : filteredArtworks[displayedIndex];
+  const outgoingArtwork = outgoingIndex === null ? null : filteredArtworks[outgoingIndex];
 
   useEffect(() => {
     if (!total) return;
@@ -125,6 +132,42 @@ export default function TVMode() {
     return () => stopMusic();
   }, [startMusic, stopMusic]);
 
+  const showBufferedArtwork = useCallback((nextPosition: number, nextIndex: number) => {
+    if (transitionFrameRef.current !== null) cancelAnimationFrame(transitionFrameRef.current);
+    if (transitionTimeoutRef.current) clearTimeout(transitionTimeoutRef.current);
+
+    const previousIndex = displayedIndexRef.current;
+    if (previousIndex === nextIndex) {
+      setDisplayedPosition(nextPosition);
+      setImageVisible(true);
+      return;
+    }
+
+    setOutgoingIndex(previousIndex);
+    setImageVisible(false);
+    setDisplayedPosition(nextPosition);
+    setDisplayedIndex(nextIndex);
+    displayedIndexRef.current = nextIndex;
+
+    // Two frames guarantee that both image layers first render at their
+    // starting opacity before the browser begins the crossfade.
+    transitionFrameRef.current = requestAnimationFrame(() => {
+      transitionFrameRef.current = requestAnimationFrame(() => {
+        setImageVisible(true);
+        transitionFrameRef.current = null;
+        transitionTimeoutRef.current = setTimeout(() => {
+          setOutgoingIndex(null);
+          transitionTimeoutRef.current = null;
+        }, CROSSFADE_DURATION_MS);
+      });
+    });
+  }, []);
+
+  useEffect(() => () => {
+    if (transitionFrameRef.current !== null) cancelAnimationFrame(transitionFrameRef.current);
+    if (transitionTimeoutRef.current) clearTimeout(transitionTimeoutRef.current);
+  }, []);
+
   useEffect(() => {
     if (!total || allImagesBroken || targetIndex === null) return;
     const targetArtwork = filteredArtworks[targetIndex];
@@ -136,9 +179,7 @@ export default function TVMode() {
     bufferedImage.onload = () => {
       void bufferedImage.decode().catch(() => undefined).then(() => {
         if (!cancelled) {
-          setImageVisible(false);
-          setDisplayedPosition(targetPosition);
-          setDisplayedIndex(targetIndex);
+          showBufferedArtwork(targetPosition, targetIndex);
         }
       });
     };
@@ -152,7 +193,7 @@ export default function TVMode() {
       bufferedImage.onload = null;
       bufferedImage.onerror = null;
     };
-  }, [allImagesBroken, filteredArtworks, skipBrokenTarget, targetIndex, targetPosition, total]);
+  }, [allImagesBroken, filteredArtworks, showBufferedArtwork, skipBrokenTarget, targetIndex, targetPosition, total]);
 
   useEffect(() => {
     if (!imageVisible) return;
@@ -175,7 +216,7 @@ export default function TVMode() {
 
   useEffect(() => {
     if (isAutoPlaying) {
-      autoplayRef.current = setInterval(goNext, 8000);
+      autoplayRef.current = setInterval(goNext, AUTOPLAY_INTERVAL_MS);
       uiTimeoutRef.current = setTimeout(() => setShowUI(false), 4000);
     }
     return () => {
@@ -280,17 +321,34 @@ export default function TVMode() {
         }}
       >
         {displayedArtwork ? (
-          /* eslint-disable-next-line @next/next/no-img-element */
-          <img
-            key={displayedArtwork.id}
-            src={withBasePath(displayedArtwork.imageUrl)}
-            alt={displayedArtwork.imageAlt}
-            className={`absolute inset-0 size-full object-cover transition-opacity duration-1000 motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
-            onLoad={() => setImageVisible(true)}
-            onError={() => skipBrokenTarget(visiblePosition)}
-            referrerPolicy="no-referrer"
-            draggable={false}
-          />
+          <>
+            {outgoingArtwork && (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                key={`outgoing-${outgoingArtwork.id}`}
+                src={withBasePath(outgoingArtwork.imageUrl)}
+                alt=""
+                aria-hidden="true"
+                data-tv-image="outgoing"
+                className={`absolute inset-0 size-full object-cover transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-0' : 'opacity-100'}`}
+                style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
+                referrerPolicy="no-referrer"
+                draggable={false}
+              />
+            )}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              key={displayedArtwork.id}
+              src={withBasePath(displayedArtwork.imageUrl)}
+              alt={displayedArtwork.imageAlt}
+              data-tv-image="incoming"
+              className={`absolute inset-0 size-full object-cover transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
+              style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
+              onError={() => skipBrokenTarget(visiblePosition)}
+              referrerPolicy="no-referrer"
+              draggable={false}
+            />
+          </>
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-[#050505]">
             <div className="size-10 animate-spin rounded-full border border-white/10 border-t-[#d4b896]/70 motion-reduce:animate-none" />
