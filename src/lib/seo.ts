@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
+import { artworks } from '@/data/artworks';
 
 export const SITE_URL = 'https://philmingdao.github.io';
 export const BASE_PATH = '/teaware';
 export const FULL_URL = `${SITE_URL}${BASE_PATH}`;
+
+export const artworkCount = artworks.length;
 
 export const siteConfig = {
   name: {
@@ -14,8 +17,8 @@ export const siteConfig = {
     en: 'Qi · Cha | Chinese Tea Ware Artistic Gallery',
   },
   description: {
-    zh: '探索跨越千年的中国茶具艺术。收录1,000余件博物馆级藏品，涵盖唐宋建盏、龙泉青瓷、宜兴紫砂、明清官窑等珍品。来自大都会艺术博物馆、克利夫兰艺术博物馆的开放藏品，采用CC0许可。',
-    en: 'Explore the art of Chinese teaware across a thousand years. A museum-quality digital gallery featuring 1,000+ open-access artworks from The Metropolitan Museum of Art and Cleveland Museum of Art — Song dynasty Jian ware, Longquan celadon, Yixing zisha, Ming-Qing imperial porcelain. CC0 licensed.',
+    zh: `探索跨越千年的中国茶具艺术。收录${artworkCount.toLocaleString()}余件博物馆级藏品，涵盖唐宋建盏、龙泉青瓷、宜兴紫砂、明清官窑等珍品。来自大都会艺术博物馆、克利夫兰艺术博物馆的开放藏品，采用CC0许可。`,
+    en: `Explore the art of Chinese teaware across a thousand years. A museum-quality digital gallery featuring ${artworkCount.toLocaleString()}+ open-access artworks from The Metropolitan Museum of Art and Cleveland Museum of Art — Song dynasty Jian ware, Longquan celadon, Yixing zisha, Ming-Qing imperial porcelain. CC0 licensed.`,
   },
   keywords: {
     zh: ['中国茶具', '茶器艺术', '建盏', '龙泉青瓷', '紫砂壶', '青花瓷', '官窑', '宜兴紫砂', '宋代茶器', '明清瓷器', '茶道', '博物馆藏品', '数字展览'],
@@ -28,7 +31,7 @@ export const siteConfig = {
     card: 'summary_large_image',
     site: '@philmingdao',
   },
-  artworkCount: 1052,
+  artworkCount,
 };
 
 export const ogImage = {
@@ -101,7 +104,7 @@ export const pageMetadata = {
   home: {
     title: '器 · 茶 | 中国茶具艺术展 · 数字博物馆',
     titleEn: 'Qi · Cha | Chinese Tea Ware Digital Museum',
-    description: '探索跨越千年的中国茶具艺术。1,000余件博物馆级开放藏品，涵盖唐宋建盏、龙泉青瓷、宜兴紫砂、明清官窑。Explore 1,000+ museum-quality Chinese teaware artworks.',
+    description: `探索跨越千年的中国茶具艺术。${artworkCount.toLocaleString()}余件博物馆级开放藏品，涵盖唐宋建盏、龙泉青瓷、宜兴紫砂、明清官窑。Explore ${artworkCount.toLocaleString()}+ museum-quality Chinese teaware artworks.`,
     canonical: FULL_URL,
   },
   gallery: {
