@@ -1,16 +1,16 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-13 (Round 2 Update)  
+Last updated: 2026-09-18 (Expansion Round 4)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 693 | ✅ Self-hosted | Active |
-| Cleveland Museum of Art | 307 | ✅ Self-hosted | Active |
+| Metropolitan Museum of Art | 835 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 369 | ✅ Self-hosted | Active |
 | Wikimedia Commons | 52 | ✅ Self-hosted | Active |
-| **Total** | **1,052** | **All local** | - |
+| **Total** | **1,256** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -242,6 +242,65 @@ The accepted files came from `Yixing_ware`, `Jian_ware`, `Gaiwan`, `Teapots_from
 The 2026-09-14 Met/Commons exploratory crawl was aborted before retaining any artworks or images. Its log rows are marked `aborted-before-import`; this batch's 49 accepted files are recorded separately as `commons-curated-2026-09-15`.
 
 For the next expansion, continue with smaller, visually reviewed groups and check the originating museum's object record when a Commons filename conflicts with its description. The API image URL is a download source, never a production hotlink.
+
+## Expansion Round 3 (2026-09-17)
+
+**New Total: 1,175 artworks** (+123 from previous 1,052)
+
+### Sources and Queries
+
+| Source | New Items | Queries Used |
+|--------|-----------|--------------|
+| Metropolitan Museum of Art | 61 | blue and white teapot Chinese, Dehua porcelain cup, Korean tea bowl, tea jar Chinese, tea caddy porcelain, underglaze blue teapot |
+| Cleveland Museum of Art | 62 | teapot, chawan, famille rose, celadon bowl, Longquan, Dehua, export porcelain, tea jar, covered cup |
+| **Total** | **123** | 31 queries attempted |
+
+### Content Breakdown by Type
+
+| Object Type | Count |
+|-------------|-------|
+| Tea Bowl/Cup | 45 |
+| Tea Caddy | 36 |
+| Teapot | 26 |
+| Gaiwan / Covered Cup | 9 |
+| Tea Set | 7 |
+
+### Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Japanese and Korean tea ware included (chawan, tea jars from Shigaraki/Seto)
+- Expanded Dehua blanc de chine representation
+- Met API returned 403 for "dragon teapot Chinese" query (rate limiting)
+- famille rose teapot yielded 0 results (mostly rights-restricted at Met)
+- Longquan celadon bowl yielded 0 from Met (no matching public domain items)
+
+## Round 4 Expansion (2026-09-18)
+
+**+81 new artworks from Met** (total now 1,256)
+
+### New Queries Explored
+
+| Query | Source | Results | Accepted |
+|-------|--------|---------|----------|
+| tea ceremony Japanese | Met | 130 | 15 |
+| Korean tea bowl | Met | 38 | 4 |
+| Korean celadon bowl | Met | 54 | 7 |
+| water pot Chinese | Met | 355 | 15 |
+| export porcelain tea | Met | 1047 | 15 |
+| lidded cup Chinese | Met | 1083 | 9 |
+| Japanese tea bowl | Met | 156 | 15 |
+| Ge ware bowl | Met | 12 | 1 |
+
+### Content Additions
+- Japanese tea ceremony apparatus (water jars, utensils, tea caddies)
+- Korean celadon ewers and bowls (Goryeo dynasty)
+- Chinese export porcelain teapots and tea services
+- Chinese water pots for scholar's desk / tea ceremonies
+- Japanese tea gathering dishes (mukōzuke)
+
+### Technical Notes
+- CMA API returned arrays for culture field (not strings) - requires fix for future runs
+- Met API occasionally returns HTML errors (rate limiting) - handled gracefully
+- All 81 new images verified as valid JPEG with reasonable dimensions (>5KB)
 
 ## Future Expansion Recommendations
 
