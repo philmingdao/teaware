@@ -1,16 +1,16 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-17 (Expansion Round 3)  
+Last updated: 2026-09-18 (Expansion Round 4)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 754 | ✅ Self-hosted | Active |
+| Metropolitan Museum of Art | 835 | ✅ Self-hosted | Active |
 | Cleveland Museum of Art | 369 | ✅ Self-hosted | Active |
 | Wikimedia Commons | 52 | ✅ Self-hosted | Active |
-| **Total** | **1,175** | **All local** | - |
+| **Total** | **1,256** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -272,6 +272,35 @@ For the next expansion, continue with smaller, visually reviewed groups and chec
 - Met API returned 403 for "dragon teapot Chinese" query (rate limiting)
 - famille rose teapot yielded 0 results (mostly rights-restricted at Met)
 - Longquan celadon bowl yielded 0 from Met (no matching public domain items)
+
+## Round 4 Expansion (2026-09-18)
+
+**+81 new artworks from Met** (total now 1,256)
+
+### New Queries Explored
+
+| Query | Source | Results | Accepted |
+|-------|--------|---------|----------|
+| tea ceremony Japanese | Met | 130 | 15 |
+| Korean tea bowl | Met | 38 | 4 |
+| Korean celadon bowl | Met | 54 | 7 |
+| water pot Chinese | Met | 355 | 15 |
+| export porcelain tea | Met | 1047 | 15 |
+| lidded cup Chinese | Met | 1083 | 9 |
+| Japanese tea bowl | Met | 156 | 15 |
+| Ge ware bowl | Met | 12 | 1 |
+
+### Content Additions
+- Japanese tea ceremony apparatus (water jars, utensils, tea caddies)
+- Korean celadon ewers and bowls (Goryeo dynasty)
+- Chinese export porcelain teapots and tea services
+- Chinese water pots for scholar's desk / tea ceremonies
+- Japanese tea gathering dishes (mukōzuke)
+
+### Technical Notes
+- CMA API returned arrays for culture field (not strings) - requires fix for future runs
+- Met API occasionally returns HTML errors (rate limiting) - handled gracefully
+- All 81 new images verified as valid JPEG with reasonable dimensions (>5KB)
 
 ## Future Expansion Recommendations
 

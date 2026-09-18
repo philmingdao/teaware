@@ -185,3 +185,27 @@
 {"timestamp":"2026-09-17T02:09:44.486Z","source":"cma","query":"export porcelain","totalResults":10,"idsAccepted":10,"crawlBatchId":"expansion-2026-09-17","durationMs":2280}
 {"timestamp":"2026-09-17T02:09:45.737Z","source":"cma","query":"tea jar","totalResults":4,"idsAccepted":4,"crawlBatchId":"expansion-2026-09-17","durationMs":1051}
 {"timestamp":"2026-09-17T02:09:49.206Z","source":"cma","query":"covered cup","totalResults":10,"idsAccepted":10,"crawlBatchId":"expansion-2026-09-17","durationMs":3268}
+{"timestamp":"2026-09-18T02:10:07.984Z","source":"met","query":"tea ceremony Japanese","totalResults":130,"idsAccepted":15,"idsRejected":5,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:15.793Z","source":"met","query":"Korean tea bowl","totalResults":38,"idsAccepted":4,"idsRejected":17,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:30.858Z","source":"met","query":"Korean celadon bowl","totalResults":54,"idsAccepted":7,"idsRejected":34,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:36.493Z","source":"met","query":"chaire","totalResults":11,"idsAccepted":0,"idsRejected":11,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:37.935Z","source":"met","query":"natsume","totalResults":3,"idsAccepted":0,"idsRejected":3,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:39.412Z","source":"met","query":"chawan","totalResults":3,"idsAccepted":0,"idsRejected":3,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:52.586Z","source":"met","query":"water pot Chinese","totalResults":355,"idsAccepted":15,"idsRejected":7,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:10:56.112Z","source":"met","query":"Ge ware bowl","totalResults":12,"idsAccepted":1,"idsRejected":9,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:11:22.267Z","source":"met","query":"export porcelain tea","totalResults":1047,"idsAccepted":15,"idsRejected":53,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:16:41.156Z","source":"met","query":"lidded cup Chinese","totalResults":1083,"idsAccepted":9,"idsRejected":1058,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:16:57.795Z","source":"met","query":"Japanese tea bowl","totalResults":442,"idsAccepted":15,"idsRejected":16,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:16:58.631Z","source":"met","query":"Japanese tea","totalResults":1,"idsAccepted":0,"idsRejected":1,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:00.230Z","source":"cma","query":"Korean celadon","totalResults":100,"idsAccepted":0,"idsRejected":90,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:01.578Z","source":"cma","query":"Korean tea","totalResults":79,"idsAccepted":0,"idsRejected":69,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:03.622Z","source":"cma","query":"Japanese bowl","totalResults":100,"idsAccepted":0,"idsRejected":86,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:04.584Z","source":"cma","query":"Japanese tea ceremony","totalResults":17,"idsAccepted":0,"idsRejected":17,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:05.615Z","source":"cma","query":"tea caddy","totalResults":35,"idsAccepted":0,"idsRejected":31,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:06.377Z","source":"cma","query":"chaire","totalResults":3,"idsAccepted":0,"idsRejected":3,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:07.668Z","source":"cma","query":"water pot","totalResults":55,"idsAccepted":0,"idsRejected":28,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:09.782Z","source":"cma","query":"export porcelain","totalResults":99,"idsAccepted":0,"idsRejected":68,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:10.952Z","source":"cma","query":"lidded cup","totalResults":48,"idsAccepted":0,"idsRejected":32,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:12.331Z","source":"cma","query":"covered cup","totalResults":80,"idsAccepted":0,"idsRejected":66,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:13.098Z","source":"cma","query":"Jizhou","totalResults":6,"idsAccepted":0,"idsRejected":3,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-18T02:17:14.836Z","source":"cma","query":"Japanese tea","totalResults":100,"idsAccepted":0,"idsRejected":59,"crawlBatchId":"expansion-1789697398122"}
