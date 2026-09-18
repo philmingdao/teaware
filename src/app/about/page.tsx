@@ -2,16 +2,54 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata, ogImage, FULL_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: '关于展览 | 器 · 茶',
-  description: '了解中国茶具艺术展的策展理念、数据来源与开放许可',
+  title: pageMetadata.about.title,
+  description: pageMetadata.about.description,
+  alternates: {
+    canonical: pageMetadata.about.canonical,
+  },
+  openGraph: {
+    title: `${pageMetadata.about.title} | 器 · 茶`,
+    description: pageMetadata.about.description,
+    url: pageMetadata.about.canonical,
+    images: [ogImage],
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${pageMetadata.about.title} | 器 · 茶`,
+    description: pageMetadata.about.description,
+    images: [ogImage.url],
+  },
+};
+
+const aboutPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: pageMetadata.about.title,
+  description: pageMetadata.about.description,
+  url: pageMetadata.about.canonical,
+  mainEntity: {
+    '@type': 'WebSite',
+    name: '器 · 茶 | 中国茶具艺术展',
+    url: FULL_URL,
+  },
+  isPartOf: {
+    '@type': 'WebSite',
+    name: '器 · 茶',
+    url: FULL_URL,
+  },
 };
 
 export default function AboutPage() {
   return (
-    <main className="flex-1">
-      <Header />
+    <>
+      <JsonLd data={aboutPageJsonLd} />
+      <main className="flex-1">
+        <Header />
       
       {/* Page Header */}
       <section className="pt-32 pb-12 bg-gradient-to-b from-[#f5f3ef] to-[#faf9f7] dark:from-[#171614] dark:to-[#0f0f0e]">
@@ -174,7 +212,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer />
-    </main>
+        <Footer />
+      </main>
+    </>
   );
 }

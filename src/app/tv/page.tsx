@@ -1,10 +1,27 @@
 import { Metadata } from 'next';
 import { Suspense } from 'react';
 import TVMode from '@/components/TVMode';
+import { pageMetadata, ogImage } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: '全屏展览 | 器 · 茶',
-  description: '电视/大屏全屏展览模式 - 沉浸式茶器艺术浏览',
+  title: pageMetadata.tv.title,
+  description: pageMetadata.tv.description,
+  alternates: {
+    canonical: pageMetadata.tv.canonical,
+  },
+  openGraph: {
+    title: `${pageMetadata.tv.title} | 器 · 茶`,
+    description: pageMetadata.tv.description,
+    url: pageMetadata.tv.canonical,
+    images: [ogImage],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${pageMetadata.tv.title} | 器 · 茶`,
+    description: pageMetadata.tv.description,
+    images: [ogImage.url],
+  },
 };
 
 function TVLoading() {

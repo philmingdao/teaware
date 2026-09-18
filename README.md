@@ -1,19 +1,26 @@
 # 器 · 茶 | 中国茶具艺术展
 
-**Chinese Tea Ware Artistic Gallery**
+**Chinese Tea Ware Artistic Gallery** — Open-Access Museum Collection
+
+> 探索跨越千年的中国茶具艺术，收录 1,000+ 件博物馆级开放藏品（CC0 公共领域）。
+> 
+> Explore the art of Chinese teaware across a thousand years. 1,000+ open-access artworks from world-class museums, all CC0 Public Domain.
+
+🌐 **Live: [philmingdao.github.io/teaware](https://philmingdao.github.io/teaware/)** · Open Access · CC0 Licensed
+
+---
 
 一个展示中国历代茶具艺术的博物馆级数字画廊。从唐宋建盏到明清官窑，品味跨越千年的器物之美。
 
 A museum-quality digital gallery showcasing historic Chinese teapots and tea bowls across dynasties — from Song dynasty Jian ware to Qing imperial porcelain.
 
-Gallery images are stored locally. Artwork image licenses and credit lines are recorded per item; the MIT badge applies to the site's code.
-
-🌐 **Live Demo: [https://philmingdao.github.io/teaware/](https://philmingdao.github.io/teaware/)**
+All artwork images are from open-access museum collections (The Metropolitan Museum of Art, Cleveland Museum of Art). Gallery images are stored locally; artwork licenses and credit lines are recorded per item. The MIT badge applies to the site's code.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue)
+![Open Access](https://img.shields.io/badge/Artworks-CC0%20Open%20Access-green.svg)
 
 ## 📊 Collection Statistics
 
