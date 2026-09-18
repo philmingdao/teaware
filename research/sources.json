@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T16:21:42.465198Z",
+  "lastUpdated": "2026-09-17T02:10:00.000Z",
   "sources": [
     {
       "id": "met",
@@ -14,7 +14,7 @@
       "license": "CC0",
       "licenseField": "isPublicDomain",
       "imageField": "primaryImage",
-      "lastCrawl": null,
+      "lastCrawl": "2026-09-17T02:10:00.000Z",
       "queries": [
         {
           "query": "tea bowl China",
@@ -131,7 +131,7 @@
       "license": "CC0",
       "licenseField": "share_license_status",
       "imageField": "images.web.url",
-      "lastCrawl": null,
+      "lastCrawl": "2026-09-17T02:10:00.000Z",
       "queries": [
         {
           "query": "teapot Chinese",
