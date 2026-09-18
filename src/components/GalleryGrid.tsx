@@ -102,19 +102,8 @@ export default function GalleryGrid() {
   };
 
   return (
-    <section className="py-20 bg-[#f5f3ef] dark:bg-[#171614]">
+    <section className="py-12 bg-[#f5f3ef] dark:bg-[#171614]">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]">
-            藏品浏览
-          </h2>
-          <p className="mt-2 text-sm text-[#666] dark:text-[#9a9894] font-serif-en tracking-wide">
-            Collection Gallery
-          </p>
-          <div className="divider-elegant"></div>
-        </div>
-
         {/* Filter Controls */}
         <div className="mb-12">
           {/* Filter Type Tabs */}
