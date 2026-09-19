@@ -151,7 +151,7 @@ export default function GalleryGrid() {
             </p>
             <div className="flex gap-2">
               <button
-                onClick={() => openSlideshow(filteredArtworks, 0)}
+                onClick={() => openSlideshow()}
                 className="inline-flex items-center gap-2 px-4 py-2 border border-[#1a1a1a] dark:border-[#e8e6e3] text-[#1a1a1a] dark:text-[#e8e6e3] hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-[#faf9f7] dark:hover:text-[#0f0f0e] text-sm tracking-wider transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

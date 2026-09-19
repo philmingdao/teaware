@@ -1,22 +1,19 @@
 'use client';
 
 import { useSlideshowContext } from './SlideshowProvider';
-import { Artwork } from '@/types/artwork';
 
 interface ArtworkSlideshowButtonProps {
-  allArtworks: Artwork[];
-  currentIndex: number;
+  currentArtworkId: string;
 }
 
 export default function ArtworkSlideshowButton({ 
-  allArtworks, 
-  currentIndex 
+  currentArtworkId 
 }: ArtworkSlideshowButtonProps) {
   const { openSlideshow } = useSlideshowContext();
 
   return (
     <button
-      onClick={() => openSlideshow(allArtworks, currentIndex)}
+      onClick={() => openSlideshow(currentArtworkId)}
       className="btn-elegant inline-flex items-center gap-2"
     >
       <svg 

@@ -1,17 +1,20 @@
 'use client';
 
-import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
+import { createContext, useContext, useState, useCallback, ReactNode, useEffect } from 'react';
 import { Artwork } from '@/types/artwork';
 import Slideshow from './Slideshow';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
+import { withBasePath } from '@/lib/paths';
 
 interface SlideshowContextType {
-  openSlideshow: (artworks: Artwork[], startIndex?: number) => void;
+  openSlideshow: (startArtworkId?: string) => void;
   closeSlideshow: () => void;
   isOpen: boolean;
 }
 
 const SlideshowContext = createContext<SlideshowContextType | null>(null);
+
+let cachedArtworks: Artwork[] | null = null;
 
 export function useSlideshowContext() {
   const context = useContext(SlideshowContext);
@@ -29,14 +32,35 @@ export default function SlideshowProvider({ children }: SlideshowProviderProps) 
   const [isOpen, setIsOpen] = useState(false);
   const [slideshowArtworks, setSlideshowArtworks] = useState<Artwork[]>([]);
   const [startIndex, setStartIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
   
   const { startMusic, stopMusic } = useBackgroundMusic();
 
-  const openSlideshow = useCallback((artworks: Artwork[], index: number = 0) => {
-    setSlideshowArtworks(artworks);
-    setStartIndex(index);
-    setIsOpen(true);
-    startMusic();
+  const openSlideshow = useCallback(async (startArtworkId?: string) => {
+    setIsLoading(true);
+    
+    try {
+      let artworks = cachedArtworks;
+      if (!artworks) {
+        const response = await fetch(withBasePath('/artworks.json'));
+        artworks = await response.json();
+        cachedArtworks = artworks;
+      }
+      
+      if (artworks && artworks.length > 0) {
+        setSlideshowArtworks(artworks);
+        const index = startArtworkId 
+          ? artworks.findIndex((a: Artwork) => a.id === startArtworkId)
+          : 0;
+        setStartIndex(index >= 0 ? index : 0);
+        setIsOpen(true);
+        startMusic();
+      }
+    } catch (error) {
+      console.error('Failed to load artworks for slideshow:', error);
+    } finally {
+      setIsLoading(false);
+    }
   }, [startMusic]);
 
   const closeSlideshow = useCallback(() => {
@@ -47,6 +71,11 @@ export default function SlideshowProvider({ children }: SlideshowProviderProps) 
   return (
     <SlideshowContext.Provider value={{ openSlideshow, closeSlideshow, isOpen }}>
       {children}
+      {isLoading && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80">
+          <div className="text-white text-lg">加载中...</div>
+        </div>
+      )}
       {isOpen && slideshowArtworks.length > 0 && (
         <Slideshow
           artworks={slideshowArtworks}

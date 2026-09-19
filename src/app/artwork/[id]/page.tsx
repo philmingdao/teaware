@@ -237,8 +237,7 @@ export default async function ArtworkPage({ params }: Props) {
                 {/* Action Buttons */}
                 <div className="flex flex-wrap gap-3">
                   <ArtworkSlideshowButton 
-                    allArtworks={artworks} 
-                    currentIndex={currentIndex} 
+                    currentArtworkId={artwork.id} 
                   />
                   <TVModeLink
                     href={`/tv?start=${artwork.id}`}
