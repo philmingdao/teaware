@@ -487,15 +487,82 @@ Japanese categories:
 - Rate limiting encountered on some Wikimedia requests (handled with retries)
 - Some museum Commons categories were empty or had no CC0/PD content
 
+## Round 7 Expansion - 2000 Milestone (2026-09-19)
+
+**+272 new artworks** (total now **2,052** - **milestone achieved!**)
+
+### Expansion Goals
+- **Primary target**: Reach 2,000 total artworks from key-free sources
+- Focus on fresh Met/CMA queries not heavily mined in previous rounds
+- Continue broadening dynasty and ware type coverage
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Metropolitan Museum of Art | 201 | Fresh queries: glazed bowls/cups, saucers, cup stands, ware types |
+| Cleveland Museum of Art | 71 | Dynasty-specific queries, Kangxi/Qing porcelain |
+| **Total** | **272** | - |
+
+### Content Breakdown by Object Type
+
+| Object Type | Count |
+|-------------|-------|
+| Tea Bowl/Cup | 225 |
+| Saucer | 29 |
+| Ewer | 6 |
+| Tea Caddy | 6 |
+| Cup Stand | 5 |
+| Chawan | 1 |
+
+### Content Breakdown by Dynasty/Period
+
+| Dynasty/Period | Count |
+|----------------|-------|
+| Other Period | 155 |
+| Edo Period (Japan) | 78 |
+| Qing Dynasty | 18 |
+| Goryeo Dynasty (Korea) | 16 |
+| Joseon Dynasty (Korea) | 3 |
+| Vietnam | 1 |
+| Ming Dynasty | 1 |
+
+### Key Queries Used
+
+Met Museum (201 new):
+- `glazed bowl China` - 10 items
+- `glazed cup China` - 12 items
+- `overglaze enamel cup China` - 12 items
+- `saucer China porcelain` - 12 items
+- `black glazed bowl China` - 3 items
+- `brown glazed bowl China` - 7 items
+- `green glazed bowl China` - 7 items
+- `Qingbai ware bowl` - 7 items
+- Dynasty queries (Five Dynasties, Liao, Jin, Yuan) - 26 items
+
+Cleveland Museum (71 new):
+- `Qing dynasty bowl` - 9 items
+- `Kangxi porcelain` - 10 items
+- `Japan ceramics bowl` - 10 items
+- `Korea ceramics` - 10 items
+- `underglaze blue` - 4 items
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- SHA256 hash deduplication prevented duplicate images
+- Build successful with 2,061 static pages generated
+- No remote imageUrl for any new items
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 1,780 |
-| Met Museum | 1,037 |
-| Cleveland Museum | 434 |
-| Wikimedia Commons (direct) | 241 |
-| Asian Museums via Commons | 68 |
+| Total Artworks | 2,052 |
+| Met Museum | 1,217 |
+| Cleveland Museum | 505 |
+| Wikimedia Commons | 330 |
 
 ## Future Expansion Recommendations
 

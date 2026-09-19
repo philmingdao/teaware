@@ -383,3 +383,70 @@
 {"timestamp":"2026-09-19T06:02:42.759Z","source":"cma","query":"Qingbai","idsAccepted":7,"crawlBatchId":"asia-expansion-1789797275255","durationMs":5486}
 {"timestamp":"2026-09-19T06:02:43.812Z","source":"cma","query":"Jizhou","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":652}
 {"timestamp":"2026-09-19T06:02:44.936Z","source":"cma","query":"Cizhou","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":723}
+{"timestamp":"2026-09-19T07:41:12.410Z","source":"met","query":"porcelain tea ware China","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":34482}
+{"timestamp":"2026-09-19T07:41:41.518Z","source":"met","query":"ceramic drinking vessel China","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":28807}
+{"timestamp":"2026-09-19T07:42:15.723Z","source":"met","query":"glazed bowl China","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":33904}
+{"timestamp":"2026-09-19T07:42:37.133Z","source":"met","query":"glazed cup China","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":21109}
+{"timestamp":"2026-09-19T07:43:00.707Z","source":"met","query":"saucer China porcelain","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":23274}
+{"timestamp":"2026-09-19T07:43:31.568Z","source":"met","query":"cup stand China","idsAccepted":4,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":30560}
+{"timestamp":"2026-09-19T07:44:01.132Z","source":"met","query":"tea service China","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":29263}
+{"timestamp":"2026-09-19T07:44:39.979Z","source":"met","query":"drinking bowl China","idsAccepted":9,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":38547}
+{"timestamp":"2026-09-19T07:44:46.851Z","source":"met","query":"wine bowl China porcelain","idsAccepted":2,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":6571}
+{"timestamp":"2026-09-19T07:45:31.701Z","source":"met","query":"punch bowl China","idsAccepted":6,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":44549}
+{"timestamp":"2026-09-19T07:45:35.706Z","source":"met","query":"handleless cup China","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":3704}
+{"timestamp":"2026-09-19T07:46:04.316Z","source":"met","query":"small bowl China porcelain","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":28310}
+{"timestamp":"2026-09-19T07:46:32.646Z","source":"met","query":"Five Dynasties bowl","idsAccepted":2,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":28029}
+{"timestamp":"2026-09-19T07:46:54.698Z","source":"met","query":"Five Dynasties cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":21751}
+{"timestamp":"2026-09-19T07:47:15.924Z","source":"met","query":"Liao dynasty bowl","idsAccepted":2,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":20925}
+{"timestamp":"2026-09-19T07:47:33.004Z","source":"met","query":"Liao dynasty cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":16780}
+{"timestamp":"2026-09-19T07:48:07.539Z","source":"met","query":"Jin dynasty bowl","idsAccepted":6,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":34234}
+{"timestamp":"2026-09-19T07:48:27.893Z","source":"met","query":"Jin dynasty cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":20053}
+{"timestamp":"2026-09-19T07:48:53.425Z","source":"met","query":"Southern Song cup","idsAccepted":2,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":25231}
+{"timestamp":"2026-09-19T07:49:17.398Z","source":"met","query":"Northern Song cup","idsAccepted":6,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":23672}
+{"timestamp":"2026-09-19T07:49:43.852Z","source":"met","query":"Yuan dynasty porcelain bowl","idsAccepted":8,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":26154}
+{"timestamp":"2026-09-19T07:49:59.101Z","source":"met","query":"Longquan ware bowl","idsAccepted":2,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":14948}
+{"timestamp":"2026-09-19T07:50:09.255Z","source":"met","query":"Longquan ware cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":9855}
+{"timestamp":"2026-09-19T07:50:18.615Z","source":"met","query":"Ding ware cup","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":9059}
+{"timestamp":"2026-09-19T07:50:36.027Z","source":"met","query":"Cizhou ware cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":17111}
+{"timestamp":"2026-09-19T07:50:57.173Z","source":"met","query":"Qingbai ware bowl","idsAccepted":7,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":20846}
+{"timestamp":"2026-09-19T07:51:07.482Z","source":"met","query":"Qingbai ware cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":10008}
+{"timestamp":"2026-09-19T07:51:43.948Z","source":"met","query":"black glazed bowl China","idsAccepted":3,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":36165}
+{"timestamp":"2026-09-19T07:52:17.503Z","source":"met","query":"brown glazed bowl China","idsAccepted":7,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":33254}
+{"timestamp":"2026-09-19T07:52:49.037Z","source":"met","query":"white glazed bowl China","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":31233}
+{"timestamp":"2026-09-19T07:53:21.613Z","source":"met","query":"green glazed bowl China","idsAccepted":7,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":32275}
+{"timestamp":"2026-09-19T07:53:36.158Z","source":"met","query":"overglaze enamel cup China","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":14245}
+{"timestamp":"2026-09-19T07:53:36.767Z","source":"met","query":"doucai cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":308}
+{"timestamp":"2026-09-19T07:53:37.370Z","source":"met","query":"doucai bowl","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":302}
+{"timestamp":"2026-09-19T07:54:04.865Z","source":"met","query":"Jingdezhen porcelain bowl","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":27194}
+{"timestamp":"2026-09-19T07:54:24.445Z","source":"met","query":"Jingdezhen porcelain cup","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":19279}
+{"timestamp":"2026-09-19T07:54:34.960Z","source":"met","query":"Canton porcelain cup","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":10214}
+{"timestamp":"2026-09-19T07:54:39.549Z","source":"met","query":"Swatow porcelain bowl","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":4288}
+{"timestamp":"2026-09-19T07:54:49.548Z","source":"met","query":"kraak porcelain bowl","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":9698}
+{"timestamp":"2026-09-19T07:54:56.402Z","source":"met","query":"export ware bowl China","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":6553}
+{"timestamp":"2026-09-19T07:55:28.575Z","source":"met","query":"trade porcelain bowl","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":31873}
+{"timestamp":"2026-09-19T07:55:38.662Z","source":"met","query":"Mino ware tea bowl","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":9786}
+{"timestamp":"2026-09-19T07:56:08.109Z","source":"met","query":"Seto ware bowl","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":29146}
+{"timestamp":"2026-09-19T07:56:24.503Z","source":"met","query":"Karatsu ware bowl","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":16093}
+{"timestamp":"2026-09-19T07:56:25.105Z","source":"met","query":"Iga ware","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":301}
+{"timestamp":"2026-09-19T07:56:32.882Z","source":"met","query":"tea ceremony utensil Japan","idsAccepted":2,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":7476}
+{"timestamp":"2026-09-19T07:56:36.068Z","source":"met","query":"matcha bowl Japan","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":2886}
+{"timestamp":"2026-09-19T07:56:36.675Z","source":"met","query":"mizusashi Japan","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":308}
+{"timestamp":"2026-09-19T07:56:37.275Z","source":"met","query":"futaoki Japan","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":300}
+{"timestamp":"2026-09-19T07:57:01.054Z","source":"met","query":"Joseon porcelain cup","idsAccepted":12,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":23479}
+{"timestamp":"2026-09-19T07:57:29.287Z","source":"met","query":"Joseon dynasty bowl","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":27933}
+{"timestamp":"2026-09-19T07:57:40.272Z","source":"met","query":"Korean white porcelain cup","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":10684}
+{"timestamp":"2026-09-19T07:57:52.117Z","source":"met","query":"Korean blue white bowl","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":11544}
+{"timestamp":"2026-09-19T07:57:57.673Z","source":"met","query":"Vietnamese ceramics bowl","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":5256}
+{"timestamp":"2026-09-19T07:57:58.283Z","source":"met","query":"Annamese ceramics","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":309}
+{"timestamp":"2026-09-19T07:57:59.320Z","source":"cma","query":"Asian ceramics bowl","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":738}
+{"timestamp":"2026-09-19T07:58:00.486Z","source":"cma","query":"Asian ceramics cup","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":965}
+{"timestamp":"2026-09-19T07:58:01.311Z","source":"cma","query":"East Asian porcelain","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":624}
+{"timestamp":"2026-09-19T07:58:08.003Z","source":"cma","query":"Chinese export","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":6491}
+{"timestamp":"2026-09-19T07:58:14.659Z","source":"cma","query":"Korea ceramics","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":6456}
+{"timestamp":"2026-09-19T07:58:22.095Z","source":"cma","query":"Japan ceramics bowl","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":7235}
+{"timestamp":"2026-09-19T07:58:27.863Z","source":"cma","query":"drinking vessel","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":5567}
+{"timestamp":"2026-09-19T07:58:34.046Z","source":"cma","query":"tea service","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":5983}
+{"timestamp":"2026-09-19T07:58:36.619Z","source":"cma","query":"Song dynasty","idsAccepted":1,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":2373}
+{"timestamp":"2026-09-19T07:58:39.045Z","source":"cma","query":"Ming dynasty","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":2226}
+{"timestamp":"2026-09-19T07:58:43.993Z","source":"cma","query":"Qing dynasty bowl","idsAccepted":9,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":4748}
+{"timestamp":"2026-09-19T07:58:52.490Z","source":"cma","query":"Kangxi porcelain","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":8296}
