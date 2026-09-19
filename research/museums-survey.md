@@ -302,12 +302,80 @@ For the next expansion, continue with smaller, visually reviewed groups and chec
 - Met API occasionally returns HTML errors (rate limiting) - handled gracefully
 - All 81 new images verified as valid JPEG with reasonable dimensions (>5KB)
 
+## Round 5 Expansion (2026-09-19)
+
+**+193 new artworks** (total now **1,449**)
+
+### Expansion Goals
+- Focus on underrepresented types: teapots, tea caddies, ewers, gaiwan
+- Mine untapped queries from Met, CMA, and Wikimedia Commons
+- All images self-hosted under `public/artworks/`
+
+### Sources and Queries
+
+| Source | New Items | Sample Queries |
+|--------|-----------|----------------|
+| Metropolitan Museum of Art | 147 | porcelain teapot China, enameled teapot China, armorial teapot China, tea container China, covered jar tea China, covered cup China, ewer porcelain China, wine ewer China, Seto/Shigaraki/Oribe tea bowl |
+| Cleveland Museum of Art | 27 | enamel teapot, tea container, chaire tea, water dropper Chinese, ewer Asian |
+| Wikimedia Commons | 19 | Category:Tea_caddies, Category:Gaiwan, Category:Dehua_porcelain |
+| **Total** | **193** | 56 queries attempted |
+
+### Content Breakdown by Type
+
+| Object Type | Count |
+|-------------|-------|
+| Tea Bowl/Cup | 67 |
+| Tea Caddy | 47 |
+| Teapot | 37 |
+| Ewer | 29 |
+| Tea Set | 4 |
+| Gaiwan / Covered Cup | 3 |
+| Kettle | 2 |
+| Water Dropper | 2 |
+| Other | 2 |
+
+### Content Breakdown by Dynasty
+
+| Dynasty | Count |
+|---------|-------|
+| Edo Period (Japan) | 88 |
+| Other Period | 80 |
+| Unknown | 13 |
+| Qing Dynasty | 5 |
+| Yuan Dynasty | 4 |
+| Vietnam | 3 |
+
+### Highlights
+- Significant expansion of Japanese tea ceremony ware (Seto, Shigaraki, Oribe, Shino styles)
+- New Chinese export porcelain teapots with armorial designs
+- Enameled and blue-and-white teapots from Met collection
+- Tea caddies (chaire, natsume) from Japanese collections
+- Korean ceramics and Vietnamese tea bowls
+- Dehua porcelain additions from Wikimedia Commons
+
+### Technical Notes
+- Met API returned 403 for "kraak teapot" query (rate limiting) - handled gracefully
+- Some Wikimedia images rejected for being too small (<5KB)
+- SHA256 hash deduplication prevented any duplicate images
+- All 193 new images validated as proper JPEG binaries
+
+## Current Collection Summary
+
+| Category | Count |
+|----------|-------|
+| Total Artworks | 1,449 |
+| Met Museum | 982 |
+| Cleveland Museum | 396 |
+| Wikimedia Commons | 26 |
+| Other Sources | 45 |
+
 ## Future Expansion Recommendations
 
 1. **Priority 1**: Obtain API keys for Smithsonian (Freer/Sackler) and National Palace Museum Taiwan
 2. **Priority 2**: Obtain Rijksmuseum key for Chinese export porcelain
 3. **Priority 3**: Explore V&A API for image access
 4. **Priority 4**: Manual curation from British Museum (CC-BY-NC-SA acceptable?)
+5. **Priority 5**: More targeted queries for Yixing purple clay (zisha) teapots
 
 ---
 

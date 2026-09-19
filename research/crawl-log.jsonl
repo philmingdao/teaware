@@ -209,3 +209,69 @@
 {"timestamp":"2026-09-18T02:17:12.331Z","source":"cma","query":"covered cup","totalResults":80,"idsAccepted":0,"idsRejected":66,"crawlBatchId":"expansion-1789697398122"}
 {"timestamp":"2026-09-18T02:17:13.098Z","source":"cma","query":"Jizhou","totalResults":6,"idsAccepted":0,"idsRejected":3,"crawlBatchId":"expansion-1789697398122"}
 {"timestamp":"2026-09-18T02:17:14.836Z","source":"cma","query":"Japanese tea","totalResults":100,"idsAccepted":0,"idsRejected":59,"crawlBatchId":"expansion-1789697398122"}
+{"timestamp":"2026-09-19T05:34:10.377Z","source":"met","query":"porcelain teapot China","idsAccepted":6,"crawlBatchId":"expansion-1789796017966","durationMs":32390}
+{"timestamp":"2026-09-19T05:34:42.716Z","source":"met","query":"earthenware teapot China","idsAccepted":3,"crawlBatchId":"expansion-1789796017966","durationMs":31838}
+{"timestamp":"2026-09-19T05:35:15.557Z","source":"met","query":"stoneware teapot China","idsAccepted":3,"crawlBatchId":"expansion-1789796017966","durationMs":32340}
+{"timestamp":"2026-09-19T05:35:16.361Z","source":"met","query":"melon teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":304}
+{"timestamp":"2026-09-19T05:35:17.163Z","source":"met","query":"peach teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":301}
+{"timestamp":"2026-09-19T05:35:18.234Z","source":"met","query":"bamboo teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":571}
+{"timestamp":"2026-09-19T05:35:19.495Z","source":"met","query":"squash teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":760}
+{"timestamp":"2026-09-19T05:35:20.977Z","source":"met","query":"pumpkin teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":981}
+{"timestamp":"2026-09-19T05:36:13.171Z","source":"met","query":"enameled teapot China","idsAccepted":12,"crawlBatchId":"expansion-1789796017966","durationMs":51693}
+{"timestamp":"2026-09-19T05:36:21.439Z","source":"met","query":"armorial teapot China","idsAccepted":4,"crawlBatchId":"expansion-1789796017966","durationMs":7767}
+{"timestamp":"2026-09-19T05:36:22.254Z","source":"met","query":"imari teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":315}
+{"timestamp":"2026-09-19T05:36:22.970Z","source":"met","query":"kraak teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":215}
+{"timestamp":"2026-09-19T05:36:26.584Z","source":"met","query":"tea canister China","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":3114}
+{"timestamp":"2026-09-19T05:36:56.340Z","source":"met","query":"tea container China","idsAccepted":5,"crawlBatchId":"expansion-1789796017966","durationMs":29255}
+{"timestamp":"2026-09-19T05:37:05.441Z","source":"met","query":"tea storage China","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":8600}
+{"timestamp":"2026-09-19T05:37:08.348Z","source":"met","query":"ginger jar tea","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":2407}
+{"timestamp":"2026-09-19T05:37:22.691Z","source":"met","query":"covered jar tea China","idsAccepted":12,"crawlBatchId":"expansion-1789796017966","durationMs":13843}
+{"timestamp":"2026-09-19T05:38:02.229Z","source":"met","query":"tea box porcelain","idsAccepted":7,"crawlBatchId":"expansion-1789796017966","durationMs":39037}
+{"timestamp":"2026-09-19T05:38:23.398Z","source":"met","query":"covered cup China","idsAccepted":10,"crawlBatchId":"expansion-1789796017966","durationMs":20667}
+{"timestamp":"2026-09-19T05:39:06.858Z","source":"met","query":"lidded bowl China","idsAccepted":8,"crawlBatchId":"expansion-1789796017966","durationMs":42960}
+{"timestamp":"2026-09-19T05:39:25.785Z","source":"met","query":"covered tea bowl","idsAccepted":10,"crawlBatchId":"expansion-1789796017966","durationMs":18426}
+{"timestamp":"2026-09-19T05:40:07.745Z","source":"met","query":"cup with cover China","idsAccepted":8,"crawlBatchId":"expansion-1789796017966","durationMs":41460}
+{"timestamp":"2026-09-19T05:40:37.455Z","source":"met","query":"cup and saucer China","idsAccepted":1,"crawlBatchId":"expansion-1789796017966","durationMs":29209}
+{"timestamp":"2026-09-19T05:41:09.445Z","source":"met","query":"ewer porcelain China","idsAccepted":10,"crawlBatchId":"expansion-1789796017966","durationMs":31489}
+{"timestamp":"2026-09-19T05:41:23.224Z","source":"met","query":"wine ewer China","idsAccepted":10,"crawlBatchId":"expansion-1789796017966","durationMs":13279}
+{"timestamp":"2026-09-19T05:41:45.843Z","source":"met","query":"pouring vessel China","idsAccepted":10,"crawlBatchId":"expansion-1789796017966","durationMs":22119}
+{"timestamp":"2026-09-19T05:41:54.522Z","source":"met","query":"kettle porcelain China","idsAccepted":2,"crawlBatchId":"expansion-1789796017966","durationMs":8178}
+{"timestamp":"2026-09-19T05:42:17.035Z","source":"met","query":"chocolate pot China","idsAccepted":1,"crawlBatchId":"expansion-1789796017966","durationMs":22012}
+{"timestamp":"2026-09-19T05:42:19.298Z","source":"met","query":"conical tea bowl","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":1762}
+{"timestamp":"2026-09-19T05:42:31.622Z","source":"met","query":"fluted tea bowl","idsAccepted":1,"crawlBatchId":"expansion-1789796017966","durationMs":11823}
+{"timestamp":"2026-09-19T05:42:32.428Z","source":"met","query":"raku bowl","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":305}
+{"timestamp":"2026-09-19T05:42:40.523Z","source":"met","query":"Seto tea bowl","idsAccepted":8,"crawlBatchId":"expansion-1789796017966","durationMs":7595}
+{"timestamp":"2026-09-19T05:42:51.046Z","source":"met","query":"Shino tea bowl","idsAccepted":3,"crawlBatchId":"expansion-1789796017966","durationMs":10022}
+{"timestamp":"2026-09-19T05:42:58.037Z","source":"met","query":"Shigaraki tea bowl","idsAccepted":3,"crawlBatchId":"expansion-1789796017966","durationMs":6490}
+{"timestamp":"2026-09-19T05:43:02.748Z","source":"met","query":"Bizen tea bowl","idsAccepted":1,"crawlBatchId":"expansion-1789796017966","durationMs":4210}
+{"timestamp":"2026-09-19T05:43:06.166Z","source":"met","query":"Hagi tea bowl","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":2918}
+{"timestamp":"2026-09-19T05:43:18.357Z","source":"met","query":"Oribe tea bowl","idsAccepted":8,"crawlBatchId":"expansion-1789796017966","durationMs":11691}
+{"timestamp":"2026-09-19T05:43:20.381Z","source":"met","query":"Korean punch bowl","idsAccepted":1,"crawlBatchId":"expansion-1789796017966","durationMs":1523}
+{"timestamp":"2026-09-19T05:43:22.306Z","source":"met","query":"Vietnamese tea bowl","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":1424}
+{"timestamp":"2026-09-19T05:43:24.847Z","source":"cma","query":"Yixing teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":2040}
+{"timestamp":"2026-09-19T05:43:25.966Z","source":"cma","query":"purple clay teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":819}
+{"timestamp":"2026-09-19T05:43:26.932Z","source":"cma","query":"zisha teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":665}
+{"timestamp":"2026-09-19T05:43:31.798Z","source":"cma","query":"enamel teapot","idsAccepted":5,"crawlBatchId":"expansion-1789796017966","durationMs":4565}
+{"timestamp":"2026-09-19T05:43:33.999Z","source":"cma","query":"stoneware teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":1901}
+{"timestamp":"2026-09-19T05:43:34.733Z","source":"cma","query":"pewter teapot","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":434}
+{"timestamp":"2026-09-19T05:43:35.993Z","source":"cma","query":"tea canister","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":959}
+{"timestamp":"2026-09-19T05:43:41.977Z","source":"cma","query":"tea container","idsAccepted":10,"crawlBatchId":"expansion-1789796017966","durationMs":5683}
+{"timestamp":"2026-09-19T05:43:42.685Z","source":"cma","query":"natsume","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":408}
+{"timestamp":"2026-09-19T05:43:45.566Z","source":"cma","query":"chaire tea","idsAccepted":3,"crawlBatchId":"expansion-1789796017966","durationMs":2581}
+{"timestamp":"2026-09-19T05:43:48.037Z","source":"cma","query":"water dropper Chinese","idsAccepted":4,"crawlBatchId":"expansion-1789796017966","durationMs":2170}
+{"timestamp":"2026-09-19T05:43:48.756Z","source":"cma","query":"tea scoop","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":419}
+{"timestamp":"2026-09-19T05:43:49.980Z","source":"cma","query":"tea whisk","idsAccepted":1,"crawlBatchId":"expansion-1789796017966","durationMs":924}
+{"timestamp":"2026-09-19T05:43:51.899Z","source":"cma","query":"ewer Asian","idsAccepted":2,"crawlBatchId":"expansion-1789796017966","durationMs":1618}
+{"timestamp":"2026-09-19T05:43:53.399Z","source":"cma","query":"wine pot Chinese","idsAccepted":2,"crawlBatchId":"expansion-1789796017966","durationMs":1199}
+{"timestamp":"2026-09-19T05:43:54.172Z","source":"wikimedia","query":"Category:Chinese_teapots","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":473}
+{"timestamp":"2026-09-19T05:43:55.085Z","source":"wikimedia","query":"Category:Yixing_clay_teapots","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":412}
+{"timestamp":"2026-09-19T05:43:55.999Z","source":"wikimedia","query":"Category:Teapots_in_the_Metropolitan_Museum_of_Art","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":413}
+{"timestamp":"2026-09-19T05:43:56.911Z","source":"wikimedia","query":"Category:Teapots_in_the_Victoria_and_Albert_Museum","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":411}
+{"timestamp":"2026-09-19T05:43:57.820Z","source":"wikimedia","query":"Category:Teapots_in_the_British_Museum","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":408}
+{"timestamp":"2026-09-19T05:44:05.307Z","source":"wikimedia","query":"Category:Tea_caddies","idsAccepted":8,"crawlBatchId":"expansion-1789796017966","durationMs":6987}
+{"timestamp":"2026-09-19T05:44:08.182Z","source":"wikimedia","query":"Category:Gaiwan","idsAccepted":3,"crawlBatchId":"expansion-1789796017966","durationMs":2375}
+{"timestamp":"2026-09-19T05:44:09.082Z","source":"wikimedia","query":"Category:Chinese_porcelain_teapots","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":400}
+{"timestamp":"2026-09-19T05:44:18.922Z","source":"wikimedia","query":"Category:Dehua_porcelain","idsAccepted":8,"crawlBatchId":"expansion-1789796017966","durationMs":9339}
+{"timestamp":"2026-09-19T05:44:19.934Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_Asian_Art_Museum","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":510}
+{"timestamp":"2026-09-19T05:44:20.850Z","source":"wikimedia","query":"Category:Song_dynasty_ceramics","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":415}
+{"timestamp":"2026-09-19T05:44:21.786Z","source":"wikimedia","query":"Category:Temmoku_ware","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":436}
