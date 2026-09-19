@@ -1,16 +1,17 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-18 (Expansion Round 4)  
+Last updated: 2026-09-19 (Asia Expansion Round 6)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 835 | ✅ Self-hosted | Active |
-| Cleveland Museum of Art | 369 | ✅ Self-hosted | Active |
-| Wikimedia Commons | 52 | ✅ Self-hosted | Active |
-| **Total** | **1,256** | **All local** | - |
+| Metropolitan Museum of Art | 1,037 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 434 | ✅ Self-hosted | Active |
+| Wikimedia Commons | 241 | ✅ Self-hosted | Active |
+| Other (via Commons) | 68 | ✅ Self-hosted | Active |
+| **Total** | **1,780** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -359,23 +360,162 @@ For the next expansion, continue with smaller, visually reviewed groups and chec
 - SHA256 hash deduplication prevented any duplicate images
 - All 193 new images validated as proper JPEG binaries
 
+## Round 6 Expansion - Asia Focus (2026-09-19)
+
+**+331 new artworks** (total now **1,780**)
+
+### Expansion Goals
+- Focus on **Asian museum sources** via Wikimedia Commons
+- Prioritize underrepresented Chinese kilns/types (汝窑、官窑、钧窑、哥窑、定窑、建盏、吉州、磁州)
+- Add Korean and Japanese tea ware from Asian museum collections
+- Strengthen provenance from Asian institutions
+
+### Sources and Museum Breakdown
+
+| Source Museum | New Items | Notes |
+|---------------|-----------|-------|
+| Wikimedia Commons (general) | 189 | Yixing, Jian, Korean, Japanese wares |
+| Metropolitan Museum of Art | 55 | Asian kiln queries (Guan, Cizhou, Changsha, etc.) |
+| Cleveland Museum of Art | 38 | Korean, Japanese supplementary |
+| Tokyo National Museum | 12 | Via Commons categories |
+| Freer Gallery of Art | 10 | Guan ware, tea caddies |
+| National Museum of Korea | 10 | Goryeo celadon |
+| Asian Art Museum | 9 | Jun ware, various |
+| Shanghai Museum | 5 | Guan ware, celadon |
+| British Museum | 2 | Limited PD tea ware |
+| Palace Museum Beijing | 1 | Very limited CC0/PD |
+| **Total** | **331** | - |
+
+### Content Breakdown by Object Type
+
+| Object Type | Count |
+|-------------|-------|
+| Tea Bowl/Cup | 269 |
+| Ewer | 22 |
+| Chawan (Tea Bowl) | 14 |
+| Tea Caddy | 13 |
+| Tea Set | 7 |
+| Teapot | 5 |
+| Kettle | 1 |
+
+### Content Breakdown by Dynasty/Period
+
+| Dynasty/Period | Count |
+|----------------|-------|
+| Song Dynasty | 89 |
+| Other Period | 76 |
+| Edo Period (Japan) | 52 |
+| Goryeo Dynasty (Korea) | 28 |
+| Joseon Dynasty (Korea) | 22 |
+| Northern Song | 19 |
+| Southern Song | 18 |
+| Yuan Dynasty | 12 |
+| Momoyama Period (Japan) | 8 |
+| Ming Dynasty | 4 |
+| Qing Dynasty | 3 |
+
+### Content Breakdown by Material/Kiln
+
+| Material/Kiln | Count |
+|---------------|-------|
+| Celadon (general) | 42 |
+| Porcelain | 39 |
+| Mino Ware | 23 |
+| Jian Ware (建盏) | 22 |
+| Seto Ware (瀬戸焼) | 15 |
+| Bizen Ware (備前焼) | 11 |
+| Yixing Clay (紫砂) | 10 |
+| Longquan Celadon (龙泉) | 10 |
+| Jun Ware (钧窑) | 10 |
+| Ding Ware (定窑) | 10 |
+| Shigaraki Ware (信楽焼) | 10 |
+| Karatsu Ware (唐津焼) | 10 |
+| Guan Ware (官窑) | 8 |
+| Hagi Ware (萩焼) | 7 |
+| Raku Ware (楽焼) | 6 |
+| Ru Ware (汝窑) | 5 |
+| Goryeo Celadon (高麗青瓷) | 6 |
+| Blue and White | 4 |
+
+### Key Wikimedia Commons Categories Scanned
+
+Chinese museums/kilns:
+- `Category:Yixing_ware` - 13 CC0/PD, 10 accepted
+- `Category:Jian_ware` - 30 CC0/PD, 10 accepted
+- `Category:Longquan_celadon` - 19 CC0/PD, 10 accepted
+- `Category:Chinese_celadon` - 27 CC0/PD, 10 accepted
+- `Category:Ru_ware` - 7 CC0/PD, 6 accepted
+- `Category:Guan_ware` - 11 CC0/PD, 10 accepted
+- `Category:Jun_ware` - 17 CC0/PD, 10 accepted
+- `Category:Ding_ware` - 39 CC0/PD, 10 accepted
+- `Category:Ge_ware` - 1 CC0/PD, 1 accepted
+- `Category:Dehua_porcelain` - 11 CC0/PD, limited unique
+
+Korean categories:
+- `Category:Korean_celadon` - 42 CC0/PD, 10 accepted
+- `Category:Goryeo_celadon` - 51 CC0/PD, 10 accepted
+- `Category:Buncheong` - 12 CC0/PD, 6 accepted
+
+Japanese categories:
+- `Category:Chawan` - 49 CC0/PD, 10 accepted
+- `Category:Raku_ware` - 20 CC0/PD, 6 accepted
+- `Category:Seto_ware` - 55 CC0/PD, 10 accepted
+- `Category:Mino_ware` - 14 CC0/PD, 10 accepted
+- `Category:Oribe_ware` - 36 CC0/PD, 10 accepted
+- `Category:Shino_ware` - 39 CC0/PD, 10 accepted
+- `Category:Bizen_ware` - 29 CC0/PD, 10 accepted
+- `Category:Hagi_ware` - 8 CC0/PD, 7 accepted
+- `Category:Shigaraki_ware` - 27 CC0/PD, 10 accepted
+- `Category:Karatsu_ware` - 30 CC0/PD, 10 accepted
+
+### Key Findings - Asian Museums on Commons
+
+| Museum | CC0/PD Images | Accepted | Notes |
+|--------|---------------|----------|-------|
+| Tokyo National Museum | 12 total | 12 | Good chawan/ceramics |
+| Freer Gallery of Art | 15+ | 10 | Guan ware, tea caddies |
+| National Museum of Korea | 15+ | 10 | Goryeo celadon |
+| Asian Art Museum SF | 12+ | 9 | Jun ware, various |
+| Shanghai Museum | 6 | 5 | Guan ware, celadon |
+| Palace Museum Beijing | 2 | 1 | Very limited CC0/PD |
+
+**Critical finding**: Most major Asian museums (故宫博物院, 上海博物馆, 台北故宮) have **very limited** public domain images on Wikimedia Commons. API access is **essential** for meaningful expansion from these premier collections.
+
+### Technical Notes
+- SHA256 hash deduplication prevented duplicate images
+- All 331 new images validated as proper image binaries
+- Rate limiting encountered on some Wikimedia requests (handled with retries)
+- Some museum Commons categories were empty or had no CC0/PD content
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 1,449 |
-| Met Museum | 982 |
-| Cleveland Museum | 396 |
-| Wikimedia Commons | 26 |
-| Other Sources | 45 |
+| Total Artworks | 1,780 |
+| Met Museum | 1,037 |
+| Cleveland Museum | 434 |
+| Wikimedia Commons (direct) | 241 |
+| Asian Museums via Commons | 68 |
 
 ## Future Expansion Recommendations
 
-1. **Priority 1**: Obtain API keys for Smithsonian (Freer/Sackler) and National Palace Museum Taiwan
-2. **Priority 2**: Obtain Rijksmuseum key for Chinese export porcelain
-3. **Priority 3**: Explore V&A API for image access
-4. **Priority 4**: Manual curation from British Museum (CC-BY-NC-SA acceptable?)
-5. **Priority 5**: More targeted queries for Yixing purple clay (zisha) teapots
+### Priority 1: Asian Museum APIs (High Value)
+1. **National Palace Museum Taiwan (台北故宮)** - Premier imperial collection; API key registration at https://openapi.npm.gov.tw/
+2. **Smithsonian (Freer/Sackler)** - Excellent Chinese ceramics; API key at https://api.data.gov/signup/
+
+### Priority 2: Asian Museum APIs (Supplementary)
+3. **Tokyo National Museum / ColBase** - Japanese tea ceremony ware; complex registration
+4. **National Museum of Korea** - Goryeo celadon; Korean phone verification required
+5. **Rijksmuseum** - Chinese export porcelain for European markets
+
+### Priority 3: Further Commons Mining
+6. Continue scanning specific museum-in-Commons categories as new uploads appear
+7. Target specific kiln categories not yet exhausted
+
+### Priority 4: Investigation Needed
+8. **V&A Museum API** - Verify image access terms
+9. **Asian Art Museum SF** - Check for undocumented API
+10. **Musée Guimet** - French Asian art collection
 
 ---
 
