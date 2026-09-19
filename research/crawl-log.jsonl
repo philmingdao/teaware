@@ -275,3 +275,111 @@
 {"timestamp":"2026-09-19T05:44:19.934Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_Asian_Art_Museum","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":510}
 {"timestamp":"2026-09-19T05:44:20.850Z","source":"wikimedia","query":"Category:Song_dynasty_ceramics","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":415}
 {"timestamp":"2026-09-19T05:44:21.786Z","source":"wikimedia","query":"Category:Temmoku_ware","idsAccepted":0,"crawlBatchId":"expansion-1789796017966","durationMs":436}
+{"timestamp":"2026-09-19T05:54:35.914Z","source":"wikimedia","query":"Category:Tea_ware_in_the_Palace_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":629}
+{"timestamp":"2026-09-19T05:54:37.410Z","source":"wikimedia","query":"Category:Ceramics_in_the_Palace_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":695}
+{"timestamp":"2026-09-19T05:54:38.798Z","source":"wikimedia","query":"Category:Porcelain_in_the_Palace_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":587}
+{"timestamp":"2026-09-19T05:54:40.151Z","source":"wikimedia","query":"Category:Tea_ware_in_the_Shanghai_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":552}
+{"timestamp":"2026-09-19T05:54:43.048Z","source":"wikimedia","query":"Category:Ceramics_in_the_Shanghai_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2097}
+{"timestamp":"2026-09-19T05:54:44.459Z","source":"wikimedia","query":"Category:Tea_ware_in_the_Nanjing_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":610}
+{"timestamp":"2026-09-19T05:54:45.828Z","source":"wikimedia","query":"Category:Ceramics_in_the_Nanjing_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":569}
+{"timestamp":"2026-09-19T05:54:47.180Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_National_Palace_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":551}
+{"timestamp":"2026-09-19T05:54:48.531Z","source":"wikimedia","query":"Category:Tea_ware_from_the_National_Palace_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":551}
+{"timestamp":"2026-09-19T05:54:49.921Z","source":"wikimedia","query":"Category:Porcelain_in_the_National_Palace_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":589}
+{"timestamp":"2026-09-19T05:54:51.301Z","source":"wikimedia","query":"Category:Chinese_tea_culture","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":579}
+{"timestamp":"2026-09-19T05:55:09.406Z","source":"wikimedia","query":"Category:Yixing_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":17305}
+{"timestamp":"2026-09-19T05:55:10.789Z","source":"wikimedia","query":"Category:Yixing_clay_teapots","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":581}
+{"timestamp":"2026-09-19T05:55:12.144Z","source":"wikimedia","query":"Category:Yixing_pottery","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":553}
+{"timestamp":"2026-09-19T05:55:15.210Z","source":"wikimedia","query":"Category:Jian_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2265}
+{"timestamp":"2026-09-19T05:55:16.572Z","source":"wikimedia","query":"Category:Jianzhan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":561}
+{"timestamp":"2026-09-19T05:55:17.929Z","source":"wikimedia","query":"Category:Tenmoku_ware","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":556}
+{"timestamp":"2026-09-19T05:55:25.725Z","source":"wikimedia","query":"Category:Longquan_celadon","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":6995}
+{"timestamp":"2026-09-19T05:55:28.325Z","source":"wikimedia","query":"Category:Longquan_ware","idsAccepted":1,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1799}
+{"timestamp":"2026-09-19T05:55:30.981Z","source":"wikimedia","query":"Category:Celadon","idsAccepted":5,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1855}
+{"timestamp":"2026-09-19T05:55:45.440Z","source":"wikimedia","query":"Category:Chinese_celadon","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":13658}
+{"timestamp":"2026-09-19T05:55:50.265Z","source":"wikimedia","query":"Category:Ru_ware","idsAccepted":6,"crawlBatchId":"asia-expansion-1789797275255","durationMs":4024}
+{"timestamp":"2026-09-19T05:55:58.347Z","source":"wikimedia","query":"Category:Guan_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":7282}
+{"timestamp":"2026-09-19T05:56:01.919Z","source":"wikimedia","query":"Category:Jun_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2771}
+{"timestamp":"2026-09-19T05:56:03.446Z","source":"wikimedia","query":"Category:Ge_ware","idsAccepted":1,"crawlBatchId":"asia-expansion-1789797275255","durationMs":726}
+{"timestamp":"2026-09-19T05:56:11.091Z","source":"wikimedia","query":"Category:Ding_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":6844}
+{"timestamp":"2026-09-19T05:56:18.325Z","source":"wikimedia","query":"Category:Dehua_porcelain","idsAccepted":3,"crawlBatchId":"asia-expansion-1789797275255","durationMs":6433}
+{"timestamp":"2026-09-19T05:56:19.753Z","source":"wikimedia","query":"Category:Blanc_de_Chine","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":627}
+{"timestamp":"2026-09-19T05:56:26.621Z","source":"wikimedia","query":"Category:Qingbai_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":6067}
+{"timestamp":"2026-09-19T05:56:28.008Z","source":"wikimedia","query":"Category:Song_dynasty_ceramics","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":586}
+{"timestamp":"2026-09-19T05:56:29.365Z","source":"wikimedia","query":"Category:Ming_dynasty_porcelain","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":556}
+{"timestamp":"2026-09-19T05:56:30.753Z","source":"wikimedia","query":"Category:Qing_dynasty_porcelain","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":587}
+{"timestamp":"2026-09-19T05:56:38.699Z","source":"wikimedia","query":"Category:Korean_celadon","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":7145}
+{"timestamp":"2026-09-19T05:56:49.776Z","source":"wikimedia","query":"Category:Goryeo_celadon","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":10275}
+{"timestamp":"2026-09-19T05:56:51.191Z","source":"wikimedia","query":"Category:Buncheong","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":614}
+{"timestamp":"2026-09-19T05:56:52.561Z","source":"wikimedia","query":"Category:Punch%27%C5%8Fng","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":569}
+{"timestamp":"2026-09-19T05:56:53.936Z","source":"wikimedia","query":"Category:Korean_tea_bowls","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":574}
+{"timestamp":"2026-09-19T05:56:55.300Z","source":"wikimedia","query":"Category:Tea_ware_in_the_National_Museum_of_Korea","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":563}
+{"timestamp":"2026-09-19T05:57:11.713Z","source":"wikimedia","query":"Category:Ceramics_in_the_National_Museum_of_Korea","idsAccepted":7,"crawlBatchId":"asia-expansion-1789797275255","durationMs":15612}
+{"timestamp":"2026-09-19T05:57:13.143Z","source":"wikimedia","query":"Category:Korean_ceramics","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":628}
+{"timestamp":"2026-09-19T05:57:18.132Z","source":"wikimedia","query":"Category:Joseon_porcelain","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":4188}
+{"timestamp":"2026-09-19T05:57:19.531Z","source":"wikimedia","query":"Category:Joseon_ceramics","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":598}
+{"timestamp":"2026-09-19T05:57:32.696Z","source":"wikimedia","query":"Category:Chawan","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":12363}
+{"timestamp":"2026-09-19T05:57:34.096Z","source":"wikimedia","query":"Category:Japanese_tea_bowls","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":599}
+{"timestamp":"2026-09-19T05:57:44.799Z","source":"wikimedia","query":"Category:Chaire","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":9901}
+{"timestamp":"2026-09-19T05:57:46.191Z","source":"wikimedia","query":"Category:Japanese_tea_caddies","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":591}
+{"timestamp":"2026-09-19T05:57:48.255Z","source":"wikimedia","query":"Category:Raku_ware","idsAccepted":4,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1264}
+{"timestamp":"2026-09-19T05:57:57.870Z","source":"wikimedia","query":"Category:Seto_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":8814}
+{"timestamp":"2026-09-19T05:58:06.949Z","source":"wikimedia","query":"Category:Mino_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":8277}
+{"timestamp":"2026-09-19T05:58:15.722Z","source":"wikimedia","query":"Category:Oribe_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":7972}
+{"timestamp":"2026-09-19T05:58:26.984Z","source":"wikimedia","query":"Category:Shino_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":10461}
+{"timestamp":"2026-09-19T05:58:29.848Z","source":"wikimedia","query":"Category:Bizen_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2063}
+{"timestamp":"2026-09-19T05:58:39.935Z","source":"wikimedia","query":"Category:Hagi_ware","idsAccepted":7,"crawlBatchId":"asia-expansion-1789797275255","durationMs":9286}
+{"timestamp":"2026-09-19T05:58:47.339Z","source":"wikimedia","query":"Category:Shigaraki_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":6603}
+{"timestamp":"2026-09-19T05:58:57.931Z","source":"wikimedia","query":"Category:Karatsu_ware","idsAccepted":10,"crawlBatchId":"asia-expansion-1789797275255","durationMs":9791}
+{"timestamp":"2026-09-19T05:58:59.356Z","source":"wikimedia","query":"Category:Tea_ware_in_the_Tokyo_National_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":624}
+{"timestamp":"2026-09-19T05:59:01.630Z","source":"wikimedia","query":"Category:Ceramics_in_the_Tokyo_National_Museum","idsAccepted":3,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1473}
+{"timestamp":"2026-09-19T05:59:02.996Z","source":"wikimedia","query":"Category:Tea_ware_in_the_Kyoto_National_Museum","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":565}
+{"timestamp":"2026-09-19T05:59:05.392Z","source":"wikimedia","query":"Category:Japanese_tea_ceremony","idsAccepted":6,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1595}
+{"timestamp":"2026-09-19T05:59:06.755Z","source":"wikimedia","query":"Category:Tea_ceremony_utensils","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":563}
+{"timestamp":"2026-09-19T05:59:09.338Z","source":"wikimedia","query":"Category:Gaiwan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1781}
+{"timestamp":"2026-09-19T05:59:10.688Z","source":"wikimedia","query":"Category:Chinese_teapots","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":550}
+{"timestamp":"2026-09-19T05:59:14.211Z","source":"wikimedia","query":"Category:Tea_caddies","idsAccepted":8,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2722}
+{"timestamp":"2026-09-19T05:59:15.570Z","source":"wikimedia","query":"Category:Asian_tea_ware","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":558}
+{"timestamp":"2026-09-19T05:59:20.005Z","source":"wikimedia","query":"Category:Tea_bowls","idsAccepted":8,"crawlBatchId":"asia-expansion-1789797275255","durationMs":3634}
+{"timestamp":"2026-09-19T05:59:21.373Z","source":"wikimedia","query":"Category:Chinese_tea_bowls","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":567}
+{"timestamp":"2026-09-19T05:59:24.331Z","source":"met","query":"Ru ware bowl","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2157}
+{"timestamp":"2026-09-19T05:59:31.679Z","source":"met","query":"Guan ware bowl","idsAccepted":4,"crawlBatchId":"asia-expansion-1789797275255","durationMs":6747}
+{"timestamp":"2026-09-19T05:59:34.840Z","source":"met","query":"Ge ware cup","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2560}
+{"timestamp":"2026-09-19T05:59:35.826Z","source":"met","query":"Qingbai bowl","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":385}
+{"timestamp":"2026-09-19T05:59:36.778Z","source":"met","query":"Qingbai cup","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":352}
+{"timestamp":"2026-09-19T05:59:38.614Z","source":"met","query":"Jizhou tea bowl","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1235}
+{"timestamp":"2026-09-19T05:59:55.176Z","source":"met","query":"Cizhou ware bowl","idsAccepted":7,"crawlBatchId":"asia-expansion-1789797275255","durationMs":15961}
+{"timestamp":"2026-09-19T05:59:57.834Z","source":"met","query":"Changsha ware bowl","idsAccepted":3,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2059}
+{"timestamp":"2026-09-19T06:00:01.543Z","source":"met","query":"Chinese gaiwan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":3108}
+{"timestamp":"2026-09-19T06:00:14.969Z","source":"met","query":"Chinese covered tea cup","idsAccepted":2,"crawlBatchId":"asia-expansion-1789797275255","durationMs":12825}
+{"timestamp":"2026-09-19T06:00:15.932Z","source":"met","query":"yixing zisha","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":362}
+{"timestamp":"2026-09-19T06:00:38.097Z","source":"met","query":"purple clay teapot","idsAccepted":2,"crawlBatchId":"asia-expansion-1789797275255","durationMs":21564}
+{"timestamp":"2026-09-19T06:00:39.141Z","source":"met","query":"zisha teapot","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":443}
+{"timestamp":"2026-09-19T06:00:46.880Z","source":"met","query":"Korean celadon cup","idsAccepted":8,"crawlBatchId":"asia-expansion-1789797275255","durationMs":7138}
+{"timestamp":"2026-09-19T06:00:57.680Z","source":"met","query":"Goryeo celadon bowl","idsAccepted":3,"crawlBatchId":"asia-expansion-1789797275255","durationMs":10199}
+{"timestamp":"2026-09-19T06:00:58.649Z","source":"met","query":"buncheong bowl","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":368}
+{"timestamp":"2026-09-19T06:01:12.984Z","source":"met","query":"Korean inlaid celadon","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":13734}
+{"timestamp":"2026-09-19T06:01:17.901Z","source":"met","query":"Korean tea ware","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":4317}
+{"timestamp":"2026-09-19T06:01:26.561Z","source":"met","query":"Japanese tea bowl","idsAccepted":4,"crawlBatchId":"asia-expansion-1789797275255","durationMs":8059}
+{"timestamp":"2026-09-19T06:01:27.565Z","source":"met","query":"raku chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":403}
+{"timestamp":"2026-09-19T06:01:28.519Z","source":"met","query":"Seto chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":354}
+{"timestamp":"2026-09-19T06:01:29.658Z","source":"met","query":"Oribe chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":538}
+{"timestamp":"2026-09-19T06:01:30.644Z","source":"met","query":"Shino chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":385}
+{"timestamp":"2026-09-19T06:01:31.601Z","source":"met","query":"Hagi chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":356}
+{"timestamp":"2026-09-19T06:01:32.573Z","source":"met","query":"Bizen chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":371}
+{"timestamp":"2026-09-19T06:01:33.585Z","source":"met","query":"Karatsu chawan","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":411}
+{"timestamp":"2026-09-19T06:01:34.569Z","source":"met","query":"matcha bowl","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":383}
+{"timestamp":"2026-09-19T06:01:38.243Z","source":"met","query":"Japanese natsume","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":3073}
+{"timestamp":"2026-09-19T06:01:42.453Z","source":"met","query":"Japanese chaire","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":3609}
+{"timestamp":"2026-09-19T06:01:43.415Z","source":"met","query":"Vietnamese celadon","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":361}
+{"timestamp":"2026-09-19T06:02:04.738Z","source":"met","query":"Vietnamese blue white","idsAccepted":1,"crawlBatchId":"asia-expansion-1789797275255","durationMs":20722}
+{"timestamp":"2026-09-19T06:02:12.956Z","source":"cma","query":"Korean celadon","idsAccepted":8,"crawlBatchId":"asia-expansion-1789797275255","durationMs":7617}
+{"timestamp":"2026-09-19T06:02:18.163Z","source":"cma","query":"Goryeo celadon","idsAccepted":8,"crawlBatchId":"asia-expansion-1789797275255","durationMs":4806}
+{"timestamp":"2026-09-19T06:02:21.899Z","source":"cma","query":"buncheong","idsAccepted":3,"crawlBatchId":"asia-expansion-1789797275255","durationMs":3335}
+{"timestamp":"2026-09-19T06:02:29.765Z","source":"cma","query":"Japanese tea bowl","idsAccepted":8,"crawlBatchId":"asia-expansion-1789797275255","durationMs":7466}
+{"timestamp":"2026-09-19T06:02:30.893Z","source":"cma","query":"raku ware","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":727}
+{"timestamp":"2026-09-19T06:02:33.582Z","source":"cma","query":"Seto ware","idsAccepted":3,"crawlBatchId":"asia-expansion-1789797275255","durationMs":2288}
+{"timestamp":"2026-09-19T06:02:34.532Z","source":"cma","query":"Ru ware","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":550}
+{"timestamp":"2026-09-19T06:02:36.872Z","source":"cma","query":"Guan ware","idsAccepted":1,"crawlBatchId":"asia-expansion-1789797275255","durationMs":1939}
+{"timestamp":"2026-09-19T06:02:42.759Z","source":"cma","query":"Qingbai","idsAccepted":7,"crawlBatchId":"asia-expansion-1789797275255","durationMs":5486}
+{"timestamp":"2026-09-19T06:02:43.812Z","source":"cma","query":"Jizhou","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":652}
+{"timestamp":"2026-09-19T06:02:44.936Z","source":"cma","query":"Cizhou","idsAccepted":0,"crawlBatchId":"asia-expansion-1789797275255","durationMs":723}
