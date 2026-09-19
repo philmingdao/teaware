@@ -78,6 +78,22 @@ jobs:
             grep -R -n 'artworks/' out --include='*.html' | head -20 || true
           fi
 
+      - name: Check artifact size (must be under 950MB for GitHub Pages)
+        run: |
+          set -euo pipefail
+          SIZE_BYTES=$(du -sb out | cut -f1)
+          SIZE_MB=$((SIZE_BYTES / 1024 / 1024))
+          MAX_SIZE_MB=950
+          echo "Build output size: ${SIZE_MB}MB (${SIZE_BYTES} bytes)"
+          echo "Maximum allowed: ${MAX_SIZE_MB}MB"
+          if [ "$SIZE_MB" -gt "$MAX_SIZE_MB" ]; then
+            echo "ERROR: Output size ${SIZE_MB}MB exceeds ${MAX_SIZE_MB}MB limit"
+            echo "GitHub Pages artifact limit is 1GB. Leaving headroom for safety."
+            du -sh out/*/ | sort -hr | head -10
+            exit 1
+          fi
+          echo "OK: Output size is within limits"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
