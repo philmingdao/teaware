@@ -450,3 +450,5 @@
 {"timestamp":"2026-09-19T07:58:39.045Z","source":"cma","query":"Ming dynasty","idsAccepted":0,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":2226}
 {"timestamp":"2026-09-19T07:58:43.993Z","source":"cma","query":"Qing dynasty bowl","idsAccepted":9,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":4748}
 {"timestamp":"2026-09-19T07:58:52.490Z","source":"cma","query":"Kangxi porcelain","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":8296}
+{"source":"met","query":"famille verte teapot","idsAccepted":15,"crawlBatchId":"round8-expansion-1789957365508","timestamp":"2026-09-21T02:22:55.599Z"}
+{"source":"met","query":"famille verte cup","idsAccepted":15,"crawlBatchId":"round8-expansion-1789957365508","timestamp":"2026-09-21T02:23:11.720Z"}
