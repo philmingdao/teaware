@@ -552,3 +552,9 @@
 {"timestamp":"2026-09-22T06:52:49.428Z","source":"smithsonian","query":"oil spot glaze","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
 {"timestamp":"2026-09-22T06:52:50.781Z","source":"smithsonian","query":"copper red bowl","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
 {"timestamp":"2026-09-22T06:52:52.018Z","source":"smithsonian","query":"sang de boeuf","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T08:33:06.201Z","source":"harvard","query":"Jian ware","idsAccepted":0,"crawlBatchId":"harvard-expansion-1790065873452"}
+{"timestamp":"2026-09-22T08:46:59.462Z","source":"harvard","query":"tea bowl Chinese","idsAccepted":0,"crawlBatchId":"harvard-expansion-1790065873452"}
+{"timestamp":"2026-09-22T09:03:48.948Z","source":"harvard","query":"hare's fur bowl","idsAccepted":0,"crawlBatchId":"harvard-expansion-1790065873452"}
+{"timestamp":"2026-09-22T09:11:17.844Z","source":"harvard","query":"oil spot bowl","idsAccepted":0,"crawlBatchId":"harvard-expansion-1790065873452"}
+{"timestamp":"2026-09-22T09:13:10.670Z","source":"harvard","query":"temmoku","idsAccepted":0,"crawlBatchId":"harvard-expansion-1790065873452"}
+{"timestamp":"2026-09-22T09:25:00.000Z","source":"harvard","query":"expansion attempt","status":"rate_limited","note":"Harvard NRS server (nrs.harvard.edu) returning HTTP 429 for all image requests. API metadata accessible but image downloads blocked. IP-based rate limit appears persistent. Found many license-clean candidates (imagepermissionlevel=0, copyright=null) but cannot download images.","crawlBatchId":"harvard-expansion-blocked"}
