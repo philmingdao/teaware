@@ -297,16 +297,45 @@
       "name": "Harvard Art Museums",
       "nameZh": "哈佛艺术博物馆",
       "country": "USA",
-      "status": "needs_key",
+      "status": "rate_limited",
       "apiEndpoint": "https://api.harvardartmuseums.org/",
       "apiDocs": "https://github.com/harvardartmuseums/api-docs",
       "authRequired": true,
       "authType": "apikey",
       "keyEnvVar": "HARVARD_API_KEY",
-      "license": "CC-BY-NC",
-      "lastCrawl": null,
-      "queries": [],
-      "notes": "Good scholarly metadata. More restrictive license."
+      "license": "Mixed: most works CC-BY-NC, but items with imagepermissionlevel=0 AND copyright=null are Public Domain (open access)",
+      "licenseField": "imagepermissionlevel (0=open, 1=restricted) + copyright (null=public domain artwork)",
+      "imageField": "primaryimageurl (nrs.harvard.edu)",
+      "lastCrawl": "2026-09-22T09:20:00.000Z",
+      "queries": [
+        {
+          "query": "Jian ware (tea bowls)",
+          "status": "api_verified",
+          "estimatedOpenAccess": 1800,
+          "note": "~1800 total candidates; many have imagepermissionlevel=0 and null copyright (public domain)"
+        },
+        {
+          "query": "tea bowl Chinese",
+          "status": "api_verified",
+          "estimatedOpenAccess": 7821
+        },
+        {
+          "query": "celadon china",
+          "status": "api_verified",
+          "estimatedOpenAccess": 739
+        },
+        {
+          "query": "chawan Japanese",
+          "status": "api_verified",
+          "estimatedOpenAccess": 500
+        },
+        {
+          "query": "Korean celadon",
+          "status": "api_verified",
+          "estimatedOpenAccess": 200
+        }
+      ],
+      "notes": "2026-09-22: API verified with HARVARD_API_KEY. Many open-license Asian tea ceramics available (imagepermissionlevel=0, copyright=null). However, nrs.harvard.edu image server has aggressive IP-based rate limiting (HTTP 429) that persists for extended periods. Cloud agent IP appears blocked. Script ready at scripts/expand-harvard-2026-09-22.ts for future use when rate limit resets or from different IP. Items found: Jian ware, Longquan celadon, Jun ware, Ding ware, Korean celadon, Japanese tea bowls, etc."
     },
     {
       "id": "npm_taiwan",
