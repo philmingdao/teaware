@@ -260,16 +260,37 @@
       "name": "Smithsonian Institution (Freer/Sackler)",
       "nameZh": "史密森尼学会 (弗利尔/赛克勒美术馆)",
       "country": "USA",
-      "status": "needs_key",
+      "status": "active",
       "apiEndpoint": "https://api.si.edu/openaccess/api/v1.0/search",
       "apiDocs": "https://api.si.edu/openaccess/api/v1.0/",
       "authRequired": true,
       "authType": "apikey",
       "keyEnvVar": "SMITHSONIAN_API_KEY",
       "license": "CC0",
-      "lastCrawl": null,
-      "queries": [],
-      "notes": "Excellent Chinese ceramics at Freer/Sackler. Needs api.data.gov key."
+      "lastCrawl": "2026-09-22T06:45:00.000Z",
+      "queries": [
+        {
+          "query": "tea bowl Freer",
+          "status": "completed"
+        },
+        {
+          "query": "tea bowl China/Japan/Korea",
+          "status": "completed"
+        },
+        {
+          "query": "celadon bowl/vase",
+          "status": "completed"
+        },
+        {
+          "query": "porcelain cup/bowl China",
+          "status": "completed"
+        },
+        {
+          "query": "Raku/Hagi/Oribe/Bizen tea",
+          "status": "completed"
+        }
+      ],
+      "notes": "175 items imported on 2026-09-22 from National Museum of Asian Art (Freer|Sackler) and NMAH. Primarily Japanese tea ceramics and Chinese objects. Images via IDS deliveryService endpoint."
     },
     {
       "id": "harvard",

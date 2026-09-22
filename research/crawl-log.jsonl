@@ -502,3 +502,53 @@
 {"source": "met", "query": "Chinese Imari bowl", "totalResults": 665, "idsAccepted": 6, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:35.758057Z", "durationMs": 14001}
 {"source": "met", "query": "armorial porcelain bowl", "totalResults": 1443, "idsAccepted": 0, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:48.347934Z", "durationMs": 12589}
 {"source": "met", "query": "European market teapot China", "totalResults": 416, "idsAccepted": 1, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:51.483124Z", "durationMs": 3134}
+{"timestamp":"2026-09-22T06:48:01.601Z","source":"smithsonian","query":"tea bowl Freer","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:05.997Z","source":"smithsonian","query":"tea bowl China","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:22.118Z","source":"smithsonian","query":"tea bowl Japan","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:26.329Z","source":"smithsonian","query":"tea bowl Korea","idsAccepted":2,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:28.283Z","source":"smithsonian","query":"teapot Chinese","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:32.089Z","source":"smithsonian","query":"teapot Japanese","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:42.580Z","source":"smithsonian","query":"tea caddy","idsAccepted":8,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:49.077Z","source":"smithsonian","query":"chawan","idsAccepted":4,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:50.169Z","source":"smithsonian","query":"gaiwan","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:52.986Z","source":"smithsonian","query":"celadon bowl","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:48:58.295Z","source":"smithsonian","query":"celadon vase","idsAccepted":2,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:01.709Z","source":"smithsonian","query":"porcelain cup China","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:03.636Z","source":"smithsonian","query":"porcelain bowl China","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:05.878Z","source":"smithsonian","query":"stoneware bowl China","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:08.815Z","source":"smithsonian","query":"blue white porcelain","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:10.439Z","source":"smithsonian","query":"famille rose","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:12.108Z","source":"smithsonian","query":"Yixing teapot","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:15.026Z","source":"smithsonian","query":"Jian ware","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:30.806Z","source":"smithsonian","query":"Raku tea","idsAccepted":14,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:32.839Z","source":"smithsonian","query":"Jun ware","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:34.302Z","source":"smithsonian","query":"Ding ware","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:35.947Z","source":"smithsonian","query":"Longquan","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:37.557Z","source":"smithsonian","query":"Dehua porcelain","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:38.788Z","source":"smithsonian","query":"Song dynasty bowl","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:49.839Z","source":"smithsonian","query":"Ming dynasty cup","idsAccepted":4,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:51.548Z","source":"smithsonian","query":"Qing dynasty teapot","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:49:53.946Z","source":"smithsonian","query":"Tang dynasty cup","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:50:13.490Z","source":"smithsonian","query":"Edo period tea","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:50:33.459Z","source":"smithsonian","query":"Freer ceramics","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:51:01.121Z","source":"smithsonian","query":"Sackler ceramics","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:51:20.048Z","source":"smithsonian","query":"Asian Art ceramics bowl","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:51:44.454Z","source":"smithsonian","query":"Asian Art tea","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:51:45.630Z","source":"smithsonian","query":"tetsubin","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:51:49.485Z","source":"smithsonian","query":"iron kettle Japan","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:51:50.567Z","source":"smithsonian","query":"chashaku bamboo","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:06.630Z","source":"smithsonian","query":"Kyoto ware","idsAccepted":15,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:09.530Z","source":"smithsonian","query":"Satsuma tea","idsAccepted":1,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:16.333Z","source":"smithsonian","query":"Hagi ware","idsAccepted":3,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:29.845Z","source":"smithsonian","query":"Oribe ware","idsAccepted":7,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:35.416Z","source":"smithsonian","query":"Bizen ware","idsAccepted":2,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:39.413Z","source":"smithsonian","query":"Shigaraki","idsAccepted":2,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:40.892Z","source":"smithsonian","query":"Goryeo celadon","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:41.961Z","source":"smithsonian","query":"buncheong","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:43.047Z","source":"smithsonian","query":"cloisonne teapot","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:45.322Z","source":"smithsonian","query":"Canton enamel","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:47.266Z","source":"smithsonian","query":"painted enamel China","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:48.339Z","source":"smithsonian","query":"hare fur bowl","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:49.428Z","source":"smithsonian","query":"oil spot glaze","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:50.781Z","source":"smithsonian","query":"copper red bowl","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
+{"timestamp":"2026-09-22T06:52:52.018Z","source":"smithsonian","query":"sang de boeuf","idsAccepted":0,"crawlBatchId":"smithsonian-expansion-1790059666514"}
