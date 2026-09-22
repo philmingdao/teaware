@@ -1,16 +1,16 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-22 (Round 9 Key-Free Batch)  
+Last updated: 2026-09-22 (Round 10 Key-Free Batch)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 1,519 | ✅ Self-hosted | Active |
+| Metropolitan Museum of Art | 1,539 | ✅ Self-hosted | Active |
 | Cleveland Museum of Art | 505 | ✅ Self-hosted | Active |
 | Wikimedia Commons | 330 | ✅ Self-hosted | Active |
-| **Total** | **2,354** | **All local** | - |
+| **Total** | **2,374** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -624,12 +624,64 @@ Cleveland Museum (71 new):
 
 ---
 
+## Round 10 Expansion - Extra Key-Free Batch (2026-09-22)
+
+**+20 new artworks** (total now **2,374**)
+
+### Expansion Goals
+- Extra user-requested expansion beyond weekday routine
+- Key-free sources ONLY: Met Museum, CMA, Wikimedia Commons
+- Focus on underrepresented glazes and vessel types
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Metropolitan Museum of Art | 20 | New glaze types, export wares, Japanese ceramics |
+| Cleveland Museum of Art | 0 | (Target reached from Met queries) |
+| Wikimedia Commons | 0 | (Target reached from Met queries) |
+| **Total** | **20** | - |
+
+### Key Queries Used (Met Museum)
+
+| Query | Accepted | Notes |
+|-------|----------|-------|
+| moonflask China porcelain | 2 | Entwined dragon vase, ceremonial jar |
+| garlic head vase China | 2 | Archaic bronze vessel shape |
+| ritual vessel China bronze | 1 | Jiaodou spouted tripod |
+| robin's egg glaze | 3 | Water pot, butterfly washer, deer vessel |
+| mirror black glaze | 2 | Saucer, covered teapot |
+| clair de lune glaze | 1 | Beaker |
+| Chinese export cream jug | 1 | Tea service |
+| Chinese export slop bowl | 1 | Slop bowl |
+| Chinese Imari bowl | 6 | Sake bottle, bowls in Imari style |
+| European market teapot China | 1 | Export teapot |
+
+### Content Breakdown by Type
+
+| Object Type | Count |
+|-------------|-------|
+| Bowl | 10 |
+| Vase/Vessel | 6 |
+| Teapot | 2 |
+| Saucer | 1 |
+| Tea Service | 1 |
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Images compressed to max 1500px, JPEG quality 80 via Pillow
+- SHA256 hash deduplication prevented duplicate images
+- Git LFS tracking maintained for `public/artworks/*.jpg`
+- Total image size for new batch: ~2.1 MB (LFS uploaded)
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 2,354 |
-| Met Museum | 1,519 |
+| Total Artworks | 2,374 |
+| Met Museum | 1,539 |
 | Cleveland Museum | 505 |
 | Wikimedia Commons | 330 |
 

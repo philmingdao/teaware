@@ -487,3 +487,18 @@
 {"source":"met","query":"cloisonne teapot China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:17.594Z"}
 {"source":"met","query":"sugar bowl China porcelain","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:38.967Z"}
 {"source":"met","query":"milk jug China porcelain","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:55.926Z"}
+{"source": "met", "query": "moonflask China porcelain", "totalResults": 4554, "idsAccepted": 2, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:49:04.422961Z", "durationMs": 13160}
+{"source": "met", "query": "monk's cap ewer China", "totalResults": 5, "idsAccepted": 0, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:49:06.760541Z", "durationMs": 2337}
+{"source": "met", "query": "garlic head vase China", "totalResults": 32, "idsAccepted": 2, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:49:20.125301Z", "durationMs": 13364}
+{"source": "met", "query": "meiping vase China", "totalResults": 1548, "idsAccepted": 0, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:49:32.852454Z", "durationMs": 12726}
+{"source": "met", "query": "ritual vessel China bronze", "totalResults": 571, "idsAccepted": 1, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:49:46.521738Z", "durationMs": 13668}
+{"source": "met", "query": "flambe glaze bowl", "totalResults": 2052, "idsAccepted": 0, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:49:59.170274Z", "durationMs": 12647}
+{"source": "met", "query": "robin's egg glaze", "totalResults": 49, "idsAccepted": 3, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:50:15.568413Z", "durationMs": 16397}
+{"source": "met", "query": "tea dust glaze", "totalResults": 403, "idsAccepted": 0, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:50:27.998850Z", "durationMs": 12429}
+{"source": "met", "query": "mirror black glaze", "totalResults": 4360, "idsAccepted": 2, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:50:42.829183Z", "durationMs": 14830}
+{"source": "met", "query": "clair de lune glaze", "totalResults": 41, "idsAccepted": 1, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:50:57.510117Z", "durationMs": 14680}
+{"source": "met", "query": "Chinese export cream jug", "totalResults": 27, "idsAccepted": 1, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:09.014984Z", "durationMs": 11504}
+{"source": "met", "query": "Chinese export slop bowl", "totalResults": 117, "idsAccepted": 1, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:21.755962Z", "durationMs": 12740}
+{"source": "met", "query": "Chinese Imari bowl", "totalResults": 665, "idsAccepted": 6, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:35.758057Z", "durationMs": 14001}
+{"source": "met", "query": "armorial porcelain bowl", "totalResults": 1443, "idsAccepted": 0, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:48.347934Z", "durationMs": 12589}
+{"source": "met", "query": "European market teapot China", "totalResults": 416, "idsAccepted": 1, "crawlBatchId": "round10-expansion-1790048931241", "timestamp": "2026-09-22T03:51:51.483124Z", "durationMs": 3134}
