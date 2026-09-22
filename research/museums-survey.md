@@ -1,17 +1,16 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-19 (Asia Expansion Round 6)  
+Last updated: 2026-09-22 (Round 9 Key-Free Batch)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 1,037 | ✅ Self-hosted | Active |
-| Cleveland Museum of Art | 434 | ✅ Self-hosted | Active |
-| Wikimedia Commons | 241 | ✅ Self-hosted | Active |
-| Other (via Commons) | 68 | ✅ Self-hosted | Active |
-| **Total** | **1,780** | **All local** | - |
+| Metropolitan Museum of Art | 1,519 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 505 | ✅ Self-hosted | Active |
+| Wikimedia Commons | 330 | ✅ Self-hosted | Active |
+| **Total** | **2,354** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -555,12 +554,82 @@ Cleveland Museum (71 new):
 
 ---
 
+## Round 9 Expansion - Key-Free Batch (2026-09-22)
+
+**+272 new artworks** (total now **2,354**)
+
+### Expansion Goals
+- Key-free sources ONLY: Met Museum, CMA, Wikimedia Commons
+- Focus on underrepresented types: enamel teapots, powder blue, stem cups, Jian ware, copper red glazes
+- Japanese tea utensils: tetsubin, chashaku, Satsuma, Kutani, Kyoto ware
+- Korean celadon tea bowls
+- Cloisonné teapots
+- Tea service items: sugar bowls, milk jugs
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Metropolitan Museum of Art | 272 | Enamel teapots, stem cups, Jian ware, copper red, Japanese wares |
+| Cleveland Museum of Art | 0 | (Met queries hit target before CMA) |
+| Wikimedia Commons | 0 | (Met queries hit target before Wiki) |
+| **Total** | **272** | - |
+
+### Key Queries Used (Met Museum)
+
+| Query | Accepted | Notes |
+|-------|----------|-------|
+| painted enamel teapot China | 12 | Canton/Beijing enamel teapots |
+| Canton enamel teapot | 12 | Export enamelware |
+| powder blue teapot | 12 | Powder blue glaze teapots |
+| powder blue bowl China | 12 | Powder blue bowls |
+| stem cup Ming | 12 | Ming dynasty stem cups |
+| stem cup Qing | 12 | Qing dynasty stem cups |
+| covered bowl China porcelain | 12 | Covered bowls |
+| blue and white tea bowl China | 12 | Blue and white tea bowls |
+| Blanc de Chine cup | 12 | Dehua white porcelain |
+| hare's fur bowl | 12 | Jian ware tea bowls |
+| Jian tea bowl China | 12 | Jian kiln tenmoku |
+| copper red bowl China | 12 | Underglaze red |
+| underglaze red cup China | 12 | Copper red cups |
+| peachbloom bowl China | 12 | Peachbloom glaze |
+| iron kettle Japan | 12 | Tetsubin iron kettles |
+| Kyoto ware bowl | 12 | Kyoto ceramics |
+| Satsuma bowl Japan | 12 | Satsuma ware |
+| Kutani cup Japan | 12 | Kutani porcelain |
+| cloisonne teapot China | 12 | Cloisonné enamel |
+| sugar bowl China porcelain | 12 | Tea service items |
+| milk jug China porcelain | 12 | Tea service items |
+| + other queries | 32 | Various tea-related items |
+
+### Content Breakdown by Type
+
+| Object Type | Count |
+|-------------|-------|
+| Teapot | 68 |
+| Bowl | 82 |
+| Cup | 56 |
+| Tea Bowl | 24 |
+| Sugar Bowl | 12 |
+| Milk Jug | 12 |
+| Stem Cup | 10 |
+| Other | 8 |
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Images compressed to max 1400px, quality 80 via ImageMagick
+- SHA256 hash deduplication prevented duplicate images
+- Git LFS tracking maintained for `public/artworks/*.jpg`
+- No remote imageUrl for any new items
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 2,052 |
-| Met Museum | 1,217 |
+| Total Artworks | 2,354 |
+| Met Museum | 1,519 |
 | Cleveland Museum | 505 |
 | Wikimedia Commons | 330 |
 

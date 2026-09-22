@@ -452,3 +452,38 @@
 {"timestamp":"2026-09-19T07:58:52.490Z","source":"cma","query":"Kangxi porcelain","idsAccepted":10,"crawlBatchId":"expand-to-2000-1789803637894","durationMs":8296}
 {"source":"met","query":"famille verte teapot","idsAccepted":15,"crawlBatchId":"round8-expansion-1789957365508","timestamp":"2026-09-21T02:22:55.599Z"}
 {"source":"met","query":"famille verte cup","idsAccepted":15,"crawlBatchId":"round8-expansion-1789957365508","timestamp":"2026-09-21T02:23:11.720Z"}
+{"source":"met","query":"painted enamel teapot China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790043949267","timestamp":"2026-09-22T02:26:10.996Z"}
+{"source":"met","query":"Canton enamel teapot","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790043949267","timestamp":"2026-09-22T02:26:33.895Z"}
+{"source":"met","query":"powder blue teapot","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790043949267","timestamp":"2026-09-22T02:26:53.288Z"}
+{"source":"met","query":"powder blue bowl China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790043949267","timestamp":"2026-09-22T02:27:10.459Z"}
+{"source":"met","query":"stem cup Ming","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044036433","timestamp":"2026-09-22T02:27:33.531Z"}
+{"source":"met","query":"stem cup Qing","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044036433","timestamp":"2026-09-22T02:27:49.003Z"}
+{"source":"met","query":"covered bowl China porcelain","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044036433","timestamp":"2026-09-22T02:28:07.429Z"}
+{"source":"met","query":"blue and white tea bowl China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044036433","timestamp":"2026-09-22T02:28:20.813Z"}
+{"source":"met","query":"Blanc de Chine cup","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044109026","timestamp":"2026-09-22T02:28:48.137Z"}
+{"source":"met","query":"blanc de chine teapot","totalResults":1,"idsAccepted":1,"crawlBatchId":"round9-expansion-1790044109026","timestamp":"2026-09-22T02:28:50.971Z"}
+{"source":"met","query":"Dehua cup China","totalResults":4,"idsAccepted":4,"crawlBatchId":"round9-expansion-1790044109026","timestamp":"2026-09-22T02:28:55.520Z"}
+{"source":"met","query":"hare's fur bowl","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044109026","timestamp":"2026-09-22T02:29:13.047Z"}
+{"source":"met","query":"Jian tea bowl China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044109026","timestamp":"2026-09-22T02:29:24.663Z"}
+{"source":"met","query":"oil spot bowl China","totalResults":0,"idsAccepted":0,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:31:27.738Z"}
+{"source":"met","query":"copper red bowl China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:31:46.297Z"}
+{"source":"met","query":"underglaze red cup China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:32:02.295Z"}
+{"source":"met","query":"peachbloom bowl China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:32:24.229Z"}
+{"source":"met","query":"sang de boeuf bowl","totalResults":3,"idsAccepted":3,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:32:32.224Z"}
+{"source":"met","query":"Wucai cup China","totalResults":0,"idsAccepted":0,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:32:33.205Z"}
+{"source":"met","query":"Wucai bowl China","totalResults":1,"idsAccepted":1,"crawlBatchId":"round9-expansion-1790044285351","timestamp":"2026-09-22T02:32:36.973Z"}
+{"source":"met","query":"Doucai cup China","totalResults":0,"idsAccepted":0,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:33:48.786Z"}
+{"source":"met","query":"Doucai bowl China","totalResults":0,"idsAccepted":0,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:33:50.534Z"}
+{"source":"met","query":"libation cup China","totalResults":1,"idsAccepted":1,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:33:54.607Z"}
+{"source":"met","query":"rhinoceros horn cup China","totalResults":6,"idsAccepted":6,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:34:06.523Z"}
+{"source":"met","query":"chicken cup China","totalResults":0,"idsAccepted":0,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:34:07.824Z"}
+{"source":"met","query":"tetsubin","totalResults":0,"idsAccepted":0,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:34:08.513Z"}
+{"source":"met","query":"iron kettle Japan","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:34:31.242Z"}
+{"source":"met","query":"chashaku","totalResults":1,"idsAccepted":1,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:34:32.658Z"}
+{"source":"met","query":"Kyoto ware bowl","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:34:59.439Z"}
+{"source":"met","query":"Satsuma bowl Japan","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044428345","timestamp":"2026-09-22T02:35:24.483Z"}
+{"source":"met","query":"Kutani cup Japan","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:36:55.145Z"}
+{"source":"met","query":"tea bowl Korea celadon","totalResults":3,"idsAccepted":3,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:00.213Z"}
+{"source":"met","query":"cloisonne teapot China","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:17.594Z"}
+{"source":"met","query":"sugar bowl China porcelain","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:38.967Z"}
+{"source":"met","query":"milk jug China porcelain","totalResults":12,"idsAccepted":12,"crawlBatchId":"round9-expansion-1790044587675","timestamp":"2026-09-22T02:37:55.926Z"}
