@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-17T02:10:00.000Z",
+  "lastUpdated": "2026-09-22T10:22:00.000Z",
   "sources": [
     {
       "id": "met",
@@ -291,6 +291,30 @@
         }
       ],
       "notes": "175 items imported on 2026-09-22 from National Museum of Asian Art (Freer|Sackler) and NMAH. Primarily Japanese tea ceramics and Chinese objects. Images via IDS deliveryService endpoint."
+    },
+    {
+      "id": "colbase",
+      "name": "ColBase (Japanese National Museums)",
+      "nameZh": "ColBase（日本国立博物馆联合数据库）",
+      "country": "Japan",
+      "status": "active",
+      "apiEndpoint": null,
+      "apiDocs": "https://colbase.nich.go.jp/pages/dataset?locale=en",
+      "authRequired": false,
+      "dataSource": "TSV",
+      "dataUrl": "https://colbase.nich.go.jp/opendata.tsv",
+      "license": "CC BY",
+      "termsUrl": "https://colbase.nich.go.jp/pages/term?locale=en",
+      "lastCrawl": "2026-09-22T10:22:00.000Z",
+      "queries": [
+        {
+          "query": "茶碗/茶入/天目/楽焼/萩/織部/備前/信楽/唐津 (tea ceramics)",
+          "status": "completed",
+          "actualResults": 495,
+          "accepted": 100
+        }
+      ],
+      "notes": "100 items imported on 2026-09-22 from ColBase opendata.tsv. Primarily Japanese tea ceremony ceramics from Tokyo National Museum (69), Kyoto National Museum (31). Full-res images available by removing 'slideshow_s/' from thumbnail URLs. License: CC BY - must cite ColBase source."
     },
     {
       "id": "harvard",
