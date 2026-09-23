@@ -1,6 +1,6 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-22 (Round 10 Key-Free Batch)  
+Last updated: 2026-09-23 (Round 11 ColBase Batch)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
@@ -10,7 +10,9 @@ Purpose: Document worldwide museum collections with Chinese/East Asian tea ware 
 | Metropolitan Museum of Art | 1,539 | ✅ Self-hosted | Active |
 | Cleveland Museum of Art | 505 | ✅ Self-hosted | Active |
 | Wikimedia Commons | 330 | ✅ Self-hosted | Active |
-| **Total** | **2,374** | **All local** | - |
+| Smithsonian (Freer/Sackler) | 175 | ✅ Self-hosted | Active |
+| ColBase (Japanese Museums) | 189 | ✅ Self-hosted | Active |
+| **Total** | **2,738** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -676,14 +678,66 @@ Cleveland Museum (71 new):
 
 ---
 
+## Round 11 Expansion - ColBase Batch 2 (2026-09-23)
+
+**+89 new artworks** (total now **2,738**)
+
+### Expansion Goals
+- Continue ColBase opendata.tsv mining for Japanese tea ceramics
+- Focus on tea bowls, tea caddies, incense containers, water jars
+- Tokyo/Kyoto/Kyushu/Nara National Museums
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Tokyo National Museum | 71 | Tea bowls, chaires, incense containers |
+| Kyoto National Museum | 15 | Tea bowls, water jars, lacquer ware |
+| Nara National Museum | 2 | Shino ware tea bowls |
+| Kyushu National Museum | 1 | Karatsu ware |
+| **Total** | **89** | - |
+
+### Content Breakdown by Object Type
+
+| Object Type | Count |
+|-------------|-------|
+| 茶碗 (Tea Bowl) | 28 |
+| 茶器 (Tea Utensil) | 19 |
+| 香合 (Incense Container) | 17 |
+| 茶入 (Tea Caddy) | 9 |
+| 水指 (Water Jar) | 6 |
+| 花入 (Flower Vase) | 4 |
+| 茶杓 (Tea Scoop) | 2 |
+| Other | 4 |
+
+### Key Wares and Kilns
+
+- Raku ware (楽焼) - black and red tea bowls
+- Oribe ware (織部焼) - green-glazed tea bowls, lids
+- Shino ware (志野焼) - cream-glazed tea bowls
+- Karatsu ware (唐津焼) - Korean-style tea bowls
+- Tenmoku (天目) - oil-spot and hare's fur glazes
+- Seto ware (瀬戸焼) - various tea utensils
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Images compressed to max 1400px, JPEG quality 80 via Pillow
+- SHA256 hash deduplication prevented duplicate images
+- 11 non-tea items (swords, textiles, pottery) filtered out post-download
+- Git LFS tracking maintained for `public/artworks/*.jpg`
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 2,374 |
+| Total Artworks | 2,738 |
 | Met Museum | 1,539 |
 | Cleveland Museum | 505 |
 | Wikimedia Commons | 330 |
+| Smithsonian | 175 |
+| ColBase | 189 |
 
 ## Future Expansion Recommendations
 
