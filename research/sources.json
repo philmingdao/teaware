@@ -305,7 +305,7 @@
       "dataUrl": "https://colbase.nich.go.jp/opendata.tsv",
       "license": "CC BY",
       "termsUrl": "https://colbase.nich.go.jp/pages/term?locale=en",
-      "lastCrawl": "2026-09-23T02:22:00.000Z",
+      "lastCrawl": "2026-09-23T13:50:00.000Z",
       "queries": [
         {
           "query": "茶碗/茶入/天目/楽焼/萩/織部/備前/信楽/唐津 (tea ceramics)",
@@ -318,9 +318,15 @@
           "status": "completed",
           "actualResults": 1372,
           "accepted": 89
+        },
+        {
+          "query": "Expanded: 茶釜/茶筅/建水/蓋置/棗/香合/花入 + celadon/blue-white/Raku/Shino/Oribe (Round 3)",
+          "status": "completed",
+          "actualResults": 1539,
+          "accepted": 150
         }
       ],
-      "notes": "189 items total (100 on 2026-09-22 + 89 on 2026-09-23) from ColBase opendata.tsv. Japanese tea ceremony ceramics from Tokyo (140), Kyoto (46), Kyushu (2), Nara (2). Full-res images available by removing 'slideshow_s/' from thumbnail URLs. License: CC BY - must cite ColBase source."
+      "notes": "339 items total (100 on 2026-09-22 + 89 on 2026-09-23 + 150 on 2026-09-23 Round 3) from ColBase opendata.tsv. Japanese tea ceremony ceramics from Tokyo (252), Kyoto (89), Kyushu (4), Nara (6). Full-res images available by removing 'slideshow_s/' from thumbnail URLs. License: CC BY - must cite ColBase source."
     },
     {
       "id": "harvard",
