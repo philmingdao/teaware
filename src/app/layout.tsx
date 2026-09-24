@@ -50,6 +50,19 @@ export default function RootLayout({
         data-goatcounter="https://philren.goatcounter.com/count"
         strategy="afterInteractive"
       />
+      {/* Google Analytics 4 */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-EXSR2ZZMVP"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EXSR2ZZMVP');
+        `}
+      </Script>
     </html>
   );
 }
