@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">器 · 茶</string>
+    <string name="app_name_english">Teaware</string>
+
+    <!-- Home Screen -->
+    <string name="home_featured">精选 Featured</string>
+    <string name="home_dynasty">朝代 Dynasty</string>
+    <string name="home_museum">博物馆 Museum</string>
+    <string name="home_settings">设置 Settings</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow_title">幻灯片 Slideshow</string>
+    <string name="slideshow_nav_hint">← →  导航</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_title">详情 Detail</string>
+    <string name="detail_dynasty">朝代 Dynasty</string>
+    <string name="detail_material">材质 Material</string>
+    <string name="detail_museum">博物馆 Museum</string>
+    <string name="detail_license">许可证 License</string>
+    <string name="detail_credit">致谢 Credit</string>
+    <string name="detail_scan_qr">扫描二维码查看原始来源\nScan QR for original source</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置 Settings</string>
+    <string name="settings_language">语言 Language</string>
+    <string name="settings_autoplay">自动播放间隔 Autoplay Interval</string>
+    <string name="settings_bgm">背景音乐 Background Music</string>
+    <string name="settings_about">关于 About</string>
+
+    <!-- Error States -->
+    <string name="error_loading">加载失败 Loading Failed</string>
+    <string name="error_network">网络错误 Network Error</string>
+    <string name="error_retry">重试 Retry</string>
+    <string name="error_no_items">暂无藏品 No items available</string>
+
+    <!-- Loading -->
+    <string name="loading">加载中… Loading…</string>
+</resources>
