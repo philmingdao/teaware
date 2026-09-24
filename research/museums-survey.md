@@ -8,11 +8,10 @@ Purpose: Document worldwide museum collections with Chinese/East Asian tea ware 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
 | Metropolitan Museum of Art | 1,699 | ✅ Self-hosted | Active |
-| Cleveland Museum of Art | 555 | ✅ Self-hosted | Active |
-| Wikimedia Commons | 330 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 607 | ✅ Self-hosted | Active |
 | ColBase (Japanese Museums) | 339 | ✅ Self-hosted | Active |
+| Wikimedia Commons | 330 | ✅ Self-hosted | Active |
 | Smithsonian (Freer/Sackler) | 175 | ✅ Self-hosted | Active |
-| Other (curated) | 52 | ✅ Self-hosted | Active |
 | **Total** | **3,150** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
@@ -782,11 +781,10 @@ Cleveland Museum (50 new):
 |----------|-------|
 | Total Artworks | 3,150 |
 | Met Museum | 1,699 |
-| Cleveland Museum | 555 |
+| Cleveland Museum | 607 |
+| ColBase | 339 |
 | Wikimedia Commons | 330 |
 | Smithsonian | 175 |
-| ColBase | 339 |
-| Other | 52 |
 
 ## Future Expansion Recommendations
 
