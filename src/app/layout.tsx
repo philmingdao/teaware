@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 import SlideshowProvider from "@/components/SlideshowProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -45,11 +44,6 @@ export default function RootLayout({
           </BackgroundMusicProvider>
         </ThemeProvider>
       </body>
-      <Script
-        src="https://gc.zgo.at/count.js"
-        data-goatcounter="https://philren.goatcounter.com/count"
-        strategy="afterInteractive"
-      />
     </html>
   );
 }
