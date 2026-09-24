@@ -1,18 +1,19 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-23 (Round 11 ColBase Batch)  
+Last updated: 2026-09-24 (Round 12 Fresh Queries Batch)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 1,539 | ✅ Self-hosted | Active |
-| Cleveland Museum of Art | 505 | ✅ Self-hosted | Active |
+| Metropolitan Museum of Art | 1,699 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 555 | ✅ Self-hosted | Active |
 | Wikimedia Commons | 330 | ✅ Self-hosted | Active |
+| ColBase (Japanese Museums) | 339 | ✅ Self-hosted | Active |
 | Smithsonian (Freer/Sackler) | 175 | ✅ Self-hosted | Active |
-| ColBase (Japanese Museums) | 189 | ✅ Self-hosted | Active |
-| **Total** | **2,738** | **All local** | - |
+| Other (curated) | 52 | ✅ Self-hosted | Active |
+| **Total** | **3,150** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -728,16 +729,64 @@ Cleveland Museum (71 new):
 
 ---
 
+## Round 12 Expansion - Fresh Queries (2026-09-24)
+
+**+130 new artworks** (total now **3,150**)
+
+### Expansion Goals
+- Fresh niche queries not heavily used in prior rounds
+- Focus on underrepresented ware types: famille verte, peachbloom, Shino, Thai ceramics
+- Key-free sources only: Met Museum, Cleveland Museum of Art
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Metropolitan Museum of Art | 80 | Famille verte, peachbloom, tea trays, Shino ware |
+| Cleveland Museum of Art | 50 | Famille verte, wucai, Thai, Kangxi porcelain |
+| **Total** | **130** | - |
+
+### Key Queries Used
+
+Met Museum (80 new):
+- `famille verte teapot/cup` - 17 items (Qing enamel ware, figures)
+- `peachbloom bowl China` - 17 items (Kangxi water coupes)
+- `tea tray China` - 24 items (trays, sugar bowls, lacquer)
+- `tea table China porcelain` - 9 items (scenes, screens)
+- `Shino tea bowl` - 10 items (Mino ware dishes)
+
+Cleveland Museum (50 new):
+- `famille verte Chinese` - 16 items (bottle coolers, dishes)
+- `wucai Chinese porcelain` - 6 items (Ming jars, boxes)
+- `Thai ceramics` - 3 items (Sawankhalok fruit jars)
+- `Kangxi porcelain` - 25 items (peachbloom bottles, lions)
+
+### Content Highlights
+- Famille Verte polychrome enamel dishes, vases, Guanyin figures
+- Kangxi peachbloom glaze water coupes (scholar's desk items)
+- Tea service export porcelain: sugar bowls, trays, caddies
+- Japanese Shino ware and Negoro lacquer trays
+- Thai Sawankhalok fruit-shaped jars
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Images compressed to max 1400px, JPEG quality 80 via Pillow
+- SHA256 hash deduplication prevented duplicate images
+- Git LFS tracking maintained for `public/artworks/*.jpg`
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 2,738 |
-| Met Museum | 1,539 |
-| Cleveland Museum | 505 |
+| Total Artworks | 3,150 |
+| Met Museum | 1,699 |
+| Cleveland Museum | 555 |
 | Wikimedia Commons | 330 |
 | Smithsonian | 175 |
-| ColBase | 189 |
+| ColBase | 339 |
+| Other | 52 |
 
 ## Future Expansion Recommendations
 
