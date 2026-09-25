@@ -5,9 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run export-catalog && next build",
     "start": "next start",
     "lint": "eslint",
+    "export-catalog": "npx tsx packages/catalog/export-catalog.ts",
     "fetch-data": "npx tsx scripts/fetch-artworks-v3.ts",
     "fetch-data-legacy": "npx tsx scripts/fetch-artworks.ts"
   },

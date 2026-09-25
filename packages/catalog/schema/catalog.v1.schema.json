@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://philmingdao.github.io/teaware/catalog.v1.schema.json",
+  "title": "Teaware Catalog v1",
+  "description": "Stable catalog format for TV clients (Android TV, tvOS) consuming the teaware collection",
+  "type": "object",
+  "required": ["catalogVersion", "generatedAt", "itemCount", "items"],
+  "properties": {
+    "catalogVersion": {
+      "type": "string",
+      "description": "Schema version identifier (ISO date or semver)",
+      "examples": ["2026-09-24"]
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when this catalog was generated"
+    },
+    "itemCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of items in the catalog"
+    },
+    "items": {
+      "type": "array",
+      "description": "Array of artwork items",
+      "items": {
+        "$ref": "#/definitions/CatalogItem"
+      }
+    }
+  },
+  "definitions": {
+    "CatalogItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "titleChinese",
+        "titleEnglish",
+        "dynasty",
+        "dynastyEnglish",
+        "date",
+        "material",
+        "materialEnglish",
+        "objectType",
+        "objectTypeEnglish",
+        "sourceMuseum",
+        "sourceMuseumEnglish",
+        "accessionNumber",
+        "sourceUrl",
+        "imageUrl",
+        "imageAlt",
+        "license",
+        "thumbUrl",
+        "posterUrl"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable unique identifier (e.g., 'met-44807')"
+        },
+        "titleChinese": {
+          "type": "string",
+          "description": "Chinese title of the artwork"
+        },
+        "titleEnglish": {
+          "type": "string",
+          "description": "English title of the artwork"
+        },
+        "dynasty": {
+          "type": "string",
+          "description": "Dynasty name in Chinese (e.g., '唐', '宋', '明', '清')"
+        },
+        "dynastyEnglish": {
+          "type": "string",
+          "description": "Dynasty name in English (e.g., 'Tang Dynasty')"
+        },
+        "period": {
+          "type": "string",
+          "description": "More specific period designation if available"
+        },
+        "date": {
+          "type": "string",
+          "description": "Date or date range (e.g., '9th century', '1700-1750')"
+        },
+        "material": {
+          "type": "string",
+          "description": "Primary material in Chinese"
+        },
+        "materialEnglish": {
+          "type": "string",
+          "description": "Primary material in English"
+        },
+        "objectType": {
+          "type": "string",
+          "description": "Object type in Chinese (茶壶, 杯盏, 茶具组, 茶罐, 执壶)"
+        },
+        "objectTypeEnglish": {
+          "type": "string",
+          "description": "Object type in English"
+        },
+        "kiln": {
+          "type": "string",
+          "description": "Kiln name in Chinese (if applicable)"
+        },
+        "kilnEnglish": {
+          "type": "string",
+          "description": "Kiln name in English (if applicable)"
+        },
+        "dimensions": {
+          "type": "string",
+          "description": "Dimensions of the artwork"
+        },
+        "description": {
+          "type": "string",
+          "description": "Full description text"
+        },
+        "sourceMuseum": {
+          "type": "string",
+          "description": "Source museum name in Chinese"
+        },
+        "sourceMuseumEnglish": {
+          "type": "string",
+          "description": "Source museum name in English"
+        },
+        "accessionNumber": {
+          "type": "string",
+          "description": "Museum accession number"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the original source page at the museum"
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "Primary image URL (relative to site root or absolute)"
+        },
+        "imageAlt": {
+          "type": "string",
+          "description": "Alt text for the image"
+        },
+        "license": {
+          "type": "string",
+          "description": "License information (e.g., 'CC0 / Public Domain')"
+        },
+        "creditLine": {
+          "type": "string",
+          "description": "Credit line from the museum"
+        },
+        "thumbUrl": {
+          "type": "string",
+          "description": "Thumbnail image URL for list views (may equal imageUrl if no derivative exists)"
+        },
+        "posterUrl": {
+          "type": "string",
+          "description": "Poster/hero image URL for detail/slideshow views (may equal imageUrl if no derivative exists)"
+        }
+      }
+    }
+  }
+}

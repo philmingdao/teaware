@@ -44,3 +44,6 @@ next-env.d.ts
 crawl-output.log
 crawl-v3.log
 expand.log
+
+# Generated catalog (regenerated at build time)
+public/catalog.v1.json
