@@ -1,18 +1,18 @@
 # Museum Open Access Survey for Chinese Tea Ware
 
-Last updated: 2026-09-24 (Round 12 Fresh Queries Batch)  
+Last updated: 2026-09-25 (Round 13 Underrepresented Glazes & Wares Batch)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
 ## Current Collection Status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|
-| Metropolitan Museum of Art | 1,699 | ✅ Self-hosted | Active |
-| Cleveland Museum of Art | 607 | ✅ Self-hosted | Active |
+| Metropolitan Museum of Art | 1,769 | ✅ Self-hosted | Active |
+| Cleveland Museum of Art | 647 | ✅ Self-hosted | Active |
 | ColBase (Japanese Museums) | 339 | ✅ Self-hosted | Active |
 | Wikimedia Commons | 330 | ✅ Self-hosted | Active |
-| Smithsonian (Freer/Sackler) | 175 | ✅ Self-hosted | Active |
-| **Total** | **3,150** | **All local** | - |
+| Smithsonian (Freer/Sackler) | 205 | ✅ Self-hosted | Active |
+| **Total** | **3,290** | **All local** | - |
 
 All images have been downloaded and self-hosted under `public/artworks/{id}.jpg` (no external hotlinking).
 
@@ -775,22 +775,79 @@ Cleveland Museum (50 new):
 
 ---
 
+## Round 13 Expansion - Underrepresented Glazes & Wares (2026-09-25)
+
+**+140 new artworks** (total now **3,290**)
+
+### Expansion Goals
+- Focus on underrepresented Chinese glazes: sang de boeuf, coral red, aubergine, café au lait, crackle glaze
+- Japanese regional wares: Oribe, Bizen, Hagi, Karatsu, Shigaraki
+- Song dynasty wares: Ge, Guan, with crackle glazes
+- Utilized Smithsonian API (key available in environment)
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Metropolitan Museum of Art | 70 | Sang de boeuf, coral red, aubergine, crackle glaze, café au lait |
+| Cleveland Museum of Art | 40 | Guan ware, Oribe, Bizen, Hagi, Shigaraki, crackle glaze |
+| Smithsonian (Freer/Sackler) | 30 | Japanese tea bowls (Kyoto, Raku, Hagi, Karatsu, Agano, Ohi) |
+| **Total** | **140** | - |
+
+### Key Queries Used
+
+Met Museum (70 new):
+- `sang de boeuf vase` - 20 items (Qing oxblood glazed vases)
+- `coral red glaze China` - 14 items (Qing coral red vessels)
+- `aubergine glaze China` - 19 items (purple/aubergine glazed pieces)
+- `crackle glaze bowl China` - 13 items (crackle-glazed bowls)
+- `cafe au lait glaze` - 4 items (café au lait glazed pieces)
+
+Cleveland Museum (40 new):
+- `Guan ware` - 11 items (Southern Song official kilns)
+- `Oribe ware` - 6 items (Mino green-glazed tea ware)
+- `Bizen ware` - 5 items (unglazed stoneware)
+- `crackle glaze Chinese` - 5 items (various crackle pieces)
+- `Shigaraki ware` - 3 items (Japanese stoneware)
+
+Smithsonian (30 new):
+- `tea bowl ceramics` - 30 items (diverse Japanese tea bowls from Freer/Sackler)
+- Includes: Kyoto ware, Raku (black and red), Hagi, Karatsu, Agano, Ohi, Akahada, Satsuma
+- High-quality museum images via IDS deliveryService
+
+### Content Highlights
+- **Sang de boeuf (郎窑红)**: Deep oxblood red glazed vases from Kangxi era
+- **Coral red (珊瑚红)**: Vibrant coral-colored glazed vessels
+- **Aubergine (茄皮紫)**: Purple-glazed pieces with distinctive coloring
+- **Guan ware (官窑)**: Southern Song official kiln pieces with characteristic crackle
+- **Japanese regional wares**: Excellent representation of Oribe, Bizen, Hagi, Karatsu
+- **Freer/Sackler tea bowls**: Comprehensive Japanese tea ceremony ceramics collection
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Images compressed to max 1400px, JPEG quality 80 via Pillow
+- SHA256 hash deduplication prevented duplicate images
+- Git LFS tracking maintained for `public/artworks/*.jpg`
+- Smithsonian API key utilized for expanded access (SMITHSONIAN_API_KEY environment variable)
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 3,150 |
-| Met Museum | 1,699 |
-| Cleveland Museum | 607 |
+| Total Artworks | 3,290 |
+| Met Museum | 1,769 |
+| Cleveland Museum | 647 |
 | ColBase | 339 |
 | Wikimedia Commons | 330 |
-| Smithsonian | 175 |
+| Smithsonian | 205 |
 
 ## Future Expansion Recommendations
 
 ### Priority 1: Asian Museum APIs (High Value)
 1. **National Palace Museum Taiwan (台北故宮)** - Premier imperial collection; API key registration at https://openapi.npm.gov.tw/
-2. **Smithsonian (Freer/Sackler)** - Excellent Chinese ceramics; API key at https://api.data.gov/signup/
+2. ~~**Smithsonian (Freer/Sackler)**~~ - ✅ Now active (API key available, 205 items imported)
 
 ### Priority 2: Asian Museum APIs (Supplementary)
 3. **Tokyo National Museum / ColBase** - Japanese tea ceremony ware; complex registration

@@ -578,3 +578,29 @@
 {"timestamp": "2026-09-24T02:08:47.462352+00:00", "source": "cma", "query": "Vietnamese ceramics", "totalResults": 0, "idsAccepted": 0, "crawlBatchId": "round12-expansion-1790215518166"}
 {"timestamp": "2026-09-24T02:08:49.558238+00:00", "source": "cma", "query": "Thai ceramics", "totalResults": 3, "idsAccepted": 3, "crawlBatchId": "round12-expansion-1790215518166"}
 {"timestamp": "2026-09-24T02:09:04.928934+00:00", "source": "cma", "query": "Kangxi porcelain", "totalResults": 100, "idsAccepted": 25, "crawlBatchId": "round12-expansion-1790215518166"}
+{"timestamp": "2026-09-25T01:58:15.872222+00:00", "source": "met", "query": "sang de boeuf vase", "totalResults": 30, "idsAccepted": 20, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:58:16.371686+00:00", "source": "met", "query": "sang de boeuf China", "totalResults": 30, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:58:30.031818+00:00", "source": "met", "query": "coral red glaze China", "totalResults": 23, "idsAccepted": 14, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:58:47.081297+00:00", "source": "met", "query": "aubergine glaze China", "totalResults": 37, "idsAccepted": 19, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:58:50.127242+00:00", "source": "met", "query": "cafe au lait glaze", "totalResults": 4, "idsAccepted": 4, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:58:59.793606+00:00", "source": "met", "query": "crackle glaze bowl China", "totalResults": 57, "idsAccepted": 13, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:00.546192+00:00", "source": "cma", "query": "sang de boeuf", "totalResults": 1, "idsAccepted": 1, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:01.234043+00:00", "source": "cma", "query": "coral red Chinese", "totalResults": 2, "idsAccepted": 1, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:02.225323+00:00", "source": "cma", "query": "aubergine glaze", "totalResults": 3, "idsAccepted": 2, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:02.785175+00:00", "source": "cma", "query": "Ge ware", "totalResults": 1, "idsAccepted": 1, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:03.072156+00:00", "source": "cma", "query": "Ru ware", "totalResults": 3, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:07.441392+00:00", "source": "cma", "query": "Guan ware", "totalResults": 17, "idsAccepted": 11, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:09.538849+00:00", "source": "cma", "query": "crackle glaze Chinese", "totalResults": 10, "idsAccepted": 5, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:10.647075+00:00", "source": "cma", "query": "tea caddy Japanese", "totalResults": 12, "idsAccepted": 2, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:10.983392+00:00", "source": "cma", "query": "chawan tea bowl", "totalResults": 1, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:11.362332+00:00", "source": "cma", "query": "export tea service", "totalResults": 19, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:11.613502+00:00", "source": "cma", "query": "silver teapot Asian", "totalResults": 0, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:11.851551+00:00", "source": "cma", "query": "pewter Asian", "totalResults": 0, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:12.519987+00:00", "source": "cma", "query": "bamboo tea", "totalResults": 1, "idsAccepted": 1, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:12.807353+00:00", "source": "cma", "query": "Raku ware", "totalResults": 0, "idsAccepted": 0, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:15.124572+00:00", "source": "cma", "query": "Oribe ware", "totalResults": 6, "idsAccepted": 6, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:17.102127+00:00", "source": "cma", "query": "Bizen ware", "totalResults": 6, "idsAccepted": 5, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:17.694281+00:00", "source": "cma", "query": "Hagi ware", "totalResults": 1, "idsAccepted": 1, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:18.289220+00:00", "source": "cma", "query": "Karatsu ware", "totalResults": 2, "idsAccepted": 1, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:19.630765+00:00", "source": "cma", "query": "Shigaraki ware", "totalResults": 9, "idsAccepted": 3, "crawlBatchId": "round13-expansion-1790301476803"}
+{"timestamp": "2026-09-25T01:59:36.092938+00:00", "source": "smithsonian", "query": "tea bowl ceramics", "totalResults": 50, "idsAccepted": 30, "crawlBatchId": "round13-expansion-1790301476803"}
