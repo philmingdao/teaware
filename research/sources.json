@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-25T02:00:00.000000+00:00",
+  "lastUpdated": "2026-09-26T11:09:30.961095+00:00",
   "sources": [
     {
       "id": "met",
@@ -14,7 +14,7 @@
       "license": "CC0",
       "licenseField": "isPublicDomain",
       "imageField": "primaryImage",
-      "lastCrawl": "2026-09-25T02:00:00.000000+00:00",
+      "lastCrawl": "2026-09-26T11:09:30.961095+00:00",
       "queries": [
         {
           "query": "tea bowl China",
@@ -131,7 +131,7 @@
       "license": "CC0",
       "licenseField": "share_license_status",
       "imageField": "images.web.url",
-      "lastCrawl": "2026-09-25T02:00:00.000000+00:00",
+      "lastCrawl": "2026-09-26T11:09:30.961095+00:00",
       "queries": [
         {
           "query": "teapot Chinese",
@@ -267,7 +267,7 @@
       "authType": "apikey",
       "keyEnvVar": "SMITHSONIAN_API_KEY",
       "license": "CC0",
-      "lastCrawl": "2026-09-22T06:45:00.000Z",
+      "lastCrawl": "2026-09-26T11:09:30.961095+00:00",
       "queries": [
         {
           "query": "tea bowl Freer",

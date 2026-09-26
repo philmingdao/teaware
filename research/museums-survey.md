@@ -832,16 +832,93 @@ Smithsonian (30 new):
 
 ---
 
+## Round 14 Expansion - Chinese/East Asian Tea Ware Focus (2026-09-26)
+
+**+127 new artworks** (total now **3,417**)
+
+### Expansion Goals
+- Focus on Chinese tea ware: teapots, tea cups, tea bowls from Met Museum
+- Fill gaps in Cleveland Museum Asian ceramics collection
+- Expand Smithsonian Freer/Sackler coverage
+- Improved filtering to exclude non-Asian and non-tea items
+
+### Sources Breakdown
+
+| Source | New Items | Notes |
+|--------|-----------|-------|
+| Metropolitan Museum of Art | 91 | Chinese export teapots, tea cups, porcelain bowls |
+| Cleveland Museum of Art | 24 | Japanese tea bowls, Korean ceramics, Chinese porcelain |
+| Smithsonian (Freer/Sackler) | 12 | Asian ceramics and tea ware |
+| **Total** | **127** | - |
+
+### Content Breakdown by Dynasty
+
+| Dynasty | Count |
+|---------|-------|
+| Qing Dynasty (清) | 93 |
+| Modern (近现代) | 14 |
+| Ming Dynasty (明) | 11 |
+| Song Dynasty (宋) | 4 |
+| Tang Dynasty (唐) | 4 |
+| Southern Song (南宋) | 2 |
+| Yuan Dynasty (元) | 1 |
+| Northern Song (北宋) | 1 |
+
+### Content Breakdown by Object Type
+
+| Object Type | Count |
+|-------------|-------|
+| Tea Ware (茶器) | 42 |
+| Cup (杯) | 28 |
+| Teapot (茶壶) | 15 |
+| Dish (盘) | 14 |
+| Vase (花瓶) | 11 |
+| Tea Bowl (茶碗) | 7 |
+| Jar (罐) | 6 |
+| Incense Burner (香炉) | 3 |
+| Other | 4 |
+
+### Key Queries Used
+
+Met Museum (91 new):
+- `tea cup China porcelain` - 12 items (Chinese tea cups, Sencha cups)
+- `teapot China export` - 15 items (Export porcelain teapots)
+- `Chinese porcelain bowl Qing` - 3 items (Water coupes, bowls)
+
+Cleveland Museum (24 new):
+- `Chinese porcelain bowl` - 8 items (Dragons, Kakiemon ware)
+- `Japanese tea bowl` - 13 items (Covered bowls, chrysanthemum designs)
+- `Japanese porcelain` - 9 items (Arita, Imari, Nabeshima)
+
+### Content Highlights
+- **Chinese Export Teapots**: Qing dynasty porcelain teapots for European/American markets
+- **Japanese Tea Bowls**: Covered bowls with Seven Treasures, chrysanthemum motifs
+- **Kakiemon Ware**: Japanese porcelain bowls from Cleveland collection
+- **Sencha Teacups**: Japanese tea cups with lattice patterns
+
+### API Keys Used
+- `SMITHSONIAN_API_KEY`: ✅ Used for Freer/Sackler queries
+- `HARVARD_API_KEY`: ⏭️ Skipped (CC-BY-NC license unclear for this gallery)
+
+### Technical Notes
+- All images self-hosted as JPEG under `public/artworks/`
+- Images compressed to max 1400px, JPEG quality 80 via Pillow
+- SHA256 hash deduplication prevented duplicate images
+- Improved Asian origin filtering to exclude European porcelain
+- Post-crawl cleanup removed non-tea items (tomb figurines, opium pipes, cane handles)
+
+---
+
 ## Current Collection Summary
 
 | Category | Count |
 |----------|-------|
-| Total Artworks | 3,290 |
-| Met Museum | 1,769 |
-| Cleveland Museum | 647 |
+| Total Artworks | 3,417 |
+| Met Museum | 1,860 |
+| Cleveland Museum | 671 |
 | ColBase | 339 |
 | Wikimedia Commons | 330 |
-| Smithsonian | 205 |
+| Smithsonian | 217 |
 
 ## Future Expansion Recommendations
 
