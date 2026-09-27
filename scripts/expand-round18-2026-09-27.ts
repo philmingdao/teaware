@@ -29,6 +29,11 @@
  * Quality Gate (mandatory):
  * - REQUIRED: max(width, height) >= 1200 pixels
  * - Images below this threshold are rejected
+ * 
+ * GitHub Pages Size Constraint:
+ * - Artifact limit ~950MB; Round 17 hit 1012MB and failed deploy
+ * - Compress aggressively: 1200px max edge, JPEG quality 70, mozjpeg
+ * - This keeps Round 18 images at ~64MB total vs ~148MB with old settings
  */
 
 import * as fs from 'fs';
@@ -507,9 +512,10 @@ async function compressImage(imageData: Buffer, outputPath: string): Promise<boo
       return false;
     }
     
+    // GitHub Pages size limit: cap at 1200px, quality 70, strip metadata
     await image
-      .resize(1400, 1400, { fit: 'inside', withoutEnlargement: true })
-      .jpeg({ quality: 80, progressive: true })
+      .resize(1200, 1200, { fit: 'inside', withoutEnlargement: true })
+      .jpeg({ quality: 70, progressive: true, mozjpeg: true })
       .toFile(outputPath);
     return true;
   } catch (e) {
