@@ -16,6 +16,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { execSync } from 'child_process';
 import sharp from 'sharp';
 
 const MIN_LONGEST_EDGE = 1200;
@@ -23,7 +24,6 @@ const MIN_LONGEST_EDGE = 1200;
 const ROOT = process.cwd();
 const ARTWORKS_JSON_PATH = path.join(ROOT, 'src', 'data', 'artworks.json');
 const PUBLIC_ARTWORKS_JSON_PATH = path.join(ROOT, 'public', 'artworks.json');
-const IMAGES_DIR = path.join(ROOT, 'public', 'artworks');
 const DELETE_LIST_PATH = path.join(ROOT, 'uploads', 'delete_longest_edge_lt_1200_3d0b.json');
 
 interface Artwork {
@@ -83,7 +83,7 @@ async function measureImage(imagePath: string): Promise<{ width: number; height:
     const metadata = await sharp(content).metadata();
     if (!metadata.width || !metadata.height) return null;
     return { width: metadata.width, height: metadata.height };
-  } catch (e) {
+  } catch {
     return null;
   }
 }
@@ -140,21 +140,21 @@ async function main() {
   console.log();
 
   // Load delete list
-  if (!fs.existsSync(DELETE_LIST_PATH)) {
+  let deleteListPath = DELETE_LIST_PATH;
+  if (!fs.existsSync(deleteListPath)) {
     // Try alternative path
     const altPath = '/home/ubuntu/.cursor/projects/workspace/uploads/delete_longest_edge_lt_1200_3d0b.json';
     if (fs.existsSync(altPath)) {
-      console.log(`📂 使用删除列表: ${altPath}`);
-      const deleteListContent = fs.readFileSync(altPath, 'utf-8');
-      var deletePayload: DeleteListPayload = JSON.parse(deleteListContent);
+      deleteListPath = altPath;
     } else {
       console.error(`❌ 找不到删除列表文件: ${DELETE_LIST_PATH}`);
       process.exit(1);
     }
-  } else {
-    const deleteListContent = fs.readFileSync(DELETE_LIST_PATH, 'utf-8');
-    var deletePayload: DeleteListPayload = JSON.parse(deleteListContent);
   }
+  
+  console.log(`📂 使用删除列表: ${deleteListPath}`);
+  const deleteListContent = fs.readFileSync(deleteListPath, 'utf-8');
+  const deletePayload: DeleteListPayload = JSON.parse(deleteListContent);
   
   const deleteIdsSet = new Set(deletePayload.delete_ids);
   console.log(`📋 删除列表: ${deletePayload.delete_count} 个 ID`);
@@ -174,11 +174,10 @@ async function main() {
     const content = fs.readFileSync(sampleImagePath);
     if (content.length < 200 && content.toString('utf-8').startsWith('version https://git-lfs.github.com/spec/v1')) {
       console.log('⚠️  检测到 Git LFS 指针文件，正在拉取实际图片...');
-      const { execSync } = require('child_process');
       try {
         execSync('git lfs pull', { cwd: ROOT, stdio: 'inherit' });
         console.log('✅ Git LFS 拉取完成');
-      } catch (e) {
+      } catch {
         console.log('⚠️  Git LFS 拉取失败，继续处理...');
       }
     } else {
