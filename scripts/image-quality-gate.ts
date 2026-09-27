@@ -8,11 +8,17 @@
  * image download/processing in expand scripts.
  * 
  * Established: 2026-09-27 (Phil confirmed)
+ * Updated: 2026-09-27 - Reduced output size for GitHub Pages compliance
+ *   - Max edge: 1400 → 1200 (matches quality gate minimum)
+ *   - Quality: 80 → 72 (mozjpeg progressive)
+ *   - Artifact target: <900 MB (GitHub Pages limit is 950 MB)
  */
 
 import sharp from 'sharp';
 
 export const MIN_LONGEST_EDGE = 1200;
+export const MAX_OUTPUT_EDGE = 1200;
+export const JPEG_QUALITY = 72;
 
 export interface ImageDimensions {
   width: number;
@@ -93,8 +99,8 @@ export async function compressImageWithQualityGate(
   
   try {
     await sharp(imageData)
-      .resize(1400, 1400, { fit: 'inside', withoutEnlargement: true })
-      .jpeg({ quality: 80, progressive: true })
+      .resize(MAX_OUTPUT_EDGE, MAX_OUTPUT_EDGE, { fit: 'inside', withoutEnlargement: true })
+      .jpeg({ quality: JPEG_QUALITY, progressive: true, mozjpeg: true })
       .toFile(outputPath);
     return true;
   } catch (e) {
