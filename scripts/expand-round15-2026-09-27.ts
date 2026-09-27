@@ -14,6 +14,11 @@
  * - SHA256 dedupe against existing images
  * - Focus on Chinese/Asian ceramics & tea ware
  * - Clear 简体 Chinese labels
+ * 
+ * Quality Gate (2026-09-27):
+ * - REQUIRED: max(width, height) >= 1200 pixels (source image before compression)
+ * - Images below this threshold are rejected regardless of other quality factors
+ * - This gate was introduced to ensure gallery images are sharp on high-DPI displays
  */
 
 import * as fs from 'fs';
@@ -59,6 +64,9 @@ const IMAGES_DIR = path.join(ROOT, 'public', 'artworks');
 const BATCH_ID = `round15-expansion-${Date.now()}`;
 
 const SMITHSONIAN_API_KEY = process.env.SMITHSONIAN_API_KEY;
+
+// Quality gate: reject source images with longest edge < 1200px
+const MIN_LONGEST_EDGE = 1200;
 
 // New queries not yet tried (based on crawl-log analysis)
 const MET_QUERIES = [
@@ -268,7 +276,17 @@ function hashBuffer(buffer: Buffer): string {
 
 async function compressImage(imageData: Buffer, outputPath: string): Promise<boolean> {
   try {
-    await sharp(imageData)
+    const image = sharp(imageData);
+    const metadata = await image.metadata();
+    
+    // Quality gate: reject if longest edge < MIN_LONGEST_EDGE
+    const longestEdge = Math.max(metadata.width || 0, metadata.height || 0);
+    if (longestEdge < MIN_LONGEST_EDGE) {
+      console.log(`    ❌ 质量门槛未通过: ${metadata.width}x${metadata.height} (最长边=${longestEdge}px < ${MIN_LONGEST_EDGE}px)`);
+      return false;
+    }
+    
+    await image
       .resize(1400, 1400, { fit: 'inside', withoutEnlargement: true })
       .jpeg({ quality: 80, progressive: true })
       .toFile(outputPath);

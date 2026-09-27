@@ -26,7 +26,7 @@ All artwork images are from open-access museum collections (The Metropolitan Mus
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **1,052** |
+| Total Artworks | **2,540** |
 | Credited Sources | 17 |
 | Dynasty Labels | 18 |
 | Object Types | 5 |
@@ -208,8 +208,20 @@ This project maintains durable research logs to support future expansion without
 The crawl scripts implement:
 - **Deduplication** by museum object ID, accession number, and image URL
 - **Quality filtering**: Public domain only, has image, Chinese/East Asian origin, tea-related object types
+- **Image quality gate**: Source image must have longest edge ≥ 1200px (see below)
 - **Rate limiting** with exponential backoff for API errors
 - **Comprehensive logging** for reproducibility
+
+### Image Quality Gate
+
+**Rule:** An artwork may only stay in or enter the gallery if its source image's longest edge (`max(width, height)` in pixels) is **≥ 1200**.
+
+This gate ensures all gallery images are sharp on high-DPI displays. It was established 2026-09-27 based on a JPEG SOF scan of the live collection.
+
+When writing expand/ingest scripts:
+- Use `scripts/image-quality-gate.ts` utilities (`checkImageQuality`, `compressImageWithQualityGate`)
+- Or add manual check: `if (Math.max(width, height) < 1200) reject`
+- Always measure **actual pixel dimensions** after download (not museum metadata alone)
 
 ### Avoiding Duplicate Crawls
 
