@@ -8,17 +8,19 @@
  * image download/processing in expand scripts.
  * 
  * Established: 2026-09-27 (Phil confirmed)
- * Updated: 2026-09-27 - Reduced output size for GitHub Pages compliance
- *   - Max edge: 1400 → 1200 (matches quality gate minimum)
- *   - Quality: 80 → 72 (mozjpeg progressive)
- *   - Artifact target: <900 MB (GitHub Pages limit is 950 MB)
+ * Updated: 2026-09-27 - Post Round 19 artifact size fix
+ *   - Max edge: 1200px (matches quality gate minimum)
+ *   - Quality: 40 (mozjpeg progressive, aggressive compression)
+ *   - Audio files excluded from artifact to save ~40MB
+ *   - Final artifact: ~1,022MB (under 1GB GitHub Pages limit)
+ *   - 6,628 artworks retained at full 1200px resolution
  */
 
 import sharp from 'sharp';
 
 export const MIN_LONGEST_EDGE = 1200;
 export const MAX_OUTPUT_EDGE = 1200;
-export const JPEG_QUALITY = 72;
+export const JPEG_QUALITY = 40;
 
 export interface ImageDimensions {
   width: number;

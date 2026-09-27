@@ -1,7 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { artworks, getArtworkById } from '@/data/artworks';
+import { getArtworkById } from '@/data/artworks';
+import { getAllArtworkIds, getArtworkNavigation } from '@/data/artwork-navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ResilientImage from '@/components/ResilientImage';
@@ -15,9 +16,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return artworks.map((artwork) => ({
-    id: artwork.id,
-  }));
+  return getAllArtworkIds().map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -94,9 +93,9 @@ export default async function ArtworkPage({ params }: Props) {
     notFound();
   }
 
-  const currentIndex = artworks.findIndex(a => a.id === id);
-  const prevArtwork = currentIndex > 0 ? artworks[currentIndex - 1] : null;
-  const nextArtwork = currentIndex < artworks.length - 1 ? artworks[currentIndex + 1] : null;
+  const navigation = getArtworkNavigation(id);
+  const prevArtwork = navigation?.prev ?? null;
+  const nextArtwork = navigation?.next ?? null;
 
   const artworkJsonLd = createArtworkJsonLd(artwork);
 
