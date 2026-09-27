@@ -664,3 +664,20 @@
 {"timestamp": "2026-09-26T11:08:31.652496+00:00", "source": "cma", "query": "Japanese tea bowl", "totalResults": 27, "idsAccepted": 13, "crawlBatchId": "round14-phase2-1790420874229"}
 {"timestamp": "2026-09-26T11:08:35.638679+00:00", "source": "cma", "query": "Japanese porcelain", "totalResults": 100, "idsAccepted": 9, "crawlBatchId": "round14-phase2-1790420874229"}
 {"timestamp": "2026-09-26T11:10:01.799711+00:00", "source": "round14-summary", "query": "Round 14 Expansion Complete", "totalResults": 130, "idsAccepted": 127, "crawlBatchId": "round14-summary", "breakdown": {"met": 91, "cma": 24, "smithsonian": 12}, "note": "Round 14 expansion: 3290 → 3417 (+127). Chinese/Japanese/Korean tea ware focus. Post-crawl cleanup removed 3 non-tea items."}
+{"timestamp":"2026-09-27T10:06:59.013Z","source":"met","query":"iron rust glaze China","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:05.733Z","source":"met","query":"apple green glaze China","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:12.660Z","source":"met","query":"lavender glaze China","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:19.157Z","source":"met","query":"turquoise glaze China porcelain","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:25.932Z","source":"met","query":"lemon yellow glaze","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:37.287Z","source":"met","query":"imperial yellow glaze","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:43.639Z","source":"met","query":"conical bowl China","totalResults":8,"idsAccepted":8,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:50.744Z","source":"met","query":"wine pot China","totalResults":10,"idsAccepted":10,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:51.980Z","source":"met","query":"warming bowl China","totalResults":1,"idsAccepted":1,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:07:59.933Z","source":"met","query":"spouted bowl China","totalResults":9,"idsAccepted":9,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:06.435Z","source":"met","query":"lotus bowl China","totalResults":8,"idsAccepted":8,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:11.304Z","source":"met","query":"chrysanthemum bowl China","totalResults":5,"idsAccepted":5,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:15.426Z","source":"met","query":"Hongzhi porcelain","totalResults":6,"idsAccepted":6,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:21.899Z","source":"met","query":"Zhengde porcelain","totalResults":7,"idsAccepted":7,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:23.773Z","source":"met","query":"Tianqi porcelain","totalResults":2,"idsAccepted":2,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:31.673Z","source":"met","query":"Chongzhen porcelain","totalResults":8,"idsAccepted":8,"crawlBatchId":"round15-expansion-1790503610015"}
+{"timestamp":"2026-09-27T10:08:32.283Z","source":"round15-summary","query":"Round 15 Expansion Complete","totalResults":124,"idsAccepted":124,"crawlBatchId":"round15-summary","breakdown":{"met":124,"cma":0,"smithsonian":0},"note":"Round 15 expansion: 3417 → 3541 (+124). Key-free sources only."}
