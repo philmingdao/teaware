@@ -1,0 +1,1817 @@
+========================================
+Round 19 茶器收藏扩展 - 2026-09-27
+批次ID: round19-expansion-1790523066821
+目标: +800 to +1,500 件高质量茶器
+========================================
+
+现有藏品: 5427 件
+已完成查询: 1079 个
+Smithsonian API Key: ✓ 已配置
+跳过来源: AIC IIIF (Cloudflare 403), CMA (~900px 低分辨率)
+许可证跳过: Harvard (CC-BY-NC)
+
+=== 维多利亚和阿尔伯特博物馆查询 (优先) ===
+  [V&A] 查询: "Han dynasty pottery"
+    找到: 60 件，筛选中...
+    + va-O138327: 
+    + va-O40470: 
+    + va-O152016: 
+    + va-O126223: 
+    + va-O152013: 
+    + va-O152017: 
+    + va-O152014: 
+    + va-O76777: 
+    + va-O34975: 
+    + va-O90685: 
+    + va-O14525: Head of a horse
+    + va-O151999: 
+    + va-O136591: The Stein Collection
+    + va-O134697: The Stein Collection
+    + va-O136594: The Stein Collection
+    已接受: 15 件
+  [V&A] 查询: "Tang dynasty pottery"
+    找到: 27 件，筛选中...
+    + va-O138351: 
+    + va-O152054: 
+    + va-O130329: Figure of Buddha
+    + va-O136583: The Stein Collection
+    + va-O230028: 
+    + va-O136584: The Stein Collection
+    + va-O136582: The Stein Collection
+    + va-O136592: The Stein Collection
+    + va-O136596: The Stein Collection
+    + va-O136595: The Stein Collection
+    + va-O496971: 
+    + va-O136518: The Stein Collection
+    + va-O238717: 
+    + va-O136514: The Stein Collection
+    + va-O7366: 
+    已接受: 15 件
+  [V&A] 查询: "Tang sancai"
+    找到: 35 件，筛选中...
+    + va-O136463: 
+    + va-O12683: 
+    + va-O12684: 
+    + va-O136465: 
+    + va-O339317: 
+    + va-O485555: 
+    + va-O34467: 
+    + va-O34466: 
+    + va-O34462: 
+    + va-O34461: 
+    + va-O14523: 
+    + va-O74107: 
+    + va-O34468: 
+    + va-O34465: 
+    + va-O34463: 
+    已接受: 15 件
+  [V&A] 查询: "Song dynasty ceramics"
+    找到: 60 件，筛选中...
+    + va-O113051: Pillow
+    + va-O108496: Bowl stand
+    + va-O102657: Dish
+    + va-O108674: 
+    + va-O113048: Pillow
+    + va-O109642: 
+    + va-O113038: 
+    + va-O113052: 
+    + va-O109645: 
+    + va-O109631: 
+    + va-O58774: 
+    + va-O113027: 
+    + va-O108630: 
+    + va-O108679: 
+    + va-O181644: 
+    已接受: 15 件
+  [V&A] 查询: "Northern Song ceramics"
+    找到: 60 件，筛选中...
+    + va-O112507: 
+    + va-O112576: 
+    + va-O112539: 
+    + va-O112511: 
+    + va-O33499: Dish
+    + va-O112509: 
+    + va-O113047: 
+    + va-O109630: 
+    + va-O109702: 
+    + va-O109611: 
+    + va-O109681: Censer
+    + va-O113345: Monkey
+    + va-O109623: 
+    + va-O109687: Bowl
+    + va-O109693: Bowl
+    已接受: 15 件
+  [V&A] 查询: "Southern Song ceramics"
+    找到: 60 件，筛选中...
+    + va-O73191: 
+    + va-O74103: 
+    + va-O152675: Mallet Vase
+    + va-O127896: 
+    + va-O138987: 
+    + va-O152094: 
+    + va-O109661: 
+    + va-O133234: 
+    + va-O139034: 
+    + va-O181047: 
+    + va-O152110: 
+    + va-O116726: 
+    + va-O133225: 
+    + va-O58770: 
+    + va-O152687: 
+    已接受: 15 件
+  [V&A] 查询: "Yuan dynasty porcelain"
+    找到: 60 件，筛选中...
+    + va-O17110: 
+    + va-O182021: 
+    + va-O139208: 
+    + va-O139185: 
+    + va-O139218: 
+    + va-O139219: 
+    + va-O157393: Guanyin
+    + va-O139209: 
+    + va-O185297: 
+    + va-O139210: 
+    + va-O180923: 
+    + va-O181327: 
+    + va-O181592: 
+    + va-O437261: 
+    + va-O33523: 
+    已接受: 15 件
+  [V&A] 查询: "Yuan blue white"
+    找到: 60 件，筛选中...
+    + va-O176084: 
+    + va-O181087: 
+    + va-O235249: 
+    + va-O1153584: 
+    + va-O494765: 
+    + va-O1153581: 
+    + va-O178614: 
+    + va-O494608: 
+    + va-O494577: 
+    + va-O494564: 
+    + va-O1141712: 
+    + va-O494607: 
+    + va-O494576: 
+    + va-O494606: 
+    + va-O494604: 
+    已接受: 15 件
+  [V&A] 查询: "Ming dynasty porcelain"
+    找到: 60 件，筛选中...
+    + va-O168503: 
+    + va-O187926: 
+    + va-O152114: 
+    + va-O181017: 
+    + va-O152115: 
+    + va-O14528: 
+    + va-O139240: 
+    + va-O176064: 
+    + va-O69543: 
+    + va-O181149: 
+    + va-O166082: Bodhidharma Crossing the Yangtze River
+    + va-O33538: 
+    + va-O155890: 
+    + va-O178666: 
+    + va-O139237: 
+    已接受: 15 件
+  [V&A] 查询: "Qing dynasty porcelain"
+    找到: 60 件，筛选中...
+    + va-O168506: 
+    + va-O94154: 
+    + va-O94135: 
+    + va-O173207: 
+    + va-O173206: 
+    + va-O173205: 
+    + va-O173204: 
+    + va-O173203: 
+    + va-O173200: 
+    + va-O173198: 
+    + va-O75680: 
+    + va-O495323: 
+    + va-O77998: 
+    + va-O14530: 
+    + va-O166284: 
+    已接受: 15 件
+  [V&A] 查询: "Longquan celadon"
+    找到: 60 件，筛选中...
+    + va-O177039: 
+    + va-O176909: 
+    + va-O182035: 
+    + va-O182034: 
+    + va-O182027: 
+    + va-O181929: 
+    + va-O33521: 
+    + va-O33513: 
+    + va-O181471: 
+    + va-O437360: 
+    + va-O182739: 
+    + va-O437355: 
+    + va-O495028: 
+    + va-O192994: 
+    + va-O133220: 
+    已接受: 15 件
+  [V&A] 查询: "Jingdezhen porcelain"
+    找到: 60 件，筛选中...
+    + va-O176456: 
+    + va-O77874: 
+    + va-O116734: 
+    + va-O469086: 
+    + va-O179607: 
+    + va-O181715: 
+    + va-O152122: 
+    + va-O73285: 
+    + va-O77850: 
+    + va-O77851: 
+    + va-O181761: 
+    + va-O180416: 
+    + va-O485586: 
+    + va-O77978: 
+    + va-O178815: 
+    已接受: 15 件
+  [V&A] 查询: "Yixing stoneware"
+    找到: 60 件，筛选中...
+    + va-O187702: Yixing stoneware glazed vase
+    + va-O115707: Yixing stoneware lidded cup
+    + va-O185374: Yixing stoneware teapot
+    + va-O494941: Yixing stoneware teapot with lid
+    + va-O185381: Yixing stoneware vase
+    + va-O115616: Yixing stoneware bowl with lid
+    + va-O184677: Yixing stoneware vase
+    + va-O184678: Yixing stoneware vase
+    + va-O185533: Yixing stoneware vase
+    + va-O494940: 
+    + va-O494939: Yixing stoneware teapot with lid
+    + va-O183047: Yixing stoneware teapot with relief vine and squir
+    + va-O182352: Yixing stoneware teapot
+    + va-O494948: Yixing stoneware teapot with lid
+    + va-O185379: Yixing stoneware teapot with lid
+    已接受: 15 件
+  [V&A] 查询: "Yixing teapot"
+    找到: 60 件，筛选中...
+    + va-O115620: Yixing teapot with lid
+    + va-O115621: Yixing teapot with lid
+    + va-O115643: Yixing teapot with lid
+    + va-O22903: Zisha teapot
+    + va-O115614: Yixing teapot with lid
+    + va-O115619: Yixing teapot with lid
+    + va-O179337: 
+    + va-O115649: Yixing stoneware teapot with roof tile design
+    + va-O179342: 
+    + va-O125981: 
+    + va-O115700: 
+    + va-O115701: Yixing stoneware with enamel decoration
+    + va-O24390: Teapot with lid
+    + va-O22866: 
+    + va-O115644: Teapot with lid
+    已接受: 15 件
+  [V&A] 查询: "Dehua porcelain"
+    找到: 60 件，筛选中...
+    + va-O168404: Guanyin
+    + va-O180904: 
+    + va-O185460: 
+    + va-O14494: 
+    + va-O176735: Guanyin
+    + va-O127573: 
+    + va-O181933: Guanyin
+    + va-O438343: 
+    + va-O494061: Subduer of Tigers
+    + va-O116707: Guanyin
+    + va-O185963: 
+    + va-O496779: Guanyin
+    + va-O185955: 
+    + va-O185496: 
+    + va-O185470: 
+    已接受: 15 件
+  [V&A] 查询: "Blanc de Chine"
+    找到: 60 件，筛选中...
+    + va-O138236: 
+    + va-O181551: 
+    + va-O181536: Madonna and child
+    + va-O5928: 
+    + va-O333111: 
+    + va-O181942: 
+    + va-O487046: Guanyin
+    + va-O227536: 
+    + va-O1454702: 
+    + va-O1454701: 
+    + va-O1454700: 
+    + va-O1443432: 
+    + va-O1443431: 
+    + va-O1443426: 
+    + va-O337249: 
+    已接受: 15 件
+  [V&A] 查询: "Cizhou ware"
+    找到: 60 件，筛选中...
+    + va-O113049: Vase
+    + va-O12715: 
+    + va-O113342: 
+    + va-O113348: 
+    + va-O113347: 
+    + va-O493174: 
+    + va-O113346: 
+    + va-O113344: 
+    + va-O113050: 
+    + va-O113016: 
+    + va-O1152048: 
+    + va-O113055: 
+    + va-O147322: 
+    + va-O113054: 
+    + va-O113053: 
+    已接受: 15 件
+  [V&A] 查询: "Ding ware"
+    找到: 60 件，筛选中...
+    + va-O109674: 
+    + va-O109646: 
+    + va-O109650: 
+    + va-O109653: 
+    + va-O109647: Dish
+    + va-O109658: Bowl
+    + va-O109654: 
+    + va-O109655: Dish
+    + va-O497015: 
+    + va-O437603: 
+    + va-O437332: 
+    + va-O497030: 
+    + va-O152402: 
+    + va-O152403: 
+    + va-O1160919: 
+    已接受: 15 件
+  [V&A] 查询: "Jun ware"
+    找到: 60 件，筛选中...
+    + va-O116708: 
+    + va-O108683: 
+    + va-O108675: 
+    + va-O108682: 
+    + va-O108738: 
+    + va-O115550: 
+    + va-O1152036: 
+    + va-O1152034: 
+    + va-O166078: 
+    + va-O493181: 
+    + va-O493173: 
+    + va-O1152060: 
+    + va-O1152058: 
+    + va-O1152056: 
+    + va-O146675: 
+    已接受: 15 件
+  [V&A] 查询: "Ru ware"
+    找到: 12 件，筛选中...
+    + va-O76822: 
+    + va-O138990: 
+    + va-O85394: 
+    已接受: 3 件
+  [V&A] 查询: "Ge ware"
+    找到: 6 件，筛选中...
+    + va-O186299: Yixing vase
+    + va-O186334: 
+    + va-O116712: 
+    + va-O22906: 
+    已接受: 4 件
+  [V&A] 查询: "Guan ware"
+    找到: 45 件，筛选中...
+    + va-O165249: Guan Di
+    + va-O1316704: Neo-Guan
+    + va-O152124: 
+    + va-O133634: 
+    + va-O187684: 
+    + va-O495251: 
+    + va-O495252: 
+    + va-O494519: 
+    + va-O1154100: 
+    + va-O1154099: 
+    + va-O1154098: 
+    + va-O1154097: 
+    + va-O1154096: 
+    + va-O1154095: 
+    + va-O1154094: 
+    已接受: 15 件
+  [V&A] 查询: "Yaozhou ware"
+    找到: 41 件，筛选中...
+    + va-O109710: 
+    + va-O109700: 
+    + va-O109711: Dish
+    + va-O109683: Bowl
+    + va-O109709: 
+    + va-O109708: Candlestick
+    + va-O109712: Dish
+    + va-O437358: 
+    + va-O109713: 
+    + va-O437357: 
+    + va-O147298: Bowl
+    + va-O152407: Bowl
+    + va-O147328: 
+    + va-O495654: 
+    + va-O437359: 
+    已接受: 15 件
+  [V&A] 查询: "Jizhou ware"
+    找到: 37 件，筛选中...
+    + va-O152695: 
+    + va-O133232: 
+    + va-O153005: 
+    + va-O152696: 
+    + va-O152384: 
+    + va-O494814: 
+    + va-O152388: Tea bowl
+    + va-O152699: 
+    + va-O152698: Teabowl
+    + va-O133235: 
+    + va-O133233: 
+    + va-O151966: 
+    + va-O139217: 
+    + va-O139182: 
+    + va-O152697: 
+    已接受: 15 件
+  [V&A] 查询: "Jian ware"
+    找到: 24 件，筛选中...
+    + va-O153019: 
+    + va-O146654: 
+    + va-O153011: 
+    + va-O385338: 
+    + va-O1521416: 
+    + va-O153010: 
+    + va-O1152027: 
+    + va-O437312: 
+    + va-O437806: 
+    + va-O438067: 
+    + va-O34992: 
+    + va-O1441133: 
+    + va-O1441132: 
+    + va-O438106: 
+    + va-O493297: 
+    已接受: 15 件
+  [V&A] 查询: "Qingbai ware"
+    找到: 60 件，筛选中...
+    + va-O127906: 
+    + va-O152691: Box and cover
+    + va-O152693: 
+    + va-O496907: 
+    + va-O152692: 
+    + va-O461099: 
+    + va-O438329: 
+    + va-O151973: 
+    + va-O1152039: 
+    + va-O493170: 
+    + va-O1152040: 
+    + va-O1152038: 
+    + va-O1152005: 
+    + va-O1141707: 
+    + va-O1141706: 
+    已接受: 15 件
+  [V&A] 查询: "blue and white Chinese"
+    找到: 60 件，筛选中...
+    + va-O695962: 
+    + va-O234931: 
+    + va-O85135: 
+    + va-O86363: 
+    + va-O468925: 
+    + va-O234934: 
+    + va-O64733: 
+    + va-O70914: 
+    + va-O176038: 
+    + va-O496452: 
+    + va-O23466: 
+    + va-O122421: 
+    + va-O155072: 
+    + va-O59078: Print
+    + va-O123378: 
+    已接受: 15 件
+  [V&A] 查询: "famille rose Chinese"
+    找到: 60 件，筛选中...
+    + va-O283023: 
+    + va-O494195: 
+    + va-O335738: 
+    + va-O176702: 
+    + va-O127936: Dish
+    + va-O336928: 
+    + va-O176709: 
+    + va-O176704: 
+    + va-O175706: 
+    + va-O168461: 
+    + va-O437155: 
+    + va-O180634: 
+    + va-O1266509: Roses from Tehran
+    + va-O116700: 
+    + va-O180645: 
+    已接受: 15 件
+  [V&A] 查询: "famille verte Chinese"
+    找到: 41 件，筛选中...
+    + va-O116742: 
+    + va-O116740: 
+    + va-O149815: 
+    + va-O278725: 
+    + va-O179905: 
+    + va-O186408: 
+    + va-O437548: 
+    + va-O116977: 
+    + va-O494118: 
+    + va-O89107: 
+    + va-O144328: 
+    + va-O66661: 
+    + va-O116736: 
+    + va-O22882: 
+    + va-O66662: 
+    已接受: 15 件
+  [V&A] 查询: "doucai porcelain"
+    找到: 41 件，筛选中...
+    + va-O76695: 
+    + va-O143991: semi-finished doucai
+    + va-O133614: 
+    + va-O152121: 
+    + va-O75632: 
+    + va-O186553: 
+    + va-O116694: 
+    + va-O186597: 
+    + va-O186725: 
+    + va-O186378: 
+    + va-O186507: 
+    + va-O186400: 
+    + va-O437254: 
+    + va-O170954: 
+    + va-O182441: 
+    已接受: 15 件
+  [V&A] 查询: "wucai porcelain"
+    找到: 26 件，筛选中...
+    + va-O437255: 
+    + va-O168519: altar vase
+    + va-O76550: 
+    + va-O437002: 
+    + va-O76556: 
+    + va-O102906: 
+    + va-O181814: 
+    + va-O494088: 
+    + va-O494796: 
+    + va-O495640: 
+    + va-O144397: 
+    + va-O493437: 
+    + va-O495538: 
+    + va-O496851: 
+    + va-O186370: 
+    已接受: 15 件
+  [V&A] 查询: "underglaze red Chinese"
+    找到: 60 件，筛选中...
+    + va-O165242: 
+    + va-O143966: 
+    + va-O186526: 
+    + va-O238472: 
+    + va-O234930: 
+    + va-O237337: 
+    + va-O279119: 
+    + va-O85947: 
+    + va-O168468: 
+    + va-O85913: 
+    + va-O85973: 
+    + va-O227845: 
+    + va-O85915: 
+    + va-O493647: 
+    + va-O237388: 
+    已接受: 15 件
+  [V&A] 查询: "copper red porcelain"
+    找到: 60 件，筛选中...
+    + va-O16603: White Porcelain Jar with Peony Design Painted  in 
+    + va-O22613: 
+    + va-O22405: 
+    + va-O94182: 
+    + va-O494241: 
+    + va-O193011: 
+    + va-O461314: 
+    + va-O192999: 
+    + va-O485501: 
+    + va-O186430: 
+    + va-O193082: 
+    + va-O485502: 
+    + va-O494238: 
+    + va-O22434: Mount Geumgang
+    + va-O494074: 
+    已接受: 15 件
+  [V&A] 查询: "monochrome Chinese porcelain"
+    找到: 60 件，筛选中...
+    + va-O336134: 
+    + va-O278659: 
+    + va-O495659: 
+    + va-O116711: 
+    + va-O496791: 
+    + va-O143992: 
+    + va-O496820: 
+    + va-O127934: 
+    + va-O116728: 
+    + va-O495361: 
+    + va-O12713: 
+    + va-O116696: 
+    + va-O181157: 
+    + va-O116718: 
+    + va-O188073: 
+    已接受: 15 件
+  [V&A] 查询: "flambé glaze"
+    找到: 60 件，筛选中...
+    + va-O150368: Flambé ware
+    + va-O150564: Flambé ware
+    + va-O77971: 
+    + va-O161519: 
+    + va-O75670: 
+    + va-O150515: Flambé ware
+    + va-O77642: 
+    + va-O150330: 
+    + va-O182779: 
+    + va-O496832: 
+    + va-O186018: 
+    + va-O184725: 
+    + va-O150331: 
+    + va-O184831: 
+    + va-O150588: 
+    已接受: 15 件
+  [V&A] 查询: "tea dust glaze"
+    找到: 17 件，筛选中...
+    + va-O166272: 
+    + va-O177053: 
+    + va-O171029: 
+    + va-O116713: 
+    + va-O171026: 
+    + va-O188353: 
+    + va-O494956: 
+    + va-O24377: 
+    + va-O186326: 
+    + va-O171024: 
+    + va-O76751: 
+    + va-O171017: 
+    + va-O171023: 
+    + va-O171007: 
+    + va-O279131: 
+    已接受: 15 件
+  [V&A] 查询: "peachbloom glaze"
+    找到: 5 件，筛选中...
+    + va-O179357: 
+    + va-O144024: 
+    + va-O133640: 
+    + va-O186047: 
+    + va-O493261: 
+    已接受: 5 件
+  [V&A] 查询: "Chinese tea cup"
+    找到: 60 件，筛选中...
+    + va-O228533: 
+    + va-O329543: 
+    + va-O109217: 
+    + va-O115711: Yixing stoneware cup
+    + va-O81125: 
+    + va-O343876: 
+    + va-O81124: 
+    + va-O81122: 
+    + va-O81112: 
+    + va-O81110: 
+    + va-O81105: 
+    + va-O81102: 
+    + va-O115705: Yixing stonware cup
+    + va-O345084: 
+    + va-O345087: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese tea caddy"
+    找到: 60 件，筛选中...
+    + va-O295927: Caddy Spoon
+    + va-O158024: 
+    + va-O104653: 
+    + va-O301247: 
+    + va-O105017: 
+    + va-O105018: 
+    + va-O67678: 
+    + va-O67936: 
+    + va-O190139: 
+    + va-O67724: 
+    + va-O185610: 
+    + va-O91953: 
+    + va-O227417: 
+    + va-O370799: 
+    + va-O73977: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese bowl ceramics"
+    找到: 60 件，筛选中...
+    + va-O64737: 
+    + va-O155059: 
+    + va-O7759: The Trenchard Bowl
+    + va-O155067: 
+    + va-O155057: 
+    + va-O86490: 
+    + va-O39295: 
+    + va-O64730: 
+    + va-O85362: 
+    + va-O85134: 
+    + va-O434756: 
+    + va-O434755: 
+    + va-O202768: 
+    + va-O209560: 
+    + va-O86539: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese vase porcelain"
+    找到: 60 件，筛选中...
+    + va-O1731988: Vase
+    + va-O99223: 
+    + va-O133241: 
+    + va-O227836: 
+    + va-O334157: 
+    + va-O121960: 
+    + va-O122969: 
+    + va-O77067: 
+    + va-O77864: 
+    + va-O1158722: 
+    + va-O335424: 
+    + va-O100382: Vase Parseval
+    + va-O122947: 
+    + va-O66725: 
+    + va-O332838: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese dish porcelain"
+    找到: 60 件，筛选中...
+    + va-O69946: 
+    + va-O491973: 
+    + va-O496836: 
+    + va-O168434: 
+    + va-O33562: 
+    + va-O192991: Dish
+    + va-O179672: 
+    + va-O1270927: 
+    + va-O70938: 
+    + va-O73282: 
+    + va-O218412: 
+    + va-O14487: 
+    + va-O69550: 
+    + va-O491987: 
+    + va-O234928: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese plate porcelain"
+    找到: 60 件，筛选中...
+    + va-O282826: 
+    + va-O77963: 
+    + va-O282246: 
+    + va-O183468: 
+    + va-O183447: 
+    + va-O279026: 
+    + va-O282818: 
+    + va-O176701: 
+    + va-O176696: 
+    + va-O161515: Medici porcelain
+    + va-O179353: 
+    + va-O278972: 
+    + va-O279074: 
+    + va-O179918: Plate
+    + va-O176505: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese jar ceramics"
+    找到: 60 件，筛选中...
+    + va-O157353: 
+    + va-O157580: 
+    + va-O33519: 
+    + va-O162382: 
+    + va-O127537: 
+    + va-O33573: 
+    + va-O183335: 
+    + va-O94305: 
+    + va-O73671: 
+    + va-O121421: 
+    + va-O14554: 
+    + va-O14555: 
+    + va-O162167: 
+    + va-O85986: 
+    + va-O181280: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese ewer"
+    找到: 60 件，筛选中...
+    + va-O86507: 
+    + va-O1732242: 
+    + va-O86936: 
+    + va-O147342: 
+    + va-O33531: 
+    + va-O186528: 
+    + va-O33568: 
+    + va-O119859: 
+    + va-O86444: 
+    + va-O185109: 
+    + va-O120705: 
+    + va-O104733: 
+    + va-O495942: 
+    + va-O1160740: 
+    + va-O1818775: Ning Po
+    已接受: 15 件
+  [V&A] 查询: "Chinese incense burner"
+    找到: 60 件，筛选中...
+    + va-O152111: 
+    + va-O40541: 
+    + va-O23648: 
+    + va-O133202: 
+    + va-O497756: 
+    + va-O493497: 
+    + va-O497699: 
+    + va-O119888: Brazier or incense burner (hibachi or koro)
+    + va-O495563: 
+    + va-O485245: 
+    + va-O497167: Nickel Brazier, Spatula and Tongs
+    + va-O497564: 
+    + va-O497563: 
+    + va-O497185: 
+    + va-O496615: 
+    已接受: 15 件
+  [V&A] 查询: "Chinese brush pot"
+    找到: 38 件，筛选中...
+    + va-O22917: 
+    + va-O7795: The Howzer Cup
+    + va-O461267: Writing set
+    + va-O184413: 
+    + va-O1174520: Writing set
+    + va-O461299: 
+    + va-O1174521: Writing set
+    + va-O461085: 
+    + va-O121792: 
+    + va-O491837: 
+    + va-O398741: 
+    + va-O116706: 
+    + va-O869066: Chinese Potter's Wheel
+    + va-O483443: 
+    + va-O819207: Design for a window illustrating Chinese ceramic m
+    已接受: 15 件
+  [V&A] 查询: "Chinese water dropper"
+    找到: 13 件，筛选中...
+    + va-O173003: 
+    + va-O182662: 
+    + va-O110294: 
+    + va-O102833: 
+    + va-O102838: 
+    + va-O72735: 
+    + va-O133205: 
+    + va-O116695: 
+    + va-O172872: 
+    + va-O172868: 
+    + va-O17120: 
+    + va-O232857: 
+    已接受: 12 件
+  [V&A] 查询: "Chinese snuff bottle"
+    找到: 60 件，筛选中...
+    + va-O8301: 
+    + va-O127604: 
+    + va-O8825: 
+    + va-O8133: 
+    + va-O9057: 
+    + va-O8841: 
+    + va-O9035: 
+    + va-O8686: 
+    + va-O127603: 
+    + va-O8783: 
+    + va-O9042: 
+    + va-O9087: 
+    + va-O8799: 
+    + va-O8950: 
+    + va-O8944: 
+    已接受: 15 件
+  [V&A] 查询: "Japanese ceramics tea"
+    找到: 60 件，筛选中...
+    + va-O1754688: Tea cup and saucer
+    + va-O70480: 
+    + va-O1558196: 
+    + va-O436751: 
+    + va-O334903: 
+    + va-O437410: 
+    + va-O1754702: Tea cup and saucer
+    + va-O184593: 
+    + va-O437403: 
+    + va-O437414: 
+    + va-O496470: 
+    + va-O495167: 
+    + va-O495181: 
+    + va-O442501: 
+    + va-O184576: 
+    已接受: 15 件
+  [V&A] 查询: "Japanese tea bowl"
+    找到: 60 件，筛选中...
+    + va-O437837: 
+    + va-O436765: 
+    + va-O437401: 
+    + va-O437400: 
+    + va-O14559: 
+    + va-O436715: 
+    + va-O437411: 
+    + va-O437407: 
+    + va-O436745: 
+    + va-O437412: 
+    + va-O437406: 
+    + va-O437830: 
+    + va-O436769: 
+    + va-O436600: 
+    + va-O437409: 
+    已接受: 15 件
+  [V&A] 查询: "Japanese teapot"
+    找到: 60 件，筛选中...
+    + va-O77925: 
+    + va-O78552: 
+    + va-O156364: 
+    + va-O1745709: 
+    + va-O19557: 
+    + va-O1745711: 
+    + va-O1745712: 
+    + va-O496698: 
+    + va-O496460: 
+    + va-O170421: 
+    + va-O170419: 
+    + va-O24194: 
+    + va-O1139318: Sora
+    + va-O1139317: Sora
+    + va-O94580: 
+    已接受: 15 件
+  [V&A] 查询: "chawan"
+    找到: 7 件，筛选中...
+    + va-O461550: 
+    + va-O406887: Large Tea Bowl with New Year Kadomatsu and Hanging
+    + va-O23313: 
+    + va-O398126: 
+    + va-O436838: 
+    + va-O436731: 
+    + va-O436730: 
+    已接受: 7 件
+  [V&A] 查询: "Shino ware"
+    找到: 11 件，筛选中...
+    + va-O24678: 
+    + va-O70249: 
+    + va-O70255: 
+    + va-O1155232: 
+    + va-O33984: 
+    + va-O1675010: 
+    + va-O24064: 
+    + va-O24065: 
+    + va-O175504: 
+    + va-O1597616: Sogi
+    已接受: 10 件
+  [V&A] 查询: "Oribe ware"
+    找到: 15 件，筛选中...
+    + va-O72100: 
+    + va-O12730: 
+    + va-O70243: 
+    + va-O495176: 
+    + va-O24135: 
+    + va-O24134: 
+    + va-O24133: 
+    + va-O70237: 
+    + va-O23053: 
+    + va-O24679: 
+    + va-O1558197: 
+    已接受: 11 件
+  [V&A] 查询: "Bizen ware"
+    找到: 15 件，筛选中...
+    + va-O141406: 
+    + va-O33528: 
+    + va-O1191269: 
+    + va-O72091: 
+    + va-O238785: 
+    + va-O1191275: 
+    + va-O1191271: 
+    + va-O35023: 
+    + va-O14557: 
+    + va-O88357: 
+    已接受: 10 件
+  [V&A] 查询: "Shigaraki ware"
+    找到: 5 件，筛选中...
+    已接受: 0 件
+  [V&A] 查询: "Karatsu ware"
+    找到: 9 件，筛选中...
+    + va-O70227: 
+    + va-O496471: 
+    + va-O495954: 
+    已接受: 3 件
+  [V&A] 查询: "Hagi ware"
+    找到: 7 件，筛选中...
+    + va-O1155343: 
+    + va-O496425: 
+    + va-O496700: 
+    已接受: 3 件
+  [V&A] 查询: "Seto ware"
+    找到: 26 件，筛选中...
+    + va-O1191276: 
+    + va-O495172: 
+    + va-O14558: 
+    + va-O14609: 
+    + va-O1155210: 
+    + va-O495180: 
+    + va-O495179: 
+    + va-O493501: 
+    + va-O461545: 
+    + va-O35374: 
+    + va-O436735: 
+    + va-O496048: 
+    + va-O493627: 
+    + va-O1301728: 
+    已接受: 14 件
+  [V&A] 查询: "Mino ware"
+    找到: 26 件，筛选中...
+    + va-O333446: 
+    + va-O171028: 
+    + va-O1155288: 
+    已接受: 3 件
+  [V&A] 查询: "Kutani ware"
+    找到: 31 件，筛选中...
+    + va-O493672: 
+    + va-O12746: 
+    + va-O493708: 
+    + va-O436829: 
+    + va-O24660: 
+    + va-O436842: 
+    + va-O1785239: 
+    + va-O495148: 
+    + va-O436719: 
+    + va-O1770240: 
+    + va-O496697: 
+    + va-O493674: 
+    + va-O436820: 
+    + va-O437826: 
+    + va-O493679: 
+    已接受: 15 件
+  [V&A] 查询: "Imari porcelain"
+    找到: 60 件，筛选中...
+    + va-O334312: 
+    + va-O157647: 
+    + va-O437485: 
+    + va-O188369: 
+    + va-O33654: 
+    + va-O14572: 
+    + va-O186886: 
+    + va-O14573: 
+    + va-O280250: 
+    + va-O78011: 
+    + va-O495144: 
+    + va-O77858: 
+    + va-O1173325: Eastman Imari Vase No.2
+    + va-O180653: 
+    + va-O496596: 
+    已接受: 15 件
+  [V&A] 查询: "Satsuma ware"
+    找到: 34 件，筛选中...
+    + va-O77760: 
+    + va-O495153: 
+    + va-O436808: 
+    + va-O436810: 
+    + va-O496576: 
+    + va-O485264: 
+    + va-O496052: 
+    + va-O495154: 
+    + va-O495155: 
+    + va-O495120: 
+    + va-O1818757: 
+    + va-O1818761: 
+    + va-O1818760: 
+    + va-O1818759: 
+    + va-O1745710: 
+    已接受: 15 件
+  [V&A] 查询: "Arita porcelain"
+    找到: 60 件，筛选中...
+    + va-O70732: 
+    + va-O186910: 
+    + va-O12802: 
+    + va-O188375: 
+    + va-O188392: 
+    + va-O190140: 
+    + va-O190101: 
+    + va-O80512: 
+    + va-O188381: 
+    + va-O190121: 
+    + va-O39391: 
+    + va-O186866: 
+    + va-O234940: 
+    + va-O494790: 
+    + va-O190144: 
+    已接受: 15 件
+  [V&A] 查询: "Kakiemon porcelain"
+    找到: 60 件，筛选中...
+    + va-O100179: 
+    + va-O99459: 
+    + va-O14624: 
+    + va-O199764: 
+    + va-O71244: 
+    + va-O176722: 
+    + va-O176718: 
+    + va-O280078: 
+    + va-O75774: 
+    + va-O72740: 
+    + va-O227667: 
+    + va-O227721: 
+    + va-O227671: 
+    + va-O334496: 
+    + va-O493659: 
+    已接受: 15 件
+  [V&A] 查询: "Nabeshima ware"
+    找到: 3 件，筛选中...
+    + va-O18959: 
+    + va-O495132: 
+    已接受: 2 件
+  [V&A] 查询: "Kyoto ware"
+    找到: 60 件，筛选中...
+    + va-O202986: Expert Workmen Creating Cloisonne Ware, Kyoto
+    + va-O495161: 
+    + va-O1266490: 
+    + va-O461572: 
+    + va-O495793: 
+    + va-O23134: 
+    + va-O23133: 
+    + va-O23132: 
+    + va-O498363: 
+    + va-O39322: 
+    + va-O495163: 
+    + va-O493505: 
+    + va-O1426735: 
+    + va-O436807: 
+    + va-O493517: 
+    已接受: 15 件
+  [V&A] 查询: "Japanese iron kettle"
+    找到: 10 件，筛选中...
+    + va-O1800533: Lacquer kettle simulating a rusted cast-iron kettl
+    + va-O121476: 
+    + va-O35271: 
+    + va-O380646: 
+    + va-O78536: 
+    + va-O75222: 
+    + va-O1115436: 
+    + va-O1120174: 
+    已接受: 8 件
+  [V&A] 查询: "Goryeo celadon"
+    找到: 25 件，筛选中...
+    + va-O21707: 
+    + va-O16607: Celadon Box with Inlaid Boys and Flower Design
+    + va-O16604: 
+    + va-O22328: 
+    + va-O15162: 
+    + va-O21817: 
+    + va-O21801: 
+    + va-O22306: 
+    + va-O22275: 
+    + va-O21773: 
+    + va-O21956: 
+    + va-O21764: 
+    + va-O21805: 
+    + va-O22343: 
+    + va-O21953: 
+    已接受: 15 件
+  [V&A] 查询: "Joseon porcelain"
+    找到: 22 件，筛选中...
+    + va-O22605: Piltong
+    + va-O22606: Dambaetdae
+    + va-O438345: 
+    + va-O34810: Jiseok
+    + va-O438344: 
+    + va-O22456: 
+    + va-O22410: 
+    + va-O22469: Byeoru
+    + va-O22470: 
+    + va-O22407: 
+    + va-O22397: 
+    + va-O22399: 
+    + va-O22621: 
+    + va-O22618: 
+    + va-O22617: 
+    已接受: 15 件
+  [V&A] 查询: "Korean white porcelain"
+    找到: 37 件，筛选中...
+    + va-O22419: White Porcelain Flask with Raised Design and Inscr
+    + va-O1140819: Plate
+    + va-O22604: 
+    + va-O22366: 
+    + va-O22280: Square-shaped White Porcelain Bottle with Raised S
+    + va-O494766: 
+    + va-O22369: 
+    + va-O22367: 
+    + va-O22609: 
+    + va-O22415: 
+    + va-O34855: 
+    + va-O22550: 
+    + va-O22420: 
+    + va-O15182: 
+    + va-O22353: 
+    已接受: 15 件
+  [V&A] 查询: "Korean blue white"
+    找到: 48 件，筛选中...
+    + va-O11199: 
+    + va-O22396: 
+    + va-O146239: Girl with Korean doll
+    + va-O22587: 
+    + va-O34821: 
+    + va-O1136393: Full Moon / Porum tal (보름달)
+    + va-O34031: Husu
+    + va-O22440: Samjak norigae (삼작 노리개)
+    + va-O22598: 
+    + va-O1273233: Five coloured luster 0831 (오색광율 0831)
+    + va-O122521: 
+    + va-O22393: 
+    + va-O249006: 
+    + va-O22463: 
+    + va-O22436: 
+    已接受: 15 件
+  [V&A] 查询: "buncheong"
+    找到: 22 件，筛选中...
+    + va-O22348: Small buncheong dish with stamped design 
+    + va-O1476770: 
+    + va-O22351: buncheong wine bottle
+    + va-O22603: Buncheong Dish
+    + va-O22602: Buncheong Bowl
+    + va-O1174722: 
+    + va-O22352: 
+    + va-O190488: 
+    + va-O490234: 
+    + va-O132896: 
+    + va-O15185: 
+    + va-O22489: 
+    + va-O22347: 
+    + va-O22346: 
+    + va-O1370526: Cheomjang 160604
+    已接受: 15 件
+  [V&A] 查询: "moon jar Korean"
+    找到: 4 件，筛选中...
+    + va-O1717173: Edward's Christmas 
+    + va-O1140837: Bowl
+    已接受: 2 件
+  [V&A] 查询: "Vietnamese ceramics"
+    找到: 22 件，筛选中...
+    + va-O493291: Ho Chi Minh
+    + va-O457759: 
+    + va-O232727: 
+    + va-O232630: 
+    + va-O233199: 
+    + va-O234745: 
+    + va-O233540: 
+    + va-O231622: 
+    + va-O231406: 
+    + va-O233195: 
+    + va-O232591: 
+    + va-O232887: 
+    + va-O232642: 
+    + va-O232735: 
+    + va-O231186: 
+    已接受: 15 件
+  [V&A] 查询: "Annamese blue white"
+    找到: 10 件，筛选中...
+    + va-O234448: 
+    + va-O234410: 
+    + va-O234427: 
+    + va-O234559: 
+    + va-O234399: 
+    + va-O234541: 
+    已接受: 6 件
+  [V&A] 查询: "Thai ceramics"
+    找到: 60 件，筛选中...
+    + va-O181461: 
+    + va-O115657: 
+    + va-O113824: 
+    + va-O437113: 
+    + va-O115656: 
+    + va-O1318209: Old Bogey
+    + va-O1135663: 
+    + va-O1135661: 
+    + va-O1135660: 
+    + va-O1135659: 
+    + va-O1135658: 
+    + va-O1135657: 
+    + va-O1135656: 
+    + va-O1135653: 
+    + va-O113844: 
+    已接受: 15 件
+  [V&A] 查询: "Sawankhalok"
+    找到: 57 件，筛选中...
+    + va-O494503: 
+    + va-O494493: 
+    + va-O494492: 
+    + va-O495020: 
+    + va-O232006: 
+    + va-O231792: 
+    + va-O232538: 
+    + va-O231979: 
+    + va-O187006: 
+    + va-O186950: 
+    + va-O232034: 
+    + va-O234735: 
+    + va-O233584: 
+    + va-O232556: 
+    + va-O231740: 
+    已接受: 15 件
+
+=== 史密森尼博物馆查询 ===
+  [Smithsonian] 查询: "Chinese tea ware Freer"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Chinese ceramics Sackler"
+    找到: 80 件，筛选中...
+    + si-fsg-F1916.240: Grapevine in wind and moonlight
+    + si-fsg-F1923.2a-e: Box with lid (<em>lian</em>)
+    + si-fsg-F1916.409: Head of a tomb figure of a horse
+    + si-fsg-F1914.83: Landscape with ferry boats
+    + si-fsg-F1917.191: Tomb jar
+    + si-fsg-F1917.190: Tomb jar
+    + si-fsg-F1907.693: Tomb model of a ladle (handle broken)
+    + si-fsg-F1907.70: Tomb model of a foot-powered mill
+    + si-fsg-F1907.694: Tomb model of an ear cup
+    + si-fsg-F1915.8: Water buffalo and herdboy under willows 柳蔭牧牛圖
+    + si-fsg-F1903.112: Lady under a gnarled pine tree
+    + si-fsg-F1916.533: Rocks, trees, brook, and hawks
+    + si-fsg-F1917.216: Tomb figure of a barking dog
+    + si-fsg-F1907.69: Tomb model of a stove
+    + si-fsg-F1919.4: Tomb stand
+    已接受: 15 件
+  [Smithsonian] 查询: "tea cup Chinese"
+    找到: 58 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Neolithic pottery Chinese"
+    找到: 28 件，筛选中...
+    + si-fsg-F1930.98: Jar
+    + si-fsg-F1930.99: Jar
+    + si-fsg-F1930.97: Banshan type jar
+    + si-fsg-F1930.96: Banshan type jar
+    已接受: 4 件
+  [Smithsonian] 查询: "Shang dynasty pottery"
+    找到: 31 件，筛选中...
+    + si-fsg-FSC-P-4208: Vessel (fragment)
+    + si-fsg-F1949.5a-b: Lidded ritual wine container (<em>hu</em>) with ma
+    + si-fsg-F1911.411: The Bodhisattva Mile (Sanskrit Maitreya), seated i
+    已接受: 3 件
+  [Smithsonian] 查询: "Zhou dynasty pottery"
+    找到: 19 件，筛选中...
+    + si-fsg-F1923.16: Pottery vessel of the type li
+    + si-fsg-F1923.17a-b: Vessel of type ting, with lid
+    + si-fsg-F1930.34: Bottle and Stand
+    + si-fsg-F1906.243: Jar
+    + si-fsg-FSC-G-48a-b: Disk (<em>bi</em>) with raised curls, fragment
+    + si-fsg-F1930.32: Jar
+    + si-fsg-F1911.282: A stag, a doe, and red camellias in snow
+    + si-fsg-F1961.31a-b: Ritual vessel (<em>yi</em>) with cover
+    已接受: 8 件
+  [Smithsonian] 查询: "Han dynasty pottery ceramics"
+    找到: 80 件，筛选中...
+    + si-fsg-F1916.9: Model (positive) for the casting of a rectangular 
+    + si-fsg-F1916.7: Fragmentary model (positive) for casting a pear-sh
+    + si-fsg-F1916.8: A model (positive) for casting a metal boss
+    + si-fsg-F1916.6: Inner cast or model for a comic mask in the round
+    + si-fsg-F1916.413: Head of a tomb model of a dog
+    + si-fsg-F1906.299: Upper grindstone from a tomb model of a mill
+    + si-fsg-F1923.21: Tomb tile
+    + si-fsg-F1906.35: Tomb jar
+    + si-fsg-F1923.22: Funerary tile decorated with impressed motifs
+    + si-fsg-F1918.142: Circular tile with design of phoenix
+    + si-fsg-F1918.143: Circular tile with design of dragon
+    + si-fsg-F1923.24: Funerary tile
+    + si-fsg-F1923.23: Funerary tile
+    + si-fsg-F1916.11: Model (positive) for casting a metal monster mask
+    + si-fsg-F1916.12: Model (positive) for casting metal monster mask
+    已接受: 15 件
+  [Smithsonian] 查询: "Tang sancai pottery"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Tang dynasty ewer"
+    结果: 0 件
+  [Smithsonian] 查询: "Five Dynasties ceramic"
+    找到: 60 件，筛选中...
+    + si-fsg-F1909.244j: Travelers in snowy mountains 雪山行旅圖
+    + si-fsg-F1916.27: Support in the form of a bear
+    + si-fsg-F1909.396: Panel with five dragons, flaming pearls, clouds, a
+    + si-fsg-F1948.10: Portrait of Wang Huan 王渙像
+    + si-fsg-F1902.200: Tomb jar
+    + si-fsg-F1948.11: Portrait of Feng Ping 馮平像
+    + si-fsg-F1915.296: Cushion cover
+    + si-fsg-F1903.229: Plate with low foot
+    已接受: 8 件
+  [Smithsonian] 查询: "Liao dynasty ceramic"
+    找到: 8 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Jin dynasty ceramic"
+    找到: 14 件，筛选中...
+    + si-fsg-F1911.259: Duke Wen of Jin recovering his state
+    已接受: 1 件
+  [Smithsonian] 查询: "Song dynasty bowl ceramic"
+    找到: 80 件，筛选中...
+    + si-fsg-F1911.155b: Waiting for the ferry 待渡圖
+    已接受: 1 件
+  [Smithsonian] 查询: "Song dynasty vase ceramic"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Northern Song kiln"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Southern Song kiln"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Yuan dynasty jar"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Yuan dynasty dish"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Ming dynasty plate"
+    找到: 80 件，筛选中...
+    + si-fsg-F1918.151: Ornamental plate
+    已接受: 1 件
+  [Smithsonian] 查询: "Qing dynasty bowl"
+    找到: 8 件，筛选中...
+    + si-fsg-F1916.347: Bowl
+    已接受: 1 件
+  [Smithsonian] 查询: "Qing dynasty dish"
+    找到: 6 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Longquan kiln"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Jingdezhen kiln"
+    找到: 16 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Yixing clay"
+    找到: 11 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Dehua white"
+    找到: 12 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Cizhou kiln"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Ding kiln"
+    找到: 5 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Jun kiln"
+    找到: 59 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Ru kiln"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Guan kiln"
+    找到: 41 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Ge kiln"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Yaozhou kiln"
+    找到: 6 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Jizhou kiln"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Jian kiln"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Xing kiln"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Yue kiln"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Changsha kiln"
+    找到: 5 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Shiwan kiln"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "blue white decoration"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "famille rose decoration"
+    找到: 14 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "famille verte decoration"
+    找到: 13 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "doucai decoration"
+    结果: 0 件
+  [Smithsonian] 查询: "wucai decoration"
+    结果: 0 件
+  [Smithsonian] 查询: "underglaze copper"
+    找到: 66 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "overglaze enamel"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "monochrome glaze Chinese"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "flambé Chinese"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "ox blood glaze"
+    结果: 0 件
+  [Smithsonian] 查询: "peachbloom Chinese"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "tea dust Chinese"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "sacrificial red"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "sacrificial blue"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "meiping vase"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "garlic head vase"
+    结果: 0 件
+  [Smithsonian] 查询: "double gourd vase"
+    找到: 9 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "moon flask"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "pilgrim flask Chinese"
+    结果: 0 件
+  [Smithsonian] 查询: "stem cup Chinese"
+    找到: 18 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "libation cup Chinese"
+    找到: 2 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "wine cup Chinese"
+    找到: 14 件，筛选中...
+    + si-fsg-F1931.19: Cup with handles, raised linked curls, and birds
+    已接受: 1 件
+  [Smithsonian] 查询: "ewer Chinese"
+    找到: 12 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "covered box Chinese"
+    找到: 69 件，筛选中...
+    + si-fsg-F1930.53a-b: Box and cover
+    + si-fsg-F1919.65a-f: Ritual vessel with cover
+    + si-fsg-F1918.23: Disk (<em>bi</em> 璧)
+    + si-fsg-F1917.378d: Head ornament
+    + si-fsg-F1917.378c: Head ornament
+    + si-fsg-F1919.47: One-tier tube (<em>cong</em> 琮) with masks
+    + si-fsg-F1917.63: Five-tier tube (<em>cong</em> 琮) with masks
+    + si-fsg-F1919.46: Bracelet with geometric decoration
+    + si-fsg-F1904.36a-b: Box with fitted cover
+    + si-fsg-F1916.628: Decorative fitting for an ornamental comb
+    + si-fsg-F1917.383: Arc-shaped pendant (<em>huang</em> 璜)
+    + si-fsg-F1918.21: Bracelet
+    + si-fsg-F1916.411: Disk (<em>bi</em> 璧)
+    + si-fsg-F1917.355: Disk (<em>bi</em> 璧)
+    + si-fsg-F1919.59: Disk (<em>bi</em> 璧)
+    已接受: 15 件
+  [Smithsonian] 查询: "Japanese tea ceremony"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "chawan Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Raku Japan"
+    找到: 56 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Shino Japan"
+    找到: 30 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Oribe Japan"
+    找到: 22 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Bizen Japan"
+    找到: 50 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Shigaraki Japan"
+    找到: 31 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Karatsu Japan"
+    找到: 57 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Hagi Japan"
+    找到: 50 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Seto Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Mino Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Kutani Japan"
+    找到: 46 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Imari Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Satsuma Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Arita Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Kakiemon Japan"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Nabeshima Japan"
+    找到: 38 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "mizusashi water"
+    找到: 17 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "kogo incense"
+    找到: 12 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "chaire tea caddy"
+    找到: 18 件，筛选中...
+    + si-fsg-F1898.469a-b: Tea caddy, katatsuki type
+    已接受: 1 件
+  [Smithsonian] 查询: "Goryeo celadon inlay"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Joseon white porcelain"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Joseon blue white"
+    找到: 2 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "buncheong Korea"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Korean moon jar"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Vietnamese blue white"
+    找到: 16 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Annamese ceramic"
+    找到: 5 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Thai ceramic Sawankhalok"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+
+=== 维基共享资源查询 ===
+  [Wikimedia] 分类: "Ceramics_in_the_Ashmolean_Museum"
+    找到: 47 个文件，筛选中...
+    + wmc-37047636: Ashmolean MuseumDSCF0066 11
+    + wmc-37047638: Ashmolean MuseumDSCF0066 12
+    + wmc-37047640: Ashmolean MuseumDSCF0066 13
+    + wmc-37047641: Ashmolean MuseumDSCF0066 14
+    + wmc-37047644: Ashmolean MuseumDSCF0066 15
+    + wmc-37047646: Ashmolean MuseumDSCF0066 16
+    + wmc-37049343: Ashmolean MuseumDSCF0122detail 14
+    + wmc-30170267: Athenian black-figure pottery amphora, 6th century
+    + wmc-30170278: Athenian black-figure pottery amphora, Apollo and 
+    + wmc-30170258: Athenian black-figure pottery cup, 6-5th century B
+    + wmc-30170264: Athenian black-figure pottery olpe (jug), 6-5th ce
+    + wmc-41113216: Athenian drinking cup (back)
+    已接受: 12 件
+  [Wikimedia] 分类: "Ceramics_in_the_Staatliche_Kunstsammlungen_Dresden"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Museum_of_East_Asian_Art"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Palace_Museum"
+    结果: 0 件
+  [Wikimedia] 分类: "Ceramics_in_the_National_Museum_of_China"
+    找到: 60 个文件，筛选中...
+    + wmc-81508073: -0202 Four Joined Pottery Jars National Museum of 
+    + wmc-81715900: -0403 -221 Proto-porcelain Hu (vessel) with Dragon
+    + wmc-81674084: -2500 -2000 Black Pottery Ding Longshan Culture Na
+    + wmc-81674191: -2500 -2000 Pottery Jia Keshengzhuang Culture Nati
+    + wmc-81456816: -3200 -2000 Majiayao Culture Painted Pottery Jar w
+    + wmc-81483070: -4200 -2500 White Pottery Gui, Dawenkou Culture Na
+    + wmc-81532204: -5000 -3000 Painted Pottery Jar with Fish and Bird
+    + wmc-82261185: 0265-0316 Celadon Hunping (soul jar) Western Jin D
+    + wmc-81802420: 0618-0907 Yellow-glazed Pottery Warrior Tang Dynas
+    + wmc-177576145: 20251026 Pottery Crucible
+    + wmc-177576147: 20251026 Pottery Mould for Bronze Arrowheads
+    + wmc-108879507: Altar Vase, Jingdezhen, Ming, Wanli (9847790973)
+    已接受: 12 件
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Nanjing_Museum"
+    结果: 0 件
+  [Wikimedia] 分类: "Han_dynasty_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Three_Kingdoms_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Southern_dynasties_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Northern_dynasties_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Five_Dynasties_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Western_Xia_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Jin_dynasty_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Jingdezhen_porcelain"
+    找到: 1 个文件，筛选中...
+    + wmc-138701333: ACM-Mounted incense burner-03522
+    已接受: 1 件
+  [Wikimedia] 分类: "Zisha_teapots"
+    结果: 0 件
+  [Wikimedia] 分类: "Dehua_ware"
+    结果: 0 件
+  [Wikimedia] 分类: "Shiwan_pottery"
+    结果: 0 件
+  [Wikimedia] 分类: "Kraak_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Swatow_ware"
+    找到: 60 个文件，筛选中...
+    + wmc-54982333: Chinese ceramics in V&A 04
+    + wmc-163597232: Cina, zhangzhou, piatto swatow con fiori e uccelli
+    + wmc-132414875: Coupe, M.C. 4095(2)
+    + wmc-132414872: Coupe, M.C. 4095
+    + wmc-22562359: Dinastia ming, piatto, da zhangzhou, 1573-1620 ca.
+    + wmc-32480013: Dish LACMA M.84.213.362
+    + wmc-52257516: Dish with Qu'ran verse, prayer, and professions of
+    + wmc-23216143: Dish with the path to the island of immortals
+    + wmc-27292451: Foliated Dish with Landscape LACMA M.80.1
+    + wmc-25538028: Guangdong Sheng Bowuguan 2012.11.18 13-02-49
+    + wmc-174833217: Incense-stick holders as elephants, BM PDF 133 & 1
+    + wmc-174833218: Incense-stick holders as elephants, PDF 133 & 134
+    已接受: 12 件
+  [Wikimedia] 分类: "Doucai"
+    找到: 29 个文件，筛选中...
+    + wmc-132381095: 1941.701a-b - Pair of Cups
+    + wmc-155198280: 20241025 Doucai Porcelain Plate with Qianlong Mark
+    + wmc-27304622: Bowl (Wan) with Dragon Chasing Flaming Pearl LACMA
+    + wmc-76157921: China, Jiangxi province, Jingdezhen kilns, Qing dy
+    + wmc-18811755: Chinese - Wine Jar with Carp among Water Weeds and
+    + wmc-76000733: Clevelandart 1957.61
+    + wmc-4547299: Covered bowl with dragons in Daoist Eastern Ocean 
+    + wmc-37193775: Covered bowl with dragons in the Taoist Eastern Oc
+    + wmc-37193776: Covered box with flowers, China, Jingdezhen, Jiang
+    + wmc-37193779: Dish with floral scrolls, China, Jingdezhen, Jiang
+    [限流] 等待后重试... (剩余3次)
+    + wmc-37193777: Dish with floral scrolls, China, Jingdezhen, Jiang
+    + wmc-27589065: Dish, Yongzheng Reign, 1723-1735, underglaze blue 
+    已接受: 12 件
+  [Wikimedia] 分类: "Wucai"
+    找到: 60 个文件，筛选中...
+    + wmc-173628378: Baluster vase with an illustration of a legend of 
+    + wmc-45582329: Box and cover, China, Ming dynasty, Wanli period, 
+    + wmc-37228244: Box depicting figures in landscape, China, Jingdez
+    + wmc-132338277: Boîte à confiseries, M.C. 3528(2)
+    + wmc-132338282: Boîte à confiseries, M.C. 3528(3)
+    + wmc-132338272: Boîte à confiseries, M.C. 3528
+    + wmc-51549352: Brush pot with beauties, China, Qing dynasty, Kang
+    + wmc-27210035: Censer (Lu) in the Form of a Unicorn (Qilin) LACMA
+    + wmc-76138889: China, Jiangxi province, Jingdezhen kilns, Ming dy
+    + wmc-76125179: China, Jiangxi province, Jingdezhen kilns, Ming dy
+    + wmc-18843950: Chinese - Faceted Vase - Walters 49737 - Profile
+    + wmc-77376801: Chinese - Wine Jar with Carp among Water Weeds and
+    已接受: 12 件
+  [Wikimedia] 分类: "Susancai"
+    结果: 0 件
+  [Wikimedia] 分类: "Falangcai"
+    找到: 16 个文件，筛选中...
+    + wmc-173724359: Bottle decorated with birds and flowers and a poem
+    + wmc-108879636: Falangcai Bowl with Peonies (9847725766)
+    + wmc-108879653: Falangcai Bowl with Peonies, Jingdezhen, Qing, Kan
+    + wmc-114241150: Kangxi Reign Porcelain-body Painted in Falangcai P
+    + wmc-52168247: Percival David Collection DSCF3220 15
+    + wmc-114241210: Qianlong Reign Yangcai and Painted in Falangcai Po
+    + wmc-99745522: Qing Porcelain, Yongzheng Reign 56
+    + wmc-114241199: Yongzheng Reign Porcelain-body Painted in Falangca
+    + wmc-69979037: 珐琅彩万花锦纹碗 7394
+    + wmc-67876416: 粉红地开光201803
+    已接受: 10 件
+  [Wikimedia] 分类: "Copper-red_glazed_Chinese_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Monochrome_Chinese_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Tamba_ware"
+    找到: 31 个文件，筛选中...
+    + wmc-29936091: 131123 Hyogo Prefectural Museum of Archaeology Jap
+    + wmc-64387268: Aichi Prefectural Ceramic Museum (22)
+    + wmc-61882182: Asian Art Museum SF B65P38
+    + wmc-27337376: Donut-shaped Sake Bottle (tokkuri) LACMA M.2006.21
+    + wmc-31386900: Flower Vase, Tanba ware, Edo period, 17th century,
+    + wmc-31657328: Japanese storage jar, Tamba ware, Honolulu Museum 
+    + wmc-74916755: Large jar, Tanba ware, Muromachi period, 1400s-150
+    + wmc-27254404: Mizusashi (water container for Tea Ceremony) in th
+    + wmc-27254409: Mizusashi (water container for Tea Ceremony) in th
+    + wmc-27254411: Mizusashi (water container for Tea Ceremony) in th
+    + wmc-27254415: Mizusashi (water container for Tea Ceremony) in th
+    + wmc-27254420: Mizusashi (water container for Tea Ceremony) in th
+    已接受: 12 件
+  [Wikimedia] 分类: "Takatori_ware"
+    找到: 11 个文件，筛选中...
+    + wmc-27291523: Gourd-shaped Sake Bottle (tokkuri) LACMA M.2003.19
+    + wmc-18805631: Japanese - Tea Bowl - Walters 49233
+    + wmc-132806045: Pot à thé en poudre (cha-ire) oblong, M.C. 10026
+    + wmc-27291516: Sake Bottle (tokkuri) LACMA M.2003.199.2
+    + wmc-70302738: Set of Mukozuke dishes in the shape of sandbanks, 
+    + wmc-83214009: Stoftheebus met een bruin glazuur, AK-MAK-777
+    + wmc-83214055: Stoftheebus met een groenbruin glazuur, AK-MAK-780
+    + wmc-83213501: Stoftheebus met een paars glazuur, AK-MAK-750
+    + wmc-76615538: Tea caddy named Yariume (plum branch), Japan, Taka
+    + wmc-83214951: Wierookbrander met een metalen deksel, AK-MAK-812
+    + wmc-85676226: Wierookbrander, AK-MAK-812-1
+    已接受: 11 件
+
+========================================
+扩展统计
+========================================
+总计新增: 1201 件
+起始数量: 5427
+结束数量: 6628
+距离10,000目标: 3372 件
+
+=== 来源分布 ===
+  维多利亚和阿尔伯特博物馆 (V&A): 1033
+  史密森尼博物馆: 74
+  维基共享资源: 94
+  大都会博物馆 (Met): 0
+
+=== 质量门槛统计 ===
+  V&A - 查询79次, 接受1033, 低分辨率拒绝0
+  Smithsonian - 查询90次, 接受74, 低分辨率拒绝0
+  Wikimedia - 查询27次, 接受94, 低分辨率拒绝0
+  Met - 查询0次, 接受0, 低分辨率拒绝0
+
+✅ 已同步 public/artworks.json
+✅ 已保存 6628 件藏品
+   新增: 1201 件
+
+========================================
+仍需要的 API Keys (未来扩展):
+  - RIJKSMUSEUM_API_KEY (荷兰国立博物馆)
+  - NPM_TAIWAN_API_KEY (台北故宫博物院)
+跳过的来源:
+  - HARVARD_API_KEY (CC-BY-NC 非开放许可)
+  - AIC IIIF (Cloudflare 403 错误)
+  - CMA (~900px 通常不满足质量门槛)
+========================================
