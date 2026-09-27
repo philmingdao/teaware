@@ -1,0 +1,1768 @@
+========================================
+Round 20 茶器收藏扩展 - 2026-09-27
+批次ID: round20-expansion-1790529619719
+目标: +800 to +1,500 件高质量茶器
+========================================
+
+现有藏品: 6628 件
+已完成查询: 1276 个
+Smithsonian API Key: ✓ 已配置
+跳过来源: AIC IIIF (Cloudflare 403), CMA (~900px 低分辨率)
+许可证跳过: Harvard (CC-BY-NC)
+
+=== 维多利亚和阿尔伯特博物馆查询 (优先) ===
+  [V&A] 查询: "imperial porcelain Qing"
+    找到: 60 件，筛选中...
+    + va-O166269: 
+    + va-O166020: 
+    + va-O22919: 
+    + va-O165994: 
+    + va-O165237: 
+    + va-O182692: 
+    + va-O173208: 
+    + va-O173197: 
+    + va-O173196: 
+    + va-O173190: 
+    + va-O172836: 
+    + va-O172856: 
+    + va-O173169: 
+    + va-O173168: 
+    + va-O173165: 
+    已接受: 15 件
+  [V&A] 查询: "palace ware Chinese"
+    找到: 40 件，筛选中...
+    + va-O67412: 
+    + va-O81235: Nouvelles Cheminée faitte en plusier en droits de 
+    + va-O123698: 
+    + va-O495377: 
+    + va-O18900: The Mazarin Chest
+    + va-O24655: 
+    + va-O77966: 
+    + va-O493890: 
+    + va-O153416: 
+    + va-O22869: Pillar
+    + va-O277559: 
+    + va-O153354: 
+    + va-O153970: 
+    + va-O437492: 
+    + va-O119866: 
+    已接受: 15 件
+  [V&A] 查询: "tribute porcelain"
+    找到: 10 件，筛选中...
+    + va-O34530: 
+    + va-O282216: 
+    + va-O138799: 
+    + va-O1597888: Crystals and memories N-2019
+    + va-O17304: Portrait of Madame de Pompadour
+    + va-O77577: Fame at the tomb of Shakespeare
+    + va-O1296371: 
+    已接受: 7 件
+  [V&A] 查询: "altar vessels Chinese"
+    找到: 12 件，筛选中...
+    + va-O75667: 
+    + va-O34814: Marble panel
+    + va-O73372: 
+    + va-O94082: 
+    + va-O157401: 
+    + va-O75725: 
+    + va-O94073: 
+    + va-O75681: 
+    + va-O458765: 
+    + va-O76814: 
+    已接受: 10 件
+  [V&A] 查询: "ritual vessels porcelain"
+    找到: 44 件，筛选中...
+    + va-O493776: 
+    + va-O496726: 
+    + va-O34887: 
+    + va-O498861: 
+    + va-O22486: 
+    + va-O143977: 
+    + va-O457023: 
+    + va-O133615: 
+    + va-O457022: 
+    + va-O496724: 
+    + va-O97830: Die Leiden des jungen Werther
+    + va-O97837: Die Leiden des jungen Werther
+    + va-O97836: Die Leiden des jungen Werther
+    + va-O126062: 
+    + va-O97835: Die Leiden des jungen Werther
+    已接受: 15 件
+  [V&A] 查询: "Chinese export ware"
+    找到: 60 件，筛选中...
+    + va-O96508: Interior of a Chinese shop 
+    + va-O69149: 
+    + va-O168465: 
+    + va-O1300044: 
+    + va-O1300052: 
+    + va-O1300039: 
+    + va-O1300051: 
+    + va-O1300049: 
+    + va-O1300045: 
+    + va-O1300050: 
+    + va-O1300042: 
+    + va-O1300048: 
+    + va-O1300041: 
+    + va-O1300043: 
+    + va-O1300034: 
+    已接受: 15 件
+  [V&A] 查询: "Canton enamel"
+    找到: 60 件，筛选中...
+    + va-O168414: 
+    + va-O69480: 
+    + va-O496895: 
+    + va-O495397: 
+    + va-O495400: 
+    + va-O493884: 
+    + va-O496926: 
+    + va-O496947: 
+    + va-O493902: 
+    + va-O163339: 
+    + va-O436916: 
+    + va-O493898: 
+    + va-O436915: 
+    + va-O436920: 
+    + va-O495390: 
+    已接受: 15 件
+  [V&A] 查询: "Rose Medallion"
+    找到: 60 件，筛选中...
+    + va-O335257: 
+    + va-O335258: 
+    + va-O79063: 
+    + va-O118715: Arms of the della Rovere family
+    + va-O89077: Charles Marbury
+    + va-O149472: 
+    + va-O1510269: 
+    + va-O17754: The Adoration of the Shepherds
+    + va-O282869: Roses from Qajar Iran
+    + va-O120609: 
+    + va-O120612: 
+    + va-O120610: 
+    + va-O1390107: 
+    + va-O1790089: 
+    + va-O280985: Tehran Wall-Tile with thumbnail architecture and r
+    已接受: 15 件
+  [V&A] 查询: "armorial porcelain"
+    找到: 60 件，筛选中...
+    + va-O185338: Armorial porcelain
+    + va-O297249: 
+    + va-O180998: 
+    + va-O185162: 
+    + va-O74261: 
+    + va-O166564: 
+    + va-O332589: 
+    + va-O437104: 
+    + va-O332591: 
+    + va-O332590: 
+    + va-O437125: 
+    + va-O179007: 
+    + va-O494355: 
+    + va-O437167: 
+    + va-O185363: 
+    已接受: 15 件
+  [V&A] 查询: "tobacco leaf porcelain"
+    找到: 34 件，筛选中...
+    + va-O98971: Pot à tabac
+    + va-O1758622: Tea cup and saucer
+    + va-O1771203: 
+    + va-O496094: 
+    + va-O321866: 
+    + va-O8938: 
+    + va-O8937: 
+    + va-O9070: 
+    + va-O75344: 
+    + va-O8831: 
+    + va-O307007: 
+    + va-O321880: 
+    + va-O321867: 
+    + va-O321889: 
+    + va-O321890: 
+    已接受: 15 件
+  [V&A] 查询: "Fitzhugh pattern"
+    找到: 1 件，筛选中...
+    + va-O437758: 
+    已接受: 1 件
+  [V&A] 查询: "Mandarin palette"
+    找到: 10 件，筛选中...
+    + va-O121418: Pair of Mandarin Ducks in Winter
+    + va-O180620: 
+    + va-O182695: 
+    + va-O494143: 
+    + va-O437049: 
+    + va-O70015: 
+    + va-O493906: 
+    + va-O485514: 
+    + va-O38648: Lord Mayor's Children's Ball 1936
+    已接受: 9 件
+  [V&A] 查询: "Chinese European market"
+    找到: 60 件，筛选中...
+    + va-O756330: Sketches of Chinese figures at a market stall
+    + va-O755830: Market stalls by an entrance to a Chinese temple, 
+    + va-O78964: 
+    + va-O78223: 
+    + va-O40723: 
+    + va-O123695: 
+    + va-O756353: Sketch of a market, Macau
+    + va-O74332: 
+    + va-O74858: 
+    + va-O1745360: 
+    + va-O1225546: Chinese landscape with bridge
+    + va-O1225540: Shipping on a Chinese River
+    + va-O756615: Chinese figures by the railings of S. Domingos Chu
+    + va-O494297: 
+    + va-O1225545: A Chinese River, with a figure on the bank
+    已接受: 15 件
+  [V&A] 查询: "brush washer celadon"
+    找到: 1 件，筛选中...
+    + va-O182031: 
+    已接受: 1 件
+  [V&A] 查询: "water pot Chinese"
+    找到: 60 件，筛选中...
+    + va-O144312: 
+    + va-O127587: 
+    + va-O8092: 
+    + va-O1807922: Chinese Teal
+    + va-O225075: 
+    + va-O150645: Cadogan
+    + va-O121902: 
+    + va-O70710: 
+    + va-O403424: 
+    + va-O122701: 
+    + va-O121901: 
+    + va-O205559: 
+    + va-O1174529: Writing set
+    + va-O1174519: Writing set
+    + va-O1174531: Writing set
+    已接受: 15 件
+  [V&A] 查询: "scholar rock ceramics"
+    找到: 23 件，筛选中...
+    + va-O1596302: 
+    + va-O22890: 
+    + va-O495420: 
+    + va-O494008: 
+    + va-O461347: 
+    + va-O1722035: Loop No.3
+    + va-O22910: 
+    + va-O493996: 
+    + va-O23616: 
+    + va-O75660: 
+    + va-O115611: Yixing stoneware vase
+    + va-O192211: Dish
+    + va-O181190: 
+    + va-O85523: 
+    + va-O9357: 
+    已接受: 15 件
+  [V&A] 查询: "seal paste box"
+    找到: 60 件，筛选中...
+    + va-O155467: 
+    + va-O37316: 
+    + va-O25705: 
+    + va-O78429: 
+    + va-O156575: 
+    + va-O316235: 
+    + va-O156543: 
+    + va-O156757: 
+    + va-O78480: 
+    + va-O12460: 
+    + va-O12463: 
+    + va-O1273039: Narcissus
+    + va-O11867: 
+    + va-O12238: 
+    + va-O12376: 
+    已接受: 15 件
+  [V&A] 查询: "ink stone stand"
+    找到: 60 件，筛选中...
+    + va-O461121: 
+    + va-O1478671: A day's walk past the standing stones of Penwith P
+    + va-O108212: The Emerson and Fisher Company - Carriage Builders
+    + va-O57325: National Photographic Record and Survey
+    + va-O59498: 
+    + va-O57159: National Photographic Record and Survey
+    + va-O59329: Costume Design
+    + va-O57158: National Photographic Record and Survey
+    + va-O51930: National Photographic Record and Survey
+    + va-O1289222: Sticks and stones and bricks and bones / Andrew No
+    + va-O57054: National Photographic Record and Survey
+    + va-O461309: 
+    + va-O1514127: A day's walk past the standing stones of Penwith P
+    + va-O59069: Costume Design
+    + va-O53134: National Photographic Record and Survey
+    已接受: 15 件
+  [V&A] 查询: "pen holder Chinese"
+    找到: 10 件，筛选中...
+    + va-O168427: 
+    + va-O256464: 
+    + va-O842617: A design for a rococo chimney piece which appeared
+    + va-O585883: Aladin
+    + va-O124733: 
+    + va-O47805: Maria Bjornson design
+    + va-O1120527: 
+    已接受: 7 件
+  [V&A] 查询: "lotus bowl Chinese"
+    找到: 60 件，筛选中...
+    + va-O78527: 
+    + va-O85369: 
+    + va-O75763: 
+    + va-O282547: 
+    + va-O15197: 
+    + va-O112776: 
+    + va-O86002: 
+    + va-O180908: 
+    + va-O78087: 
+    + va-O183437: 
+    + va-O211709: 
+    + va-O22887: 
+    + va-O434453: 
+    + va-O75663: 
+    + va-O74422: 
+    已接受: 15 件
+  [V&A] 查询: "chrysanthemum dish"
+    找到: 60 件，筛选中...
+    + va-O146408: Dish
+    + va-O487887: 
+    + va-O159754: 
+    + va-O494024: Dish
+    + va-O496594: 
+    + va-O178825: 
+    + va-O496145: 
+    + va-O21806: 
+    + va-O190338: 
+    + va-O493696: 
+    + va-O234962: 
+    + va-O494152: 
+    + va-O1192998: 
+    + va-O494438: 
+    + va-O190281: 
+    已接受: 15 件
+  [V&A] 查询: "peony vase"
+    找到: 60 件，筛选中...
+    + va-O1193064: 
+    + va-O1192961: 
+    + va-O1192962: 
+    + va-O16588: Melon-shaped Celadon Prunus Vase (Maebyeong) with 
+    + va-O112538: Jar
+    + va-O77388: Vase with cranes
+    + va-O1192891: 
+    + va-O1192867: 
+    + va-O23396: 
+    + va-O99143: 
+    + va-O165239: 
+    + va-O179485: 
+    + va-O151642: 
+    + va-O494122: 
+    + va-O181288: 
+    已接受: 15 件
+  [V&A] 查询: "dragon dish porcelain"
+    找到: 60 件，筛选中...
+    + va-O22437: 
+    + va-O181027: 
+    + va-O494806: 
+    + va-O183227: 
+    + va-O494869: 
+    + va-O120199: 
+    + va-O183361: 
+    + va-O336129: 
+    + va-O498825: 
+    + va-O184086: 
+    + va-O494081: 
+    + va-O495938: 
+    + va-O494172: Dish
+    + va-O179756: 
+    + va-O76747: 
+    已接受: 15 件
+  [V&A] 查询: "phoenix bowl"
+    找到: 59 件，筛选中...
+    + va-O76002: 
+    + va-O437808: 
+    + va-O179141: 
+    + va-O179139: 
+    + va-O279500: 
+    + va-O180300: 
+    + va-O192919: 
+    + va-O277553: 
+    + va-O21951: 
+    + va-O187764: 
+    + va-O437069: 
+    + va-O436828: 
+    + va-O436994: 
+    + va-O436505: 
+    + va-O438015: 
+    已接受: 15 件
+  [V&A] 查询: "fish bowl Chinese"
+    找到: 28 件，筛选中...
+    + va-O437268: 
+    + va-O252044: 
+    + va-O166769: 
+    + va-O282082: 
+    + va-O93549: 
+    + va-O301921: 
+    + va-O336084: 
+    + va-O111824: 
+    + va-O1160725: 
+    + va-O339087: 
+    + va-O137012: 
+    + va-O55165: 
+    + va-O99967: Pot a sucre Bouret
+    + va-O279012: 
+    + va-O85144: The Chelsea Carpet
+    已接受: 15 件
+  [V&A] 查询: "garden seat porcelain"
+    找到: 60 件，筛选中...
+    + va-O228330: 
+    + va-O228018: 
+    + va-O227652: 
+    + va-O307529: 
+    + va-O185554: 
+    + va-O185552: 
+    + va-O185551: 
+    + va-O185549: 
+    + va-O334128: <i>Flötenkonzert</i>
+    + va-O185543: 
+    + va-O307218: 
+    + va-O249076: The Tea Party
+    + va-O185624: 
+    + va-O185623: 
+    + va-O236680: 
+    已接受: 15 件
+  [V&A] 查询: "pillow ceramics Chinese"
+    找到: 10 件，筛选中...
+    + va-O146671: 
+    + va-O152095: 
+    + va-O184679: 
+    + va-O138044: Figure
+    + va-O494204: 
+    + va-O299361: 
+    已接受: 6 件
+  [V&A] 查询: "Fujian porcelain"
+    找到: 60 件，筛选中...
+    + va-O176413: 
+    + va-O176408: 
+    + va-O176401: 
+    + va-O176387: 
+    + va-O176382: 
+    + va-O176380: 
+    + va-O176376: 
+    + va-O176321: 
+    + va-O77633: Guanyin
+    + va-O495370: 
+    + va-O176333: 
+    + va-O342006: 
+    + va-O176312: 
+    + va-O176309: 
+    + va-O176304: 
+    已接受: 15 件
+  [V&A] 查询: "Guangdong porcelain"
+    找到: 26 件，筛选中...
+    + va-O33551: 
+    + va-O1296796: 
+    + va-O1296795: 
+    + va-O1296794: 
+    + va-O1296798: 
+    + va-O1296793: 
+    + va-O1296797: 
+    + va-O1296790: 
+    + va-O1296788: 
+    + va-O1296787: 
+    + va-O278829: 
+    + va-O1296792: 
+    + va-O1296784: 
+    + va-O357969: 
+    + va-O152123: 
+    已接受: 15 件
+  [V&A] 查询: "Henan ceramics"
+    找到: 60 件，筛选中...
+    + va-O14506: 
+    + va-O152394: Pillow
+    + va-O181183: 
+    + va-O437365: 
+    + va-O133174: 
+    + va-O108678: Dish
+    + va-O495037: 
+    + va-O494841: 
+    + va-O133226: 
+    + va-O494828: 
+    + va-O437267: 
+    + va-O494817: 
+    + va-O493571: 
+    + va-O461350: 
+    + va-O437352: 
+    已接受: 15 件
+  [V&A] 查询: "Zhejiang ceramics"
+    找到: 60 件，筛选中...
+    + va-O127897: 
+    + va-O190160: 
+    + va-O187449: 
+    + va-O494448: 
+    + va-O494447: 
+    + va-O494446: 
+    + va-O494454: 
+    + va-O494452: 
+    + va-O494451: 
+    + va-O494450: 
+    + va-O494449: 
+    + va-O485396: 
+    + va-O494455: 
+    + va-O437432: 
+    + va-O73694: 
+    已接受: 15 件
+  [V&A] 查询: "Jiangsu porcelain"
+    找到: 15 件，筛选中...
+    + va-O436649: 
+    + va-O24398: 
+    + va-O24394: 
+    + va-O24393: 
+    + va-O494989: 
+    + va-O1316706: Banquet 3
+    + va-O77866: 
+    已接受: 7 件
+  [V&A] 查询: "Shanxi ceramics"
+    找到: 24 件，筛选中...
+    + va-O23606: 
+    + va-O116723: Official Riding a Horse
+    + va-O180868: 
+    + va-O167288: 
+    + va-O496818: 
+    + va-O496816: 
+    + va-O496817: 
+    + va-O496815: 
+    + va-O24412: 
+    + va-O494862: 
+    + va-O437270: 
+    + va-O495631: 
+    + va-O461352: 
+    + va-O495818: 
+    + va-O76446: 
+    已接受: 15 件
+  [V&A] 查询: "sencha Japanese"
+    找到: 2 件，筛选中...
+    + va-O24305: 
+    + va-O1715581: 
+    已接受: 2 件
+  [V&A] 查询: "kyusu teapot"
+    找到: 2 件，筛选中...
+    + va-O24243: 
+    已接受: 1 件
+  [V&A] 查询: "dobin teapot"
+    结果: 0 件
+  [V&A] 查询: "yuzamashi"
+    结果: 0 件
+  [V&A] 查询: "hohin teapot"
+    结果: 0 件
+  [V&A] 查询: "shiboridashi"
+    结果: 0 件
+  [V&A] 查询: "houhin Japan"
+    结果: 0 件
+  [V&A] 查询: "Banko ware"
+    找到: 7 件，筛选中...
+    + va-O496456: 
+    + va-O495146: 
+    + va-O496454: 
+    + va-O495145: 
+    + va-O495147: 
+    + va-O496424: 
+    + va-O496455: 
+    已接受: 7 件
+  [V&A] 查询: "Tokoname teapot"
+    找到: 8 件，筛选中...
+    + va-O170342: 
+    + va-O170341: 
+    + va-O456766: 
+    已接受: 3 件
+  [V&A] 查询: "Echizen ceramics"
+    找到: 3 件，筛选中...
+    + va-O494474: 
+    + va-O24089: 
+    已接受: 2 件
+  [V&A] 查询: "Kyushu ceramics"
+    找到: 29 件，筛选中...
+    + va-O24431: 
+    + va-O39395: 
+    + va-O19390: 
+    + va-O496480: 
+    + va-O24432: 
+    + va-O1191272: 
+    + va-O190118: 
+    + va-O437906: 
+    + va-O234942: 
+    + va-O493524: 
+    + va-O341797: 
+    + va-O1778153: 
+    + va-O1778154: 
+    + va-O234950: 
+    已接受: 14 件
+  [V&A] 查询: "Hizen porcelain"
+    找到: 6 件，筛选中...
+    + va-O437389: 
+    + va-O461370: 
+    + va-O171039: 
+    + va-O171005: 
+    已接受: 4 件
+  [V&A] 查询: "Fukuoka ceramics"
+    找到: 12 件，筛选中...
+    + va-O496008: 
+    + va-O493503: 
+    + va-O493502: 
+    + va-O461509: 
+    + va-O496468: 
+    已接受: 5 件
+  [V&A] 查询: "Saga ceramics"
+    找到: 20 件，筛选中...
+    + va-O168251: Eystein-Saga
+    + va-O168241: Eystein-Saga
+    + va-O168259: Eystein-Saga
+    + va-O168257: Eystein-Saga
+    + va-O168255: Eystein-Saga
+    + va-O168252: Eystein-Saga
+    + va-O168254: Eystein-Saga
+    + va-O168264: Eystein-Saga
+    + va-O168250: Eystein-Saga
+    + va-O168260: Eystein-Saga
+    + va-O168263: Eystein-Saga
+    + va-O168261: Eystein-Saga
+    + va-O24104: 
+    + va-O493429: 
+    + va-O237499: 
+    已接受: 15 件
+  [V&A] 查询: "Yamaguchi ceramics"
+    结果: 0 件
+  [V&A] 查询: "Okayama ceramics"
+    找到: 3 件，筛选中...
+    + va-O1722678: 
+    已接受: 1 件
+  [V&A] 查询: "Joseon tea bowl"
+    结果: 0 件
+  [V&A] 查询: "Korean celadon inlay"
+    找到: 14 件，筛选中...
+    + va-O15189: 
+    + va-O7399: 
+    + va-O21929: 
+    + va-O21787: 
+    + va-O21786: 
+    + va-O21807: 
+    + va-O15186: 
+    + va-O17399: Bronze Kundika, silver-inlaid with Willow and Wate
+    已接受: 8 件
+  [V&A] 查询: "Buncheong mishima"
+    结果: 0 件
+  [V&A] 查询: "Korean hakeme"
+    结果: 0 件
+  [V&A] 查询: "Korean punch ong"
+    结果: 0 件
+  [V&A] 查询: "Koryo celadon"
+    找到: 60 件，筛选中...
+    + va-O21792: 
+    + va-O15198: 
+    + va-O16606: 
+    + va-O22276: 
+    + va-O15156: 
+    + va-O21798: 
+    + va-O22297: 
+    + va-O21774: 
+    + va-O21795: 
+    + va-O22302: 
+    + va-O21775: 
+    + va-O21716: 
+    + va-O21717: 
+    + va-O16605: 
+    + va-O15157: Celadon Dish with Inlaid Fish Design and Inscripti
+    已接受: 15 件
+  [V&A] 查询: "Annam blue white"
+    结果: 0 件
+  [V&A] 查询: "Sukhothai ceramics"
+    找到: 12 件，筛选中...
+    + va-O80535: 
+    + va-O80764: 
+    + va-O81617: 
+    + va-O438380: 
+    + va-O230833: 
+    + va-O81618: 
+    + va-O81286: 
+    + va-O81623: 
+    + va-O1136582: 
+    + va-O81285: 
+    + va-O494497: 
+    + va-O249021: 
+    已接受: 12 件
+  [V&A] 查询: "Sangkhalok ware"
+    结果: 0 件
+  [V&A] 查询: "Si Satchanalai"
+    找到: 60 件，筛选中...
+    + va-O251092: 
+    + va-O251073: 
+    + va-O80539: 
+    + va-O80811: 
+    + va-O80972: 
+    + va-O80966: 
+    + va-O80836: 
+    + va-O80819: 
+    + va-O80970: 
+    + va-O80969: 
+    + va-O80827: 
+    + va-O231089: 
+    + va-O494360: 
+    + va-O438383: 
+    + va-O494372: 
+    已接受: 15 件
+  [V&A] 查询: "Burmese ceramics"
+    找到: 12 件，筛选中...
+    + va-O1190456: 
+    + va-O12155: 
+    + va-O10826: 
+    + va-O96361: 
+    + va-O81727: 
+    + va-O83787: 
+    + va-O1781461: 
+    + va-O81419: 
+    + va-O81417: 
+    + va-O81409: 
+    + va-O81240: 
+    + va-O81512: 
+    已接受: 12 件
+  [V&A] 查询: "Cambodian ceramics"
+    结果: 0 件
+  [V&A] 查询: "Philippine ceramics"
+    找到: 60 件，筛选中...
+    + va-O99136: 
+    + va-O99135: 
+    + va-O205426: 
+    + va-O494696: 
+    + va-O437198: 
+    + va-O437194: 
+    + va-O437199: 
+    + va-O494472: 
+    + va-O494471: 
+    + va-O494469: 
+    + va-O494468: 
+    + va-O494463: 
+    + va-O494462: 
+    + va-O494432: 
+    + va-O493575: 
+    已接受: 15 件
+
+=== 史密森尼博物馆查询 ===
+  [Smithsonian] 查询: "Chinese vessel Freer"
+    找到: 80 件，筛选中...
+    + si-fsg-F1911.44: Ritual vessel (<em>pan</em>)
+    + si-fsg-F1909.280: Ritual vessel (<em>pou</em>)
+    + si-fsg-F1911.47a-b: Ritual vessel (<em>huo</em>) with bird stopper
+    + si-fsg-F1911.57: Ritual vessel (<em>pou</em>)
+    + si-fsg-F1915.236: Fragment of a vessel
+    + si-fsg-F1909.259a-b: Vessel
+    + si-fsg-F1907.37: Ritual wine warmer (<em>jia</em>) with <em>taotie<
+    + si-fsg-F1911.40: Ritual wine container (<em>zun</em>) with dragons
+    + si-fsg-F1907.33: Ritual vessel (<em>lei</em>) with dragons
+    + si-fsg-F1932.13a-b: Serving vessel with lid (<em>dun</em>) and dragons
+    + si-fsg-F1911.45a-b: Ritual vessel (<em>an</em>)
+    + si-fsg-F1915.103a-b: Wine flask (<em>bianhu</em>) with geometric decora
+    + si-fsg-F1917.275: Handle of a ritual vessel (fragment)
+    + si-fsg-F1913.21: Ritual wine container (<em>hu</em>) with masks
+    + si-fsg-F1919.79: Vessel (<em>you</em>?)
+    已接受: 15 件
+  [Smithsonian] 查询: "Asian ceramics bowl"
+    找到: 80 件，筛选中...
+    + si-fsg-FSC-P-4784: Fragment of a bowl with bird design
+    + si-fsg-FSC-P-4780: Fragmentary base of a bowl
+    + si-fsg-F1908.209: Frgment of a bowl
+    + si-fsg-F1908.202: Bowl (fragment)
+    + si-fsg-FSC-G-52: Bowl
+    + si-fsg-F1903.7: Bowl
+    已接受: 6 件
+  [Smithsonian] 查询: "Asian porcelain dish"
+    找到: 9 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Asian tea ware"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Eastern ceramics"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "imperial kiln"
+    找到: 15 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "court porcelain"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "palace ceramics"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "tribute ceramics"
+    找到: 19 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "altar set ceramic"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "apple green glaze"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "lime green Chinese"
+    找到: 3 件，筛选中...
+    + si-fsg-F1916.506: Disk (<em>bi</em> 璧)
+    已接受: 1 件
+  [Smithsonian] 查询: "sky blue glaze"
+    找到: 11 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "clair de lune glaze"
+    找到: 22 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "moon white glaze"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "ivory glaze Chinese"
+    找到: 5 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "cream glaze Chinese"
+    找到: 4 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "brown glaze Chinese"
+    找到: 62 件，筛选中...
+    + si-fsg-F1896.34: Ryumonji ware sake flask
+    已接受: 1 件
+  [Smithsonian] 查询: "black glaze Chinese"
+    找到: 79 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "mirror black Chinese"
+    找到: 16 件，筛选中...
+    + si-fsg-F1906.42a-l: Twelve-panel screen depicting “Spring Morning in t
+    + si-fsg-F1907.106: Box for personal accessories (<em>tebako</em>)
+    已接受: 2 件
+  [Smithsonian] 查询: "dragon phoenix porcelain"
+    找到: 10 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "hundred boys porcelain"
+    找到: 11 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "eight treasures porcelain"
+    找到: 2 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "hundred antiques"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "landscape porcelain"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "figure porcelain Chinese"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "immortals porcelain"
+    找到: 16 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "scholar sage porcelain"
+    结果: 0 件
+  [Smithsonian] 查询: "incised decoration Chinese"
+    找到: 80 件，筛选中...
+    + si-fsg-F1917.348: Disk (<em>bi</em> 璧) with incised glyph and decora
+    + si-fsg-F1930.28: Head ornament with geometric decoration
+    + si-fsg-F1932.41: Disk (<em>bi</em>) with raised linked curls
+    + si-fsg-F1916.146: Pendant with dragon heads, interlaced dragons, and
+    + si-fsg-F1917.239a-b: Double lintel: decorated with floral and other des
+    + si-fsg-F1917.79: Disk (<em>bi</em> 璧) with incised glyph
+    + si-fsg-F1918.14: Eight-tier tube (<em>cong</em> 琮) with masks
+    + si-fsg-F1930.50a-b: Hinged cosmetic box in the form of a clam’s shell 
+    + si-fsg-F1911.67: Pitch-pot
+    + si-fsg-F1916.173: Ovoidal cup
+    + si-fsg-F1923.18: Funerary model of a twin-towered gate
+    + si-fsg-F1916.118: One-tier tube (<em>cong</em> 琮) with masks
+    + si-fsg-F1944.57: Hinged garment hook with dragon
+    + si-fsg-F1918.20: Two-tier tube (<em>cong</em> 琮) with masks
+    + si-fsg-F1919.60: Harvesting knife (<em>hu</em> 笏), fragment
+    已接受: 15 件
+  [Smithsonian] 查询: "carved porcelain"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "molded porcelain"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "pierced porcelain"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "openwork porcelain"
+    找到: 7 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "reticulated porcelain"
+    找到: 26 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "applied decoration ceramic"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Japanese stoneware"
+    找到: 80 件，筛选中...
+    + si-fsg-F1899.43a-b: Tsushima ware jar
+    已接受: 1 件
+  [Smithsonian] 查询: "Japanese earthenware"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Japanese ash glaze"
+    找到: 80 件，筛选中...
+    + si-fsg-F1899.31: Tamba ware bottle for candy pellets
+    + si-fsg-F1892.30: Jar
+    + si-fsg-F1898.474: Satsuma ware serving bowl, Ryumonji kilns
+    + si-fsg-F1898.453: Agano or Takatori ware bottle
+    + si-fsg-F1893.2: Shidoro ware sake bottle
+    + si-fsg-F1898.463: Kosobe ware serving bowl
+    已接受: 6 件
+  [Smithsonian] 查询: "Japanese iron glaze"
+    找到: 77 件，筛选中...
+    + si-fsg-F1899.46a-b: Lidded bowl with design of iris
+    已接受: 1 件
+  [Smithsonian] 查询: "wood fired Japanese"
+    找到: 25 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "salt glaze Japanese"
+    结果: 0 件
+  [Smithsonian] 查询: "Momoyama ceramics"
+    找到: 32 件，筛选中...
+    + si-fsg-F1905.262: Zhong Kui (Shoki) on a tiger
+    + si-fsg-F1905.261: Birds and flowers
+    + si-fsg-F1905.263: Birds and flowers
+    已接受: 3 件
+  [Smithsonian] 查询: "Edo ceramics"
+    找到: 80 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Meiji ceramics"
+    找到: 39 件，筛选中...
+    + si-fsg-F1902.227: The Chinese Taoist Immortals, Han-shan and Shih-te
+    已接受: 1 件
+  [Smithsonian] 查询: "Korean stoneware"
+    找到: 80 件，筛选中...
+    + si-fsg-F1898.140: Bottle with inlaid design of orchids
+    已接受: 1 件
+  [Smithsonian] 查询: "Korean iron decoration"
+    找到: 27 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Korean slip decoration"
+    找到: 24 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Korean white slip"
+    找到: 34 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Goryeo bowl"
+    找到: 7 件，筛选中...
+    + si-fsg-F1917.544: Pipe bowl
+    已接受: 1 件
+  [Smithsonian] 查询: "Joseon jar"
+    找到: 2 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Joseon dish"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Vietnamese underglaze"
+    找到: 3 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Vietnamese iron brown"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Chu Dau ceramics"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Smithsonian] 查询: "Thai brown glaze"
+    结果: 0 件
+  [Smithsonian] 查询: "Khmer brown glaze"
+    结果: 0 件
+  [Smithsonian] 查询: "Khmer stoneware"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+
+=== 维基共享资源查询 ===
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Museum_für_Ostasiatische_Kunst_Cologne"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Musée_Guimet"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Rijksmuseum"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_ceramics_in_the_Peabody_Essex_Museum"
+    结果: 0 件
+  [Wikimedia] 分类: "Asian_art_in_the_Honolulu_Museum_of_Art"
+    找到: 2 个文件，筛选中...
+    + wmc-52894708: Dish from Israel, Jerusalem, c. 1935, underglaze-p
+    + wmc-17628887: Embroidered hanging or cover, central asia, late 1
+    已接受: 2 件
+  [Wikimedia] 分类: "Asian_art_in_the_Asian_Art_Museum_of_San_Francisco"
+    结果: 0 件
+  [Wikimedia] 分类: "Asian_art_in_the_Museum_of_Fine_Arts,_Boston"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_art_in_the_Philadelphia_Museum_of_Art"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_blue_and_white_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_famille_rose_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_monochrome_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_overglaze_enamel"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_underglaze_decoration"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_Qingbai_ware"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_sancai"
+    结果: 0 件
+  [Wikimedia] 分类: "Tang_dynasty_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Yuan_dynasty_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Ming_dynasty_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Qing_dynasty_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Japanese_water_containers"
+    结果: 0 件
+  [Wikimedia] 分类: "Japanese_flower_vases"
+    结果: 0 件
+  [Wikimedia] 分类: "Japanese_incense_containers"
+    结果: 0 件
+  [Wikimedia] 分类: "Koishiwara_ware"
+    找到: 8 个文件，筛选中...
+    + wmc-130621504: Cup and saucer 20230102 074906
+    + wmc-27256947: Gourd-shaped Sake Bottle (tokkuri) with Willow Des
+    + wmc-29594354: Ipponsugi No.2 Kiln
+    + wmc-27257091: Sake Bottle (tokkuri) LACMA M.2007.226.4
+    + wmc-27257095: Sake Bottle (tokkuri) LACMA M.2007.226.5
+    + wmc-27259166: Sake Bottle (tokkuri) LACMA M.2007.226.7
+    + wmc-27256933: Sake Bottle (tokkuri) LACMA M.2007.226.8
+    + wmc-29594353: Traditional Industry Hall of Koishiwara Pottery
+    已接受: 8 件
+  [Wikimedia] 分类: "Onta_ware"
+    找到: 7 个文件，筛选中...
+    + wmc-5948434: Ondayoshie
+    + wmc-27337386: Sake Bottle (tokkuri) LACMA M.2007.226.11
+    + wmc-27333244: Sake Bottle (tokkuri) LACMA M.2008.264.24
+    + wmc-27256937: Sake Bottle (tokkuri) with Grape Vine Design LACMA
+    [限流] 等待后重试... (剩余3次)
+    + wmc-27256951: Spouted Sake Bottle (tokkuri) LACMA M.2007.226.9
+    已接受: 5 件
+  [Wikimedia] 分类: "Hasami_ware"
+    找到: 18 个文件，筛选中...
+    + wmc-37842394: Hakusan Porcelain
+    + wmc-53511282: Hasami porcelain
+    + wmc-116465214: Hasami ware - Nishiyama - March 28 2022 various 16
+    + wmc-116465248: Hasami ware - Nishiyama - March 28 2022 various 16
+    + wmc-116465207: Hasami ware - Nishiyama - March 28 2022 various
+    + wmc-116466888: Hasamiyaki - nakaoyama - March 28 2022 2022 17 31 
+    + wmc-116466893: Hasamiyaki - nakaoyama - March 28 2022 2022 17 31 
+    + wmc-116466899: Hasamiyaki - nakaoyama - March 28 2022 2022 17 31 
+    + wmc-116466902: Hasamiyaki - nakaoyama - March 28 2022 2022 17 31 
+    + wmc-116466905: Hasamiyaki - nakaoyama - March 28 2022 2022 17 31 
+    + wmc-116466914: Hasamiyaki - nakaoyama - March 28 2022 2022 17 32 
+    + wmc-116466881: Hasamiyaki - nakaoyama - March 28 2022 2022
+    已接受: 12 件
+  [Wikimedia] 分类: "Tobe_ware"
+    找到: 8 个文件，筛选中...
+    + wmc-64741811: Aichi Prefectural Ceramic Museum (56)
+    + wmc-178752158: Baizangama 20251120
+    + wmc-178862907: Eitokun 20251123 (1)
+    + wmc-178862909: Eitokun 20251123 (2)
+    + wmc-148879400: Tobe Ehime Togeikan 20240530
+    + wmc-148879411: Tobe Senzan 20240530
+    + wmc-178862664: Tobe Ware Torchlight Monument 20251123
+    + wmc-148879413: Tobe-yaki Togeikan 20240530
+    已接受: 8 件
+  [Wikimedia] 分类: "Mashiko_pottery"
+    结果: 0 件
+  [Wikimedia] 分类: "Kasama_ware"
+    找到: 15 个文件，筛选中...
+    + wmc-87671492: Climbing Kiln, Kasama 01
+    + wmc-94448533: Kasama Ware, Ibaraki 06
+    + wmc-94449375: Kasama Ware, Ibaraki 07
+    + wmc-94449424: Kasama Ware, Ibaraki 08
+    + wmc-94449425: Kasama Ware, Ibaraki 09
+    + wmc-94449444: Kasama Ware, Ibaraki 10
+    + wmc-94449494: Kasama Ware, Ibaraki 11
+    + wmc-94449490: Kasama Ware, Ibaraki 12
+    + wmc-94449486: Kasama Ware, Ibaraki 13
+    + wmc-94449487: Kasama Ware, Ibaraki 14
+    + wmc-94449491: Kasama Ware, Ibaraki 15
+    + wmc-94449519: Kasama Ware, Ibaraki 16
+    已接受: 12 件
+  [Wikimedia] 分类: "Otani_ware"
+    结果: 0 件
+  [Wikimedia] 分类: "Korean_pottery"
+    结果: 0 件
+  [Wikimedia] 分类: "Korean_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Joseon_white_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Korean_buncheong"
+    结果: 0 件
+  [Wikimedia] 分类: "Vietnamese_pottery"
+    结果: 0 件
+  [Wikimedia] 分类: "Vietnamese_porcelain"
+    结果: 0 件
+  [Wikimedia] 分类: "Bat_Trang_ceramics"
+    结果: 0 件
+  [Wikimedia] 分类: "Chinese_censers"
+    结果: 0 件
+  [Wikimedia] 分类: "Japanese_vases"
+    结果: 0 件
+  [Wikimedia] 分类: "Japanese_bowls"
+    结果: 0 件
+  [Wikimedia] 分类: "Korean_vases"
+    结果: 0 件
+  [Wikimedia] 分类: "Korean_bowls"
+    结果: 0 件
+
+=== 大都会博物馆查询 (补充) ===
+  [Met] 查询: "Shang dynasty pottery"
+    找到: 2410 件，筛选中...
+    + met-545791: Two-handed pottery vase of Amenhotep
+    + met-53947: Lobed Tripod Cauldron (Liding)
+    ❌ 质量门槛未通过: 1183x934 (最长边=1183px < 1200px)
+    + met-45180: The Return to Court of the Four Graybeards of Moun
+    + met-49137: Tripod cooking vessel (li)
+    + met-555011: Funerary Cone of Djehutynefer
+    ❌ 质量门槛未通过: 850x794 (最长边=850px < 1200px)
+    + met-42193: Incense burner
+    + met-544510: Hieratic Jar Label
+    ❌ 质量门槛未通过: 704x688 (最长边=704px < 1200px)
+    ❌ 质量门槛未通过: 636x676 (最长边=676px < 1200px)
+    + met-187943: Pavement tile
+    ❌ 质量门槛未通过: 756x536 (最长边=756px < 1200px)
+    ❌ 质量门槛未通过: 580x700 (最长边=700px < 1200px)
+    + met-42514: Dish with Peonies
+    + met-60763: Drawings of Historical Characters
+    + met-544822: Jug Decorated with Dolphins and Birds
+    ❌ 质量门槛未通过: 833x900 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 797x900 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 651x925 (最长边=925px < 1200px)
+    ❌ 质量门槛未通过: 527x700 (最长边=700px < 1200px)
+    已接受: 11 件
+  [Met] 查询: "Zhou dynasty vessel"
+    找到: 4699 件，筛选中...
+    + met-61031: Vessel
+    + met-840987: Poem on reclusion
+    + met-36089: Autumn Landscape, leaf from Album for Zhou Lianggo
+    + met-65623: Couplet
+    + met-44782: Food serving vessel (Pu)
+    + met-61235: Grain serving vessel (dui)
+    + met-65624: Snowscape, from Album for Zhou Lianggong
+    + met-548220: Long-necked jar
+    + met-36090: White Crane Mountain, leaf from Album for Zhou Lia
+    + met-36091: Mountain Retreat,  leaf from Album for Zhou Liangg
+    ❌ 质量门槛未通过: 683x683 (最长边=683px < 1200px)
+    + met-549375: Glass Vessel
+    ❌ 质量门槛未通过: 844x925 (最长边=925px < 1200px)
+    + met-39890: Inscriptions on the Stone Drums (Eastern Zhou dyna
+    已接受: 12 件
+  [Met] 查询: "Han tomb pottery"
+    找到: 1443 件，筛选中...
+    ❌ 质量门槛未通过: 449x700 (最长边=700px < 1200px)
+    + met-44802: Female musician
+    ❌ 质量门槛未通过: 557x700 (最长边=700px < 1200px)
+    + met-44801: Female musician with lute
+    + met-44704: Tomb guardian
+    + met-44832: Head of a Clay Tomb Sculpture (Haniwa)
+    + met-556743: Offering tray
+    + met-44834: Wild Boar Piglet Clay Tomb Sculpture (Haniwa)
+    ❌ 质量门槛未通过: 833x900 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 797x900 (最长边=900px < 1200px)
+    + met-44833: Head of a Warrior Clay Tomb Sculpture (Haniwa)
+    + met-208223: Dish with figures in a landscape
+    + met-49552: Foreign dancer
+    ❌ 质量门槛未通过: 461x700 (最长边=700px < 1200px)
+    + met-56154: Man with a hoe
+    + met-56153: Man with a shovel
+    + met-56152: Woman with a hoe
+    已接受: 12 件
+  [Met] 查询: "Six Dynasties ceramics"
+    找到: 5431 件，筛选中...
+    ❌ 质量门槛未通过: 948x945 (最长边=948px < 1200px)
+    ❌ 质量门槛未通过: 937x960 (最长边=960px < 1200px)
+    + met-52916: Vase
+    已接受: 1 件
+  [Met] 查询: "Sui dynasty ceramics"
+    找到: 4667 件，筛选中...
+    ❌ 质量门槛未通过: 448x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 626x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 296x337 (最长边=337px < 1200px)
+    ❌ 质量门槛未通过: 488x925 (最长边=925px < 1200px)
+    ❌ 质量门槛未通过: 438x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 433x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 384x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 358x700 (最长边=700px < 1200px)
+    + met-48537: Female musician
+    + met-59777: Female attendant with dustpan
+    + met-59776: Female musician with zither
+    + met-48538: Female musician with lute
+    + met-62991: Camel with saddle bags
+    + met-48539: Female musician with harp
+    + met-48540: Female musician with drum
+    + met-63005: Camel with saddle bags
+    + met-49546: Female attendant carrying a pillow
+    + met-62851: Female attendant carrying a stool or drum
+    ❌ 质量门槛未通过: 1183x934 (最长边=1183px < 1200px)
+    已接受: 10 件
+  [Met] 查询: "Five Dynasties ceramic"
+    找到: 6039 件，筛选中...
+    + met-544132: One of five bowls
+    + met-544133: One of five bowls
+    + met-544134: One of five bowls
+    + met-544135: One of five bowls
+    + met-544136: One of five bowls
+    + met-63702: Set of Five Everyday Vessels (Kurawanka Bowls)
+    + met-63601: Set of Five Small Dishes (Kozara) with Turnip
+    + met-63602: Set of Five Small Dishes (Kozara) with Turnip
+    + met-63603: Set of Five Small Dishes (Kozara) with Turnip
+    + met-52256: Set of Five Small Dishes (Kozara) with Turnip
+    + met-63737: Set of Five Soba Cups (Soba choko) with Interlinke
+    + met-63733: Set of Five Soba Cups (Soba choko) with Interlinke
+    已接受: 12 件
+  [Met] 查询: "Liao dynasty pottery"
+    找到: 2196 件，筛选中...
+    ❌ 质量门槛未通过: 1183x934 (最长边=1183px < 1200px)
+    ❌ 质量门槛未通过: 717x925 (最长边=925px < 1200px)
+    ❌ 质量门槛未通过: 925x524 (最长边=925px < 1200px)
+    ❌ 质量门槛未通过: 614x925 (最长边=925px < 1200px)
+    ❌ 质量门槛未通过: 850x794 (最长边=850px < 1200px)
+    ❌ 质量门槛未通过: 704x688 (最长边=704px < 1200px)
+    ❌ 质量门槛未通过: 636x676 (最长边=676px < 1200px)
+    ❌ 质量门槛未通过: 756x536 (最长边=756px < 1200px)
+    ❌ 质量门槛未通过: 580x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 833x900 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 797x900 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 651x925 (最长边=925px < 1200px)
+    ❌ 质量门槛未通过: 527x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 900x671 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 900x672 (最长边=900px < 1200px)
+    已接受: 0 件
+  [Met] 查询: "Western Xia ceramic"
+    找到: 507 件，筛选中...
+    + met-501691: Ceramic Horn
+    ❌ 质量门槛未通过: 1100x845 (最长边=1100px < 1200px)
+    ❌ 质量门槛未通过: 850x1100 (最长边=1100px < 1200px)
+    + met-560862: Funerary Cone of the Royal Herald Intef
+    + met-554372: Funerary Cone of the Royal Herald Intef
+    + met-559372: Funerary Cone of the Scribe Amenemopet
+    + met-559373: Funerary Cone of the Scribe Amenemopet
+    + met-576183: Funerary Cone of the Scribe Amenemopet
+    + met-576181: Funerary Cone of the Scribe Amenemopet
+    + met-559374: Funerary Cone the Royal Scribe Djehutynefer
+    + met-559371: Funerary Cone of the Scribe Amenhotep
+    + met-559362: Funerary Cone of the Overseer of Sculptors Su
+    + met-559365: Funerary Cone the Cup-Bearer Neferperet
+    + met-559366: Funerary Cone of the Scribe of the Treasury Senu
+    已接受: 12 件
+  [Met] 查询: "brush pot porcelain"
+    找到: 525 件，筛选中...
+    + met-188545: Pounce pot
+    + met-232031: Vase with cover (part of a garniture)
+    + met-205634: Mustard pot
+    + met-47814: Pot
+    ❌ 质量门槛未通过: 680x377 (最长边=680px < 1200px)
+    ❌ 质量门槛未通过: 680x377 (最长边=680px < 1200px)
+    ❌ 质量门槛未通过: 680x426 (最长边=680px < 1200px)
+    + met-930808: Brush pot
+    + met-703311: Punch pot
+    + met-47399: Brush Pot
+    ❌ 质量门槛未通过: 634x700 (最长边=700px < 1200px)
+    + met-52979: Pot
+    ❌ 质量门槛未通过: 591x700 (最长边=700px < 1200px)
+    + met-202195: Pedestal vase and bulb pot (piédestal en gaine) (o
+    + met-202196: Pedestal vase and bulb pot (piédestal en gaine) (o
+    + met-19001: Covered honey pot
+    + met-6732: Posset pot
+    已接受: 12 件
+  [Met] 查询: "flower pot Chinese"
+    找到: 2257 件，筛选中...
+    + met-461214: Small covered wine pot or teapot
+    + met-232092: Beaker vase (one of a pair, part of a garniture)
+    + met-232032: Beaker vase (one of a pair, part of a garniture)
+    + met-461250: Fabric
+    + met-461277: Small covered winepot or teapot (similar to 1975.1
+    + met-3761: Flower Pot
+    + met-460658: Plate, Jun ware
+    + met-460557: Censer
+    ❌ 质量门槛未通过: 591x700 (最长边=700px < 1200px)
+    + met-6818: Punch Pot
+    + met-9199: Flower Pot
+    + met-1035: Bulb Pot
+    + met-49924: Flower pot
+    已接受: 12 件
+  [Met] 查询: "jardiniere Chinese"
+    找到: 16 件，筛选中...
+    + met-4515: Jardiniere
+    + met-4516: Jardiniere
+    + met-4523: Jardiniere
+    + met-4524: Jardiniere
+    + met-460680: Hexagonal Jardinière
+    + met-201075: Two-handled jardinière
+    + met-208518: Jardinière
+    ❌ 质量门槛未通过: 744x700 (最长边=744px < 1200px)
+    + met-239500: Jardinière with chickens
+    + met-364909: The Chinese Gardener
+    已接受: 9 件
+  [Met] 查询: "garden seat Chinese"
+    找到: 1090 件，筛选中...
+    ❌ 质量门槛未通过: 545x700 (最长边=700px < 1200px)
+    + met-455081: Reciting Poetry in a Garden
+    + met-451358: Bowl With Musicians in a Garden
+    + met-60759: Mustard Seed Garden Manual of Painting
+    ❌ 质量门槛未通过: 844x1092 (最长边=1092px < 1200px)
+    ❌ 质量门槛未通过: 860x1124 (最长边=1124px < 1200px)
+    + met-40679: Garden seat with birds and flowers
+    + met-760546: Plate 117: Garden Chairs, from "A New Book of Chin
+    + met-39863: Table screen with the gathering in the Western Gar
+    + met-50483: Garden seat with scene of a lotus pond
+    + met-40468: Saddle (Kura) with Stylized Flowers
+    + met-756889: Garden scene
+    + met-45802: Summer Garden
+    + met-51575: Garden estate
+    + met-24963: Helmet
+    已接受: 12 件
+  [Met] 查询: "pillow ceramic Chinese"
+    找到: 2577 件，筛选中...
+    ❌ 质量门槛未通过: 545x700 (最长边=700px < 1200px)
+    + met-41916: Pillow in the shape of an infant boy
+    + met-52615: Pillow
+    + met-61428: Pillow
+    ❌ 质量门槛未通过: 900x492 (最长边=900px < 1200px)
+    已接受: 3 件
+  [Met] 查询: "figure group Chinese"
+    找到: 5373 件，筛选中...
+    ❌ 质量门槛未通过: 545x700 (最长边=700px < 1200px)
+    + met-247913: Terracotta skyphos (deep drinking cup)
+    + met-258464: Terracotta neck-amphora (jar)
+    + met-72498: Enthroned Buddha Attended by the Bodhisattvas Aval
+    + met-24959: Sword (Ral gri)
+    + met-206399: Bacchanal: A Faun Teased by Children
+    + met-460834: Panel (see also 1975.1.1932)
+    + met-460786: Panel (see also 1975.1.1933)
+    + met-38994: Buddha Attended by Bodhisattvas Avalokiteshvara an
+    + met-254869: Terracotta amphora (jar)
+    + met-251468: Terracotta amphora (jar)
+    ❌ 质量门槛未通过: 525x700 (最长边=700px < 1200px)
+    + met-247383: Terracotta thymiaterion (incense burner)
+    + met-250575: Terracotta lekanis (covered dish)
+    已接受: 12 件
+  [Met] 查询: "mark period Xuande"
+    找到: 2766 件，筛选中...
+    + met-236765: Diadem
+    ❌ 质量门槛未通过: 800x570 (最长边=800px < 1200px)
+    + met-748352: Covered box with figures in a garden
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    + met-20356: Clock case and vase
+    + met-236771: Belt buckle
+    + met-770938: "Alhambra" vase with lid
+    + met-236769: Necklace with Satyr's-head pendants
+    + met-913870: Incense burner (kōro)
+    + met-73380: Incense burner with dragon, phoenix, and sea creat
+    + met-45533: Head of a Clay Figure (Dogū)
+    + met-45532: Copy of a Dogū (Clay Figurine)
+    ❌ 质量门槛未通过: 828x960 (最长边=960px < 1200px)
+    + met-40217: Dish with immortals playing weiqi
+    ❌ 质量门槛未通过: 820x442 (最长边=820px < 1200px)
+    + met-61195: Incense Burner
+    已接受: 12 件
+  [Met] 查询: "mark period Chenghua"
+    找到: 2754 件，筛选中...
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    ❌ 质量门槛未通过: 828x960 (最长边=960px < 1200px)
+    + met-75414: Buddha
+    ❌ 质量门槛未通过: 400x929 (最长边=929px < 1200px)
+    + met-72301: Buddha Seated in Meditation
+    + met-38474: Standing Bodhisattva Maitreya (Buddha of the Futur
+    + met-42407: Plate with fairies
+    + met-42408: Plate with fairies
+    + met-192825: Candelabrum (one of a pair)
+    + met-192824: Candelabrum (one of a pair)
+    + met-192846: Sight (one of a pair)
+    + met-707883: Botanical plate with thistle
+    + met-707888: Botanical plate with fruiting branch
+    + met-707891: Botanical oval platter with turnip leaf
+    ❌ 质量门槛未通过: 500x815 (最长边=815px < 1200px)
+    + met-707889: Botanical plate with spray of lilies
+    已接受: 12 件
+  [Met] 查询: "mark period Jiajing"
+    找到: 2755 件，筛选中...
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    ❌ 质量门槛未通过: 682x700 (最长边=700px < 1200px)
+    + met-46016: Jar with dragons
+    + met-42530: Box with flowers and birds
+    + met-52733: Dish with dragon, crane, and Eight Trigrams
+    ❌ 质量门槛未通过: 916x700 (最长边=916px < 1200px)
+    ❌ 质量门槛未通过: 339x700 (最长边=700px < 1200px)
+    + met-44748: Covered box with dragons and phoenixes
+    + met-40226: Dish with character for longevity (shou)
+    ❌ 质量门槛未通过: 828x960 (最长边=960px < 1200px)
+    + met-39618: Rice measure with four constellation deities
+    + met-40224: Tray with dragon and Chinese characters
+    ❌ 质量门槛未通过: 925x675 (最长边=925px < 1200px)
+    + met-46707: Bowl with lions
+    ❌ 质量门槛未通过: 607x925 (最长边=925px < 1200px)
+    + met-40225: Circular Dish with Dragon, Trigrams, and the Chara
+    + met-40691: Covered Bowl
+    + met-47933: Cup with human figures
+    + met-47582: Jar decorated with auspicious characters amid plan
+    已接受: 12 件
+  [Met] 查询: "mark period Wanli"
+    找到: 2841 件，筛选中...
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    + met-40254: Covered square box with dragon
+    + met-42535: Dish with Flowering Branches
+    ❌ 质量门槛未通过: 511x700 (最长边=700px < 1200px)
+    + met-44708: Dish with fish in pond
+    + met-52756: Rectangular box with double dragons
+    + met-50267: Covered box with childeren at play
+    ❌ 质量门槛未通过: 919x700 (最长边=919px < 1200px)
+    + met-52075: Jar with dragon and phoenix
+    + met-52077: Covered box with scholar and attendents
+    + met-52764: Dish with scholar by a lotus pond
+    + met-42069: Tiered box
+    + met-40253: Octagonal box with “dragon pine”
+    ❌ 质量门槛未通过: 676x700 (最长边=700px < 1200px)
+    + met-52605: Vase with dragons
+    + met-40231: Dish with a dragon amid clouds
+    已接受: 12 件
+  [Met] 查询: "mark period Kangxi"
+    找到: 3335 件，筛选中...
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    ❌ 质量门槛未通过: 638x362 (最长边=638px < 1200px)
+    ❌ 质量门槛未通过: 831x680 (最长边=831px < 1200px)
+    + met-61083: Ritual bell, note jiazhong
+    ❌ 质量门槛未通过: 508x469 (最长边=508px < 1200px)
+    + met-52922: Amphora
+    + met-52923: Amphora
+    + met-52914: Beaker
+    + met-51162: Bowl
+    ❌ 质量门槛未通过: 476x925 (最长边=925px < 1200px)
+    + met-49835: Bowl
+    + met-52926: Box with Cover
+    + met-39865: Ink pallet
+    ❌ 质量门槛未通过: 382x602 (最长边=602px < 1200px)
+    ❌ 质量门槛未通过: 234x632 (最长边=632px < 1200px)
+    ❌ 质量门槛未通过: 349x939 (最长边=939px < 1200px)
+    ❌ 质量门槛未通过: 538x318 (最长边=538px < 1200px)
+    + met-47530: Vase with dragon
+    + met-49853: Plate
+    + met-48587: Bowl with Eight Drinking Friends
+    + met-52933: Vase with landscape
+    已接受: 12 件
+  [Met] 查询: "mark period Yongzheng"
+    找到: 2826 件，筛选中...
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    + met-42319: Bowl with flowers
+    + met-51183: Quadruple Vase
+    + met-42362: Dish with flowers
+    + met-51040: Cup with Bamboo
+    + met-46754: Bowl with bats and longevity medallions
+    + met-41083: Bottle vase
+    + met-46137: Vase with a coiling dragon
+    + met-50294: Dish with woman and rabbit in a garden
+    ❌ 质量门槛未通过: 828x960 (最长边=960px < 1200px)
+    + met-47355: Covered Tankard
+    + met-52971: Bottle
+    + met-51007: Vase
+    + met-46676: Vase with landscape
+    已接受: 12 件
+  [Met] 查询: "mark period Qianlong"
+    找到: 3719 件，筛选中...
+    + met-666526: Archaic-style vase with poem composed by the Qianl
+    + met-748363: Rock-form ornament with poem composed by the Qianl
+    ❌ 质量门槛未通过: 1000x750 (最长边=1000px < 1200px)
+    + met-60640: Water container
+    + met-61005: Ritual bell, note nanlü
+    + met-42318: Dish with peonies and dragonfly
+    + met-843764: Tripod censer
+    + met-42414: Vase
+    + met-52709: Jar
+    + met-51164: Dish
+    + met-47527: Vase
+    + met-49360: Vase
+    + met-48570: Vase
+    已接受: 12 件
+  [Met] 查询: "apocryphal mark"
+    找到: 193 件，筛选中...
+    + met-40633: Vase with lotus scrolls
+    + met-41322: Snuff Bottle
+    ❌ 质量门槛未通过: 584x876 (最长边=876px < 1200px)
+    ❌ 质量门槛未通过: 565x870 (最长边=870px < 1200px)
+    ❌ 质量门槛未通过: 585x758 (最长边=758px < 1200px)
+    + met-48336: Gallipot
+    ❌ 质量门槛未通过: 508x900 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 473x900 (最长边=900px < 1200px)
+    + met-47516: Dish with eight trigrams
+    + met-48534: Vase with dragon handles
+    + met-47989: Vase with floral patterns
+    + met-46540: Bottle vase
+    + met-47931: Cup with figures
+    + met-46979: Meiping vase
+    + met-46022: Bottle vase
+    ❌ 质量门槛未通过: 662x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 379x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 445x700 (最长边=700px < 1200px)
+    + met-47298: Water pot with dragon
+    + met-46518: Vase
+    已接受: 12 件
+  [Met] 查询: "Augustus Strong"
+    找到: 149 件，筛选中...
+    + met-207197: Augustus the Strong
+    ❌ 质量门槛未通过: 680x466 (最长边=680px < 1200px)
+    + met-897921: Bust of "Baron" Schmiedel
+    + met-203090: Pantaloon
+    ❌ 质量门槛未通过: 746x700 (最长边=746px < 1200px)
+    ❌ 质量门槛未通过: 468x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 746x700 (最长边=746px < 1200px)
+    ❌ 质量门槛未通过: 711x700 (最长边=711px < 1200px)
+    ❌ 质量门槛未通过: 435x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 680x509 (最长边=680px < 1200px)
+    ❌ 质量门槛未通过: 680x509 (最长边=680px < 1200px)
+    ❌ 质量门槛未通过: 680x587 (最长边=680px < 1200px)
+    ❌ 质量门槛未通过: 711x700 (最长边=711px < 1200px)
+    ❌ 质量门槛未通过: 750x700 (最长边=750px < 1200px)
+    ❌ 质量门槛未通过: 750x700 (最长边=750px < 1200px)
+    ❌ 质量门槛未通过: 658x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 500x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 459x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 680x429 (最长边=680px < 1200px)
+    ❌ 质量门槛未通过: 680x705 (最长边=705px < 1200px)
+    + met-197724: Compote dish
+    + met-210150: Bowl and dish
+    ❌ 质量门槛未通过: 680x531 (最长边=680px < 1200px)
+    + met-201769: Brighella on a pedestal
+    + met-824696: Eagle (one of a pair)
+    + met-824679: Eagle (one of a pair)
+    + met-193555: Cup with cover with Hebrew inscriptions
+    + met-206436: Plate (one of two)
+    + met-206437: Plate (one of two)
+    ❌ 质量门槛未通过: 505x700 (最长边=700px < 1200px)
+    + met-203016: Finch (one of a pair)
+    已接受: 12 件
+  [Met] 查询: "Morgan collection Chinese"
+    找到: 9430 件，筛选中...
+    + met-472562: The Fieschi Morgan Staurotheke
+    ❌ 质量门槛未通过: 545x700 (最长边=700px < 1200px)
+    + met-460459: Censer with elephant-shaped handles
+    已接受: 2 件
+  [Met] 查询: "Altman collection Asian"
+    找到: 2842 件，筛选中...
+    + met-471431: Asian King from an Adoration Group
+    + met-65397: Pensive bodhisattva
+    + met-548328: Wall Tile Depicting an Asian Captive
+    + met-27218: Shield
+    + met-26566: Short Sword (Duan Jian)
+    + met-700508: Vajracharya Priest’s Crown
+    + met-32641: Helmet
+    + met-503765: Se (瑟 )
+    + met-491309: Wash Girl
+    + met-26602: Helmet
+    + met-57949: Box with the Poet Narihira
+    + met-781809: Dragon climbing a rock
+    已接受: 12 件
+  [Met] 查询: "Havemeyer collection Asian"
+    找到: 5077 件，筛选中...
+    + met-9480: Vase
+    + met-196417: Dish with the Incredulity of St. Thomas
+    + met-451349: Large Jar
+    + met-39883: Kshitigarbha
+    + met-9412: Vase
+    + met-9481: Vase
+    + met-9393: Vase
+    + met-9398: Vase
+    + met-9402: Vase
+    + met-9400: Vase
+    + met-9484: Vase
+    ❌ 质量门槛未通过: 900x709 (最长边=900px < 1200px)
+    + met-55936: Chinese Boy and Monkey Wrestling
+    已接受: 12 件
+  [Met] 查询: "gold decorated porcelain"
+    找到: 8323 件，筛选中...
+    + met-465966: Crib of the Infant Jesus
+    + met-736645: Walking Stick with Companion Hunting Sword, Knife,
+    + met-206557: Liqueur bottle cooler (seau ovale à liqueur) (one 
+    + met-207218: Double snuffbox
+    + met-325710: Sword and scabbard
+    + met-22934: Smallsword with Scabbard
+    + met-207383: Elephant-head vase (vase à tête d'éléphant)
+    + met-208473: Beaker
+    已接受: 8 件
+  [Met] 查询: "silver mounted Chinese"
+    找到: 7945 件，筛选中...
+    + met-199773: Miniature secretary incorporating a watch
+    + met-201988: Nécessaire
+    + met-24010: Ceremonial Armors for Man (<i>Dingjia</i>) and Hor
+    + met-196054: Standing cup with cover
+    + met-22932: Presentation Smallsword with Scabbard
+    + met-27789: Blades and Mountings for a Pair of Swords (Daishō)
+    + met-464506: Ewer
+    + met-24704: Smallsword Hilt and Scabbard Mounts
+    + met-205198: Tankard (one of a pair)
+    + met-205199: Tankard (one of a pair)
+    + met-193658: Bona Sforza (1493–1557), Queen of Poland
+    + met-27613: Blade and Mounting for a Short Sword (<i>Wakizashi
+    已接受: 12 件
+  [Met] 查询: "ormolu mounted Chinese"
+    找到: 1962 件，筛选中...
+    + met-206588: Commode (commode à vantaux) (part of a set)
+    + met-206589: Drop-front secretary on stand (secrètaire à abatta
+    + met-236097: Drop-front secretary on stand (Secrètaire à abatta
+    + met-194622: Drop-front secretary (Secrétaire en armoire)
+    + met-194623: Commode (Secrétaire à abattant)
+    + met-206976: Mechanical table
+    + met-202114: Clock with pedestal
+    + met-205782: Commode
+    ❌ 质量门槛未通过: 680x491 (最长边=680px < 1200px)
+    + met-206973: Desk (bonheur du jour)
+    ❌ 质量门槛未通过: 435x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 468x700 (最长边=700px < 1200px)
+    + met-51170: Standing Avalokiteshvara, the Bodhisattva of Infin
+    ❌ 质量门槛未通过: 568x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 568x700 (最长边=700px < 1200px)
+    + met-42733: Buddha Maitreya (Mile)
+    + met-207944: Mantel clock (pendule de cheminée)
+    已接受: 12 件
+  [Met] 查询: "European mounted Chinese"
+    找到: 3290 件，筛选中...
+    ❌ 质量门槛未通过: 545x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 435x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 468x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 680x491 (最长边=680px < 1200px)
+    + met-206600: Pair of mounted vases
+    + met-22974: Reinforcing Breastplate, Shoulder Defense, and Buf
+    + met-45636: Woods and Valleys of Mount Yu
+    ❌ 质量门槛未通过: 443x286 (最长边=443px < 1200px)
+    + met-236030: Triple gourd vase (one of a pair)
+    + met-205809: Triple gourd vase (one of a pair)
+    + met-74813: Shakyamuni triad
+    已接受: 6 件
+  [Met] 查询: "Arita export"
+    找到: 21 件，筛选中...
+    + met-62526: Coffee Pot
+    + met-62938: Dish in the Shape of a Princess
+    已接受: 2 件
+  [Met] 查询: "Imari export"
+    找到: 31 件，筛选中...
+    + met-623477: Beaker vase (part of an assembled garniture)
+    + met-623478: Beaker vase (part of an assembled garniture)
+    + met-623476: Beaker vase (part of an assembled garniture)
+    + met-623475: Beaker vase (part of an assembled garniture)
+    ❌ 质量门槛未通过: 680x717 (最长边=717px < 1200px)
+    ❌ 质量门槛未通过: 680x674 (最长边=680px < 1200px)
+    + met-42196: Dish
+    + met-824702: Carp in gilt-bronze mount (one of a pair)
+    + met-824701: Carp in gilt-bronze mount (one of a pair)
+    已接受: 7 件
+  [Met] 查询: "Kutani export"
+    结果: 0 件
+  [Met] 查询: "Satsuma export"
+    找到: 1 件，筛选中...
+    已接受: 0 件
+  [Met] 查询: "Hirado figure"
+    找到: 35 件，筛选中...
+    + met-45555: Water Jar (Mizusashi) with the Seven Sages of the 
+    + met-45827: Chinese child with musical instrument
+    + met-45825: Chinese child with musical instrument
+    + met-52462: Chinese child with musical instrument
+    + met-45824: Chinese child with musical instrument
+    + met-45826: Chinese child with musical instrument
+    + met-45823: Chinese child with musical instrument
+    + met-47064: Wine Bottle
+    + met-45559: Child Carrying an Infant Netsuke
+    + met-45552: Water Jar with Chinese Scholars
+    + met-52459: Figure of Hotei
+    + met-41774: Child Lying Down
+    已接受: 12 件
+  [Met] 查询: "Kyoto Satsuma"
+    找到: 7 件，筛选中...
+    ❌ 质量门槛未通过: 840x828 (最长边=840px < 1200px)
+    + met-46638: Jar
+    + met-722026: Ten-round incense game set with arabesque foliage 
+    已接受: 2 件
+  [Met] 查询: "chanoyu utensil"
+    找到: 6 件，筛选中...
+    + met-36620: Modern Versions of the twenty-four Paragons of Fil
+    ❌ 质量门槛未通过: 784x960 (最长边=960px < 1200px)
+    已接受: 1 件
+  [Met] 查询: "tea ceremony Korean"
+    找到: 167 件，筛选中...
+    ❌ 质量门槛未通过: 900x741 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 784x960 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 218x716 (最长边=716px < 1200px)
+    + met-53200: Incense Box (Kogo) with Pines and Plovers
+    ❌ 质量门槛未通过: 900x775 (最长边=900px < 1200px)
+    + met-54163: White
+    + met-39887: Brahma with Attendants and Musicians
+    ❌ 质量门槛未通过: 960x804 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 336x369 (最长边=369px < 1200px)
+    ❌ 质量门槛未通过: 1087x643 (最长边=1087px < 1200px)
+    ❌ 质量门槛未通过: 731x784 (最长边=784px < 1200px)
+    ❌ 质量门槛未通过: 601x1090 (最长边=1090px < 1200px)
+    ❌ 质量门槛未通过: 677x903 (最长边=903px < 1200px)
+    ❌ 质量门槛未通过: 844x753 (最长边=844px < 1200px)
+    ❌ 质量门槛未通过: 723x693 (最长边=723px < 1200px)
+    ❌ 质量门槛未通过: 793x781 (最长边=793px < 1200px)
+    + met-52994: Stand with Autumn Grasses and Flowers
+    ❌ 质量门槛未通过: 937x960 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 960x945 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 660x520 (最长边=660px < 1200px)
+    + met-53190: Guardian Lion-Dogs
+    + met-57347: Folding Screen for Tea Ceremony with Six Bird-and-
+    ❌ 质量门槛未通过: 960x937 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 675x700 (最长边=700px < 1200px)
+    + met-835514: Double-cut (Nijū-giri) Flower Container (Hanaire),
+    ❌ 质量门槛未通过: 574x718 (最长边=718px < 1200px)
+    + met-39576: Water Jar
+    ❌ 质量门槛未通过: 461x300 (最长边=461px < 1200px)
+    ❌ 质量门槛未通过: 708x593 (最长边=708px < 1200px)
+    + met-830711: Letter about Sake
+    + met-65616: Connoisseur's Book of Silk Fragments
+    + met-629700: Freshwater jar
+    ❌ 质量门槛未通过: 900x656 (最长边=900px < 1200px)
+    已接受: 11 件
+  [Met] 查询: "tea ceremony Vietnam"
+    找到: 131 件，筛选中...
+    + met-39209: Miniature Drum with Four Frogs
+    ❌ 质量门槛未通过: 900x741 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 218x716 (最长边=716px < 1200px)
+    ❌ 质量门槛未通过: 900x775 (最长边=900px < 1200px)
+    ❌ 质量门槛未通过: 336x369 (最长边=369px < 1200px)
+    ❌ 质量门槛未通过: 1087x643 (最长边=1087px < 1200px)
+    + met-37621: Crescent-Shaped Ax Head (Chandrasa)
+    ❌ 质量门槛未通过: 553x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 784x960 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 960x804 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 960x945 (最长边=960px < 1200px)
+    ❌ 质量门槛未通过: 675x700 (最长边=700px < 1200px)
+    ❌ 质量门槛未通过: 574x718 (最长边=718px < 1200px)
+    ❌ 质量门槛未通过: 461x300 (最长边=461px < 1200px)
+    ❌ 质量门槛未通过: 708x593 (最长边=708px < 1200px)
+    ❌ 质量门槛未通过: 900x656 (最长边=900px < 1200px)
+    + met-56562: Box
+    + met-670887: A Line from the Chinese Poem “Grasses” by Bai Juyi
+    + met-74421: Sarasa with Gilded Floral Pattern
+    + met-816208: Record of a haiku exchange on kaishi writing paper
+    + met-39580: Fire tong
+    + met-60468: Letter to Suwa Daishin, Officer of the Shogun
+    + met-49010: Small Birds on a Willow Branch and Hibiscus Blosso
+    已接受: 9 件
+
+========================================
+扩展统计
+========================================
+总计新增: 1001 件
+起始数量: 6628
+结束数量: 7629
+距离10,000目标: 2371 件
+
+=== 来源分布 ===
+  维多利亚和阿尔伯特博物馆 (V&A): 554
+  史密森尼博物馆: 54
+  维基共享资源: 47
+  大都会博物馆 (Met): 346
+
+=== 质量门槛统计 ===
+  V&A - 查询62次, 接受554, 低分辨率拒绝0
+  Smithsonian - 查询57次, 接受54, 低分辨率拒绝0
+  Wikimedia - 查询41次, 接受47, 低分辨率拒绝0
+  Met - 查询39次, 接受346, 低分辨率拒绝169
+
+✅ 已同步 public/artworks.json
+✅ 已保存 7629 件藏品
+   新增: 1001 件
+
+========================================
+仍需要的 API Keys (未来扩展):
+  - RIJKSMUSEUM_API_KEY (荷兰国立博物馆)
+  - NPM_TAIWAN_API_KEY (台北故宫博物院)
+跳过的来源:
+  - HARVARD_API_KEY (CC-BY-NC 非开放许可)
+  - AIC IIIF (Cloudflare 403 错误)
+  - CMA (~900px 通常不满足质量门槛)
+========================================
