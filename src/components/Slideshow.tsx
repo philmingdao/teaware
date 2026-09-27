@@ -105,7 +105,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
 
   const handleViewDetails = () => {
     onClose();
-    router.push(`/artwork/${currentArtwork.id}`);
+    router.push(`/artwork?id=${currentArtwork.id}`);
   };
 
   if (!currentArtwork) return null;

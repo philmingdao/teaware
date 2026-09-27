@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && cp public/spa-fallback.html out/404.html",
     "start": "next start",
     "lint": "eslint",
     "fetch-data": "npx tsx scripts/fetch-artworks-v3.ts",
