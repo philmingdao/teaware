@@ -1312,3 +1312,203 @@
 {"timestamp":"2026-09-27T15:47:47.769Z","source":"wikimedia","query":"Category:Tamba_ware","totalResults":12,"idsAccepted":12,"crawlBatchId":"round19-expansion-1790523066821"}
 {"timestamp":"2026-09-27T15:48:05.880Z","source":"wikimedia","query":"Category:Takatori_ware","totalResults":11,"idsAccepted":11,"crawlBatchId":"round19-expansion-1790523066821"}
 {"timestamp":"2026-09-27T15:48:06.533Z","source":"round19-summary","query":"Round 19 Expansion Complete","totalResults":1201,"idsAccepted":1201,"crawlBatchId":"round19-summary","breakdown":{"va":1033,"smithsonian":74,"wikimedia":94,"met":0},"note":"Round 19 expansion: 5427 → 6628 (+1201). Target: 10,000. Remaining: 3372.","keysNeeded":["RIJKSMUSEUM_API_KEY","NPM_TAIWAN_API_KEY"],"keysSkipped":["HARVARD_API_KEY (CC-BY-NC license)","AIC IIIF (Cloudflare 403)","CMA (~900px)"]}
+{"timestamp":"2026-09-27T17:20:29.602Z","source":"va","query":"imperial porcelain Qing","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:20:39.949Z","source":"va","query":"palace ware Chinese","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:20:45.524Z","source":"va","query":"tribute porcelain","totalResults":7,"idsAccepted":7,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:20:52.411Z","source":"va","query":"altar vessels Chinese","totalResults":10,"idsAccepted":10,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:01.920Z","source":"va","query":"ritual vessels porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:11.878Z","source":"va","query":"Chinese export ware","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:21.718Z","source":"va","query":"Canton enamel","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:32.278Z","source":"va","query":"Rose Medallion","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:41.827Z","source":"va","query":"armorial porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:51.726Z","source":"va","query":"tobacco leaf porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:53.226Z","source":"va","query":"Fitzhugh pattern","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:21:59.318Z","source":"va","query":"Mandarin palette","totalResults":9,"idsAccepted":9,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:11.101Z","source":"va","query":"Chinese European market","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:12.542Z","source":"va","query":"brush washer celadon","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:22.532Z","source":"va","query":"water pot Chinese","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:32.372Z","source":"va","query":"scholar rock ceramics","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:42.231Z","source":"va","query":"seal paste box","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:52.099Z","source":"va","query":"ink stone stand","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:22:57.243Z","source":"va","query":"pen holder Chinese","totalResults":7,"idsAccepted":7,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:23:06.805Z","source":"va","query":"lotus bowl Chinese","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:23:16.995Z","source":"va","query":"chrysanthemum dish","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:23:26.690Z","source":"va","query":"peony vase","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:23:36.774Z","source":"va","query":"dragon dish porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:23:46.051Z","source":"va","query":"phoenix bowl","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:23:55.710Z","source":"va","query":"fish bowl Chinese","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:05.280Z","source":"va","query":"garden seat porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:09.531Z","source":"va","query":"pillow ceramics Chinese","totalResults":6,"idsAccepted":6,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:19.252Z","source":"va","query":"Fujian porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:29.784Z","source":"va","query":"Guangdong porcelain","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:39.433Z","source":"va","query":"Henan ceramics","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:49.132Z","source":"va","query":"Zhejiang ceramics","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:24:54.369Z","source":"va","query":"Jiangsu porcelain","totalResults":7,"idsAccepted":7,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:03.719Z","source":"va","query":"Shanxi ceramics","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:05.717Z","source":"va","query":"sencha Japanese","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:06.815Z","source":"va","query":"kyusu teapot","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:07.349Z","source":"va","query":"dobin teapot","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:07.868Z","source":"va","query":"yuzamashi","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:08.403Z","source":"va","query":"hohin teapot","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:08.926Z","source":"va","query":"shiboridashi","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:09.466Z","source":"va","query":"houhin Japan","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:14.520Z","source":"va","query":"Banko ware","totalResults":7,"idsAccepted":7,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:16.900Z","source":"va","query":"Tokoname teapot","totalResults":3,"idsAccepted":3,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:18.780Z","source":"va","query":"Echizen ceramics","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:27.956Z","source":"va","query":"Kyushu ceramics","totalResults":14,"idsAccepted":14,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:31.382Z","source":"va","query":"Hizen porcelain","totalResults":4,"idsAccepted":4,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:34.889Z","source":"va","query":"Fukuoka ceramics","totalResults":5,"idsAccepted":5,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:43.523Z","source":"va","query":"Saga ceramics","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:44.304Z","source":"va","query":"Yamaguchi ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:45.621Z","source":"va","query":"Okayama ceramics","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:46.174Z","source":"va","query":"Joseon tea bowl","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:51.961Z","source":"va","query":"Korean celadon inlay","totalResults":8,"idsAccepted":8,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:52.678Z","source":"va","query":"Buncheong mishima","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:53.218Z","source":"va","query":"Korean hakeme","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:25:53.768Z","source":"va","query":"Korean punch ong","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:03.265Z","source":"va","query":"Koryo celadon","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:03.996Z","source":"va","query":"Annam blue white","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:12.024Z","source":"va","query":"Sukhothai ceramics","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:12.733Z","source":"va","query":"Sangkhalok ware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:22.503Z","source":"va","query":"Si Satchanalai","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:31.270Z","source":"va","query":"Burmese ceramics","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:31.995Z","source":"va","query":"Cambodian ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:41.393Z","source":"va","query":"Philippine ceramics","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:51.092Z","source":"smithsonian","query":"Chinese vessel Freer","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:57.500Z","source":"smithsonian","query":"Asian ceramics bowl","totalResults":6,"idsAccepted":6,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:26:58.524Z","source":"smithsonian","query":"Asian porcelain dish","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:00.551Z","source":"smithsonian","query":"Asian tea ware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:01.668Z","source":"smithsonian","query":"Eastern ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:03.150Z","source":"smithsonian","query":"imperial kiln","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:04.188Z","source":"smithsonian","query":"court porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:05.892Z","source":"smithsonian","query":"palace ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:07.169Z","source":"smithsonian","query":"tribute ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:07.751Z","source":"smithsonian","query":"altar set ceramic","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:08.699Z","source":"smithsonian","query":"apple green glaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:10.226Z","source":"smithsonian","query":"lime green Chinese","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:11.813Z","source":"smithsonian","query":"sky blue glaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:12.756Z","source":"smithsonian","query":"clair de lune glaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:13.773Z","source":"smithsonian","query":"moon white glaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:14.717Z","source":"smithsonian","query":"ivory glaze Chinese","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:15.586Z","source":"smithsonian","query":"cream glaze Chinese","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:17.173Z","source":"smithsonian","query":"brown glaze Chinese","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:20.073Z","source":"smithsonian","query":"black glaze Chinese","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:22.622Z","source":"smithsonian","query":"mirror black Chinese","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:23.645Z","source":"smithsonian","query":"dragon phoenix porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:25.053Z","source":"smithsonian","query":"hundred boys porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:25.940Z","source":"smithsonian","query":"eight treasures porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:27.463Z","source":"smithsonian","query":"hundred antiques","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:29.104Z","source":"smithsonian","query":"landscape porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:30.669Z","source":"smithsonian","query":"figure porcelain Chinese","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:31.995Z","source":"smithsonian","query":"immortals porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:32.709Z","source":"smithsonian","query":"scholar sage porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:42.392Z","source":"smithsonian","query":"incised decoration Chinese","totalResults":15,"idsAccepted":15,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:44.024Z","source":"smithsonian","query":"carved porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:45.699Z","source":"smithsonian","query":"molded porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:47.423Z","source":"smithsonian","query":"pierced porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:48.447Z","source":"smithsonian","query":"openwork porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:49.282Z","source":"smithsonian","query":"reticulated porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:51.676Z","source":"smithsonian","query":"applied decoration ceramic","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:54.032Z","source":"smithsonian","query":"Japanese stoneware","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:27:55.835Z","source":"smithsonian","query":"Japanese earthenware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:01.280Z","source":"smithsonian","query":"Japanese ash glaze","totalResults":6,"idsAccepted":6,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:03.864Z","source":"smithsonian","query":"Japanese iron glaze","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:05.281Z","source":"smithsonian","query":"wood fired Japanese","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:05.862Z","source":"smithsonian","query":"salt glaze Japanese","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:08.612Z","source":"smithsonian","query":"Momoyama ceramics","totalResults":3,"idsAccepted":3,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:10.260Z","source":"smithsonian","query":"Edo ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:12.502Z","source":"smithsonian","query":"Meiji ceramics","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:13.941Z","source":"smithsonian","query":"Korean stoneware","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:15.263Z","source":"smithsonian","query":"Korean iron decoration","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:17.226Z","source":"smithsonian","query":"Korean slip decoration","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:18.274Z","source":"smithsonian","query":"Korean white slip","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:19.738Z","source":"smithsonian","query":"Goryeo bowl","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:20.465Z","source":"smithsonian","query":"Joseon jar","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:21.186Z","source":"smithsonian","query":"Joseon dish","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:21.773Z","source":"smithsonian","query":"Vietnamese underglaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:22.493Z","source":"smithsonian","query":"Vietnamese iron brown","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:23.060Z","source":"smithsonian","query":"Chu Dau ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:23.785Z","source":"smithsonian","query":"Thai brown glaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:24.518Z","source":"smithsonian","query":"Khmer brown glaze","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:25.081Z","source":"smithsonian","query":"Khmer stoneware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:25.606Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_Museum_für_Ostasiatische_Kunst_Cologne","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:26.185Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_Musée_Guimet","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:26.737Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_Rijksmuseum","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:27.340Z","source":"wikimedia","query":"Category:Chinese_ceramics_in_the_Peabody_Essex_Museum","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:29.191Z","source":"wikimedia","query":"Category:Asian_art_in_the_Honolulu_Museum_of_Art","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:29.769Z","source":"wikimedia","query":"Category:Asian_art_in_the_Asian_Art_Museum_of_San_Francisco","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:30.346Z","source":"wikimedia","query":"Category:Asian_art_in_the_Museum_of_Fine_Arts,_Boston","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:30.905Z","source":"wikimedia","query":"Category:Chinese_art_in_the_Philadelphia_Museum_of_Art","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:31.467Z","source":"wikimedia","query":"Category:Chinese_blue_and_white_porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:32.049Z","source":"wikimedia","query":"Category:Chinese_famille_rose_porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:32.606Z","source":"wikimedia","query":"Category:Chinese_monochrome_porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:33.188Z","source":"wikimedia","query":"Category:Chinese_overglaze_enamel","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:33.780Z","source":"wikimedia","query":"Category:Chinese_underglaze_decoration","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:34.389Z","source":"wikimedia","query":"Category:Chinese_Qingbai_ware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:34.956Z","source":"wikimedia","query":"Category:Chinese_sancai","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:35.541Z","source":"wikimedia","query":"Category:Tang_dynasty_ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:36.096Z","source":"wikimedia","query":"Category:Yuan_dynasty_ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:36.676Z","source":"wikimedia","query":"Category:Ming_dynasty_ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:37.270Z","source":"wikimedia","query":"Category:Qing_dynasty_ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:37.828Z","source":"wikimedia","query":"Category:Japanese_water_containers","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:38.444Z","source":"wikimedia","query":"Category:Japanese_flower_vases","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:39.019Z","source":"wikimedia","query":"Category:Japanese_incense_containers","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:45.526Z","source":"wikimedia","query":"Category:Koishiwara_ware","totalResults":8,"idsAccepted":8,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:28:59.236Z","source":"wikimedia","query":"Category:Onta_ware","totalResults":5,"idsAccepted":5,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:29:32.962Z","source":"wikimedia","query":"Category:Hasami_ware","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:29:41.511Z","source":"wikimedia","query":"Category:Tobe_ware","totalResults":8,"idsAccepted":8,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:29:42.096Z","source":"wikimedia","query":"Category:Mashiko_pottery","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:01.918Z","source":"wikimedia","query":"Category:Kasama_ware","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:02.531Z","source":"wikimedia","query":"Category:Otani_ware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:03.088Z","source":"wikimedia","query":"Category:Korean_pottery","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:03.643Z","source":"wikimedia","query":"Category:Korean_porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:04.203Z","source":"wikimedia","query":"Category:Joseon_white_porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:04.788Z","source":"wikimedia","query":"Category:Korean_buncheong","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:05.414Z","source":"wikimedia","query":"Category:Vietnamese_pottery","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:05.991Z","source":"wikimedia","query":"Category:Vietnamese_porcelain","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:06.549Z","source":"wikimedia","query":"Category:Bat_Trang_ceramics","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:07.099Z","source":"wikimedia","query":"Category:Chinese_censers","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:07.677Z","source":"wikimedia","query":"Category:Japanese_vases","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:08.228Z","source":"wikimedia","query":"Category:Japanese_bowls","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:08.813Z","source":"wikimedia","query":"Category:Korean_vases","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:09.398Z","source":"wikimedia","query":"Category:Korean_bowls","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:16.095Z","source":"met","query":"Shang dynasty pottery","totalResults":11,"idsAccepted":11,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:23.472Z","source":"met","query":"Zhou dynasty vessel","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:30.208Z","source":"met","query":"Han tomb pottery","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:32.340Z","source":"met","query":"Six Dynasties ceramics","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:40.902Z","source":"met","query":"Sui dynasty ceramics","totalResults":10,"idsAccepted":10,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:47.816Z","source":"met","query":"Five Dynasties ceramic","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:50.348Z","source":"met","query":"Liao dynasty pottery","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:31:56.829Z","source":"met","query":"Western Xia ceramic","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:03.706Z","source":"met","query":"brush pot porcelain","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:11.375Z","source":"met","query":"flower pot Chinese","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:16.636Z","source":"met","query":"jardiniere Chinese","totalResults":9,"idsAccepted":9,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:25.710Z","source":"met","query":"garden seat Chinese","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:27.971Z","source":"met","query":"pillow ceramic Chinese","totalResults":3,"idsAccepted":3,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:38.517Z","source":"met","query":"figure group Chinese","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:46.642Z","source":"met","query":"mark period Xuande","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:32:54.914Z","source":"met","query":"mark period Chenghua","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:05.409Z","source":"met","query":"mark period Jiajing","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:13.227Z","source":"met","query":"mark period Wanli","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:22.829Z","source":"met","query":"mark period Kangxi","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:31.236Z","source":"met","query":"mark period Yongzheng","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:38.543Z","source":"met","query":"mark period Qianlong","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:46.204Z","source":"met","query":"apocryphal mark","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:33:58.396Z","source":"met","query":"Augustus Strong","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:34:00.980Z","source":"met","query":"Morgan collection Chinese","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:34:15.540Z","source":"met","query":"Altman collection Asian","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:34:37.771Z","source":"met","query":"Havemeyer collection Asian","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:34:47.727Z","source":"met","query":"gold decorated porcelain","totalResults":8,"idsAccepted":8,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:01.738Z","source":"met","query":"silver mounted Chinese","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:15.825Z","source":"met","query":"ormolu mounted Chinese","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:28.262Z","source":"met","query":"European mounted Chinese","totalResults":6,"idsAccepted":6,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:30.794Z","source":"met","query":"Arita export","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:36.526Z","source":"met","query":"Imari export","totalResults":7,"idsAccepted":7,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:36.968Z","source":"met","query":"Kutani export","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:37.478Z","source":"met","query":"Satsuma export","totalResults":0,"idsAccepted":0,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:46.031Z","source":"met","query":"Hirado figure","totalResults":12,"idsAccepted":12,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:48.669Z","source":"met","query":"Kyoto Satsuma","totalResults":2,"idsAccepted":2,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:35:50.049Z","source":"met","query":"chanoyu utensil","totalResults":1,"idsAccepted":1,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:36:08.378Z","source":"met","query":"tea ceremony Korean","totalResults":11,"idsAccepted":11,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:36:24.108Z","source":"met","query":"tea ceremony Vietnam","totalResults":9,"idsAccepted":9,"crawlBatchId":"round20-expansion-1790529619719"}
+{"timestamp":"2026-09-27T17:36:24.738Z","source":"round20-summary","query":"Round 20 Expansion Complete","totalResults":1001,"idsAccepted":1001,"crawlBatchId":"round20-summary","breakdown":{"va":554,"smithsonian":54,"wikimedia":47,"met":346},"note":"Round 20 expansion: 6628 → 7629 (+1001). Target: 10,000. Remaining: 2371.","keysNeeded":["RIJKSMUSEUM_API_KEY","NPM_TAIWAN_API_KEY"],"keysSkipped":["HARVARD_API_KEY (CC-BY-NC license)","AIC IIIF (Cloudflare 403)","CMA (~900px)"]}
