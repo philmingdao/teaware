@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const artworkPages: MetadataRoute.Sitemap = artworks.map((artwork) => ({
-    url: `${FULL_URL}/artwork/${artwork.id}`,
+    url: `${FULL_URL}/artwork?id=${artwork.id}`,
     lastModified: new Date(),
     changeFrequency: 'yearly' as const,
     priority: 0.8,

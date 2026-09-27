@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>器 · 茶 | 中国茶具艺术展</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #faf9f7;
+      color: #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .loading {
+      text-align: center;
+    }
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 2px solid #b8956c;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .message {
+      color: #666;
+      font-size: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f0f0e; color: #e8e6e3; }
+      .message { color: #9a9894; }
+    }
+  </style>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var basePath = '/teaware';
+      
+      // Remove base path if present
+      if (path.startsWith(basePath)) {
+        path = path.substring(basePath.length);
+      }
+      
+      // Check if this is an artwork detail URL: /artwork/[id] or /artwork/[id]/
+      var artworkMatch = path.match(/^\/artwork\/([^\/]+)\/?$/);
+      
+      if (artworkMatch) {
+        var artworkId = artworkMatch[1];
+        // Redirect to the query param version
+        var newUrl = basePath + '/artwork/?id=' + encodeURIComponent(artworkId);
+        window.location.replace(newUrl);
+      } else {
+        // Not an artwork URL - show actual 404 or redirect to home
+        // For a better UX, redirect to home after a delay
+        setTimeout(function() {
+          window.location.replace(basePath + '/');
+        }, 2000);
+        document.getElementById('message').textContent = '页面未找到，正在跳转至首页...';
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div class="loading">
+    <div class="spinner"></div>
+    <p id="message" class="message">加载中...</p>
+  </div>
+</body>
+</html>

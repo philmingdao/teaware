@@ -12,7 +12,7 @@ interface ArtworkCardProps {
 export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
   return (
     <Link 
-      href={`/artwork/${artwork.id}`}
+      href={`/artwork?id=${artwork.id}`}
       className="group gallery-item block bg-[#faf9f7] dark:bg-[#1a1816] rounded-sm overflow-hidden"
       style={{ 
         animationDelay: `${index * 0.1}s`,

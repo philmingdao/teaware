@@ -252,7 +252,7 @@ export function createArtworkJsonLd(artwork: {
     alternateName: artwork.titleEnglish,
     description: artwork.description,
     image: imageUrl,
-    url: `${FULL_URL}/artwork/${artwork.id}`,
+    url: `${FULL_URL}/artwork?id=${artwork.id}`,
     dateCreated: artwork.date,
     artMedium: `${artwork.material} / ${artwork.materialEnglish}`,
     artworkSurface: artwork.kiln ? `${artwork.kiln} / ${artwork.kilnEnglish}` : undefined,
