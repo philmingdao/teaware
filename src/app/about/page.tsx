@@ -78,7 +78,7 @@ export default function AboutPage() {
               宋人点茶，以黑盏衬白沫，追求「盏色贵青黑，玉毫条达者为上」的极致体验。明人泡茶，紫砂壶成为文人案头清供。清代宫廷，珐琅彩瓷将中西工艺熔于一炉，展现帝王品味。
             </p>
             <p className="text-[#3d3d3d] dark:text-[#c5c3bf] leading-relaxed mb-6">
-              本展览精选大都会艺术博物馆（The Metropolitan Museum of Art）与克利夫兰艺术博物馆（Cleveland Museum of Art）的开放藏品，以博物馆学的严谨态度呈现每件器物的历史脉络与工艺特色。我们希望通过这些穿越时光的茶器，让观者感受中国茶文化的深厚底蕴。
+              本展览汇聚全球十余座顶级博物馆的开放数字馆藏——从大都会、V&A、史密森尼到东京国立博物馆——以博物馆学的严谨态度呈现每件器物的历史脉络与工艺特色。我们希望通过这些穿越时光的茶器，让观者感受中国茶文化的深厚底蕴。
             </p>
 
             <div className="divider-elegant !my-12"></div>
@@ -120,10 +120,11 @@ export default function AboutPage() {
               数据来源
             </h2>
             <p className="text-[#3d3d3d] dark:text-[#c5c3bf] leading-relaxed mb-6">
-              本展览所有藏品图片及元数据均来自以下博物馆的开放数据项目，采用 CC0（公共领域）许可，可自由使用：
+              本展览所有藏品图片及元数据来自全球多家博物馆的开放数据项目，采用各馆开放许可（CC0、CC BY、博物馆开放许可等）。所有图片均托管于本站服务器。
             </p>
             
             <div className="space-y-6 mb-12">
+              {/* Major Sources */}
               <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
                 <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
                   <a 
@@ -139,10 +140,86 @@ export default function AboutPage() {
                   Open Access Initiative · CC0 Public Domain
                 </p>
                 <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
-                  大都会艺术博物馆，位于纽约，是美国最大的艺术博物馆之一，其亚洲艺术部收藏了大量中国历代茶器精品。
+                  大都会艺术博物馆，位于纽约，本展最大藏品来源，其亚洲艺术部收藏了大量中国历代茶器精品。
                 </p>
               </div>
-              
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a 
+                    href="https://www.vam.ac.uk/info/va-images-licensing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors"
+                  >
+                    Victoria and Albert Museum
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">
+                  V&A Open License
+                </p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
+                  维多利亚和阿尔伯特博物馆，伦敦，世界领先的艺术与设计博物馆，收藏丰富的中国陶瓷与茶具。
+                </p>
+              </div>
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a 
+                    href="https://commons.wikimedia.org/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors"
+                  >
+                    Wikimedia Commons
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">
+                  CC0 / CC BY / CC BY-SA / Public Domain
+                </p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
+                  维基共享资源，汇集来自全球博物馆与个人贡献的开放许可媒体文件。
+                </p>
+              </div>
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a 
+                    href="https://www.si.edu/openaccess" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors"
+                  >
+                    Smithsonian Institution
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">
+                  Smithsonian Open Access · CC0
+                </p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
+                  史密森尼学会，包括弗利尔赛克勒亚洲艺术博物馆（Freer Gallery of Art & Arthur M. Sackler Gallery）等多个机构的开放藏品。
+                </p>
+              </div>
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a 
+                    href="https://colbase.nich.go.jp/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors"
+                  >
+                    ColBase（日本国立博物馆）
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">
+                  CC BY
+                </p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
+                  日本国立文化財机构数据库，收录东京国立博物馆、京都国立博物馆、奈良国立博物馆、九州国立博物馆等藏品。
+                </p>
+              </div>
+
               <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
                 <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
                   <a 
@@ -159,6 +236,54 @@ export default function AboutPage() {
                 </p>
                 <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
                   克利夫兰艺术博物馆，以其精品馆藏闻名，尤其在中国陶瓷与宜兴紫砂方面有重要收藏。
+                </p>
+              </div>
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a 
+                    href="https://www.rijksmuseum.nl/en/research/conduct-research/data" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors"
+                  >
+                    Rijksmuseum
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">
+                  CC0 Public Domain
+                </p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
+                  荷兰国立博物馆，阿姆斯特丹，藏有荷兰东印度公司时期进口的中国外销瓷。
+                </p>
+              </div>
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a 
+                    href="https://www.museum.go.kr/site/eng/collection/archive" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors"
+                  >
+                    National Museum of Korea
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">
+                  Open Access
+                </p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">
+                  韩国国立中央博物馆，首尔，收藏中韩茶文化交流历史中的重要器物。
+                </p>
+              </div>
+
+              {/* Minor Sources */}
+              <div className="border-l-2 border-[#b8956c]/50 dark:border-[#d4b896]/50 pl-6">
+                <h3 className="text-base font-medium text-[#1a1a1a] dark:text-[#e8e6e3] mb-3">
+                  其他开放许可馆藏
+                </h3>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] leading-relaxed">
+                  哈留斯卡博物馆（Hallwylska museet，斯德哥尔摩）、洛杉矶县艺术博物馆（LACMA）、上海博物馆、波特兰艺术博物馆、大英博物馆、赛努奇博物馆（巴黎）、故宫博物院、雷恩美术馆等。
                 </p>
               </div>
             </div>
@@ -186,7 +311,7 @@ export default function AboutPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#b8956c] dark:text-[#d4b896]">·</span>
-                <span>数据通过 Met/CMA Open Access API 获取</span>
+                <span>多源博物馆开放数据整合，图片自托管于本站</span>
               </li>
             </ul>
 
