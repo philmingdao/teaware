@@ -1,10 +1,23 @@
 # Background Music Credits
 
-The TV and slideshow modes use the following instrumental tracks downloaded from Pixabay. Each track is used under the Pixabay Content License in effect on its source page.
+The TV and slideshow modes use instrumental tracks from Freesound and Pixabay.
+
+---
+
+## Freesound (CC0 Public Domain)
+
+1. **Blossom Valley in Paradise** · neolein · 1:03
+   - https://freesound.org/people/neolein/sounds/521367/
+   - License: CC0 1.0 Universal (Public Domain Dedication)
+   - Style: Chinese YangQin + Guzheng, relaxing instrumental
+
+---
+
+## Pixabay
+
+Each track below is used under the Pixabay Content License in effect on its source page.
 
 License terms: https://pixabay.com/service/terms/
-
-## Tracks
 
 1. **Chinese Harmony** · LunarBoomMusic · 2:39
    - https://pixabay.com/music/china-chinese-harmony-564699/
