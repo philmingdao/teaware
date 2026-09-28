@@ -244,16 +244,55 @@
       "name": "Rijksmuseum",
       "nameZh": "荷兰国立博物馆",
       "country": "Netherlands",
-      "status": "needs_key",
-      "apiEndpoint": "https://www.rijksmuseum.nl/api/en/collection",
-      "apiDocs": "https://data.rijksmuseum.nl/object-metadata/api/",
-      "authRequired": true,
-      "authType": "apikey",
-      "keyEnvVar": "RIJKSMUSEUM_API_KEY",
-      "license": "CC0",
-      "lastCrawl": null,
-      "queries": [],
-      "notes": "Dutch trade-era Chinese export porcelain. Needs API key from data.rijksmuseum.nl"
+      "status": "active",
+      "apiEndpoint": "https://data.rijksmuseum.nl/search/collection",
+      "apiDocs": "https://data.rijksmuseum.nl/docs/search",
+      "authRequired": false,
+      "license": "CC0 / Public Domain Mark",
+      "lastCrawl": "2026-09-28T17:02:51.000Z",
+      "queries": [
+        {
+          "query": "title=theepot (Dutch teapots)",
+          "status": "completed",
+          "actualResults": 584,
+          "accepted": 15
+        },
+        {
+          "query": "title=theeservies (tea services)",
+          "status": "completed",
+          "actualResults": 288,
+          "accepted": 15
+        },
+        {
+          "query": "title=Chinees porselein (Chinese porcelain)",
+          "status": "completed",
+          "actualResults": 7149,
+          "accepted": 15
+        }
+      ],
+      "notes": "225 items imported on 2026-09-28 via Round 23. Now uses keyless Linked Art API at data.rijksmuseum.nl (no API key needed). Deprecated www.rijksmuseum.nl/api keyed endpoint removed. Resolution chain: Object → VisualItem → DigitalObject → IIIF. Rich Dutch trade-era Chinese export porcelain, Japanese Imari/Kakiemon."
+    },
+    {
+      "id": "getty",
+      "name": "J. Paul Getty Museum",
+      "nameZh": "盖蒂博物馆",
+      "country": "USA",
+      "status": "active",
+      "apiEndpoint": "https://data.getty.edu/museum/collection/sparql",
+      "apiDocs": "https://data.getty.edu/museum/collection/docs/",
+      "authRequired": false,
+      "license": "CC0 (Open Content)",
+      "iiifBaseUrl": "https://media.getty.edu/iiif/image/",
+      "lastCrawl": "2026-09-28T17:02:51.000Z",
+      "queries": [
+        {
+          "query": "SPARQL: teapot, tea caddy, tea service",
+          "status": "completed",
+          "actualResults": 16,
+          "accepted": 11
+        }
+      ],
+      "notes": "11 items imported on 2026-09-28 via Round 23. Uses SPARQL endpoint for discovery (no REST search). CC0 Open Content images via IIIF. Limited tea-specific objects but high quality. Object records at data.getty.edu/museum/collection/object/<UUID>."
     },
     {
       "id": "smithsonian",
