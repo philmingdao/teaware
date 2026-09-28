@@ -13,6 +13,7 @@ import {
 import { withBasePath } from '@/lib/paths';
 
 const PLAYLIST = [
+  '/audio/blossom-valley-paradise-521367.mp3',
   '/audio/chinese-harmony-564699.mp3',
   '/audio/bamboo-grove-434735.mp3',
   '/audio/east-asian-melody-324382.mp3',
@@ -26,6 +27,7 @@ const PLAYLIST = [
 ] as const;
 
 const PLAYBACK_VOLUME = 1;
+const FADE_IN_DURATION = 1500;
 const FADE_OUT_DURATION = 1800;
 
 interface BackgroundMusicContextValue {
@@ -61,7 +63,7 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
   const animationFrameRef = useRef<number | null>(null);
   const shouldPlayRef = useRef(false);
   const playRandomTrackRef = useRef<() => void>(() => undefined);
-  const attemptPlaybackRef = useRef<(audio: HTMLAudioElement) => void>(() => undefined);
+  const attemptPlaybackRef = useRef<(audio: HTMLAudioElement, skipFadeIn?: boolean) => void>(() => undefined);
   const interactionRetryRef = useRef<(() => void) | null>(null);
 
   const clearFade = useCallback(() => {
@@ -123,10 +125,10 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
     animationFrameRef.current = requestAnimationFrame(step);
   }, [clearFade]);
 
-  const attemptPlayback = useCallback((audio: HTMLAudioElement) => {
+  const attemptPlayback = useCallback((audio: HTMLAudioElement, skipFadeIn = false) => {
     if (!shouldPlayRef.current || audioRef.current !== audio) return;
 
-    audio.volume = PLAYBACK_VOLUME;
+    audio.volume = skipFadeIn ? PLAYBACK_VOLUME : 0;
     void audio.play().then(() => {
       if (!shouldPlayRef.current || audioRef.current !== audio) {
         audio.pause();
@@ -134,12 +136,15 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
       }
       clearInteractionRetry();
       setIsPlaying(true);
+      if (!skipFadeIn) {
+        fadeTo(audio, PLAYBACK_VOLUME, FADE_IN_DURATION);
+      }
     }).catch(() => {
       if (!shouldPlayRef.current || audioRef.current !== audio) return;
       setIsPlaying(false);
-      retryOnNextInteraction(() => attemptPlaybackRef.current(audio));
+      retryOnNextInteraction(() => attemptPlaybackRef.current(audio, skipFadeIn));
     });
-  }, [clearInteractionRetry, retryOnNextInteraction]);
+  }, [clearInteractionRetry, fadeTo, retryOnNextInteraction]);
 
   useEffect(() => {
     attemptPlaybackRef.current = attemptPlayback;
@@ -177,7 +182,7 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
     const audio = audioRef.current;
     if (audio) {
       clearFade();
-      attemptPlayback(audio);
+      attemptPlayback(audio, true);
       return;
     }
     playRandomTrackRef.current();
