@@ -2076,3 +2076,90 @@
 {"timestamp":"2026-09-29T05:49:17.177Z","source":"wmc-r25","query":"Category:Chawan","totalResults":12,"crawlBatchId":"round25-expansion-1790658997913"}
 {"timestamp":"2026-09-29T05:49:34.449Z","source":"wmc-r25","query":"Category:Raku_ware","totalResults":12,"crawlBatchId":"round25-expansion-1790658997913"}
 {"timestamp":"2026-09-29T05:49:35.071Z","source":"round25-summary","query":"Round 25 Expansion Complete","totalResults":586,"crawlBatchId":"round25-summary","breakdown":{"rijksmuseum":437,"smithsonian":0,"met":70,"va":37,"cma":6,"wmc":36},"imageSizeMB":"26.86","keyFix":"Rijksmuseum pagination: next.id extraction","note":"Round 25 expansion: 10794 → 11380 (+586)"}
+{"timestamp":"2026-09-29T12:13:52.241Z","source":"met-yixing-r26","query":"Yixing teapot","totalResults":1,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:13:56.079Z","source":"met-yixing-r26","query":"Yixing ware","totalResults":2,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:13:56.927Z","source":"met-yixing-r26","query":"Yixing stoneware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:13:57.276Z","source":"met-yixing-r26","query":"Yixing zisha","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:06.685Z","source":"met-yixing-r26","query":"purple clay teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:08.835Z","source":"met-yixing-r26","query":"purple sand teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:09.320Z","source":"met-yixing-r26","query":"zisha teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:09.689Z","source":"met-yixing-r26","query":"zisha ware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:10.243Z","source":"met-yixing-r26","query":"Yixing clay","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:12.032Z","source":"met-yixing-r26","query":"Yixing pottery","totalResults":1,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:12.521Z","source":"met-yixing-r26","query":"Yixing tea","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:13.176Z","source":"met-yixing-r26","query":"Yixing cup","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:13.533Z","source":"met-yixing-r26","query":"Yixing tray","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:13.882Z","source":"met-yixing-r26","query":"Yixing caddy","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:14.227Z","source":"met-yixing-r26","query":"宜兴","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:14.571Z","source":"met-yixing-r26","query":"紫砂","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:14.978Z","source":"met-yixing-r26","query":"boccaro","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:18.218Z","source":"met-yixing-r26","query":"red stoneware china","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:25.919Z","source":"va-yixing-r26","query":"Yixing teapot","totalResults":12,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:31.018Z","source":"va-yixing-r26","query":"Yixing ware","totalResults":7,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:32.839Z","source":"va-yixing-r26","query":"Yixing stoneware","totalResults":2,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:34.146Z","source":"va-yixing-r26","query":"Yixing zisha","totalResults":1,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:34.699Z","source":"va-yixing-r26","query":"purple clay teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:35.156Z","source":"va-yixing-r26","query":"purple sand teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:35.698Z","source":"va-yixing-r26","query":"zisha teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:36.251Z","source":"va-yixing-r26","query":"zisha ware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:36.813Z","source":"va-yixing-r26","query":"Yixing clay","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:37.257Z","source":"va-yixing-r26","query":"Yixing pottery","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:38.841Z","source":"va-yixing-r26","query":"Yixing tea","totalResults":1,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:40.285Z","source":"va-yixing-r26","query":"Yixing cup","totalResults":1,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:40.810Z","source":"va-yixing-r26","query":"Yixing tray","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:41.244Z","source":"va-yixing-r26","query":"Yixing caddy","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:41.671Z","source":"va-yixing-r26","query":"宜兴","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:42.096Z","source":"va-yixing-r26","query":"紫砂","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:42.516Z","source":"va-yixing-r26","query":"boccaro","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:43.199Z","source":"va-yixing-r26","query":"red stoneware china","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:43.876Z","source":"cma-yixing-r26","query":"Yixing teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:44.475Z","source":"cma-yixing-r26","query":"Yixing ware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:45.110Z","source":"cma-yixing-r26","query":"Yixing stoneware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:45.729Z","source":"cma-yixing-r26","query":"Yixing zisha","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:46.284Z","source":"cma-yixing-r26","query":"purple clay teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:46.842Z","source":"cma-yixing-r26","query":"purple sand teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:47.379Z","source":"cma-yixing-r26","query":"zisha teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:47.953Z","source":"cma-yixing-r26","query":"zisha ware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:48.468Z","source":"cma-yixing-r26","query":"Yixing clay","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:48.989Z","source":"cma-yixing-r26","query":"Yixing pottery","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:49.543Z","source":"cma-yixing-r26","query":"Yixing tea","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:50.072Z","source":"cma-yixing-r26","query":"Yixing cup","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:50.606Z","source":"cma-yixing-r26","query":"Yixing tray","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:51.192Z","source":"cma-yixing-r26","query":"Yixing caddy","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:51.718Z","source":"cma-yixing-r26","query":"宜兴","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:52.392Z","source":"cma-yixing-r26","query":"紫砂","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:52.989Z","source":"cma-yixing-r26","query":"boccaro","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:53.595Z","source":"cma-yixing-r26","query":"red stoneware china","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:55.046Z","source":"smithsonian-yixing-r26","query":"Yixing teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:57.307Z","source":"smithsonian-yixing-r26","query":"Yixing ware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:58.554Z","source":"smithsonian-yixing-r26","query":"Yixing stoneware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:59.366Z","source":"smithsonian-yixing-r26","query":"Yixing zisha","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:14:59.956Z","source":"smithsonian-yixing-r26","query":"purple clay teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:00.641Z","source":"smithsonian-yixing-r26","query":"purple sand teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:01.624Z","source":"smithsonian-yixing-r26","query":"zisha teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:02.704Z","source":"smithsonian-yixing-r26","query":"zisha ware","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:03.687Z","source":"smithsonian-yixing-r26","query":"Yixing clay","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:04.770Z","source":"smithsonian-yixing-r26","query":"Yixing pottery","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:05.632Z","source":"smithsonian-yixing-r26","query":"Yixing tea","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:06.382Z","source":"smithsonian-yixing-r26","query":"Yixing cup","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:07.064Z","source":"smithsonian-yixing-r26","query":"Yixing tray","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:07.577Z","source":"smithsonian-yixing-r26","query":"Yixing caddy","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:08.104Z","source":"smithsonian-yixing-r26","query":"宜兴","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:09.337Z","source":"smithsonian-yixing-r26","query":"紫砂","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:10.013Z","source":"smithsonian-yixing-r26","query":"boccaro","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:11.065Z","source":"smithsonian-yixing-r26","query":"red stoneware china","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:12.212Z","source":"rijksmuseum-yixing-r26","query":"title=Yixing","description":"Yixing (title)","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:17.208Z","source":"rijksmuseum-yixing-r26","query":"description=Yixing","description":"Yixing (description)","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:17.763Z","source":"rijksmuseum-yixing-r26","query":"title=zisha","description":"Zisha","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:18.289Z","source":"rijksmuseum-yixing-r26","query":"title=purple clay","description":"Purple clay","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:18.813Z","source":"rijksmuseum-yixing-r26","query":"title=boccaro","description":"Boccaro (European name for Yixing)","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:19.346Z","source":"rijksmuseum-yixing-r26","query":"title=red stoneware chinese","description":"Red stoneware Chinese","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:19.950Z","source":"getty-yixing-r26","query":"Yixing","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:20.475Z","source":"getty-yixing-r26","query":"zisha","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:20.994Z","source":"getty-yixing-r26","query":"purple clay teapot","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:21.446Z","source":"wmc-yixing-r26","query":"Category:Yixing_teapots","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:39.521Z","source":"wmc-yixing-r26","query":"Category:Yixing_ware","totalResults":15,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:39.966Z","source":"wmc-yixing-r26","query":"Category:Yixing_clay_teapots","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:40.434Z","source":"wmc-yixing-r26","query":"Category:Purple_clay_teapots","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:40.837Z","source":"wmc-yixing-r26","query":"Category:Zisha","totalResults":0,"crawlBatchId":"round26-yixing-1790684029513"}
+{"timestamp":"2026-09-29T12:15:41.402Z","source":"round26-yixing-summary","query":"Round 26 Yixing Expansion Complete","totalResults":43,"crawlBatchId":"round26-yixing-summary","breakdown":{"met":4,"va":24,"cma":0,"smithsonian":0,"rijksmuseum":0,"getty":0,"wmc":15},"imageSizeMB":"2.24","note":"Round 26 Yixing expansion: 11380 → 11423 (+43)"}
