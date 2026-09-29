@@ -1975,3 +1975,104 @@
 {"timestamp":"2026-09-29T02:22:26.274Z","source":"smithsonian-r24","query":"Ding ware","totalResults":0,"idsAccepted":0,"crawlBatchId":"round24-expansion-1790647522443"}
 {"timestamp":"2026-09-29T02:22:27.342Z","source":"smithsonian-r24","query":"Longquan celadon","totalResults":0,"idsAccepted":0,"crawlBatchId":"round24-expansion-1790647522443"}
 {"timestamp":"2026-09-29T02:22:28.069Z","source":"round24-summary","query":"Round 24 Expansion Complete","totalResults":482,"idsAccepted":482,"crawlBatchId":"round24-summary","breakdown":{"rijksmuseum":245,"met":101,"va":70,"cma":58,"smithsonian":8},"imageSizeMB":"24.64","note":"Round 24 expansion: 10312 → 10794 (+482). Primary: Rijksmuseum paginated. Key-free sources only."}
+{"timestamp":"2026-09-29T05:16:48.628Z","source":"rijksmuseum-r25","query":"title=Chinees porselein","description":"Chinese porcelain (7k+ items)","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:16:50.018Z","source":"rijksmuseum-r25","query":"title=Japans porselein","description":"Japanese porcelain","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:18:43.588Z","source":"rijksmuseum-r25","query":"title=porselein","description":"Porcelain (general)","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:21:23.344Z","source":"rijksmuseum-r25","query":"title=theepot","description":"Teapots","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:23:50.736Z","source":"rijksmuseum-r25","query":"title=theeservies","description":"Tea services","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:24:27.212Z","source":"rijksmuseum-r25","query":"title=theebus","description":"Tea caddies","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:24:35.125Z","source":"rijksmuseum-r25","query":"title=theekom","description":"Tea bowls","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:25:12.878Z","source":"rijksmuseum-r25","query":"title=theekop","description":"Tea cups","totalResults":10,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:27:35.406Z","source":"rijksmuseum-r25","query":"description=thee","description":"Tea (description)","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:27:39.914Z","source":"rijksmuseum-r25","query":"title=Imari","description":"Imari ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:28:39.617Z","source":"rijksmuseum-r25","query":"title=Kakiemon","description":"Kakiemon","totalResults":2,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:39.689Z","source":"rijksmuseum-r25","query":"title=blauw-wit","description":"Blue-white","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:44.259Z","source":"rijksmuseum-r25","query":"title=kraakporselein","description":"Kraak porcelain","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:45.665Z","source":"rijksmuseum-r25","query":"title=celadon","description":"Celadon","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:47.084Z","source":"rijksmuseum-r25","query":"title=famille rose","description":"Famille rose","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:48.275Z","source":"rijksmuseum-r25","query":"title=famille verte","description":"Famille verte","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:49.289Z","source":"rijksmuseum-r25","query":"title=Kangxi","description":"Kangxi period","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:50.667Z","source":"rijksmuseum-r25","query":"title=Qianlong","description":"Qianlong period","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:51.238Z","source":"rijksmuseum-r25","query":"title=Yongzheng","description":"Yongzheng period","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:30:57.260Z","source":"rijksmuseum-r25","query":"title=Wanli","description":"Wanli period","totalResults":2,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:32:53.856Z","source":"rijksmuseum-r25","query":"type=bowl","description":"Bowls","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:35:27.127Z","source":"rijksmuseum-r25","query":"type=dish","description":"Dishes","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:38:23.601Z","source":"rijksmuseum-r25","query":"type=plate","description":"Plates","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:40:46.354Z","source":"rijksmuseum-r25","query":"type=vase","description":"Vases","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:42:31.613Z","source":"rijksmuseum-r25","query":"type=jar","description":"Jars","totalResults":40,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:44:42.537Z","source":"rijksmuseum-r25","query":"title=teapot","description":"Teapot (EN)","totalResults":21,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:44:47.237Z","source":"rijksmuseum-r25","query":"title=tea bowl","description":"Tea bowl (EN)","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:44:47.813Z","source":"rijksmuseum-r25","query":"title=Chinese export","description":"Chinese export","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913","note":"Fixed pagination: next.id extraction"}
+{"timestamp":"2026-09-29T05:44:49.421Z","source":"smithsonian-r25","query":"tea ceremony ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:44:50.626Z","source":"smithsonian-r25","query":"chawan tea bowl","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:44:53.331Z","source":"smithsonian-r25","query":"Japanese raku","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:44:54.884Z","source":"smithsonian-r25","query":"Korean celadon","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:44:57.856Z","source":"smithsonian-r25","query":"Chinese tea ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:44:58.320Z","source":"smithsonian-r25","query":"Jian ware tenmoku","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:44:59.092Z","source":"smithsonian-r25","query":"Song dynasty bowl","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:00.122Z","source":"smithsonian-r25","query":"Goryeo celadon","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:00.753Z","source":"smithsonian-r25","query":"Joseon white porcelain","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:01.916Z","source":"smithsonian-r25","query":"Yixing teapot","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:03.610Z","source":"smithsonian-r25","query":"Dehua porcelain","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:04.713Z","source":"smithsonian-r25","query":"Longquan celadon","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:06.065Z","source":"smithsonian-r25","query":"Jun ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:06.549Z","source":"smithsonian-r25","query":"Ding ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:07.709Z","source":"smithsonian-r25","query":"Cizhou ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:08.336Z","source":"smithsonian-r25","query":"Hagi ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:08.804Z","source":"smithsonian-r25","query":"Oribe ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:09.892Z","source":"smithsonian-r25","query":"Shino ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:10.843Z","source":"smithsonian-r25","query":"Bizen ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:12.104Z","source":"smithsonian-r25","query":"Karatsu tea bowl","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:15.087Z","source":"met-r25","query":"matcha tea bowl","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:24.742Z","source":"met-r25","query":"sencha tea set","totalResults":7,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:43.823Z","source":"met-r25","query":"kyusu Japanese teapot","totalResults":10,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:45:48.652Z","source":"met-r25","query":"tetsubin iron kettle","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:46:09.355Z","source":"met-r25","query":"mizusashi water jar","totalResults":9,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:46:13.125Z","source":"met-r25","query":"kensui waste water bowl","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:46:30.927Z","source":"met-r25","query":"futaoki lid rest","totalResults":6,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:46:41.413Z","source":"met-r25","query":"chakin tea cloth","totalResults":9,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:46:46.801Z","source":"met-r25","query":"hishaku water ladle","totalResults":6,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:46:54.516Z","source":"met-r25","query":"Buncheong Korean ceramics","totalResults":2,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:17.775Z","source":"met-r25","query":"moon jar Korean","totalResults":8,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:27.756Z","source":"met-r25","query":"Vietnamese blue white","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:28.131Z","source":"met-r25","query":"Thai Sawankhalok","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:28.528Z","source":"met-r25","query":"Annam ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:29.752Z","source":"met-r25","query":"Northern celadon","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:30.122Z","source":"met-r25","query":"Ru ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:56.138Z","source":"met-r25","query":"Ge ware crackle","totalResults":10,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:56.523Z","source":"met-r25","query":"Guan ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:47:58.744Z","source":"met-r25","query":"Jizhou tea bowl","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:06.502Z","source":"met-r25","query":"qingbai porcelain","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:10.610Z","source":"va-r25","query":"Japanese tea ceremony","totalResults":3,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:11.096Z","source":"va-r25","query":"Korean punch ong","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:12.725Z","source":"va-r25","query":"Vietnamese ceramics","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:18.682Z","source":"va-r25","query":"Thai celadon","totalResults":8,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:19.474Z","source":"va-r25","query":"Seto chawan","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:20.114Z","source":"va-r25","query":"Mino ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:20.597Z","source":"va-r25","query":"Shigaraki tea","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:21.077Z","source":"va-r25","query":"Iga ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:21.557Z","source":"va-r25","query":"Tokoname teapot","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:22.039Z","source":"va-r25","query":"Banko ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:28.619Z","source":"va-r25","query":"Kutani porcelain","totalResults":8,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:29.402Z","source":"va-r25","query":"Nabeshima ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:35.527Z","source":"va-r25","query":"Hirado porcelain","totalResults":8,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:42.705Z","source":"va-r25","query":"Satsuma ware","totalResults":8,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:44.161Z","source":"va-r25","query":"Awata ware","totalResults":1,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:44.888Z","source":"cma-r25","query":"Japanese tea utensils","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:45.475Z","source":"cma-r25","query":"Korean moon jar","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:46.046Z","source":"cma-r25","query":"Vietnamese ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:46.619Z","source":"cma-r25","query":"Annamese ware","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:49.171Z","source":"cma-r25","query":"Thai ceramics","totalResults":2,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:49.770Z","source":"cma-r25","query":"Khmer ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:50.325Z","source":"cma-r25","query":"Burmese ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:54.795Z","source":"cma-r25","query":"Sawankhalok","totalResults":4,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:55.485Z","source":"cma-r25","query":"Sukhothai ceramics","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:48:56.054Z","source":"cma-r25","query":"Longquan celadon","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:04.417Z","source":"wmc-r25","query":"Category:Tea_bowls","totalResults":12,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:04.868Z","source":"wmc-r25","query":"Category:Japanese_tea_ceremony_utensils","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:05.297Z","source":"wmc-r25","query":"Category:Teapots","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:05.716Z","source":"wmc-r25","query":"Category:Chinese_tea","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:06.138Z","source":"wmc-r25","query":"Category:Yixing_teapots","totalResults":0,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:17.177Z","source":"wmc-r25","query":"Category:Chawan","totalResults":12,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:34.449Z","source":"wmc-r25","query":"Category:Raku_ware","totalResults":12,"crawlBatchId":"round25-expansion-1790658997913"}
+{"timestamp":"2026-09-29T05:49:35.071Z","source":"round25-summary","query":"Round 25 Expansion Complete","totalResults":586,"crawlBatchId":"round25-summary","breakdown":{"rijksmuseum":437,"smithsonian":0,"met":70,"va":37,"cma":6,"wmc":36},"imageSizeMB":"26.86","keyFix":"Rijksmuseum pagination: next.id extraction","note":"Round 25 expansion: 10794 → 11380 (+586)"}
