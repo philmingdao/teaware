@@ -1,0 +1,7 @@
+.stage { position: relative; aspect-ratio: 1; background: transparent; isolation: isolate; }
+.image { z-index: 2; transform-origin: var(--shadow-contact-center) var(--shadow-baseline); transition: transform .6s ease; }
+.cast, .contact { position: absolute; z-index: 1; pointer-events: none; transform: translate(-50%, -50%); border-radius: 50%; }
+.cast { top: calc(var(--shadow-baseline) - .35%); left: var(--shadow-cast-center); width: var(--shadow-cast-width); height: 3.2%; background: radial-gradient(ellipse, #00000026 0%, #00000017 35%, #00000008 65%, #0000 78%); filter: blur(2px); }
+.contact { top: calc(var(--shadow-baseline) + .15%); left: var(--shadow-contact-center); width: var(--shadow-contact-width); height: 1.2%; background: radial-gradient(ellipse, #00000066 0%, #00000045 35%, #00000017 65%, #0000 80%); filter: blur(.65px); }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) { .interactive:hover .image { transform: scale(1.018); } }
+@media (prefers-reduced-motion: reduce) { .image { transition: none; } }

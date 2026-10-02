@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Artwork } from '@/types/artwork';
-import ResilientImage from './ResilientImage';
+import ArtifactImage from './ArtifactImage';
 
 interface ArtworkCardProps {
   artwork: Artwork;
@@ -13,7 +13,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
   return (
     <Link 
       href={`/artwork?id=${artwork.id}`}
-      className="group gallery-item block bg-[#faf9f7] dark:bg-[#1a1816] rounded-sm overflow-hidden"
+      className="group gallery-item block bg-transparent"
       style={{ 
         animationDelay: `${index * 0.1}s`,
         opacity: 0,
@@ -21,17 +21,14 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
       }}
     >
       {/* Image Container */}
-      <div className="relative aspect-square overflow-hidden bg-[#ebe8e1] dark:bg-[#252320]">
-        <ResilientImage
+      <div className="relative aspect-square">
+        <ArtifactImage
+          id={artwork.id}
           src={artwork.imageUrl}
           alt={artwork.imageAlt}
-          fill
-          className="transition-transform duration-700 group-hover:scale-105"
+          interactive
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
-        
-        {/* Overlay on hover */}
-        <div className="absolute inset-0 bg-[#1a1a1a]/0 group-hover:bg-[#1a1a1a]/20 transition-colors duration-500"></div>
         
         {/* Dynasty badge */}
         <div className="absolute top-4 left-4">

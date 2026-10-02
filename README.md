@@ -24,49 +24,45 @@ All artwork images are from open-access museum collections (The Metropolitan Mus
 
 ## 📊 Collection Statistics
 
-Verified 2026-10-02, Round 27.
+Verified 2026-10-03, tea-only curation.
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **11,456** |
-| Credited Museum Labels | 30 |
-| Dynasty Labels | 72 |
-| Object Type Labels | 80 |
+| Total Artworks | **1,451** |
+| Credited Museum Labels | 26 |
+| Dynasty Labels | 38 |
+| Object Type Labels | 24 |
 
 ### By credited museum
 
-- 大都会艺术博物馆: 4,684
-- 维多利亚和阿尔伯特博物馆: 2,771
-- 克利夫兰艺术博物馆: 1,200
-- 荷兰国立博物馆: 923
-- 维基共享资源: 800
-- 史密森尼亚洲艺术博物馆: 412
-- 东京国立博物馆: 252
-- 史密森尼亚洲艺术博物馆 (弗利尔/赛克勒): 192
-- 京都国立博物馆: 83
-- 史密森尼学会: 39
+- 大都会艺术博物馆: 367
+- 维多利亚和阿尔伯特博物馆: 241
+- 荷兰国立博物馆: 239
+- 克利夫兰艺术博物馆: 174
+- 史密森尼亚洲艺术博物馆 (弗利尔/赛克勒): 99
+- 维基共享资源: 93
+- 东京国立博物馆: 92
 - 明尼阿波利斯艺术馆: 33
-- 盖蒂博物馆: 11
-- 韩国国立中央博物馆: 10
+- 京都国立博物馆: 31
+- 史密森尼学会: 29
+- 史密森尼亚洲艺术博物馆: 19
 - 哈留斯卡博物馆: 7
 - 洛杉矶县艺术博物馆: 6
-- 奈良国立博物馆: 6
-- 上海博物馆: 5
-- 九州国立博物馆: 4
-- 大英博物馆: 3
 - 波特兰艺术博物馆: 3
+- 奈良国立博物馆: 3
+- 盖蒂博物馆: 3
 - 维多利亚与阿尔伯特博物馆: 2
 - 雷恩美术馆: 2
+- 大英博物馆: 1
 - 圣皮埃尔博物馆: 1
 - 乔治·拉比博物馆: 1
 - 赛努奇博物馆: 1
 - 查森艺术博物馆: 1
 - 马里蒙皇家博物馆: 1
-- 故宫博物院: 1
-- 史密森尼美国历史博物馆: 1
+- 九州国立博物馆: 1
 - 库珀·休伊特史密森设计博物馆: 1
 
-Counts are verified catalog records, including multiple labels used by legacy sources. Image permissions vary by source; see individual artwork records and the About page. New Round 27 records retain source dates and do not guess an uncertain dynasty.
+Only physical tea ware with explicit source tea-use evidence is admitted. Prints, book pages, photographs of works, textiles and other non-teaware are excluded. Source labels from old crawlers are insufficient evidence. The cleanup removed 4,574 out-of-scope records and suspended 5,431 records whose tea use remains unverified; see [the audit](research/teaware-curation-2026-10-03.md).
 
 ## ✨ 特色 Features
 
@@ -250,9 +246,10 @@ When writing expand/ingest scripts:
 ### Avoiding Duplicate Crawls
 
 Before running a new crawl:
-1. Read `research/sources.json` to check source/query status
-2. Read `research/crawl-log.jsonl` to find completed query+source pairs
-3. Skip already-completed queries unless explicitly refreshing with `--refresh` flag
+1. Apply `scripts/teaware-policy.mjs`: require source tea-use evidence, exclude non-teaware media and check `research/teaware-exclusions.json`.
+2. Read `research/sources.json` to check source/query status
+3. Read `research/crawl-log.jsonl` to find completed query+source pairs
+4. Skip already-completed queries unless explicitly refreshing with `--refresh` flag
 
 ### Future Expansion
 

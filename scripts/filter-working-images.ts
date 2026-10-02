@@ -11,7 +11,7 @@ interface Artwork {
 }
 
 const ARTWORKS_JSON_PATH = path.join(process.cwd(), 'src', 'data', 'artworks.json');
-const BACKUP_PATH = path.join(process.cwd(), 'src', 'data', 'artworks-full-backup.json');
+const BACKUP_PATH = path.join(process.cwd(), 'output', 'collection-curation', 'artworks-full-backup.json');
 
 async function testUrl(url: string): Promise<boolean> {
   try {
@@ -41,6 +41,7 @@ async function main() {
   
   // Backup original data
   if (!fs.existsSync(BACKUP_PATH)) {
+    fs.mkdirSync(path.dirname(BACKUP_PATH), { recursive: true });
     fs.writeFileSync(BACKUP_PATH, JSON.stringify(artworks, null, 2));
     console.log(`✓ 已备份原始数据到 ${BACKUP_PATH}\n`);
   }

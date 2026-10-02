@@ -1,11 +1,10 @@
 'use client';
 
-import Image from 'next/image';
+import ArtifactImage from './ArtifactImage';
 import Link from 'next/link';
 import { Monitor } from '@phosphor-icons/react';
 import { useEffect, useState } from 'react';
 import { heroArtworks } from '@/data/hero-artworks';
-import { withBasePath } from '@/lib/paths';
 import TVModeLink from './TVModeLink';
 
 export default function Hero() {
@@ -21,9 +20,7 @@ export default function Hero() {
   }, [playing, interacting, index]);
   const move = (step: number) => setIndex(i => (i + step + heroArtworks.length) % heroArtworks.length);
   return (
-    <section className="relative min-h-screen flex items-center">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#f5f3ef] to-[#faf9f7] dark:from-[#171614] dark:to-[#0f0f0e]"></div>
+    <section className="collection-surface relative min-h-screen flex items-center">
       
       <div className="relative max-w-7xl mx-auto px-6 lg:px-12 py-32 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -81,9 +78,11 @@ export default function Hero() {
             <figure>
               <div className="relative aspect-square max-w-lg mx-auto" aria-label={artwork.titleChinese}>
                 {heroArtworks.map((item, i) => (
-                  <Image key={item.id} src={withBasePath(item.imageUrl)} alt={i === index ? item.titleChinese : ''}
-                    aria-hidden={i !== index} fill priority={i === 0} sizes="(max-width: 768px) 90vw, 512px"
-                    className={`object-contain p-5 transition-opacity duration-700 motion-reduce:transition-none ${i === index ? 'opacity-100' : 'opacity-0'}`} />
+                  <div key={item.id} aria-hidden={i !== index}
+                    className={`absolute inset-0 transition-opacity duration-700 motion-reduce:transition-none ${i === index ? 'opacity-100' : 'opacity-0'}`}>
+                    <ArtifactImage id={item.id} src={item.imageUrl} alt={i === index ? item.titleChinese : ''}
+                      priority={i === 0} sizes="(max-width: 768px) 90vw, 512px" />
+                  </div>
                 ))}
               </div>
               <figcaption className="mt-4 text-center min-h-44 max-w-lg mx-auto">

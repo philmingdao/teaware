@@ -339,7 +339,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
                 alt=""
                 aria-hidden="true"
                 data-tv-image="outgoing"
-                className={`absolute inset-0 size-full object-cover transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-0' : 'opacity-100'}`}
+                className={`absolute inset-0 size-full object-contain transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-0' : 'opacity-100'}`}
                 style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
                 referrerPolicy="no-referrer"
                 draggable={false}
@@ -351,7 +351,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
               src={withBasePath(displayedArtwork.imageUrl)}
               alt={displayedArtwork.imageAlt}
               data-tv-image="incoming"
-              className={`absolute inset-0 size-full object-cover transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
+              className={`absolute inset-0 size-full object-contain transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
               style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
               onError={() => skipBrokenTarget(visiblePosition)}
               referrerPolicy="no-referrer"

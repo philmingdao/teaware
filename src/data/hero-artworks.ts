@@ -1,4 +1,4 @@
-// Curated against official museum records on 2026-10-02. See research/hero-selection-2026-10-02.md.
+// Source tea-use evidence is enforced by scripts/verify-teaware.mjs. See research/teaware-curation-2026-10-03.md.
 export const heroArtworks = [
   {
     "id": "met-51076",
@@ -73,16 +73,16 @@ export const heroArtworks = [
     "imageUrl": "/hero/cma-76525.webp"
   },
   {
-    "id": "cma-94817",
-    "titleChinese": "钧窑天蓝釉碗",
-    "titleEnglish": "Bowl: Jun Ware",
-    "date": "12—13世纪 · 北宋至金",
-    "material": "施釉石器",
-    "museum": "克利夫兰艺术博物馆",
-    "accessionNumber": "1915.379",
-    "sourceUrl": "https://www.clevelandart.org/art/1915.379",
-    "description": "天蓝色釉面覆盖饱满的碗壁，口沿与足部显露柔和色差，呈现钧窑釉色与器形的相互映衬。",
-    "imageUrl": "/hero/cma-94817.webp"
+    "id": "mia-762",
+    "titleChinese": "耀州窑刻莲纹青瓷茶碗",
+    "titleEnglish": "Tea Bowl",
+    "date": "10th-11th century",
+    "material": "青瓷",
+    "museum": "明尼阿波利斯艺术馆",
+    "accessionNumber": "47.3",
+    "sourceUrl": "https://collections.artsmia.org/art/762",
+    "description": "10至11世纪的耀州窑茶碗，馆方记为北方青瓷。绿色釉下以刻划与雕刻表现莲花装饰，呈现北方青瓷的纹样工艺。",
+    "imageUrl": "/cutout-test/objects/mia-762.webp"
   },
   {
     "id": "cma-83459",
@@ -97,27 +97,27 @@ export const heroArtworks = [
     "imageUrl": "/hero/cma-83459.webp"
   },
   {
-    "id": "cma-149952",
-    "titleChinese": "景德镇青白釉杯与盏托",
-    "titleEnglish": "Cup and Stand",
-    "date": "12世纪 · 南宋",
-    "material": "青白釉瓷",
-    "museum": "克利夫兰艺术博物馆",
-    "accessionNumber": "1980.185",
-    "sourceUrl": "https://www.clevelandart.org/art/1980.185",
-    "description": "杯与盏托成套保存，浅蓝白色的透明釉映衬精巧的托座；青白瓷亦有“影青”之称。",
-    "imageUrl": "/hero/cma-149952.webp"
+    "id": "mia-98004",
+    "titleChinese": "宜兴紫砂束竹式茶壶",
+    "titleEnglish": "Tea Pot",
+    "date": "late 18th century",
+    "material": "紫砂",
+    "museum": "明尼阿波利斯艺术馆",
+    "accessionNumber": "2005.91a, b",
+    "sourceUrl": "https://collections.artsmia.org/art/98004",
+    "description": "18世纪晚期的宜兴茶壶，将壶身塑成捆束的竹段，壶流、侧把与盖钮呼应竹枝形态。浅色胎上点洒褐色泥浆，模拟斑竹肌理。",
+    "imageUrl": "/cutout-test/objects/mia-98004.webp"
   },
   {
-    "id": "cma-154704",
-    "titleChinese": "明天启五彩梅花杯",
-    "titleEnglish": "Plum Blossom Cup",
-    "date": "1621—1627年 · 明天启",
-    "material": "青花与五彩釉上彩瓷",
-    "museum": "克利夫兰艺术博物馆",
-    "accessionNumber": "1989.295",
-    "sourceUrl": "https://www.clevelandart.org/art/1989.295",
-    "description": "梅花形杯口与枝干式杯柄将花木意趣融入器形，青花和釉上彩共同描绘明代瓷器的鲜活色彩。",
-    "imageUrl": "/hero/cma-154704.webp"
+    "id": "mia-9397",
+    "titleChinese": "吉州窑剪纸贴花茶盏",
+    "titleEnglish": "Tea Bowl",
+    "date": "12th-13th century",
+    "material": "炻器",
+    "museum": "明尼阿波利斯艺术馆",
+    "accessionNumber": "98.223",
+    "sourceUrl": "https://collections.artsmia.org/art/9397",
+    "description": "12至13世纪的吉州窑茶盏，外壁施褐釉，内壁以剪纸贴花形成深色纹样，与斑驳的浅褐釉地相对照。",
+    "imageUrl": "/cutout-test/objects/mia-9397.webp"
   }
 ] as const;

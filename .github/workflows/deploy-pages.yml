@@ -57,26 +57,27 @@ jobs:
 
       - name: Verify built image paths
         run: |
-          set -euo pipefail
-          if [ ! -d out/artworks ]; then
-            echo "ERROR: out/artworks missing after build"
-            exit 1
-          fi
-          sample=$(find out/artworks -type f -name '*.jpg' -print -quit)
-          if [ -z "$sample" ]; then
-            echo "ERROR: no jpg under out/artworks"
-            exit 1
-          fi
-          if head -c 64 "$sample" | grep -q 'git-lfs.github.com\|version https://git-lfs'; then
-            echo "ERROR: built artifact still has LFS pointer"
-            exit 1
-          fi
-          if grep -R -l '/teaware/artworks/' out --include='*.html' | head -1 | grep -q .; then
-            echo "OK: HTML references /teaware/artworks/"
-          else
-            echo "WARN: no /teaware/artworks/ found in HTML"
-            grep -R -n 'artworks/' out --include='*.html' | head -20 || true
-          fi
+          node --input-type=module <<'JSVERIFY'
+          import fs from 'node:fs';
+          const manifest = JSON.parse(fs.readFileSync('src/data/collection-cutouts.json'));
+          const artworks = JSON.parse(fs.readFileSync('src/data/artworks.json'));
+          if (Object.keys(manifest.assets).length) {
+            const served = JSON.parse(fs.readFileSync('out/artworks.json'));
+            if (served.length !== artworks.length) throw new Error('Catalogue coverage changed');
+            for (const item of served) {
+              const asset = manifest.assets[item.id];
+              if (!asset || asset.qaStatus !== 'reviewed' || item.imageUrl !== asset.url) throw new Error('Missing approved transparent image: ' + item.id);
+              const bytes = fs.readFileSync('out' + item.imageUrl);
+              if (bytes.subarray(0,4).toString() !== 'RIFF' || bytes.subarray(8,12).toString() !== 'WEBP') throw new Error('Missing WebP bytes: ' + item.id);
+            }
+            if (fs.existsSync('out/artworks')) throw new Error('Original photographs duplicated in transparent release');
+            console.log('OK: complete approved transparent image coverage');
+          } else {
+            const sample = fs.readdirSync('out/artworks').find(name => name.endsWith('.jpg'));
+            if (!sample || fs.readFileSync('out/artworks/' + sample).subarray(0,64).toString().includes('git-lfs')) throw new Error('Missing actual original JPEGs');
+            console.log('OK: existing original-image release retained during processing');
+          }
+          JSVERIFY
 
       - name: Check artifact size (must be under 950MB for GitHub Pages)
         run: |

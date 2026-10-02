@@ -1,0 +1,36 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { classifyTeaware } from './teaware-policy.mjs';
+
+const classify = (titleEnglish, materialEnglish, objectTypeEnglish = 'Tea Bowl/Cup') =>
+  classifyTeaware({ titleEnglish, materialEnglish, objectTypeEnglish }).decision;
+
+test('depictions and publications cannot qualify by their tea-related titles', () => {
+  assert.equal(classify('Still Life with Yixing Teapot', 'Oil painting'), 'reject');
+  assert.equal(classify('Tea Service', 'Albumen silver print'), 'reject');
+  assert.equal(classify('Tea Bowl', 'Woodburytype on paper'), 'reject');
+  assert.equal(classify('Tea bowl', 'paper', 'page'), 'reject');
+});
+test('garments, tomb artifacts and ordinary vessels cannot qualify by generated labels', () => {
+  assert.equal(classify('Semi-formal Court Robe', 'silk with embroidery'), 'reject');
+  assert.equal(classify('Epitaph tablet', 'Porcelain'), 'reject');
+  assert.equal(classify('Bowl', 'Stoneware'), 'review');
+  assert.equal(classify('Water dropper', 'Porcelain with tea-dust glaze'), 'reject');
+  assert.equal(classify('Vase', 'Porcelain', 'Vase'), 'reject');
+  assert.equal(classify('Wine Cup', 'Silver'), 'reject');
+});
+test('decoration terminology does not remove actual tea ware', () => {
+  assert.equal(classify('Tea Bowl with Abstract Scroll Design', 'Stoneware'), 'admit');
+  assert.equal(classify('Teapot with French Coat of Arms', 'Porcelain'), 'admit');
+  assert.equal(classify('Tea bowl, named Chinese Robe', 'Glazed stoneware'), 'admit');
+  assert.equal(classify('Teapot', 'Earthenware, transfer-printed'), 'admit');
+  assert.equal(classify('Tea Bowl', 'Stoneware with papercut decoration'), 'admit');
+  assert.equal(classify('Tea chest', 'wood, velvet (fabric weave), silver'), 'admit');
+});
+test('tea-use names are recognized across source languages and accessory types', () => {
+  assert.equal(classify('黒楽茶碗', 'Ceramics'), 'admit');
+  assert.equal(classify('Tea ceremony water jar', 'Stoneware'), 'admit');
+  assert.equal(classify('Stoftheebus', 'Stoneware'), 'admit');
+  assert.equal(classify('Theepot', 'Porcelain'), 'admit');
+  assert.equal(classify('Winepot or teapot', 'Porcelain'), 'admit');
+});

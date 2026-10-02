@@ -5,7 +5,8 @@ import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import ResilientImage from '@/components/ResilientImage';
+import ArtifactImage from '@/components/ArtifactImage';
+import { withCollectionImage } from '@/lib/collection-images';
 import ArtworkSlideshowButton from '@/components/ArtworkSlideshowButton';
 import TVModeLink from '@/components/TVModeLink';
 import { Artwork } from '@/types/artwork';
@@ -33,7 +34,7 @@ function ArtworkDetailContent() {
         if (!response.ok) {
           throw new Error('无法加载藏品数据');
         }
-        const artworks: Artwork[] = await response.json();
+        const artworks: Artwork[] = ((await response.json()) as Artwork[]).map(withCollectionImage);
         setAllArtworks(artworks);
         
         const found = artworks.find(a => a.id === id);
@@ -55,7 +56,7 @@ function ArtworkDetailContent() {
 
   if (loading) {
     return (
-      <main className="flex-1 bg-[#faf9f7] dark:bg-[#0f0f0e]">
+      <main className="collection-surface flex-1">
         <Header />
         <div className="pt-24 pb-12 min-h-screen flex items-center justify-center">
           <div className="text-center">
@@ -70,7 +71,7 @@ function ArtworkDetailContent() {
 
   if (error || !artwork) {
     return (
-      <main className="flex-1 bg-[#faf9f7] dark:bg-[#0f0f0e]">
+      <main className="collection-surface flex-1">
         <Header />
         <div className="pt-24 pb-12 min-h-screen flex items-center justify-center">
           <div className="text-center">
@@ -98,7 +99,7 @@ function ArtworkDetailContent() {
   const nextArtwork = currentIndex < allArtworks.length - 1 ? allArtworks[currentIndex + 1] : null;
 
   return (
-    <main className="flex-1 bg-[#faf9f7] dark:bg-[#0f0f0e]">
+    <main className="collection-surface flex-1">
       <Header />
       
       {/* Breadcrumb */}
@@ -133,17 +134,13 @@ function ArtworkDetailContent() {
             {/* Image */}
             <div className="relative">
               <div className="sticky top-32">
-                <div className="relative aspect-square bg-[#ebe8e1] dark:bg-[#252320] rounded-sm overflow-hidden shadow-xl dark:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
-                  <ResilientImage
+                  <ArtifactImage
+                    id={artwork.id}
                     src={artwork.imageUrl}
                     alt={artwork.imageAlt}
-                    fill
-                    className="p-4"
-                    objectFit="contain"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     priority
                   />
-                </div>
                 
                 {/* Image credit */}
                 <p className="mt-4 text-xs text-[#999] dark:text-[#6e6c68] text-center">
@@ -313,7 +310,7 @@ function ArtworkDetailContent() {
 export default function ArtworkPage() {
   return (
     <Suspense fallback={
-      <main className="flex-1 bg-[#faf9f7] dark:bg-[#0f0f0e]">
+      <main className="collection-surface flex-1">
         <Header />
         <div className="pt-24 pb-12 min-h-screen flex items-center justify-center">
           <div className="text-center">

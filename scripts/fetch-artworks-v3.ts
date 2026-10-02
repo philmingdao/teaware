@@ -2,7 +2,7 @@
  * Tea Ware Fetcher v3 - Streamlined and Efficient
  * 
  * Key improvements:
- * - Relaxed filtering: Chinese ceramic bowls/cups are broadly accepted (tea culture)
+ * - Tea-only admission: source evidence is mandatory; non-teaware media excluded
  * - Targeted queries with deduplication
  * - Better error handling with retries
  * - Faster processing with batch requests where possible
@@ -12,6 +12,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { classifyTeaware } from './teaware-policy.mjs';
 
 // Types
 interface CuratedArtwork {
@@ -204,7 +205,7 @@ function generateDescription(a: Partial<CuratedArtwork>): string {
   return parts.join('');
 }
 
-// Relaxed filtering - accept Chinese ceramic drinking vessels broadly
+// Tea use must be established; ceramic material alone does not qualify.
 const EXCLUDE_KEYWORDS = [
   'sugar bowl', 'punch bowl', 'slop bowl', 'waste bowl', 'finger bowl',
   'cream pot', 'mustard pot', 'chocolate pot', 'coffee pot', 'coffeepot',
@@ -237,15 +238,7 @@ function isAcceptable(text: string): boolean {
   }
   if (!isChinese) return false;
   
-  // Must be a drinking vessel type
-  const isVessel = lt.includes('teapot') || lt.includes('tea pot') || 
-    lt.includes('tea bowl') || lt.includes('teabowl') ||
-    lt.includes('cup') || lt.includes('bowl') ||
-    lt.includes('ewer') || lt.includes('wine') ||
-    lt.includes('caddy') || lt.includes('chawan') ||
-    lt.includes('stem cup') || lt.includes('libation');
-  
-  return isVessel;
+  return classifyTeaware({ titleEnglish: text, materialEnglish: text }).decision === 'admit';
 }
 
 // ============== MET MUSEUM ==============

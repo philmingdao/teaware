@@ -20,6 +20,7 @@ export interface Artwork {
   sourceUrl: string;
   imageUrl: string;
   imageAlt: string;
+  imagePresentation?: import('@/lib/collection-images').CutoutAsset;
   license: string;
   creditLine?: string;
   crawlBatchId?: string;

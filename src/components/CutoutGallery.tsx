@@ -32,7 +32,7 @@ export default function CutoutGallery({ samples }: { samples: Sample[] }) {
     <section className={styles.gallery}>
       <div className={styles.intro}>
         <Link href="/gallery" className={styles.back}>← 返回藏品浏览</Link>
-        <p className={styles.eyebrow}>A CLOSER LOOK · 20 件试展</p>
+        <p className={styles.eyebrow}>A CLOSER LOOK · {samples.length} 件试展</p>
         <h1>器物近观</h1>
         <p className={styles.lead}>让背景退去，让器物走近。<br />从釉色到轮廓，重新看见一件茶器的分量。</p>
       </div>

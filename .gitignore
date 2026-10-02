@@ -44,3 +44,8 @@ next-env.d.ts
 crawl-output.log
 crawl-v3.log
 expand.log
+
+# Local segmentation masks, candidates, runtime and review ledger
+/output/collection-cutouts/
+/output/collection-curation/
+scripts/__pycache__/

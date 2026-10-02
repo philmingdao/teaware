@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --color-ink: #1a1a1a;
   --color-ink-light: #3d3d3d;
   --color-ink-muted: #666666;
-  --color-paper: #faf9f7;
+  --color-paper: #ffffff;
   --color-paper-warm: #f5f3ef;
   --color-cream: #ebe8e1;
   --color-gold: #b8956c;
@@ -21,7 +22,7 @@
   --color-ink: #e8e6e3;
   --color-ink-light: #c5c3bf;
   --color-ink-muted: #9a9894;
-  --color-paper: #0f0f0e;
+  --color-paper: #000000;
   --color-paper-warm: #171614;
   --color-cream: #252320;
   --color-gold: #d4b896;
@@ -52,6 +53,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.collection-surface { background: var(--color-paper); }
 
 ::selection {
   background: var(--color-gold-light);

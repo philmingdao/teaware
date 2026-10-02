@@ -1,7 +1,8 @@
 import { Artwork } from '@/types/artwork';
 import artworksData from './artworks.json';
+import { withCollectionImage } from '@/lib/collection-images';
 
-export const artworks: Artwork[] = artworksData as Artwork[];
+export const artworks: Artwork[] = (artworksData as Artwork[]).map(withCollectionImage);
 
 export const featuredArtwork = artworks[0];
 

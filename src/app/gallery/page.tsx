@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '@/components/Header';
+import cutoutSamples from '@/data/cutout-samples.json';
 import Footer from '@/components/Footer';
 import GalleryGrid from '@/components/GalleryGrid';
 import JsonLd from '@/components/JsonLd';
@@ -31,11 +32,11 @@ export default function GalleryPage() {
   return (
     <>
       <JsonLd data={createGalleryPageJsonLd()} />
-      <main className="flex-1">
+      <main className="collection-surface flex-1">
         <Header />
         
         {/* Page Header */}
-        <section className="pt-32 pb-12 bg-gradient-to-b from-[#f5f3ef] to-[#faf9f7] dark:from-[#171614] dark:to-[#0f0f0e]">
+        <section className="pt-32 pb-12">
           <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
             <span className="text-sm tracking-[0.3em] text-[#b8956c] dark:text-[#d4b896] uppercase font-serif-en">
               Collection Gallery
@@ -47,7 +48,7 @@ export default function GalleryPage() {
               按朝代、材质或器型筛选，探索跨越千年的茶器之美
             </p>
             <Link href="/cutout-gallery" className="inline-block mt-5 text-sm text-[#9c7951] dark:text-[#d4b896] hover:underline underline-offset-4">
-              器物近观 · 20件透明底试展 →
+              器物近观 · {cutoutSamples.length}件透明底试展 →
             </Link>
           </div>
         </section>

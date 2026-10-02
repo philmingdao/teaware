@@ -8,7 +8,7 @@ export default function GalleryPreview() {
   const previewArtworks = artworks.slice(0, 8);
 
   return (
-    <section className="py-24 bg-[#f5f3ef] dark:bg-[#171614]">
+    <section className="collection-surface py-24">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
         <div className="text-center mb-16">

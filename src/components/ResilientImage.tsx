@@ -46,7 +46,7 @@ export default function ResilientImage({
   if (showPlaceholder) {
     return (
       <div 
-        className={`flex items-center justify-center bg-[#ebe8e1] ${className}`}
+        className={`flex items-center justify-center bg-transparent ${className}`}
         style={fill ? { position: 'absolute', inset: 0 } : { width, height }}
       >
         <div className="text-center p-4">
@@ -74,7 +74,7 @@ export default function ResilientImage({
       <>
         {isLoading && (
           <div 
-            className={`flex items-center justify-center bg-[#ebe8e1] animate-pulse ${fill ? 'absolute inset-0' : ''}`}
+            className={`flex items-center justify-center bg-transparent animate-pulse ${fill ? 'absolute inset-0' : ''}`}
             style={!fill ? { width, height } : undefined}
           />
         )}
@@ -97,7 +97,7 @@ export default function ResilientImage({
     <>
       {isLoading && (
         <div 
-          className={`flex items-center justify-center bg-[#ebe8e1] animate-pulse ${fill ? 'absolute inset-0' : ''}`}
+          className={`flex items-center justify-center bg-transparent animate-pulse ${fill ? 'absolute inset-0' : ''}`}
           style={!fill ? { width, height } : undefined}
         >
           <svg 
