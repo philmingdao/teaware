@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/verify-teaware.mjs && next build && node scripts/package-collection-images.mjs && cp public/spa-fallback.html out/404.html",
+    "build": "node scripts/verify-teaware.mjs && node scripts/build-exhibit-layout.mjs && next build && node scripts/package-collection-images.mjs && cp public/spa-fallback.html out/404.html",
     "start": "next start",
     "lint": "eslint",
     "collection:audit": "node scripts/audit-teaware.mjs",

@@ -112,7 +112,8 @@ export function BackgroundMusicProvider({ children }: { children: ReactNode }) {
     const startedAt = performance.now();
 
     const step = (now: number) => {
-      const progress = Math.min((now - startedAt) / duration, 1);
+      // A frame timestamp can precede a fade queued later in that same frame.
+      const progress = Math.min(Math.max((now - startedAt) / duration, 0), 1);
       audio.volume = initialVolume + (target - initialVolume) * progress;
       if (progress < 1) {
         animationFrameRef.current = requestAnimationFrame(step);

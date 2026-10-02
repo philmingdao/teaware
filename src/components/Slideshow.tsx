@@ -2,11 +2,11 @@
 
 import { useLanguage } from './LanguageProvider';
 import { artworkTitle, periodName, term, museumName } from '@/lib/i18n';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
 import { useRouter } from 'next/navigation';
 import { CaretLeft, CaretRight, Pause, Play, X } from '@phosphor-icons/react';
 import type { Artwork } from '@/types/artwork';
-import ResilientImage from './ResilientImage';
+import { MuseumStage, MuseumArtifact } from './MuseumExhibit';
 import MusicToggle from './MusicToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 
@@ -52,6 +52,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape' && (event.target as HTMLElement).closest('select, input, textarea')) return;
       switch (event.key) {
         case 'ArrowLeft':
           pauseAndGo('previous');
@@ -83,7 +84,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
   }, []);
 
   const handlePointerDown = (event: React.PointerEvent) => {
-    if ((event.target as HTMLElement).closest('button')) return;
+    if ((event.target as HTMLElement).closest('a, button, select, input, label')) return;
     setIsDragging(true);
     setDragStart(event.clientX);
     setIsAutoPlaying(false);
@@ -149,21 +150,12 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
       </header>
 
       <main
-        className="relative min-h-0 w-full overflow-hidden bg-black"
-        style={{
-          transform: `translateX(${dragOffset}px)`,
-          transition: isDragging ? 'none' : 'transform 300ms ease-out',
-        }}
+        className="relative min-h-0 w-full overflow-hidden bg-[#161411]"
+        style={{ '--drag-offset': `${dragOffset * 0.2}px` } as CSSProperties}
       >
-        <ResilientImage
-          key={currentArtwork.id}
-          src={currentArtwork.imageUrl}
-          alt={artworkTitle(currentArtwork, locale)}
-          fill
-          objectFit="contain"
-          sizes="100vw"
-          priority
-        />
+        <MuseumStage variant="slideshow">
+          <MuseumArtifact key={currentArtwork.id} artwork={currentArtwork} alt={artworkTitle(currentArtwork, locale)} />
+        </MuseumStage>
 
         <button
           type="button"

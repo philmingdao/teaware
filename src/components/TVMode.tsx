@@ -2,7 +2,7 @@
 
 import { useLanguage } from './LanguageProvider';
 import { localizedHref, artworkTitle, artworkType, periodName, term, museumName } from '@/lib/i18n';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import Link from '@/components/LocaleLink';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { CaretLeft, CaretRight, Pause, Play } from '@phosphor-icons/react';
@@ -11,6 +11,8 @@ import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 import { withBasePath } from '@/lib/paths';
 import MusicToggle from './MusicToggle';
 import LanguageSwitcher from './LanguageSwitcher';
+import { MuseumStage, MuseumArtifact } from './MuseumExhibit';
+import museumStyles from './MuseumExhibit.module.css';
 import type { Artwork } from '@/types/artwork';
 
 type Direction = 1 | -1;
@@ -246,6 +248,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape' && (event.target as HTMLElement).closest('select, input, textarea')) return;
       showUITemporarily();
       switch (event.key) {
         case 'ArrowRight':
@@ -284,7 +287,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
   }, []);
 
   const handlePointerDown = (event: React.PointerEvent) => {
-    if ((event.target as HTMLElement).closest('a, button')) return;
+    if ((event.target as HTMLElement).closest('a, button, select, input, label')) return;
     setIsDragging(true);
     setDragStart(event.clientX);
     showUITemporarily();
@@ -326,50 +329,37 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
       onMouseMove={showUITemporarily}
       style={{ cursor: showUI ? 'default' : 'none' }}
     >
-      <div
-        className="absolute inset-0"
-        style={{
-          transform: `translateX(${dragOffset * 0.08}px) scale(${isDragging ? 1.01 : 1})`,
-          transition: isDragging ? 'none' : 'transform 600ms cubic-bezier(0.22, 1, 0.36, 1)',
-        }}
-      >
+      <div className="absolute inset-0" style={{ '--drag-offset': `${dragOffset * 0.08}px` } as CSSProperties}>
+        <MuseumStage variant="tv">
         {displayedArtwork ? (
           <>
             {outgoingArtwork && (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img
+              <MuseumArtifact
                 key={`outgoing-${outgoingArtwork.id}`}
-                src={withBasePath(outgoingArtwork.imageUrl)}
+                artwork={outgoingArtwork}
                 alt=""
-                aria-hidden="true"
-                data-tv-image="outgoing"
-                className={`absolute inset-0 size-full object-contain transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-0' : 'opacity-100'}`}
-                style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
-                referrerPolicy="no-referrer"
-                draggable={false}
+                layer="outgoing"
+                visible={!imageVisible}
+                duration={CROSSFADE_DURATION_MS}
               />
             )}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <MuseumArtifact
               key={displayedArtwork.id}
-              src={withBasePath(displayedArtwork.imageUrl)}
+              artwork={displayedArtwork}
               alt={artworkTitle(displayedArtwork, locale)}
-              data-tv-image="incoming"
-              className={`absolute inset-0 size-full object-contain transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
-              style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
+              layer="incoming"
+              visible={imageVisible}
+              duration={CROSSFADE_DURATION_MS}
               onError={() => skipBrokenTarget(visiblePosition)}
-              referrerPolicy="no-referrer"
-              draggable={false}
             />
           </>
         ) : (
-          <div className="absolute inset-0 flex items-center justify-center bg-[#050505]">
+          <div className="absolute inset-0 flex items-center justify-center">
             <div className="size-10 animate-spin rounded-full border border-white/10 border-t-[#d4b896]/70 motion-reduce:animate-none" />
           </div>
         )}
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/45" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-transparent to-transparent" />
+        </MuseumStage>
       </div>
 
       {displayedPosition !== targetPosition && (
@@ -381,24 +371,28 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
 
       {displayedArtwork && (
         <section
-          className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-opacity duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'opacity-100' : 'opacity-0'}`}
-          style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 3rem)' }}
+          className={`${museumStyles.caption} absolute bottom-0 inset-x-0 grid gap-4 px-7 pb-8 transition-opacity duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_minmax(14rem,25%)] lg:items-end lg:gap-12 lg:px-20 ${detailsVisible ? 'opacity-100' : 'opacity-0'}`}
+          style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 2rem)' }}
         >
-          <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{periodName(displayedArtwork.dynasty, locale, displayedArtwork.dynastyEnglish)} · {artworkType(displayedArtwork, locale)}</p>
-          <h1 className="max-w-5xl text-[1.575rem] font-medium leading-[1.08] tracking-[0.08em] text-white drop-shadow-2xl sm:text-[2.625rem] lg:text-[3.15rem] xl:text-[4.2rem]">
+          <div className="min-w-0">
+          <p className="mb-2 text-[11px] tracking-[0.25em] text-[#d4b896] sm:text-xs">{periodName(displayedArtwork.dynasty, locale, displayedArtwork.dynastyEnglish)} · {artworkType(displayedArtwork, locale)}</p>
+          <h1 className="line-clamp-2 text-2xl font-medium leading-tight tracking-[0.06em] text-white sm:text-3xl lg:text-4xl">
             {artworkTitle(displayedArtwork, locale)}
           </h1>
-          <p className="mt-4 max-w-3xl font-serif-en text-base text-white/55 sm:text-xl lg:text-2xl">{displayedArtwork.titleEnglish}</p>
-          <div className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-white/40 sm:text-base">
+          <p className="mt-2 line-clamp-1 font-serif-en text-sm text-white/60 sm:text-base">{displayedArtwork.titleEnglish}</p>
+          </div>
+          <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-white/65 sm:text-sm">
             <span>{term(displayedArtwork.material, locale, displayedArtwork.materialEnglish)}</span>
             <span className="size-1 rounded-full bg-white/25" />
             <span>{museumName(displayedArtwork, locale)}</span>
           </div>
-          <div className="mt-8 flex items-center gap-4">
+          <div className="mt-3 flex items-center gap-4">
             <div className="h-px w-48 max-w-[45vw] overflow-hidden bg-white/15">
               <div className="h-full bg-[#d4b896]/75 transition-[width] duration-500" style={{ width: `${((visiblePosition + 1) / total) * 100}%` }} />
             </div>
             <span className="font-serif-en text-sm tabular-nums text-white/35">{visiblePosition + 1} / {total}</span>
+          </div>
           </div>
         </section>
       )}

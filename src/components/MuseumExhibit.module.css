@@ -1,0 +1,66 @@
+.stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  container-type: size;
+  background: #161411;
+  --vessel-floor: 78%;
+  --vessel-max-width: 76cqw;
+  --vessel-max-height: 60cqh;
+}
+
+.backdrop { object-fit: cover; object-position: 50% 50%; pointer-events: none; }
+
+.objectFrame {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: var(--vessel-floor);
+  width: min(calc(var(--vessel-max-width) / var(--object-width)), calc(var(--vessel-max-height) / var(--object-height)));
+  aspect-ratio: 1;
+  /* The visible silhouette, rather than its transparent canvas, rests on velvet. */
+  transform: translate(var(--object-anchor-x), var(--object-anchor-y)) translateX(var(--drag-offset, 0px));
+  transition: opacity 1200ms ease-in-out;
+  pointer-events: none;
+  isolation: isolate;
+}
+
+.image { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; object-fit: contain; }
+.cast, .contact { position: absolute; z-index: 1; border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); }
+.cast {
+  top: calc(var(--shadow-baseline) - .65%);
+  left: var(--shadow-cast-center);
+  width: var(--shadow-cast-width);
+  height: 3.4%;
+  background: radial-gradient(ellipse, #0009 0%, #0006 32%, #0002 62%, #0000 80%);
+  filter: blur(3px);
+}
+.contact {
+  top: calc(var(--shadow-baseline) + .1%);
+  left: var(--shadow-contact-center);
+  width: var(--shadow-contact-width);
+  height: 1%;
+  background: radial-gradient(ellipse, #000e 0%, #000a 35%, #0004 64%, #0000 82%);
+  filter: blur(.7px);
+}
+.shade { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(90deg, #0002, transparent 15%, transparent 85%, #0002); }
+
+.tv {
+  --vessel-floor: 65%;
+  --vessel-max-width: 72cqw;
+  --vessel-max-height: 43cqh;
+}
+.tv .shade { background: linear-gradient(0deg, #090807f5, #090807c4 18%, transparent 34%); }
+
+@media (max-width: 640px) {
+  .stage { --vessel-max-width: 82cqw; --vessel-max-height: 57cqh; }
+  .tv { --vessel-floor: 63%; --vessel-max-height: 43cqh; }
+}
+@media (max-height: 520px) {
+  .tv { --vessel-floor: 62%; --vessel-max-height: 40cqh; }
+  .caption { gap: .35rem; padding-bottom: 1rem !important; }
+  .caption h1 { font-size: 1.4rem; line-height: 1.2; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .caption > div:first-child > p:last-child { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .objectFrame { transition: none; } }
