@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CutoutGallery from '@/components/CutoutGallery';
 import samples from '@/data/cutout-samples.json';
+import styles from '@/components/CutoutGallery.module.css';
 
 export const metadata: Metadata = {
   title: '器物近观 · 透明底试展',
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function CutoutGalleryPage() {
   return (
-    <main className="flex-1">
+    <main className={`flex-1 ${styles.exhibition}`}>
       <Header />
       <CutoutGallery samples={samples} />
       <Footer />

@@ -11,8 +11,11 @@
     "description": "黑褐釉面上细密的兔毫纹衬托点茶后的白色茶沫，体现宋代建盏的独特审美。",
     "originalUrl": "/cutout-test/originals/met-51076.webp",
     "cutoutUrl": "/cutout-test/objects/met-51076.webp",
-    "contactBottomPercent": 21.1,
-    "contactWidthPercent": 26.6
+    "shadowBaselinePercent": 78.5,
+    "shadowContactCenterPercent": 49.417,
+    "shadowContactWidthPercent": 19.833,
+    "shadowCastCenterPercent": 50,
+    "shadowCastWidthPercent": 75.68
   },
   {
     "id": "met-48373",
@@ -26,8 +29,11 @@
     "description": "温润青釉与简洁碗形相映。口沿保留金漆修补痕迹，见证这件茶碗在日本被珍惜和使用的历史。",
     "originalUrl": "/cutout-test/originals/met-48373.webp",
     "cutoutUrl": "/cutout-test/objects/met-48373.webp",
-    "contactBottomPercent": 30.77,
-    "contactWidthPercent": 19.59
+    "shadowBaselinePercent": 68.833,
+    "shadowContactCenterPercent": 50.125,
+    "shadowContactWidthPercent": 14.583,
+    "shadowCastCenterPercent": 50.042,
+    "shadowCastWidthPercent": 76.56
   },
   {
     "id": "met-42323",
@@ -41,8 +47,11 @@
     "description": "壶身以梅花瓣的起伏塑形，紫砂自然的色泽与简练的壶流、提把相呼应；馆方将作者归于时大彬。",
     "originalUrl": "/cutout-test/originals/met-42323.webp",
     "cutoutUrl": "/cutout-test/objects/met-42323.webp",
-    "contactBottomPercent": 23.43,
-    "contactWidthPercent": 25.36
+    "shadowBaselinePercent": 76.083,
+    "shadowContactCenterPercent": 48.083,
+    "shadowContactWidthPercent": 18,
+    "shadowCastCenterPercent": 56.417,
+    "shadowCastWidthPercent": 61.92
   },
   {
     "id": "met-51185",
@@ -56,8 +65,11 @@
     "description": "方形壶身结合青花几何纹与镂空装饰，以繁密纹样和清晰轮廓展现瓷器工艺。",
     "originalUrl": "/cutout-test/originals/met-51185.webp",
     "cutoutUrl": "/cutout-test/objects/met-51185.webp",
-    "contactBottomPercent": 18.85,
-    "contactWidthPercent": 38.85
+    "shadowBaselinePercent": 80.667,
+    "shadowContactCenterPercent": 48.625,
+    "shadowContactWidthPercent": 34.25,
+    "shadowCastCenterPercent": 57.167,
+    "shadowCastWidthPercent": 61.6
   },
   {
     "id": "cma-128457",
@@ -71,8 +83,11 @@
     "description": "这类银杯可用于饮茶或饮酒。高足造型与装饰反映唐代通过丝绸之路吸收外来器物形式的交流。",
     "originalUrl": "/cutout-test/originals/cma-128457.webp",
     "cutoutUrl": "/cutout-test/objects/cma-128457.webp",
-    "contactBottomPercent": 9.6,
-    "contactWidthPercent": 37.85
+    "shadowBaselinePercent": 90,
+    "shadowContactCenterPercent": 49.25,
+    "shadowContactWidthPercent": 31.667,
+    "shadowCastCenterPercent": 49.792,
+    "shadowCastWidthPercent": 55.92
   },
   {
     "id": "cma-76525",
@@ -86,8 +101,11 @@
     "description": "浅腹、平展的玉璧形底足与柔和白釉构成素雅的茶碗。馆方将其产地记为河南巩县窑。",
     "originalUrl": "/cutout-test/originals/cma-76525.webp",
     "cutoutUrl": "/cutout-test/objects/cma-76525.webp",
-    "contactBottomPercent": 34.1,
-    "contactWidthPercent": 28.3
+    "shadowBaselinePercent": 65.5,
+    "shadowContactCenterPercent": 50.25,
+    "shadowContactWidthPercent": 18.5,
+    "shadowCastCenterPercent": 50,
+    "shadowCastWidthPercent": 76.8
   },
   {
     "id": "cma-94817",
@@ -101,8 +119,11 @@
     "description": "天蓝色釉面覆盖饱满的碗壁，口沿与足部显露柔和色差，呈现钧窑釉色与器形的相互映衬。",
     "originalUrl": "/cutout-test/originals/cma-94817.webp",
     "cutoutUrl": "/cutout-test/objects/cma-94817.webp",
-    "contactBottomPercent": 26.93,
-    "contactWidthPercent": 22.33
+    "shadowBaselinePercent": 72.667,
+    "shadowContactCenterPercent": 50.083,
+    "shadowContactWidthPercent": 15.5,
+    "shadowCastCenterPercent": 50,
+    "shadowCastWidthPercent": 76.8
   },
   {
     "id": "cma-83459",
@@ -116,8 +137,11 @@
     "description": "深褐底釉上的浅色斑纹如玳瑁壳般交错，是吉州窑茶盏的代表性装饰，也呼应宋代对深色茶器的偏爱。",
     "originalUrl": "/cutout-test/originals/cma-83459.webp",
     "cutoutUrl": "/cutout-test/objects/cma-83459.webp",
-    "contactBottomPercent": 25.93,
-    "contactWidthPercent": 25.45
+    "shadowBaselinePercent": 73.667,
+    "shadowContactCenterPercent": 49.458,
+    "shadowContactWidthPercent": 18.917,
+    "shadowCastCenterPercent": 50.25,
+    "shadowCastWidthPercent": 75.04
   },
   {
     "id": "cma-149952",
@@ -131,8 +155,11 @@
     "description": "杯与盏托成套保存，浅蓝白色的透明釉映衬精巧的托座；青白瓷亦有“影青”之称。",
     "originalUrl": "/cutout-test/originals/cma-149952.webp",
     "cutoutUrl": "/cutout-test/objects/cma-149952.webp",
-    "contactBottomPercent": 20.27,
-    "contactWidthPercent": 36.61
+    "shadowBaselinePercent": 79.25,
+    "shadowContactCenterPercent": 52,
+    "shadowContactWidthPercent": 28.5,
+    "shadowCastCenterPercent": 50,
+    "shadowCastWidthPercent": 76.8
   },
   {
     "id": "cma-154704",
@@ -146,8 +173,11 @@
     "description": "梅花形杯口与枝干式杯柄将花木意趣融入器形，青花和釉上彩共同描绘明代瓷器的鲜活色彩。",
     "originalUrl": "/cutout-test/originals/cma-154704.webp",
     "cutoutUrl": "/cutout-test/objects/cma-154704.webp",
-    "contactBottomPercent": 26.6,
-    "contactWidthPercent": 52.08
+    "shadowBaselinePercent": 73,
+    "shadowContactCenterPercent": 50,
+    "shadowContactWidthPercent": 36,
+    "shadowCastCenterPercent": 50.792,
+    "shadowCastWidthPercent": 70
   },
   {
     "id": "mia-6166",
@@ -159,8 +189,11 @@
     "description": "约1800年制作的宜兴茶壶，以泥绘表现渔人、树木、亭阁与远山。馆方将作者记为Hsu Shun-fang，并记录了壶底的印款。",
     "originalUrl": "/cutout-test/originals/mia-6166.webp",
     "cutoutUrl": "/cutout-test/objects/mia-6166.webp",
-    "contactBottomPercent": 10.93,
-    "contactWidthPercent": 50.66
+    "shadowBaselinePercent": 88.583,
+    "shadowContactCenterPercent": 46.75,
+    "shadowContactWidthPercent": 45.167,
+    "shadowCastCenterPercent": 56.333,
+    "shadowCastWidthPercent": 52.64
   },
   {
     "id": "mia-98004",
@@ -172,8 +205,11 @@
     "description": "18世纪晚期的宜兴茶壶，将壶身塑成捆束的竹段，壶流、侧把与盖钮呼应竹枝形态。浅色胎上点洒褐色泥浆，模拟斑竹肌理。",
     "originalUrl": "/cutout-test/originals/mia-98004.webp",
     "cutoutUrl": "/cutout-test/objects/mia-98004.webp",
-    "contactBottomPercent": 20.93,
-    "contactWidthPercent": 32.34
+    "shadowBaselinePercent": 78.667,
+    "shadowContactCenterPercent": 46.667,
+    "shadowContactWidthPercent": 22.167,
+    "shadowCastCenterPercent": 57.542,
+    "shadowCastWidthPercent": 57.84
   },
   {
     "id": "mia-5823",
@@ -185,8 +221,11 @@
     "description": "约1720年的瓷茶壶，壶流为后来补配的银件。馆方认为原瓷流可能在运输途中损坏；这种修补反映中国外销瓷在使用者心中的珍贵价值。",
     "originalUrl": "/cutout-test/originals/mia-5823.webp",
     "cutoutUrl": "/cutout-test/objects/mia-5823.webp",
-    "contactBottomPercent": 23.6,
-    "contactWidthPercent": 21.14
+    "shadowBaselinePercent": 76,
+    "shadowContactCenterPercent": 53,
+    "shadowContactWidthPercent": 14,
+    "shadowCastCenterPercent": 59.792,
+    "shadowCastWidthPercent": 57.04
   },
   {
     "id": "mia-13238",
@@ -198,8 +237,11 @@
     "description": "馆方定为17至18世纪的铜与珐琅茶壶。绿色珐琅地以细金属丝组织龙与云纹，壶盖亦饰龙纹；馆方认为它属于富裕家庭的日用器。",
     "originalUrl": "/cutout-test/originals/mia-13238.webp",
     "cutoutUrl": "/cutout-test/objects/mia-13238.webp",
-    "contactBottomPercent": 9.6,
-    "contactWidthPercent": 33.52
+    "shadowBaselinePercent": 90,
+    "shadowContactCenterPercent": 57.958,
+    "shadowContactWidthPercent": 24.417,
+    "shadowCastCenterPercent": 54.333,
+    "shadowCastWidthPercent": 52.64
   },
   {
     "id": "mia-31814",
@@ -211,8 +253,11 @@
     "description": "这件中国瓷茶壶约制于1643年。馆方记录其来自一艘约于1643年沉没的中国帆船；壶身与壶盖保留青花装饰。",
     "originalUrl": "/cutout-test/originals/mia-31814.webp",
     "cutoutUrl": "/cutout-test/objects/mia-31814.webp",
-    "contactBottomPercent": 19.77,
-    "contactWidthPercent": 24.39
+    "shadowBaselinePercent": 79.833,
+    "shadowContactCenterPercent": 48.667,
+    "shadowContactWidthPercent": 16.833,
+    "shadowCastCenterPercent": 55.125,
+    "shadowCastWidthPercent": 59.28
   },
   {
     "id": "mia-119042",
@@ -224,8 +269,11 @@
     "description": "18世纪晚期的中国施釉瓷茶壶。白色壶身饰釉彩纹章，壶盖、壶流和侧把共同构成完整器形；现藏于明尼阿波利斯艺术馆。",
     "originalUrl": "/cutout-test/originals/mia-119042.webp",
     "cutoutUrl": "/cutout-test/objects/mia-119042.webp",
-    "contactBottomPercent": 21.68,
-    "contactWidthPercent": 40.95
+    "shadowBaselinePercent": 77.833,
+    "shadowContactCenterPercent": 52.708,
+    "shadowContactWidthPercent": 29.917,
+    "shadowCastCenterPercent": 47.958,
+    "shadowCastWidthPercent": 54.32
   },
   {
     "id": "mia-9397",
@@ -237,8 +285,11 @@
     "description": "12至13世纪的吉州窑茶盏，外壁施褐釉，内壁以剪纸贴花形成深色纹样，与斑驳的浅褐釉地相对照。",
     "originalUrl": "/cutout-test/originals/mia-9397.webp",
     "cutoutUrl": "/cutout-test/objects/mia-9397.webp",
-    "contactBottomPercent": 9.6,
-    "contactWidthPercent": 31.58
+    "shadowBaselinePercent": 89.917,
+    "shadowContactCenterPercent": 49.917,
+    "shadowContactWidthPercent": 21.333,
+    "shadowCastCenterPercent": 49.958,
+    "shadowCastWidthPercent": 76.24
   },
   {
     "id": "mia-462",
@@ -250,8 +301,11 @@
     "description": "12至13世纪的茶盏，馆方将其材质记为建窑黑釉炻器，釉面带赤褐色纹理；时代字段归入金代。现藏于明尼阿波利斯艺术馆。",
     "originalUrl": "/cutout-test/originals/mia-462.webp",
     "cutoutUrl": "/cutout-test/objects/mia-462.webp",
-    "contactBottomPercent": 24.43,
-    "contactWidthPercent": 19.33
+    "shadowBaselinePercent": 75.083,
+    "shadowContactCenterPercent": 50.417,
+    "shadowContactWidthPercent": 13.333,
+    "shadowCastCenterPercent": 50.042,
+    "shadowCastWidthPercent": 76.72
   },
   {
     "id": "mia-4819",
@@ -263,8 +317,11 @@
     "description": "11世纪的定窑瓷茶碗，透明釉下刻划莲花装饰。细密纹样与柔和的白色瓷面相配，呈现宋代白瓷茶器的素雅气质。",
     "originalUrl": "/cutout-test/originals/mia-4819.webp",
     "cutoutUrl": "/cutout-test/objects/mia-4819.webp",
-    "contactBottomPercent": 9.6,
-    "contactWidthPercent": 32.13
+    "shadowBaselinePercent": 90,
+    "shadowContactCenterPercent": 50.125,
+    "shadowContactWidthPercent": 21.417,
+    "shadowCastCenterPercent": 49.958,
+    "shadowCastWidthPercent": 76.56
   },
   {
     "id": "mia-762",
@@ -276,7 +333,10 @@
     "description": "10至11世纪的耀州窑茶碗，馆方记为北方青瓷。绿色釉下以刻划与雕刻表现莲花装饰，呈现北方青瓷的纹样工艺。",
     "originalUrl": "/cutout-test/originals/mia-762.webp",
     "cutoutUrl": "/cutout-test/objects/mia-762.webp",
-    "contactBottomPercent": 9.6,
-    "contactWidthPercent": 32.21
+    "shadowBaselinePercent": 90,
+    "shadowContactCenterPercent": 50.042,
+    "shadowContactWidthPercent": 21.417,
+    "shadowCastCenterPercent": 50,
+    "shadowCastWidthPercent": 76.16
   }
 ]

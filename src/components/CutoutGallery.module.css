@@ -9,6 +9,7 @@
 .controlGroup > span { font-size: 12px; color: #958b7d; margin-right: 8px; }
 .controls button { cursor: pointer; border-radius: 4px; font-size: 13px; padding: 8px 12px; color: #847a6c; transition: background .2s, color .2s; }
 .controls button[aria-pressed='true'] { background: #7e624e; color: #fff9f1; }
+.controls button:disabled { cursor: default; opacity: .45; }
 .controls button:focus-visible, .stage:focus-visible { outline: 2px solid #b8956c; outline-offset: 4px; }
 .depthButton { margin-left: auto; }
 .hint { font-size: 12px; color: #968c7f; margin: 15px 0 30px; line-height: 1.7; }
@@ -16,17 +17,15 @@
 .comparisonGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .images { overflow: visible; }
 .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
-.stage { display: block; position: relative; aspect-ratio: 1; overflow: hidden; border-radius: 6px; isolation: isolate; }
-.paper { background: radial-gradient(ellipse at 48% 38%, #fffefa 0%, #f2ede3 65%, #e8e1d4 100%); }
-.dark { background: radial-gradient(ellipse at 48% 38%, #4c4b47 0%, #2e2e2a 70%, #242420 100%); }
-.checker { background-color: #f5f5f3; background-image: conic-gradient(#d9dad5 25%, transparent 0 50%, #d9dad5 0 75%, transparent 0); background-size: 24px 24px; }
-.original { background: #ebe8e1; }
+.stage { display: block; position: relative; aspect-ratio: 1; overflow: hidden; background: transparent; isolation: isolate; }
 .photo, .object { object-fit: contain; }
-.object { z-index: 2; transition: transform .6s cubic-bezier(.2,.7,.2,1), filter .6s; }
-.depth .object { filter: drop-shadow(0 14px 12px #322a2229) drop-shadow(0 3px 2px #322a2226); }
-.dark.depth .object { filter: drop-shadow(0 18px 12px #0006) drop-shadow(0 3px 2px #0005); }
-.contactShadow { position: absolute; z-index: 1; left: 28%; right: 28%; bottom: 9%; height: 4%; border-radius: 50%; background: #473b2c; opacity: .17; filter: blur(10px); transition: transform .6s, opacity .6s; }
-.dark .contactShadow { background: #000; opacity: .45; }
+.object { z-index: 2; transform-origin: var(--shadow-contact-center) var(--shadow-baseline); transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+/* Overhead lighting: both shadows lie on the floor, never on the image outline.
+   A compressed soft footprint sits mostly behind the base; the darker contact
+   shadow meets the actual bottom pixels. Black shadows disappear on black. */
+.castShadow, .contactShadow { position: absolute; z-index: 1; pointer-events: none; transform: translate(-50%, -50%); border-radius: 50%; }
+.castShadow { top: calc(var(--shadow-baseline) - .35%); left: var(--shadow-cast-center); width: var(--shadow-cast-width); height: 3.2%; background: radial-gradient(ellipse, #00000026 0%, #00000017 35%, #00000008 65%, #0000 78%); filter: blur(2px); }
+.contactShadow { top: calc(var(--shadow-baseline) + .15%); left: var(--shadow-contact-center); width: var(--shadow-contact-width); height: 1.2%; background: radial-gradient(ellipse, #00000066 0%, #00000045 35%, #00000017 65%, #0000 80%); filter: blur(.65px); }
 .imageLabel { position: absolute; z-index: 3; bottom: 12px; left: 12px; font-size: 11px; background: #faf9f7df; color: #655e54; padding: 4px 8px; border-radius: 3px; }
 .caption { padding: 22px 2px 0; }
 .date { color: #a18a6d; font-size: 11px; line-height: 1.7; }
@@ -35,11 +34,9 @@
 .description { color: #888075; font-size: 13px; line-height: 1.85; }
 .source { display: inline-block; color: #a18a6d; font-size: 11px; margin-top: 14px; }
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .depth:hover .object, .depth:focus-visible .object { transform: translateY(-6px) scale(1.025); filter: drop-shadow(0 22px 16px #322a2240) drop-shadow(0 5px 3px #322a2226); }
-  .dark.depth:hover .object, .dark.depth:focus-visible .object { filter: drop-shadow(0 22px 16px #0008); }
-  .depth:hover .contactShadow { transform: scale(.85); opacity: .11; }
+  .depth:hover .object, .depth:focus-visible .object { transform: scale(1.018); }
 }
-@media (prefers-reduced-motion: reduce) { .object, .contactShadow, .controls button { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .object, .controls button { transition: none; } }
 @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 700px) {
   .gallery { padding: 100px 20px 60px; }
@@ -49,3 +46,10 @@
   .depthButton { margin-left: 0; }
   .intro { padding-bottom: 28px; }
 }
+.exhibition { background: #fff; color: #1a1a1a; }
+:global(.dark) .exhibition { background: #000; color: #e8e6e3; }
+.exhibition :global(header) { background: #fffffff5; color: #1a1a1a; box-shadow: none; }
+.exhibition :global(header a) { color: inherit; }
+.exhibition :global(header a span) { color: inherit; }
+.exhibition :global(header button) { color: inherit; }
+:global(.dark) .exhibition :global(header) { background: #000000f5; color: #e8e6e3; }

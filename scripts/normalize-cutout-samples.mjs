@@ -30,20 +30,9 @@ async function normalize(input, output) {
   await sharp({ create: { width: size, height: size, channels: 4, background: '#00000000' } })
     .composite([{ input: cropped, left: offsetX, top: offsetY }])
     .webp({ lossless: true, alphaQuality: 100 }).toFile(output);
-  let footLeft = info.width, footRight = 0;
-  for (let y = Math.max(top, bottom - Math.round(height * .035)); y <= bottom; y++) {
-    for (let x = left; x <= right; x++) {
-      if (data[(y * info.width + x) * 4 + 3] >= 128) {
-        footLeft = Math.min(footLeft, x); footRight = Math.max(footRight, x);
-      }
-    }
-  }
-  const contactWidth = (footRight - footLeft + 1) * scale / size * 100;
   return {
     bounds: { left, top, width, height }, objectSize: [resizedWidth, resizedHeight],
     offset: [offsetX, offsetY],
-    contactBottomPercent: Number(((size - offsetY - resizedHeight) / size * 100 - .4).toFixed(2)),
-    contactWidthPercent: Number(Math.min(70, Math.max(12, contactWidth * 1.1)).toFixed(2)),
   };
 }
 
@@ -57,12 +46,11 @@ async function main() {
       : `output/hero-cutouts/${sample.id}.png`;
     const destination = path.join('public', sample.cutoutUrl);
     const geometry = await normalize(input, destination);
-    sample.contactBottomPercent = geometry.contactBottomPercent;
-    sample.contactWidthPercent = geometry.contactWidthPercent;
     result.push({ id: sample.id, input, destination, ...geometry });
   }
   await fs.writeFile('src/data/cutout-samples.json', JSON.stringify(samples, null, 2) + '\n');
   await fs.writeFile('output/cutout-test/normalization.json', JSON.stringify(result, null, 2) + '\n');
+  await import('./measure-cutout-grounding.mjs');
   console.log(`Normalized ${result.length} alpha assets into 1200px squares with at least 10% margins.`);
 }
 

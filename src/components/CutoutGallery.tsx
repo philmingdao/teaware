@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, type CSSProperties } from 'react';
 import { withBasePath } from '@/lib/paths';
 import styles from './CutoutGallery.module.css';
 
@@ -16,14 +16,15 @@ interface Sample {
   description: string;
   originalUrl: string;
   cutoutUrl: string;
-  contactBottomPercent?: number;
-  contactWidthPercent?: number;
+  shadowBaselinePercent: number;
+  shadowContactCenterPercent: number;
+  shadowContactWidthPercent: number;
+  shadowCastCenterPercent: number;
+  shadowCastWidthPercent: number;
 }
-type Surface = 'paper' | 'dark' | 'checker';
 type View = 'cutout' | 'original' | 'compare';
 
 export default function CutoutGallery({ samples }: { samples: Sample[] }) {
-  const [surface, setSurface] = useState<Surface>('paper');
   const [view, setView] = useState<View>('cutout');
   const [depth, setDepth] = useState(true);
 
@@ -37,34 +38,37 @@ export default function CutoutGallery({ samples }: { samples: Sample[] }) {
       </div>
 
       <div className={styles.controls}>
-        <div className={styles.controlGroup} role="group" aria-label="展示背景">
-          <span>背景</span>
-          {([['paper', '暖白'], ['dark', '深灰'], ['checker', '棋盘格']] as const).map(([value, label]) => (
-            <button key={value} aria-pressed={surface === value} onClick={() => setSurface(value)}>{label}</button>
-          ))}
-        </div>
         <div className={styles.controlGroup} role="group" aria-label="图片视图">
           {([['cutout', '透明底'], ['original', '原图'], ['compare', '并排对照']] as const).map(([value, label]) => (
             <button key={value} aria-pressed={view === value} onClick={() => setView(value)}>{label}</button>
           ))}
         </div>
-        <button className={styles.depthButton} aria-pressed={depth} onClick={() => setDepth(!depth)}>立体投影 {depth ? '开' : '关'}</button>
+        <button className={styles.depthButton} aria-pressed={depth} disabled={view === 'original'} onClick={() => setDepth(!depth)}>顶部照明投影 {depth ? '开' : '关'}</button>
       </div>
-      <p className={styles.hint}>本页为 AI 去背景效果试样，器物细节以馆藏原图为准。切换背景检查边缘，选择并排对照核对细节；图片可点开近看。</p>
+      <p className={styles.hint}>本页为 AI 去背景效果试样，器物细节以馆藏原图为准。选择并排对照核对细节；图片可点开近看。</p>
 
       <div className={`${styles.grid} ${view === 'compare' ? styles.comparisonGrid : ''}`}>
         {samples.map((sample, index) => (
           <article key={sample.id} className={styles.card}>
             <div className={`${styles.images} ${view === 'compare' ? styles.pair : ''}`}>
               {view !== 'cutout' && (
-                <a href={withBasePath(sample.originalUrl)} target="_blank" rel="noreferrer" className={`${styles.stage} ${styles.original}`} aria-label={`近看${sample.titleChinese}原图`}>
+                <a href={withBasePath(sample.originalUrl)} target="_blank" rel="noreferrer" className={styles.stage} aria-label={`近看${sample.titleChinese}原图`}>
                   <Image src={withBasePath(sample.originalUrl)} alt={`${sample.titleChinese}馆藏原图`} fill sizes={view === 'compare' ? '(max-width: 700px) 46vw, 25vw' : '(max-width: 700px) 92vw, 33vw'} className={styles.photo} priority={index < 3} />
                   <span className={styles.imageLabel}>馆藏原图</span>
                 </a>
               )}
               {view !== 'original' && (
-                <a href={withBasePath(sample.cutoutUrl)} target="_blank" rel="noreferrer" className={`${styles.stage} ${styles[surface]} ${depth && surface !== 'checker' ? styles.depth : ''}`} aria-label={`近看${sample.titleChinese}透明底图片`}>
-                  {depth && surface !== 'checker' && <span className={styles.contactShadow} style={{ bottom: `${sample.contactBottomPercent ?? 9}%`, width: `${sample.contactWidthPercent ?? 44}%`, left: `${50 - (sample.contactWidthPercent ?? 44) / 2}%`, right: 'auto' }} aria-hidden="true" />}
+                <a href={withBasePath(sample.cutoutUrl)} target="_blank" rel="noreferrer" className={`${styles.stage} ${depth ? styles.depth : ''}`} style={{
+                  '--shadow-baseline': `${sample.shadowBaselinePercent}%`,
+                  '--shadow-contact-center': `${sample.shadowContactCenterPercent}%`,
+                  '--shadow-contact-width': `${sample.shadowContactWidthPercent}%`,
+                  '--shadow-cast-center': `${sample.shadowCastCenterPercent}%`,
+                  '--shadow-cast-width': `${sample.shadowCastWidthPercent}%`,
+                } as CSSProperties} aria-label={`近看${sample.titleChinese}透明底图片`}>
+                  {depth && <>
+                    <span className={styles.castShadow} aria-hidden="true" />
+                    <span className={styles.contactShadow} aria-hidden="true" />
+                  </>}
                   <Image src={withBasePath(sample.cutoutUrl)} alt={`${sample.titleChinese}透明背景照片`} fill sizes={view === 'compare' ? '(max-width: 700px) 46vw, 25vw' : '(max-width: 700px) 92vw, 33vw'} className={styles.object} priority={index < 3} />
                   {view === 'compare' && <span className={styles.imageLabel}>透明底</span>}
                 </a>

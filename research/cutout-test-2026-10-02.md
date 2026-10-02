@@ -21,7 +21,7 @@ The proposed scalable route generates a foreground alpha mask using BiRefNet Gen
 
 ## Preview
 
-Route: /cutout-gallery/. Warm-white, dark-gray and checker surfaces; original/transparent/side-by-side views; adjustable CSS projection with contact shadow and restrained hover lift. Reduced-motion mode disables animations. Review by comparing original decoration and silhouette, then switch to checker/dark surfaces to identify edge halos and residual background. 20 processed assets are the pilot; do not claim all 11,456 images are processed.
+Route: /cutout-gallery/. Transparent stages over a theme-following white/black page; original/transparent/side-by-side views; overhead floor projection with contact shadow and base-anchored hover zoom. Reduced-motion mode disables animations. Review by comparing original decoration and silhouette, then switch to checker/dark surfaces to identify edge halos and residual background. 20 processed assets are the pilot; do not claim all 11,456 images are processed.
 
 ## Reproduce the preview packaging
 
@@ -48,3 +48,20 @@ Models and full-resolution intermediate images are not committed. Public origina
 ## Validation
 
 Alpha/crop checks: research/cutout-test-asset-checks.json. Targeted ESLint and Next static production build passed. Local browser confirmed 20 articles, 20 images in cutout view, 40 images in comparison view, dark/checker surfaces, keyboard projection toggle and a 390px mobile layout without horizontal overflow. Projection animates for 600ms; after the transition completes all cutout filters are none when switched off. Live asset checks are saved locally at output/cutout-test/live-checks.json after deployment.
+
+## Revision: transparent stages and overhead grounding
+
+The user's review removed the warm/dark/checker surface selector. Each image stage now has a transparent background, while the exhibition page follows the site's theme with white (#fff) or black (#000). Original comparisons remain available. The shared header inherits this page's theme locally.
+
+Removed all outline drop shadows and hovering vertical lift. The revised lighting presentation approximates an overhead/front spotlight with a short floor footprint behind the foot and a darker, tighter contact shadow directly at the artifact's base. It does not relight the photograph or reconstruct a 3D artifact. On a pure black surface, black shadows naturally disappear; no white glow or lighter background is added.
+
+Each cutout's opaque alpha geometry is measured by scripts/measure-cutout-grounding.mjs: the bottom contact band gives the actual baseline, foot width and horizontal center. The widest continuous body span gives the broad footprint, excluding detached handle spans. Foot anchoring also sets the hover scaling origin, keeping the artifact on the same plane. Normalization automatically remeasures grounding after producing new assets.
+
+References consulted:
+
+- ERCO, Light for sculptures: museum angle: https://www.erco.com/en_us/knowledge/culture/light-for-sculptures-museum-angle/ (overhead directional illumination and shadow modelling).
+- Physically Based Rendering, Area Lights: https://pbr-book.org/4ed/Light_Sources/Area_Lights (soft penumbrae from extended light sources).
+
+These references inform the 2D presentation; CSS ellipses are not a physically accurate shadow reconstruction from a single photograph. Cutout and original image bytes remain unchanged in this revision.
+
+Revision validation: targeted ESLint and Next static build passed. Browser confirmed transparent backgrounds for every image stage, #fff/#000 theme surfaces, no outline filters on all 20 cutouts, 40 floor/contact shadow spans when enabled and zero when disabled, keyboard toggle, 40 images in comparison mode and no horizontal overflow at 390px. The mobile navigation icon also follows the page theme. SHA-256 checks confirmed that all 40 image files stayed unchanged.
