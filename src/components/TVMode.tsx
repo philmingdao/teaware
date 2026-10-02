@@ -380,7 +380,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
           className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-opacity duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'opacity-100' : 'opacity-0'}`}
           style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 3rem)' }}
         >
-          <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{displayedArtwork.dynasty}代 · {displayedArtwork.objectType}</p>
+          <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{displayedArtwork.dynasty} · {displayedArtwork.objectType}</p>
           <h1 className="max-w-5xl text-[1.575rem] font-medium leading-[1.08] tracking-[0.08em] text-white drop-shadow-2xl sm:text-[2.625rem] lg:text-[3.15rem] xl:text-[4.2rem]">
             {displayedArtwork.titleChinese}
           </h1>

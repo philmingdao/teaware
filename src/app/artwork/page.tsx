@@ -156,7 +156,7 @@ function ArtworkDetailContent() {
               {/* Title */}
               <div className="mb-8">
                 <span className="inline-block px-3 py-1 text-sm tracking-wider bg-[#1a1a1a] dark:bg-[#e8e6e3] text-[#faf9f7] dark:text-[#0f0f0e] mb-4">
-                  {artwork.dynasty}代
+                  {artwork.dynasty}
                 </span>
                 <h1 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3] leading-tight">
                   {artwork.titleChinese}

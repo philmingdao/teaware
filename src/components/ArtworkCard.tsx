@@ -33,7 +33,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
         {/* Dynasty badge */}
         <div className="absolute top-4 left-4">
           <span className="inline-block px-3 py-1 text-xs tracking-wider bg-[#faf9f7]/90 dark:bg-[#0f0f0e]/90 text-[#1a1a1a] dark:text-[#e8e6e3] backdrop-blur-sm">
-            {artwork.dynasty}代
+            {artwork.dynasty}
           </span>
         </div>
       </div>
