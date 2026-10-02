@@ -24,25 +24,49 @@ All artwork images are from open-access museum collections (The Metropolitan Mus
 
 ## 📊 Collection Statistics
 
+Verified 2026-10-02, Round 27.
+
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **2,540** |
-| Credited Sources | 17 |
-| Dynasty Labels | 18 |
-| Object Types | 5 |
+| Total Artworks | **11,456** |
+| Credited Museum Labels | 30 |
+| Dynasty Labels | 72 |
+| Object Type Labels | 80 |
 
-### By acquisition channel
-- The Metropolitan Museum of Art: 693
-- Cleveland Museum of Art: 307
-- Wikimedia Commons (museum objects with file-page provenance): 52
+### By credited museum
 
-### By Dynasty
-- Qing and named Qing reigns (清): 218 items
-- Ming and named Ming reigns (明): 105 items
-- Song (宋/北宋/南宋): 154 items
-- Yuan (元): 52 items
-- Tang (唐): 32 items
-- Other/unknown labels remain in the source data; they are not assigned a dynasty by guesswork.
+- 大都会艺术博物馆: 4,684
+- 维多利亚和阿尔伯特博物馆: 2,771
+- 克利夫兰艺术博物馆: 1,200
+- 荷兰国立博物馆: 923
+- 维基共享资源: 800
+- 史密森尼亚洲艺术博物馆: 412
+- 东京国立博物馆: 252
+- 史密森尼亚洲艺术博物馆 (弗利尔/赛克勒): 192
+- 京都国立博物馆: 83
+- 史密森尼学会: 39
+- 明尼阿波利斯艺术馆: 33
+- 盖蒂博物馆: 11
+- 韩国国立中央博物馆: 10
+- 哈留斯卡博物馆: 7
+- 洛杉矶县艺术博物馆: 6
+- 奈良国立博物馆: 6
+- 上海博物馆: 5
+- 九州国立博物馆: 4
+- 大英博物馆: 3
+- 波特兰艺术博物馆: 3
+- 维多利亚与阿尔伯特博物馆: 2
+- 雷恩美术馆: 2
+- 圣皮埃尔博物馆: 1
+- 乔治·拉比博物馆: 1
+- 赛努奇博物馆: 1
+- 查森艺术博物馆: 1
+- 马里蒙皇家博物馆: 1
+- 故宫博物院: 1
+- 史密森尼美国历史博物馆: 1
+- 库珀·休伊特史密森设计博物馆: 1
+
+Counts are verified catalog records, including multiple labels used by legacy sources. Image permissions vary by source; see individual artwork records and the About page. New Round 27 records retain source dates and do not guess an uncertain dynasty.
 
 ## ✨ 特色 Features
 

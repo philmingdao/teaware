@@ -3,7 +3,13 @@
 Last updated: 2026-09-25 (Round 13 Underrepresented Glazes & Wares Batch)  
 Purpose: Document worldwide museum collections with Chinese/East Asian tea ware and open access image policies for the 器·茶 gallery project.
 
-## Current Collection Status
+## Verified current snapshot — 2026-10-02
+
+Round 27: **11456** catalog records, including **33** new Mia Chinese tea ware records. Current museum counts are in sources.json inventorySnapshot. Earlier tables below are historical, superseded by this snapshot.
+
+Mia is now active: metadata CC0; only Public Domain images with full public download accepted under [current image policy](https://new.artsmia.org/copyright-and-image-access). Review and exclusions: [Round 27](round27-2026-10-02.md).
+
+## Historical collection status
 
 | Source | Artworks | Images | Status |
 |--------|----------|--------|--------|

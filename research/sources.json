@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-26T11:09:30.961095+00:00",
+  "lastUpdated": "2026-10-02T14:07:21.187Z",
   "sources": [
     {
       "id": "met",
@@ -501,6 +501,67 @@
         }
       ],
       "notes": "49 curator-selected complete tea objects imported on 2026-09-15 after file-page license, museum metadata, visual, dimension, accession, and binary checks. Photos are self-hosted; rejected uncertain origin, alternate views, label-only images, and unrelated ceramics."
+    },
+    {
+      "id": "mia",
+      "name": "Minneapolis Institute of Art",
+      "nameZh": "明尼阿波利斯艺术馆",
+      "country": "USA",
+      "status": "active",
+      "apiEndpoint": "https://search.artsmia.org/",
+      "apiDocs": "https://github.com/artsmia/collection-elasticsearch",
+      "authRequired": false,
+      "license": "Public Domain images; CC0 metadata",
+      "licenseField": "rights_type = Public Domain; image = valid; Rights_Image_Display = Full",
+      "imageField": "Cache_Location + Primary_RenditionNumber (official public download)",
+      "licensePolicy": "https://new.artsmia.org/copyright-and-image-access",
+      "lastCrawl": "2026-10-02T14:07:21.187Z",
+      "acceptedCount": 33,
+      "queries": [
+        {
+          "query": "teapot country:China",
+          "status": "completed",
+          "totalResults": 18,
+          "returned": 18
+        },
+        {
+          "query": "tea bowl country:China",
+          "status": "completed",
+          "totalResults": 26,
+          "returned": 26
+        },
+        {
+          "query": "tea cup country:China",
+          "status": "completed",
+          "totalResults": 3,
+          "returned": 3
+        },
+        {
+          "query": "tea caddy country:China",
+          "status": "completed",
+          "totalResults": 1,
+          "returned": 1
+        },
+        {
+          "query": "tea set country:China",
+          "status": "completed",
+          "totalResults": 4,
+          "returned": 4
+        },
+        {
+          "query": "Yixing country:China",
+          "status": "completed",
+          "totalResults": 2,
+          "returned": 2
+        },
+        {
+          "query": "tea container country:China",
+          "status": "completed",
+          "totalResults": 0,
+          "returned": 0
+        }
+      ],
+      "notes": "Round 27: only China-origin tea ware with usable public-domain images >=1200px. Official metadata saved with reviewed Chinese captions. Conflicting chronology held for review."
     }
   ],
   "crawlInstructions": {
@@ -521,5 +582,43 @@
       "2. Record actual vs estimated results",
       "3. Document any new findings in museums-survey.md"
     ]
+  },
+  "inventorySnapshot": {
+    "verifiedAt": "2026-10-02T14:07:21.187Z",
+    "totalArtworks": 11456,
+    "catalogSource": "src/data/artworks.json",
+    "museums": {
+      "大都会艺术博物馆": 4684,
+      "维多利亚和阿尔伯特博物馆": 2771,
+      "克利夫兰艺术博物馆": 1200,
+      "荷兰国立博物馆": 923,
+      "维基共享资源": 800,
+      "史密森尼亚洲艺术博物馆": 412,
+      "东京国立博物馆": 252,
+      "史密森尼亚洲艺术博物馆 (弗利尔/赛克勒)": 192,
+      "京都国立博物馆": 83,
+      "史密森尼学会": 39,
+      "明尼阿波利斯艺术馆": 33,
+      "盖蒂博物馆": 11,
+      "韩国国立中央博物馆": 10,
+      "哈留斯卡博物馆": 7,
+      "洛杉矶县艺术博物馆": 6,
+      "奈良国立博物馆": 6,
+      "上海博物馆": 5,
+      "九州国立博物馆": 4,
+      "大英博物馆": 3,
+      "波特兰艺术博物馆": 3,
+      "维多利亚与阿尔伯特博物馆": 2,
+      "雷恩美术馆": 2,
+      "圣皮埃尔博物馆": 1,
+      "乔治·拉比博物馆": 1,
+      "赛努奇博物馆": 1,
+      "查森艺术博物馆": 1,
+      "马里蒙皇家博物馆": 1,
+      "故宫博物院": 1,
+      "史密森尼美国历史博物馆": 1,
+      "库珀·休伊特史密森设计博物馆": 1
+    },
+    "note": "Current counts supersede old estimates; completed query evidence is in crawl-log.jsonl."
   }
 }

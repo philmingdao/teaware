@@ -44,6 +44,11 @@ export default function Footer() {
             <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">数据来源与致谢</h4>
             <div className="text-sm text-[#a0a0a0] leading-relaxed space-y-2">
               <p>
+                <a href="https://new.artsmia.org/copyright-and-image-access" target="_blank" rel="noopener noreferrer" className="hover:text-[#faf9f7] transition-colors">Minneapolis Institute of Art</a>
+                <br />
+                <span className="text-xs">Public Domain / CC0 Metadata</span>
+              </p>
+              <p>
                 <a 
                   href="https://www.metmuseum.org/about-the-met/policies-and-documents/open-access" 
                   target="_blank" 
@@ -75,7 +80,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#666]">
           <p>
-            本展览所有藏品图片均来自博物馆开放数据，采用 CC0 公共领域许可
+            藏品图片按各来源开放许可使用，具体许可见作品详情与关于展览
           </p>
           <p className="font-serif-en">
             © 2024 Chinese Tea Ware Gallery

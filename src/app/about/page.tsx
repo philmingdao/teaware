@@ -127,6 +127,16 @@ export default function AboutPage() {
               {/* Major Sources */}
               <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
                 <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
+                  <a href="https://new.artsmia.org/copyright-and-image-access" target="_blank" rel="noopener noreferrer" className="hover:text-[#b8956c] dark:hover:text-[#d4b896] transition-colors">
+                    Minneapolis Institute of Art
+                  </a>
+                </h3>
+                <p className="text-sm text-[#666] dark:text-[#9a9894] mt-1 font-serif-en">Public Domain Images · CC0 Metadata</p>
+                <p className="text-sm text-[#999] dark:text-[#6e6c68] mt-2">明尼阿波利斯艺术馆；本展收录该馆明确标为公有领域的中国茶器，包括宋代茶盏、宜兴紫砂壶和明清瓷茶壶。作品页保留馆藏号、馆方定年与原始记录链接。</p>
+              </div>
+
+              <div className="border-l-2 border-[#b8956c] dark:border-[#d4b896] pl-6">
+                <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3]">
                   <a 
                     href="https://www.metmuseum.org/about-the-met/policies-and-documents/open-access" 
                     target="_blank" 
