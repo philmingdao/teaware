@@ -1,13 +1,13 @@
 'use client';
 
-import { createContext, useContext, useState, useCallback, ReactNode, useEffect } from 'react';
+import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 import { Artwork } from '@/types/artwork';
 import Slideshow from './Slideshow';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 import { withBasePath } from '@/lib/paths';
 
 interface SlideshowContextType {
-  openSlideshow: (startArtworkId?: string) => void;
+  openSlideshow: (startArtworkId?: string, collection?: Artwork[]) => void;
   closeSlideshow: () => void;
   isOpen: boolean;
 }
@@ -36,13 +36,14 @@ export default function SlideshowProvider({ children }: SlideshowProviderProps) 
   
   const { startMusic, stopMusic } = useBackgroundMusic();
 
-  const openSlideshow = useCallback(async (startArtworkId?: string) => {
+  const openSlideshow = useCallback(async (startArtworkId?: string, collection?: Artwork[]) => {
     setIsLoading(true);
     
     try {
-      let artworks = cachedArtworks;
+      let artworks = collection ?? cachedArtworks;
       if (!artworks) {
         const response = await fetch(withBasePath('/artworks.json'));
+        if (!response.ok) throw new Error(`Artwork request failed: ${response.status}`);
         artworks = await response.json();
         cachedArtworks = artworks;
       }

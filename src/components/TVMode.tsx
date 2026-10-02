@@ -8,6 +8,7 @@ import { artworks } from '@/data/artworks';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 import { withBasePath } from '@/lib/paths';
 import MusicToggle from './MusicToggle';
+import type { Artwork } from '@/types/artwork';
 
 type Direction = 1 | -1;
 const AUTOPLAY_INTERVAL_MS = 8000;
@@ -25,7 +26,7 @@ function createShuffleOrder(total: number, firstIndex: number | null) {
   return firstIndex === null ? order : [firstIndex, ...order];
 }
 
-export default function TVMode() {
+export default function TVMode({ collection, onClose }: { collection?: Artwork[]; onClose?: () => void } = {}) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { startMusic, stopMusic, toggleMusic } = useBackgroundMusic();
@@ -33,12 +34,20 @@ export default function TVMode() {
   const startId = searchParams.get('start');
   const filterMuseum = searchParams.get('museum');
   const filterDynasty = searchParams.get('dynasty');
+  const filterMaterial = searchParams.get('material');
+  const filterObjectType = searchParams.get('objectType');
+  const close = useCallback(() => {
+    if (onClose) onClose();
+    else router.push('/gallery');
+  }, [onClose, router]);
 
-  const filteredArtworks = useMemo(() => artworks.filter((artwork) => {
+  const filteredArtworks = useMemo(() => collection ?? artworks.filter((artwork) => {
     if (filterMuseum && artwork.sourceMuseum !== filterMuseum) return false;
     if (filterDynasty && artwork.dynasty !== filterDynasty) return false;
+    if (filterMaterial && artwork.material !== filterMaterial) return false;
+    if (filterObjectType && artwork.objectType !== filterObjectType) return false;
     return true;
-  }), [filterDynasty, filterMuseum]);
+  }), [collection, filterDynasty, filterMuseum, filterMaterial, filterObjectType]);
 
   const requestedStartIndex = useMemo(() => {
     if (!startId) return null;
@@ -244,7 +253,7 @@ export default function TVMode() {
           pauseAndGo(-1);
           break;
         case 'Escape':
-          router.push('/gallery');
+          close();
           break;
         case 'p':
         case 'P':
@@ -259,7 +268,7 @@ export default function TVMode() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [pauseAndGo, router, showUITemporarily, toggleMusic]);
+  }, [pauseAndGo, close, showUITemporarily, toggleMusic]);
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
@@ -294,10 +303,10 @@ export default function TVMode() {
 
   if (!total || allImagesBroken) {
     return (
-      <main className="fixed inset-0 flex min-h-[100dvh] items-center justify-center bg-[#050505] text-white/60">
+      <main className="fixed inset-0 z-[100] flex min-h-[100dvh] items-center justify-center bg-[#050505] text-white/60">
         <div className="text-center">
           <p className="text-xl">暂无可展示的藏品图片</p>
-          <Link href="/gallery" className="mt-5 inline-block border-b border-[#d4b896]/50 pb-1 text-[#d4b896]">返回画廊</Link>
+          <button type="button" onClick={close} className="mt-5 inline-block border-b border-[#d4b896]/50 pb-1 text-[#d4b896]">返回画廊</button>
         </div>
       </main>
     );
@@ -305,7 +314,7 @@ export default function TVMode() {
 
   return (
     <main
-      className="fixed inset-0 min-h-[100dvh] select-none overflow-hidden bg-[#050505] text-white"
+      className="fixed inset-0 z-[100] min-h-[100dvh] select-none overflow-hidden bg-[#050505] text-white"
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
@@ -394,10 +403,10 @@ export default function TVMode() {
         className={`absolute left-0 right-0 top-0 flex items-center justify-between px-6 py-6 transition-opacity duration-500 motion-reduce:transition-none sm:px-10 lg:px-16 ${showUI ? 'opacity-100' : 'opacity-0'}`}
         style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 1.5rem)' }}
       >
-        <Link href="/gallery" className="inline-flex items-center gap-2 text-sm tracking-wide text-white/55 transition-colors hover:text-white">
+        <button type="button" onClick={close} className="inline-flex items-center gap-2 text-sm tracking-wide text-white/55 transition-colors hover:text-white">
           <CaretLeft size={20} weight="light" />
           <span className="hidden sm:inline">返回画廊</span>
-        </Link>
+        </button>
         <Link href="/" className="text-lg tracking-[0.28em] text-white/45 transition-colors hover:text-white/75">器 · 茶</Link>
         <div className="flex items-center gap-5">
           <MusicToggle className="text-white/55 hover:text-white" />

@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { Suspense, useState, useMemo } from 'react';
 import { artworks, dynasties, materials, objectTypes, museums } from '@/data/artworks';
 import ArtworkCard from './ArtworkCard';
 import { useSlideshowContext } from './SlideshowProvider';
-import TVModeLink from './TVModeLink';
+import TVMode from './TVMode';
 
 type FilterType = 'dynasty' | 'material' | 'objectType' | 'museum';
 
@@ -14,6 +14,7 @@ export default function GalleryGrid() {
   const [activeFilter, setActiveFilter] = useState<FilterType>('dynasty');
   const [selectedValue, setSelectedValue] = useState<string>('全部');
   const [currentPage, setCurrentPage] = useState(1);
+  const [isTVOpen, setIsTVOpen] = useState(false);
   const { openSlideshow } = useSlideshowContext();
 
   const filterOptions = useMemo(() => {
@@ -103,6 +104,11 @@ export default function GalleryGrid() {
 
   return (
     <section className="py-12 bg-[#f5f3ef] dark:bg-[#171614]">
+      {isTVOpen && (
+        <Suspense fallback={null}>
+          <TVMode collection={filteredArtworks} onClose={() => setIsTVOpen(false)} />
+        </Suspense>
+      )}
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Filter Controls */}
         <div className="mb-12">
@@ -151,7 +157,8 @@ export default function GalleryGrid() {
             </p>
             <div className="flex gap-2">
               <button
-                onClick={() => openSlideshow()}
+                disabled={filteredArtworks.length === 0}
+                onClick={() => openSlideshow(undefined, filteredArtworks)}
                 className="inline-flex items-center gap-2 px-4 py-2 border border-[#1a1a1a] dark:border-[#e8e6e3] text-[#1a1a1a] dark:text-[#e8e6e3] hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-[#faf9f7] dark:hover:text-[#0f0f0e] text-sm tracking-wider transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,10 +166,10 @@ export default function GalleryGrid() {
                 </svg>
                 <span>幻灯</span>
               </button>
-              <TVModeLink
-                href={selectedValue !== '全部' && (activeFilter === 'museum' || activeFilter === 'dynasty')
-                  ? `/tv?${activeFilter}=${encodeURIComponent(selectedValue)}`
-                  : '/tv'}
+              <button
+                type="button"
+                disabled={filteredArtworks.length === 0}
+                onClick={() => setIsTVOpen(true)}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] dark:bg-[#e8e6e3] text-[#faf9f7] dark:text-[#0f0f0e] hover:bg-[#333] dark:hover:bg-[#c5c3bf] text-sm tracking-wider transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -170,7 +177,7 @@ export default function GalleryGrid() {
                 </svg>
                 <span>电视模式</span>
                 <span className="font-serif-en text-xs opacity-60">TV</span>
-              </TVModeLink>
+              </button>
             </div>
           </div>
         </div>
