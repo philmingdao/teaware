@@ -28,7 +28,7 @@ Verified 2026-10-03, tea-only curation.
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **1,451** |
+| Total Artworks | **1,428** |
 | Credited Museum Labels | 26 |
 | Dynasty Labels | 38 |
 | Object Type Labels | 24 |
@@ -36,14 +36,14 @@ Verified 2026-10-03, tea-only curation.
 ### By credited museum
 
 - 大都会艺术博物馆: 367
-- 维多利亚和阿尔伯特博物馆: 241
+- 维多利亚和阿尔伯特博物馆: 237
 - 荷兰国立博物馆: 239
 - 克利夫兰艺术博物馆: 174
 - 史密森尼亚洲艺术博物馆 (弗利尔/赛克勒): 99
-- 维基共享资源: 93
-- 东京国立博物馆: 92
+- 维基共享资源: 76
+- 东京国立博物馆: 91
 - 明尼阿波利斯艺术馆: 33
-- 京都国立博物馆: 31
+- 京都国立博物馆: 30
 - 史密森尼学会: 29
 - 史密森尼亚洲艺术博物馆: 19
 - 哈留斯卡博物馆: 7
@@ -62,7 +62,7 @@ Verified 2026-10-03, tea-only curation.
 - 九州国立博物馆: 1
 - 库珀·休伊特史密森设计博物馆: 1
 
-Only physical tea ware with explicit source tea-use evidence is admitted. Prints, book pages, photographs of works, textiles and other non-teaware are excluded. Source labels from old crawlers are insufficient evidence. The cleanup removed 4,574 out-of-scope records and suspended 5,431 records whose tea use remains unverified; see [the audit](research/teaware-curation-2026-10-03.md).
+Only physical tea ware with explicit source tea-use evidence is admitted. Prints, book pages, photographs of works, textiles and other non-teaware are excluded. Source labels from old crawlers are insufficient evidence. The cleanup removed 4,581 out-of-scope records and suspended 5,431 records whose tea use remains unverified; 16 unsuitable primary photographs (display cases, shelves and cropped detail views) were also removed. All 1,428 active entries use reviewed transparent WebPs across the cover, list and detail views; see [the audit](research/teaware-curation-2026-10-03.md).
 
 ## ✨ 特色 Features
 

@@ -56,6 +56,7 @@ for (const { artwork, record } of approved) {
     written.add(url);
   }
   assets[artwork.id] = { url, sourceSha256: record.sourceSha256, qaStatus: 'reviewed',
+    candidateSha256: record.candidateSha256,
     shadowBaselinePercent: record.shadowBaselinePercent,
     shadowContactCenterPercent: record.shadowContactCenterPercent,
     shadowContactWidthPercent: record.shadowContactWidthPercent,

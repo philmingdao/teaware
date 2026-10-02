@@ -144,7 +144,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
       </header>
 
       <main
-        className="relative min-h-0 w-full overflow-hidden bg-[#090908]"
+        className="relative min-h-0 w-full overflow-hidden bg-black"
         style={{
           transform: `translateX(${dragOffset}px)`,
           transition: isDragging ? 'none' : 'transform 300ms ease-out',

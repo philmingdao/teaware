@@ -1,6 +1,17 @@
 // Museum/source names carry admission evidence. Generated Chinese labels and
 // fallback objectTypeEnglish values never establish that an object is tea ware.
 export const POLICY_VERSION = 'tea-only-2026-10-03';
+// These source images are visibly publication pages, despite their legacy
+// imported object names. Image review takes precedence over the wrong labels.
+const publicationImages = new Set(['va-O105017', 'va-O152809', 'va-O168455']);
+const nonObjectImages = new Map([
+  ['va-O91953', 'textile-image'],
+  ['wiki-82172364', 'publication-illustration'],
+  ...['wiki-66320513', 'wiki-66320532', 'wiki-66320579', 'wiki-66320697', 'wiki-66320741',
+    'wmc-66320513', 'wmc-66320532', 'wmc-66320579', 'wmc-66320697', 'wmc-66320741',
+    'wmc-55348970', 'wmc-55348973'].map(id => [id, 'display-case-or-shelf-photo']),
+  ...['wiki-36831786', 'wmc-27254420', 'wmc-157970436', 'wmc-157970466'].map(id => [id, 'partial-detail-photograph']),
+]);
 
 const flatNames = /\b(?:print|painting|drawing|photograph|album|sketch|postcard|engraving|etching|lithograph|page|book|scroll|watercolou?r|poster|woodburytype|woodcut|woodblock|mezzotint|aquatint|photogravure|albumen|stereograph|cartoon|carte-de-visite)\b/i;
 const flatMaterial = /\b(?:paper|parchment|photographic support|cardboard|canvas)\b/i;
@@ -25,10 +36,18 @@ export function sourceEvidence(artwork) {
 
 export function classifyTeaware(artwork, reviewed = {}) {
   const evidence = sourceEvidence(artwork);
+  if (nonObjectImages.has(artwork.id)) return { decision: 'reject', reason: nonObjectImages.get(artwork.id), evidence: 'Visual review: unsuitable primary collection image. ' + evidence };
+  if (publicationImages.has(artwork.id)) return { decision: 'reject', reason: 'publication-page-image', evidence: 'Visual source-image review: printed book/catalogue page. ' + evidence };
   const names = [artwork.titleEnglish, artwork.materialEnglish, artwork.objectTypeEnglish].join(' ');
   // Material names in the V&A import are often the actual source object name.
   const primary = [artwork.titleEnglish, artwork.materialEnglish].join(' ');
   const tea = evidence.match(teaNames)?.[0];
+  if (/分記|絵巻|図譜|画帖|書状|文書|手紙|消息|書付|墨蹟|書跡/.test(primary)) {
+    return { decision: 'reject', reason: 'flat-artwork-or-publication', evidence };
+  }
+  if (/緞子|金襴(?!手)|仕覆|茶巾|袱紗|服紗|袈裟|織物/.test(primary) && !/\bnamed\b/i.test(primary)) {
+    return { decision: 'reject', reason: 'textile-or-garment', evidence };
+  }
   if (artwork.id === 'wiki-89869791' || flatNames.test(artwork.objectTypeEnglish ?? '') ||
     flatMedium.test(artwork.materialEnglish ?? '') ||
     (flatMaterial.test(artwork.materialEnglish ?? '') && !vesselMaterial.test(artwork.materialEnglish ?? '')) ||

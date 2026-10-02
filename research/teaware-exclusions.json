@@ -2,11 +2,59 @@
   "version": 1,
   "policy": "tea-only-2026-10-03",
   "before": 11456,
-  "kept": 1451,
-  "removed": 10005,
-  "confirmedOutOfScope": 4574,
+  "kept": 1428,
+  "removed": 10028,
+  "confirmedOutOfScope": 4581,
+  "primaryImageExcluded": 16,
   "teaUseUnverified": 5431,
   "beforeCatalogueSha256": "63684f208daf361a2ab2e8b66e5298a9262dd2acbca55eb6f64e5689d1eb976f",
+  "runs": [
+    {
+      "policy": "tea-only-2026-10-03",
+      "before": 1450,
+      "kept": 1450,
+      "removed": 0,
+      "confirmedOutOfScope": 0,
+      "teaUseUnverified": 0,
+      "beforeCatalogueSha256": "b3801149631851eb37b7bf1a70cfacffe71245cbe2c920cd5817a12dee88e5d8"
+    },
+    {
+      "policy": "tea-only-2026-10-03",
+      "before": 1450,
+      "kept": 1449,
+      "removed": 1,
+      "confirmedOutOfScope": 1,
+      "teaUseUnverified": 0,
+      "beforeCatalogueSha256": "b3801149631851eb37b7bf1a70cfacffe71245cbe2c920cd5817a12dee88e5d8"
+    },
+    {
+      "policy": "tea-only-2026-10-03",
+      "before": 1449,
+      "kept": 1446,
+      "removed": 3,
+      "confirmedOutOfScope": 3,
+      "teaUseUnverified": 0,
+      "beforeCatalogueSha256": "ab89b3684a0d7454566a255633004a63970320e3e8bed062ca5f4ff0283206c0"
+    },
+    {
+      "policy": "tea-only-2026-10-03",
+      "before": 1446,
+      "kept": 1428,
+      "removed": 18,
+      "confirmedOutOfScope": 18,
+      "teaUseUnverified": 0,
+      "beforeCatalogueSha256": "3014486e972f56096b2930caf1cfd8876eb63294fb4a9ff10097da5468436cfb"
+    },
+    {
+      "policy": "tea-only-2026-10-03",
+      "before": 1428,
+      "kept": 1428,
+      "removed": 0,
+      "confirmedOutOfScope": 0,
+      "teaUseUnverified": 0,
+      "beforeCatalogueSha256": "4f04738b06c78fd727a99caa4dd0acbe33d96c0ec78a6ca60e4f1bc589d3b4ce"
+    }
+  ],
   "entries": [
     {
       "id": "si-fsg-F1930.98",
@@ -100057,6 +100105,236 @@
       "sourceSha256": "2076e9b424daac524fd39cdf8ca1db1e64411cabf63cc013ad2e551c67494f49",
       "reason": "tea-use-unverified",
       "evidence": "Raku 15.06.2014 09-59-47 | Raku Ware | Raku 15.06.2014 09-59-47.jpg"
+    },
+    {
+      "id": "colbase-kyohaku-I甲270",
+      "titleEnglish": "茶筅文様緞子",
+      "objectTypeEnglish": "Tea Utensil",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/kyohaku/I%E7%94%B2270",
+      "sourceSha256": "cfb7fa480cf03f117bbfb24071225a3d7d7008bad4cee85d53e981233f6d36e5",
+      "reason": "textile-or-garment",
+      "evidence": "茶筅文様緞子 | Ceramics"
+    },
+    {
+      "id": "colbase-tnm-QA-3113",
+      "titleEnglish": "茶入窯分記《瀬戸窯茶入分記》",
+      "objectTypeEnglish": "Tea Caddy (Chaire)",
+      "materialEnglish": "Seto Ware",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/QA-3113",
+      "sourceSha256": "fa88c5d0e0c88d85a81362029f3666af87db6667e278b218155cc500c1df2c13",
+      "reason": "flat-artwork-or-publication",
+      "evidence": "茶入窯分記《瀬戸窯茶入分記》 | Seto Ware"
+    },
+    {
+      "id": "va-O152809",
+      "titleEnglish": "Teapot",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Teapot",
+      "sourceUrl": "https://collections.vam.ac.uk/item/O152809",
+      "sourceSha256": "ab3aa322a59dee73aa13107b4c543e1987655ee27d2bb444121340024fcfede4",
+      "reason": "publication-page-image",
+      "evidence": "Visual source-image review: printed book/catalogue page. Teapot | Teapot"
+    },
+    {
+      "id": "va-O168455",
+      "titleEnglish": "",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Teapot and lid",
+      "sourceUrl": "https://collections.vam.ac.uk/item/O168455",
+      "sourceSha256": "d5d22442c465f5219588b98fedcef39dcdbb7e53f0e8366ace0626e2daf51a23",
+      "reason": "publication-page-image",
+      "evidence": "Visual source-image review: printed book/catalogue page. Teapot and lid"
+    },
+    {
+      "id": "va-O105017",
+      "titleEnglish": "",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Tea caddy",
+      "sourceUrl": "https://collections.vam.ac.uk/item/O105017",
+      "sourceSha256": "54cb0cc8a8f91e6a6f90caa3686c8c4138044defd4d786b3c4813492be0879d1",
+      "reason": "publication-page-image",
+      "evidence": "Visual source-image review: printed book/catalogue page. Tea caddy"
+    },
+    {
+      "id": "wiki-66320741",
+      "titleEnglish": "Tea bowls, Kiln of Tang Family, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Tea Bowl/Cup",
+      "materialEnglish": "Porcelain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowls,_Kiln_of_Tang_Family,_Song_dynasty,_Hunan_Museum.jpg",
+      "sourceSha256": "6c932bc06387d5cf8466c4d616aed360484a0ebac477e2ea078428b541070b21",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Tea bowls, Kiln of Tang Family, Song dynasty, Hunan Museum | Porcelain | Tea bowls, Kiln of Tang Family, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wiki-66320513",
+      "titleEnglish": "Teapots and tea bowls, Qiziqiao Kiln in Xiangxiang, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Porcelain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teapots_and_tea_bowls,_Qiziqiao_Kiln_in_Xiangxiang,_Song_dynasty,_Hunan_Museum.jpg",
+      "sourceSha256": "a0b2decfdc37e9067190ec9b5570cc2235c7b6ef19b7042d0137022e3d27c4a9",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Teapots and tea bowls, Qiziqiao Kiln in Xiangxiang, Song dynasty, Hunan Museum | Porcelain | Teapots and tea bowls, Qiziqiao Kiln in Xiangxiang, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wiki-66320532",
+      "titleEnglish": "Teapots and tea bowls, Qiziqiao Kiln and Jian Kiln in Xiangxiang, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Jian Ware",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teapots_and_tea_bowls,_Qiziqiao_Kiln_and_Jian_Kiln_in_Xiangxiang,_Song_dynasty,_Hunan_Museum.jpg",
+      "sourceSha256": "5164f42ba35ef90db4aef25461975e14c9d493603e28fa06deea6690d56a2a7f",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Teapots and tea bowls, Qiziqiao Kiln and Jian Kiln in Xiangxiang, Song dynasty, Hunan Museum | Jian Ware | Teapots and tea bowls, Qiziqiao Kiln and Jian Kiln in Xiangxiang, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wiki-66320579",
+      "titleEnglish": "Teapots, tea bowls and cinder hopper, Changsha Kiln in Changsha, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Porcelain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teapots,_tea_bowls_and_cinder_hopper,_Changsha_Kiln_in_Changsha,_Song_dynasty,_Hunan_Museum.jpg",
+      "sourceSha256": "f8ee57d1a2684305d3c7e0255c42ea7be9f26bb9da916e0008f5a601a1a23046",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Teapots, tea bowls and cinder hopper, Changsha Kiln in Changsha, Song dynasty, Hunan Museum | Porcelain | Teapots, tea bowls and cinder hopper, Changsha Kiln in Changsha, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wiki-66320697",
+      "titleEnglish": "Tea bowls, Longquan Kiln in Linxiang, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Tea Bowl/Cup",
+      "materialEnglish": "Porcelain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowls,_Longquan_Kiln_in_Linxiang,_Song_dynasty,_Hunan_Museum.jpg",
+      "sourceSha256": "537b13ff66745d997106a39d59c41e0fe31f2e8ef25d68c84ffcf10a0eec714c",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Tea bowls, Longquan Kiln in Linxiang, Song dynasty, Hunan Museum | Porcelain | Tea bowls, Longquan Kiln in Linxiang, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wmc-66320513",
+      "titleEnglish": "Teapots and tea bowls, Qiziqiao Kiln in Xiangxiang, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATeapots%20and%20tea%20bowls%2C%20Qiziqiao%20Kiln%20in%20Xiangxiang%2C%20Song%20dynasty%2C%20Hunan%20Museum.jpg",
+      "sourceSha256": "aaaf3aebc92c9c304d691819204df8b99c43780f23a3558ae9aa2686ba1e0068",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Teapots and tea bowls, Qiziqiao Kiln in Xiangxiang, Song dynasty, Hunan Museum | Ceramics | Teapots and tea bowls, Qiziqiao Kiln in Xiangxiang, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wmc-66320532",
+      "titleEnglish": "Teapots and tea bowls, Qiziqiao Kiln and Jian Kiln in Xiangxiang, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Jian Ware",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATeapots%20and%20tea%20bowls%2C%20Qiziqiao%20Kiln%20and%20Jian%20Kiln%20in%20Xiangxiang%2C%20Song%20dynasty%2C%20Hunan%20Museum.jpg",
+      "sourceSha256": "319944bf44e94973fc75e6c21800308215fb4650199707e2ad4d9293bac050a4",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Teapots and tea bowls, Qiziqiao Kiln and Jian Kiln in Xiangxiang, Song dynasty, Hunan Museum | Jian Ware | Teapots and tea bowls, Qiziqiao Kiln and Jian Kiln in Xiangxiang, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wmc-66320579",
+      "titleEnglish": "Teapots, tea bowls and cinder hopper, Changsha Kiln in Changsha, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Teapot",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATeapots%2C%20tea%20bowls%20and%20cinder%20hopper%2C%20Changsha%20Kiln%20in%20Changsha%2C%20Song%20dynasty%2C%20Hunan%20Museum.jpg",
+      "sourceSha256": "5a20a26c5e238efd1a224bed18b5032ef2d16618af048dc8b3298bd1b1307d94",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Teapots, tea bowls and cinder hopper, Changsha Kiln in Changsha, Song dynasty, Hunan Museum | Ceramics | Teapots, tea bowls and cinder hopper, Changsha Kiln in Changsha, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wmc-66320697",
+      "titleEnglish": "Tea bowls, Longquan Kiln in Linxiang, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Tea Bowl",
+      "materialEnglish": "Longquan Celadon",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATea%20bowls%2C%20Longquan%20Kiln%20in%20Linxiang%2C%20Song%20dynasty%2C%20Hunan%20Museum.jpg",
+      "sourceSha256": "ab5f930d011a6b924beec2f8ce774a4ac11fd36ae75e7fae98218117ad97e4f0",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Tea bowls, Longquan Kiln in Linxiang, Song dynasty, Hunan Museum | Longquan Celadon | Tea bowls, Longquan Kiln in Linxiang, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wmc-66320741",
+      "titleEnglish": "Tea bowls, Kiln of Tang Family, Song dynasty, Hunan Museum",
+      "objectTypeEnglish": "Tea Bowl",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATea%20bowls%2C%20Kiln%20of%20Tang%20Family%2C%20Song%20dynasty%2C%20Hunan%20Museum.jpg",
+      "sourceSha256": "0ecd33866a46f08b338ddfc8f228cc28241e17cb0eb0b9faf82a4b19eab047ab",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. Tea bowls, Kiln of Tang Family, Song dynasty, Hunan Museum | Ceramics | Tea bowls, Kiln of Tang Family, Song dynasty, Hunan Museum.jpg"
+    },
+    {
+      "id": "wmc-27254420",
+      "titleEnglish": "Mizusashi (water container for Tea Ceremony) in the form of a Wooden Bucket LACMA M.2009.16a-c (5 of 7)",
+      "objectTypeEnglish": "Mizusashi",
+      "materialEnglish": "Tamba Ware",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMizusashi%20(water%20container%20for%20Tea%20Ceremony)%20in%20the%20form%20of%20a%20Wooden%20Bucket%20LACMA%20M.2009.16a-c%20(5%20of%207).jpg",
+      "sourceSha256": "d8fcbacb4fd50303893287af0079e3f431d2f6b233ecb30580a1c417833c1232",
+      "reason": "partial-detail-photograph",
+      "evidence": "Visual review: unsuitable primary collection image. Mizusashi (water container for Tea Ceremony) in the form of a Wooden Bucket LACMA M.2009.16a-c (5 of 7) | Tamba Ware | Mizusashi (water container for Tea Ceremony) in the form of a Wooden Bucket LACMA M.2009.16a-c (5 of 7).jpg"
+    },
+    {
+      "id": "wiki-36831786",
+      "titleEnglish": "Botten av tekanna med stämplar och museets inventarienummer - Hallwylska museet - 95953",
+      "objectTypeEnglish": "Tea Bowl/Cup",
+      "materialEnglish": "Yixing Clay",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Botten_av_tekanna_med_st%C3%A4mplar_och_museets_inventarienummer_-_Hallwylska_museet_-_95953.tif",
+      "sourceSha256": "c021090ebd2ce5f152b748fc247e8977cbe8c1b19d2f37150b8b3dc6322863ed",
+      "reason": "partial-detail-photograph",
+      "evidence": "Visual review: unsuitable primary collection image. Botten av tekanna med stämplar och museets inventarienummer - Hallwylska museet - 95953 | Yixing Clay | Botten av tekanna med stämplar och museets inventarienummer - Hallwylska museet - 95953.tif"
+    },
+    {
+      "id": "wiki-82172364",
+      "titleEnglish": "Janet Riza, Toleware Tea Caddy, 1935-1942, NGA 27248",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Porcelain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Janet_Riza,_Toleware_Tea_Caddy,_1935-1942,_NGA_27248.jpg",
+      "sourceSha256": "3af79e5454d85ab9ea2c3d7c1afe2162d31f1baf5ced0bc15d67a5b8087bda16",
+      "reason": "publication-illustration",
+      "evidence": "Visual review: unsuitable primary collection image. Janet Riza, Toleware Tea Caddy, 1935-1942, NGA 27248 | Porcelain | Janet Riza, Toleware Tea Caddy, 1935-1942, NGA 27248.jpg"
+    },
+    {
+      "id": "va-O91953",
+      "titleEnglish": "",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Tea caddy",
+      "sourceUrl": "https://collections.vam.ac.uk/item/O91953",
+      "sourceSha256": "669777ca593529e01ff8274feb53afac9150bcfb75d101ed2e2282049e75ef09",
+      "reason": "textile-image",
+      "evidence": "Visual review: unsuitable primary collection image. Tea caddy"
+    },
+    {
+      "id": "wmc-55348970",
+      "titleEnglish": "2016-10 tea caddy 01",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016-10%20tea%20caddy%2001.jpg",
+      "sourceSha256": "ac237eda61c1f90282c639e769ee7e4dfe73dd791ce4fefa226007999e16e8cd",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. 2016-10 tea caddy 01 | Ceramics | 2016-10 tea caddy 01.jpg"
+    },
+    {
+      "id": "wmc-55348973",
+      "titleEnglish": "2016-10 tea caddy 02",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016-10%20tea%20caddy%2002.jpg",
+      "sourceSha256": "278e7fc7c2bc65128d060d4c44f32e41921831f0342793b27e41b8e7f7710116",
+      "reason": "display-case-or-shelf-photo",
+      "evidence": "Visual review: unsuitable primary collection image. 2016-10 tea caddy 02 | Ceramics | 2016-10 tea caddy 02.jpg"
+    },
+    {
+      "id": "wmc-157970436",
+      "titleEnglish": "Antique Regency rosewood dual compartment tea caddy-1",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntique%20Regency%20rosewood%20dual%20compartment%20tea%20caddy-1.jpg",
+      "sourceSha256": "fb2112f439e233a95ca1635078505da42dae8418eaaf134d0c09a38c35cb7522",
+      "reason": "partial-detail-photograph",
+      "evidence": "Visual review: unsuitable primary collection image. Antique Regency rosewood dual compartment tea caddy-1 | Ceramics | Antique Regency rosewood dual compartment tea caddy-1.jpg"
+    },
+    {
+      "id": "wmc-157970466",
+      "titleEnglish": "Antique Regency rosewood dual compartment tea caddy-2",
+      "objectTypeEnglish": "Tea Caddy",
+      "materialEnglish": "Ceramics",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntique%20Regency%20rosewood%20dual%20compartment%20tea%20caddy-2.jpg",
+      "sourceSha256": "35557de8a3206107c462debda2bad36b71184c73e30500deb946d714b833194b",
+      "reason": "partial-detail-photograph",
+      "evidence": "Visual review: unsuitable primary collection image. Antique Regency rosewood dual compartment tea caddy-2 | Ceramics | Antique Regency rosewood dual compartment tea caddy-2.jpg"
     }
   ]
 }

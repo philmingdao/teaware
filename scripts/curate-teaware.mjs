@@ -34,8 +34,15 @@ for (const { artwork, result } of removed) {
     sourceUrl: artwork.sourceUrl, sourceSha256: crypto.createHash('sha256').update(bytes).digest('hex'),
     reason: result.reason, evidence: result.evidence });
 }
-await fs.writeFile('research/teaware-exclusions.json', JSON.stringify({ version: 1, ...summary,
-  beforeCatalogueSha256: beforeHash, entries: [...entries.values()] }, null, 2) + '\n');
+const ledger = [...entries.values()];
+const imageReasons = new Set(['display-case-or-shelf-photo', 'partial-detail-photograph']);
+await fs.writeFile('research/teaware-exclusions.json', JSON.stringify({ version: 1, policy: POLICY_VERSION,
+  before: keep.length + ledger.length, kept: keep.length, removed: ledger.length,
+  confirmedOutOfScope: ledger.filter(row => row.reason !== 'tea-use-unverified' && !imageReasons.has(row.reason)).length,
+  primaryImageExcluded: ledger.filter(row => imageReasons.has(row.reason)).length,
+  teaUseUnverified: ledger.filter(row => row.reason === 'tea-use-unverified').length,
+  beforeCatalogueSha256: prior.beforeCatalogueSha256 ?? beforeHash,
+  runs: [...(prior.runs ?? []), { ...summary, beforeCatalogueSha256: beforeHash }], entries: ledger }, null, 2) + '\n');
 const serialized = JSON.stringify(keep, null, 2) + '\n';
 await fs.writeFile('src/data/artworks.json', serialized);
 await fs.writeFile('public/artworks.json', serialized);

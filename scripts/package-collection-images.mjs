@@ -1,6 +1,7 @@
 // Called after Next export. Archive originals remain in the repo; serve only
 // the reviewed transparent collection once full coverage has been achieved.
 import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
 
 const manifest = JSON.parse(await fs.readFile('src/data/collection-cutouts.json', 'utf8'));
 const artworks = JSON.parse(await fs.readFile('src/data/artworks.json', 'utf8'));
@@ -13,6 +14,14 @@ if (!Object.keys(assets).length) {
 } else {
   const missing = artworks.filter(item => assets[item.id]?.qaStatus !== 'reviewed');
   if (missing.length) throw new Error(`Incomplete transparent collection: ${missing.length} images missing approval.`);
+  const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+  for (const item of artworks) {
+    const asset = assets[item.id];
+    if (hash(await fs.readFile(`public${item.imageUrl}`)) !== asset.sourceSha256 ||
+        hash(await fs.readFile(`public${asset.url}`)) !== asset.candidateSha256) {
+      throw new Error(`Image changed since transparent review: ${item.id}`);
+    }
+  }
   const expected = new Set(Object.values(assets).map(asset => asset.url.split('/').at(-1)));
   for (const name of await fs.readdir('out/collection-cutouts')) {
     if (!expected.has(name)) await fs.rm(`out/collection-cutouts/${name}`);

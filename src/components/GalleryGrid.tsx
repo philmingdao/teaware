@@ -103,7 +103,7 @@ export default function GalleryGrid() {
   };
 
   return (
-    <section className="py-12 bg-[#f5f3ef] dark:bg-[#171614]">
+    <section className="collection-surface py-12">
       {isTVOpen && (
         <Suspense fallback={null}>
           <TVMode collection={filteredArtworks} onClose={() => setIsTVOpen(false)} />

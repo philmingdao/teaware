@@ -1,0 +1,835 @@
+[
+  {
+    "id": "rks-200367615",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367615",
+    "imageSource": "https://iiif.micr.io/okSFn/1634,2216,1239,1175/!1239,1239/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4538,
+    "museumHeight": 4538,
+    "width": 1239,
+    "height": 1175,
+    "previousSourceSha256": "3c0ff483f5398eb360dfaa3a2ddadfaf90ce58d55231e8ffdf591dcad759717d",
+    "museumCropSha256": "9ca2b34b5849d03e3733032e74e7de510250df3e4c38fd115a740633c2df7d15",
+    "sourceSha256": "dd45c3f8a291b23c508b54dca01aba07fc72204dde43055567ee32bd00df565d"
+  },
+  {
+    "id": "rks-200367618",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367618",
+    "imageSource": "https://iiif.micr.io/SaxUN/1639,2146,1244,1164/!1244,1244/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4534,
+    "museumHeight": 4534,
+    "width": 1244,
+    "height": 1164,
+    "previousSourceSha256": "6925b0c27b3970d4a1c13441c652b2a764be0a8a4756573fe124d2ad8b403bb5",
+    "museumCropSha256": "51ffe6237bb6e7d3370f45b0752f45e11a7f3558b05caeab8002de5e3dcfc02b",
+    "sourceSha256": "b63dac6d974bfa561fde1176bf43b7f1d92d0ce23545ff030a51172942d86f6d"
+  },
+  {
+    "id": "rks-200367619",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367619",
+    "imageSource": "https://iiif.micr.io/oDQEa/1551,1906,1005,933/!1005,1005/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4100,
+    "museumHeight": 4100,
+    "width": 1005,
+    "height": 933,
+    "previousSourceSha256": "8658ad7ecea39c4f8b2b0e8420dc867c0dd8e02b6068e510fa832cb05d7ab22b",
+    "museumCropSha256": "649f6dd38693eec80280247e2a8a0a89b979595a1f5f5e4277795ede582a6a70",
+    "sourceSha256": "3ccf89eac1976bf2ea98ad8293edf51185bea9b1ac691bbc969cf03c83d6ea38"
+  },
+  {
+    "id": "rks-200367620",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367620",
+    "imageSource": "https://iiif.micr.io/PWCcP/1733,2182,1274,1178/!1274,1274/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4607,
+    "museumHeight": 4607,
+    "width": 1274,
+    "height": 1178,
+    "previousSourceSha256": "f7a5fd0b0413885508c05ab614175ec310e2f9471a9033372936dfdedd6872c5",
+    "museumCropSha256": "fd8e6844a3afb0776bd4eda278aecd5f8f0de5bbaff1d7951f747397feee096a",
+    "sourceSha256": "637091bfd6938fe92feac8531e63a3eb7aca83cee65aa4e2bd5cc8b9439e98f5"
+  },
+  {
+    "id": "rks-200367622",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367622",
+    "imageSource": "https://iiif.micr.io/yCPEM/1397,1725,1110,1006/!1110,1110/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 3931,
+    "museumHeight": 3931,
+    "width": 1110,
+    "height": 1006,
+    "previousSourceSha256": "8f2e2aa030114cbd67664a380e02fbe15a591172fdfd3067d695114e74a0f447",
+    "museumCropSha256": "704643ebb292d14957cb8688a3599b142f86c8e9d135dcba419db3e28b0d72f1",
+    "sourceSha256": "75f119466866039d681968a7f0bc206e625340fc9aaf79295b6062886eb3fe98"
+  },
+  {
+    "id": "rks-200367623",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367623",
+    "imageSource": "https://iiif.micr.io/ESpwg/1685,2144,1120,1058/!1120,1120/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4403,
+    "museumHeight": 4404,
+    "width": 1120,
+    "height": 1058,
+    "previousSourceSha256": "4c887f2409f36f96ec66739c7ec1438235346e793e88bd73eb8a49985368a3a5",
+    "museumCropSha256": "3a62e4a6dbee58654905a6d3f13d3853afa90dc9e206e2467373314d176af570",
+    "sourceSha256": "cd1034005ce7f5792bb156b785409b373538c2f47a68fd68432965c7b1c74772"
+  },
+  {
+    "id": "rks-200367624",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367624",
+    "imageSource": "https://iiif.micr.io/YbhNd/1667,2107,1185,1140/!1185,1185/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4471,
+    "museumHeight": 4471,
+    "width": 1185,
+    "height": 1140,
+    "previousSourceSha256": "09efeb3b2ded55f07ce4f2fa2195de8fb92893cc3b9cf180212a42b06753c527",
+    "museumCropSha256": "3fedd60ac40aa2bc5e41a7c9f9ecf268c9475af06c126a7f7129840111b4aa3c",
+    "sourceSha256": "2299aec9b43667df0c3af7750c48bc8febfe1725487326ed056445068ea102f4"
+  },
+  {
+    "id": "rks-200367625",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367625",
+    "imageSource": "https://iiif.micr.io/RyMeu/1527,1886,1048,956/!1048,1048/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4100,
+    "museumHeight": 4100,
+    "width": 1048,
+    "height": 956,
+    "previousSourceSha256": "d071e17e591769b6b2a6fbe8b0bffcb98f2fa9020959c17b544e5f84887b6ff2",
+    "museumCropSha256": "a64c5c09832281eca08d92f90515f54fa95e9aae17b58d491faf0c5bbbf7193b",
+    "sourceSha256": "17442650d1223eb8a2dea28c0d2b403081d74247a4b4072d051b105f5115745b"
+  },
+  {
+    "id": "rks-200367627",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367627",
+    "imageSource": "https://iiif.micr.io/xpQsP/1380,1794,1378,1139/!1378,1378/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4422,
+    "museumHeight": 4100,
+    "width": 1378,
+    "height": 1139,
+    "previousSourceSha256": "8f4007991ce713236ffe4e6f8cb23afd346d2a84ef4a1c064ec6472389616fd6",
+    "museumCropSha256": "9ef1774c637719e302705f266c36e1ba5b2ba7b314a67d36fcaf42f4ef66a86a",
+    "sourceSha256": "bf0467c371d62efc387191628294fb48f74ea242b8a4478098d7e87b0fbc365a"
+  },
+  {
+    "id": "rks-200367629",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367629",
+    "imageSource": "https://iiif.micr.io/JUKxk/1659,1859,1814,1578/!1600,1600/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 5341,
+    "museumHeight": 5341,
+    "width": 1600,
+    "height": 1392,
+    "previousSourceSha256": "9835930a8ba9509066117c8c1654bd48bcfafcbe4893767ae880f36a7eb11f80",
+    "museumCropSha256": "6c35102e96cadb23bd863c53f65e167d6979ad46489b85dbffda6cc0b3e2174e",
+    "sourceSha256": "49b24cda2028b06ae863f43bb8410ecc82356482556ca8dcb4de6745e1709a23"
+  },
+  {
+    "id": "rks-200367630",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367630",
+    "imageSource": "https://iiif.micr.io/vHBjq/1534,1760,1254,1174/!1254,1254/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4422,
+    "museumHeight": 4100,
+    "width": 1254,
+    "height": 1174,
+    "previousSourceSha256": "ba2f47eebe881d6a48b7dda9fa5574d86d4c7c7597711a214ac189b6d2e40820",
+    "museumCropSha256": "f85950e769925450df6631c23aee29cde47dc8d26ef8eaed2e3c6941214e03f1",
+    "sourceSha256": "f55e9879e26bd8032ed3ca33611525dfa480ff459252ec0aeef390b841dea78d"
+  },
+  {
+    "id": "rks-200367639",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367639",
+    "imageSource": "https://iiif.micr.io/pszRs/1479,1741,1409,1255/!1409,1409/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 4422,
+    "museumHeight": 4100,
+    "width": 1409,
+    "height": 1255,
+    "previousSourceSha256": "616beb22843d51663ff80fc4299b68e8559f947f8ba39ea9b85a8f1a11466a7b",
+    "museumCropSha256": "5d9f3290543a74dfb41dd294cc14ff3495a6b2cdb536221858973b75373a3d29",
+    "sourceSha256": "0b5a2218228a7aa0ef735531c7f9a1ef8450d470bcbf5eeeb8e3419e7fe4d26c"
+  },
+  {
+    "id": "rks-200367643",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367643",
+    "imageSource": "https://iiif.micr.io/ctruo/1706,1835,1826,1711/!1600,1600/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 5341,
+    "museumHeight": 5341,
+    "width": 1600,
+    "height": 1499,
+    "previousSourceSha256": "daf8c12542c272a3937965bcfbc0bc6740b5a1e5fc89f44105ab16b39d1e4574",
+    "museumCropSha256": "7b7f1e691defa675c9f54641dc7fa79e1031e7f433c06783ecf2017f08697e33",
+    "sourceSha256": "6c126441fb2343196a1d2940e2d3bacdce7f2e5497b024dba7430f397cde6eeb"
+  },
+  {
+    "id": "rks-200367628",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367628",
+    "imageSource": "https://iiif.micr.io/ZTAgb/1111,1164,783,717/!783,783/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 3033,
+    "museumHeight": 3033,
+    "width": 783,
+    "height": 717,
+    "previousSourceSha256": "6973b32249ff982487f3e2fcad036321cd81f3b3ce355da7f3d047fb934e04e7",
+    "museumCropSha256": "e870ee3ac25d3e12ccd4e38b30681d3caef64b4c5430c76fed534e515615fa5f",
+    "sourceSha256": "c6ad647c73370e95d1ba102bb3ad8c92c33c7985d18a485af5f2185d989b3f25"
+  },
+  {
+    "id": "rks-200367631",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367631",
+    "imageSource": "https://iiif.micr.io/gvSNO/1119,1167,818,734/!818,818/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 3033,
+    "museumHeight": 3033,
+    "width": 818,
+    "height": 734,
+    "previousSourceSha256": "e7e57e03af03f52a04bc618360fa89dfc25cdc507829253f525c6ed3e6dbb1fb",
+    "museumCropSha256": "13bce003da721f3557f255f11d33913f3f10b5db9f12c0f6f0ffdf08931b53b1",
+    "sourceSha256": "b4d81cf46fcbfbe74f03ac89db9427eb15df2548df3b9f5aab9791f2d7e02ad5"
+  },
+  {
+    "id": "rks-200367632",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367632",
+    "imageSource": "https://iiif.micr.io/vodQg/1039,1196,793,732/!793,793/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 3033,
+    "museumHeight": 3033,
+    "width": 793,
+    "height": 732,
+    "previousSourceSha256": "e795118539ad18bc67ae3266bffe2a586c48e0f90ee83fb7c04e9219f868ddda",
+    "museumCropSha256": "fb6ae5cf58be474e551b3d19c962e8af341ea89414da5629268ccce76a1f2ded",
+    "sourceSha256": "edcb37fbbee82b85e97e250cd8e41d39e1ef9b18e137bdd3be41378def86574e"
+  },
+  {
+    "id": "rks-200367635",
+    "state": "refreshed",
+    "objectSource": "https://id.rijksmuseum.nl/200367635",
+    "imageSource": "https://iiif.micr.io/sMZQJ/1129,1280,783,747/!783,783/0/default.jpg",
+    "rights": [
+      {
+        "type": "Right",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "Public Domain",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language",
+                "_label": "English"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Publieke domein",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language",
+                "_label": "Dutch"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "Type",
+            "_label": "Public Domain"
+          }
+        ]
+      }
+    ],
+    "museumWidth": 3033,
+    "museumHeight": 3033,
+    "width": 783,
+    "height": 747,
+    "previousSourceSha256": "16f041c996ffb286130642f9524f5ee99e62b1c6fb81ec92ae9882e7276c83f8",
+    "museumCropSha256": "43d4f91a9845a1a0590ae2c5b526a1628b180d0eea50ec501b075ba033462a50",
+    "sourceSha256": "7224358a1b924d9a9326d59b5695906dc4fa4bc3ac237d50c5db67f50fe71d70"
+  }
+]

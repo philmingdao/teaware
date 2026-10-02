@@ -21,6 +21,7 @@ interface Sample {
   shadowContactWidthPercent: number;
   shadowCastCenterPercent: number;
   shadowCastWidthPercent: number;
+  shadowEnabled?: boolean;
 }
 type View = 'cutout' | 'original' | 'compare';
 
@@ -45,7 +46,7 @@ export default function CutoutGallery({ samples }: { samples: Sample[] }) {
         </div>
         <button className={styles.depthButton} aria-pressed={depth} disabled={view === 'original'} onClick={() => setDepth(!depth)}>顶部照明投影 {depth ? '开' : '关'}</button>
       </div>
-      <p className={styles.hint}>本页为 AI 去背景效果试样，器物细节以馆藏原图为准。选择并排对照核对细节；图片可点开近看。</p>
+      <p className={styles.hint}>透明图由本地分割模型提取轮廓，保留原图色彩与纹样。选择并排对照核对细节；图片可点开近看。</p>
 
       <div className={`${styles.grid} ${view === 'compare' ? styles.comparisonGrid : ''}`}>
         {samples.map((sample, index) => (
@@ -65,7 +66,7 @@ export default function CutoutGallery({ samples }: { samples: Sample[] }) {
                   '--shadow-cast-center': `${sample.shadowCastCenterPercent}%`,
                   '--shadow-cast-width': `${sample.shadowCastWidthPercent}%`,
                 } as CSSProperties} aria-label={`近看${sample.titleChinese}透明底图片`}>
-                  {depth && <>
+                  {depth && sample.shadowEnabled !== false && <>
                     <span className={styles.castShadow} aria-hidden="true" />
                     <span className={styles.contactShadow} aria-hidden="true" />
                   </>}

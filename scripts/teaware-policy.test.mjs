@@ -10,9 +10,11 @@ test('depictions and publications cannot qualify by their tea-related titles', (
   assert.equal(classify('Tea Service', 'Albumen silver print'), 'reject');
   assert.equal(classify('Tea Bowl', 'Woodburytype on paper'), 'reject');
   assert.equal(classify('Tea bowl', 'paper', 'page'), 'reject');
+  assert.equal(classify('茶入窯分記《瀬戸窯茶入分記》', 'Seto Ware', 'Tea Caddy'), 'reject');
 });
 test('garments, tomb artifacts and ordinary vessels cannot qualify by generated labels', () => {
   assert.equal(classify('Semi-formal Court Robe', 'silk with embroidery'), 'reject');
+  assert.equal(classify('茶筅文様緞子', 'Ceramics', 'Tea Utensil'), 'reject');
   assert.equal(classify('Epitaph tablet', 'Porcelain'), 'reject');
   assert.equal(classify('Bowl', 'Stoneware'), 'review');
   assert.equal(classify('Water dropper', 'Porcelain with tea-dust glaze'), 'reject');
