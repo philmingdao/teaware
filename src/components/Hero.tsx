@@ -3,11 +3,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Monitor } from '@phosphor-icons/react';
-import { featuredArtwork } from '@/data/artworks';
+import { useEffect, useState } from 'react';
+import { heroArtworks } from '@/data/hero-artworks';
 import { withBasePath } from '@/lib/paths';
 import TVModeLink from './TVModeLink';
 
 export default function Hero() {
+  const [index, setIndex] = useState(0);
+  const [playing, setPlaying] = useState(true);
+  const [interacting, setInteracting] = useState(false);
+  const artwork = heroArtworks[index];
+  useEffect(() => {
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!playing || interacting || media.matches) return;
+    const timer = window.setInterval(() => setIndex(i => (i + 1) % heroArtworks.length), 10000);
+    return () => window.clearInterval(timer);
+  }, [playing, interacting, index]);
+  const move = (step: number) => setIndex(i => (i + step + heroArtworks.length) % heroArtworks.length);
   return (
     <section className="relative min-h-screen flex items-center">
       {/* Background */}
@@ -63,34 +75,30 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Featured Image */}
-          <div className="order-1 lg:order-2 animate-fade-in opacity-0" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
-            <div className="relative">
-              <div className="relative aspect-square max-w-lg mx-auto">
-                <div className="relative aspect-square">
-                  <Image
-                    src={withBasePath('/artworks/met-44807-transparent.png')}
-                    alt={featuredArtwork.imageAlt}
-                    fill
-                    className="object-contain"
-                    priority
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
+          <div className="order-1 lg:order-2 animate-fade-in opacity-0" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
+            onMouseEnter={() => setInteracting(true)} onMouseLeave={() => setInteracting(false)}
+            onFocusCapture={() => setInteracting(true)} onBlurCapture={e => { if (!e.currentTarget.contains(e.relatedTarget)) setInteracting(false); }}>
+            <figure>
+              <div className="relative aspect-square max-w-lg mx-auto" aria-label={artwork.titleChinese}>
+                {heroArtworks.map((item, i) => (
+                  <Image key={item.id} src={withBasePath(item.imageUrl)} alt={i === index ? item.titleChinese : ''}
+                    aria-hidden={i !== index} fill priority={i === 0} sizes="(max-width: 768px) 90vw, 512px"
+                    className={`object-contain p-5 transition-opacity duration-700 motion-reduce:transition-none ${i === index ? 'opacity-100' : 'opacity-0'}`} />
+                ))}
               </div>
-              
-              {/* Caption */}
-              <div className="mt-6 text-center">
-                <p className="text-sm text-[#666] dark:text-[#9a9894]">
-                  {featuredArtwork.titleChinese}
-                </p>
-                <p className="text-xs text-[#999] dark:text-[#6e6c68] mt-1 font-serif-en">
-                  {featuredArtwork.titleEnglish}
-                </p>
-                <p className="text-xs text-[#b8956c] dark:text-[#d4b896] mt-2">
-                  {featuredArtwork.dynastyEnglish}
-                </p>
-              </div>
+              <figcaption className="mt-4 text-center min-h-44 max-w-lg mx-auto">
+                <h2 className="text-xl text-[#3d3d3d] dark:text-[#e8e6e3]">{artwork.titleChinese}</h2>
+                <p className="text-xs text-[#777] dark:text-[#9a9894] mt-1 font-serif-en">{artwork.titleEnglish}</p>
+                <p className="text-sm text-[#b8956c] dark:text-[#d4b896] mt-3">{artwork.date} · {artwork.material}</p>
+                <p className="text-sm leading-relaxed text-[#666] dark:text-[#aaa7a1] mt-3">{artwork.description}</p>
+                <a href={artwork.sourceUrl} target="_blank" rel="noreferrer" className="inline-block mt-2 text-xs text-[#777] dark:text-[#9a9894] underline underline-offset-4">{artwork.museum} · {artwork.accessionNumber}</a>
+              </figcaption>
+            </figure>
+            <div className="mt-5 flex items-center justify-center gap-5 text-[#666] dark:text-[#c5c3bf]">
+              <button type="button" onClick={() => move(-1)} aria-label="上一件封面作品" className="p-2 hover:text-[#b8956c]">←</button>
+              <span className="text-xs tabular-nums" aria-live="off">{String(index + 1).padStart(2, '0')} / {heroArtworks.length}</span>
+              <button type="button" onClick={() => move(1)} aria-label="下一件封面作品" className="p-2 hover:text-[#b8956c]">→</button>
+              <button type="button" onClick={() => setPlaying(p => !p)} aria-label={playing ? '暂停封面轮换' : '继续封面轮换'} aria-pressed={!playing} className="text-xs p-2 hover:text-[#b8956c]">{playing ? '暂停' : '播放'}</button>
             </div>
           </div>
         </div>
