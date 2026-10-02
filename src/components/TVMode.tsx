@@ -1,13 +1,16 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
+import { localizedHref, artworkTitle, artworkType, periodName, term, museumName } from '@/lib/i18n';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import Link from 'next/link';
+import Link from '@/components/LocaleLink';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { CaretLeft, CaretRight, Pause, Play } from '@phosphor-icons/react';
 import { artworks } from '@/data/artworks';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 import { withBasePath } from '@/lib/paths';
 import MusicToggle from './MusicToggle';
+import LanguageSwitcher from './LanguageSwitcher';
 import type { Artwork } from '@/types/artwork';
 
 type Direction = 1 | -1;
@@ -27,6 +30,7 @@ function createShuffleOrder(total: number, firstIndex: number | null) {
 }
 
 export default function TVMode({ collection, onClose }: { collection?: Artwork[]; onClose?: () => void } = {}) {
+  const { locale, t } = useLanguage();
   const router = useRouter();
   const searchParams = useSearchParams();
   const { startMusic, stopMusic, toggleMusic } = useBackgroundMusic();
@@ -38,8 +42,8 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
   const filterObjectType = searchParams.get('objectType');
   const close = useCallback(() => {
     if (onClose) onClose();
-    else router.push('/gallery');
-  }, [onClose, router]);
+    else router.push(localizedHref('/gallery', locale));
+  }, [onClose, router, locale]);
 
   const filteredArtworks = useMemo(() => collection ?? artworks.filter((artwork) => {
     if (filterMuseum && artwork.sourceMuseum !== filterMuseum) return false;
@@ -305,8 +309,8 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
     return (
       <main className="fixed inset-0 z-[100] flex min-h-[100dvh] items-center justify-center bg-[#050505] text-white/60">
         <div className="text-center">
-          <p className="text-xl">暂无可展示的藏品图片</p>
-          <button type="button" onClick={close} className="mt-5 inline-block border-b border-[#d4b896]/50 pb-1 text-[#d4b896]">返回画廊</button>
+          <p className="text-xl">{t('emptyImages')}</p>
+          <button type="button" onClick={close} className="mt-5 inline-block border-b border-[#d4b896]/50 pb-1 text-[#d4b896]">{t('backGallery')}</button>
         </div>
       </main>
     );
@@ -349,7 +353,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
             <img
               key={displayedArtwork.id}
               src={withBasePath(displayedArtwork.imageUrl)}
-              alt={displayedArtwork.imageAlt}
+              alt={artworkTitle(displayedArtwork, locale)}
               data-tv-image="incoming"
               className={`absolute inset-0 size-full object-contain transition-opacity ease-in-out motion-reduce:transition-none ${imageVisible ? 'opacity-100' : 'opacity-0'}`}
               style={{ transitionDuration: `${CROSSFADE_DURATION_MS}ms` }}
@@ -371,7 +375,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
       {displayedPosition !== targetPosition && (
         <div className="absolute right-6 top-24 flex items-center gap-2 text-xs tracking-widest text-white/35">
           <span className="size-1.5 animate-pulse rounded-full bg-[#d4b896] motion-reduce:animate-none" />
-          正在缓冲下一幅
+          {t('buffering')}
         </div>
       )}
 
@@ -380,15 +384,15 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
           className={`absolute bottom-0 left-0 max-w-[min(76rem,92vw)] px-7 pb-12 transition-opacity duration-700 ease-out motion-reduce:transition-none sm:px-12 sm:pb-16 lg:px-20 lg:pb-20 ${detailsVisible ? 'opacity-100' : 'opacity-0'}`}
           style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 3rem)' }}
         >
-          <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{displayedArtwork.dynasty} · {displayedArtwork.objectType}</p>
+          <p className="mb-4 text-xs tracking-[0.32em] text-[#d4b896] sm:text-sm">{periodName(displayedArtwork.dynasty, locale, displayedArtwork.dynastyEnglish)} · {artworkType(displayedArtwork, locale)}</p>
           <h1 className="max-w-5xl text-[1.575rem] font-medium leading-[1.08] tracking-[0.08em] text-white drop-shadow-2xl sm:text-[2.625rem] lg:text-[3.15rem] xl:text-[4.2rem]">
-            {displayedArtwork.titleChinese}
+            {artworkTitle(displayedArtwork, locale)}
           </h1>
           <p className="mt-4 max-w-3xl font-serif-en text-base text-white/55 sm:text-xl lg:text-2xl">{displayedArtwork.titleEnglish}</p>
           <div className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-white/40 sm:text-base">
-            <span>{displayedArtwork.material}</span>
+            <span>{term(displayedArtwork.material, locale, displayedArtwork.materialEnglish)}</span>
             <span className="size-1 rounded-full bg-white/25" />
-            <span>{displayedArtwork.sourceMuseum}</span>
+            <span>{museumName(displayedArtwork, locale)}</span>
           </div>
           <div className="mt-8 flex items-center gap-4">
             <div className="h-px w-48 max-w-[45vw] overflow-hidden bg-white/15">
@@ -403,21 +407,22 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
         className={`absolute left-0 right-0 top-0 flex items-center justify-between px-6 py-6 transition-opacity duration-500 motion-reduce:transition-none sm:px-10 lg:px-16 ${showUI ? 'opacity-100' : 'opacity-0'}`}
         style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 1.5rem)' }}
       >
-        <button type="button" onClick={close} className="inline-flex items-center gap-2 text-sm tracking-wide text-white/55 transition-colors hover:text-white">
+        <button type="button" onClick={close} aria-label={t('backGallery')} className="inline-flex items-center gap-2 text-sm tracking-wide text-white/55 transition-colors hover:text-white">
           <CaretLeft size={20} weight="light" />
-          <span className="hidden sm:inline">返回画廊</span>
+          <span className="hidden sm:inline">{t('backGallery')}</span>
         </button>
-        <Link href="/" className="text-lg tracking-[0.28em] text-white/45 transition-colors hover:text-white/75">器 · 茶</Link>
+        <Link href="/" className="text-lg tracking-[0.28em] text-white/45 transition-colors hover:text-white/75">{t('brand')}</Link>
         <div className="flex items-center gap-5">
+          <LanguageSwitcher inverted />
           <MusicToggle className="text-white/55 hover:text-white" />
           <button
             type="button"
             onClick={() => setIsAutoPlaying((playing) => !playing)}
             className="inline-flex items-center gap-2 text-white/55 transition-colors hover:text-white"
-            aria-label={isAutoPlaying ? '暂停轮播' : '自动轮播'}
+            aria-label={t(isAutoPlaying ? 'pauseTV' : 'playTV')}
           >
             {isAutoPlaying ? <Pause size={20} weight="light" /> : <Play size={20} weight="light" />}
-            <span className="hidden text-sm sm:inline">{isAutoPlaying ? '暂停轮播' : '自动轮播'}</span>
+            <span className="hidden text-sm sm:inline">{t(isAutoPlaying ? 'pauseTV' : 'playTV')}</span>
           </button>
         </div>
       </header>
@@ -426,7 +431,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
         type="button"
         onClick={() => pauseAndGo(-1)}
         className={`absolute left-5 top-1/2 hidden size-14 -translate-y-1/2 items-center justify-center border border-white/10 bg-black/20 text-white/35 backdrop-blur-sm transition-[opacity,color,background-color] hover:bg-black/45 hover:text-white lg:flex ${showUI ? 'opacity-100' : 'opacity-0'}`}
-        aria-label="上一件藏品"
+        aria-label={t('prev')}
       >
         <CaretLeft size={30} weight="light" />
       </button>
@@ -434,13 +439,13 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
         type="button"
         onClick={() => pauseAndGo(1)}
         className={`absolute right-5 top-1/2 hidden size-14 -translate-y-1/2 items-center justify-center border border-white/10 bg-black/20 text-white/35 backdrop-blur-sm transition-[opacity,color,background-color] hover:bg-black/45 hover:text-white lg:flex ${showUI ? 'opacity-100' : 'opacity-0'}`}
-        aria-label="下一件藏品"
+        aria-label={t('next')}
       >
         <CaretRight size={30} weight="light" />
       </button>
 
       <p className={`absolute bottom-5 right-7 hidden text-xs tracking-wide text-white/20 transition-opacity lg:block ${showUI ? 'opacity-100' : 'opacity-0'}`}>
-        ← → 切换　P 轮播　M 音乐　ESC 退出
+        {t('shortcuts')}
       </p>
     </main>
   );

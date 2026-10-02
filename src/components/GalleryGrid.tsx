@@ -1,5 +1,7 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
+import { term, periodName, museumName } from '@/lib/i18n';
 import { Suspense, useState, useMemo } from 'react';
 import { artworks, dynasties, materials, objectTypes, museums } from '@/data/artworks';
 import ArtworkCard from './ArtworkCard';
@@ -11,6 +13,7 @@ type FilterType = 'dynasty' | 'material' | 'objectType' | 'museum';
 const ITEMS_PER_PAGE = 24;
 
 export default function GalleryGrid() {
+  const { locale, t } = useLanguage();
   const [activeFilter, setActiveFilter] = useState<FilterType>('dynasty');
   const [selectedValue, setSelectedValue] = useState<string>('全部');
   const [currentPage, setCurrentPage] = useState(1);
@@ -124,10 +127,7 @@ export default function GalleryGrid() {
                     : 'bg-transparent text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3]'
                 }`}
               >
-                {filterTypeLabels[type].chinese}
-                <span className="ml-1 sm:ml-2 text-xs font-serif-en opacity-60">
-                  {filterTypeLabels[type].english}
-                </span>
+                {t(type === 'museum' ? 'museum' : type)}
               </button>
             ))}
           </div>
@@ -140,7 +140,7 @@ export default function GalleryGrid() {
                 onClick={() => handleFilterValueChange(option)}
                 className={`filter-btn ${selectedValue === option ? 'active' : ''}`}
               >
-                {option}
+                {option === '全部' ? t('all') : activeFilter === 'museum' ? museumName(artworks.find(item => item.sourceMuseum === option)!, locale) : (activeFilter === 'dynasty' ? periodName : term)(option, locale, artworks.find(item => (activeFilter === 'dynasty' ? item.dynasty : activeFilter === 'material' ? item.material : item.objectType) === option)?.[activeFilter === 'dynasty' ? 'dynastyEnglish' : activeFilter === 'material' ? 'materialEnglish' : 'objectTypeEnglish'])}
               </button>
             ))}
           </div>
@@ -148,10 +148,10 @@ export default function GalleryGrid() {
           {/* Results Count & View Mode Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
             <p className="text-sm text-[#999] dark:text-[#6e6c68]">
-              共 <span className="text-[#b8956c] dark:text-[#d4b896]">{filteredArtworks.length}</span> 件藏品
+              {t('count', {count: filteredArtworks.length.toLocaleString(locale)})}
               {totalPages > 1 && (
                 <span className="ml-2">
-                  · 第 {currentPage}/{totalPages} 页
+                  · {t('page', {current: currentPage, total: totalPages})}
                 </span>
               )}
             </p>
@@ -164,7 +164,7 @@ export default function GalleryGrid() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
                 </svg>
-                <span>幻灯</span>
+                <span>{t('slideshow')}</span>
               </button>
               <button
                 type="button"
@@ -175,7 +175,7 @@ export default function GalleryGrid() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span>电视模式</span>
+                <span>{t('tv')}</span>
                 <span className="font-serif-en text-xs opacity-60">TV</span>
               </button>
             </div>
@@ -196,7 +196,7 @@ export default function GalleryGrid() {
         {/* Empty State */}
         {filteredArtworks.length === 0 && (
           <div className="text-center py-20">
-            <p className="text-[#666] dark:text-[#9a9894]">暂无符合条件的藏品</p>
+            <p className="text-[#666] dark:text-[#9a9894]">{t('empty')}</p>
           </div>
         )}
 
@@ -208,7 +208,7 @@ export default function GalleryGrid() {
               disabled={currentPage === 1}
               className="px-3 py-2 text-sm border border-[#ddd] dark:border-[#3d3b38] rounded hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-white dark:hover:text-[#0f0f0e] hover:border-[#1a1a1a] dark:hover:border-[#e8e6e3] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-[#1a1a1a] dark:disabled:hover:text-[#e8e6e3] disabled:hover:border-[#ddd] dark:disabled:hover:border-[#3d3b38] transition-colors"
             >
-              ← 上一页
+              {t('prevPage')}
             </button>
             
             <div className="flex gap-1">
@@ -238,7 +238,7 @@ export default function GalleryGrid() {
               disabled={currentPage === totalPages}
               className="px-3 py-2 text-sm border border-[#ddd] dark:border-[#3d3b38] rounded hover:bg-[#1a1a1a] dark:hover:bg-[#e8e6e3] hover:text-white dark:hover:text-[#0f0f0e] hover:border-[#1a1a1a] dark:hover:border-[#e8e6e3] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-[#1a1a1a] dark:disabled:hover:text-[#e8e6e3] disabled:hover:border-[#ddd] dark:disabled:hover:border-[#3d3b38] transition-colors"
             >
-              下一页 →
+              {t('nextPage')}
             </button>
           </div>
         )}

@@ -8,8 +8,8 @@ export interface Artwork {
   date: string;
   material: string;
   materialEnglish: string;
-  objectType: '茶壶' | '杯盏' | '茶具组' | '茶罐' | '执壶';
-  objectTypeEnglish: 'Teapot' | 'Tea Bowl/Cup' | 'Tea Set' | 'Tea Caddy' | 'Ewer';
+  objectType: string;
+  objectTypeEnglish: string;
   kiln?: string;
   kilnEnglish?: string;
   dimensions?: string;

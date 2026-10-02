@@ -1,47 +1,50 @@
-import Link from 'next/link';
+'use client';
+import { useLanguage } from './LanguageProvider';
+import Link from '@/components/LocaleLink';
 
 export default function Footer() {
+  const { t } = useLanguage();
   return (
     <footer className="bg-[#1a1a1a] dark:bg-[#0a0908] text-[#faf9f7] mt-auto">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl tracking-wider mb-4">器 · 茶</h3>
+            <h3 className="text-2xl tracking-wider mb-4">{t('brand')}</h3>
             <p className="text-sm text-[#a0a0a0] leading-relaxed">
-              中国茶具艺术展<br />
-              探索跨越千年的器物之美
+              {t('siteTitle')}<br />
+              {t('tagline')}
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">导览</h4>
+            <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">{t('nav')}</h4>
             <nav className="flex flex-col gap-3">
               <Link 
                 href="/" 
                 className="text-sm text-[#a0a0a0] hover:text-[#faf9f7] transition-colors"
               >
-                首页
+                {t('home')}
               </Link>
               <Link 
                 href="/gallery" 
                 className="text-sm text-[#a0a0a0] hover:text-[#faf9f7] transition-colors"
               >
-                藏品浏览
+                {t('gallery')}
               </Link>
               <Link 
                 href="/about" 
                 className="text-sm text-[#a0a0a0] hover:text-[#faf9f7] transition-colors"
               >
-                关于展览
+                {t('about')}
               </Link>
             </nav>
           </div>
 
           {/* Credits */}
           <div>
-            <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">数据来源与致谢</h4>
+            <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">{t('credits')}</h4>
             <div className="text-sm text-[#a0a0a0] leading-relaxed space-y-2">
               <p>
                 <a href="https://new.artsmia.org/copyright-and-image-access" target="_blank" rel="noopener noreferrer" className="hover:text-[#faf9f7] transition-colors">Minneapolis Institute of Art</a>
@@ -80,10 +83,10 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#666]">
           <p>
-            藏品图片按各来源开放许可使用，具体许可见作品详情与关于展览
+            {t('licenseNote')}
           </p>
           <p className="font-serif-en">
-            © 2024 Chinese Tea Ware Gallery
+            © 2026 {t('siteTitle')}
           </p>
         </div>
       </div>

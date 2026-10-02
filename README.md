@@ -1,10 +1,10 @@
-# 器 · 茶 | 中国茶具艺术展
+# 器 · 茶 | 东亚茶器艺术展
 
-**Chinese Tea Ware Artistic Gallery** — Open-Access Museum Collection
+**East Asian Teaware Artistic Gallery** — Open-Access Museum Collection
 
-> 探索跨越千年的中国茶具艺术，收录 1,000+ 件博物馆级开放藏品（CC0 公共领域）。
+> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 2,000 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
 > 
-> Explore the art of Chinese teaware across a thousand years. 1,000+ open-access artworks from world-class museums, all CC0 Public Domain.
+> Explore East Asian teaware and global cultural exchange through 2,000 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
 
 🌐 **Live: [philmingdao.github.io/teaware](https://philmingdao.github.io/teaware/)** · Open Access · CC0 Licensed
 
@@ -383,3 +383,7 @@ import Link from 'next/link';
   <em>「一器一茶，皆有其道」</em><br>
   <em>Every vessel tells a story of tea and tradition.</em>
 </p>
+
+## Language support
+
+The header language selector supports `zh`, `en`, `ja`, and `ko`. Shareable `?lang=` URLs preserve other query parameters, including artwork IDs and TV filters. The preference is saved locally and internal links retain it. Catalogue IDs, museum names, original titles, dates, dimensions, accession numbers and licensing remain source-backed. Localized browsing labels use reviewed vessel/material terminology; the ten cover labels have full editorial translations.

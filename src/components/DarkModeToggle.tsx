@@ -1,8 +1,10 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
 import { useTheme } from './ThemeProvider';
 
 export default function DarkModeToggle() {
+  const { t } = useLanguage();
   const { resolvedTheme, setTheme, theme } = useTheme();
 
   const cycleTheme = () => {
@@ -19,8 +21,8 @@ export default function DarkModeToggle() {
     <button
       onClick={cycleTheme}
       className="relative p-2 rounded-md text-[#666] hover:text-[#1a1a1a] dark:text-[#9a9894] dark:hover:text-[#e8e6e3] transition-colors"
-      aria-label={`当前主题: ${theme === 'system' ? '跟随系统' : theme === 'dark' ? '深色' : '浅色'}`}
-      title={theme === 'system' ? '跟随系统' : theme === 'dark' ? '深色模式' : '浅色模式'}
+      aria-label={`${t('theme')}: ${t(theme)}`}
+      title={t(theme)}
     >
       {resolvedTheme === 'dark' ? (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

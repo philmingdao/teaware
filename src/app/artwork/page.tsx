@@ -1,8 +1,11 @@
 'use client';
 
+import { useLanguage } from '@/components/LanguageProvider';
+import { artworkTitle, artworkDescription, museumName, term, periodName, artworkType, type MessageKey } from '@/lib/i18n';
+import LocalizedText from '@/components/LocalizedText';
 import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/LocaleLink';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArtifactImage from '@/components/ArtifactImage';
@@ -13,18 +16,19 @@ import { Artwork } from '@/types/artwork';
 import { withBasePath } from '@/lib/paths';
 
 function ArtworkDetailContent() {
+  const { locale, t } = useLanguage();
   const searchParams = useSearchParams();
   const id = searchParams.get('id');
   
   const [artwork, setArtwork] = useState<Artwork | null>(null);
   const [allArtworks, setAllArtworks] = useState<Artwork[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<MessageKey | null>(null);
 
   useEffect(() => {
     async function loadArtwork() {
       if (!id) {
-        setError('未指定藏品ID');
+        setError('noId');
         setLoading(false);
         return;
       }
@@ -32,7 +36,7 @@ function ArtworkDetailContent() {
       try {
         const response = await fetch(withBasePath('/artworks.json'));
         if (!response.ok) {
-          throw new Error('无法加载藏品数据');
+          throw new Error('Artwork data request failed');
         }
         const artworks: Artwork[] = ((await response.json()) as Artwork[]).map(withCollectionImage);
         setAllArtworks(artworks);
@@ -40,12 +44,12 @@ function ArtworkDetailContent() {
         const found = artworks.find(a => a.id === id);
         if (found) {
           setArtwork(found);
-          document.title = `${found.titleChinese} · ${found.dynastyEnglish} | 器 · 茶`;
+
         } else {
-          setError('藏品未找到');
+          setError('notFound');
         }
       } catch {
-        setError('加载藏品数据时出错');
+        setError('loadError');
       } finally {
         setLoading(false);
       }
@@ -54,6 +58,10 @@ function ArtworkDetailContent() {
     loadArtwork();
   }, [id]);
 
+  useEffect(() => {
+    if (artwork) document.title = `${artworkTitle(artwork, locale)} | ${t('siteTitle')}`;
+  }, [artwork, locale, t]);
+
   if (loading) {
     return (
       <main className="collection-surface flex-1">
@@ -61,7 +69,7 @@ function ArtworkDetailContent() {
         <div className="pt-24 pb-12 min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="w-12 h-12 mx-auto mb-4 border-2 border-[#b8956c] border-t-transparent rounded-full animate-spin" />
-            <p className="text-[#666] dark:text-[#9a9894]">加载中...</p>
+            <p className="text-[#666] dark:text-[#9a9894]"><LocalizedText id="loading" /></p>
           </div>
         </div>
         <Footer />
@@ -76,16 +84,16 @@ function ArtworkDetailContent() {
         <div className="pt-24 pb-12 min-h-screen flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-medium text-[#1a1a1a] dark:text-[#e8e6e3] mb-4">
-              {error || '藏品未找到'}
+              {t(error || 'notFound')}
             </h1>
             <p className="text-[#666] dark:text-[#9a9894] mb-8">
-              您访问的藏品不存在或已被移除。
+              {t('removed')}
             </p>
             <Link 
               href="/gallery" 
               className="btn-elegant inline-flex items-center gap-2"
             >
-              返回藏品列表
+              {t('backGallery')}
             </Link>
           </div>
         </div>
@@ -105,22 +113,22 @@ function ArtworkDetailContent() {
       {/* Breadcrumb */}
       <div className="pt-24 pb-4 bg-[#f5f3ef] dark:bg-[#171614]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <nav className="text-sm text-[#999] dark:text-[#6e6c68]" aria-label="Breadcrumb">
+          <nav className="text-sm text-[#999] dark:text-[#6e6c68]" aria-label={t('nav')}>
             <ol className="flex items-center">
               <li>
                 <Link href="/" className="hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors">
-                  首页
+                  {t('home')}
                 </Link>
               </li>
               <span className="mx-2">/</span>
               <li>
                 <Link href="/gallery" className="hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors">
-                  藏品
+                  {t('collection')}
                 </Link>
               </li>
               <span className="mx-2">/</span>
               <li>
-                <span className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.titleChinese}</span>
+                <span className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artworkTitle(artwork, locale)}</span>
               </li>
             </ol>
           </nav>
@@ -137,14 +145,14 @@ function ArtworkDetailContent() {
                   <ArtifactImage
                     id={artwork.id}
                     src={artwork.imageUrl}
-                    alt={artwork.imageAlt}
+                    alt={artworkTitle(artwork, locale)}
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     priority
                   />
                 
                 {/* Image credit */}
                 <p className="mt-4 text-xs text-[#999] dark:text-[#6e6c68] text-center">
-                  图片来源：{artwork.sourceMuseumEnglish}
+                  {t('imageCredit')}: {museumName(artwork, locale)}
                   <br />
                   <span className="text-[#b8956c] dark:text-[#d4b896]">{artwork.license}</span>
                 </p>
@@ -156,53 +164,53 @@ function ArtworkDetailContent() {
               {/* Title */}
               <div className="mb-8">
                 <span className="inline-block px-3 py-1 text-sm tracking-wider bg-[#1a1a1a] dark:bg-[#e8e6e3] text-[#faf9f7] dark:text-[#0f0f0e] mb-4">
-                  {artwork.dynasty}
+                  {periodName(artwork.dynasty, locale, artwork.dynastyEnglish)}
                 </span>
                 <h1 className="text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3] leading-tight">
-                  {artwork.titleChinese}
+                  {artworkTitle(artwork, locale)}
                 </h1>
                 <p className="mt-2 text-lg text-[#666] dark:text-[#9a9894] font-serif-en">
-                  {artwork.titleEnglish}
+                  {t('sourceTitle')}: {artwork.titleEnglish || artwork.titleChinese}
                 </p>
               </div>
 
               {/* Description - Wall Label Style */}
               <div className="bg-[#f5f3ef] dark:bg-[#171614] p-6 lg:p-8 rounded-sm mb-8">
                 <p className="text-[#3d3d3d] dark:text-[#c5c3bf] leading-relaxed">
-                  {artwork.description}
+                  {artworkDescription(artwork, locale)}
                 </p>
               </div>
 
               {/* Metadata Grid */}
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">朝代 Dynasty</h3>
-                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.dynastyEnglish}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">{t('dynasty')}</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{periodName(artwork.dynasty, locale, artwork.dynastyEnglish)}</p>
                 </div>
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">年代 Date</h3>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">{t('date')}</h3>
                   <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.date}</p>
                 </div>
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">材质 Material</h3>
-                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.material}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">{t('material')}</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{term(artwork.material, locale, artwork.materialEnglish)}</p>
                   <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.materialEnglish}</p>
                 </div>
                 <div>
-                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">器型 Type</h3>
-                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.objectType}</p>
+                  <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">{t('objectType')}</h3>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artworkType(artwork, locale)}</p>
                   <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.objectTypeEnglish}</p>
                 </div>
                 {artwork.kiln && (
                   <div>
-                    <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">窑口 Kiln</h3>
-                    <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.kiln}</p>
+                    <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">{t('kiln')}</h3>
+                    <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{term(artwork.kiln, locale, artwork.kilnEnglish)}</p>
                     <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.kilnEnglish}</p>
                   </div>
                 )}
                 {artwork.dimensions && (
                   <div>
-                    <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">尺寸 Dimensions</h3>
+                    <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-1">{t('dimensions')}</h3>
                     <p className="text-sm text-[#666] dark:text-[#9a9894]">{artwork.dimensions}</p>
                   </div>
                 )}
@@ -212,11 +220,11 @@ function ArtworkDetailContent() {
 
               {/* Museum Info */}
               <div className="mb-8">
-                <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-3">收藏信息 Collection</h3>
+                <h3 className="text-xs tracking-widest text-[#999] dark:text-[#6e6c68] uppercase mb-3">{t('collectionInfo')}</h3>
                 <div className="space-y-2">
-                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{artwork.sourceMuseum}</p>
+                  <p className="text-[#1a1a1a] dark:text-[#e8e6e3]">{museumName(artwork, locale)}</p>
                   <p className="text-sm text-[#666] dark:text-[#9a9894] font-serif-en">{artwork.sourceMuseumEnglish}</p>
-                  <p className="text-sm text-[#999] dark:text-[#6e6c68]">馆藏编号: {artwork.accessionNumber}</p>
+                  <p className="text-sm text-[#999] dark:text-[#6e6c68]">{t('accession')}: {artwork.accessionNumber}</p>
                   {artwork.creditLine && (
                     <p className="text-sm text-[#999] dark:text-[#6e6c68]">{artwork.creditLine}</p>
                   )}
@@ -235,7 +243,7 @@ function ArtworkDetailContent() {
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  电视模式
+                  {t('tv')}
                 </TVModeLink>
                 <a
                   href={artwork.sourceUrl}
@@ -243,7 +251,7 @@ function ArtworkDetailContent() {
                   rel="noopener noreferrer"
                   className="btn-elegant inline-flex items-center gap-2"
                 >
-                  在博物馆官网查看
+                  {t('viewMuseum')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
@@ -267,8 +275,8 @@ function ArtworkDetailContent() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
                 </svg>
                 <div className="text-left">
-                  <span className="block text-xs text-[#999] dark:text-[#6e6c68]">上一件</span>
-                  <span className="block text-sm">{prevArtwork.titleChinese}</span>
+                  <span className="block text-xs text-[#999] dark:text-[#6e6c68]">{t('prev')}</span>
+                  <span className="block text-sm">{artworkTitle(prevArtwork, locale)}</span>
                 </div>
               </Link>
             ) : (
@@ -279,7 +287,7 @@ function ArtworkDetailContent() {
               href="/gallery"
               className="text-sm text-[#b8956c] dark:text-[#d4b896] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
             >
-              返回藏品列表
+              {t('backGallery')}
             </Link>
 
             {nextArtwork ? (
@@ -288,8 +296,8 @@ function ArtworkDetailContent() {
                 className="group flex items-center gap-3 text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
               >
                 <div className="text-right">
-                  <span className="block text-xs text-[#999] dark:text-[#6e6c68]">下一件</span>
-                  <span className="block text-sm">{nextArtwork.titleChinese}</span>
+                  <span className="block text-xs text-[#999] dark:text-[#6e6c68]">{t('next')}</span>
+                  <span className="block text-sm">{artworkTitle(nextArtwork, locale)}</span>
                 </div>
                 <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
@@ -315,7 +323,7 @@ export default function ArtworkPage() {
         <div className="pt-24 pb-12 min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="w-12 h-12 mx-auto mb-4 border-2 border-[#b8956c] border-t-transparent rounded-full animate-spin" />
-            <p className="text-[#666] dark:text-[#9a9894]">加载中...</p>
+            <p className="text-[#666] dark:text-[#9a9894]"><LocalizedText id="loading" /></p>
           </div>
         </div>
         <Footer />

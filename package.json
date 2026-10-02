@@ -1,7 +1,7 @@
 {
-  "name": "chinese-tea-gallery",
+  "name": "east-asian-teaware-gallery",
   "version": "1.0.0",
-  "description": "中国茶具艺术展 - Chinese Tea Ware Artistic Gallery",
+  "description": "东亚茶器艺术展 - East Asian Teaware Art Exhibition",
   "private": true,
   "scripts": {
     "dev": "next dev",

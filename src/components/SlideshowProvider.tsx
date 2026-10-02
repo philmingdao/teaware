@@ -1,5 +1,6 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
 import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 import { Artwork } from '@/types/artwork';
 import Slideshow from './Slideshow';
@@ -29,6 +30,7 @@ interface SlideshowProviderProps {
 }
 
 export default function SlideshowProvider({ children }: SlideshowProviderProps) {
+  const { t } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [slideshowArtworks, setSlideshowArtworks] = useState<Artwork[]>([]);
   const [startIndex, setStartIndex] = useState(0);
@@ -74,7 +76,7 @@ export default function SlideshowProvider({ children }: SlideshowProviderProps) 
       {children}
       {isLoading && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80">
-          <div className="text-white text-lg">加载中...</div>
+          <div className="text-white text-lg">{t('loading')}</div>
         </div>
       )}
       {isOpen && slideshowArtworks.length > 0 && (

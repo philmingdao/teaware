@@ -1,10 +1,12 @@
 'use client';
 
-import Link from 'next/link';
+import { useLanguage } from './LanguageProvider';
+import Link from '@/components/LocaleLink';
 import { artworks } from '@/data/artworks';
 import ArtworkCard from './ArtworkCard';
 
 export default function GalleryPreview() {
+  const { t } = useLanguage();
   const previewArtworks = artworks.slice(0, 8);
 
   return (
@@ -16,10 +18,10 @@ export default function GalleryPreview() {
             Featured Collection
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]">
-            精选藏品
+            {t('featured')}
           </h2>
           <p className="mt-4 text-[#666] dark:text-[#9a9894] max-w-2xl mx-auto leading-relaxed">
-            从宋代建盏的深沉到清代瓷器的华美，每一件藏品都是时代审美与工艺智慧的结晶
+            {t('featuredIntro')}
           </p>
           <div className="divider-elegant"></div>
         </div>
@@ -41,7 +43,7 @@ export default function GalleryPreview() {
             href="/gallery" 
             className="btn-elegant"
           >
-            浏览全部藏品
+            {t('browseAll')}
             <span className="ml-2 text-sm font-serif-en">({artworks.length})</span>
           </Link>
         </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>器 · 茶 | 中国茶具艺术展</title>
+  <title>器 · 茶 | 东亚茶器艺术展</title>
   <style>
     body {
       font-family: system-ui, -apple-system, sans-serif;
@@ -41,32 +41,29 @@
     }
   </style>
   <script>
-    (function() {
-      var path = window.location.pathname;
+    document.addEventListener('DOMContentLoaded', function() {
+      var params = new URLSearchParams(window.location.search);
+      var lang = params.get('lang');
+      if (!['zh', 'en', 'ja', 'ko'].includes(lang)) {
+        try { lang = localStorage.getItem('teaware-language-v1'); } catch (e) {}
+      }
+      if (!['zh', 'en', 'ja', 'ko'].includes(lang)) lang = 'zh';
+      var index = ['zh', 'en', 'ja', 'ko'].indexOf(lang);
+      document.documentElement.lang = ['zh-CN', 'en', 'ja', 'ko'][index];
+      document.title = ['东亚茶器艺术展', 'East Asian Teaware Art Exhibition', '東アジア茶器芸術展', '동아시아 다구 예술전'][index];
       var basePath = '/teaware';
-      
-      // Remove base path if present
-      if (path.startsWith(basePath)) {
-        path = path.substring(basePath.length);
-      }
-      
-      // Check if this is an artwork detail URL: /artwork/[id] or /artwork/[id]/
-      var artworkMatch = path.match(/^\/artwork\/([^\/]+)\/?$/);
-      
-      if (artworkMatch) {
-        var artworkId = artworkMatch[1];
-        // Redirect to the query param version
-        var newUrl = basePath + '/artwork/?id=' + encodeURIComponent(artworkId);
-        window.location.replace(newUrl);
+      var path = window.location.pathname;
+      if (path.startsWith(basePath)) path = path.substring(basePath.length);
+      var match = path.match(/^\/artwork\/([^\/]+)\/?$/);
+      params.set('lang', lang);
+      if (match) {
+        params.set('id', decodeURIComponent(match[1]));
+        window.location.replace(basePath + '/artwork/?' + params.toString() + window.location.hash);
       } else {
-        // Not an artwork URL - show actual 404 or redirect to home
-        // For a better UX, redirect to home after a delay
-        setTimeout(function() {
-          window.location.replace(basePath + '/');
-        }, 2000);
-        document.getElementById('message').textContent = '页面未找到，正在跳转至首页...';
+        document.getElementById('message').textContent = ['页面未找到，正在跳转至首页…', 'Page not found. Returning home…', 'ページが見つかりません。ホームに戻ります…', '페이지를 찾을 수 없습니다. 홈으로 돌아갑니다…'][index];
+        setTimeout(function() { window.location.replace(basePath + '/?lang=' + lang); }, 2000);
       }
-    })();
+    });
   </script>
 </head>
 <body>

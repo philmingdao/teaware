@@ -1,10 +1,13 @@
 'use client';
 
-import Link from 'next/link';
+import Link from '@/components/LocaleLink';
 import { useState, useEffect } from 'react';
+import LanguageSwitcher from './LanguageSwitcher';
+import { useLanguage } from './LanguageProvider';
 import DarkModeToggle from './DarkModeToggle';
 
 export default function Header() {
+  const { t } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -32,41 +35,43 @@ export default function Header() {
             className="flex items-center gap-3 group"
           >
             <span className="text-2xl tracking-wider font-medium text-[#1a1a1a] dark:text-[#e8e6e3] group-hover:text-[#b8956c] dark:group-hover:text-[#d4b896] transition-colors">
-              器 · 茶
+              {t('brand')}
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-4 lg:gap-6">
             <Link 
               href="/" 
-              className="text-sm tracking-widest text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant"
+              className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant"
             >
-              展览
+              {t('exhibition')}
             </Link>
             <Link 
               href="/gallery" 
-              className="text-sm tracking-widest text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant"
+              className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant"
             >
-              藏品
+              {t('collection')}
             </Link>
             <Link 
               href="/about" 
-              className="text-sm tracking-widest text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant"
+              className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant"
             >
-              关于
+              {t('about')}
             </Link>
             <div className="w-px h-4 bg-[#ebe8e1] dark:bg-[#252320]" />
+            <LanguageSwitcher />
             <DarkModeToggle />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher />
             <DarkModeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2 text-[#1a1a1a] dark:text-[#e8e6e3]"
-              aria-label="Toggle menu"
+              aria-label={t('menu')} aria-expanded={isMobileMenuOpen}
             >
               <svg 
                 className="w-6 h-6" 
@@ -100,24 +105,24 @@ export default function Header() {
             <div className="flex flex-col gap-4">
               <Link 
                 href="/" 
-                className="text-sm tracking-widest text-[#3d3d3d] dark:text-[#c5c3bf] py-2"
+                className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                展览
+                {t('exhibition')}
               </Link>
               <Link 
                 href="/gallery" 
-                className="text-sm tracking-widest text-[#3d3d3d] dark:text-[#c5c3bf] py-2"
+                className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                藏品
+                {t('collection')}
               </Link>
               <Link 
                 href="/about" 
-                className="text-sm tracking-widest text-[#3d3d3d] dark:text-[#c5c3bf] py-2"
+                className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                关于
+                {t('about')}
               </Link>
             </div>
           </div>

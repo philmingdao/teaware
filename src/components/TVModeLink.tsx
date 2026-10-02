@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import Link from '@/components/LocaleLink';
 import type { ComponentProps } from 'react';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 

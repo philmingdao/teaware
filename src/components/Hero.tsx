@@ -1,17 +1,22 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
+import { artworkTitle, artworkDescription, term, museumName } from '@/lib/i18n';
+import { artworks } from '@/data/artworks';
 import ArtifactImage from './ArtifactImage';
-import Link from 'next/link';
+import Link from '@/components/LocaleLink';
 import { Monitor } from '@phosphor-icons/react';
 import { useEffect, useState } from 'react';
 import { heroArtworks } from '@/data/hero-artworks';
 import TVModeLink from './TVModeLink';
 
 export default function Hero() {
+  const { locale, t } = useLanguage();
   const [index, setIndex] = useState(0);
   const [playing, setPlaying] = useState(true);
   const [interacting, setInteracting] = useState(false);
   const artwork = heroArtworks[index];
+  const record = artworks.find(item => item.id === artwork.id)!;
   useEffect(() => {
     const media = window.matchMedia('(prefers-reduced-motion: reduce)');
     if (!playing || interacting || media.matches) return;
@@ -28,22 +33,22 @@ export default function Hero() {
           <div className="order-2 lg:order-1">
             <div className="animate-fade-in opacity-0" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
               <span className="text-sm tracking-[0.3em] text-[#b8956c] dark:text-[#d4b896] uppercase font-serif-en">
-                Chinese Tea Ware Gallery
+                East Asian Teaware Art Exhibition
               </span>
             </div>
             
             <h1 className="mt-6 animate-fade-in opacity-0" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
-              <span className="block text-6xl md:text-7xl lg:text-8xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]">
-                器 · 茶
+              <span className={`block ${locale === 'en' ? 'text-5xl md:text-6xl' : 'text-6xl md:text-7xl lg:text-8xl'} font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]`}>
+                {t('brand')}
               </span>
               <span className="block mt-4 text-xl md:text-2xl text-[#666] dark:text-[#9a9894] font-light tracking-wide">
-                中国茶具艺术展
+                {t('siteTitle')}
               </span>
             </h1>
 
             <div className="mt-8 animate-fade-in opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
               <p className="text-[#3d3d3d] dark:text-[#c5c3bf] leading-relaxed max-w-lg">
-                自唐宋以降，茶道兴盛，茶器亦随之臻于至美。建盏之黑，青瓷之润，紫砂之朴，皆承载着千年的文人雅趣与匠心传承。此展精选大都会艺术博物馆与克利夫兰艺术博物馆珍藏茶器，邀君共赏器物之美，体悟茶道精神。
+                {t('heroIntro')}
               </p>
             </div>
 
@@ -52,7 +57,7 @@ export default function Hero() {
                 href="/gallery" 
                 className="btn-elegant"
               >
-                进入展厅
+                {t('enter')}
               </Link>
               <TVModeLink
                 href="/tv" 
@@ -60,14 +65,14 @@ export default function Hero() {
               >
                 <span className="flex items-center gap-2">
                   <Monitor size={16} weight="light" />
-                  电视模式
+                  {t('tv')}
                 </span>
               </TVModeLink>
               <Link 
                 href="/about" 
                 className="btn-elegant !border-[#b8956c] !text-[#b8956c] hover:!bg-[#b8956c] hover:!text-[#faf9f7] dark:!border-[#d4b896] dark:!text-[#d4b896] dark:hover:!bg-[#d4b896] dark:hover:!text-[#0f0f0e]"
               >
-                关于展览
+                {t('about')}
               </Link>
             </div>
           </div>
@@ -76,28 +81,28 @@ export default function Hero() {
             onMouseEnter={() => setInteracting(true)} onMouseLeave={() => setInteracting(false)}
             onFocusCapture={() => setInteracting(true)} onBlurCapture={e => { if (!e.currentTarget.contains(e.relatedTarget)) setInteracting(false); }}>
             <figure>
-              <div className="relative aspect-square max-w-lg mx-auto" aria-label={artwork.titleChinese}>
+              <div className="relative aspect-square max-w-lg mx-auto" aria-label={(locale === 'zh' ? artwork.titleChinese : artworkTitle(record, locale))}>
                 {heroArtworks.map((item, i) => (
                   <div key={item.id} aria-hidden={i !== index}
                     className={`absolute inset-0 transition-opacity duration-700 motion-reduce:transition-none ${i === index ? 'opacity-100' : 'opacity-0'}`}>
-                    <ArtifactImage id={item.id} src={item.imageUrl} alt={i === index ? item.titleChinese : ''}
+                    <ArtifactImage id={item.id} src={item.imageUrl} alt={i === index ? (locale === 'zh' ? artwork.titleChinese : artworkTitle(record, locale)) : ''}
                       priority={i === 0} sizes="(max-width: 768px) 90vw, 512px" />
                   </div>
                 ))}
               </div>
               <figcaption className="mt-4 text-center min-h-44 max-w-lg mx-auto">
-                <h2 className="text-xl text-[#3d3d3d] dark:text-[#e8e6e3]">{artwork.titleChinese}</h2>
+                <h2 className="text-xl text-[#3d3d3d] dark:text-[#e8e6e3]">{(locale === 'zh' ? artwork.titleChinese : artworkTitle(record, locale))}</h2>
                 <p className="text-xs text-[#777] dark:text-[#9a9894] mt-1 font-serif-en">{artwork.titleEnglish}</p>
-                <p className="text-sm text-[#b8956c] dark:text-[#d4b896] mt-3">{artwork.date} · {artwork.material}</p>
-                <p className="text-sm leading-relaxed text-[#666] dark:text-[#aaa7a1] mt-3">{artwork.description}</p>
-                <a href={artwork.sourceUrl} target="_blank" rel="noreferrer" className="inline-block mt-2 text-xs text-[#777] dark:text-[#9a9894] underline underline-offset-4">{artwork.museum} · {artwork.accessionNumber}</a>
+                <p className="text-sm text-[#b8956c] dark:text-[#d4b896] mt-3">{record.date} · {term(record.material, locale, record.materialEnglish)}</p>
+                <p className="text-sm leading-relaxed text-[#666] dark:text-[#aaa7a1] mt-3">{locale === 'zh' ? artwork.description : artworkDescription(record, locale)}</p>
+                <a href={artwork.sourceUrl} target="_blank" rel="noreferrer" className="inline-block mt-2 text-xs text-[#777] dark:text-[#9a9894] underline underline-offset-4">{museumName(record, locale)} · {artwork.accessionNumber}</a>
               </figcaption>
             </figure>
             <div className="mt-5 flex items-center justify-center gap-5 text-[#666] dark:text-[#c5c3bf]">
-              <button type="button" onClick={() => move(-1)} aria-label="上一件封面作品" className="p-2 hover:text-[#b8956c]">←</button>
+              <button type="button" onClick={() => move(-1)} aria-label={t('prevHero')} className="p-2 hover:text-[#b8956c]">←</button>
               <span className="text-xs tabular-nums" aria-live="off">{String(index + 1).padStart(2, '0')} / {heroArtworks.length}</span>
-              <button type="button" onClick={() => move(1)} aria-label="下一件封面作品" className="p-2 hover:text-[#b8956c]">→</button>
-              <button type="button" onClick={() => setPlaying(p => !p)} aria-label={playing ? '暂停封面轮换' : '继续封面轮换'} aria-pressed={!playing} className="text-xs p-2 hover:text-[#b8956c]">{playing ? '暂停' : '播放'}</button>
+              <button type="button" onClick={() => move(1)} aria-label={t('nextHero')} className="p-2 hover:text-[#b8956c]">→</button>
+              <button type="button" onClick={() => setPlaying(p => !p)} aria-label={t(playing ? 'pauseHero' : 'playHero')} aria-pressed={!playing} className="text-xs p-2 hover:text-[#b8956c]">{t(playing ? 'pause' : 'play')}</button>
             </div>
           </div>
         </div>

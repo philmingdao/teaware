@@ -1,6 +1,8 @@
 'use client';
 
-import Link from 'next/link';
+import { useLanguage } from './LanguageProvider';
+import { artworkTitle, artworkType, periodName, term } from '@/lib/i18n';
+import Link from '@/components/LocaleLink';
 import { Artwork } from '@/types/artwork';
 import ArtifactImage from './ArtifactImage';
 
@@ -10,6 +12,7 @@ interface ArtworkCardProps {
 }
 
 export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
+  const { locale } = useLanguage();
   return (
     <Link 
       href={`/artwork?id=${artwork.id}`}
@@ -25,7 +28,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
         <ArtifactImage
           id={artwork.id}
           src={artwork.imageUrl}
-          alt={artwork.imageAlt}
+          alt={artworkTitle(artwork, locale)}
           interactive
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
@@ -33,7 +36,7 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
         {/* Dynasty badge */}
         <div className="absolute top-4 left-4">
           <span className="inline-block px-3 py-1 text-xs tracking-wider bg-[#faf9f7]/90 dark:bg-[#0f0f0e]/90 text-[#1a1a1a] dark:text-[#e8e6e3] backdrop-blur-sm">
-            {artwork.dynasty}
+            {periodName(artwork.dynasty, locale, artwork.dynastyEnglish)}
           </span>
         </div>
       </div>
@@ -41,25 +44,25 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
       {/* Content */}
       <div className="p-5">
         <h3 className="text-lg font-medium text-[#1a1a1a] dark:text-[#e8e6e3] group-hover:text-[#b8956c] dark:group-hover:text-[#d4b896] transition-colors line-clamp-2">
-          {artwork.titleChinese}
+          {artworkTitle(artwork, locale)}
         </h3>
-        <p className="mt-1 text-sm text-[#666] dark:text-[#9a9894] font-serif-en line-clamp-1">
+        {locale !== 'en' && artwork.titleEnglish && <p className="mt-1 text-sm text-[#666] dark:text-[#9a9894] font-serif-en line-clamp-1">
           {artwork.titleEnglish}
-        </p>
+        </p>}
         
         <div className="mt-3 flex flex-wrap gap-2">
           <span className="text-xs text-[#999] dark:text-[#6e6c68]">
-            {artwork.material}
+            {term(artwork.material, locale, artwork.materialEnglish)}
           </span>
           <span className="text-xs text-[#ccc] dark:text-[#3d3b38]">·</span>
           <span className="text-xs text-[#999] dark:text-[#6e6c68]">
-            {artwork.objectType}
+            {artworkType(artwork, locale)}
           </span>
         </div>
         
         {artwork.kiln && (
           <p className="mt-2 text-xs text-[#b8956c] dark:text-[#d4b896]">
-            {artwork.kiln}
+            {term(artwork.kiln, locale, artwork.kilnEnglish)}
           </p>
         )}
       </div>

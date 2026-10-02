@@ -1,9 +1,11 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
 import { SpeakerHigh, SpeakerSlash } from '@phosphor-icons/react';
 import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 
 export default function MusicToggle({ className = '' }: { className?: string }) {
+  const { t } = useLanguage();
   const { isPlaying, toggleMusic } = useBackgroundMusic();
 
   return (
@@ -11,12 +13,12 @@ export default function MusicToggle({ className = '' }: { className?: string }) 
       type="button"
       onClick={toggleMusic}
       className={`inline-flex items-center gap-2 transition-colors ${className}`}
-      aria-label={isPlaying ? '停止音乐' : '播放音乐'}
-      title={isPlaying ? '停止音乐' : '播放音乐'}
+      aria-label={t(isPlaying ? 'stopMusic' : 'playMusic')}
+      title={t(isPlaying ? 'stopMusic' : 'playMusic')}
     >
       {isPlaying ? <SpeakerSlash size={20} weight="light" /> : <SpeakerHigh size={20} weight="light" />}
       <span className="hidden sm:inline text-sm tracking-wide">
-        {isPlaying ? '停止音乐' : '播放音乐'}
+        {t(isPlaying ? 'stopMusic' : 'playMusic')}
       </span>
     </button>
   );

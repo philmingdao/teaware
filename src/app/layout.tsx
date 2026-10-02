@@ -4,6 +4,7 @@ import "./globals.css";
 import SlideshowProvider from "@/components/SlideshowProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { BackgroundMusicProvider } from "@/hooks/useBackgroundMusic";
+import LanguageProvider from '@/components/LanguageProvider';
 import JsonLd from "@/components/JsonLd";
 import { defaultMetadata, createCollectionPageJsonLd } from "@/lib/seo";
 
@@ -37,6 +38,7 @@ export default function RootLayout({
         <JsonLd data={createCollectionPageJsonLd()} />
       </head>
       <body className="min-h-full flex flex-col bg-[#faf9f7] dark:bg-[#0f0f0e] text-[#1a1a1a] dark:text-[#e8e6e3] transition-colors">
+        <LanguageProvider>
         <ThemeProvider>
           <BackgroundMusicProvider>
             <SlideshowProvider>
@@ -44,6 +46,7 @@ export default function RootLayout({
             </SlideshowProvider>
           </BackgroundMusicProvider>
         </ThemeProvider>
+        </LanguageProvider>
       </body>
       <Script
         src="https://gc.zgo.at/count.js"

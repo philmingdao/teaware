@@ -1,11 +1,14 @@
 'use client';
 
+import { useLanguage } from './LanguageProvider';
+import { artworkTitle, periodName, term, museumName } from '@/lib/i18n';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { CaretLeft, CaretRight, Pause, Play, X } from '@phosphor-icons/react';
 import type { Artwork } from '@/types/artwork';
 import ResilientImage from './ResilientImage';
 import MusicToggle from './MusicToggle';
+import LanguageSwitcher from './LanguageSwitcher';
 
 interface SlideshowProps {
   artworks: Artwork[];
@@ -14,6 +17,7 @@ interface SlideshowProps {
 }
 
 export default function Slideshow({ artworks, startIndex = 0, onClose }: SlideshowProps) {
+  const { locale, t, href } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(startIndex);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
@@ -105,7 +109,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
 
   const handleViewDetails = () => {
     onClose();
-    router.push(`/artwork?id=${currentArtwork.id}`);
+    router.push(href(`/artwork?id=${currentArtwork.id}`));
   };
 
   if (!currentArtwork) return null;
@@ -122,23 +126,24 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
         className="z-20 flex min-h-16 items-center justify-between border-b border-white/10 bg-[#181714]/95 px-4 py-3 sm:px-7"
         style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 0.75rem)' }}
       >
-        <button type="button" onClick={onClose} className="inline-flex items-center gap-2 text-white/65 transition-colors hover:text-white">
+        <button type="button" onClick={onClose} aria-label={t('exitSlideshow')} className="inline-flex items-center gap-2 text-white/65 transition-colors hover:text-white">
           <X size={20} weight="light" />
-          <span className="hidden text-sm sm:inline">退出幻灯</span>
+          <span className="hidden text-sm sm:inline">{t('exitSlideshow')}</span>
         </button>
 
         <span className="font-serif-en text-sm tabular-nums text-white/45">{currentIndex + 1} / {totalCount}</span>
 
         <div className="flex items-center gap-4">
+          <LanguageSwitcher inverted />
           <MusicToggle className="text-white/60 hover:text-white" />
           <button
             type="button"
             onClick={() => setIsAutoPlaying((playing) => !playing)}
             className="inline-flex items-center gap-2 text-white/60 transition-colors hover:text-white"
-            aria-label={isAutoPlaying ? '暂停幻灯' : '自动播放幻灯'}
+            aria-label={t(isAutoPlaying ? 'pauseSlideshow' : 'playSlideshow')}
           >
             {isAutoPlaying ? <Pause size={20} weight="light" /> : <Play size={20} weight="light" />}
-            <span className="hidden text-sm sm:inline">{isAutoPlaying ? '暂停幻灯' : '自动播放'}</span>
+            <span className="hidden text-sm sm:inline">{t(isAutoPlaying ? 'pauseSlideshow' : 'autoplay')}</span>
           </button>
         </div>
       </header>
@@ -153,7 +158,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
         <ResilientImage
           key={currentArtwork.id}
           src={currentArtwork.imageUrl}
-          alt={currentArtwork.imageAlt}
+          alt={artworkTitle(currentArtwork, locale)}
           fill
           objectFit="contain"
           sizes="100vw"
@@ -164,7 +169,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
           type="button"
           onClick={() => pauseAndGo('previous')}
           className="absolute left-3 top-1/2 hidden size-12 -translate-y-1/2 items-center justify-center border border-white/10 bg-black/35 text-white/60 backdrop-blur-sm transition-colors hover:bg-black/60 hover:text-white md:flex"
-          aria-label="上一件藏品"
+          aria-label={t('prev')}
         >
           <CaretLeft size={28} weight="light" />
         </button>
@@ -172,7 +177,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
           type="button"
           onClick={() => pauseAndGo('next')}
           className="absolute right-3 top-1/2 hidden size-12 -translate-y-1/2 items-center justify-center border border-white/10 bg-black/35 text-white/60 backdrop-blur-sm transition-colors hover:bg-black/60 hover:text-white md:flex"
-          aria-label="下一件藏品"
+          aria-label={t('next')}
         >
           <CaretRight size={28} weight="light" />
         </button>
@@ -185,13 +190,13 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
         <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-6">
           <div className="min-w-0 flex-1">
             <div className="mb-2 flex min-w-0 items-center gap-x-3 overflow-hidden whitespace-nowrap text-xs tracking-[0.16em] text-[#d4b896]">
-              <span className="shrink-0">{currentArtwork.dynasty}</span>
+              <span className="shrink-0">{periodName(currentArtwork.dynasty, locale, currentArtwork.dynastyEnglish)}</span>
               <span className="text-white/25">/</span>
-              <span className="truncate text-white/45">{currentArtwork.material}</span>
+              <span className="truncate text-white/45">{term(currentArtwork.material, locale, currentArtwork.materialEnglish)}</span>
               <span className="hidden text-white/25 sm:inline">/</span>
-              <span className="hidden truncate text-white/45 sm:inline">{currentArtwork.sourceMuseum}</span>
+              <span className="hidden truncate text-white/45 sm:inline">{museumName(currentArtwork, locale)}</span>
             </div>
-            <h2 className="truncate text-xl font-medium tracking-wider text-white sm:text-2xl">{currentArtwork.titleChinese}</h2>
+            <h2 className="truncate text-xl font-medium tracking-wider text-white sm:text-2xl">{artworkTitle(currentArtwork, locale)}</h2>
             <p className="mt-1 truncate font-serif-en text-sm text-white/45 sm:text-base">{currentArtwork.titleEnglish}</p>
           </div>
           <button
@@ -199,7 +204,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
             onClick={handleViewDetails}
             className="shrink-0 border border-white/20 px-4 py-2 text-sm text-white/65 transition-colors hover:border-white/45 hover:text-white"
           >
-            查看详情
+            {t('details')}
           </button>
         </div>
       </footer>

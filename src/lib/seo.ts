@@ -10,22 +10,22 @@ export const artworkCount = artworks.length;
 export const siteConfig = {
   name: {
     zh: '器 · 茶',
-    en: 'Chinese Tea Ware Gallery',
+    en: 'East Asian Teaware Art Exhibition',
   },
   title: {
-    zh: '器 · 茶 | 中国茶具艺术展',
-    en: 'Qi · Cha | Chinese Tea Ware Artistic Gallery',
+    zh: '器 · 茶 | 东亚茶器艺术展',
+    en: 'Qi · Cha | East Asian Teaware Art Exhibition',
   },
   description: {
-    zh: `探索跨越千年的中国茶具艺术。收录${artworkCount.toLocaleString()}余件博物馆级藏品，涵盖唐宋建盏、龙泉青瓷、宜兴紫砂、明清官窑等珍品。来自大都会艺术博物馆、克利夫兰艺术博物馆的开放藏品，采用CC0许可。`,
-    en: `Explore the art of Chinese teaware across a thousand years. A museum-quality digital gallery featuring ${artworkCount.toLocaleString()}+ open-access artworks from The Metropolitan Museum of Art and Cleveland Museum of Art — Song dynasty Jian ware, Longquan celadon, Yixing zisha, Ming-Qing imperial porcelain. CC0 licensed.`,
+    zh: `东亚茶器艺术展，收录${artworkCount.toLocaleString()}件开放馆藏。探索中国、日本与韩国的茶器传统，以及茶文化的跨文化交流。作品信息与许可以各馆来源为准。`,
+    en: `Explore ${artworkCount.toLocaleString()} open museum artworks: the teaware traditions of China, Japan and Korea, and tea culture’s global exchanges. See each artwork for source information and licensing.`,
   },
   keywords: {
-    zh: ['中国茶具', '茶器艺术', '建盏', '龙泉青瓷', '紫砂壶', '青花瓷', '官窑', '宜兴紫砂', '宋代茶器', '明清瓷器', '茶道', '博物馆藏品', '数字展览'],
-    en: ['Chinese tea ware', 'teapot', 'tea bowl', 'Jian ware', 'Longquan celadon', 'Yixing zisha', 'blue and white porcelain', 'imperial porcelain', 'museum collection', 'open access art', 'CC0 artwork', 'Asian ceramics'],
+    zh: ['东亚茶器', '日本茶器', '韩国茶器', '茶器艺术', '建盏', '龙泉青瓷', '紫砂壶', '青花瓷', '官窑', '宜兴紫砂', '宋代茶器', '明清瓷器', '茶道', '博物馆藏品', '数字展览'],
+    en: ['East Asian teaware', 'Japanese teaware', 'Korean teaware', 'teapot', 'tea bowl', 'Jian ware', 'Longquan celadon', 'Yixing zisha', 'blue and white porcelain', 'imperial porcelain', 'museum collection', 'open access art', 'CC0 artwork', 'Asian ceramics'],
   },
   locale: 'zh_CN',
-  alternateLocale: 'en_US',
+  alternateLocale: ['en_US', 'ja_JP', 'ko_KR'],
   type: 'website',
   twitter: {
     card: 'summary_large_image',
@@ -35,11 +35,11 @@ export const siteConfig = {
 };
 
 export const ogImage = {
-  url: `${FULL_URL}/og-image.png`,
+  url: `${FULL_URL}/collection-cutouts/82ff3cdb92296b03d949de0010173465d07de83d1c5fffa07ce27f4270f3e3a8.webp`,
   width: 1200,
-  height: 630,
-  alt: '器 · 茶 - Chinese Tea Ware Artistic Gallery - 中国茶具艺术展',
-  type: 'image/png',
+  height: 1200,
+  alt: '器 · 茶 - East Asian Teaware Art Exhibition - 东亚茶器艺术展',
+  type: 'image/webp',
 };
 
 export function createCanonicalUrl(path: string = ''): string {
@@ -55,9 +55,9 @@ export const defaultMetadata: Metadata = {
   },
   description: siteConfig.description.zh,
   keywords: [...siteConfig.keywords.zh, ...siteConfig.keywords.en],
-  authors: [{ name: 'Chinese Tea Ware Gallery' }, { name: '器·茶数字展览' }],
+  authors: [{ name: 'East Asian Teaware Art Exhibition' }, { name: '器·茶数字展览' }],
   creator: 'philmingdao',
-  publisher: 'Chinese Tea Ware Gallery',
+  publisher: 'East Asian Teaware Art Exhibition',
   robots: {
     index: true,
     follow: true,
@@ -72,8 +72,10 @@ export const defaultMetadata: Metadata = {
   alternates: {
     canonical: FULL_URL,
     languages: {
-      'zh-CN': FULL_URL,
-      'en': FULL_URL,
+      'zh-CN': `${FULL_URL}/?lang=zh`,
+      'en': `${FULL_URL}/?lang=en`,
+      'ja': `${FULL_URL}/?lang=ja`,
+      'ko': `${FULL_URL}/?lang=ko`,
     },
   },
   openGraph: {
@@ -102,21 +104,21 @@ export const defaultMetadata: Metadata = {
 
 export const pageMetadata = {
   home: {
-    title: '器 · 茶 | 中国茶具艺术展 · 数字博物馆',
-    titleEn: 'Qi · Cha | Chinese Tea Ware Digital Museum',
-    description: `探索跨越千年的中国茶具艺术。${artworkCount.toLocaleString()}余件博物馆级开放藏品，涵盖唐宋建盏、龙泉青瓷、宜兴紫砂、明清官窑。Explore ${artworkCount.toLocaleString()}+ museum-quality Chinese teaware artworks.`,
+    title: '器 · 茶 | 东亚茶器艺术展 · 数字博物馆',
+    titleEn: 'Qi · Cha | East Asian Teaware Digital Exhibition',
+    description: siteConfig.description.zh,
     canonical: FULL_URL,
   },
   gallery: {
     title: '藏品浏览 · 茶器收藏',
     titleEn: 'Collection Gallery',
-    description: '浏览中国茶具艺术展全部藏品。按朝代（唐宋元明清）、材质（青瓷、建盏、紫砂、青花）、器型分类筛选，探索跨越千年的茶器之美。Browse all Chinese teaware artworks by dynasty, material, and type.',
+    description: '浏览东亚茶器艺术展全部藏品，按时代与地区、材质、器型和来源筛选。Browse East Asian teaware and cultural exchange.',
     canonical: `${FULL_URL}/gallery`,
   },
   about: {
     title: '关于展览 · 策展理念与数据来源',
     titleEn: 'About the Exhibition',
-    description: '了解「器 · 茶」数字展览的策展理念。藏品来自大都会艺术博物馆、克利夫兰艺术博物馆开放数据，采用CC0公共领域许可。Learn about our curatorial vision and open-access data sources.',
+    description: '了解东亚茶器艺术展的策展理念、当前收录来源和作品许可。Learn about East Asian teaware, collection sources and licensing.',
     canonical: `${FULL_URL}/about`,
   },
   tv: {
@@ -201,16 +203,15 @@ export function createCollectionPageJsonLd(overrides?: Partial<JsonLdCollectionP
     },
     about: {
       '@type': 'Thing',
-      name: 'Chinese Tea Ware / 中国茶具',
-      description: 'Historic Chinese teapots, tea bowls, and tea ceremony vessels across dynasties',
+      name: 'East Asian Teaware / 东亚茶器',
+      description: 'East Asian teaware traditions and their global cultural exchanges',
     },
     provider: {
       '@type': 'Organization',
-      name: 'Chinese Tea Ware Gallery',
+      name: 'East Asian Teaware Art Exhibition',
       url: FULL_URL,
     },
     numberOfItems: siteConfig.artworkCount,
-    license: 'https://creativecommons.org/publicdomain/zero/1.0/',
     ...overrides,
   };
 }
@@ -256,10 +257,6 @@ export function createArtworkJsonLd(artwork: {
     dateCreated: artwork.date,
     artMedium: `${artwork.material} / ${artwork.materialEnglish}`,
     artworkSurface: artwork.kiln ? `${artwork.kiln} / ${artwork.kilnEnglish}` : undefined,
-    locationCreated: {
-      '@type': 'Place',
-      name: 'China / 中国',
-    },
     isPartOf: {
       '@type': 'Collection',
       name: artwork.sourceMuseumEnglish,
@@ -270,7 +267,6 @@ export function createArtworkJsonLd(artwork: {
       name: artwork.sourceMuseumEnglish,
       url: artwork.sourceUrl.split('/art/')[0] || artwork.sourceUrl,
     },
-    license: 'https://creativecommons.org/publicdomain/zero/1.0/',
     identifier: artwork.accessionNumber,
   };
 }

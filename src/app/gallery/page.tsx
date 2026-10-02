@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
+import Link from '@/components/LocaleLink';
+import LocalizedText from '@/components/LocalizedText';
 import Header from '@/components/Header';
 import cutoutSamples from '@/data/cutout-samples.json';
 import Footer from '@/components/Footer';
@@ -42,13 +43,13 @@ export default function GalleryPage() {
               Collection Gallery
             </span>
             <h1 className="mt-4 text-4xl md:text-5xl font-medium tracking-wider text-[#1a1a1a] dark:text-[#e8e6e3]">
-              藏品浏览
+              <LocalizedText id="gallery" />
             </h1>
             <p className="mt-4 text-[#666] dark:text-[#9a9894] max-w-2xl mx-auto leading-relaxed">
-              按朝代、材质或器型筛选，探索跨越千年的茶器之美
+              <LocalizedText id="galleryIntro" />
             </p>
             <Link href="/cutout-gallery" className="inline-block mt-5 text-sm text-[#9c7951] dark:text-[#d4b896] hover:underline underline-offset-4">
-              器物近观 · {cutoutSamples.length}件透明底试展 →
+              <LocalizedText id="closeLink" values={{count:cutoutSamples.length}} />
             </Link>
           </div>
         </section>
