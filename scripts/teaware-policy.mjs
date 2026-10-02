@@ -3,9 +3,12 @@
 export const POLICY_VERSION = 'tea-only-2026-10-03';
 // These source images are visibly publication pages, despite their legacy
 // imported object names. Image review takes precedence over the wrong labels.
-const publicationImages = new Set(['va-O105017', 'va-O152809', 'va-O168455']);
+const publicationImages = new Set(['va-O105017', 'va-O152809', 'va-O168455', 'mia-54323']);
 const nonObjectImages = new Map([
   ['va-O91953', 'textile-image'],
+  ...['rks-20083849', 'rks-20083850', 'rks-20083851'].map(id => [id, 'textile-image']),
+  ['mia-28559', 'display-case-or-shelf-photo'],
+  ...['rks-200113720', 'rks-200113721', 'rks-200113724', 'rks-200113725', 'rks-200113726'].map(id => [id, 'non-tea-ensemble-member-photo']),
   ['wiki-82172364', 'publication-illustration'],
   ...['wiki-66320513', 'wiki-66320532', 'wiki-66320579', 'wiki-66320697', 'wiki-66320741',
     'wmc-66320513', 'wmc-66320532', 'wmc-66320579', 'wmc-66320697', 'wmc-66320741',
@@ -19,7 +22,7 @@ const vesselMaterial = /\b(?:porcelain|stoneware|earthenware|ceramic|silver|bron
 const flatMedium = /\b(?:prints?|paintings?|drawing|photograph|woodcut|woodblock|woodburytype|albumen|ink|watercolou?r|gouache|lithograph|etching|canvas|photogravure)\b/i;
 const textileNames = /\b(?:robe|textile|fabric|cloth|stole|coat|shawl|tapestry|rug|garment|kimono|costume|embroidery|embroidered|dress|silk panel)\b/i;
 const textileMaterial = /\b(?:silk|cotton|wool|linen|textile|velvet|satin|brocade)\b/i;
-const teaNames = /\b(?:tea[ -]?(?:pots?|bowls?|cups?|cadd(?:y|ies)|sets?|services?|containers?|canisters?|jars?|chests?|boxes?|utensils?|wares?|kettles?|trays?|scoops?|whisks?|strainers?|holders?|storage jars?|ceremony water jars?)|tea[- ]leaf storage jars?|tea and coffee (?:service|set)|chawan|chaire|mizusashi|chashaku|chasen|natsume|yunomi|kyusu|kyuusu|hōhin|hohin|theepot|theekom|theekop(?:je)?|theeservies|(?:stof)?theebus|teekanne|teeschale|teetasse|théière|teiera|tekanna)\b|茶碗|茶盌|茶入|茶壺|茶壶|茶杯|茶盏|茶道具|水指|茶筅|茶杓/i;
+const teaNames = /\b(?:tea[ -]?(?:pots?|bowls?|cups?|cadd(?:y|ies)|sets?|services?|containers?|canisters?|jars?|chests?|boxes?|utensils?|wares?|kettles?|trays?|scoops?|spoons?|urns?|infusers?|whisks?|strainers?|holders?|storage jars?|ceremony water jars?)|tea[- ]leaf storage jars?|tea and coffee (?:service|set)|chawan|chaire|mizusashi|chashaku|chasen|natsume|yunomi|kyusu|kyuusu|hōhin|hohin|theepot|theekom|theekop(?:je)?|theeservies|(?:stof)?theebus|teekanne|teeschale|teetasse|théière|teiera|tekanna)\b|茶碗|茶盌|茶入|茶壺|茶壶|茶杯|茶盏|茶道具|水指|茶筅|茶杓/i;
 const nonTeaNames = /\b(?:epitaph|tomb|burial|funerary|snuff|tobacco|wine|libation|ritual|sacrificial|food vessel|grain serving|brush[- ]?(?:pot|washer|rest)|water dropper|inkstone|cosmetic|pillow|jardini[eè]re|flower ?pot|candlestick|candle ?holder|lamp|statue|figurine|sculpture|pendant|bracelet|ornament|necklace|earring|belt|weapon|sword|arrowhead|tile|roof|brick|seal paste|soup|tureen|sauce boat|mustard|punch bowl|finger bowl|custard|chocolate pot|chest with print)\b/i;
 const nonTeaType = /\b(?:vase|figure|buddha|snuff|brush|pillow|wine|libation|ritual|tile|jardiniere|seal|sculpture|jewellery|weapon|dish|plate|platter)\b/i;
 
@@ -56,7 +59,7 @@ export function classifyTeaware(artwork, reviewed = {}) {
     return { decision: 'reject', reason: 'flat-artwork-or-publication', evidence };
   }
   if (textileNames.test(names.replace(/coat of arms/ig, '')) && (!tea || !vesselMaterial.test(artwork.materialEnglish ?? '')) ||
-    (textileMaterial.test(artwork.materialEnglish ?? '') && !vesselMaterial.test(artwork.materialEnglish ?? '') && !tea)) {
+    (textileMaterial.test(artwork.materialEnglish ?? '') && !vesselMaterial.test(artwork.materialEnglish ?? ''))) {
     return { decision: 'reject', reason: 'textile-or-garment', evidence };
   }
   if (nonTeaNames.test(primary) && !tea) return { decision: 'reject', reason: 'non-tea-function', evidence };
@@ -68,6 +71,9 @@ export function classifyTeaware(artwork, reviewed = {}) {
 }
 
 export function normalizedSourceUrl(value) {
-  try { return decodeURIComponent(value).replace(/^http:/, 'https:').replace(/\/$/, ''); }
+  try {
+    const decoded=decodeURIComponent(value).replace(/^http:/, 'https:').replace(/\/$/, '');
+    return decoded.includes('commons.wikimedia.org/wiki/File:') ? decoded.replaceAll('_', ' ') : decoded;
+  }
   catch { return String(value).replace(/\/$/, ''); }
 }

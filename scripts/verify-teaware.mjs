@@ -9,12 +9,18 @@ export async function verifyTeaware() {
   if (JSON.stringify(catalogue) !== JSON.stringify(served)) throw new Error('Source/public catalogues disagree');
   const exclusions = JSON.parse(await fs.readFile('research/teaware-exclusions.json', 'utf8'));
   const reviews = JSON.parse(await fs.readFile('research/teaware-admissions.json', 'utf8'));
+  const aliases = JSON.parse(await fs.readFile('research/teaware-duplicate-aliases.json', 'utf8'));
+  const duplicateIds = new Set(aliases.entries.map(row => row.id));
   const blockedIds = new Set(exclusions.entries.map(row => row.id));
   const blockedUrls = new Set(exclusions.entries.map(row => normalizedSourceUrl(row.sourceUrl)));
-  const ids = new Set(), failures = [];
+  const ids = new Set(), sources = new Set(), failures = [];
   for (const item of catalogue) {
     if (ids.has(item.id)) failures.push(`${item.id}: duplicate ID`);
     ids.add(item.id);
+    const source = normalizedSourceUrl(item.sourceUrl);
+    if (sources.has(source)) failures.push(`${item.id}: duplicate source object`);
+    sources.add(source);
+    if (duplicateIds.has(item.id)) failures.push(`${item.id}: removed duplicate alias reintroduced`);
     if (blockedIds.has(item.id) || blockedUrls.has(normalizedSourceUrl(item.sourceUrl))) failures.push(`${item.id}: excluded collection record reintroduced`);
     const result = classifyTeaware(item, reviews);
     if (result.decision !== 'admit') failures.push(`${item.id}: ${result.reason}`);

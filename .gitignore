@@ -48,4 +48,5 @@ expand.log
 # Local segmentation masks, candidates, runtime and review ledger
 /output/collection-cutouts/
 /output/collection-curation/
+/output/round28/
 scripts/__pycache__/

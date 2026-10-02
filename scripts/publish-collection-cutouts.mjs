@@ -62,7 +62,8 @@ for (const { artwork, record } of approved) {
     shadowContactWidthPercent: record.shadowContactWidthPercent,
     shadowCastCenterPercent: record.shadowCastCenterPercent,
     shadowCastWidthPercent: record.shadowCastWidthPercent,
-    shadowEnabled: record.repair?.shadowEnabled ?? (record.kind === 'object' && record.qa.substantialComponents === 1) };
+    shadowEnabled: !/^Tea (?:Spoon|Scoop|Strainer|Infuser)$/i.test(artwork.objectTypeEnglish) &&
+      (record.repair?.shadowEnabled ?? (record.kind === 'object' && record.qa.substantialComponents === 1)) };
 }
 const manifest = { version: 1, total: artworks.length, uniqueAssets: written.size, bytes, assets };
 await fs.writeFile('src/data/collection-cutouts.json.tmp', JSON.stringify(manifest) + '\n');

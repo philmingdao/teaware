@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { classifyTeaware } from './teaware-policy.mjs';
+import { classifyTeaware, normalizedSourceUrl } from './teaware-policy.mjs';
 
 const classify = (titleEnglish, materialEnglish, objectTypeEnglish = 'Tea Bowl/Cup') =>
   classifyTeaware({ titleEnglish, materialEnglish, objectTypeEnglish }).decision;
@@ -35,4 +35,17 @@ test('tea-use names are recognized across source languages and accessory types',
   assert.equal(classify('Stoftheebus', 'Stoneware'), 'admit');
   assert.equal(classify('Theepot', 'Porcelain'), 'admit');
   assert.equal(classify('Winepot or teapot', 'Porcelain'), 'admit');
+  assert.equal(classify('Tea urn', 'Silver'), 'admit');
+  assert.equal(classify('Tea strainer', 'Silver'), 'admit');
+  assert.equal(classify('Tea Caddy Spoon', 'Silver'), 'admit');
+  assert.equal(classify('Teaspoon', 'Silver'), 'admit');
+  assert.equal(classify('Spoon', 'Silver', 'Spoon'), 'review');
+});
+test('a tea-related caption cannot admit a silk cushion or a known printed depiction', () => {
+  assert.equal(classify('Tea service for two people', 'silk'), 'reject');
+  assert.equal(classifyTeaware({id:'mia-54323',titleEnglish:'Porcelain Tea Container, from Japonisme'}).decision,'reject');
+  assert.equal(classifyTeaware({id:'rks-200113720',titleEnglish:'Tea tray, cake stands, jam dish, sugar bowls, coffee pot and milk jug'}).decision,'reject');
+});
+test('Commons file names use the same identity with URL encoding and underscores', () => {
+  assert.equal(normalizedSourceUrl('https://commons.wikimedia.org/wiki/File%3ATea%20Bowl.jpg'), normalizedSourceUrl('https://commons.wikimedia.org/wiki/File:Tea_Bowl.jpg'));
 });
