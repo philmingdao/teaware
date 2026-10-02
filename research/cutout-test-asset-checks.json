@@ -1,0 +1,322 @@
+[
+  {
+    "id": "met-51076",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.67,
+    "bounds": [
+      120,
+      257,
+      1079,
+      941
+    ],
+    "bytes": 707864
+  },
+  {
+    "id": "met-48373",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.8,
+    "bounds": [
+      120,
+      373,
+      1079,
+      825
+    ],
+    "bytes": 334060
+  },
+  {
+    "id": "met-42323",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.75,
+    "bounds": [
+      120,
+      286,
+      1079,
+      913
+    ],
+    "bytes": 584612
+  },
+  {
+    "id": "met-51185",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.7,
+    "bounds": [
+      120,
+      231,
+      1079,
+      968
+    ],
+    "bytes": 680052
+  },
+  {
+    "id": "cma-128457",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.68,
+    "bounds": [
+      225,
+      120,
+      974,
+      1079
+    ],
+    "bytes": 817170
+  },
+  {
+    "id": "cma-76525",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.82,
+    "bounds": [
+      120,
+      414,
+      1079,
+      785
+    ],
+    "bytes": 253292
+  },
+  {
+    "id": "cma-94817",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.74,
+    "bounds": [
+      120,
+      327,
+      1079,
+      871
+    ],
+    "bytes": 480182
+  },
+  {
+    "id": "cma-83459",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.72,
+    "bounds": [
+      120,
+      315,
+      1079,
+      883
+    ],
+    "bytes": 584924
+  },
+  {
+    "id": "cma-149952",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.7,
+    "bounds": [
+      120,
+      248,
+      1079,
+      951
+    ],
+    "bytes": 582870
+  },
+  {
+    "id": "cma-154704",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.75,
+    "bounds": [
+      120,
+      323,
+      1079,
+      875
+    ],
+    "bytes": 573228
+  },
+  {
+    "id": "mia-6166",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.63,
+    "bounds": [
+      120,
+      135,
+      1079,
+      1063
+    ],
+    "bytes": 784224
+  },
+  {
+    "id": "mia-98004",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.74,
+    "bounds": [
+      120,
+      256,
+      1079,
+      943
+    ],
+    "bytes": 551140
+  },
+  {
+    "id": "mia-5823",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.78,
+    "bounds": [
+      120,
+      288,
+      1079,
+      911
+    ],
+    "bytes": 484254
+  },
+  {
+    "id": "mia-13238",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.79,
+    "bounds": [
+      217,
+      120,
+      981,
+      1079
+    ],
+    "bytes": 615626
+  },
+  {
+    "id": "mia-31814",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.75,
+    "bounds": [
+      120,
+      242,
+      1079,
+      957
+    ],
+    "bytes": 491058
+  },
+  {
+    "id": "mia-119042",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.74,
+    "bounds": [
+      120,
+      265,
+      1079,
+      934
+    ],
+    "bytes": 402262
+  },
+  {
+    "id": "mia-9397",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.5,
+    "bounds": [
+      123,
+      120,
+      1075,
+      1079
+    ],
+    "bytes": 1206328
+  },
+  {
+    "id": "mia-462",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.71,
+    "bounds": [
+      120,
+      297,
+      1079,
+      901
+    ],
+    "bytes": 685588
+  },
+  {
+    "id": "mia-4819",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.5,
+    "bounds": [
+      121,
+      120,
+      1078,
+      1079
+    ],
+    "bytes": 554448
+  },
+  {
+    "id": "mia-762",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "hasAlpha": true,
+    "transparentFraction": 0.5,
+    "bounds": [
+      123,
+      120,
+      1075,
+      1079
+    ],
+    "bytes": 905380
+  }
+]

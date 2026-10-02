@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import GalleryGrid from '@/components/GalleryGrid';
@@ -45,6 +46,9 @@ export default function GalleryPage() {
             <p className="mt-4 text-[#666] dark:text-[#9a9894] max-w-2xl mx-auto leading-relaxed">
               按朝代、材质或器型筛选，探索跨越千年的茶器之美
             </p>
+            <Link href="/cutout-gallery" className="inline-block mt-5 text-sm text-[#9c7951] dark:text-[#d4b896] hover:underline underline-offset-4">
+              器物近观 · 20件透明底试展 →
+            </Link>
           </div>
         </section>
 

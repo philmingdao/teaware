@@ -1,0 +1,28 @@
+{
+  "method": "Built-in imagegen, transparent_background=true",
+  "reusedHeroIds": [
+    "met-51076",
+    "met-48373",
+    "met-42323",
+    "met-51185",
+    "cma-128457",
+    "cma-76525",
+    "cma-94817",
+    "cma-83459",
+    "cma-149952",
+    "cma-154704"
+  ],
+  "newImageIds": [
+    "mia-6166",
+    "mia-98004",
+    "mia-5823",
+    "mia-13238",
+    "mia-31814",
+    "mia-119042",
+    "mia-9397",
+    "mia-462",
+    "mia-4819",
+    "mia-762"
+  ],
+  "prompt": "Use case: background-extraction. Edit target: the supplied museum photograph of ONE existing Chinese tea ware object. Remove ONLY the entire backdrop, tabletop, museum case, and cast shadows. Output the EXACT same whole artifact isolated on a genuinely transparent alpha background. Preserve precisely the original photographic viewpoint, silhouette, proportions, glaze colors, weathering, cracks, repairs, metal fittings, ornament, painted imagery and all visible details. No recoloring, polishing, reconstruction, new details, added parts or photographic relighting. All handles, spouts, lid and finial stay complete. Background seen inside handle openings and between separate external parts must become transparent; the interior surface of a bowl stays opaque, as does the existing material in ornamental areas. Keep the artifact fully in frame, centered with modest surrounding margin. No text, no floor, no reflections, no shadow. This is a conservation-faithful cutout of the attached photo, not a redesigned or newly imagined product."
+}
