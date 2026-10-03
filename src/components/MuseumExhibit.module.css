@@ -4,13 +4,22 @@
   overflow: hidden;
   isolation: isolate;
   container-type: size;
-  background: #161411;
+  background: #000;
   --vessel-floor: 78%;
   --vessel-max-width: 76cqw;
   --vessel-max-height: 60cqh;
 }
 
-.backdrop { object-fit: cover; object-position: 50% 50%; pointer-events: none; }
+.environment {
+  position: absolute;
+  /* Keep the neutral light pool at the actual foot position in every layout. */
+  top: calc(var(--vessel-floor) - 72%);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.backdrop { object-fit: fill; filter: grayscale(1); pointer-events: none; }
 
 .objectFrame {
   position: absolute;
@@ -29,11 +38,11 @@
 .image { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; object-fit: contain; }
 .cast, .contact { position: absolute; z-index: 1; border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); }
 .cast {
-  top: calc(var(--shadow-baseline) - .65%);
+  top: calc(var(--shadow-baseline) - .8%);
   left: var(--shadow-cast-center);
   width: var(--shadow-cast-width);
-  height: 3.4%;
-  background: radial-gradient(ellipse, #0009 0%, #0006 32%, #0002 62%, #0000 80%);
+  height: 2.8%;
+  background: radial-gradient(ellipse, #000b 0%, #0007 32%, #0002 62%, #0000 80%);
   filter: blur(3px);
 }
 .contact {
@@ -51,7 +60,7 @@
   --vessel-max-width: 72cqw;
   --vessel-max-height: 43cqh;
 }
-.tv .shade { background: linear-gradient(0deg, #090807f5, #090807c4 18%, transparent 34%); }
+.tv .shade { background: linear-gradient(0deg, #000f, #000c 18%, transparent 34%); }
 
 @media (max-width: 640px) {
   .stage { --vessel-max-width: 82cqw; --vessel-max-height: 57cqh; }

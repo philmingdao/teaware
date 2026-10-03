@@ -117,14 +117,14 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
 
   return (
     <div
-      className="fixed inset-0 z-50 grid min-h-[100dvh] grid-rows-[auto_minmax(0,1fr)_auto] select-none bg-[#121210] text-[#f0ede7]"
+      className="fixed inset-0 z-50 grid min-h-[100dvh] grid-rows-[auto_minmax(0,1fr)_auto] select-none bg-black text-[#f0ede7]"
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerCancel={handlePointerUp}
     >
       <header
-        className="z-20 flex min-h-16 items-center justify-between border-b border-white/10 bg-[#181714]/95 px-4 py-3 sm:px-7"
+        className="z-20 flex min-h-16 items-center justify-between border-b border-white/10 bg-black/95 px-4 py-3 sm:px-7"
         style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 0.75rem)' }}
       >
         <button type="button" onClick={onClose} aria-label={t('exitSlideshow')} className="inline-flex items-center gap-2 text-white/65 transition-colors hover:text-white">
@@ -150,7 +150,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
       </header>
 
       <main
-        className="relative min-h-0 w-full overflow-hidden bg-[#161411]"
+        className="relative min-h-0 w-full overflow-hidden bg-black"
         style={{ '--drag-offset': `${dragOffset * 0.2}px` } as CSSProperties}
       >
         <MuseumStage variant="slideshow">
@@ -176,7 +176,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
       </main>
 
       <footer
-        className="z-20 flex h-32 items-center border-t border-white/10 bg-[#181714] px-5 py-4 sm:h-36 sm:px-8 sm:py-5"
+        className="z-20 flex h-32 items-center border-t border-white/10 bg-black px-5 py-4 sm:h-36 sm:px-8 sm:py-5"
         style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 1rem)' }}
       >
         <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-6">

@@ -13,8 +13,10 @@ const boundsByUrl = exhibitLayout as Record<string, number[]>;
 
 export function MuseumStage({ children, variant }: { children: ReactNode; variant: 'slideshow' | 'tv' }) {
   return <div className={`${styles.stage} ${variant === 'tv' ? styles.tv : ''}`} data-museum-stage={variant}>
-    <Image src={withBasePath('/exhibition/museum-vitrine.webp')} alt="" fill priority sizes="100vw"
-      unoptimized className={styles.backdrop} data-museum-backdrop aria-hidden />
+    <div className={styles.environment} aria-hidden>
+      <Image src={withBasePath('/exhibition/black-velvet.webp')} alt="" fill preload sizes="100vw"
+        unoptimized className={styles.backdrop} data-museum-backdrop />
+    </div>
     {children}
     <div className={styles.shade} aria-hidden />
   </div>;
