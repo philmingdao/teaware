@@ -5,7 +5,7 @@
   isolation: isolate;
   container-type: size;
   background: #000;
-  --vessel-floor: 78%;
+  --vessel-floor: 84%;
   --vessel-max-width: 76cqw;
   --vessel-max-height: 60cqh;
 }
@@ -56,7 +56,7 @@
 .shade { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(90deg, #0002, transparent 15%, transparent 85%, #0002); }
 
 .tv {
-  --vessel-floor: 65%;
+  --vessel-floor: 72%;
   --vessel-max-width: 72cqw;
   --vessel-max-height: 43cqh;
 }
@@ -64,10 +64,10 @@
 
 @media (max-width: 640px) {
   .stage { --vessel-max-width: 82cqw; --vessel-max-height: 57cqh; }
-  .tv { --vessel-floor: 63%; --vessel-max-height: 43cqh; }
+  .tv { --vessel-floor: 68%; --vessel-max-height: 43cqh; }
 }
 @media (max-height: 520px) {
-  .tv { --vessel-floor: 62%; --vessel-max-height: 40cqh; }
+  .tv { --vessel-floor: 65%; --vessel-max-height: 40cqh; }
   .caption { gap: .35rem; padding-bottom: 1rem !important; }
   .caption h1 { font-size: 1.4rem; line-height: 1.2; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .caption > div:first-child > p:last-child { display: none; }
