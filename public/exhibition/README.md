@@ -2,7 +2,7 @@
 
 `black-velvet.webp` is the shared slideshow and TV backdrop. It was derived from the user-approved preview with the built-in `image_gen` tool on 2026-10-03, removing the bowl and its shadow to create an empty stage. Encoded as an explicitly grayscale WebP (43,888 bytes); background colors are neutral black/gray only. The fine velvet pile receives restrained neutral overhead illumination, fading into an empty black background.
 
-Source collection photographs are rendered separately with their existing transparency and native colors. The generated bowl in the concept preview is not used as a collection image. Each layout aligns the stage light pool with the visible vessel foot and adds only a short cast shadow and a tight contact shadow.
+Source collection photographs are rendered separately with their existing transparency and native colors. The generated bowl in the concept preview is not used as a collection image. Each layout aligns the stage light pool with the visible vessel foot. The cast shadow uses that photograph's alpha silhouette, projected diagonally toward the rear right from the foot, with a soft fade toward its distant end. A tight contact shadow anchors the vessel. Narrow viewports shorten the projection while preserving its direction.
 
 Generation prompt:
 

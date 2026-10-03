@@ -36,16 +36,28 @@
 }
 
 .image { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; object-fit: contain; }
-.cast, .contact { position: absolute; z-index: 1; border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); }
+.cast, .contact { position: absolute; z-index: 1; pointer-events: none; }
 .cast {
-  top: calc(var(--shadow-baseline) - .8%);
-  left: var(--shadow-cast-center);
-  width: var(--shadow-cast-width);
-  height: 2.8%;
-  background: radial-gradient(ellipse, #000b 0%, #0007 32%, #0002 62%, #0000 80%);
-  filter: blur(3px);
+  inset: 0;
+  /* Project the actual alpha silhouette onto the velvet, away from the foot. */
+  transform-origin: var(--shadow-contact-center) var(--shadow-baseline);
+  transform: matrix(.78, 0, -.9, .45, 0, 0);
+  /* Blur the masked child as a whole so the silhouette edges stay soft. */
+  filter: blur(clamp(4px, .8cqw, 10px));
+}
+.cast::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  mask-image: var(--shadow-image);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-mode: alpha;
+  background: linear-gradient(to bottom, #0000 5%, #0005 40%, #000c var(--shadow-baseline), #000d);
 }
 .contact {
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
   top: calc(var(--shadow-baseline) + .1%);
   left: var(--shadow-contact-center);
   width: var(--shadow-contact-width);
@@ -64,6 +76,7 @@
 
 @media (max-width: 640px) {
   .stage { --vessel-max-width: 82cqw; --vessel-max-height: 57cqh; }
+  .cast { transform: matrix(.78, 0, -.6, .3, 0, 0); }
   .tv { --vessel-floor: 68%; --vessel-max-height: 43cqh; }
 }
 @media (max-height: 520px) {

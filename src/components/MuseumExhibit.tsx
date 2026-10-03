@@ -44,8 +44,7 @@ export function MuseumArtifact({ artwork, alt, layer, visible = true, duration =
     '--shadow-baseline': `${baseline}%`,
     '--shadow-contact-center': `${cutout?.shadowContactCenterPercent ?? 50}%`,
     '--shadow-contact-width': `${cutout?.shadowContactWidthPercent ?? 15}%`,
-    '--shadow-cast-center': `${cutout?.shadowCastCenterPercent ?? 50}%`,
-    '--shadow-cast-width': `${cutout?.shadowCastWidthPercent ?? 45}%`,
+    '--shadow-image': `url("${withBasePath(src)}")`,
     opacity: visible ? 1 : 0,
     transitionDuration: `${duration}ms`,
   } as CSSProperties;
