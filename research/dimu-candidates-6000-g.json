@@ -1,0 +1,4780 @@
+[
+  {
+    "identifier.id": "SUM.09051",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "901dcc86-19db-4fea-9563-61cbf9e891dc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025152369",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanne",
+    "artifact.ingress.description": "Kraftig tekanne med brei tut og hank. Lok i anna farge enn kanna.",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:23:43.300Z",
+    "artifact.publishedDate": "2014-09-09T15:37:17.948Z",
+    "artifact.ingress.classification": [
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Tekanne",
+      "Tepotte",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2s1jEkQ",
+    "artifact.defaultPictureIndex": 9703,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.09445",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "a31ce34a-e1ac-400f-b39f-1d10e101b888",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025152939",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Kopp med smal fotring, rett korpus, Hank med oval opning og med øyre. Djup skål (tefat) på fotring, avmerkt plassering for koppen. \n\nKoppen og skåla vart selde som eitt sett. Usikker på om dei opphavleg høyrde saman.",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-06-10T05:24:21.690Z",
+    "artifact.publishedDate": "2014-09-09T15:41:30.584Z",
+    "artifact.ingress.classification": [
+      "264.1",
+      "272.22"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Dekketøy"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kaffikopp",
+      "Kopp og tefat",
+      "Drikkekopp med skål",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2s1mFQb",
+    "artifact.defaultPictureIndex": 19543,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.09713",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "ec22b65a-fa84-46aa-a391-1fdf1d0911fa",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025153414",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/ tefat",
+    "artifact.ingress.description": "Kopp med rettståande vegger og utkraga munning. Kvit med elefantmotiv og skrift",
+    "artifact.ingress.producer": "Stavangerflint AS",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.updatedDate": "2026-06-10T05:24:48.600Z",
+    "artifact.publishedDate": "2014-09-09T15:44:46.702Z",
+    "artifact.ingress.classification": [
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/ tefat",
+      "Kaffekopp m/tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2s3DZjm",
+    "artifact.defaultPictureIndex": 9570,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.09714",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "8c5872af-9a51-4c53-b4d9-372bbdfbfe94",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025153416",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/ tefat",
+    "artifact.ingress.description": "Kopp med rettståande vegger og utkraga munning. Kvit med blomstermotiv og skrift",
+    "artifact.updatedDate": "2026-06-10T05:24:48.635Z",
+    "artifact.publishedDate": "2014-09-09T15:44:47.692Z",
+    "artifact.ingress.classification": [
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/ tefat",
+      "Kaffekopp m/tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2s3DZjq",
+    "artifact.defaultPictureIndex": 9559,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "VM17336",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "e33abc84-c25b-4e4e-bd8b-98c3ce67e9bb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025174754",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TESIL",
+    "artifact.ingress.description": "Tesil av silver med rakt skaft vilket är nedböjt i ytterändan. Hålen i silskålen bildar mönster i form av en blomma. Av stämplarna att döma är tesilen ej tillverkad i Sverige.\n\nÄgaren Carl Idoff var nära vän till författaren Birger Sjöberg under dennes Helsingborgstid. Idoff överlämnade denna tesil som testamentesgåva till Birger Sjöbergsällskapet, vilket överlämnade tesilen till Älvsborgs länsmuseum. Inget talar emellertid för att tesilen skulle ha ägts av Birger Sjöberg.\n\nSe bilaga VM 17 332",
+    "artifact.ingress.production.fromYear": 1820,
+    "artifact.ingress.production.toYear": 1820,
+    "artifact.updatedDate": "2026-09-19T03:55:49.971Z",
+    "artifact.publishedDate": "2014-09-09T20:13:46.365Z",
+    "artifact.ingress.classification": [
+      "272",
+      "326"
+    ],
+    "artifact.ingress.subjects": [
+      "Drycker",
+      "Silar"
+    ],
+    "artifact.ingress.names": [
+      "TESIL"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03346x8LLyxU",
+    "artifact.defaultPictureIndex": 152447,
+    "artifact.defaultPictureDimension": "4000x2037"
+  },
+  {
+    "identifier.id": "VM17759",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "01fadf50-a773-4dab-abe3-4b886d2b740d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025176429",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEFAT",
+    "artifact.ingress.description": "Tefat. Dekor/mönster i grönt och guld på vit botten: Fågel på kvist. Bård.\n\n\n Mönstret, \"Wexiö\", komponerat av Arvid Ekberg vid Gustafsberg. \nInköpt på Lions loppmarknad i Vänersborg.",
+    "artifact.ingress.producer": "Ekberg, ARVID",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1832,
+    "artifact.ingress.production.toYear": 1939,
+    "artifact.updatedDate": "2025-11-05T04:21:22.850Z",
+    "artifact.publishedDate": "2014-09-09T20:56:52.351Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Förtäring"
+    ],
+    "artifact.ingress.names": [
+      "TEFAT"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWWjvxaoy",
+    "artifact.defaultPictureIndex": 121775,
+    "artifact.defaultPictureDimension": "2234x2156"
+  },
+  {
+    "identifier.id": "FYB.00171",
+    "identifier.owner": "VTM",
+    "artifact.uuid": "cb8e5eb3-ae74-44c2-aa87-36bc86c489d0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025210671",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "Kanne med lok. Loket er hamra ut og delt opp i fleire \"etasjer\". Toppknappen manglar. Kanna er lodda saman. Sjølve kanna er sett saman av minst fem delar. Stetten er laga av ein lodda messingkant. Bogeforma handtak av kopar, sett saman i nyare tid (klinka og lodda saman). Tuten er åttekanta og lodda til kanna. Kanna er fortinna.\n\n\n",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-06-03T11:22:08.056Z",
+    "artifact.publishedDate": "2014-09-10T09:39:28.026Z",
+    "artifact.ingress.classification": [
+      "272",
+      "796"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikke",
+      "Servering"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Vasskanne",
+      "Kaffekanne",
+      "Tekanne",
+      "Kanne til vievatn"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uLXHun98s",
+    "artifact.defaultPictureIndex": 22385,
+    "artifact.defaultPictureDimension": "1908x2118"
+  },
+  {
+    "identifier.id": "HAM.00599",
+    "identifier.owner": "HAM",
+    "artifact.uuid": "fa04fb65-3052-46b9-b97c-10f44d07f1e6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025238876",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sil",
+    "artifact.ingress.description": "Teknikk: Neddypningen, silformen er presset i en skilling. Utvendig form er stanset. Høyangmerket og preget rundt sil og håndtak er preget i en eller to operasjoner. Silmønster og opphengshull er stanset.\nForm: Vanlig silform\n",
+    "artifact.ingress.production.place": "Norge, Vestfold, Holmestrand, A/S Nordisk Aluminiumindustri, Weidemannsgt. 8",
+    "artifact.ingress.producer": "Nordisk Aluminiumindustri A/S",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1930,
+    "artifact.ingress.production.toYear": 1948,
+    "artifact.updatedDate": "2026-02-10T13:19:47.111Z",
+    "artifact.publishedDate": "2014-09-10T11:36:56.756Z",
+    "artifact.ingress.classification": [
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri",
+      "Aluminiumindustri"
+    ],
+    "artifact.ingress.names": [
+      "Sil",
+      "Art. nr. 64.",
+      "Tesil"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331xTzwh4j8",
+    "artifact.defaultPictureIndex": 76506,
+    "artifact.defaultPictureDimension": "3302x2592"
+  },
+  {
+    "identifier.id": "JM.10030",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "00feb38d-78a7-4f89-b43d-fddea45c67e9",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210210482620",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked av silver med dekorativt liksidigt mönster i änden på skaftets ovansida, stämplar på undersidan av skaftet. På undersidan av skedbladet en utsmyckning som sträcker sig sedan upp över hela skaftet. Stämplar: IGB, Tre kronor, Jönköpings stadsvapen [?], X3 [=1828].",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Tveta, Jönköping, Jönköping, JÖNKÖPING [Ort]",
+    "artifact.ingress.production.fromYear": 1828,
+    "artifact.ingress.production.toYear": 1828,
+    "artifact.updatedDate": "2025-03-04T03:41:14.204Z",
+    "artifact.publishedDate": "2021-06-29T03:20:54.337Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0138XQQCEqMK",
+    "artifact.defaultPictureIndex": 365056,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "JM.06532",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "85080f18-6de9-4b8a-ac68-3093886f28af",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210210482623",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked av silver med stämplar på skaftet: IGB, Tre kronor, Jönköpings stadsvapen, [?]. På baksidan graverat \"H.s.s\".",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Tveta, Jönköping, Jönköping, JÖNKÖPING [Ort]",
+    "artifact.ingress.production.fromYear": 1814,
+    "artifact.ingress.production.toYear": 1830,
+    "artifact.updatedDate": "2025-03-04T03:39:35.346Z",
+    "artifact.publishedDate": "2021-06-29T03:20:55.527Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0138XQQCEqMM",
+    "artifact.defaultPictureIndex": 365050,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0017865A-D",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "38f5d2bb-20f5-4dd9-b67b-2c100d67c093",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807700",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 4,
+    "artifact.ingress.title": "Koppar",
+    "artifact.ingress.description": "Fyra stycken tekoppar utan grepe. Inuti koppen en bård av vinranksmotiv i guld. På framsidan en medaljong med landskapsvinjett ton i ton, en camaieu i sepia.",
+    "artifact.ingress.production.place": "Kina",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1795,
+    "artifact.updatedDate": "2025-05-19T04:01:39.395Z",
+    "artifact.publishedDate": "2022-10-05T03:47:19.310Z",
+    "artifact.ingress.classification": [
+      "26",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Serveringskärl",
+      "Ostindiskt",
+      "Tekoppar"
+    ],
+    "artifact.ingress.names": [
+      "Koppar",
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZdhw",
+    "artifact.defaultPictureIndex": 27231,
+    "artifact.defaultPictureDimension": "3456x2388"
+  },
+  {
+    "identifier.id": "SKAFOR.0017936A-E",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "86d57791-15a5-42d2-823b-0fd9c31197f0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807727",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 5,
+    "artifact.ingress.title": "Kopp",
+    "artifact.ingress.description": "Tekoppar av porslin. Koppens insida med lambrekängbård. I botten en centererad blomsterkvist. Runt om koppens utsida klippformationer och blommande kvistar samt flygande insekter. Nedtill avslutas koppen med en fotring. Dekor i famille rose färger.",
+    "artifact.ingress.production.fromYear": 1740,
+    "artifact.ingress.production.toYear": 1770,
+    "artifact.updatedDate": "2025-05-19T04:01:52.592Z",
+    "artifact.publishedDate": "2022-10-05T03:48:22.743Z",
+    "artifact.ingress.classification": [
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Ostindiskt",
+      "Koppar",
+      "Tekoppar"
+    ],
+    "artifact.ingress.names": [
+      "Kopp",
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZxop",
+    "artifact.defaultPictureIndex": 35447,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "LM.G.001996",
+    "identifier.owner": "LM",
+    "artifact.uuid": "10ec23f2-e888-47bf-b5a4-3757f3c88be6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213141834",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanne",
+    "artifact.ingress.description": "Rokokko, riflet med svunget hanke.\nTuten litt istykker.\nKnotten på lokket istykker.\nStår på sokkel med 4 bein.\nIkke merket fra fabrikk.",
+    "artifact.updatedDate": "2023-10-02T03:55:58.541Z",
+    "artifact.publishedDate": "2022-12-17T04:48:19.932Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Borddekking"
+    ],
+    "artifact.ingress.names": [
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5jtNEPwe",
+    "artifact.defaultPictureIndex": 40323,
+    "artifact.defaultPictureDimension": "2401x1629"
+  },
+  {
+    "identifier.id": "LM.G.001999",
+    "identifier.owner": "LM",
+    "artifact.uuid": "1dfcc78f-d484-4c63-ac8c-ee3dc9df5f63",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213141837",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanne",
+    "artifact.updatedDate": "2023-10-02T03:55:59.674Z",
+    "artifact.publishedDate": "2022-12-17T04:48:22.328Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Borddekking"
+    ],
+    "artifact.ingress.names": [
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5jtNEPwh",
+    "artifact.defaultPictureIndex": 40326,
+    "artifact.defaultPictureDimension": "2363x1638"
+  },
+  {
+    "identifier.id": "VF.01283",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "f62dd2cd-b6fc-4b38-8515-3abd27446685",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213277740",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.updatedDate": "2026-02-10T17:23:02.943Z",
+    "artifact.publishedDate": "2023-02-24T04:25:20.347Z",
+    "artifact.ingress.classification": [
+      "264.2"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Spisebestikk",
+      "Bestikk"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBwjjykEQv",
+    "artifact.defaultPictureIndex": 106626,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "gm.6195.1",
+    "identifier.owner": "S-GRE",
+    "artifact.uuid": "6dd00c0c-9117-4c7d-8f96-d2c14d5ca415",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213879536",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat med en rand i guld och en rand i grått längst ytterkanten. Gyllene Utterns emblem tryckt i guld. Ogalserad fotring.",
+    "artifact.updatedDate": "2024-05-22T03:45:47.713Z",
+    "artifact.publishedDate": "2023-09-16T03:47:29.526Z",
+    "artifact.ingress.classification": [
+      "26",
+      "264",
+      "265"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering och förtäring"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE6E6TUpXH",
+    "artifact.defaultPictureIndex": 25920,
+    "artifact.defaultPictureDimension": "4000x2657"
+  },
+  {
+    "identifier.id": "gm.6195.2",
+    "identifier.owner": "S-GRE",
+    "artifact.uuid": "776dedb6-6af9-4267-88e9-f58d53775ee6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213879540",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat med en mintgrön rand längst ytterkanten. Gyllene Utterns emblem tryckt i mintgrönt. Ogalserad fotring.",
+    "artifact.updatedDate": "2024-05-22T03:45:48.361Z",
+    "artifact.publishedDate": "2023-09-16T03:47:32.422Z",
+    "artifact.ingress.classification": [
+      "26",
+      "264",
+      "265"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering och förtäring"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE6E6TUpXK",
+    "artifact.defaultPictureIndex": 25921,
+    "artifact.defaultPictureDimension": "4000x2657"
+  },
+  {
+    "identifier.id": "L 1481",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "dbe1f1f7-19de-4e2a-9930-596775a7929d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214331464",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked i silver.\nSlät modell, utan markerad ås på framsidan. Stämplar på skaftets översida.\n\nInskrivet i huvudbok 1876",
+    "artifact.ingress.production.fromYear": 1783,
+    "artifact.ingress.production.toYear": 1783,
+    "artifact.updatedDate": "2026-09-30T05:22:30.770Z",
+    "artifact.publishedDate": "2024-03-22T03:45:02.438Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGisuKNrL",
+    "artifact.defaultPictureIndex": 127411,
+    "artifact.defaultPictureDimension": "4000x2006"
+  },
+  {
+    "identifier.id": "SKAFOR.0017872C",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "39c315e4-1c83-4d4e-8942-7df80e2ad846",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214557127",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat av porslin med förgyllda kanter om en blå rutbård. Under den en fleur de lis bård kring kanten och brätte i guld och blått. Fatets spegel är dekorerad med byggnader, båtar och ett flodlandskap. Dekoren utförd i blå underglasyr.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1760,
+    "artifact.ingress.production.toYear": 1780,
+    "artifact.updatedDate": "2026-06-23T03:59:10.733Z",
+    "artifact.publishedDate": "2024-06-21T04:25:41.207Z",
+    "artifact.ingress.classification": [
+      "272",
+      "25",
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Serveringskärl",
+      "Tefat",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGiRdFS7g",
+    "artifact.defaultPictureIndex": 32308,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "SKAFOR.0018929A-D",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "ae4170b0-346c-48dc-a26e-b2c3ed16dfd7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214691203",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 4,
+    "artifact.ingress.title": "Kopp",
+    "artifact.ingress.description": "Koppar, fyra stycken, med hänkel. Åttkantig form med en vinkelformad facetterad hänkel. Upptill vid kopparnas mynning en förgylld list och en bård med treklöverblad. Nedtill en vågig odekorerad ka.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:13.070Z",
+    "artifact.publishedDate": "2024-10-10T04:06:17.314Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Kopp",
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiJZvEAp",
+    "artifact.defaultPictureIndex": 94820,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018469A",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "6cc4b73e-8ea1-41dc-b917-d355d2ad014d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937508",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver. Skaftöverdel i slät modell. Äggformat skedblad. Stämpel mitt på skaftöverdel.",
+    "artifact.ingress.production.place": "Sverige, Västergötland, Västra Götaland, Skövde, Skövde, Skövde",
+    "artifact.ingress.producer": "Åhlstedt, Sundvis",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1805,
+    "artifact.ingress.production.toYear": 1805,
+    "artifact.updatedDate": "2025-05-19T04:03:54.820Z",
+    "artifact.publishedDate": "2025-03-11T03:54:27.077Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Teskedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQFS",
+    "artifact.defaultPictureIndex": 47666,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018469A-B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "46a58895-2563-447b-98ea-44b0793630c2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937509",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver. Skaftöverdel i slät modell. Äggformat skedblad. Stämpel mitt på skaftöverdel.",
+    "artifact.ingress.production.place": "Sverige, Västergötland, Västra Götaland, Skövde, Skövde, Skövde",
+    "artifact.ingress.producer": "Åhlstedt, Sundvis",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1805,
+    "artifact.ingress.production.toYear": 1805,
+    "artifact.updatedDate": "2025-05-19T04:03:54.947Z",
+    "artifact.publishedDate": "2025-03-11T03:54:28.752Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Teskedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQFT",
+    "artifact.defaultPictureIndex": 47664,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018470",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "7066cbe6-bbdb-49ff-bece-671a2bca69db",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937510",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked av silver. Spatelformad skaftöverdel, så kallad fransk modell och ett äggformat skedblad. Reffling på fram och baksida av skaft. Mitt på överdelen ägarmärke. På skaftets undersida stämplar.",
+    "artifact.ingress.production.place": "Sverige, Stockholm, Stockholm",
+    "artifact.ingress.producer": "Ekholm, Johan",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1788,
+    "artifact.ingress.production.toYear": 1788,
+    "artifact.updatedDate": "2025-05-19T04:03:55.152Z",
+    "artifact.publishedDate": "2025-03-11T03:54:29.563Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Teskedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQFU",
+    "artifact.defaultPictureIndex": 47670,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018469B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "4609b283-28de-4c78-b85a-0f3a8547e3bd",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937512",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver. Skaftöverdel i slät modell. Äggformat skedblad. Stämpel mitt på skaftöverdel.",
+    "artifact.ingress.production.place": "Sverige, Västergötland, Västra Götaland, Skövde, Skövde, Skövde",
+    "artifact.ingress.producer": "Åhlstedt, Sundvis",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1805,
+    "artifact.ingress.production.toYear": 1805,
+    "artifact.updatedDate": "2025-05-19T04:03:55.054Z",
+    "artifact.publishedDate": "2025-03-11T03:54:29.913Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Teskedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQFV",
+    "artifact.defaultPictureIndex": 47668,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018471",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "12dadb80-8545-463f-82bf-f92fd4928d26",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937515",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked av silver. Skaftöverdel i orefflad slät modell. Äggformat skedblad. På skaftöverdel stämplar.",
+    "artifact.ingress.production.place": "Sverige, Skåne, Skåne, Helsingborg, Helsingborg",
+    "artifact.ingress.producer": "Romare, Paul",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1807,
+    "artifact.ingress.production.toYear": 1807,
+    "artifact.updatedDate": "2025-05-19T04:03:55.249Z",
+    "artifact.publishedDate": "2025-03-11T03:54:37.060Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Teskedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQKq",
+    "artifact.defaultPictureIndex": 47672,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018472",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "59df215e-ef21-403b-9368-fc0d34f4f5b6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937516",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked av silver. Fiolformad skaftöverdel i slät modell. Äggformat skedblad. På skaftets baksida stämplar.",
+    "artifact.ingress.production.place": "Sverige, Östergötland, Östergötland, Linköping, Linköping",
+    "artifact.ingress.producer": "Tornberg, Nils",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1792,
+    "artifact.ingress.production.toYear": 1792,
+    "artifact.updatedDate": "2025-05-19T04:03:55.579Z",
+    "artifact.publishedDate": "2025-03-11T03:54:38.531Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Teskedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQKt",
+    "artifact.defaultPictureIndex": 47676,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018473",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "76fdc87c-8223-4737-88a8-254a6974a135",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214937518",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked av silver. Fiolformad skaftöverdel i slät modell. Äggformat skedblad. På baksida av skaft stämplar.",
+    "artifact.ingress.production.fromYear": 1793,
+    "artifact.ingress.production.toYear": 1793,
+    "artifact.updatedDate": "2025-05-19T04:03:55.712Z",
+    "artifact.publishedDate": "2025-03-11T03:54:40.309Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Teskedar",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGKDB5FQKu",
+    "artifact.defaultPictureIndex": 47674,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "O 01307",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "4cb5ec4b-8d85-4d61-b9d7-3a72fe49a852",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210216471162",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna",
+    "artifact.ingress.description": "Tekanna i tenn.",
+    "artifact.ingress.producer": "Santesson, Nils Abraham",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1855,
+    "artifact.ingress.production.toYear": 1855,
+    "artifact.updatedDate": "2026-08-29T03:56:34.328Z",
+    "artifact.publishedDate": "2026-02-07T04:09:55.246Z",
+    "artifact.ingress.names": [
+      "Tekanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELhAMra8dU",
+    "artifact.defaultPictureIndex": 875958,
+    "artifact.defaultPictureDimension": "6000x4065"
+  },
+  {
+    "identifier.id": "O 01088",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "0bb03f0b-dd5e-485f-996c-ff850f39c3e7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210216471163",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna",
+    "artifact.ingress.description": "Tekanna i tenn.",
+    "artifact.ingress.producer": "Bröske, Carl",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1788,
+    "artifact.ingress.production.toYear": 1788,
+    "artifact.updatedDate": "2026-08-29T03:56:28.439Z",
+    "artifact.publishedDate": "2026-02-07T04:09:56.895Z",
+    "artifact.ingress.names": [
+      "Tekanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELhAMra8dT",
+    "artifact.defaultPictureIndex": 875955,
+    "artifact.defaultPictureDimension": "6000x4065"
+  },
+  {
+    "identifier.id": "OT.02325",
+    "identifier.owner": "OT",
+    "artifact.uuid": "c35aa3ed-8537-4374-96bc-456b36cb4db5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025493233",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "emaljert tekanne, pastellfrget med gulldekor",
+    "artifact.updatedDate": "2025-06-20T08:47:26.574Z",
+    "artifact.publishedDate": "2014-11-04T06:29:54.366Z",
+    "artifact.ingress.classification": [
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uMXjVcSSK",
+    "artifact.defaultPictureIndex": 184350,
+    "artifact.defaultPictureDimension": "3000x2000"
+  },
+  {
+    "identifier.id": "VF.01261",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "e0552451-f3f8-4e28-b56c-77da2b6c7ba4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025558622",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.updatedDate": "2026-02-10T17:22:47.711Z",
+    "artifact.publishedDate": "2014-11-21T23:20:16.568Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Spisebestikk",
+      "Bestikk"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349x6jsqmj",
+    "artifact.defaultPictureIndex": 84545,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "VF.01262",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "1fa01f0c-05f7-4df7-99d7-8f2aa532b002",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025558623",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.updatedDate": "2026-02-10T17:22:47.544Z",
+    "artifact.publishedDate": "2014-11-21T23:20:24.999Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Spisebestikk",
+      "Bestikk"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349x6jsqmr",
+    "artifact.defaultPictureIndex": 84546,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "VF.08114",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "e09ee9bf-9aa6-42e5-8c5d-92998cd39cac",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025561939",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 6,
+    "artifact.ingress.title": "Skje",
+    "artifact.updatedDate": "2026-02-10T17:56:01.760Z",
+    "artifact.publishedDate": "2014-11-22T02:49:08.150Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Bestikk",
+      "Spisebestikk"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136MvrBxhix",
+    "artifact.defaultPictureIndex": 93689,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "SA.00228",
+    "identifier.owner": "HS",
+    "artifact.uuid": "03a9b406-4fd5-4b68-81c3-e799f68bf08d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025572851",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 4,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-02-10T15:31:44.237Z",
+    "artifact.publishedDate": "2014-11-22T12:26:23.687Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W6hTTz",
+    "artifact.defaultPictureIndex": 23900,
+    "artifact.defaultPictureDimension": "3795x1959"
+  },
+  {
+    "identifier.id": "SA.00243",
+    "identifier.owner": "HS",
+    "artifact.uuid": "1238f70f-f49c-4752-8965-36c694f14c5b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025572922",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Fiolinformet skaft, Rokokkostil\n",
+    "artifact.ingress.production.place": "Norge, Vestfold, Larvik",
+    "artifact.ingress.producer": "Holm, Hannibal",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1780,
+    "artifact.ingress.production.toYear": 1790,
+    "artifact.updatedDate": "2026-02-10T15:31:57.176Z",
+    "artifact.publishedDate": "2014-11-22T12:29:45.558Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W6hno6",
+    "artifact.defaultPictureIndex": 25017,
+    "artifact.defaultPictureDimension": "3846x2071"
+  },
+  {
+    "identifier.id": "SA.00460",
+    "identifier.owner": "HS",
+    "artifact.uuid": "756279ae-c913-48a7-ac39-30c0f8edb1c1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573435",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Rokokko. Fiolinformet skaft\n",
+    "artifact.ingress.production.place": "Norge, Vestfold, Larvik",
+    "artifact.ingress.producer": "Wisting Hans Petter",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1780,
+    "artifact.ingress.production.toYear": 1790,
+    "artifact.updatedDate": "2026-02-10T15:35:01.129Z",
+    "artifact.publishedDate": "2014-11-22T12:51:17.326Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8ASE8",
+    "artifact.defaultPictureIndex": 25023,
+    "artifact.defaultPictureDimension": "3521x2581"
+  },
+  {
+    "identifier.id": "SA.00461",
+    "identifier.owner": "HS",
+    "artifact.uuid": "b35eee6f-35b3-4dbd-b31b-e145a6c0c717",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573442",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Rokokko/regense. fiolinformet skaft\n",
+    "artifact.ingress.production.place": "Norge, Vestfold, Larvik",
+    "artifact.ingress.producer": "Holm, Hannibal",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1788,
+    "artifact.ingress.production.toYear": 1788,
+    "artifact.updatedDate": "2026-02-10T15:35:02.851Z",
+    "artifact.publishedDate": "2014-11-22T12:51:36.975Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8ASJY",
+    "artifact.defaultPictureIndex": 25025,
+    "artifact.defaultPictureDimension": "3872x2178"
+  },
+  {
+    "identifier.id": "SA.00493",
+    "identifier.owner": "HS",
+    "artifact.uuid": "49b35132-eae5-4e67-983a-e1988d3c0beb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573612",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Regence\n",
+    "artifact.ingress.production.place": "Norge, Telemark, Kragerø",
+    "artifact.ingress.producer": "I.H.",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1740,
+    "artifact.ingress.production.toYear": 1740,
+    "artifact.updatedDate": "2026-02-10T15:35:36.014Z",
+    "artifact.publishedDate": "2014-11-22T12:59:45.294Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8B7GT",
+    "artifact.defaultPictureIndex": 25039,
+    "artifact.defaultPictureDimension": "3857x2089"
+  },
+  {
+    "identifier.id": "SA.00502",
+    "identifier.owner": "HS",
+    "artifact.uuid": "1d91f553-fc55-4313-a867-dd772024e47d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573628",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sil",
+    "artifact.ingress.description": "Form: Empire. Bolleformet med holk til skaft. \n",
+    "artifact.ingress.production.place": "St, Stavanger",
+    "artifact.ingress.production.fromYear": 1838,
+    "artifact.ingress.production.toYear": 1838,
+    "artifact.updatedDate": "2026-02-10T15:35:42.663Z",
+    "artifact.publishedDate": "2014-11-22T13:00:59.036Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Sølvtøy"
+    ],
+    "artifact.ingress.names": [
+      "Sil",
+      "Tesil m/4 bein"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8BSDP",
+    "artifact.defaultPictureIndex": 28463,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "SA.00507",
+    "identifier.owner": "HS",
+    "artifact.uuid": "721880ca-0608-4495-a3c2-e76e351ab676",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573643",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Nyrokokko\n",
+    "artifact.ingress.production.place": "Norge, Vestfold, Larvik",
+    "artifact.ingress.producer": "Steenberg J. F.",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1854,
+    "artifact.ingress.production.toYear": 1854,
+    "artifact.updatedDate": "2026-02-10T15:35:49.009Z",
+    "artifact.publishedDate": "2014-11-22T13:01:55.967Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8BSHt",
+    "artifact.defaultPictureIndex": 25041,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "SA.00508",
+    "identifier.owner": "HS",
+    "artifact.uuid": "20068632-3f39-4585-8190-24a6a078676c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573648",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Nyrokokko\n",
+    "artifact.ingress.production.place": "Tø, Tønsberg (bruk 0704)",
+    "artifact.ingress.production.fromYear": 1847,
+    "artifact.ingress.production.toYear": 1847,
+    "artifact.updatedDate": "2026-02-10T15:35:49.182Z",
+    "artifact.publishedDate": "2014-11-22T13:02:10.337Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8BSNG",
+    "artifact.defaultPictureIndex": 28849,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "SA.00509",
+    "identifier.owner": "HS",
+    "artifact.uuid": "29768369-63a9-4fb9-b1b7-9fd87dcded36",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573655",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Empire\n",
+    "artifact.ingress.producer": "C. U. (prøve)",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1850,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2026-02-10T15:35:50.447Z",
+    "artifact.publishedDate": "2014-11-22T13:02:32.407Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8BSSc",
+    "artifact.defaultPictureIndex": 25043,
+    "artifact.defaultPictureDimension": "3751x2301"
+  },
+  {
+    "identifier.id": "SA.00510",
+    "identifier.owner": "HS",
+    "artifact.uuid": "44274fb8-96d8-4905-9fe6-e810e3beca3c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573661",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Rocaille - rokokkostil på skaftet\n",
+    "artifact.ingress.production.place": "Norge, Vestfold, Tønsberg, Tønsberg",
+    "artifact.ingress.producer": "Aanderud, Ole Torsten",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1857,
+    "artifact.ingress.production.toYear": 1857,
+    "artifact.updatedDate": "2026-02-10T15:35:50.889Z",
+    "artifact.publishedDate": "2014-11-22T13:02:48.539Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8BSX1",
+    "artifact.defaultPictureIndex": 25045,
+    "artifact.defaultPictureDimension": "3377x2532"
+  },
+  {
+    "identifier.id": "SA.00511",
+    "identifier.owner": "HS",
+    "artifact.uuid": "563c6376-a6fb-4762-80a5-c6a68712c1c4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025573671",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.place": "Tø, Tønsberg (bruk 0704)",
+    "artifact.ingress.producer": "G W",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1700,
+    "artifact.updatedDate": "2026-02-10T15:35:51.758Z",
+    "artifact.publishedDate": "2014-11-22T13:03:10.929Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W8BSX7",
+    "artifact.defaultPictureIndex": 25047,
+    "artifact.defaultPictureDimension": "3551x2532"
+  },
+  {
+    "identifier.id": "SA.00925",
+    "identifier.owner": "HS",
+    "artifact.uuid": "6985812c-c39f-466d-ba95-b2800f08082a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025574630",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sil",
+    "artifact.ingress.description": "Form: Rokokkostil\n",
+    "artifact.ingress.producer": "Aanderud, Ole Torsten",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1852,
+    "artifact.ingress.production.toYear": 1852,
+    "artifact.updatedDate": "2026-02-10T15:42:13.761Z",
+    "artifact.publishedDate": "2014-11-22T13:55:38.384Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Sølvtøy",
+      "Drikkestell",
+      "Erindring"
+    ],
+    "artifact.ingress.names": [
+      "Sil",
+      "Tesil med 3 føtter"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W9g6Tf",
+    "artifact.defaultPictureIndex": 28484,
+    "artifact.defaultPictureDimension": "3868x2063"
+  },
+  {
+    "identifier.id": "SA.01166",
+    "identifier.owner": "HS",
+    "artifact.uuid": "b7b54489-b5dc-4213-894c-59604fb8fd14",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025574846",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Fiolinformet skaft. Rokokko/regence. Gravert dekor under skjebladet.",
+    "artifact.ingress.producer": "Steen, Michael",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1780,
+    "artifact.ingress.production.toYear": 1790,
+    "artifact.updatedDate": "2026-02-10T15:45:33.229Z",
+    "artifact.publishedDate": "2014-11-22T14:21:22.973Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Sølvtøy",
+      "Bestikk",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WB7jXH",
+    "artifact.defaultPictureIndex": 25060,
+    "artifact.defaultPictureDimension": "3872x1961"
+  },
+  {
+    "identifier.id": "SA.01850",
+    "identifier.owner": "HS",
+    "artifact.uuid": "145a49f3-20f5-4011-a03d-d05eb6a0969f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025575543",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-02-10T15:52:41.249Z",
+    "artifact.publishedDate": "2014-11-22T15:18:16.944Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WCbPdQ",
+    "artifact.defaultPictureIndex": 15874,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SA.02238",
+    "identifier.owner": "HS",
+    "artifact.uuid": "6365e232-d397-4ced-b749-d515640a7337",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025575720",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.fromYear": 1866,
+    "artifact.ingress.production.toYear": 1866,
+    "artifact.updatedDate": "2026-02-10T15:57:24.317Z",
+    "artifact.publishedDate": "2014-11-22T16:08:03.465Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WCcjZ4",
+    "artifact.defaultPictureIndex": 16021,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SA.02239",
+    "identifier.owner": "HS",
+    "artifact.uuid": "aee1d6db-2410-4e25-9609-4b680ea0dc1a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025575721",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.fromYear": 1912,
+    "artifact.ingress.production.toYear": 1912,
+    "artifact.updatedDate": "2026-02-10T15:57:24.209Z",
+    "artifact.publishedDate": "2014-11-22T16:08:18.051Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WCcjZ6",
+    "artifact.defaultPictureIndex": 16023,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SA.02241",
+    "identifier.owner": "HS",
+    "artifact.uuid": "8eab1257-5dd4-49bd-aa3c-122d1d588ca1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025575723",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Form: Vridd legg\n",
+    "artifact.ingress.production.fromYear": 1912,
+    "artifact.ingress.production.toYear": 1912,
+    "artifact.updatedDate": "2026-02-10T15:57:24.222Z",
+    "artifact.publishedDate": "2014-11-22T16:08:45.362Z",
+    "artifact.ingress.classification": [
+      "264",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WCcjZA",
+    "artifact.defaultPictureIndex": 16027,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SA.05714",
+    "identifier.owner": "HS",
+    "artifact.uuid": "c0b456e1-28a1-4c09-803e-333d7a324b02",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025937185",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.producer": "Hansen, Holm",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.updatedDate": "2026-02-10T16:26:35.586Z",
+    "artifact.publishedDate": "2015-09-30T04:33:11.294Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264.2",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spisebestikk",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wX1jhWCZd",
+    "artifact.defaultPictureIndex": 54592,
+    "artifact.defaultPictureDimension": "3815x2074"
+  },
+  {
+    "identifier.id": "SA.05715",
+    "identifier.owner": "HS",
+    "artifact.uuid": "0ce53271-2acb-40fe-a949-6c5c10b4afb3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025937186",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.producer": "Hansen, Holm",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.updatedDate": "2026-02-10T16:26:35.921Z",
+    "artifact.publishedDate": "2015-09-30T04:33:16.433Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264.2",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spisebestikk",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wX1jhWCdv",
+    "artifact.defaultPictureIndex": 54593,
+    "artifact.defaultPictureDimension": "3781x1878"
+  },
+  {
+    "identifier.id": "SA.05716",
+    "identifier.owner": "HS",
+    "artifact.uuid": "d7c7f25e-d214-4287-9c1d-56ac78126e11",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025937187",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.producer": "Aastrøm, Carl Johan",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.updatedDate": "2026-02-10T16:26:36.310Z",
+    "artifact.publishedDate": "2015-09-30T04:33:22.377Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264.2",
+      "412"
+    ],
+    "artifact.ingress.subjects": [
+      "Spisebestikk",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wX1jhWCdw",
+    "artifact.defaultPictureIndex": 54594,
+    "artifact.defaultPictureDimension": "3725x2154"
+  },
+  {
+    "identifier.id": "SM 24125.1-4",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "eb71abef-039c-4e7c-9baa-6916cbc5318d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025979385",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tallrik",
+    "artifact.ingress.description": "Föremålets form: Rund",
+    "artifact.ingress.production.place": "Sverige",
+    "artifact.ingress.producer": "Rörstrands porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2026-06-13T04:38:56.686Z",
+    "artifact.publishedDate": "2015-10-28T05:13:58.627Z",
+    "artifact.ingress.subjects": [
+      "Tefat"
+    ],
+    "artifact.ingress.names": [
+      "Tallrik",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EJWg9Fq13Z",
+    "artifact.defaultPictureIndex": 869289,
+    "artifact.defaultPictureDimension": "6000x4000"
+  },
+  {
+    "identifier.id": "TEKS0031680",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "e47fa031-17fa-423d-b156-a5588cb9fd00",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026330189",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna",
+    "artifact.ingress.description": "Elektrisk tekanna.",
+    "artifact.ingress.producer": "AB Volta",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1917,
+    "artifact.ingress.production.toYear": 1917,
+    "artifact.updatedDate": "2026-02-12T07:20:24.309Z",
+    "artifact.publishedDate": "2016-03-18T07:45:58.002Z",
+    "artifact.ingress.classification": [
+      "1245"
+    ],
+    "artifact.ingress.names": [
+      "Tekanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wZVvUpfpD",
+    "artifact.defaultPictureIndex": 79647,
+    "artifact.defaultPictureDimension": "3533x3543"
+  },
+  {
+    "identifier.id": "TEKS0035738",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "f1b7204b-5aa1-4fe5-813c-6bfa8ffdc2bd",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026332850",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesil",
+    "artifact.ingress.description": "Thésil av Dirigold. Troligen pressad i 1 mm:s plåt. Fabriksgjord. Gjord i ett stycke av samma metall med stämpel i handtaget. (Dirigold).",
+    "artifact.ingress.production.place": "Sverige, Dalarna, Ludvika, Grängesberg",
+    "artifact.ingress.producer": "Grängesbergsbolaget",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-03-19T07:08:05.208Z",
+    "artifact.publishedDate": "2016-03-18T09:43:40.247Z",
+    "artifact.ingress.classification": [
+      "3851"
+    ],
+    "artifact.ingress.names": [
+      "Tesil",
+      "av dirigold, Tesil"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wZVvZJK4u",
+    "artifact.defaultPictureIndex": 80841,
+    "artifact.defaultPictureDimension": "3528x3543"
+  },
+  {
+    "identifier.id": "TEKS0016340",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "f1230c34-29cc-4e1f-bdb3-f326b5903369",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026348114",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna",
+    "artifact.ingress.description": "Tekanna av tennlegering.",
+    "artifact.ingress.production.place": "Storbritannien, Sheffield",
+    "artifact.ingress.producer": "Okänd Sheffield",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1860,
+    "artifact.ingress.production.toYear": 1869,
+    "artifact.updatedDate": "2026-02-12T05:52:22.404Z",
+    "artifact.publishedDate": "2016-03-20T07:43:41.022Z",
+    "artifact.ingress.classification": [
+      "3637"
+    ],
+    "artifact.ingress.names": [
+      "Tekanna",
+      "av tennlegering"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wZW9bNKJg",
+    "artifact.defaultPictureIndex": 73834,
+    "artifact.defaultPictureDimension": "3539x3543"
+  },
+  {
+    "identifier.id": "TEKS0018038",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "d979ef46-16ac-441e-9342-c31e95fa9b57",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026349315",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna, av nysilver",
+    "artifact.ingress.description": "Tekanna av nysilver med handtag av trä. Märkt: \"0 83 L\" samt en davidsstjärna.",
+    "artifact.updatedDate": "2026-03-19T06:25:45.335Z",
+    "artifact.publishedDate": "2016-03-20T08:19:42.159Z",
+    "artifact.ingress.classification": [
+      "3853"
+    ],
+    "artifact.ingress.names": [
+      "Tekanna, av nysilver"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wZW9ctKnP",
+    "artifact.defaultPictureIndex": 74235,
+    "artifact.defaultPictureDimension": "3526x3543"
+  },
+  {
+    "identifier.id": "TEKS0021719",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "ee95a968-f673-4af0-835a-5480c031adef",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026352217",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked av nysilver",
+    "artifact.ingress.description": "Tesked av \"engelskt nysilver\". Lös etikett: \"af Engl. Nysilfver 6 Rd dussinet hos L.J. Warodell et Comp. 1861\".",
+    "artifact.ingress.producer": "L.J. Warodell & Co",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1861,
+    "artifact.ingress.production.toYear": 1861,
+    "artifact.updatedDate": "2026-03-19T06:34:49.033Z",
+    "artifact.publishedDate": "2016-03-20T10:17:58.897Z",
+    "artifact.ingress.classification": [
+      "3853"
+    ],
+    "artifact.ingress.names": [
+      "Tesked av nysilver"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wZWG2xXHQ",
+    "artifact.defaultPictureIndex": 100468,
+    "artifact.defaultPictureDimension": "1408x944"
+  },
+  {
+    "identifier.id": "TEKS0021720",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "67a5c260-790c-4089-8e17-7689485085c6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026352218",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked av \"berliner nysilver\". Lös etikett: \"af Berliner Nysilfver 9 Rd per dussin hos L.J. Warodell et Comp. 1861\".",
+    "artifact.ingress.producer": "L.J. Warodell & Co",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1861,
+    "artifact.ingress.production.toYear": 1861,
+    "artifact.updatedDate": "2026-03-19T06:34:49.360Z",
+    "artifact.publishedDate": "2016-03-20T10:18:01.884Z",
+    "artifact.ingress.classification": [
+      "3853"
+    ],
+    "artifact.ingress.names": [
+      "Tesked",
+      "av nysilver"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wZWG2xXHR",
+    "artifact.defaultPictureIndex": 100469,
+    "artifact.defaultPictureDimension": "3008x2000"
+  },
+  {
+    "identifier.id": "TEKS0021721",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "46a2ae83-bb12-4718-97e8-b15082d1ce9a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026352219",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked av \"krysokalk\", kopparlegering, mässing. Jämte ett stycke oarbetad metall. Lös etikett: \"Krysokalk 328 Thésked + oarbetad metall.\" \"228 Krysokalk från Berlin (en thésked och ett oarbetat stycke)\". (K.T.I. inv. 1848). Mått ovan avser skeden. Mått metallstycket: 92 x 40 x 3 mm, vikt: 0,1 kg.",
+    "artifact.ingress.production.place": "Tyskland, Berlin",
+    "artifact.ingress.producer": "Okänd Berlin",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1847,
+    "artifact.updatedDate": "2026-09-15T04:08:41.813Z",
+    "artifact.publishedDate": "2016-03-20T10:18:03.054Z",
+    "artifact.ingress.classification": [
+      "3811"
+    ],
+    "artifact.ingress.names": [
+      "Tesked",
+      "av krysokalk"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wZWG2xXHS",
+    "artifact.defaultPictureIndex": 100470,
+    "artifact.defaultPictureDimension": "1460x980"
+  },
+  {
+    "identifier.id": "OB.02617",
+    "identifier.owner": "OMU",
+    "artifact.uuid": "bad7d1ce-0578-42e0-bede-426ddfa702a3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026527912",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "kanne",
+    "artifact.ingress.description": "Stråmønster blått på hvit bunn, messing på tut og lokk, trehåndtak",
+    "artifact.ingress.production.place": "Danmark, Kgl. Dansk Porcelainsfabrik, København",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1700,
+    "artifact.updatedDate": "2026-09-18T12:51:10.343Z",
+    "artifact.publishedDate": "2016-08-11T04:01:26.854Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "servering",
+      "drikke",
+      "dekketøy",
+      "sjokolade",
+      "kanner",
+      "porselen",
+      "husgeråd",
+      "te "
+    ],
+    "artifact.ingress.names": [
+      "kanne",
+      "sjokoladekanne",
+      "tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032waz7hXDpn",
+    "artifact.defaultPictureIndex": 21805,
+    "artifact.defaultPictureDimension": "4256x2848"
+  },
+  {
+    "identifier.id": "M 15446",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "a1dd0a94-e950-414a-ac22-04762c07b574",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026711460",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedosa",
+    "artifact.ingress.description": "En  tedosa i rött porslin av östeuropeiskt ursprung. På ena sidan handmålat motiv föreställande en sittande kvinna, på andra sidan motiv i form av en grekisk vas.\n\nInskrivet i huvudkatalog 1953.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2026-09-30T05:39:24.805Z",
+    "artifact.publishedDate": "2016-11-03T15:06:34.060Z",
+    "artifact.ingress.classification": [
+      "251",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Dosor"
+    ],
+    "artifact.ingress.names": [
+      "Tedosa"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxErDRjZr",
+    "artifact.defaultPictureIndex": 118677,
+    "artifact.defaultPictureDimension": "4000x3495"
+  },
+  {
+    "identifier.id": "M 19888",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "3a22b027-6cf8-4ea6-a8fb-4ed74c6302b7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026712595",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teburk",
+    "artifact.ingress.description": "Teburk eller urna.\nTillverkad omkring 1920.\nSlipad dekor i form av facetter och rutor.\nOfärgat klarglas.\n\nInskrivet i huvudkatalogen 1968.",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-09-30T06:05:33.675Z",
+    "artifact.publishedDate": "2016-11-03T15:27:14.631Z",
+    "artifact.ingress.classification": [
+      "251",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Burkar",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Teburk"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiR31SBG",
+    "artifact.defaultPictureIndex": 129709,
+    "artifact.defaultPictureDimension": "2961x4000"
+  },
+  {
+    "identifier.id": "M 47445",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "58a442d6-9f47-4d52-af5d-05871c3493cb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026716032",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked av rostfritt stål med ovalt blad, refflade kanter på skaftet som är smalt och platt vid bladet och bredare mot skaftänden för att återligen smalna och avrundas i änden. På skaftänden finns en viss bladdekor.",
+    "artifact.updatedDate": "2026-09-25T04:31:55.485Z",
+    "artifact.publishedDate": "2016-11-03T16:35:05.955Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EJYBMYfGMr",
+    "artifact.defaultPictureIndex": 147681,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "M 47446",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "2b7e5cee-e93b-48b4-929f-4a172ba5e1e7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026716033",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked av förkromad mässing med ovalt blad. Skedskaftet är smalt nere vid skaftet, blir bredare och avslutas med en spets, s.k. svensk modell. Kanterna är försedda med refflor.",
+    "artifact.updatedDate": "2026-09-25T04:31:55.504Z",
+    "artifact.publishedDate": "2016-11-03T16:35:07.425Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EJYBMYfGMq",
+    "artifact.defaultPictureIndex": 147684,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "M 66105",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "09f1c749-4d48-478f-b19b-2d96dadf8f94",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027366027",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesil",
+    "artifact.ingress.description": "Tesil (s.k. tespindel) , av silver. \nEnkel, rund modell med pressad palmettbård. Tre ben med enkla fötter. Svarvat och svärtat trähandtag. Stämplar (otydliga) längs ett av benens insida.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1809,
+    "artifact.updatedDate": "2026-09-30T07:14:55.314Z",
+    "artifact.publishedDate": "2017-11-24T06:05:52.495Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Tesil"
+    ],
+    "artifact.ingress.names": [
+      "Tesil",
+      "Tespindel"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03347T1TS9zg",
+    "artifact.defaultPictureIndex": 85265,
+    "artifact.defaultPictureDimension": "4000x2563"
+  },
+  {
+    "identifier.id": "M 66104",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "08cb9743-e2fb-4120-9e3f-f78fd4e5e58b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027366029",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesil",
+    "artifact.ingress.description": "Tesil (s.k. tespindel) , av silver. \nEnkel modell med vågig kant. Tre ben med tassfötter. Svärtat, svarvat trähandtag. Stämplar längs ytterkant (mycket otydliga). (Nils Tornberg, Linköping?).",
+    "artifact.ingress.production.fromYear": 1786,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-09-30T07:14:55.329Z",
+    "artifact.publishedDate": "2017-11-24T06:05:53.321Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Tesil"
+    ],
+    "artifact.ingress.names": [
+      "Tesil",
+      "Tespindel"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347T1TRqCU",
+    "artifact.defaultPictureIndex": 85262,
+    "artifact.defaultPictureDimension": "4000x2665"
+  },
+  {
+    "identifier.id": "M 66112",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "79e3ab59-6f7a-4f8a-a83e-78168af27ff0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027366034",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesil",
+    "artifact.ingress.description": "Tespindel i silver. \nOval, något kaskformad modell. Repstavsbård upptill och nedtill. Står på tre ben. Invändigt förgylld. Svarvat, svärtat trähandtag.\nSaknar stämplar.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1825,
+    "artifact.updatedDate": "2026-09-30T07:14:56.337Z",
+    "artifact.publishedDate": "2017-11-24T06:06:03.958Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Tesil"
+    ],
+    "artifact.ingress.names": [
+      "Tesil",
+      "Tespindel"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347T1UwA2P",
+    "artifact.defaultPictureIndex": 85291,
+    "artifact.defaultPictureDimension": "4000x2525"
+  },
+  {
+    "identifier.id": "M 66114",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "04120a06-58b0-4217-87f8-e53a2cc181b6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027366037",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell. Präglade ägarinitialer på skaftets baksida: \"RB\". \nStämplar (ej fullständiga) på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1808,
+    "artifact.ingress.production.toYear": 1840,
+    "artifact.updatedDate": "2026-09-30T07:14:56.548Z",
+    "artifact.publishedDate": "2017-11-24T06:06:07.717Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUDHv8hX",
+    "artifact.defaultPictureIndex": 70185,
+    "artifact.defaultPictureDimension": "4000x2978"
+  },
+  {
+    "identifier.id": "M 66115",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "bda26069-3c7c-43b8-bd11-3fbd927ddc4c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027366040",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell. Stämplar på skaftets undersida (bl a svensk importstämpel).",
+    "artifact.ingress.production.fromYear": 1915,
+    "artifact.ingress.production.toYear": 1915,
+    "artifact.updatedDate": "2026-09-30T07:14:57.080Z",
+    "artifact.publishedDate": "2017-11-24T06:06:10.179Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUDHv8mw",
+    "artifact.defaultPictureIndex": 70189,
+    "artifact.defaultPictureDimension": "3813x4000"
+  },
+  {
+    "identifier.id": "M 66190",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "2bf1c23a-ca8d-4b0c-b15b-c547fd3fcfbd",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409389",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nGammalfransk modell. Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1852,
+    "artifact.ingress.production.toYear": 1852,
+    "artifact.updatedDate": "2026-09-30T07:15:07.207Z",
+    "artifact.publishedDate": "2018-01-12T06:05:46.839Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWNYZ",
+    "artifact.defaultPictureIndex": 70437,
+    "artifact.defaultPictureDimension": "4000x3369"
+  },
+  {
+    "identifier.id": "M 66191",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "2b7935dc-c810-4418-b634-e11aec35cbfc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409391",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nGammalfransk modell. Ägarinitialer: \"A.A, C.A.\" på skaftets baksida. Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1875,
+    "artifact.ingress.production.toYear": 1875,
+    "artifact.updatedDate": "2026-09-30T07:15:07.350Z",
+    "artifact.publishedDate": "2018-01-12T06:05:47.696Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgWNYb",
+    "artifact.defaultPictureIndex": 70442,
+    "artifact.defaultPictureDimension": "4000x2721"
+  },
+  {
+    "identifier.id": "M 66192",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "517791ca-1794-4601-a24b-f19b70ec0f57",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409398",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nGammalfransk modell (?) med akantusblad. Stämplar på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1846,
+    "artifact.ingress.production.toYear": 1846,
+    "artifact.updatedDate": "2026-09-30T07:15:07.351Z",
+    "artifact.publishedDate": "2018-01-12T06:05:50.599Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWNhW",
+    "artifact.defaultPictureIndex": 70446,
+    "artifact.defaultPictureDimension": "4000x3191"
+  },
+  {
+    "identifier.id": "M 66194",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "44fbaa77-3eb2-4015-8e79-945de7dabb1e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409404",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nGammalfransk modell (?) med akantusblad. Ägarinitialer på skaftets baksida: \"J.K., L.K.\". Stämplar på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1841,
+    "artifact.ingress.production.toYear": 1841,
+    "artifact.updatedDate": "2026-09-30T07:15:08.531Z",
+    "artifact.publishedDate": "2018-01-12T06:05:52.443Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgWNmr",
+    "artifact.defaultPictureIndex": 70449,
+    "artifact.defaultPictureDimension": "4000x3339"
+  },
+  {
+    "identifier.id": "M 66196",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "bd75c4a5-60a9-4bcf-8252-92a5224e0c3e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409414",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nGammalfransk modell. Ägarinitial på skaftets baksida: \"B\". Stämplar på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1863,
+    "artifact.ingress.production.toYear": 1863,
+    "artifact.updatedDate": "2026-09-30T07:15:07.928Z",
+    "artifact.publishedDate": "2018-01-12T06:05:57.455Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWNvf",
+    "artifact.defaultPictureIndex": 70460,
+    "artifact.defaultPictureDimension": "4000x3205"
+  },
+  {
+    "identifier.id": "M 66199",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "84666333-6fa5-4612-bfb2-79f9a49a4a48",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409429",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSlät fiolmodell. Ägarinitialer: \"E.C.J.\" på skaftets baksida. Stämplar (otydliga) på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1841,
+    "artifact.ingress.production.toYear": 1841,
+    "artifact.updatedDate": "2026-09-30T07:15:08.495Z",
+    "artifact.publishedDate": "2018-01-12T06:06:03.036Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWP5V",
+    "artifact.defaultPictureIndex": 70472,
+    "artifact.defaultPictureDimension": "4000x3090"
+  },
+  {
+    "identifier.id": "M 66201",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "4c43bb9b-ba47-4293-b68c-3c61175d2097",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409452",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSlät fiolmodell. Stämplar på skaftets baksida, liksom ägarinitial: \"L\".",
+    "artifact.ingress.production.fromYear": 1818,
+    "artifact.ingress.production.toYear": 1832,
+    "artifact.updatedDate": "2026-09-30T07:15:08.779Z",
+    "artifact.publishedDate": "2018-01-12T06:06:09.425Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWi2V",
+    "artifact.defaultPictureIndex": 70477,
+    "artifact.defaultPictureDimension": "4000x2808"
+  },
+  {
+    "identifier.id": "M 66203",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "34c64ef1-6aa2-4bf2-9344-32ff3fdb26af",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409453",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSlät fiolmodell. Stämplar på skaftets baksida, liksom ägarinitialer: \"G.G.L.\"",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-09-30T07:15:09.159Z",
+    "artifact.publishedDate": "2018-01-12T06:06:09.947Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWi2c",
+    "artifact.defaultPictureIndex": 70485,
+    "artifact.defaultPictureDimension": "4000x2476"
+  },
+  {
+    "identifier.id": "M 66205",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "f8f3344f-fc7a-4070-891c-b46a79a6073e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409459",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSlät fiolmodell. Ägarinitialer på skaftets baksida: \"F.P.G.\". Stämplar på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-09-30T07:15:09.369Z",
+    "artifact.publishedDate": "2018-01-12T06:06:13.470Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgWiBS",
+    "artifact.defaultPictureIndex": 70501,
+    "artifact.defaultPictureDimension": "4000x2646"
+  },
+  {
+    "identifier.id": "M 66213",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "20917845-8165-4a74-b8fa-a3646b107fda",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409499",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSpetsig modell. Svagt prickmönster längs kanterna. Stämplar på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1835,
+    "artifact.updatedDate": "2026-09-30T07:15:10.569Z",
+    "artifact.publishedDate": "2018-01-12T06:06:32.743Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgX3Ry",
+    "artifact.defaultPictureIndex": 70529,
+    "artifact.defaultPictureDimension": "4000x2728"
+  },
+  {
+    "identifier.id": "M 66214",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "fd8b8f15-f20a-4760-bcae-9ccf31b64315",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409504",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSpetsig modell med prickmönstrad rand, för övrigt slät. Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1835,
+    "artifact.updatedDate": "2026-09-30T07:15:10.747Z",
+    "artifact.publishedDate": "2018-01-12T06:06:35.026Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgX3S7",
+    "artifact.defaultPictureIndex": 70535,
+    "artifact.defaultPictureDimension": "4000x2450"
+  },
+  {
+    "identifier.id": "M 66216",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "aa4e785c-5652-41d0-8055-e358569b3cdb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409506",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1807,
+    "artifact.ingress.production.toYear": 1807,
+    "artifact.updatedDate": "2026-09-30T07:15:10.760Z",
+    "artifact.publishedDate": "2018-01-12T06:06:35.873Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgX3S8",
+    "artifact.defaultPictureIndex": 70540,
+    "artifact.defaultPictureDimension": "4000x3263"
+  },
+  {
+    "identifier.id": "M 66222",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "ee3bf9d5-ac03-4754-800d-128c8fca4280",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409519",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver. \nSlät fiolmodell. Försedd med ägarinitialer på på baksidan av skaftet: \"J.E.W.\". Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1778,
+    "artifact.ingress.production.toYear": 1778,
+    "artifact.updatedDate": "2026-09-30T07:15:13.123Z",
+    "artifact.publishedDate": "2018-01-12T06:06:41.688Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347TM8yHSP",
+    "artifact.defaultPictureIndex": 85692,
+    "artifact.defaultPictureDimension": "4000x2007"
+  },
+  {
+    "identifier.id": "M 66219",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "0200e510-44b8-4b0a-925f-91afa9aab582",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409520",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Försedd med ägarinitialer på skaftets baksida: \"C.E.J.\". Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1807,
+    "artifact.ingress.production.toYear": 1807,
+    "artifact.updatedDate": "2026-09-30T07:15:11.318Z",
+    "artifact.publishedDate": "2018-01-12T06:06:42.369Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgX3fD",
+    "artifact.defaultPictureIndex": 70545,
+    "artifact.defaultPictureDimension": "4000x3056"
+  },
+  {
+    "identifier.id": "M 66221",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "e24dd74f-6cab-4030-b340-554467f20a2a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409522",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Försedd med ägarinitialer på baksidan av skaftet: \"C.E.J.\". Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1807,
+    "artifact.ingress.production.toYear": 1807,
+    "artifact.updatedDate": "2026-09-30T07:15:12.649Z",
+    "artifact.publishedDate": "2018-01-12T06:06:42.730Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgX3fK",
+    "artifact.defaultPictureIndex": 70553,
+    "artifact.defaultPictureDimension": "4000x3591"
+  },
+  {
+    "identifier.id": "M 66223",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "f0d9b8e4-5308-469e-84d2-9eef26749cc3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409524",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Stämplar på skaftets ovansida.",
+    "artifact.ingress.production.fromYear": 1807,
+    "artifact.ingress.production.toYear": 1807,
+    "artifact.updatedDate": "2026-09-30T07:15:11.820Z",
+    "artifact.publishedDate": "2018-01-12T06:06:44.054Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgX3jk",
+    "artifact.defaultPictureIndex": 70560,
+    "artifact.defaultPictureDimension": "4000x3431"
+  },
+  {
+    "identifier.id": "M 66224",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "6cd83fc7-f72d-4ea7-b5a4-4e96514d60d7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409526",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver. \nSlät fiolmodell med ås. Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1773,
+    "artifact.ingress.production.toYear": 1773,
+    "artifact.updatedDate": "2026-09-30T07:15:12.108Z",
+    "artifact.publishedDate": "2018-01-12T06:06:46.220Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgX3p5",
+    "artifact.defaultPictureIndex": 70563,
+    "artifact.defaultPictureDimension": "4000x3139"
+  },
+  {
+    "identifier.id": "M 66226",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "99801bfa-8a34-45ef-b46a-aafa58812f14",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409530",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Försedd med ägarinitialer på baksidan av skaftet: \"C.E.J.\". Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1807,
+    "artifact.ingress.production.toYear": 1807,
+    "artifact.updatedDate": "2026-09-30T07:15:12.425Z",
+    "artifact.publishedDate": "2018-01-12T06:06:47.469Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgX3pA",
+    "artifact.defaultPictureIndex": 70567,
+    "artifact.defaultPictureDimension": "4000x3683"
+  },
+  {
+    "identifier.id": "M 66229",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "5efc9788-c617-4e60-840e-405a934a12bb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409536",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Stämplar på skaftets ovansida (årsstämpel saknas).",
+    "artifact.ingress.production.fromYear": 1791,
+    "artifact.ingress.production.toYear": 1829,
+    "artifact.updatedDate": "2026-09-30T07:15:13.081Z",
+    "artifact.publishedDate": "2018-01-12T06:06:51.498Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgX3xy",
+    "artifact.defaultPictureIndex": 70580,
+    "artifact.defaultPictureDimension": "4000x2557"
+  },
+  {
+    "identifier.id": "M 66230",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "9367ca79-a840-47f2-9c68-60ae503d495e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409543",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Försedd med ägarinitialer på baksidan: \"C.O.O.\" och präglat monogram inom pärlbård \"(B)N\". Stämplar på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1802,
+    "artifact.ingress.production.toYear": 1802,
+    "artifact.updatedDate": "2026-09-30T07:15:13.386Z",
+    "artifact.publishedDate": "2018-01-12T06:06:54.488Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgX3xz",
+    "artifact.defaultPictureIndex": 70585,
+    "artifact.defaultPictureDimension": "4000x2709"
+  },
+  {
+    "identifier.id": "M 66231",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "04c2bc8c-1cb3-48a0-af9b-a6a51455f71a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409547",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Försedd med ägarinitialer på baksidan: \"C.O.O.\" och präglat monogram inom pärlbård \"BN\". Stämplar (något otydliga) på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1802,
+    "artifact.ingress.production.toYear": 1802,
+    "artifact.updatedDate": "2026-09-30T07:15:13.530Z",
+    "artifact.publishedDate": "2018-01-12T06:06:55.495Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgX3y2",
+    "artifact.defaultPictureIndex": 70590,
+    "artifact.defaultPictureDimension": "4000x2382"
+  },
+  {
+    "identifier.id": "M 66233",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "4ce0841b-62ac-472e-be6a-13e48b227237",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409548",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Försedd med ägarinitialer på baksidan av skaftet: \"A.C., A.R.\". Mycket otydliga stämplar på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1820,
+    "artifact.updatedDate": "2026-09-30T07:15:13.739Z",
+    "artifact.publishedDate": "2018-01-12T06:06:55.981Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgX47p",
+    "artifact.defaultPictureIndex": 70599,
+    "artifact.defaultPictureDimension": "4000x2624"
+  },
+  {
+    "identifier.id": "M 66235",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "cd8769a7-df2e-42a3-abea-72fe64186460",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409561",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Försedd med ägarinitialer på skaftets baksida: \"A.J.\". Stämplar på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1838,
+    "artifact.ingress.production.toYear": 1838,
+    "artifact.updatedDate": "2026-09-30T07:15:14.194Z",
+    "artifact.publishedDate": "2018-01-12T06:07:00.055Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgXNzL",
+    "artifact.defaultPictureIndex": 70602,
+    "artifact.defaultPictureDimension": "4000x2709"
+  },
+  {
+    "identifier.id": "M 66239",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "2b1bcb58-5a9c-485d-ae0b-65735d7224cf",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409570",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Stämplar på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1838,
+    "artifact.ingress.production.toYear": 1838,
+    "artifact.updatedDate": "2026-09-30T07:15:14.421Z",
+    "artifact.publishedDate": "2018-01-12T06:07:05.120Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgXPDh",
+    "artifact.defaultPictureIndex": 70621,
+    "artifact.defaultPictureDimension": "4000x2709"
+  },
+  {
+    "identifier.id": "M 66238",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "2db5d354-159c-4e21-bfdd-4876ff9be0c9",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409571",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Ägarinitialer på skaftets baksida: \"A.C., A.R\". Stämplar (mycket otydliga) på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2026-09-30T07:15:14.478Z",
+    "artifact.publishedDate": "2018-01-12T06:07:05.240Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgXPDa",
+    "artifact.defaultPictureIndex": 70617,
+    "artifact.defaultPictureDimension": "4000x2901"
+  },
+  {
+    "identifier.id": "M 66240",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "cea60539-e990-4d19-b879-ff9e469cab0a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409575",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Ägarinitialer på skaftets baksida: \"M.C.Z.\". Stämplar på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1759,
+    "artifact.ingress.production.toYear": 1764,
+    "artifact.updatedDate": "2026-09-30T07:15:15.154Z",
+    "artifact.publishedDate": "2018-01-12T06:07:06.922Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUtgXPHy",
+    "artifact.defaultPictureIndex": 70624,
+    "artifact.defaultPictureDimension": "4000x2709"
+  },
+  {
+    "identifier.id": "M 66241",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "136cf8b9-2c11-420c-8d88-5ba234982a21",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409585",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk spetsig modell med ås. Ägarinitialer på baksidan av skaftet: \"A.J., C....\". Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1838,
+    "artifact.ingress.production.toYear": 1838,
+    "artifact.updatedDate": "2026-09-30T07:15:15.260Z",
+    "artifact.publishedDate": "2018-01-12T06:07:13.151Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtgXPNW",
+    "artifact.defaultPictureIndex": 70628,
+    "artifact.defaultPictureDimension": "4000x2987"
+  },
+  {
+    "identifier.id": "M 66326",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "e6b942b4-9e0c-49db-8290-10e369899f05",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409745",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Stämplar på skaftets ovansida.",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1790,
+    "artifact.updatedDate": "2026-09-30T07:15:30.058Z",
+    "artifact.publishedDate": "2018-01-12T06:09:54.248Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUthyMv1",
+    "artifact.defaultPictureIndex": 71041,
+    "artifact.defaultPictureDimension": "4000x1668"
+  },
+  {
+    "identifier.id": "M 66325",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "c669994f-3cfa-4d87-a280-8f17c06984a0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409746",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Stämplar på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1790,
+    "artifact.updatedDate": "2026-09-30T07:15:30.043Z",
+    "artifact.publishedDate": "2018-01-12T06:09:54.918Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUthyMuy",
+    "artifact.defaultPictureIndex": 71038,
+    "artifact.defaultPictureDimension": "4000x1845"
+  },
+  {
+    "identifier.id": "M 66481-1-2",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "6305a665-0b7a-4fa7-a218-8fbdcef02498",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027409975",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp",
+    "artifact.ingress.description": "Tekopp med fat, flintporslin. \nGråvitt mönster i nyrokoko, med bl a en del musikinstrument. I fatets spegel en påfågel i landskap m.m.",
+    "artifact.ingress.production.fromYear": 1840,
+    "artifact.ingress.production.toYear": 1860,
+    "artifact.updatedDate": "2026-09-30T07:15:56.569Z",
+    "artifact.publishedDate": "2018-01-12T06:14:31.671Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Tekoppar",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynUti1Nen",
+    "artifact.defaultPictureIndex": 71750,
+    "artifact.defaultPictureDimension": "4000x3391"
+  },
+  {
+    "identifier.id": "M 66715",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "3f8a3cb5-ca82-4657-8ffa-c1fdda80f47c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027433819",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked i silver.\nSlät modell med ås. På baksidan av skaftet ägarinitialer: \"JL\". Stämplar på framsidan av skaftet. Årtalsstämpel saknas.",
+    "artifact.ingress.production.fromYear": 1817,
+    "artifact.ingress.production.toYear": 1826,
+    "artifact.updatedDate": "2026-09-30T07:16:30.970Z",
+    "artifact.publishedDate": "2018-01-27T06:12:58.706Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347TM32zz1",
+    "artifact.defaultPictureIndex": 85567,
+    "artifact.defaultPictureDimension": "4000x2372"
+  },
+  {
+    "identifier.id": "M 66728",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "5030bc52-b45c-4218-91db-3c9881c08f28",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027433840",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked i silver.\nSpetsig modell med dekor av blad på skaftet. Ägarinitialer på skaftets baksida: \"A.L.\". Stämplar (delvis mycket otydliga) på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1790,
+    "artifact.updatedDate": "2026-09-30T07:16:32.484Z",
+    "artifact.publishedDate": "2018-01-27T06:13:15.285Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347TM3314L",
+    "artifact.defaultPictureIndex": 85574,
+    "artifact.defaultPictureDimension": "4000x2368"
+  },
+  {
+    "identifier.id": "M 66729",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "4537b2a8-16e0-4e54-b6b0-29dcf7bebeab",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027433841",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i silver.\nSvensk trubbig modell. Ägarinitialer på skaftets baksida: \"C.G.D.\". Stämplar på skaftets ovansida.",
+    "artifact.ingress.production.fromYear": 1830,
+    "artifact.ingress.production.toYear": 1860,
+    "artifact.updatedDate": "2026-09-30T07:16:32.434Z",
+    "artifact.publishedDate": "2018-01-27T06:13:15.729Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347TM3314T",
+    "artifact.defaultPictureIndex": 85578,
+    "artifact.defaultPictureDimension": "4000x2516"
+  },
+  {
+    "identifier.id": "M 66821",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "9da766a0-f303-4557-a5d7-1a8283d39bac",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027434008",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked i silver. \nGammalfransk modell. Ägarinitialer: \"H.D.\" på baksidan av skaftet. Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1893,
+    "artifact.ingress.production.toYear": 1893,
+    "artifact.updatedDate": "2026-09-30T07:16:48.308Z",
+    "artifact.publishedDate": "2018-01-27T06:15:12.425Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231uU2pNhP6",
+    "artifact.defaultPictureIndex": 73204,
+    "artifact.defaultPictureDimension": "4000x2162"
+  },
+  {
+    "identifier.id": "M 66831",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "57b09e4a-2662-4aea-b6c9-3a4aa07bd132",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027434024",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked i mässing.\nTrubbig, sllät modell. Möjligen avsedd att försilvras.\nSaknar signatur/stämplar.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1825,
+    "artifact.updatedDate": "2026-09-30T07:16:49.560Z",
+    "artifact.publishedDate": "2018-01-27T06:15:21.860Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231uU2pNhgc",
+    "artifact.defaultPictureIndex": 73248,
+    "artifact.defaultPictureDimension": "4000x2746"
+  },
+  {
+    "identifier.id": "M 66887",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "d3993425-b81e-43b6-b21a-46f31deb8177",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027434997",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesil",
+    "artifact.ingress.description": "Tesil, s.k. tespindel i silver.\nRund, något insvängd modell med genombruten sil (enkelt blommönster). Står på tre ben. \nFörsedd med svarvat, svärtat handtag av trä med benknopp. Stämplar på undersidan av ett av benen.",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1905,
+    "artifact.updatedDate": "2026-09-30T07:16:59.052Z",
+    "artifact.publishedDate": "2018-01-30T06:04:45.739Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Tesil"
+    ],
+    "artifact.ingress.names": [
+      "Tesil",
+      "Tespindel"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347T1UwVWK",
+    "artifact.defaultPictureIndex": 85384,
+    "artifact.defaultPictureDimension": "4000x2098"
+  },
+  {
+    "identifier.id": "M 67239",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "57873e68-4b1c-463d-87c2-bc9421749473",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027513628",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked, av silver.\nGammalfransk modell. Ägarinitialer: \"C.U.K.\" på baksidan av skaftet. Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1870,
+    "artifact.ingress.production.toYear": 1870,
+    "artifact.updatedDate": "2026-09-30T07:18:01.663Z",
+    "artifact.publishedDate": "2018-02-28T05:09:51.502Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Tesked"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231uxup5cZy",
+    "artifact.defaultPictureIndex": 74997,
+    "artifact.defaultPictureDimension": "4000x3136"
+  },
+  {
+    "identifier.id": "M 67240",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "e052e89f-9f1b-44fc-b85b-b46f28aff842",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027513631",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Tesked, av silver.\nSlät fiolmodell. Ägarinitialer: \"L.A.\" på skaftets baksida. Stämplar (ofullständiga, årtalsstämpel saknas) på skaftets framsida.",
+    "artifact.ingress.production.fromYear": 1791,
+    "artifact.ingress.production.toYear": 1829,
+    "artifact.updatedDate": "2026-09-30T07:18:01.784Z",
+    "artifact.publishedDate": "2018-02-28T05:09:53.303Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Tesked"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331uxup5ca4",
+    "artifact.defaultPictureIndex": 75001,
+    "artifact.defaultPictureDimension": "4000x2878"
+  },
+  {
+    "identifier.id": "M 67242",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "a6e7fbcf-76a0-4f64-92e5-e7c2bd81622c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027515631",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked, av silver.\nSvensk spetsig modell. Ägarnamn: \"Ragnar\", på baksidan av skaftet. Stämplar på baksidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1912,
+    "artifact.ingress.production.toYear": 1912,
+    "artifact.updatedDate": "2026-09-30T07:18:02.031Z",
+    "artifact.publishedDate": "2018-03-01T05:04:23.708Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Tesked"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231uxus4vuZ",
+    "artifact.defaultPictureIndex": 75008,
+    "artifact.defaultPictureDimension": "4000x2534"
+  },
+  {
+    "identifier.id": "XLM.01444",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "be436927-db8f-44eb-a278-e4a7078fac59",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027810559",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna",
+    "artifact.ingress.description": "Tekanna, av lera, mer kort pip, handtag avlsaget. Gulbrungrön glasyr och hanskriven text: \"Babba Erics dotter J. Granön 1788, för __ och sedan jag thänker Bruka detta ___ tills jag går hädan\".",
+    "artifact.ingress.production.fromYear": 1788,
+    "artifact.ingress.production.toYear": 1788,
+    "artifact.updatedDate": "2025-06-05T11:09:39.809Z",
+    "artifact.publishedDate": "2018-05-29T06:02:34.506Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Tekannor",
+      "Te",
+      "Dryckens servering"
+    ],
+    "artifact.ingress.names": [
+      "Tekanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231wTfuMFtF",
+    "artifact.defaultPictureIndex": 157199,
+    "artifact.defaultPictureDimension": "3194x2550"
+  },
+  {
+    "identifier.id": "HAM.00598",
+    "identifier.owner": "HAM",
+    "artifact.uuid": "b4ddb0f9-c30a-4dbe-98c6-3e7825d342f3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027961243",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sil",
+    "artifact.ingress.description": "Blomstermønster",
+    "artifact.updatedDate": "2026-02-10T13:19:46.537Z",
+    "artifact.publishedDate": "2018-11-07T06:04:28.733Z",
+    "artifact.ingress.classification": [
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri",
+      "Aluminiumindustri"
+    ],
+    "artifact.ingress.names": [
+      "Sil",
+      "Tesil"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231xTzwgjrU",
+    "artifact.defaultPictureIndex": 76505,
+    "artifact.defaultPictureDimension": "3158x2592"
+  },
+  {
+    "identifier.id": "JM.18836",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "69f0bf4a-ac7a-40d4-af43-6dddb5687845",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198392",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver.\nTrubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:12.389Z",
+    "artifact.publishedDate": "2019-01-10T06:01:32.447Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxRUmprm",
+    "artifact.defaultPictureIndex": 346218,
+    "artifact.defaultPictureDimension": "3614x2405"
+  },
+  {
+    "identifier.id": "JM.18837",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "ead085af-2156-4a63-8eb3-af9652f0aaae",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198401",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Beskrivning: En st. tesked av silver.\nTrubbig svensk modell. \nDelvis otydliga stämplar på baksidan.\n\n\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:12.390Z",
+    "artifact.publishedDate": "2019-01-10T06:01:35.461Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRUmpwC",
+    "artifact.defaultPictureIndex": 346222,
+    "artifact.defaultPictureDimension": "3845x2559"
+  },
+  {
+    "identifier.id": "JM.18838",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "dd0183b1-7547-4e9b-829e-0e83e02ba968",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198403",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver.\n Trubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\nHör ihop med Jm.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:12.410Z",
+    "artifact.publishedDate": "2019-01-10T06:01:35.944Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRUmpwG",
+    "artifact.defaultPictureIndex": 346229,
+    "artifact.defaultPictureDimension": "3422x2277"
+  },
+  {
+    "identifier.id": "JM.18839",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "6f400628-c8b0-47ec-9bd7-b5392c9a963b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198404",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver.\n Trubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\n\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:12.684Z",
+    "artifact.publishedDate": "2019-01-10T06:01:37.440Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxRUmq1c",
+    "artifact.defaultPictureIndex": 346233,
+    "artifact.defaultPictureDimension": "3664x2438"
+  },
+  {
+    "identifier.id": "JM.18840",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "4be3d4d8-a20a-42c7-94cc-c87ffee89f2c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198405",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver. \nTrubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:13.706Z",
+    "artifact.publishedDate": "2019-01-10T06:01:37.734Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRUmq1f",
+    "artifact.defaultPictureIndex": 346239,
+    "artifact.defaultPictureDimension": "3591x2390"
+  },
+  {
+    "identifier.id": "JM.18841",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "e099a9d9-d32c-4b03-9968-20b6fe9cf123",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198409",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver.\n Trubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\n\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:13.702Z",
+    "artifact.publishedDate": "2019-01-10T06:01:40.336Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxRUmq64",
+    "artifact.defaultPictureIndex": 346244,
+    "artifact.defaultPictureDimension": "3845x2559"
+  },
+  {
+    "identifier.id": "JM.18842",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "7de3ca92-d95d-4db9-9916-12bd41cce3e8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198416",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver.\n Trubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\n\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:13.706Z",
+    "artifact.publishedDate": "2019-01-10T06:01:41.726Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRUmq67",
+    "artifact.defaultPictureIndex": 346252,
+    "artifact.defaultPictureDimension": "3470x2309"
+  },
+  {
+    "identifier.id": "JM.18843",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "7a4fbf53-f0d2-4279-a4c7-79d73d44665f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198417",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Beskrivning: En st. tesked av silver.\n Trubbig svensk modell.\n Delvis otydliga stämplar på baksidan.\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:13.700Z",
+    "artifact.publishedDate": "2019-01-10T06:01:42.130Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxRUmq68",
+    "artifact.defaultPictureIndex": 346259,
+    "artifact.defaultPictureDimension": "3650x2429"
+  },
+  {
+    "identifier.id": "JM.18844",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "316cbb2d-2c07-40f1-98a8-6586b4420ff8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198423",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver. \nTrubbig svensk modell. \nOtydliga stämplar på baksidan.\n\n\n\nHör ihop med JM.18836-18845",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:13.880Z",
+    "artifact.publishedDate": "2019-01-10T06:01:45.299Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRUmqEr",
+    "artifact.defaultPictureIndex": 346268,
+    "artifact.defaultPictureDimension": "3626x2413"
+  },
+  {
+    "identifier.id": "JM.18845",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "5d2c7d3d-0682-4d2a-abd9-7cd2674492f7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028198424",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av silver. \nTrubbig svensk modell. Delvis otydliga stämplar på baksidan.\n\nHör ihop med JM.18836-18845.",
+    "artifact.ingress.production.place": "Sverige, Småland, Jönköping, Jönköping, Vista, Gränna, Gränna",
+    "artifact.ingress.production.fromYear": 1797,
+    "artifact.ingress.production.toYear": 1817,
+    "artifact.updatedDate": "2026-05-13T03:49:14.472Z",
+    "artifact.publishedDate": "2019-01-10T06:01:45.895Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRUmqEv",
+    "artifact.defaultPictureIndex": 346275,
+    "artifact.defaultPictureDimension": "3494x2325"
+  },
+  {
+    "identifier.id": "JM.16900",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "47cf9124-f879-4937-9761-a25aeb27318a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028199377",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Tesked av tenn med snäckmönster.",
+    "artifact.updatedDate": "2024-09-29T05:20:13.724Z",
+    "artifact.publishedDate": "2019-01-11T06:02:12.847Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRXiTVi",
+    "artifact.defaultPictureIndex": 346340,
+    "artifact.defaultPictureDimension": "3168x2108"
+  },
+  {
+    "identifier.id": "JM.18852",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "6957cf34-f9b8-4c35-8a3f-6eb9a6d2dee2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028199436",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "En tesked av nysilver.\n Spetsig, enkel modell. Tyska stämplar på skaftets baksida.",
+    "artifact.ingress.production.fromYear": 1850,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-05-13T03:49:15.243Z",
+    "artifact.publishedDate": "2019-01-11T06:02:38.427Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRXinyg",
+    "artifact.defaultPictureIndex": 346396,
+    "artifact.defaultPictureDimension": "3387x2254"
+  },
+  {
+    "identifier.id": "JM.19943:a-e",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "e502d87e-68a4-4508-a0aa-386377aef22d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028201784",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tesked",
+    "artifact.ingress.description": "Fem kaffeskedar av silver. Skaftet är droppformat och slätt. stämplar på baksidan.",
+    "artifact.updatedDate": "2024-09-29T11:25:21.184Z",
+    "artifact.publishedDate": "2019-01-15T06:04:31.757Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxXvMhCb",
+    "artifact.defaultPictureIndex": 346526,
+    "artifact.defaultPictureDimension": "3144x2092"
+  },
+  {
+    "identifier.id": "JM.24961:1",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "70927448-a852-4d0a-892c-9de17237ec40",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028204053",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "En enkel tesked av silver. Slät modell.\n Stämplad på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1825,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2025-03-04T04:46:22.014Z",
+    "artifact.publishedDate": "2019-01-17T06:06:03.443Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxY3mdcP",
+    "artifact.defaultPictureIndex": 346847,
+    "artifact.defaultPictureDimension": "3543x2358"
+  },
+  {
+    "identifier.id": "JM.24961:2",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "c9763c30-16fc-4cac-b39b-5ac3873ccb40",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028204054",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "En enkel tesked av silver. Slät modell.\n Stämplad på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1825,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2025-03-04T04:46:21.993Z",
+    "artifact.publishedDate": "2019-01-17T06:06:03.516Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxY3mdcQ",
+    "artifact.defaultPictureIndex": 346850,
+    "artifact.defaultPictureDimension": "3494x2325"
+  },
+  {
+    "identifier.id": "JM.24961:3",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "9cc8df5e-7226-447b-ba30-6dbcb5ded2f0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028204057",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "En enkel tesked av silver. Slät modell.  Stämplad på ovansidan av skaftet.",
+    "artifact.ingress.production.fromYear": 1825,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2025-03-04T04:46:22.533Z",
+    "artifact.publishedDate": "2019-01-17T06:06:05.080Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Skedar"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331yxY3mdgj",
+    "artifact.defaultPictureIndex": 346856,
+    "artifact.defaultPictureDimension": "3384x2252"
+  },
+  {
+    "identifier.id": "XLM.R00553",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "7d21f5dd-0984-43a0-82c9-71bcd4e3378b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028256920",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedosa",
+    "artifact.ingress.description": "Tedosa med propp. Ostindiskt porslin, polykroma blommor och guld. Fyrsidig, smal, uppstående mynning med lock med med blomster figur påsatt. Överdelen rundad. Undersidan oglaserad. Vit glasyr med bårder och blommor i överglasyrmålning i rött, gult, grönt, orange och guld.\nUtan fabrikationsmärke, Kompaniporslin.",
+    "artifact.updatedDate": "2025-06-12T04:14:24.933Z",
+    "artifact.publishedDate": "2019-02-21T06:07:25.371Z",
+    "artifact.ingress.subjects": [
+      "Tedosa",
+      "Flaska",
+      "Teförvaring",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin",
+      "Dryckens servering",
+      "Servering och förtäring"
+    ],
+    "artifact.ingress.names": [
+      "Tedosa"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02346x8PGxAR",
+    "artifact.defaultPictureIndex": 159408,
+    "artifact.defaultPictureDimension": "2508x3453"
+  },
+  {
+    "identifier.id": "TM.02810",
+    "identifier.owner": "OMU",
+    "artifact.uuid": "39fe7a62-130c-4291-b598-da913c9c4d9a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028313041",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "sil",
+    "artifact.ingress.description": "Tesil i sølv på tre ben med håndtak, inngravert tekst på håndtak, stempler og \"1825\" (sølvmerke) på bakside.\nAntagelig eldre inngravering øverst på håndtakn",
+    "artifact.updatedDate": "2026-09-19T19:03:58.358Z",
+    "artifact.publishedDate": "2019-03-30T05:15:09.986Z",
+    "artifact.ingress.subjects": [
+      "kjøkkenutstyr",
+      "drikkestell",
+      "te ",
+      "minner"
+    ],
+    "artifact.ingress.names": [
+      "sil",
+      "tesil"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03347SnLsWMy",
+    "artifact.defaultPictureIndex": 111003,
+    "artifact.defaultPictureDimension": "4000x2662"
+  },
+  {
+    "identifier.id": "M 21394",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "20947c0c-e66a-4949-b5f0-278c6ee6e245",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028403963",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "Sked i silver. \nGammalfransk modell. Stämplar på skaftets framsida.\n\nInskrivet i huvudbok 1970.",
+    "artifact.ingress.production.fromYear": 1867,
+    "artifact.ingress.production.toYear": 1867,
+    "artifact.updatedDate": "2026-09-30T06:11:04.121Z",
+    "artifact.publishedDate": "2019-09-17T05:21:13.627Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Skedar",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Sked",
+      "Tesked"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02348wRqf1nP",
+    "artifact.defaultPictureIndex": 86911,
+    "artifact.defaultPictureDimension": "4000x2687"
+  },
+  {
+    "identifier.id": "NF.1910-0955D",
+    "identifier.owner": "NF",
+    "artifact.uuid": "0805a7d4-3afa-4bbf-833d-a0e053661c08",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028437949",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.place": "Norge, Sør-Trøndelag, Trondheim, Trondheim",
+    "artifact.ingress.producer": "Kelberlade, Bernt Christopher",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1763,
+    "artifact.ingress.production.toYear": 1798,
+    "artifact.updatedDate": "2026-04-14T09:46:34.303Z",
+    "artifact.publishedDate": "2019-11-02T05:09:52.329Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0138ZQ9ya7TF",
+    "artifact.defaultPictureIndex": 680267,
+    "artifact.defaultPictureDimension": "4564x3042"
+  },
+  {
+    "identifier.id": "NF.1910-0956B",
+    "identifier.owner": "NF",
+    "artifact.uuid": "4ee1a5b1-41fe-43a8-86de-436ccdb39851",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028437950",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.place": "Norge, Sør-Trøndelag, Trondheim, Trondheim",
+    "artifact.ingress.producer": "Dahle, Jens Widerøe",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1778,
+    "artifact.ingress.production.toYear": 1828,
+    "artifact.updatedDate": "2026-04-14T09:46:34.463Z",
+    "artifact.publishedDate": "2019-11-02T05:09:53.586Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349SK7f82j",
+    "artifact.defaultPictureIndex": 666765,
+    "artifact.defaultPictureDimension": "6000x4000"
+  },
+  {
+    "identifier.id": "NFT.1914-0479B",
+    "identifier.owner": "NF",
+    "artifact.uuid": "212cbd47-d66d-48f8-b3d2-6bddc0064d58",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028437993",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Spisebestikk",
+    "artifact.ingress.description": "Spisebestikk med etui.",
+    "artifact.ingress.producer": "Brinck, Fredrik Julius",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1848,
+    "artifact.ingress.production.toYear": 1848,
+    "artifact.updatedDate": "2026-08-26T05:41:36.765Z",
+    "artifact.publishedDate": "2019-11-02T05:10:12.817Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap",
+      "Thaulowsamlingen"
+    ],
+    "artifact.ingress.names": [
+      "Spisebestikk",
+      "Skje, spiseskje",
+      "Gaffel, spisegaffel",
+      "Kniv, spisekniv",
+      "Teskje",
+      "Spisebestikk i sølv",
+      "Gaffel"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349SRXngCK",
+    "artifact.defaultPictureIndex": 667094,
+    "artifact.defaultPictureDimension": "4000x6000"
+  },
+  {
+    "identifier.id": "NFT.1914-0479C",
+    "identifier.owner": "NF",
+    "artifact.uuid": "9f3af7ba-2919-4c13-80c6-e75a1754811c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028437995",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Spisebestikk",
+    "artifact.ingress.description": "Spisebestikk med etui.",
+    "artifact.ingress.producer": "Brinck, Fredrik Julius",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1848,
+    "artifact.ingress.production.toYear": 1848,
+    "artifact.updatedDate": "2026-08-26T05:41:36.895Z",
+    "artifact.publishedDate": "2019-11-02T05:10:13.125Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap",
+      "Thaulowsamlingen"
+    ],
+    "artifact.ingress.names": [
+      "Spisebestikk",
+      "Skje, spiseskje",
+      "Gaffel, spisegaffel",
+      "Kniv, spisekniv",
+      "Teskje",
+      "Spisebestikk i sølv",
+      "Spiseskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349SRXngCL",
+    "artifact.defaultPictureIndex": 667096,
+    "artifact.defaultPictureDimension": "4000x6000"
+  },
+  {
+    "identifier.id": "NFT.1914-0479D",
+    "identifier.owner": "NF",
+    "artifact.uuid": "a10a72a7-de7d-4981-bb21-264b1d566263",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028437996",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Spisebestikk",
+    "artifact.ingress.description": "Spisebestikk med etui.",
+    "artifact.ingress.producer": "Brinck, Fredrik Julius",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1848,
+    "artifact.ingress.production.toYear": 1848,
+    "artifact.updatedDate": "2026-08-26T05:41:36.934Z",
+    "artifact.publishedDate": "2019-11-02T05:10:13.222Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap",
+      "Thaulowsamlingen"
+    ],
+    "artifact.ingress.names": [
+      "Spisebestikk",
+      "Skje, spiseskje",
+      "Gaffel, spisegaffel",
+      "Kniv, spisekniv",
+      "Teskje",
+      "Spisebestikk i sølv",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349SRXngCM",
+    "artifact.defaultPictureIndex": 667098,
+    "artifact.defaultPictureDimension": "4000x6000"
+  },
+  {
+    "identifier.id": "XLM.37734",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "4a240637-613a-40d9-95f9-b881267c2ec8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028548430",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Burk",
+    "artifact.ingress.description": "Teburk med lock, cylindrisk, dekor \"Mallorca\". Svart botten med heltäckande blommönster i flera färger. Locket i gulddekor, Tillverkad av Gefle Porslinsfabrik.",
+    "artifact.updatedDate": "2025-07-04T04:16:13.382Z",
+    "artifact.publishedDate": "2020-03-14T05:39:37.434Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Te",
+      "Porslin",
+      "Keramik"
+    ],
+    "artifact.ingress.names": [
+      "Burk",
+      "Teburk"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349weVJZje",
+    "artifact.defaultPictureIndex": 129360,
+    "artifact.defaultPictureDimension": "1299x1320"
+  },
+  {
+    "identifier.id": "XLM.30251e",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "28ccc0e2-b522-4806-a16b-cf36d2b0d92c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028557532",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp",
+    "artifact.ingress.description": "Tre tekoppar med fat tillhörande teservis \"Amanita\", från Gefle Porslinsfabrik.",
+    "artifact.ingress.production.fromYear": 1949,
+    "artifact.ingress.production.toYear": 1957,
+    "artifact.updatedDate": "2026-04-28T03:58:51.506Z",
+    "artifact.publishedDate": "2020-03-26T05:27:26.360Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Servering och förtäring",
+      "Koppar"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp",
+      "Tegods"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349wsYtEjy",
+    "artifact.defaultPictureIndex": 152177,
+    "artifact.defaultPictureDimension": "3447x2447"
+  },
+  {
+    "identifier.id": "VF.00491-B",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "5d54ab6e-0ec5-4ee0-9a12-4ee365a2a992",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028570558",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1820,
+    "artifact.updatedDate": "2026-02-10T17:19:08.662Z",
+    "artifact.publishedDate": "2020-04-08T05:29:21.948Z",
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349x6iSt48",
+    "artifact.defaultPictureIndex": 84501,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "VF.00491-A",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "298e62a0-949b-4e16-bc9c-642911483e40",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028570559",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1820,
+    "artifact.updatedDate": "2026-02-10T17:19:07.664Z",
+    "artifact.publishedDate": "2020-04-08T05:29:22.624Z",
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349x6iSt44",
+    "artifact.defaultPictureIndex": 84499,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "VF.06543",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "3db7f59a-e062-4c9c-9d99-4689dead8ec8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028570633",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.production.fromYear": 1815,
+    "artifact.ingress.production.toYear": 1815,
+    "artifact.updatedDate": "2026-02-10T17:48:59.016Z",
+    "artifact.publishedDate": "2020-04-08T05:30:20.052Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Bestikk",
+      "Spisebestikk"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349x6jtBL4",
+    "artifact.defaultPictureIndex": 84615,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "VF.08111",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "a8d6d345-9219-4aa0-a4ca-a95664f59e5b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028570644",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 5,
+    "artifact.ingress.title": "Skje",
+    "artifact.updatedDate": "2026-02-10T17:55:59.986Z",
+    "artifact.publishedDate": "2020-04-08T05:30:28.502Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr",
+      "Bestikk",
+      "Spisebestikk"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "Teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349x6jtBQZ",
+    "artifact.defaultPictureIndex": 84629,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "HH.1956-0008",
+    "identifier.owner": "HH",
+    "artifact.uuid": "54082c32-2ab0-499f-96c1-11450b8fa0f4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029262285",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skje",
+    "artifact.ingress.description": "Seks teskjeer i sølv med gravert dekor på baksiden av skaftet og bladet",
+    "artifact.ingress.production.fromYear": 1799,
+    "artifact.ingress.production.toYear": 1799,
+    "artifact.updatedDate": "2025-12-02T14:10:51.237Z",
+    "artifact.publishedDate": "2020-12-22T09:00:31.691Z",
+    "artifact.ingress.classification": [
+      "264.2"
+    ],
+    "artifact.ingress.names": [
+      "Skje",
+      "teskje"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRs4cPS8",
+    "artifact.defaultPictureIndex": 488391,
+    "artifact.defaultPictureDimension": "2250x4000"
+  },
+  {
+    "identifier.id": "M 17153",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "891638f2-77b5-480a-973c-06df0c22b125",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029490054",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanna",
+    "artifact.ingress.description": "En tekanna (dockservis) med lock, bemålad med blomstermotiv i blått, gult och grönt.\n\nInskrivet i huvudkatalog 1962.",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2026-09-30T05:57:57.079Z",
+    "artifact.publishedDate": "2021-01-12T04:23:15.100Z",
+    "artifact.ingress.classification": [
+      "264",
+      "524"
+    ],
+    "artifact.ingress.subjects": [
+      "Leksaker",
+      "Dockservis"
+    ],
+    "artifact.ingress.names": [
+      "Tekanna",
+      "Dockservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136MuqGfaHM",
+    "artifact.defaultPictureIndex": 97705,
+    "artifact.defaultPictureDimension": "4000x3564"
+  }
+]
