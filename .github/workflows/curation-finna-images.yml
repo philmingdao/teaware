@@ -1,0 +1,26 @@
+name: Retrieve reusable tea-object images
+on:
+  push:
+    branches: [expansion-4000]
+    paths: ['.github/workflows/curation-finna-images.yml', 'scripts/fetch-finna-images.py', 'research/finna-candidates-4000.json']
+permissions:
+  contents: read
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: python3 scripts/fetch-finna-images.py ${{ matrix.shard }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: finna-images-${{ matrix.shard }}
+          path: source-probe
+          retention-days: 1

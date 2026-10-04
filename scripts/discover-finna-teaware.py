@@ -4,7 +4,7 @@ from pathlib import Path
 root=Path('source-probe');root.mkdir(exist_ok=True)
 fields=['id','title','alternativeTitles','identifierString','buildings','institutions','imagesExtended','imageRights','events','year','creationDateRange','physicalDescriptions','summary','subjects','fullRecord','recordPage','accessRestrictions']
 allrows={};summaries=[]
-for term in ['teekannu','teekuppi','teerasia','teepannu','tekanna']:
+for term in ['teesiivilä','teelusikka','teekulho','teepurkki','teeastia','teekalusto','tekopp','teburk']:
  for page in range(1,31):
   params=[('lookfor',term),('type','AllFields'),('limit','100'),('page',str(page)),('lng','en-gb'),('filter[]','format:"0/PhysicalObject/"')]+[('field[]',x) for x in fields]
   url='https://api.finna.fi/v1/search?'+urllib.parse.urlencode(params)
