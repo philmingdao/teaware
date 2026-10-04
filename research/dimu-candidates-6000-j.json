@@ -1,0 +1,2313 @@
+[
+  {
+    "identifier.id": "VAM.006811",
+    "identifier.owner": "VAM",
+    "artifact.uuid": "ef19c468-4a6c-4670-be73-2475ca235790",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011022794972",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "Russisk samovar med brett og tilhørende deler.",
+    "artifact.ingress.production.fromYear": 1865,
+    "artifact.ingress.production.toYear": 1875,
+    "artifact.updatedDate": "2026-02-12T16:46:55.414Z",
+    "artifact.publishedDate": "2014-03-18T08:53:25.277Z",
+    "artifact.ingress.classification": [
+      "272",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Interiør",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Samovar",
+      "Tekoker"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04SWLfb7gw",
+    "artifact.defaultPictureIndex": 33162,
+    "artifact.defaultPictureDimension": "2667x4000"
+  },
+  {
+    "identifier.id": "NF.1895-0443",
+    "identifier.owner": "NF",
+    "artifact.uuid": "5f423c63-f757-4def-94b3-961656a5beb8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023121848",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Flaske",
+    "artifact.updatedDate": "2026-04-14T08:56:06.626Z",
+    "artifact.publishedDate": "2014-04-07T15:35:11.356Z",
+    "artifact.ingress.classification": [
+      "251",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Matstell"
+    ],
+    "artifact.ingress.names": [
+      "Flaske",
+      "Tedåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02UUy67ju1",
+    "artifact.defaultPictureIndex": 32955,
+    "artifact.defaultPictureDimension": "1146x1528"
+  },
+  {
+    "identifier.id": "NF.1895-0778",
+    "identifier.owner": "NF",
+    "artifact.uuid": "0718905f-0ee2-40f6-97c1-c5a2e1cba1b5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023122194",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2026-04-15T04:43:24.861Z",
+    "artifact.publishedDate": "2014-04-07T15:41:20.454Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Flaske",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 6,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UUy7b4NR",
+    "artifact.defaultPictureIndex": 32957,
+    "artifact.defaultPictureDimension": "1146x1528"
+  },
+  {
+    "identifier.id": "NF.1898-0740",
+    "identifier.owner": "NF",
+    "artifact.uuid": "2e29397f-515f-4d9c-b4f8-59fd138cdbb5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023126135",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Flaske, til te",
+    "artifact.updatedDate": "2026-04-15T04:49:42.842Z",
+    "artifact.publishedDate": "2014-04-07T16:47:46.297Z",
+    "artifact.ingress.classification": [
+      "415"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Flaske, til te",
+      "Thedåse med lokk",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04UV5deaVs",
+    "artifact.defaultPictureIndex": 34533,
+    "artifact.defaultPictureDimension": "1528x1146"
+  },
+  {
+    "identifier.id": "NF.1900-0058AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "8363315e-1338-4609-8b12-1cdbd4fbb9e3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023127050",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.producer": "Herrebøe fajansefabrikk",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1759,
+    "artifact.ingress.production.toYear": 1772,
+    "artifact.updatedDate": "2026-08-11T03:24:49.895Z",
+    "artifact.publishedDate": "2014-04-07T17:03:31.297Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Bordstell",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse",
+      "Tedåse med lokk"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02UVByKqsM",
+    "artifact.defaultPictureIndex": 237130,
+    "artifact.defaultPictureDimension": "722x1264"
+  },
+  {
+    "identifier.id": "NF.1903-0164",
+    "identifier.owner": "NF",
+    "artifact.uuid": "544dbd81-f205-41e7-af71-6f568635e650",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023128452",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.updatedDate": "2026-04-15T04:51:53.213Z",
+    "artifact.publishedDate": "2014-04-07T17:25:48.257Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar",
+      "Temakin"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UVC3k8EF",
+    "artifact.defaultPictureIndex": 10842,
+    "artifact.defaultPictureDimension": "758x1440"
+  },
+  {
+    "identifier.id": "NF.1914-0657",
+    "identifier.owner": "NF",
+    "artifact.uuid": "957e0db5-511d-4e94-8d45-e75c95f1a5d4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023140767",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2026-04-14T10:03:10.322Z",
+    "artifact.publishedDate": "2014-04-07T21:05:42.051Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Teglass"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVRGEPaj",
+    "artifact.defaultPictureIndex": 235659,
+    "artifact.defaultPictureDimension": "827x1309"
+  },
+  {
+    "identifier.id": "NF.1920-0024AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "75050908-7643-4bcb-9760-f0f5a3b5922b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023146676",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.updatedDate": "2026-04-14T10:23:25.519Z",
+    "artifact.publishedDate": "2014-04-07T22:43:23.616Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Te",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar",
+      "Temaskin med brett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04UVXomZax",
+    "artifact.defaultPictureIndex": 462222,
+    "artifact.defaultPictureDimension": "1993x3000"
+  },
+  {
+    "identifier.id": "NF.1923-1092",
+    "identifier.owner": "NF",
+    "artifact.uuid": "867faed6-73dc-4108-a330-39e72c395d56",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023152650",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Flaske",
+    "artifact.updatedDate": "2026-04-14T10:40:20.107Z",
+    "artifact.publishedDate": "2014-04-08T00:19:36.613Z",
+    "artifact.ingress.classification": [
+      "263",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Flaske",
+      "Tedåse",
+      "Eddikflaske"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVkgxz4S",
+    "artifact.defaultPictureIndex": 48238,
+    "artifact.defaultPictureDimension": "857x1248"
+  },
+  {
+    "identifier.id": "NF.1925-0328",
+    "identifier.owner": "NF",
+    "artifact.uuid": "27315671-67c5-40d6-8cd5-7fb829c4e967",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023155194",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.updatedDate": "2026-08-06T03:53:55.939Z",
+    "artifact.publishedDate": "2014-04-08T00:59:54.879Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar",
+      "Temaskin"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02UVkpNvEt",
+    "artifact.defaultPictureIndex": 154421,
+    "artifact.defaultPictureDimension": "873x1333"
+  },
+  {
+    "identifier.id": "NF.1930-0778C",
+    "identifier.owner": "NF",
+    "artifact.uuid": "cf40e2b0-39b6-4468-8969-e4dc82c2bc1a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023161370",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.production.place": "Kina",
+    "artifact.ingress.producer": "Ukjent",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1749,
+    "artifact.updatedDate": "2026-04-14T11:07:43.369Z",
+    "artifact.publishedDate": "2014-04-08T02:36:20.054Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Serviser",
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVsPQk2s",
+    "artifact.defaultPictureIndex": 202479,
+    "artifact.defaultPictureDimension": "966x1271"
+  },
+  {
+    "identifier.id": "NF.1935-0253",
+    "identifier.owner": "NF",
+    "artifact.uuid": "fff972f7-c515-4761-b30d-87117a915469",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023164236",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2026-09-01T04:26:13.169Z",
+    "artifact.publishedDate": "2014-04-08T03:17:31.478Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Theboks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVyoWyBd",
+    "artifact.defaultPictureIndex": 154290,
+    "artifact.defaultPictureDimension": "786x1240"
+  },
+  {
+    "identifier.id": "NF.1935-0256A",
+    "identifier.owner": "NF",
+    "artifact.uuid": "f0778012-c106-4341-91f2-24adb6564f36",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023164240",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2026-09-01T04:26:14.442Z",
+    "artifact.publishedDate": "2014-04-08T03:17:34.132Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UVyoWyBj",
+    "artifact.defaultPictureIndex": 90088,
+    "artifact.defaultPictureDimension": "891x1299"
+  },
+  {
+    "identifier.id": "NF.1935-0256CD",
+    "identifier.owner": "NF",
+    "artifact.uuid": "28230c92-5b2c-42ea-999f-0a229a983b21",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023164242",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp og skål",
+    "artifact.updatedDate": "2026-09-01T04:26:15.891Z",
+    "artifact.publishedDate": "2014-04-08T03:17:35.545Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Kopp og skål",
+      "Tedåse, skyllebolle"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVyoWyBm",
+    "artifact.defaultPictureIndex": 154028,
+    "artifact.defaultPictureDimension": "1360x785"
+  },
+  {
+    "identifier.id": "NF.1935-0303",
+    "identifier.owner": "NF",
+    "artifact.uuid": "1fd6b764-d2a4-449f-b1f5-bd8448930377",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023164282",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2026-04-14T11:15:32.014Z",
+    "artifact.publishedDate": "2014-04-08T03:18:13.321Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UVyoXJST",
+    "artifact.defaultPictureIndex": 13763,
+    "artifact.defaultPictureDimension": "1002x1330"
+  },
+  {
+    "identifier.id": "NF.1935-0489",
+    "identifier.owner": "NF",
+    "artifact.uuid": "231472fc-104a-49e9-a6a1-0c5f3d4eb247",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023164469",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.producer": "Sæbye, Andreas Kierumgaard",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1784,
+    "artifact.ingress.production.toYear": 1784,
+    "artifact.updatedDate": "2026-09-01T04:26:26.650Z",
+    "artifact.publishedDate": "2014-04-08T03:21:12.322Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "415"
+    ],
+    "artifact.ingress.subjects": [
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UVypxwW7",
+    "artifact.defaultPictureIndex": 90090,
+    "artifact.defaultPictureDimension": "764x1209"
+  },
+  {
+    "identifier.id": "NF.1937-0605AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "133a3c0d-9377-4b8c-9664-1d1eb0639ec7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023166383",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.producer": "Herrebøe fajansefabrikk",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1759,
+    "artifact.ingress.production.toYear": 1772,
+    "artifact.updatedDate": "2026-08-11T03:26:19.608Z",
+    "artifact.publishedDate": "2014-04-08T03:48:48.202Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Bordstell",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse med lokk",
+      "Tedåse uten lokk"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UVyuREXJ",
+    "artifact.defaultPictureIndex": 237197,
+    "artifact.defaultPictureDimension": "764x1291"
+  },
+  {
+    "identifier.id": "NF.1937-0607AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "c426a5d1-3eb2-4184-b0f1-b19639204db3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023166385",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 1,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.producer": "Herrebøe fajansefabrikk",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1759,
+    "artifact.ingress.production.toYear": 1772,
+    "artifact.updatedDate": "2026-08-11T03:26:19.418Z",
+    "artifact.publishedDate": "2014-04-08T03:48:49.586Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Bordstell",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse",
+      "Tedåse uten lokk"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04UVyuREXN",
+    "artifact.defaultPictureIndex": 237198,
+    "artifact.defaultPictureDimension": "779x1240"
+  },
+  {
+    "identifier.id": "NF.1940-0056",
+    "identifier.owner": "NF",
+    "artifact.uuid": "2ca9a224-7461-429b-86e1-f00e1bf32564",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023169724",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.updatedDate": "2026-04-15T05:35:46.786Z",
+    "artifact.publishedDate": "2014-04-08T04:33:24.900Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "013AjPVTEjRv",
+    "artifact.defaultPictureIndex": 688097,
+    "artifact.defaultPictureDimension": "4273x6000"
+  },
+  {
+    "identifier.id": "NF.1941-0294",
+    "identifier.owner": "NF",
+    "artifact.uuid": "34dc0da6-77b2-451f-af37-2df67dba656b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023170969",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-04-15T05:38:23.816Z",
+    "artifact.publishedDate": "2014-04-08T04:47:48.796Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04Uyr5oeii",
+    "artifact.defaultPictureIndex": 188367,
+    "artifact.defaultPictureDimension": "937x1231"
+  },
+  {
+    "identifier.id": "NF.1954-0181",
+    "identifier.owner": "NF",
+    "artifact.uuid": "05ec8eea-ef64-468f-9b3a-203072eb4775",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023185778",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.production.fromYear": 1740,
+    "artifact.ingress.production.toYear": 1740,
+    "artifact.updatedDate": "2026-04-15T06:27:22.304Z",
+    "artifact.publishedDate": "2014-04-08T08:18:15.422Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04Uz59Qfst",
+    "artifact.defaultPictureIndex": 502551,
+    "artifact.defaultPictureDimension": "2885x4000"
+  },
+  {
+    "identifier.id": "NF.1980-0043AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "b91a35c1-7fe0-4e3d-95a3-0cef0192ad84",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023209024",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.ingress.description": "Stempel: Københavns bymerke / 8 8 F S T S /Skyttens tegn. Graverte våpen for Collett og Ankerfamilien",
+    "artifact.ingress.production.place": "Danmark, København",
+    "artifact.ingress.producer": "Thorsteinsson, Sivert",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1788,
+    "artifact.ingress.production.toYear": 1788,
+    "artifact.updatedDate": "2026-09-28T03:21:10.823Z",
+    "artifact.publishedDate": "2014-04-08T14:06:11.208Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell",
+      "Hvor er Hr. Siboni?"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar",
+      "Samovar, sølv"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 8,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0234ASkeXScd",
+    "artifact.defaultPictureIndex": 672743,
+    "artifact.defaultPictureDimension": "4000x6000"
+  },
+  {
+    "identifier.id": "NF.2010-0823AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "a7de5029-03d1-40f7-8e06-0d6835922603",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023246867",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.ingress.production.place": "Ukjent sted",
+    "artifact.ingress.producer": "Ukjent",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.updatedDate": "2026-09-26T03:30:31.897Z",
+    "artifact.publishedDate": "2014-04-08T23:57:24.227Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Nordiska museet",
+      "Bygdekultur",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01Uzs5Vjav",
+    "artifact.defaultPictureIndex": 481372,
+    "artifact.defaultPictureDimension": "2678x4000"
+  },
+  {
+    "identifier.id": "NFT.1913-0136",
+    "identifier.owner": "NF",
+    "artifact.uuid": "b896263e-d35b-498b-aec6-18d57908389c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023296989",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2026-04-15T22:36:29.661Z",
+    "artifact.publishedDate": "2014-04-09T11:48:36.249Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Thaulowsamlingen",
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03VUxNS84r",
+    "artifact.defaultPictureIndex": 528905,
+    "artifact.defaultPictureDimension": "3494x3761"
+  },
+  {
+    "identifier.id": "NFT.1913-0142D",
+    "identifier.owner": "NF",
+    "artifact.uuid": "386d7784-9c98-48e6-94a8-a7d937032149",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023297010",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.production.place": "Kina",
+    "artifact.updatedDate": "2026-04-15T22:36:35.548Z",
+    "artifact.publishedDate": "2014-04-09T11:49:03.921Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Thaulowsamlingen",
+      "Drikkestell",
+      "Bordstell",
+      "Hvor er Hr. Siboni?"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 9,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02VUxNS8Di",
+    "artifact.defaultPictureIndex": 461447,
+    "artifact.defaultPictureDimension": "2114x3000"
+  },
+  {
+    "identifier.id": "NFT.1913-0142E",
+    "identifier.owner": "NF",
+    "artifact.uuid": "ed1a27f6-8cd1-4f88-92a4-b7c3205d0186",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023297011",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.ingress.production.place": "Kina",
+    "artifact.updatedDate": "2026-04-15T22:36:36.671Z",
+    "artifact.publishedDate": "2014-04-09T11:49:04.650Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Thaulowsamlingen",
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04VUxNS8Dj",
+    "artifact.defaultPictureIndex": 154392,
+    "artifact.defaultPictureDimension": "855x1240"
+  },
+  {
+    "identifier.id": "NFT.1913-0144E",
+    "identifier.owner": "NF",
+    "artifact.uuid": "825d9ef4-6fdd-427f-818f-fc4498a27855",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023297027",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse med lokk",
+    "artifact.ingress.production.place": "Kina",
+    "artifact.updatedDate": "2026-08-08T15:11:18.802Z",
+    "artifact.publishedDate": "2014-04-09T11:49:19.068Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Thaulowsamlingen"
+    ],
+    "artifact.ingress.names": [
+      "Tedåse med lokk"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "58.4617568, 8.77244989999997",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03VUxNS8NZ",
+    "artifact.defaultPictureIndex": 461453,
+    "artifact.defaultPictureDimension": "1914x3000"
+  },
+  {
+    "identifier.id": "NSM.NSSR.15138",
+    "identifier.owner": "NSM",
+    "artifact.uuid": "082cc190-a025-444c-bac3-46d4bc79d99c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024216760",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Te, beholder til",
+    "artifact.ingress.description": "Blikkboks for te med påklistret merkelapp med gjengivelse av maleri av rodd livredningsbåt i hvit sjø. Beholderen er tom.",
+    "artifact.updatedDate": "2018-10-27T04:33:59.176Z",
+    "artifact.publishedDate": "2014-08-11T09:33:53.474Z",
+    "artifact.ingress.classification": [
+      "255",
+      "272.21",
+      "627.95(061)"
+    ],
+    "artifact.ingress.names": [
+      "Te, beholder til",
+      "Teboks",
+      "Blikkboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sA3JRYe5Y",
+    "artifact.defaultPictureIndex": 605922,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "OMu.g00928.A-B",
+    "identifier.owner": "OMU",
+    "artifact.uuid": "5534a10e-2091-4c5f-b8b2-ceaadbdf1657",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024269403",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "te",
+    "artifact.ingress.description": "Kvadratisk bok si metall (aluminium) med stilisert gullbord på mørk grønt rundt øvre kant, og motiv av gammel dame og barn på lokk.",
+    "artifact.ingress.producer": "Mazawattee Tea Company",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1930,
+    "artifact.ingress.production.toYear": 1930,
+    "artifact.updatedDate": "2026-09-19T21:42:17.137Z",
+    "artifact.publishedDate": "2014-08-11T13:39:20.081Z",
+    "artifact.ingress.classification": [
+      "258",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "oppbevaring",
+      "emballasje",
+      "metallarbeider",
+      "bokser",
+      "te "
+    ],
+    "artifact.ingress.names": [
+      "te",
+      "teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.92054499999999000000, 10.59376499999996200000",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012sAXjM5C7k",
+    "artifact.defaultPictureIndex": 79619,
+    "artifact.defaultPictureDimension": "2897x3039"
+  },
+  {
+    "identifier.id": "SUM.05845",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "14aa1b7f-06f9-4f2d-b387-8b7f8b857088",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025146667",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "Teboks med fals og avfasing mot skrulôk. dekorert med border oppe og nede, midt på boksen motiv med to løver som held skjold med bokstavane LP.\n",
+    "artifact.updatedDate": "2026-06-10T05:18:52.723Z",
+    "artifact.publishedDate": "2014-09-09T14:51:11.939Z",
+    "artifact.ingress.classification": [
+      "251",
+      "415"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks",
+      "Blekkboks",
+      "Boks for oppbevaring av te",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022waVgj64Lq",
+    "artifact.defaultPictureIndex": 28142,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.08950",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "9c5b717f-7b0f-47ec-aab8-32fc088954da",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025152124",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.ingress.description": "8-kanta blekkboks med påskrift og bilde av seglskuter",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:23:32.084Z",
+    "artifact.publishedDate": "2014-09-09T15:35:12.406Z",
+    "artifact.ingress.classification": [
+      "272.21",
+      "415"
+    ],
+    "artifact.ingress.names": [
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2s1iZi5",
+    "artifact.defaultPictureIndex": 9689,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.10069",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "f586979f-f325-4b99-88bb-eca13e2a5f88",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025154187",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "8-kanta blekkboks med skrulok. Gullforgylt med dyremotiv på sider og lok.",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.ingress.production.toYear": 1980,
+    "artifact.updatedDate": "2026-06-10T05:25:21.535Z",
+    "artifact.publishedDate": "2014-09-09T15:49:52.931Z",
+    "artifact.ingress.classification": [
+      "272.21",
+      "415",
+      "527.22"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2yMRB1J",
+    "artifact.defaultPictureIndex": 11142,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "HL.02722",
+    "identifier.owner": "LAR",
+    "artifact.uuid": "7ae46c0d-942d-49a9-a651-ff2348855193",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025253422",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 5,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "Form: a- selve apparatet med fot, to henker og el.ledning. b-lokk med to henker og åpning for \"pipen\". c-\"pipe\"med en stor hank og åpning for damp. d-tappekransnøkkel e-fat(ovalt) til å plassere samovaren på. dreide håndtak av tre på hanker, lokk og \"pipe\". to-delt el.ledning,trukket utenpå med et flettet stoff.porselenskontakt med jern i kontaktstavene",
+    "artifact.updatedDate": "2026-02-10T13:41:59.400Z",
+    "artifact.publishedDate": "2014-09-10T12:53:32.550Z",
+    "artifact.ingress.classification": [
+      "272",
+      "415"
+    ],
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wXW46zFSx",
+    "artifact.defaultPictureIndex": 55325,
+    "artifact.defaultPictureDimension": "2592x3872"
+  },
+  {
+    "identifier.id": "HL.05173",
+    "identifier.owner": "LAR",
+    "artifact.uuid": "a48e9869-84f1-4291-8366-2d364b5117ea",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025262666",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 8,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2026-02-10T13:59:21.168Z",
+    "artifact.publishedDate": "2014-09-10T14:25:37.549Z",
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wX1AvtQzh",
+    "artifact.defaultPictureIndex": 52745,
+    "artifact.defaultPictureDimension": "2592x3872"
+  },
+  {
+    "identifier.id": "XLM.08974",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "ac024e57-fa39-4ff3-ae03-d276a256c2d1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211773455",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "Samovar, mässing.",
+    "artifact.updatedDate": "2025-06-05T11:26:51.713Z",
+    "artifact.publishedDate": "2022-09-02T03:59:16.413Z",
+    "artifact.ingress.classification": [
+      "252",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Teberedning",
+      "Samovar",
+      "Födans beredning"
+    ],
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 6,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "013Amt8WbTdb",
+    "artifact.defaultPictureIndex": 208033,
+    "artifact.defaultPictureDimension": "1912x3464"
+  },
+  {
+    "identifier.id": "DM 11748",
+    "identifier.owner": "S-DM",
+    "artifact.uuid": "31313096-f378-41f5-a78b-cef4184cc830",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211913421",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "Samovar av koppar, invändigt förtent.\nA) urnformad kropp med högt uppsvängda handtag. Kroppen har indragen, närmast cylinderformad fot, står på en fyrkantig kopparplatta med kantdekor av pärlstavar och tvärrefflad bård. Fotplattan har en vridbar fot i varje hörn.\nB) starkt uppsvängt lock med tvärreflad dekor och upptill ett. C) knoppförsett handtag som med två fjädrade ben löper genom det uppsvängda locket mot ett rör i kannans mitt.\nAvtappningskran av mässing med vred av trä. På kranens fäste finns instämplat: \"P\". stämplar i övrigt saknas. Den cylinderformade foten är dekorerad med två klöverblad och två snedställda fyrkanter.",
+    "artifact.updatedDate": "2025-05-29T04:30:43.312Z",
+    "artifact.publishedDate": "2022-10-11T03:36:25.247Z",
+    "artifact.ingress.classification": [
+      "252",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Hushållsapparater"
+    ],
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskgfcGr8",
+    "artifact.defaultPictureIndex": 129565,
+    "artifact.defaultPictureDimension": "2874x4000"
+  },
+  {
+    "identifier.id": "GFA366",
+    "identifier.owner": "S-GOM",
+    "artifact.uuid": "2dc07e3e-ab0e-4a25-bd90-f219d545d8ac",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213400746",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "Samovar i empirstil med form som en amfora i koppar med lock, hänklar och kran. Lock med ståndare. Hänklar med längsgående räfflor,  fastsatta med nitar i fästen, som har  form av palmkronor. Samovaren har fyra ben med längsgående räfflor, dekorerade benfästen med palmkvistar och avslutas nere med klor, stående på fyrsidig platta med inåtbuktande sidor. Fotplattan har i mitten en ståndare skruvad i en cirkelformad platta som i sin tur sitter fast i fotplattan. Under fotplattan finns fyra fötter. I livet sitter  en kran med längsgående räfflor och tvärgående band. Vredet är i ovalt och i svart trä  med ett litet hål i. Inuti samovaren finns en insatts med ett lod i.\nHar tillhört häradshövding Bertel B:n Rundberg",
+    "artifact.updatedDate": "2026-05-05T22:23:10.548Z",
+    "artifact.publishedDate": "2023-04-21T12:12:19.944Z",
+    "artifact.ingress.classification": [
+      "272",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Kulturhistoria"
+    ],
+    "artifact.ingress.names": [
+      "Samovar",
+      "Thekök"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxEd8M4qP",
+    "artifact.defaultPictureIndex": 3759,
+    "artifact.defaultPictureDimension": "1500x2945"
+  },
+  {
+    "identifier.id": "GFC9880_124",
+    "identifier.owner": "S-GOM",
+    "artifact.uuid": "13256af3-42b1-48b9-b5e2-b1ab550e88a4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213447654",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "Samovar i empirtils med form som en amfora i koppar med lock, hänklar och kran. Lock med ståndare. Hänklar med längsgående räfflor,  fastsatta med nitar i fästen, som har  form av palmkronor. Samovaren har fyra ben med längsgående räfflor, dekorerade benfästen med palmkvistar och avslutas nere med klor, stående på fyrsidig platta med inåtbuktande sidor. Fotplattan har i mitten en ståndare skruvad i en cirkelformad platta som i sin tur sitter fast i fotplattan. Under fotplattan finns fyra fötter. I livet sitter  en kran med längsgående räfflor och tvärgående band. Vredet är ovalt, svart och i  trä med vit benknopp. Inuti samovaren finns en insatts.\nAv koppar. Behållaren med sina två handtag har formen av en amfora. Fyra smäckra pålödda ben stående på en fyrsidig fotpatta med en skruvad ståndare i mitten. Höjd 52 cm",
+    "artifact.updatedDate": "2026-05-05T12:00:17.303Z",
+    "artifact.publishedDate": "2023-04-25T14:13:20.016Z",
+    "artifact.ingress.classification": [
+      "272",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Kulturhistoria"
+    ],
+    "artifact.ingress.names": [
+      "Samovar",
+      "The-kök"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxEjoLBqN",
+    "artifact.defaultPictureIndex": 8821,
+    "artifact.defaultPictureDimension": "1100x2006"
+  },
+  {
+    "identifier.id": "VF.10446",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "e7139cf3-a186-4370-85da-4c92e02087d8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213950035",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.updatedDate": "2026-02-10T18:00:38.183Z",
+    "artifact.publishedDate": "2023-10-14T03:59:17.186Z",
+    "artifact.ingress.subjects": [
+      "Handel"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE6irw8DWX",
+    "artifact.defaultPictureIndex": 112703,
+    "artifact.defaultPictureDimension": "4000x2666"
+  },
+  {
+    "identifier.id": "AAM.12133",
+    "identifier.owner": "AAK",
+    "artifact.uuid": "2d0c95eb-cd29-4d09-a050-ea2271809f06",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213996536",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.ingress.description": "To like tebokser. Firkantet boks i metall. Hengslet lokk. Utvendig dekorert med forskjellige hjortemotiver i blågrønt på gul bunn (ganske slitt).",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2024-09-17T07:09:25.002Z",
+    "artifact.publishedDate": "2023-11-17T03:02:32.572Z",
+    "artifact.ingress.classification": [
+      "272.21",
+      "353.6"
+    ],
+    "artifact.ingress.subjects": [
+      "Varm drikke",
+      "Oppbevaring"
+    ],
+    "artifact.ingress.names": [
+      "Teboks",
+      "Oppbevaringsboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE6jYNgSNf",
+    "artifact.defaultPictureIndex": 54826,
+    "artifact.defaultPictureDimension": "2048x1365"
+  },
+  {
+    "identifier.id": "AAM.06720",
+    "identifier.owner": "AAK",
+    "artifact.uuid": "d4f1107d-15b6-4193-9f93-45f56c4cb7e4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214748901",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Temaskin",
+    "artifact.ingress.description": "Samovar. Rund fot på fire utskrånende føtter. Stett med gjennombrutt dekor. Korpus med sider med rifler og avlange fasetter. To runde, tverr-riflede hanker av ben. Profilert overstykke med to benknotter. Ovalt fabrikkmerke med russisk tekst. Toppstykke med tre gjennombrutte ornamenter, nedsenket tungt lokk med ben-knott. Kran nederst på korpus, åpning i bunnen, og liten åpning for damp på overstykket.\n\nPipe. Forkrommet, skaft av messing og ben. Høy sylinderformet med utskrådd fotstykke, uten bunn, stjerthank.\n\nDryppskål av messing, utvendig forkrommet. Skål på stett. Midt i bunnen innvendig er det et ovalt firmamerke med russisk tekst.\n\nBrett av forkrommet messing. Firkantet smal del, den annen halvdel bredere med rundet kontur.",
+    "artifact.ingress.production.fromYear": 1896,
+    "artifact.ingress.production.toYear": 1899,
+    "artifact.updatedDate": "2025-01-09T03:06:50.537Z",
+    "artifact.publishedDate": "2024-11-29T03:06:07.097Z",
+    "artifact.ingress.classification": [
+      "272.21",
+      "431"
+    ],
+    "artifact.ingress.subjects": [
+      "Matservering",
+      "Russland",
+      "Vannkoker"
+    ],
+    "artifact.ingress.names": [
+      "Temaskin",
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 11,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGJDQn43ts",
+    "artifact.defaultPictureIndex": 56856,
+    "artifact.defaultPictureDimension": "2000x3000"
+  },
+  {
+    "identifier.id": "HL.08262",
+    "identifier.owner": "LAR",
+    "artifact.uuid": "0b8f7e51-2eb2-4ae9-9bdf-c877d404049a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210216485249",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Dåse",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2026-06-02T07:50:32.418Z",
+    "artifact.publishedDate": "2026-02-13T04:25:15.167Z",
+    "artifact.ingress.subjects": [
+      "Drikke",
+      "Interiør",
+      "Oppbevaring"
+    ],
+    "artifact.ingress.names": [
+      "Dåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELhAawdT8T",
+    "artifact.defaultPictureIndex": 74854,
+    "artifact.defaultPictureDimension": "2581x4000"
+  },
+  {
+    "identifier.id": "HL.08263",
+    "identifier.owner": "LAR",
+    "artifact.uuid": "7b466bea-7052-43eb-9149-caedcf049a05",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210216485251",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Dåse",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1820,
+    "artifact.updatedDate": "2026-06-02T07:50:32.966Z",
+    "artifact.publishedDate": "2026-02-13T04:26:09.162Z",
+    "artifact.ingress.subjects": [
+      "Drikke",
+      "Interiør",
+      "Oppbevaring"
+    ],
+    "artifact.ingress.names": [
+      "Dåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 7,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELhAawdTCr",
+    "artifact.defaultPictureIndex": 74859,
+    "artifact.defaultPictureDimension": "2670x4000"
+  },
+  {
+    "identifier.id": "HL.08261",
+    "identifier.owner": "LAR",
+    "artifact.uuid": "e0965761-68b9-4b13-8fce-da532b3e265b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210216485252",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Dåse",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1820,
+    "artifact.updatedDate": "2026-06-02T07:50:32.531Z",
+    "artifact.publishedDate": "2026-02-13T04:26:22.051Z",
+    "artifact.ingress.subjects": [
+      "Drikke",
+      "Interiør",
+      "Oppbevaring"
+    ],
+    "artifact.ingress.names": [
+      "Dåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 10,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELhAawdT8L",
+    "artifact.defaultPictureIndex": 74843,
+    "artifact.defaultPictureDimension": "2669x4000"
+  },
+  {
+    "identifier.id": "VF.01089",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "5386c6e8-1371-4c51-92b6-0e0d448c6e12",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025512795",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Dåse",
+    "artifact.ingress.description": "Tedåse i tinn, litt over halvsyllindrisk form. På den avrundede siden er gravert rokokkoramme, hvori er gravert OGS 1782, på baksiden er gravert strekmønster.",
+    "artifact.ingress.production.fromYear": 1782,
+    "artifact.updatedDate": "2026-02-10T17:22:02.773Z",
+    "artifact.publishedDate": "2014-11-08T03:31:24.066Z",
+    "artifact.ingress.names": [
+      "Dåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxK3Awch",
+    "artifact.defaultPictureIndex": 77765,
+    "artifact.defaultPictureDimension": "2513x3755"
+  },
+  {
+    "identifier.id": "VF.02627",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "c2851391-3ca9-417b-a25f-e20a7a7315d0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025559376",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2026-02-10T17:26:43.597Z",
+    "artifact.publishedDate": "2014-11-22T00:11:39.511Z",
+    "artifact.ingress.classification": [
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uNXGqAPnf",
+    "artifact.defaultPictureIndex": 43999,
+    "artifact.defaultPictureDimension": "2413x3821"
+  },
+  {
+    "identifier.id": "VF.03651",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "b79a2ea8-082e-40b1-970d-501cbd7ca42b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025560143",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 5,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2026-02-10T17:30:47.591Z",
+    "artifact.publishedDate": "2014-11-22T00:59:48.622Z",
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uNXGqAj7m",
+    "artifact.defaultPictureIndex": 44013,
+    "artifact.defaultPictureDimension": "2592x3872"
+  },
+  {
+    "identifier.id": "VF.10105",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "dc5fb48d-61c2-4c5a-8b95-b03ada31a89e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025562261",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Boks",
+    "artifact.updatedDate": "2026-02-10T17:59:53.581Z",
+    "artifact.publishedDate": "2014-11-22T03:13:38.579Z",
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349x6jtBUy",
+    "artifact.defaultPictureIndex": 84641,
+    "artifact.defaultPictureDimension": "2654x2512"
+  },
+  {
+    "identifier.id": "SA.00173",
+    "identifier.owner": "HS",
+    "artifact.uuid": "60ce50ac-fca3-4bee-a663-9f83f73c1d3e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025572631",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "En tinnkanne brukt til å koke opp varmt vann til te.",
+    "artifact.updatedDate": "2026-02-10T15:30:54.094Z",
+    "artifact.publishedDate": "2014-11-22T12:17:11.791Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikke"
+    ],
+    "artifact.ingress.names": [
+      "Samovar",
+      "Tekoker"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331xU7VDZTu",
+    "artifact.defaultPictureIndex": 76637,
+    "artifact.defaultPictureDimension": "2592x3872"
+  },
+  {
+    "identifier.id": "SA.01037",
+    "identifier.owner": "HS",
+    "artifact.uuid": "a4fd9539-5c04-4228-9bf6-02a6a8a8bb13",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025574769",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Dåse",
+    "artifact.ingress.description": "Dåse med oval bunnform. Støpt arbeid, påloddet topp og bunn. Brutte sider, avtagbar topp",
+    "artifact.ingress.production.place": "Norge, Vestfold, Larvik",
+    "artifact.ingress.producer": "Svab, Ludvig",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1746,
+    "artifact.ingress.production.toYear": 1789,
+    "artifact.updatedDate": "2026-02-10T15:43:53.523Z",
+    "artifact.publishedDate": "2014-11-22T14:11:34.268Z",
+    "artifact.ingress.classification": [
+      "272",
+      "415"
+    ],
+    "artifact.ingress.subjects": [
+      "Oppbevaring"
+    ],
+    "artifact.ingress.names": [
+      "Dåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WB7Ptc",
+    "artifact.defaultPictureIndex": 25703,
+    "artifact.defaultPictureDimension": "2592x3872"
+  },
+  {
+    "identifier.id": "SA.07312",
+    "identifier.owner": "HS",
+    "artifact.uuid": "253f05e2-28c6-4e7f-9d30-ce5acfd56b45",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025577006",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Samovar",
+    "artifact.ingress.description": "En messingkanne brukt til å koke opp varmt vann til te.",
+    "artifact.updatedDate": "2026-02-10T16:33:14.422Z",
+    "artifact.publishedDate": "2014-11-22T22:17:59.304Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikke"
+    ],
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WFcP4s",
+    "artifact.defaultPictureIndex": 38562,
+    "artifact.defaultPictureDimension": "2667x4000"
+  },
+  {
+    "identifier.id": "NO.000244",
+    "identifier.owner": "MKG",
+    "artifact.uuid": "e141ae67-b062-4001-a15d-839cfa73cc1f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025804867",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "\"Geisha-Te\" boks med som inneholder litt te. Har japansk motiv på seg.",
+    "artifact.updatedDate": "2026-02-12T14:13:11.074Z",
+    "artifact.publishedDate": "2015-02-24T06:33:07.763Z",
+    "artifact.ingress.classification": [
+      "255",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Emballasje",
+      "Drikker",
+      "Måltid"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks m/te"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uPWhdABgH",
+    "artifact.defaultPictureIndex": 46970,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "GM.004373",
+    "identifier.owner": "GM",
+    "artifact.uuid": "51ecf71a-a431-4860-92b5-1696b8c17a3f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027889077",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2025-09-03T03:32:59.165Z",
+    "artifact.publishedDate": "2018-08-18T06:12:17.713Z",
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347Stuuzxx",
+    "artifact.defaultPictureIndex": 452902,
+    "artifact.defaultPictureDimension": "2667x4000"
+  },
+  {
+    "identifier.id": "GM.006265",
+    "identifier.owner": "GM",
+    "artifact.uuid": "b8d12da2-28b8-4388-b16d-5f1e71d6a783",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027889614",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tedåse",
+    "artifact.updatedDate": "2025-09-03T03:36:36.063Z",
+    "artifact.publishedDate": "2018-08-18T06:20:09.985Z",
+    "artifact.ingress.names": [
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347StwNyei",
+    "artifact.defaultPictureIndex": 451952,
+    "artifact.defaultPictureDimension": "3143x4000"
+  },
+  {
+    "identifier.id": "GM.006297",
+    "identifier.owner": "GM",
+    "artifact.uuid": "92a46f48-5fa8-4fe1-b089-bf8a17c0a236",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027889622",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2025-09-03T03:36:37.476Z",
+    "artifact.publishedDate": "2018-08-18T06:20:17.638Z",
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347StwNyj5",
+    "artifact.defaultPictureIndex": 452668,
+    "artifact.defaultPictureDimension": "2674x4000"
+  },
+  {
+    "identifier.id": "GM.016509",
+    "identifier.owner": "GM",
+    "artifact.uuid": "5f07014b-4555-4f7d-b9e0-02c1e649ae8b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027890328",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2025-09-03T03:58:23.337Z",
+    "artifact.publishedDate": "2018-08-18T06:29:38Z",
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03347StzKcfh",
+    "artifact.defaultPictureIndex": 452573,
+    "artifact.defaultPictureDimension": "2684x4000"
+  },
+  {
+    "identifier.id": "TB.00790",
+    "identifier.owner": "TE",
+    "artifact.uuid": "f2ae7289-5dc1-4e2a-912c-bf919772bc54",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027891085",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Te-boks",
+    "artifact.updatedDate": "2025-09-03T06:04:07.866Z",
+    "artifact.publishedDate": "2018-08-18T06:46:21.873Z",
+    "artifact.ingress.names": [
+      "Te-boks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231wxtrwAba",
+    "artifact.defaultPictureIndex": 417433,
+    "artifact.defaultPictureDimension": "4000x2412"
+  },
+  {
+    "identifier.id": "TB.00795",
+    "identifier.owner": "TE",
+    "artifact.uuid": "188d4267-4973-4af9-ae86-53fc852725d2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027891089",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Te-boks",
+    "artifact.updatedDate": "2025-09-03T06:04:11.242Z",
+    "artifact.publishedDate": "2018-08-18T06:46:26.173Z",
+    "artifact.ingress.names": [
+      "Te-boks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231wxtrwAfs",
+    "artifact.defaultPictureIndex": 417453,
+    "artifact.defaultPictureDimension": "4000x2367"
+  },
+  {
+    "identifier.id": "HH.1974-0293",
+    "identifier.owner": "HH",
+    "artifact.uuid": "3c4a50db-440a-4cb2-bdf5-17165ef395b3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027960702",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "Blikk, falset, messingfarget. Firkantet, rette karsider, avrundede hjørner. To karsider har bilde av teplantasje; kvinne m/kurv på ryggen, forgrunnsfig, \"FINESTE CELYON TE\". Rødt/rødbrunt/rosa/svart. To karsider med tekst: \"Fineste Ceylon Te\", \"Imported by: Einar Lillebye\", \"Grunnlagt - 1910\", \"Oslo.\", \"Import of all kinds of teas direct from the teagardens \". Rød bakgrunn, bokstaver svarte/ messingfarget. \n\nLokk: blikk, bølget overflate, fem paralelle ringer, utoverbrettet kant.",
+    "artifact.updatedDate": "2025-09-03T05:02:55.917Z",
+    "artifact.publishedDate": "2018-11-06T06:08:43.067Z",
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331xTtdWTkj",
+    "artifact.defaultPictureIndex": 437751,
+    "artifact.defaultPictureDimension": "4000x3675"
+  },
+  {
+    "identifier.id": "HH.1975-0015",
+    "identifier.owner": "HH",
+    "artifact.uuid": "219e8a59-d136-442a-9e46-62aa58069318",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027967179",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "a) Boks. Utv. hvitlakkert. Svart bort, skrift \"HAYING=TIME . THE FIRST LOAD\". Fargetrykk fra høyonn. Familie med vogn og to trekkokser. Bunn utv. kopperfarget . Mrk. \"Decoware\"\nb) Lokk til a. Kopperfarget utv.",
+    "artifact.updatedDate": "2025-09-03T05:04:58.714Z",
+    "artifact.publishedDate": "2018-11-13T06:16:26.248Z",
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231xU7e69P4",
+    "artifact.defaultPictureIndex": 437669,
+    "artifact.defaultPictureDimension": "4000x2861"
+  },
+  {
+    "identifier.id": "VF.01088",
+    "identifier.owner": "SLF",
+    "artifact.uuid": "c93933e3-3be0-4e5a-a756-3a1466e7c408",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028199212",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Dåse",
+    "artifact.ingress.description": "Tedåse med skrukork i tinn. Litt over halvsyllindrisk form. Den flate siden gravert med blomster og BFL 1670",
+    "artifact.updatedDate": "2026-02-10T17:22:02.633Z",
+    "artifact.publishedDate": "2019-01-10T07:01:24.325Z",
+    "artifact.ingress.names": [
+      "Dåse",
+      "Tedåse"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231yxRWGA1E",
+    "artifact.defaultPictureIndex": 77763,
+    "artifact.defaultPictureDimension": "2446x3653"
+  },
+  {
+    "identifier.id": "NF.2019-0264AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "822058f3-d164-4a01-829e-e388c2e4ade2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028312115",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.ingress.description": "Oransje teboks med lokk. Svart innskrift.",
+    "artifact.ingress.production.place": "Ukjent sted",
+    "artifact.ingress.producer": "Ukjent",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.updatedDate": "2026-08-24T03:21:48.090Z",
+    "artifact.publishedDate": "2019-03-29T05:11:00.931Z",
+    "artifact.ingress.classification": [
+      "251",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Finnmark 1956",
+      "Gjenreisningshus",
+      "Matoppbevaring",
+      "Emballasje",
+      "Te",
+      "Finnmark "
+    ],
+    "artifact.ingress.names": [
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "70.5107008, 24.016505100000017",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03347SnHvYPq",
+    "artifact.defaultPictureIndex": 653833,
+    "artifact.defaultPictureDimension": "2121x3683"
+  },
+  {
+    "identifier.id": "LM.G.007823",
+    "identifier.owner": "LM",
+    "artifact.uuid": "d27f5a89-d939-4470-939e-7d6419c3e56d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028510629",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.updatedDate": "2026-04-23T03:13:34.848Z",
+    "artifact.publishedDate": "2020-02-08T05:04:35.188Z",
+    "artifact.ingress.classification": [
+      "258"
+    ],
+    "artifact.ingress.subjects": [
+      "Oppbevaring",
+      "Emballasje",
+      "Landhandel",
+      "Dagligvare"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349TDWs4Pp",
+    "artifact.defaultPictureIndex": 38591,
+    "artifact.defaultPictureDimension": "3084x2533"
+  },
+  {
+    "identifier.id": "HH.1977-0125",
+    "identifier.owner": "HH",
+    "artifact.uuid": "8152bc4e-042b-4b08-b580-d761ac39004b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029263628",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "Blikk, lakkert. Falset sammen, avrundede hjørner. Lokk hengslet fast til boksen.\nMotivdekor lokk: I forgrunnen 3 påfugler, lengre bak palmeliknende vekster og en rødkledd mann under en portal. Alle fire sideflatene er også dekorert med fuglemotiver. På hjørnene mellom sideflatene er det også et fabeldyrmotiv, en slags rosett som er symmetrisk om\nsin loddrette midtakse, samt noen østasiatiske skrifttegn. Framtredende farger i dekor: grønt,blått, blågrønt og gult.",
+    "artifact.updatedDate": "2025-01-03T05:55:23.281Z",
+    "artifact.publishedDate": "2020-12-22T09:22:05.710Z",
+    "artifact.ingress.classification": [
+      "472"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "60.89857630299673, 10.763007402420044",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRs7ZhLf",
+    "artifact.defaultPictureIndex": 481842,
+    "artifact.defaultPictureDimension": "4000x2250"
+  },
+  {
+    "identifier.id": "HH.1977-2359",
+    "identifier.owner": "HH",
+    "artifact.uuid": "12942cbe-26d2-414e-a150-0944c514d916",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029264398",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.updatedDate": "2023-03-31T09:36:45.328Z",
+    "artifact.publishedDate": "2020-12-22T09:32:25.091Z",
+    "artifact.ingress.classification": [
+      "472"
+    ],
+    "artifact.ingress.names": [
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRs931tT",
+    "artifact.defaultPictureIndex": 481870,
+    "artifact.defaultPictureDimension": "4000x2250"
+  },
+  {
+    "identifier.id": "HH.1982-0401",
+    "identifier.owner": "HH",
+    "artifact.uuid": "2c3ac105-235e-4469-a24d-2bd2b6af37ee",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029265208",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "Blikk, falset, loddet. Lokk hengslet. Utvendig sort/gull. Kineserier. Firkantet, rette karsider.",
+    "artifact.updatedDate": "2025-06-19T09:57:34.590Z",
+    "artifact.publishedDate": "2020-12-22T09:44:01.024Z",
+    "artifact.ingress.classification": [
+      "472"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsAWfgr",
+    "artifact.defaultPictureIndex": 481097,
+    "artifact.defaultPictureDimension": "3000x4000"
+  },
+  {
+    "identifier.id": "HH.1984-0219",
+    "identifier.owner": "HH",
+    "artifact.uuid": "3c7c8803-d0a9-42da-ab19-e01f63b16b90",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029265395",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.ingress.description": "Boks til te. Dekor: kinesiske tegn, landskap, kineser med åk.",
+    "artifact.updatedDate": "2023-03-31T10:13:06.509Z",
+    "artifact.publishedDate": "2020-12-22T09:46:39.420Z",
+    "artifact.ingress.classification": [
+      "472"
+    ],
+    "artifact.ingress.names": [
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsAXLj2",
+    "artifact.defaultPictureIndex": 481851,
+    "artifact.defaultPictureDimension": "4000x2250"
+  },
+  {
+    "identifier.id": "HH.1985-0293",
+    "identifier.owner": "HH",
+    "artifact.uuid": "6b1d2436-65be-481b-8760-1428a607ad55",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029265569",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "Blikk. Kvadratisk, hengslet lokk. Bilder, som viser scener fra teproduksjon på sidene, i mange farger.",
+    "artifact.updatedDate": "2025-02-05T04:23:33.109Z",
+    "artifact.publishedDate": "2020-12-22T09:49:03.875Z",
+    "artifact.ingress.classification": [
+      "472"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsAY1Tj",
+    "artifact.defaultPictureIndex": 479091,
+    "artifact.defaultPictureDimension": "2250x4000"
+  },
+  {
+    "identifier.id": "HH.1995-0134 A-B",
+    "identifier.owner": "HH",
+    "artifact.uuid": "68b39d66-7403-4d39-b81d-1ef50dc4eae6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029265939",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.ingress.description": "Form: Kvadratisk\n",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2025-05-22T03:25:02.228Z",
+    "artifact.publishedDate": "2020-12-22T09:54:29.069Z",
+    "artifact.ingress.classification": [
+      "258"
+    ],
+    "artifact.ingress.names": [
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsAZMTu",
+    "artifact.defaultPictureIndex": 481840,
+    "artifact.defaultPictureDimension": "4000x2250"
+  },
+  {
+    "identifier.id": "HH.1995-0135",
+    "identifier.owner": "HH",
+    "artifact.uuid": "4c25bd1c-bf82-4510-bc8a-2e177b29129c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029265940",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teboks",
+    "artifact.ingress.description": "Form: Rektangulær\n",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2025-05-22T03:25:02.343Z",
+    "artifact.publishedDate": "2020-12-22T09:54:30.199Z",
+    "artifact.ingress.classification": [
+      "251",
+      "258"
+    ],
+    "artifact.ingress.names": [
+      "Teboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsAZMTv",
+    "artifact.defaultPictureIndex": 481847,
+    "artifact.defaultPictureDimension": "4000x2250"
+  },
+  {
+    "identifier.id": "HH.1995-0322",
+    "identifier.owner": "HH",
+    "artifact.uuid": "fa85f07f-6635-47b6-8a54-5f01d0c71c9c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029266099",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Boks",
+    "artifact.ingress.description": "Boks, teboks. Blikk. Form: Kvadratisk, høy.",
+    "artifact.updatedDate": "2025-11-19T03:23:48.900Z",
+    "artifact.publishedDate": "2020-12-22T09:56:44.153Z",
+    "artifact.ingress.classification": [
+      "251",
+      "258"
+    ],
+    "artifact.ingress.subjects": [
+      "Emballasje"
+    ],
+    "artifact.ingress.names": [
+      "Boks",
+      "Teboks",
+      "ABC te",
+      "Blikkboks"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsBzefW",
+    "artifact.defaultPictureIndex": 481815,
+    "artifact.defaultPictureDimension": "4000x2250"
+  },
+  {
+    "identifier.id": "OF.6081",
+    "identifier.owner": "HH",
+    "artifact.uuid": "25a1af4f-b169-4a67-85cf-aefdf4b65849",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029268092",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Samovar",
+    "artifact.updatedDate": "2026-01-09T03:25:14.913Z",
+    "artifact.publishedDate": "2020-12-22T10:26:20.157Z",
+    "artifact.ingress.names": [
+      "Samovar"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRsEyxvb",
+    "artifact.defaultPictureIndex": 485862,
+    "artifact.defaultPictureDimension": "2448x3264"
+  },
+  {
+    "identifier.id": "GFC13553",
+    "identifier.owner": "S-GOM",
+    "artifact.uuid": "90de62a6-11aa-466e-84ac-5a8646c97983",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213418434",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Mugg",
+    "artifact.ingress.description": "Brun te mugg med dekor av blommor i gult och orange med gröna stjälkar, undertill står \"stafforshire potteries limited english ironstone dishwasher safe kiln craft tableware made in england\", muggen köptes in till utställningen \"1900-talets rum\" där den användes i 1970-tals miljön\nnyreg data 001121 li",
+    "artifact.updatedDate": "2026-05-04T22:40:59.376Z",
+    "artifact.publishedDate": "2023-04-24T11:20:18.702Z",
+    "artifact.ingress.classification": [
+      "272",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Kulturhistoria"
+    ],
+    "artifact.ingress.names": [
+      "Mugg",
+      "Temugg kaffemugg"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxEjhMto1",
+    "artifact.defaultPictureIndex": 14830,
+    "artifact.defaultPictureDimension": "1726x1500"
+  },
+  {
+    "identifier.id": "05142",
+    "identifier.owner": "S-MS",
+    "artifact.uuid": "328e85c3-34c6-42a0-95cd-f7fcf5ed81e3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026471776",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Mugg",
+    "artifact.ingress.description": "Två rosa muggar med öron, tillverkade under 1980-talet. I botten står MADE IN ENGLAND. Materialet är i porslin med rosa glasyr.",
+    "artifact.ingress.production.place": "Storbritannien, England, United Kingdom",
+    "artifact.ingress.production.fromYear": 1980,
+    "artifact.ingress.production.toYear": 1989,
+    "artifact.updatedDate": "2025-12-06T05:21:59.868Z",
+    "artifact.publishedDate": "2016-06-16T04:03:05.060Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "574"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Mugg",
+      "Kaffekopp",
+      "Kaffemugg",
+      "Temugg"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032waVTe13bn",
+    "artifact.defaultPictureIndex": 32516,
+    "artifact.defaultPictureDimension": "3560x2344"
+  },
+  {
+    "identifier.id": "05142-1",
+    "identifier.owner": "S-MS",
+    "artifact.uuid": "e410ecd8-4818-4ad6-9089-627582ef1355",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026471784",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Mugg",
+    "artifact.ingress.description": "En rosa mugg med öra, tillverkad under 1980-talet. I botten står MADE IN ENGLAND. Materialet är i porslin med rosa glasyr.",
+    "artifact.ingress.production.place": "Storbritannien, England, United Kingdom",
+    "artifact.ingress.production.fromYear": 1980,
+    "artifact.ingress.production.toYear": 1989,
+    "artifact.updatedDate": "2025-12-06T05:22:02.025Z",
+    "artifact.publishedDate": "2016-06-16T04:03:07.302Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "574"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Mugg",
+      "Kaffekopp",
+      "Kaffemugg",
+      "Temugg"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032waVTe13g8",
+    "artifact.defaultPictureIndex": 32517,
+    "artifact.defaultPictureDimension": "2628x2800"
+  },
+  {
+    "identifier.id": "05142-2",
+    "identifier.owner": "S-MS",
+    "artifact.uuid": "5d7c03cd-4bec-4c23-943f-5b7d57db4a10",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026471791",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Mugg",
+    "artifact.ingress.description": "En rosa mugg med öra, tillverkad under 1980-talet. I botten står MADE IN ENGLAND. Materialet är i porslin med rosa glasyr.",
+    "artifact.ingress.production.place": "Storbritannien, England, United Kingdom",
+    "artifact.ingress.production.fromYear": 1980,
+    "artifact.ingress.production.toYear": 1989,
+    "artifact.updatedDate": "2025-12-06T05:22:02.521Z",
+    "artifact.publishedDate": "2016-06-16T04:03:09.720Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "574"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Mugg",
+      "Kaffekopp",
+      "Kaffemugg",
+      "Temugg"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022waVTe13kX",
+    "artifact.defaultPictureIndex": 32518,
+    "artifact.defaultPictureDimension": "2524x2668"
+  }
+]
