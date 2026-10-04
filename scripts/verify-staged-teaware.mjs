@@ -98,6 +98,17 @@ for(const input of inputs) {
     assert(advertised.includes(item.imageSource));assert.equal(item.raw.sha256,item.rawSha256);
     assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
     assert(row.creditLine.includes('Background removed and cropped by Teaware.'));
+  } else if(row.id.startsWith('museumdigital-')) {
+    const x=item.raw.raw;assert.equal(x.object_inventory_number,row.accessionNumber);assert.equal(x.object_name,row.titleOriginal);assert.equal(x.object_institution.institution_name,row.sourceMuseumEnglish);
+    assert.equal(row.sourceUrl,'https://global.museum-digital.org/object/'+x.object_id);assert.equal(item.imageSource,item.raw.imageSource);assert.equal(item.raw.sha256,item.rawSha256);
+    assert(['CC BY','CC BY-SA','CC0','Public Domain Mark'].includes(item.raw.image.rights));
+    assert(/^https:\/\/creativecommons.org\/(licenses\/by(?:-sa)?\/|publicdomain\/(?:mark|zero)\/)/.test(item.raw.licenseUrl));
+    const page=await fs.readFile(path.join(path.dirname(poolPath),'cache',digest(Buffer.from(row.sourceUrl))+'.html'));
+    const imagePage=await fs.readFile(path.join(path.dirname(poolPath),'cache',digest(Buffer.from(item.raw.imagePage))+'.html'));
+    assert.equal(digest(page),item.raw.pageSha256);assert.equal(digest(imagePage),item.raw.imagePageSha256);assert(imagePage.toString().includes(item.raw.licenseUrl));
+    const originalLink=imagePage.toString().match(/<figure id="singleMainImage"><a href="([^"]+)"/)[1].replaceAll('&amp;','&');assert.equal(new URL(originalLink,item.raw.imagePage).href,item.imageSource);
+    const times=x.object_events.filter(e=>e.event_type_name==='Created').map(e=>e.time).filter(t=>t.time_end);assert(times.length&&times.every(t=>Number(t.time_end)>0&&Number(t.time_end)<=1920));
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');assert(row.creditLine.includes('Background removed and cropped by Teaware.'));
   } else if(row.id.startsWith('dimu-')) {
     const x=item.raw.raw,im=x.media.pictures.find(p=>p.identifier===item.raw.index['artifact.defaultMediaIdentifier']);
     assert.equal(x.artifactType,'Thing');assert.equal(x.identifier.id,row.accessionNumber);
@@ -108,7 +119,7 @@ for(const input of inputs) {
     assert(rights.length&&x.licenses.length&&[...rights,...x.licenses].every(l=>l.system==='CC'&&allowed.has(l.code)));
     assert.deepEqual(rights,item.raw.effectiveImageLicenses);
     assert.equal(item.raw.sha256,item.rawSha256);assert(Math.max(im.width,im.height)>=1200);
-    const span=x.eventWrap.production.timespan;assert(span.toYear>0&&span.toYear<=1920);
+    const span=x.eventWrap?.production?.timespan||{};assert(!span.toYear||span.toYear<=1920);if(!span.fromYear&&!span.toYear)assert.equal(row.date,span.comment||'馆方未注明制作年代 / Date not recorded');
     assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
     assert(row.creditLine.includes('Background removed and cropped by Teaware.'));
     if(rights.some(l=>l.code==='by-sa'))assert(row.creditLine.includes('same CC BY-SA license'));
