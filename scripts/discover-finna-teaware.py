@@ -6,7 +6,7 @@ fields=['id','title','alternativeTitles','identifierString','buildings','institu
 allrows={};summaries=[]
 for term in ['teekannu','teekuppi','teerasia','teepannu','tekanna']:
  for page in range(1,31):
-  params=[('lookfor',term),('type','AllFields'),('limit','100'),('page',str(page)),('lng','en-gb'),('filter[]','format:"0/PhysicalObject/"'),('filter[]','~usage_rights_ext_str_mv:"0/A Free/"')]+[('field[]',x) for x in fields]
+  params=[('lookfor',term),('type','AllFields'),('limit','100'),('page',str(page)),('lng','en-gb'),('filter[]','format:"0/PhysicalObject/"')]+[('field[]',x) for x in fields]
   url='https://api.finna.fi/v1/search?'+urllib.parse.urlencode(params)
   p=root/f'{term}-{page}.json';r=subprocess.run(['curl','--fail','--silent','--show-error','--max-time','45',url,'-o',str(p)],capture_output=True)
   if r.returncode:print(r.stderr.decode(),flush=True);break
