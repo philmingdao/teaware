@@ -1,8 +1,6 @@
 import { Metadata } from 'next';
-import Link from '@/components/LocaleLink';
 import LocalizedText from '@/components/LocalizedText';
 import Header from '@/components/Header';
-import cutoutSamples from '@/data/cutout-samples.json';
 import Footer from '@/components/Footer';
 import GalleryGrid from '@/components/GalleryGrid';
 import JsonLd from '@/components/JsonLd';
@@ -48,9 +46,6 @@ export default function GalleryPage() {
             <p className="mt-4 text-[#666] dark:text-[#9a9894] max-w-2xl mx-auto leading-relaxed">
               <LocalizedText id="galleryIntro" />
             </p>
-            <Link href="/cutout-gallery" className="inline-block mt-5 text-sm text-[#9c7951] dark:text-[#d4b896] hover:underline underline-offset-4">
-              <LocalizedText id="closeLink" values={{count:cutoutSamples.length}} />
-            </Link>
           </div>
         </section>
 

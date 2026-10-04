@@ -84,7 +84,6 @@ export const messages = {
   dark: ['深色', 'Dark', 'ダーク', '다크'],
   system: ['跟随系统', 'System', 'システム設定', '시스템 설정'],
   closeLook: ['器物近观', 'A closer look', '茶器を間近に', '다구 가까이 보기'],
-  closeLink: ['器物近观 · {count} 件透明底试展 →', 'A closer look · {count} transparent images →', '茶器を間近に · {count} 点の透過画像 →', '다구 가까이 보기 · 투명 이미지 {count}점 →'],
   closeIntro: ['让背景退去，让器物走近。从釉色到轮廓，重新看见一件茶器的分量。', 'Let the background recede and the vessel come closer. Rediscover its glaze, silhouette and presence.', '背景を取り除き、茶器を身近に。釉色から輪郭まで、一つの器が持つ存在感を見つめ直します。', '배경을 걷어내고 다구를 가까이. 유약의 빛부터 윤곽까지, 기물의 존재감을 새롭게 살펴보세요.'],
   imageView: ['图片视图', 'Image view', '画像表示', '이미지 보기'],
   cutout: ['透明底', 'Transparent', '背景透過', '투명 배경'],
