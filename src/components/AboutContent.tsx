@@ -43,8 +43,8 @@ export default function AboutContent() {
             <p className="text-xs mt-2 text-[#666] dark:text-[#9a9894]">{Array.from(licenses).join(' · ')}</p>
           </div>)}
         </div>
-        <div className="divider-elegant !my-12" />
         <MuseumResources locale={locale} />
+        <div className="divider-elegant !my-12" />
         <h2 className="text-2xl mb-6">{t('presentation')}</h2>
         <p>{t('presentationText')}</p>
         <blockquote className="bg-[#1a1a1a] text-[#faf9f7] text-center text-lg p-8 mt-12">{t('motto')}</blockquote>

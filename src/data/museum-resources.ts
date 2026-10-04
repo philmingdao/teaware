@@ -1,171 +1,115 @@
+export type ResourceLocale = 'zh' | 'en' | 'ja' | 'ko';
+export type MuseumRegion = 'europe' | 'americas' | 'east-asia' | 'south-southeast-asia';
 export type MuseumResource = {
   id: string;
   url: string;
-  names: Record<'zh' | 'en' | 'ja' | 'ko', string>;
-  descriptions: Record<'zh' | 'en' | 'ja' | 'ko', string>;
+  names: Record<ResourceLocale, string>;
+  descriptions: Record<ResourceLocale, string>;
+  region: MuseumRegion;
+  locations: Record<ResourceLocale, string>;
 };
 
-// Verified official museum URLs. Contact and outreach records stay private.
-// Original official names are retained across locales to avoid invented localized names.
+// Verified official museum URLs supplied by the museum research list.
+// Original official names are retained across locales; contact/outreach records stay private.
 export const museumResources: MuseumResource[] = [
-  {
-    "id": "spode",
-    "url": "https://spodemuseumtrust.org/",
-    "names": {
-      "zh": "Spode Museum",
-      "en": "Spode Museum",
-      "ja": "Spode Museum",
-      "ko": "Spode Museum"
-    },
-    "descriptions": {
-      "zh": "斯波德瓷器与跨文化青花陶瓷。",
-      "en": "Spode porcelain and cross-cultural blue-and-white ceramics.",
-      "ja": "スポード磁器と文化をつなぐ青花陶磁器。",
-      "ko": "스포드 도자기와 문화 간 청화백자."
-    }
-  },
-  {
-    "id": "clay-denmark",
-    "url": "https://claymuseum.dk/en/",
-    "names": {
-      "zh": "CLAY Museum of Ceramic Art Denmark",
-      "en": "CLAY Museum of Ceramic Art Denmark",
-      "ja": "CLAY Museum of Ceramic Art Denmark",
-      "ko": "CLAY Museum of Ceramic Art Denmark"
-    },
-    "descriptions": {
-      "zh": "陶瓷艺术与历史悠久的皇家哥本哈根瓷器。",
-      "en": "Ceramic art and historic Royal Copenhagen porcelain.",
-      "ja": "陶芸と歴史あるロイヤル コペンハーゲン磁器。",
-      "ko": "도예와 역사적인 로열 코펜하겐 자기."
-    }
-  },
-  {
-    "id": "amoca",
-    "url": "https://www.amoca.org/",
-    "names": {
-      "zh": "American Museum of Ceramic Art",
-      "en": "American Museum of Ceramic Art",
-      "ja": "American Museum of Ceramic Art",
-      "ko": "American Museum of Ceramic Art"
-    },
-    "descriptions": {
-      "zh": "陶瓷艺术教育与中美陶瓷比较资源。",
-      "en": "Ceramic art education and Chinese-American ceramics resources.",
-      "ja": "陶芸教育と中国・アメリカの陶磁器に関する資料。",
-      "ko": "도예 교육과 중국·미국 도자기 자료."
-    }
-  },
-  {
-    "id": "alfred",
-    "url": "https://ceramicsmuseum.alfred.edu/",
-    "names": {
-      "zh": "Alfred Ceramic Art Museum",
-      "en": "Alfred Ceramic Art Museum",
-      "ja": "Alfred Ceramic Art Museum",
-      "ko": "Alfred Ceramic Art Museum"
-    },
-    "descriptions": {
-      "zh": "包含日本茶壶与当代茶碗的陶瓷馆藏。",
-      "en": "Ceramic collections including Japanese teapots and contemporary tea bowls.",
-      "ja": "日本の急須や現代の茶碗を含む陶磁器コレクション。",
-      "ko": "일본 찻주전자와 현대 찻사발을 포함한 도자기 소장품."
-    }
-  },
-  {
-    "id": "princessehof",
-    "url": "https://www.princessehof.nl/en/",
-    "names": {
-      "zh": "Keramiekmuseum Princessehof",
-      "en": "Keramiekmuseum Princessehof",
-      "ja": "Keramiekmuseum Princessehof",
-      "ko": "Keramiekmuseum Princessehof"
-    },
-    "descriptions": {
-      "zh": "亚洲与欧洲陶瓷，包括中国瓷器与茶壶。",
-      "en": "Asian and European ceramics, including Chinese porcelain and teapots.",
-      "ja": "中国磁器や急須を含むアジアとヨーロッパの陶磁器。",
-      "ko": "중국 자기와 찻주전자를 포함한 아시아·유럽 도자기."
-    }
-  },
-  {
-    "id": "royal-worcester",
-    "url": "https://www.museumofroyalworcester.org/",
-    "names": {
-      "zh": "Museum of Royal Worcester",
-      "en": "Museum of Royal Worcester",
-      "ja": "Museum of Royal Worcester",
-      "ko": "Museum of Royal Worcester"
-    },
-    "descriptions": {
-      "zh": "伍斯特瓷器、历史餐具与教育活动。",
-      "en": "Worcester porcelain, historic tablewares, and educational activities.",
-      "ja": "ウースター磁器、歴史的な食器、教育プログラム。",
-      "ko": "우스터 자기, 역사적인 식기와 교육 프로그램."
-    }
-  },
-  {
-    "id": "everson",
-    "url": "https://everson.org/",
-    "names": {
-      "zh": "Everson Museum of Art",
-      "en": "Everson Museum of Art",
-      "ja": "Everson Museum of Art",
-      "ko": "Everson Museum of Art"
-    },
-    "descriptions": {
-      "zh": "陶瓷馆藏与在线陶瓷研究数据库。",
-      "en": "Ceramics collections and an online ceramics research database.",
-      "ja": "陶磁器コレクションとオンライン研究データベース。",
-      "ko": "도자기 소장품과 온라인 도자기 연구 데이터베이스."
-    }
-  },
-  {
-    "id": "flagstaff-house",
-    "url": "https://hk.art.museum/en/web/ma/tea-ware.html",
-    "names": {
-      "zh": "Flagstaff House Museum of Tea Ware",
-      "en": "Flagstaff House Museum of Tea Ware",
-      "ja": "Flagstaff House Museum of Tea Ware",
-      "ko": "Flagstaff House Museum of Tea Ware"
-    },
-    "descriptions": {
-      "zh": "中国、日本及欧洲茶器的专题博物馆。",
-      "en": "A specialist museum of Chinese, Japanese, and European tea wares.",
-      "ja": "中国、日本、ヨーロッパの茶器を扱う専門博物館。",
-      "ko": "중국·일본·유럽 차 도구를 다루는 전문 박물관."
-    }
-  },
-  {
-    "id": "vam",
-    "url": "https://www.vam.ac.uk/",
-    "names": {
-      "zh": "Victoria and Albert Museum",
-      "en": "Victoria and Albert Museum",
-      "ja": "Victoria and Albert Museum",
-      "ko": "Victoria and Albert Museum"
-    },
-    "descriptions": {
-      "zh": "世界陶瓷与玻璃，以及韦奇伍德茶瓷制造历史。",
-      "en": "Global ceramics and glass, with Wedgwood tea-porcelain manufacturing history.",
-      "ja": "世界の陶磁器とガラス、ウェッジウッドの茶器製造史。",
-      "ko": "세계 도자기와 유리, 웨지우드 차 도자기 제작 역사."
-    }
-  },
-  {
-    "id": "gladstone",
-    "url": "https://www.stokemuseums.org.uk/gpm/",
-    "names": {
-      "zh": "Gladstone Pottery Museum",
-      "en": "Gladstone Pottery Museum",
-      "ja": "Gladstone Pottery Museum",
-      "ko": "Gladstone Pottery Museum"
-    },
-    "descriptions": {
-      "zh": "历史陶器工厂与精细骨瓷生产传统。",
-      "en": "Historic pottery works and fine bone-china production heritage.",
-      "ja": "歴史的な陶器工場とボーンチャイナ製造の伝統。",
-      "ko": "역사적인 도자기 공장과 본차이나 제작 전통."
-    }
-  }
+  {"id":"spode","url":"https://spodemuseumtrust.org/","names":{"zh":"Spode Museum","en":"Spode Museum","ja":"Spode Museum","ko":"Spode Museum"},"descriptions":{"zh":"斯波德瓷器与跨文化青花陶瓷。","en":"Spode porcelain and cross-cultural blue-and-white ceramics.","ja":"スポード磁器と文化をつなぐ青花陶磁器。","ko":"스포드 도자기와 문화 간 청화백자."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"clay-denmark","url":"https://claymuseum.dk/en/","names":{"zh":"CLAY Museum of Ceramic Art Denmark","en":"CLAY Museum of Ceramic Art Denmark","ja":"CLAY Museum of Ceramic Art Denmark","ko":"CLAY Museum of Ceramic Art Denmark"},"descriptions":{"zh":"陶瓷艺术与历史悠久的皇家哥本哈根瓷器。","en":"Ceramic art and historic Royal Copenhagen porcelain.","ja":"陶芸と歴史あるロイヤル コペンハーゲン磁器。","ko":"도예와 역사적인 로열 코펜하겐 자기."},"region":"europe","locations":{"zh":"丹麦","en":"Denmark","ja":"デンマーク","ko":"덴마크"}},
+  {"id":"amoca","url":"https://www.amoca.org/","names":{"zh":"American Museum of Ceramic Art","en":"American Museum of Ceramic Art","ja":"American Museum of Ceramic Art","ko":"American Museum of Ceramic Art"},"descriptions":{"zh":"陶瓷艺术教育与中美陶瓷比较资源。","en":"Ceramic art education and Chinese-American ceramics resources.","ja":"陶芸教育と中国・アメリカの陶磁器に関する資料。","ko":"도예 교육과 중국·미국 도자기 자료."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"alfred","url":"https://ceramicsmuseum.alfred.edu/","names":{"zh":"Alfred Ceramic Art Museum","en":"Alfred Ceramic Art Museum","ja":"Alfred Ceramic Art Museum","ko":"Alfred Ceramic Art Museum"},"descriptions":{"zh":"包含日本茶壶与当代茶碗的陶瓷馆藏。","en":"Ceramic collections including Japanese teapots and contemporary tea bowls.","ja":"日本の急須や現代の茶碗を含む陶磁器コレクション。","ko":"일본 찻주전자와 현대 찻사발을 포함한 도자기 소장품."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"princessehof","url":"https://www.princessehof.nl/en/","names":{"zh":"Keramiekmuseum Princessehof","en":"Keramiekmuseum Princessehof","ja":"Keramiekmuseum Princessehof","ko":"Keramiekmuseum Princessehof"},"descriptions":{"zh":"亚洲与欧洲陶瓷，包括中国瓷器与茶壶。","en":"Asian and European ceramics, including Chinese porcelain and teapots.","ja":"中国磁器や急須を含むアジアとヨーロッパの陶磁器。","ko":"중국 자기와 찻주전자를 포함한 아시아·유럽 도자기."},"region":"europe","locations":{"zh":"荷兰","en":"Netherlands","ja":"オランダ","ko":"네덜란드"}},
+  {"id":"royal-worcester","url":"https://www.museumofroyalworcester.org/","names":{"zh":"Museum of Royal Worcester","en":"Museum of Royal Worcester","ja":"Museum of Royal Worcester","ko":"Museum of Royal Worcester"},"descriptions":{"zh":"伍斯特瓷器、历史餐具与教育活动。","en":"Worcester porcelain, historic tablewares, and educational activities.","ja":"ウースター磁器、歴史的な食器、教育プログラム。","ko":"우스터 자기, 역사적인 식기와 교육 프로그램."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"everson","url":"https://everson.org/","names":{"zh":"Everson Museum of Art","en":"Everson Museum of Art","ja":"Everson Museum of Art","ko":"Everson Museum of Art"},"descriptions":{"zh":"陶瓷馆藏与在线陶瓷研究数据库。","en":"Ceramics collections and an online ceramics research database.","ja":"陶磁器コレクションとオンライン研究データベース。","ko":"도자기 소장품과 온라인 도자기 연구 데이터베이스."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"flagstaff-house","url":"https://hk.art.museum/en/web/ma/tea-ware.html","names":{"zh":"Flagstaff House Museum of Tea Ware","en":"Flagstaff House Museum of Tea Ware","ja":"Flagstaff House Museum of Tea Ware","ko":"Flagstaff House Museum of Tea Ware"},"descriptions":{"zh":"中国、日本及欧洲茶器的专题博物馆。","en":"A specialist museum of Chinese, Japanese, and European tea wares.","ja":"中国、日本、ヨーロッパの茶器を扱う専門博物館。","ko":"중국·일본·유럽 차 도구를 다루는 전문 박물관."},"region":"east-asia","locations":{"zh":"香港","en":"Hong Kong","ja":"香港","ko":"홍콩"}},
+  {"id":"vam","url":"https://www.vam.ac.uk/","names":{"zh":"Victoria and Albert Museum","en":"Victoria and Albert Museum","ja":"Victoria and Albert Museum","ko":"Victoria and Albert Museum"},"descriptions":{"zh":"世界陶瓷与玻璃，以及韦奇伍德茶瓷制造历史。","en":"Global ceramics and glass, with Wedgwood tea-porcelain manufacturing history.","ja":"世界の陶磁器とガラス、ウェッジウッドの茶器製造史。","ko":"세계 도자기와 유리, 웨지우드 차 도자기 제작 역사."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"gladstone","url":"https://www.stokemuseums.org.uk/gpm/","names":{"zh":"Gladstone Pottery Museum","en":"Gladstone Pottery Museum","ja":"Gladstone Pottery Museum","ko":"Gladstone Pottery Museum"},"descriptions":{"zh":"历史陶器工厂与精细骨瓷生产传统。","en":"Historic pottery works and fine bone-china production heritage.","ja":"歴史的な陶器工場とボーンチャイナ製造の伝統。","ko":"역사적인 도자기 공장과 본차이나 제작 전통."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"british-museum","url":"https://www.britishmuseum.org/","names":{"zh":"British Museum","en":"British Museum","ja":"British Museum","ko":"British Museum"},"descriptions":{"zh":"东亚茶碗与茶器馆藏。","en":"East Asian tea bowls and tea wares.","ja":"東アジアの茶碗と茶器のコレクション。","ko":"동아시아 찻사발과 차 도구 소장품."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"ashmolean-museum","url":"https://www.ashmolean.org/","names":{"zh":"Ashmolean Museum","en":"Ashmolean Museum","ja":"Ashmolean Museum","ko":"Ashmolean Museum"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"fitzwilliam-museum","url":"https://fitzmuseum.cam.ac.uk/","names":{"zh":"Fitzwilliam Museum","en":"Fitzwilliam Museum","ja":"Fitzwilliam Museum","ko":"Fitzwilliam Museum"},"descriptions":{"zh":"工作室陶艺与器皿。","en":"Studio ceramics and vessels.","ja":"スタジオ陶芸と器。","ko":"스튜디오 도예와 기물."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"holburne-museum","url":"https://holburne.org/","names":{"zh":"Holburne Museum","en":"Holburne Museum","ja":"Holburne Museum","ko":"Holburne Museum"},"descriptions":{"zh":"历史瓷器与装饰艺术。","en":"Historic porcelain and decorative arts.","ja":"歴史的な磁器と装飾美術。","ko":"역사적인 자기와 장식 미술."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"bowes-museum","url":"https://thebowesmuseum.org.uk/","names":{"zh":"Bowes Museum","en":"Bowes Museum","ja":"Bowes Museum","ko":"Bowes Museum"},"descriptions":{"zh":"欧洲陶瓷与餐饮器皿。","en":"European ceramics and tablewares.","ja":"ヨーロッパの陶磁器と食器。","ko":"유럽 도자기와 식기."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"wallace-collection","url":"https://www.wallacecollection.org/","names":{"zh":"Wallace Collection","en":"Wallace Collection","ja":"Wallace Collection","ko":"Wallace Collection"},"descriptions":{"zh":"历史瓷器与装饰艺术。","en":"Historic porcelain and decorative arts.","ja":"歴史的な磁器と装飾美術。","ko":"역사적인 자기와 장식 미술."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"oriental-museum-durham","url":"https://www.durham.ac.uk/things-to-do/venues/oriental-museum/","names":{"zh":"Oriental Museum Durham","en":"Oriental Museum Durham","ja":"Oriental Museum Durham","ko":"Oriental Museum Durham"},"descriptions":{"zh":"中国陶瓷馆藏与研究。","en":"Chinese ceramic collections and research.","ja":"中国陶磁器のコレクションと研究。","ko":"중국 도자기 소장품과 연구."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"national-museum-of-scotland","url":"https://www.nms.ac.uk/national-museum-of-scotland","names":{"zh":"National Museum of Scotland","en":"National Museum of Scotland","ja":"National Museum of Scotland","ko":"National Museum of Scotland"},"descriptions":{"zh":"中国陶瓷与全球茶贸易历史。","en":"Chinese ceramics and global tea-trade history.","ja":"中国陶磁器と世界の茶貿易史。","ko":"중국 도자기와 세계 차 무역 역사."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"national-museum-cardiff","url":"https://museum.wales/cardiff/","names":{"zh":"National Museum Cardiff","en":"National Museum Cardiff","ja":"National Museum Cardiff","ko":"National Museum Cardiff"},"descriptions":{"zh":"跨文化陶瓷与瓷器历史。","en":"Ceramics and porcelain history across cultures.","ja":"文化をまたぐ陶磁器の歴史。","ko":"여러 문화의 도자기 역사."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"lady-lever-art-gallery","url":"https://www.liverpoolmuseums.org.uk/lady-lever-art-gallery","names":{"zh":"Lady Lever Art Gallery","en":"Lady Lever Art Gallery","ja":"Lady Lever Art Gallery","ko":"Lady Lever Art Gallery"},"descriptions":{"zh":"中国瓷器与韦奇伍德陶瓷馆藏。","en":"Chinese porcelain and Wedgwood ceramics.","ja":"中国磁器とウェッジウッドの陶磁器。","ko":"중국 자기와 웨지우드 도자기."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"brighton-museum-art-gallery","url":"https://brightonmuseums.org.uk/brighton-museum-art-gallery/","names":{"zh":"Brighton Museum & Art Gallery","en":"Brighton Museum & Art Gallery","ja":"Brighton Museum & Art Gallery","ko":"Brighton Museum & Art Gallery"},"descriptions":{"zh":"陶瓷与装饰艺术馆藏。","en":"Ceramic and decorative-art collections.","ja":"陶磁器と装飾美術のコレクション。","ko":"도자기와 장식 미술 소장품."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"york-art-gallery","url":"https://www.yorkartgallery.org.uk/","names":{"zh":"York Art Gallery","en":"York Art Gallery","ja":"York Art Gallery","ko":"York Art Gallery"},"descriptions":{"zh":"工作室陶艺与器皿。","en":"Studio ceramics and vessels.","ja":"スタジオ陶芸と器。","ko":"스튜디오 도예와 기물."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"musee-guimet","url":"https://www.guimet.fr/fr","names":{"zh":"Musée Guimet","en":"Musée Guimet","ja":"Musée Guimet","ko":"Musée Guimet"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"europe","locations":{"zh":"法国","en":"France","ja":"フランス","ko":"프랑스"}},
+  {"id":"musee-cernuschi","url":"https://www.cernuschi.paris.fr/","names":{"zh":"Musée Cernuschi","en":"Musée Cernuschi","ja":"Musée Cernuschi","ko":"Musée Cernuschi"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"europe","locations":{"zh":"法国","en":"France","ja":"フランス","ko":"프랑스"}},
+  {"id":"musee-ariana","url":"https://www.musee-ariana.ch/","names":{"zh":"Musée Ariana","en":"Musée Ariana","ja":"Musée Ariana","ko":"Musée Ariana"},"descriptions":{"zh":"跨文化陶瓷与瓷器历史。","en":"Ceramics and porcelain history across cultures.","ja":"文化をまたぐ陶磁器の歴史。","ko":"여러 문화의 도자기 역사."},"region":"europe","locations":{"zh":"瑞士","en":"Switzerland","ja":"スイス","ko":"스위스"}},
+  {"id":"musee-national-adrien-dubouche","url":"https://www.musee-adriendubouche.fr/","names":{"zh":"Musée national Adrien Dubouché","en":"Musée national Adrien Dubouché","ja":"Musée national Adrien Dubouché","ko":"Musée national Adrien Dubouché"},"descriptions":{"zh":"历史瓷器与装饰艺术。","en":"Historic porcelain and decorative arts.","ja":"歴史的な磁器と装飾美術。","ko":"역사적인 자기와 장식 미술."},"region":"europe","locations":{"zh":"法国","en":"France","ja":"フランス","ko":"프랑스"}},
+  {"id":"musee-national-de-ceramique-de-sevres","url":"https://www.sevresciteceramique.fr/","names":{"zh":"Musée national de céramique de Sèvres","en":"Musée national de céramique de Sèvres","ja":"Musée national de céramique de Sèvres","ko":"Musée national de céramique de Sèvres"},"descriptions":{"zh":"跨文化陶瓷与瓷器历史。","en":"Ceramics and porcelain history across cultures.","ja":"文化をまたぐ陶磁器の歴史。","ko":"여러 문화의 도자기 역사."},"region":"europe","locations":{"zh":"法国","en":"France","ja":"フランス","ko":"프랑스"}},
+  {"id":"keramion","url":"https://keramion.de/","names":{"zh":"Keramion","en":"Keramion","ja":"Keramion","ko":"Keramion"},"descriptions":{"zh":"工作室陶艺与器皿。","en":"Studio ceramics and vessels.","ja":"スタジオ陶芸と器。","ko":"스튜디오 도예와 기물."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"hetjens-museum","url":"https://www.duesseldorf.de/hetjens","names":{"zh":"Hetjens Museum","en":"Hetjens Museum","ja":"Hetjens Museum","ko":"Hetjens Museum"},"descriptions":{"zh":"跨文化陶瓷与瓷器历史。","en":"Ceramics and porcelain history across cultures.","ja":"文化をまたぐ陶磁器の歴史。","ko":"여러 문화의 도자기 역사."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"museum-of-east-asian-art-cologne","url":"https://www.museum-fuer-ostasiatische-kunst.de/","names":{"zh":"Museum of East Asian Art Cologne","en":"Museum of East Asian Art Cologne","ja":"Museum of East Asian Art Cologne","ko":"Museum of East Asian Art Cologne"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"museum-of-asian-art-berlin","url":"https://www.smb.museum/en/museums-institutions/museum-fuer-asiatische-kunst/home/","names":{"zh":"Museum of Asian Art Berlin","en":"Museum of Asian Art Berlin","ja":"Museum of Asian Art Berlin","ko":"Museum of Asian Art Berlin"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"museum-fur-kunst-und-gewerbe-hamburg","url":"https://www.mkg-hamburg.de/en","names":{"zh":"Museum für Kunst und Gewerbe Hamburg","en":"Museum für Kunst und Gewerbe Hamburg","ja":"Museum für Kunst und Gewerbe Hamburg","ko":"Museum für Kunst und Gewerbe Hamburg"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"grassi-museum-of-applied-arts","url":"https://www.grassimak.de/en/","names":{"zh":"GRASSI Museum of Applied Arts","en":"GRASSI Museum of Applied Arts","ja":"GRASSI Museum of Applied Arts","ko":"GRASSI Museum of Applied Arts"},"descriptions":{"zh":"陶瓷与装饰艺术馆藏。","en":"Ceramic and decorative-art collections.","ja":"陶磁器と装飾美術のコレクション。","ko":"도자기와 장식 미술 소장품."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"porzellanikon","url":"https://www.porzellanikon.org/","names":{"zh":"Porzellanikon","en":"Porzellanikon","ja":"Porzellanikon","ko":"Porzellanikon"},"descriptions":{"zh":"瓷器历史、艺术与制作技术。","en":"Porcelain history, art, and production techniques.","ja":"磁器の歴史、美術、製造技術。","ko":"자기의 역사, 예술과 제작 기술."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"dresden-porcelain-collection","url":"https://porzellansammlung.skd.museum/en/","names":{"zh":"Dresden Porcelain Collection","en":"Dresden Porcelain Collection","ja":"Dresden Porcelain Collection","ko":"Dresden Porcelain Collection"},"descriptions":{"zh":"历史瓷器与装饰艺术。","en":"Historic porcelain and decorative arts.","ja":"歴史的な磁器と装飾美術。","ko":"역사적인 자기와 장식 미술."},"region":"europe","locations":{"zh":"德国","en":"Germany","ja":"ドイツ","ko":"독일"}},
+  {"id":"mak-museum-of-applied-arts-vienna","url":"https://www.mak.at/en","names":{"zh":"MAK Museum of Applied Arts Vienna","en":"MAK Museum of Applied Arts Vienna","ja":"MAK Museum of Applied Arts Vienna","ko":"MAK Museum of Applied Arts Vienna"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"europe","locations":{"zh":"奥地利","en":"Austria","ja":"オーストリア","ko":"오스트리아"}},
+  {"id":"international-museum-of-ceramics-faenza","url":"https://www.micfaenza.org/en/","names":{"zh":"International Museum of Ceramics Faenza","en":"International Museum of Ceramics Faenza","ja":"International Museum of Ceramics Faenza","ko":"International Museum of Ceramics Faenza"},"descriptions":{"zh":"跨文化陶瓷与瓷器历史。","en":"Ceramics and porcelain history across cultures.","ja":"文化をまたぐ陶磁器の歴史。","ko":"여러 문화의 도자기 역사."},"region":"europe","locations":{"zh":"意大利","en":"Italy","ja":"イタリア","ko":"이탈리아"}},
+  {"id":"national-museum-of-ceramics-gonzalez-marti","url":"https://www.cultura.gob.es/mnceramica/en/home.html","names":{"zh":"National Museum of Ceramics González Martí","en":"National Museum of Ceramics González Martí","ja":"National Museum of Ceramics González Martí","ko":"National Museum of Ceramics González Martí"},"descriptions":{"zh":"外销瓷与跨文化器物交流。","en":"Export porcelain and cross-cultural exchange.","ja":"輸出磁器と文化をつなぐ器物の交流。","ko":"수출 자기와 문화 간 교류."},"region":"europe","locations":{"zh":"西班牙","en":"Spain","ja":"スペイン","ko":"스페인"}},
+  {"id":"museu-da-ceramica-caldas-da-rainha","url":"https://www.museusemonumentos.pt/en/museus-e-monumentos/museu-da-ceramica","names":{"zh":"Museu da Cerâmica Caldas da Rainha","en":"Museu da Cerâmica Caldas da Rainha","ja":"Museu da Cerâmica Caldas da Rainha","ko":"Museu da Cerâmica Caldas da Rainha"},"descriptions":{"zh":"跨文化陶瓷与瓷器历史。","en":"Ceramics and porcelain history across cultures.","ja":"文化をまたぐ陶磁器の歴史。","ko":"여러 문화의 도자기 역사."},"region":"europe","locations":{"zh":"葡萄牙","en":"Portugal","ja":"ポルトガル","ko":"포르투갈"}},
+  {"id":"museum-of-oriental-art-venice","url":"https://orientalevenezia.beniculturali.it/en/","names":{"zh":"Museum of Oriental Art Venice","en":"Museum of Oriental Art Venice","ja":"Museum of Oriental Art Venice","ko":"Museum of Oriental Art Venice"},"descriptions":{"zh":"亚洲陶瓷与器物文化。","en":"Asian ceramics and material culture.","ja":"アジアの陶磁器と物質文化。","ko":"아시아 도자기와 물질문화."},"region":"europe","locations":{"zh":"意大利","en":"Italy","ja":"イタリア","ko":"이탈리아"}},
+  {"id":"gardiner-museum","url":"https://www.gardinermuseum.on.ca/","names":{"zh":"Gardiner Museum","en":"Gardiner Museum","ja":"Gardiner Museum","ko":"Gardiner Museum"},"descriptions":{"zh":"欧洲陶瓷与餐饮器皿。","en":"European ceramics and tablewares.","ja":"ヨーロッパの陶磁器と食器。","ko":"유럽 도자기와 식기."},"region":"americas","locations":{"zh":"加拿大","en":"Canada","ja":"カナダ","ko":"캐나다"}},
+  {"id":"metropolitan-museum-of-art","url":"https://www.metmuseum.org/","names":{"zh":"Metropolitan Museum of Art","en":"Metropolitan Museum of Art","ja":"Metropolitan Museum of Art","ko":"Metropolitan Museum of Art"},"descriptions":{"zh":"东亚茶碗与茶器馆藏。","en":"East Asian tea bowls and tea wares.","ja":"東アジアの茶碗と茶器のコレクション。","ko":"동아시아 찻사발과 차 도구 소장품."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"minneapolis-institute-of-art","url":"https://new.artsmia.org/","names":{"zh":"Minneapolis Institute of Art","en":"Minneapolis Institute of Art","ja":"Minneapolis Institute of Art","ko":"Minneapolis Institute of Art"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"cleveland-museum-of-art","url":"https://www.clevelandart.org/home","names":{"zh":"Cleveland Museum of Art","en":"Cleveland Museum of Art","ja":"Cleveland Museum of Art","ko":"Cleveland Museum of Art"},"descriptions":{"zh":"宋代茶碗与东亚陶瓷。","en":"Song-dynasty tea bowls and East Asian ceramics.","ja":"宋代の茶碗と東アジアの陶磁器。","ko":"송대 찻사발과 동아시아 도자기."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"museum-of-fine-arts-boston","url":"https://www.mfa.org/","names":{"zh":"Museum of Fine Arts Boston","en":"Museum of Fine Arts Boston","ja":"Museum of Fine Arts Boston","ko":"Museum of Fine Arts Boston"},"descriptions":{"zh":"东亚茶碗与茶器馆藏。","en":"East Asian tea bowls and tea wares.","ja":"東アジアの茶碗と茶器のコレクション。","ko":"동아시아 찻사발과 차 도구 소장품."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"philadelphia-museum-of-art","url":"https://www.philamuseum.org/","names":{"zh":"Philadelphia Museum of Art","en":"Philadelphia Museum of Art","ja":"Philadelphia Museum of Art","ko":"Philadelphia Museum of Art"},"descriptions":{"zh":"工作室陶艺与器皿。","en":"Studio ceramics and vessels.","ja":"スタジオ陶芸と器。","ko":"스튜디오 도예와 기물."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"asian-art-museum-san-francisco","url":"https://asianart.org/","names":{"zh":"Asian Art Museum San Francisco","en":"Asian Art Museum San Francisco","ja":"Asian Art Museum San Francisco","ko":"Asian Art Museum San Francisco"},"descriptions":{"zh":"东亚茶碗与茶器馆藏。","en":"East Asian tea bowls and tea wares.","ja":"東アジアの茶碗と茶器のコレクション。","ko":"동아시아 찻사발과 차 도구 소장품."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"seattle-art-museum","url":"https://www.seattleartmuseum.org/","names":{"zh":"Seattle Art Museum","en":"Seattle Art Museum","ja":"Seattle Art Museum","ko":"Seattle Art Museum"},"descriptions":{"zh":"乐烧茶碗与日本茶道。","en":"Raku tea bowls and Japanese chanoyu.","ja":"楽茶碗と日本の茶の湯。","ko":"라쿠 찻사발과 일본 다도."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"portland-art-museum","url":"https://portlandartmuseum.org/","names":{"zh":"Portland Art Museum","en":"Portland Art Museum","ja":"Portland Art Museum","ko":"Portland Art Museum"},"descriptions":{"zh":"陶瓷与装饰艺术馆藏。","en":"Ceramic and decorative-art collections.","ja":"陶磁器と装飾美術のコレクション。","ko":"도자기와 장식 미술 소장품."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"los-angeles-county-museum-of-art","url":"https://www.lacma.org/","names":{"zh":"Los Angeles County Museum of Art","en":"Los Angeles County Museum of Art","ja":"Los Angeles County Museum of Art","ko":"Los Angeles County Museum of Art"},"descriptions":{"zh":"乐烧茶碗与日本茶道。","en":"Raku tea bowls and Japanese chanoyu.","ja":"楽茶碗と日本の茶の湯。","ko":"라쿠 찻사발과 일본 다도."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"nelson-atkins-museum-of-art","url":"https://nelson-atkins.org/","names":{"zh":"Nelson-Atkins Museum of Art","en":"Nelson-Atkins Museum of Art","ja":"Nelson-Atkins Museum of Art","ko":"Nelson-Atkins Museum of Art"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"saint-louis-art-museum","url":"https://www.slam.org/","names":{"zh":"Saint Louis Art Museum","en":"Saint Louis Art Museum","ja":"Saint Louis Art Museum","ko":"Saint Louis Art Museum"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"art-institute-of-chicago","url":"https://www.artic.edu/","names":{"zh":"Art Institute of Chicago","en":"Art Institute of Chicago","ja":"Art Institute of Chicago","ko":"Art Institute of Chicago"},"descriptions":{"zh":"宋代茶碗与东亚陶瓷。","en":"Song-dynasty tea bowls and East Asian ceramics.","ja":"宋代の茶碗と東アジアの陶磁器。","ko":"송대 찻사발과 동아시아 도자기."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"brooklyn-museum","url":"https://www.brooklynmuseum.org/","names":{"zh":"Brooklyn Museum","en":"Brooklyn Museum","ja":"Brooklyn Museum","ko":"Brooklyn Museum"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"detroit-institute-of-arts","url":"https://dia.org/","names":{"zh":"Detroit Institute of Arts","en":"Detroit Institute of Arts","ja":"Detroit Institute of Arts","ko":"Detroit Institute of Arts"},"descriptions":{"zh":"工作室陶艺与器皿。","en":"Studio ceramics and vessels.","ja":"スタジオ陶芸と器。","ko":"스튜디오 도예와 기물."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"cincinnati-art-museum","url":"https://www.cincinnatiartmuseum.org/","names":{"zh":"Cincinnati Art Museum","en":"Cincinnati Art Museum","ja":"Cincinnati Art Museum","ko":"Cincinnati Art Museum"},"descriptions":{"zh":"日本茶碗与当代陶艺。","en":"Japanese tea bowls and contemporary ceramics.","ja":"日本の茶碗と現代陶芸。","ko":"일본 찻사발과 현대 도예."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"walters-art-museum","url":"https://thewalters.org/","names":{"zh":"Walters Art Museum","en":"Walters Art Museum","ja":"Walters Art Museum","ko":"Walters Art Museum"},"descriptions":{"zh":"欧洲陶瓷与餐饮器皿。","en":"European ceramics and tablewares.","ja":"ヨーロッパの陶磁器と食器。","ko":"유럽 도자기와 식기."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"national-museum-of-asian-art","url":"https://asia.si.edu/","names":{"zh":"National Museum of Asian Art","en":"National Museum of Asian Art","ja":"National Museum of Asian Art","ko":"National Museum of Asian Art"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"peabody-essex-museum","url":"https://www.pem.org/","names":{"zh":"Peabody Essex Museum","en":"Peabody Essex Museum","ja":"Peabody Essex Museum","ko":"Peabody Essex Museum"},"descriptions":{"zh":"外销瓷与跨文化器物交流。","en":"Export porcelain and cross-cultural exchange.","ja":"輸出磁器と文化をつなぐ器物の交流。","ko":"수출 자기와 문화 간 교류."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"harvard-art-museums","url":"https://harvardartmuseums.org/","names":{"zh":"Harvard Art Museums","en":"Harvard Art Museums","ja":"Harvard Art Museums","ko":"Harvard Art Museums"},"descriptions":{"zh":"宋代茶碗与东亚陶瓷。","en":"Song-dynasty tea bowls and East Asian ceramics.","ja":"宋代の茶碗と東アジアの陶磁器。","ko":"송대 찻사발과 동아시아 도자기."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"princeton-university-art-museum","url":"https://artmuseum.princeton.edu/","names":{"zh":"Princeton University Art Museum","en":"Princeton University Art Museum","ja":"Princeton University Art Museum","ko":"Princeton University Art Museum"},"descriptions":{"zh":"乐烧茶碗与日本茶道。","en":"Raku tea bowls and Japanese chanoyu.","ja":"楽茶碗と日本の茶の湯。","ko":"라쿠 찻사발과 일본 다도."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"museum-of-east-asian-art-bath","url":"https://meaa.org.uk/","names":{"zh":"Museum of East Asian Art Bath","en":"Museum of East Asian Art Bath","ja":"Museum of East Asian Art Bath","ko":"Museum of East Asian Art Bath"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"risd-museum","url":"https://risdmuseum.org/","names":{"zh":"RISD Museum","en":"RISD Museum","ja":"RISD Museum","ko":"RISD Museum"},"descriptions":{"zh":"日本茶碗与当代陶艺。","en":"Japanese tea bowls and contemporary ceramics.","ja":"日本の茶碗と現代陶芸。","ko":"일본 찻사발과 현대 도예."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"crocker-art-museum","url":"https://www.crockerart.org/","names":{"zh":"Crocker Art Museum","en":"Crocker Art Museum","ja":"Crocker Art Museum","ko":"Crocker Art Museum"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"racine-art-museum","url":"https://www.ramart.org/","names":{"zh":"Racine Art Museum","en":"Racine Art Museum","ja":"Racine Art Museum","ko":"Racine Art Museum"},"descriptions":{"zh":"当代陶瓷与器皿艺术。","en":"Contemporary ceramics and vessel art.","ja":"現代陶芸と器の美術。","ko":"현대 도예와 기물 예술."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"mint-museum","url":"https://www.mintmuseum.org/","names":{"zh":"Mint Museum","en":"Mint Museum","ja":"Mint Museum","ko":"Mint Museum"},"descriptions":{"zh":"英国陶瓷、茶壶与餐具历史。","en":"British ceramics, teapots, and tableware history.","ja":"イギリスの陶磁器、ティーポット、食器の歴史。","ko":"영국 도자기, 찻주전자와 식기 역사."},"region":"americas","locations":{"zh":"美国","en":"United States","ja":"アメリカ","ko":"미국"}},
+  {"id":"royal-ontario-museum","url":"https://www.rom.on.ca/","names":{"zh":"Royal Ontario Museum","en":"Royal Ontario Museum","ja":"Royal Ontario Museum","ko":"Royal Ontario Museum"},"descriptions":{"zh":"日本茶碗与茶文化。","en":"Japanese tea bowls and tea culture.","ja":"日本の茶碗と茶文化。","ko":"일본 찻사발과 차 문화."},"region":"americas","locations":{"zh":"加拿大","en":"Canada","ja":"カナダ","ko":"캐나다"}},
+  {"id":"montreal-museum-of-fine-arts","url":"https://www.mbam.qc.ca/en/","names":{"zh":"Montreal Museum of Fine Arts","en":"Montreal Museum of Fine Arts","ja":"Montreal Museum of Fine Arts","ko":"Montreal Museum of Fine Arts"},"descriptions":{"zh":"乐烧茶碗与日本茶道。","en":"Raku tea bowls and Japanese chanoyu.","ja":"楽茶碗と日本の茶の湯。","ko":"라쿠 찻사발과 일본 다도."},"region":"americas","locations":{"zh":"加拿大","en":"Canada","ja":"カナダ","ko":"캐나다"}},
+  {"id":"art-gallery-of-greater-victoria","url":"https://aggv.ca/","names":{"zh":"Art Gallery of Greater Victoria","en":"Art Gallery of Greater Victoria","ja":"Art Gallery of Greater Victoria","ko":"Art Gallery of Greater Victoria"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"americas","locations":{"zh":"加拿大","en":"Canada","ja":"カナダ","ko":"캐나다"}},
+  {"id":"the-potteries-museum-art-gallery","url":"https://www.stokemuseums.org.uk/pmag/","names":{"zh":"The Potteries Museum & Art Gallery","en":"The Potteries Museum & Art Gallery","ja":"The Potteries Museum & Art Gallery","ko":"The Potteries Museum & Art Gallery"},"descriptions":{"zh":"英国陶瓷、茶壶与餐具历史。","en":"British ceramics, teapots, and tableware history.","ja":"イギリスの陶磁器、ティーポット、食器の歴史。","ko":"영국 도자기, 찻주전자와 식기 역사."},"region":"europe","locations":{"zh":"英国","en":"United Kingdom","ja":"イギリス","ko":"영국"}},
+  {"id":"tea-museum-shizuoka","url":"https://tea-museum.jp","names":{"zh":"Tea Museum, Shizuoka","en":"Tea Museum, Shizuoka","ja":"Tea Museum, Shizuoka","ko":"Tea Museum, Shizuoka"},"descriptions":{"zh":"茶文化与茶教育资源。","en":"Tea culture and tea education resources.","ja":"茶文化と茶に関する教育資料。","ko":"차 문화와 차 교육 자료."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"pinglin-tea-museum-of-new-taipei-city","url":"https://www.tea.ntpc.gov.tw/tea_en","names":{"zh":"Pinglin Tea Museum of New Taipei City","en":"Pinglin Tea Museum of New Taipei City","ja":"Pinglin Tea Museum of New Taipei City","ko":"Pinglin Tea Museum of New Taipei City"},"descriptions":{"zh":"茶文化与茶教育资源。","en":"Tea culture and tea education resources.","ja":"茶文化と茶に関する教育資料。","ko":"차 문화와 차 교육 자료."},"region":"east-asia","locations":{"zh":"台湾","en":"Taiwan","ja":"台湾","ko":"대만"}},
+  {"id":"new-taipei-city-yingge-ceramics-museum","url":"https://en.ceramics.ntpc.gov.tw/","names":{"zh":"New Taipei City Yingge Ceramics Museum","en":"New Taipei City Yingge Ceramics Museum","ja":"New Taipei City Yingge Ceramics Museum","ko":"New Taipei City Yingge Ceramics Museum"},"descriptions":{"zh":"陶瓷馆藏、研究与教育。","en":"Ceramic collections, research, and education.","ja":"陶磁器のコレクション、研究、教育。","ko":"도자기 소장품, 연구와 교육."},"region":"east-asia","locations":{"zh":"台湾","en":"Taiwan","ja":"台湾","ko":"대만"}},
+  {"id":"aichi-prefectural-ceramic-museum","url":"https://aitou.museum/en/","names":{"zh":"Aichi Prefectural Ceramic Museum","en":"Aichi Prefectural Ceramic Museum","ja":"Aichi Prefectural Ceramic Museum","ko":"Aichi Prefectural Ceramic Museum"},"descriptions":{"zh":"陶瓷馆藏、研究与教育。","en":"Ceramic collections, research, and education.","ja":"陶磁器のコレクション、研究、教育。","ko":"도자기 소장품, 연구와 교육."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"gyeonggi-museum-of-contemporary-ceramic-art","url":"https://www.gmocca.org/eng","names":{"zh":"Gyeonggi Museum of Contemporary Ceramic Art","en":"Gyeonggi Museum of Contemporary Ceramic Art","ja":"Gyeonggi Museum of Contemporary Ceramic Art","ko":"Gyeonggi Museum of Contemporary Ceramic Art"},"descriptions":{"zh":"当代陶瓷与器皿艺术。","en":"Contemporary ceramics and vessel art.","ja":"現代陶芸と器の美術。","ko":"현대 도예와 기물 예술."},"region":"east-asia","locations":{"zh":"韩国","en":"South Korea","ja":"韓国","ko":"한국"}},
+  {"id":"university-museum-and-art-gallery-university-of-hong-kong","url":"https://umag.hku.hk/","names":{"zh":"University Museum and Art Gallery, University of Hong Kong","en":"University Museum and Art Gallery, University of Hong Kong","ja":"University Museum and Art Gallery, University of Hong Kong","ko":"University Museum and Art Gallery, University of Hong Kong"},"descriptions":{"zh":"中国陶瓷馆藏与研究。","en":"Chinese ceramic collections and research.","ja":"中国陶磁器のコレクションと研究。","ko":"중국 도자기 소장품과 연구."},"region":"east-asia","locations":{"zh":"香港","en":"Hong Kong","ja":"香港","ko":"홍콩"}},
+  {"id":"art-museum-the-chinese-university-of-hong-kong","url":"https://www.artmuseum.cuhk.edu.hk/en/","names":{"zh":"Art Museum, The Chinese University of Hong Kong","en":"Art Museum, The Chinese University of Hong Kong","ja":"Art Museum, The Chinese University of Hong Kong","ko":"Art Museum, The Chinese University of Hong Kong"},"descriptions":{"zh":"中国陶瓷馆藏与研究。","en":"Chinese ceramic collections and research.","ja":"中国陶磁器のコレクションと研究。","ko":"중국 도자기 소장품과 연구."},"region":"east-asia","locations":{"zh":"香港","en":"Hong Kong","ja":"香港","ko":"홍콩"}},
+  {"id":"sun-museum","url":"https://www.en.sunmuseum.org.hk/","names":{"zh":"Sun Museum","en":"Sun Museum","ja":"Sun Museum","ko":"Sun Museum"},"descriptions":{"zh":"中国陶瓷馆藏与研究。","en":"Chinese ceramic collections and research.","ja":"中国陶磁器のコレクションと研究。","ko":"중국 도자기 소장품과 연구."},"region":"east-asia","locations":{"zh":"香港","en":"Hong Kong","ja":"香港","ko":"홍콩"}},
+  {"id":"toguri-museum-of-art","url":"https://toguri-museum.or.jp/","names":{"zh":"Toguri Museum of Art","en":"Toguri Museum of Art","ja":"Toguri Museum of Art","ko":"Toguri Museum of Art"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"raku-museum","url":"https://raku-yaki.or.jp/e/index.html","names":{"zh":"Raku Museum","en":"Raku Museum","ja":"Raku Museum","ko":"Raku Museum"},"descriptions":{"zh":"乐烧茶碗与日本茶道。","en":"Raku tea bowls and Japanese chanoyu.","ja":"楽茶碗と日本の茶の湯。","ko":"라쿠 찻사발과 일본 다도."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"the-museum-of-oriental-ceramics-osaka","url":"https://www.moco.or.jp/en/","names":{"zh":"The Museum of Oriental Ceramics, Osaka","en":"The Museum of Oriental Ceramics, Osaka","ja":"The Museum of Oriental Ceramics, Osaka","ko":"The Museum of Oriental Ceramics, Osaka"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"nezu-museum","url":"https://www.nezu-muse.or.jp/en/","names":{"zh":"Nezu Museum","en":"Nezu Museum","ja":"Nezu Museum","ko":"Nezu Museum"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"gotoh-museum","url":"https://www.gotoh-museum.or.jp/","names":{"zh":"Gotoh Museum","en":"Gotoh Museum","ja":"Gotoh Museum","ko":"Gotoh Museum"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"seikado-bunko-art-museum","url":"https://www.seikado.or.jp/english/","names":{"zh":"Seikado Bunko Art Museum","en":"Seikado Bunko Art Museum","ja":"Seikado Bunko Art Museum","ko":"Seikado Bunko Art Museum"},"descriptions":{"zh":"曜变天目茶碗与东亚茶艺。","en":"Yohen Tenmoku tea bowls and East Asian tea art.","ja":"曜変天目茶碗と東アジアの茶の美術。","ko":"요헨 덴모쿠 찻사발과 동아시아 차 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"idemitsu-museum-of-arts","url":"https://idemitsu-museum.or.jp/","names":{"zh":"Idemitsu Museum of Arts","en":"Idemitsu Museum of Arts","ja":"Idemitsu Museum of Arts","ko":"Idemitsu Museum of Arts"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"kyushu-ceramic-museum","url":"https://saga-museum.jp/ceramic_en/","names":{"zh":"Kyushu Ceramic Museum","en":"Kyushu Ceramic Museum","ja":"Kyushu Ceramic Museum","ko":"Kyushu Ceramic Museum"},"descriptions":{"zh":"日本历史陶瓷与地方窑业传统。","en":"Historic Japanese ceramics and regional kiln traditions.","ja":"日本の歴史的な陶磁器と各地の窯の伝統。","ko":"일본의 역사적 도자기와 지역 가마 전통."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"the-museum-of-ceramic-art-hyogo","url":"https://www.mcart.jp/english/","names":{"zh":"The Museum of Ceramic Art, Hyogo","en":"The Museum of Ceramic Art, Hyogo","ja":"The Museum of Ceramic Art, Hyogo","ko":"The Museum of Ceramic Art, Hyogo"},"descriptions":{"zh":"陶瓷馆藏、研究与教育。","en":"Ceramic collections, research, and education.","ja":"陶磁器のコレクション、研究、教育。","ko":"도자기 소장품, 연구와 교육."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"mashiko-museum-of-ceramic-art","url":"https://www.mashiko-museum.jp/en/","names":{"zh":"Mashiko Museum of Ceramic Art","en":"Mashiko Museum of Ceramic Art","ja":"Mashiko Museum of Ceramic Art","ko":"Mashiko Museum of Ceramic Art"},"descriptions":{"zh":"工作室陶艺与器皿。","en":"Studio ceramics and vessels.","ja":"スタジオ陶芸と器。","ko":"스튜디오 도예와 기물."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"fujita-museum","url":"https://fujita-museum.or.jp/","names":{"zh":"Fujita Museum","en":"Fujita Museum","ja":"Fujita Museum","ko":"Fujita Museum"},"descriptions":{"zh":"曜变天目茶碗与东亚茶艺。","en":"Yohen Tenmoku tea bowls and East Asian tea art.","ja":"曜変天目茶碗と東アジアの茶の美術。","ko":"요헨 덴모쿠 찻사발과 동아시아 차 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"itsuo-art-museum","url":"https://www.hankyu-bunka.or.jp/itsuo-museum/","names":{"zh":"Itsuo Art Museum","en":"Itsuo Art Museum","ja":"Itsuo Art Museum","ko":"Itsuo Art Museum"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"tokugawa-art-museum","url":"https://www.tokugawa-art-museum.jp/","names":{"zh":"Tokugawa Art Museum","en":"Tokugawa Art Museum","ja":"Tokugawa Art Museum","ko":"Tokugawa Art Museum"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"moa-museum-of-art","url":"https://www.moaart.or.jp/en/","names":{"zh":"MOA Museum of Art","en":"MOA Museum of Art","ja":"MOA Museum of Art","ko":"MOA Museum of Art"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"okada-museum-of-art","url":"https://www.okada-museum.com/en/","names":{"zh":"Okada Museum of Art","en":"Okada Museum of Art","ja":"Okada Museum of Art","ko":"Okada Museum of Art"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"hakutsuru-fine-art-museum","url":"https://hakutsuru-museum.org/","names":{"zh":"Hakutsuru Fine Art Museum","en":"Hakutsuru Fine Art Museum","ja":"Hakutsuru Fine Art Museum","ko":"Hakutsuru Fine Art Museum"},"descriptions":{"zh":"东亚陶瓷与艺术馆藏。","en":"East Asian ceramics and art collections.","ja":"東アジアの陶磁器と美術のコレクション。","ko":"동아시아 도자기와 미술 소장품."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"sagawa-art-museum","url":"https://www.sagawa-artmuseum.or.jp/en/","names":{"zh":"Sagawa Art Museum","en":"Sagawa Art Museum","ja":"Sagawa Art Museum","ko":"Sagawa Art Museum"},"descriptions":{"zh":"乐烧茶碗与日本茶道。","en":"Raku tea bowls and Japanese chanoyu.","ja":"楽茶碗と日本の茶の湯。","ko":"라쿠 찻사발과 일본 다도."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}},
+  {"id":"asian-civilisations-museum","url":"https://www.acm.nhb.gov.sg/","names":{"zh":"Asian Civilisations Museum","en":"Asian Civilisations Museum","ja":"Asian Civilisations Museum","ko":"Asian Civilisations Museum"},"descriptions":{"zh":"中国陶瓷与宜兴紫砂茶壶。","en":"Chinese ceramics and Yixing zisha teapots.","ja":"中国陶磁器と宜興の紫砂急須。","ko":"중국 도자기와 이싱 자사 찻주전자."},"region":"south-southeast-asia","locations":{"zh":"新加坡","en":"Singapore","ja":"シンガポール","ko":"싱가포르"}},
+  {"id":"nus-museum","url":"https://museum.nus.edu.sg/","names":{"zh":"NUS Museum","en":"NUS Museum","ja":"NUS Museum","ko":"NUS Museum"},"descriptions":{"zh":"亚洲陶瓷与器物文化。","en":"Asian ceramics and material culture.","ja":"アジアの陶磁器と物質文化。","ko":"아시아 도자기와 물질문화."},"region":"south-southeast-asia","locations":{"zh":"新加坡","en":"Singapore","ja":"シンガポール","ko":"싱가포르"}},
+  {"id":"china-national-tea-museum","url":"https://www.teamuseum.cn/","names":{"zh":"China National Tea Museum","en":"China National Tea Museum","ja":"China National Tea Museum","ko":"China National Tea Museum"},"descriptions":{"zh":"茶文化与茶教育资源。","en":"Tea culture and tea education resources.","ja":"茶文化と茶に関する教育資料。","ko":"차 문화와 차 교육 자료."},"region":"east-asia","locations":{"zh":"中国","en":"China","ja":"中国","ko":"중국"}},
+  {"id":"ceylon-tea-museum","url":"https://ceylonteamuseum.com/","names":{"zh":"Ceylon Tea Museum","en":"Ceylon Tea Museum","ja":"Ceylon Tea Museum","ko":"Ceylon Tea Museum"},"descriptions":{"zh":"锡兰茶历史、制茶设备与文献。","en":"Ceylon tea history, tea machinery, and documentation.","ja":"セイロン茶の歴史、製茶機械、文献。","ko":"실론 차 역사, 제차 기계와 문헌."},"region":"south-southeast-asia","locations":{"zh":"斯里兰卡","en":"Sri Lanka","ja":"スリランカ","ko":"스리랑카"}},
+  {"id":"suntory-museum-of-art","url":"https://www.suntory.com/sma/","names":{"zh":"Suntory Museum of Art","en":"Suntory Museum of Art","ja":"Suntory Museum of Art","ko":"Suntory Museum of Art"},"descriptions":{"zh":"茶道器具与东亚陶瓷艺术。","en":"Tea utensils and East Asian ceramic art.","ja":"茶道具と東アジアの陶磁器美術。","ko":"다도 도구와 동아시아 도자기 예술."},"region":"east-asia","locations":{"zh":"日本","en":"Japan","ja":"日本","ko":"일본"}}
 ];
