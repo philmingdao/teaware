@@ -1,0 +1,22 @@
+name: Retrieve additional open Finna tea images
+on:
+  push:
+    branches: [expansion-6000]
+    paths: ['.github/workflows/curation-finna-additional.yml', 'research/finna-additional-candidates-6000.json']
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: FINNA_CANDIDATES=research/finna-additional-candidates-6000.json python scripts/fetch-finna-hires.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: finna-additional-tea-images
+          path: source-probe
+          retention-days: 1
