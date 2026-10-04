@@ -12,8 +12,8 @@ jobs:
     steps:
       - run: |
           mkdir source-probe
-          curl --fail --location --silent --show-error --max-time 60 https://samlingar.shm.se/assets/main-f46c60b74e6f22c0b811.js -o source-probe/shm-main.js
-          curl --fail --location --silent --show-error --max-time 60 'https://samlingar.shm.se/sok?type=object&query=tekanna&hasImage=1' -o source-probe/shm-search.html
+          curl --fail --location --silent --show-error --max-time 60 'https://samlingar.shm.se/api/v1/search?type=object&query=tekanna&hasImage=1' -o source-probe/shm-api.json
+          curl --fail --location --silent --show-error --max-time 60 https://samlingar.shm.se/object/6435F4E1-91C8-4C0D-96DB-D9423949D6AC -o source-probe/shm-object.html
       - uses: actions/upload-artifact@v4
         if: always()
         with:
