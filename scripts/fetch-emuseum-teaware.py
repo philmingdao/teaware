@@ -7,7 +7,9 @@ def work(row):
  if a.stdout in ['429','503']:raise RuntimeError('throttled: stopping')
  if a.returncode:
   p.unlink(missing_ok=True);return {**row,'status':'error','error':a.stdout+' '+a.stderr[-120:]}
- b=p.read_bytes();return {**row,'status':'downloaded','sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)}
+ b=p.read_bytes()
+ if b'<title>Block Page</title>' in b:raise RuntimeError('Public image endpoint blocks access; stop without retry or workaround.')
+ return {**row,'status':'downloaded','sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)}
 out=[]
 with concurrent.futures.ThreadPoolExecutor(max_workers=2)as pool:
  for r in pool.map(work,rows):

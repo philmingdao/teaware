@@ -1,0 +1,2504 @@
+[
+  {
+    "identifier.id": "HH.1982-0283 A-B",
+    "identifier.owner": "HH",
+    "artifact.uuid": "9764066c-c4eb-4ea0-8666-e89133d4d79a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211766760",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Varmer",
+    "artifact.updatedDate": "2023-09-26T05:51:19.215Z",
+    "artifact.publishedDate": "2022-08-29T08:09:41.999Z",
+    "artifact.ingress.classification": [
+      "264",
+      "286.95"
+    ],
+    "artifact.ingress.names": [
+      "Varmer",
+      "Kaffe/tevarmer",
+      "Kaffe-/tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "013Amt1tdLzK",
+    "artifact.defaultPictureIndex": 571192,
+    "artifact.defaultPictureDimension": "4032x3024"
+  },
+  {
+    "identifier.id": "HH.1969-0376",
+    "identifier.owner": "HH",
+    "artifact.uuid": "cff6876b-a34f-4cef-b11e-cc9cccb7c930",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021029262993",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Varmer",
+    "artifact.ingress.description": "Utvendig hvit lin med engelsk broderi.\nInnvendig gult vattert fôr.\nRund oventil.",
+    "artifact.updatedDate": "2025-09-03T04:41:32.402Z",
+    "artifact.publishedDate": "2020-12-22T09:11:01.027Z",
+    "artifact.ingress.classification": [
+      "264",
+      "286.95"
+    ],
+    "artifact.ingress.names": [
+      "Varmer",
+      "Kaffe/tevarmer",
+      "Kaffe-/tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136LRs663AA",
+    "artifact.defaultPictureIndex": 466964,
+    "artifact.defaultPictureDimension": "4000x2929"
+  },
+  {
+    "identifier.id": "NF.2014-0154",
+    "identifier.owner": "NF",
+    "artifact.uuid": "9e027629-6008-44a4-8b30-cf5d5b3b12a0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028871168",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Trekk til tevarmer",
+    "artifact.ingress.description": "Hvit trekk til tevarmer med hvitt og blått brodert dekor.",
+    "artifact.updatedDate": "2026-04-14T21:19:50.337Z",
+    "artifact.publishedDate": "2020-11-19T04:12:38.432Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Trekk til tevarmer",
+      "Brodert trekk til tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136JwDVQwpU",
+    "artifact.defaultPictureIndex": 622392,
+    "artifact.defaultPictureDimension": "6000x4000"
+  },
+  {
+    "identifier.id": "XLM.35710",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "a4b156bb-fa99-4a70-94a4-9d9c82317278",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027309409",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 9,
+    "artifact.ingress.title": "Teservis",
+    "artifact.ingress.description": "Teservis bestående av 6 koppar med fat, sockerskål, gräddsnäcka, tekanna samt två uppläggningsfat. Delarna är tillverkade vid Bo Fajans i Gävle och formgiven av Allan Ebeling. Delarna har gul bottenglasyr med svart handmålad dekor.",
+    "artifact.ingress.production.fromYear": 1925,
+    "artifact.ingress.production.toYear": 1941,
+    "artifact.updatedDate": "2025-09-19T04:19:18.712Z",
+    "artifact.publishedDate": "2017-10-04T06:09:02.605Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Teservis",
+      "Keramik",
+      "Konsthantverk",
+      "Industri och hantverk"
+    ],
+    "artifact.ingress.names": [
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ymyZBRyqK",
+    "artifact.defaultPictureIndex": 129589,
+    "artifact.defaultPictureDimension": "1299x550"
+  },
+  {
+    "identifier.id": "XLM.37802",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "41e45de0-9e27-44eb-9ad8-eea8a2169301",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026691034",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 9,
+    "artifact.ingress.title": "Teservis",
+    "artifact.ingress.description": "Teservis, Bo Fajans, bestående av en kanna med lock B 96, sockerskål B 91, gräddkanna B 92 samt fem koppar med fat B 93. Servisen tillverkad mellan 1938 och 1953 och är formgiven av Eva Jancke-Björk. Glaserad med konstglasyren 1707, svagt blåtonad vit glasyr, användes under år 1948.",
+    "artifact.ingress.production.fromYear": 1938,
+    "artifact.ingress.production.toYear": 1953,
+    "artifact.updatedDate": "2025-11-26T04:10:21.466Z",
+    "artifact.publishedDate": "2016-11-02T07:26:54.728Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Teservis",
+      "Servis",
+      "Keramik",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022yhzx1rzbu",
+    "artifact.defaultPictureIndex": 129409,
+    "artifact.defaultPictureDimension": "1704x1056"
+  },
+  {
+    "identifier.id": "XLM.10077",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "86c6c325-1ebd-4123-aee2-c64441697a8e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028859759",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 7,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Teservis av porslin i vitt med gulddekor.\nTekanna, sockerskål, gräddkanna, fyra koppar med fat.\n12 delar inklusive kannans lock.",
+    "artifact.updatedDate": "2026-07-03T03:55:26.157Z",
+    "artifact.publishedDate": "2020-11-05T04:28:42.605Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Te",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Servis",
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 6,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0136JSfyPb9r",
+    "artifact.defaultPictureIndex": 137519,
+    "artifact.defaultPictureDimension": "2689x2209"
+  },
+  {
+    "identifier.id": "SKAFOR.0016836",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "978bf30f-fc12-420e-b1e1-17b8f59eec67",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025838617",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Teservis, kopp med fat, tillverkat av porslin, med tryckt motivdekor i svart och med bårder i rosa lysterfärg.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1850,
+    "artifact.updatedDate": "2025-05-19T03:54:48.488Z",
+    "artifact.publishedDate": "2015-04-17T06:14:05.384Z",
+    "artifact.ingress.classification": [
+      "27",
+      "226",
+      "227",
+      "341",
+      "501",
+      "637",
+      "795"
+    ],
+    "artifact.ingress.subjects": [
+      "Tekoppar",
+      "Te",
+      "Tedrickande",
+      "Arkitektur",
+      "Fångst",
+      "Kyrkor",
+      "Landskap"
+    ],
+    "artifact.ingress.names": [
+      "Servis",
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWWBN9frq",
+    "artifact.defaultPictureIndex": 16047,
+    "artifact.defaultPictureDimension": "1710x1127"
+  },
+  {
+    "identifier.id": "VAM006378",
+    "identifier.owner": "VAM",
+    "artifact.uuid": "76e2a771-39db-43b1-85c0-623f849d554b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210215161886",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.ingress.description": "Tevarmer",
+    "artifact.updatedDate": "2026-02-12T17:12:04.188Z",
+    "artifact.publishedDate": "2025-05-16T03:31:32.025Z",
+    "artifact.ingress.classification": [
+      "353"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EGLhFsqPnF",
+    "artifact.defaultPictureIndex": 164335,
+    "artifact.defaultPictureDimension": "2880x1920"
+  },
+  {
+    "identifier.id": "HL.02213",
+    "identifier.owner": "LAR",
+    "artifact.uuid": "591369fc-de3e-4e7a-9b66-7592bc200dff",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213652068",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.ingress.description": "Form: hugget kant,perforerte blader,underlagt olivengrønn fløyel,tvunnet hempe i toppen,vattert,fór av grønn sateng",
+    "artifact.updatedDate": "2026-02-10T13:39:19.094Z",
+    "artifact.publishedDate": "2023-09-05T04:02:13.096Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5jta4csC",
+    "artifact.defaultPictureIndex": 110762,
+    "artifact.defaultPictureDimension": "2784x2584"
+  },
+  {
+    "identifier.id": "SA.01485",
+    "identifier.owner": "HS",
+    "artifact.uuid": "353767b7-1132-42e1-a6b0-2609bff6db67",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025894900",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-02-10T15:48:39.289Z",
+    "artifact.publishedDate": "2015-07-01T06:22:08.427Z",
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWXCEUqVw",
+    "artifact.defaultPictureIndex": 52433,
+    "artifact.defaultPictureDimension": "2728x2430"
+  },
+  {
+    "identifier.id": "NF.1969-0229AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "818fe1c9-19db-4a99-abe7-b2378b87841c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023197618",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer, trekk til",
+    "artifact.ingress.producer": "Pettersen, Olga",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1929,
+    "artifact.updatedDate": "2026-09-01T05:02:19.239Z",
+    "artifact.publishedDate": "2014-04-08T11:19:23.945Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer, trekk til",
+      "kaffevarmer",
+      "Trekk, til kaffevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UzBsGPp3",
+    "artifact.defaultPictureIndex": 34684,
+    "artifact.defaultPictureDimension": "1528x1146"
+  },
+  {
+    "identifier.id": "NF.1990-1089",
+    "identifier.owner": "NF",
+    "artifact.uuid": "789ca070-ee66-46a7-8be7-42fadc0063fe",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023221315",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.ingress.production.fromYear": 1959,
+    "artifact.updatedDate": "2026-09-01T05:58:28.092Z",
+    "artifact.publishedDate": "2014-04-08T17:01:30.858Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02UzXPww6o",
+    "artifact.defaultPictureIndex": 33168,
+    "artifact.defaultPictureDimension": "1456x979"
+  },
+  {
+    "identifier.id": "HH.2022-0040",
+    "identifier.owner": "HH",
+    "artifact.uuid": "c8f9cd13-da5e-48da-84fa-ca9f710da2b7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214602557",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.ingress.description": "Klokkeformet tevarmer med broderier på filt. Foret med bomull og bomullsvatt. Pyntesnor med hempe.",
+    "artifact.updatedDate": "2025-07-15T03:16:57.518Z",
+    "artifact.publishedDate": "2024-08-23T05:37:14.041Z",
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHD5pDZnw",
+    "artifact.defaultPictureIndex": 588437,
+    "artifact.defaultPictureDimension": "3024x4032"
+  },
+  {
+    "identifier.id": "NF.1977-0397",
+    "identifier.owner": "NF",
+    "artifact.uuid": "b9ef0c93-3429-4147-9c6b-e548061c30b5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023205758",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-04-14T13:56:14.659Z",
+    "artifact.publishedDate": "2014-04-08T13:20:04.130Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UzJPLa9B",
+    "artifact.defaultPictureIndex": 97610,
+    "artifact.defaultPictureDimension": "1272x1007"
+  },
+  {
+    "identifier.id": "NF.1961-0357",
+    "identifier.owner": "NF",
+    "artifact.uuid": "4e729e30-0f32-4a9c-ab3f-47e38f6bc941",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023192870",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.ingress.producer": "Larsen, Martha",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1895,
+    "artifact.ingress.production.toYear": 1899,
+    "artifact.updatedDate": "2026-04-14T12:33:24.708Z",
+    "artifact.publishedDate": "2014-04-08T10:06:42.991Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer",
+      "kaffevarmer",
+      "Kaffevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UzBgwWAy",
+    "artifact.defaultPictureIndex": 34661,
+    "artifact.defaultPictureDimension": "1116x1489"
+  },
+  {
+    "identifier.id": "NF.1951-0714",
+    "identifier.owner": "NF",
+    "artifact.uuid": "3b4c2045-a243-4be2-89c3-176afd703d11",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023183006",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-04-15T06:17:02.087Z",
+    "artifact.publishedDate": "2014-04-08T07:38:14.538Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer",
+      "Kaffevarmer, broderi til"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02Uyxkmm82",
+    "artifact.defaultPictureIndex": 34244,
+    "artifact.defaultPictureDimension": "1408x1039"
+  },
+  {
+    "identifier.id": "NF.1951-0746",
+    "identifier.owner": "NF",
+    "artifact.uuid": "3b51009b-27d1-4b4f-8932-5e6bdbdffb02",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023183039",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-04-15T06:17:09.614Z",
+    "artifact.publishedDate": "2014-04-08T07:38:36.348Z",
+    "artifact.ingress.classification": [
+      "272",
+      "531.23"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer",
+      "Kaffevarmer, broderi til"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UyxkmmW5",
+    "artifact.defaultPictureIndex": 34245,
+    "artifact.defaultPictureDimension": "1498x1033"
+  },
+  {
+    "identifier.id": "NF.1951-0778",
+    "identifier.owner": "NF",
+    "artifact.uuid": "3671c4e1-7cdc-47f3-9a8b-ed6a460e2664",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023183072",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-04-15T06:17:18.710Z",
+    "artifact.publishedDate": "2014-04-08T07:39:05.091Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer",
+      "Kaffevarmer, broderi til"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04UyxnCj4u",
+    "artifact.defaultPictureIndex": 34197,
+    "artifact.defaultPictureDimension": "1414x1054"
+  },
+  {
+    "identifier.id": "OB.08913",
+    "identifier.owner": "OMU",
+    "artifact.uuid": "4a978357-85af-4481-9d17-68749bfc68ce",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026251942",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "varmehette",
+    "artifact.ingress.description": "Kaffekannevarmer, halvsirkelformet, dobbel, stoppet pose trukket utvendig med satin, innvendig med flanell. Påheftet to halvsirkler i nettelduk med broderi. Langs kanten påsydd rysj av silke.",
+    "artifact.ingress.production.fromYear": 1910,
+    "artifact.ingress.production.toYear": 1929,
+    "artifact.updatedDate": "2026-09-20T00:20:57.973Z",
+    "artifact.publishedDate": "2016-01-29T05:02:04.579Z",
+    "artifact.ingress.classification": [
+      "251",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "matservering",
+      "kaffe",
+      "tevarmer",
+      "interiør",
+      "husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "varmehette",
+      "kannevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.91489439999999000000, 10.72221539999998100000",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wYzhj9Lq8",
+    "artifact.defaultPictureIndex": 92537,
+    "artifact.defaultPictureDimension": "4000x2660"
+  },
+  {
+    "identifier.id": "NF.1960-0155",
+    "identifier.owner": "NF",
+    "artifact.uuid": "8b19de7c-0ee0-402d-a43a-92fb8dc651f4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023192092",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-09-01T04:50:00.867Z",
+    "artifact.publishedDate": "2014-04-08T09:54:08.804Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer",
+      "kaffevarmer",
+      "Kaffevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03Uz5NkE1U",
+    "artifact.defaultPictureIndex": 34205,
+    "artifact.defaultPictureDimension": "1480x1060"
+  },
+  {
+    "identifier.id": "NF.1955-0538AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "c1c70aa7-7ab5-4c25-9e27-e85fbeadadcf",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023186919",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tevarmer",
+    "artifact.updatedDate": "2026-08-26T03:57:07.717Z",
+    "artifact.publishedDate": "2014-04-08T08:37:32.539Z",
+    "artifact.ingress.classification": [
+      "264",
+      "291"
+    ],
+    "artifact.ingress.subjects": [
+      "Husets tekstiler"
+    ],
+    "artifact.ingress.names": [
+      "Tevarmer"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04Uz5DpcqD",
+    "artifact.defaultPictureIndex": 158937,
+    "artifact.defaultPictureDimension": "916x1204"
+  },
+  {
+    "identifier.id": "SKAFOR.0018924",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "45850a0c-8e73-4a0f-bfa1-4a25d4507ea2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214660655",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 14,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Servis som omfattar kaffekanna, kaffekoppar, tekoppar och moccakoppar samt tillhörande assietter. och fat.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:09.881Z",
+    "artifact.publishedDate": "2024-09-14T04:27:28.094Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Servis",
+      "Kaffeservis",
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHhrLovbE",
+    "artifact.defaultPictureIndex": 94212,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "XLM.17034f",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "064716b6-7021-4771-9dbe-84a6b33243d0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210216510698",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teservis",
+    "artifact.ingress.description": "f) 1-4, Teservis, bestående av 1) tekanna, 2 3) tekopp + fat. Gulvit-\nglacerad, enklare blomdekor i blått och brunt. Tekanna: Rund, tillplattad kropp, kort pip. Rund öppning högst upp, över denna en ståltrådsbygel klädd med bast. D 36 mm, H 32 mm, kopp: rund, vid, ett öra. D 13 mm-25 mm, H 15 mm. Fat: B 35 mm. Tillbringare: rund, hög, hällpip och henkel. D 13- 20 mm, H 30 mm.",
+    "artifact.updatedDate": "2026-03-11T04:13:01.408Z",
+    "artifact.publishedDate": "2026-03-03T04:00:18.872Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "524"
+    ],
+    "artifact.ingress.subjects": [
+      "Servis",
+      "Leksaker",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELhApD5hW3",
+    "artifact.defaultPictureIndex": 259732,
+    "artifact.defaultPictureDimension": "3131x2151"
+  },
+  {
+    "identifier.id": "DM 22189",
+    "identifier.owner": "S-DM",
+    "artifact.uuid": "a851b0b4-2764-4680-a2b7-ce10623d1bb6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210212344031",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teservis",
+    "artifact.ingress.description": "Teservis av keramik. Gul glasyr, prickig. Stämplade under: 'Nittsjö Sweden 482 AM'.\nTekanna\nGräddskål\nSockerskål\n6 st koppar\n6 st fat\n6 st assietter",
+    "artifact.updatedDate": "2025-05-29T05:41:12.851Z",
+    "artifact.publishedDate": "2022-10-27T12:41:35.062Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Serviser",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBtFLq5jbT",
+    "artifact.defaultPictureIndex": 128445,
+    "artifact.defaultPictureDimension": "4000x1975"
+  },
+  {
+    "identifier.id": "XLM.35710b",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "5a91588e-790a-431e-af84-4a4cb858f0fc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213384515",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Gräddkanna",
+    "artifact.ingress.description": "Gräddkanna, tillverkad vid Bo Fajans i Gävle och formgiven av Allan Ebeling. Gul bottenglasyr med svart handmålad dekor, modell 1678, med kinesiserande dekor.",
+    "artifact.ingress.production.fromYear": 1925,
+    "artifact.ingress.production.toYear": 1941,
+    "artifact.updatedDate": "2025-09-19T04:19:21.162Z",
+    "artifact.publishedDate": "2023-04-19T04:08:26.764Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Teservis",
+      "Keramik",
+      "Konsthantverk",
+      "Industri och hantverk"
+    ],
+    "artifact.ingress.names": [
+      "Gräddkanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ymyZBRyz7",
+    "artifact.defaultPictureIndex": 130257,
+    "artifact.defaultPictureDimension": "3576x2699"
+  },
+  {
+    "identifier.id": "XLM.35710c",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "c2f764de-c005-46fc-8e04-26f434551b16",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213384521",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sockerskål",
+    "artifact.ingress.description": "Sockerskål, tillverkad vid Bo Fajans i Gävle och formgiven av Allan Ebeling. Gul bottenglasyr med svart handmålad dekor, modell 1677, kinesiserande dekor.",
+    "artifact.ingress.production.fromYear": 1925,
+    "artifact.ingress.production.toYear": 1941,
+    "artifact.updatedDate": "2025-09-19T04:19:22.076Z",
+    "artifact.publishedDate": "2023-04-19T04:08:57.444Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Teservis",
+      "Keramik",
+      "Konsthantverk",
+      "Industri och hantverk"
+    ],
+    "artifact.ingress.names": [
+      "Sockerskål"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 6,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxEQCD1j3",
+    "artifact.defaultPictureIndex": 216466,
+    "artifact.defaultPictureDimension": "3375x2663"
+  },
+  {
+    "identifier.id": "gm.3285",
+    "identifier.owner": "S-GRE",
+    "artifact.uuid": "b78f3e24-ce86-4730-9864-ca56f69dc544",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214693196",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Teservis i kopparpläterad mässing. Fyra delar, tekanna, gräddkanna, sockerskål och en ställning för kannan.",
+    "artifact.updatedDate": "2024-10-12T03:41:38.508Z",
+    "artifact.publishedDate": "2024-10-12T03:41:38.508Z",
+    "artifact.ingress.classification": [
+      "252",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Matberedning i hemmet",
+      "Dryck"
+    ],
+    "artifact.ingress.names": [
+      "Servis",
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiQxX7f3",
+    "artifact.defaultPictureIndex": 22802,
+    "artifact.defaultPictureDimension": "4000x2657"
+  },
+  {
+    "identifier.id": "04844:1-3",
+    "identifier.owner": "S-MS",
+    "artifact.uuid": "bef88c2b-0a0c-47c0-99c1-569587ec80f4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024623588",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Teservis",
+    "artifact.ingress.description": "En ljust brunmelerad teservis i 10 st delar från 1970-talet.\n\nMM04844:1 \n1 st tekanna med lock. Inuti kannan sitter en löstagbar tesil. Under kannan är loggan \"SIERRA 9064 HÖGANÄS KERAMIK STONEWARE SWEDEN\" stämplad. Stämpeln är något bortsliten. \nMått - Höjd: 120 mm , Diam: 125 mm (kanna)\nMått - Diam: 110 mm (lock)\nMått - Diam: 82 mm, Höjd: 76 mm (tesil)\n\nMM04844:2\n3 st koppar med 3 st fat. Koppen har ett öra att hålla i. Under varje kopp är loggan  \"STONEWARE   HÖGANÄS KERAMIK   SWEDEN\" stämplad.\nUnder en av kopparna finns också \"SIERRA 9063\" stämplat.\nMått - Höjd: 60 mm, Diam: cirka 102 mm (kopp)\nMått - Diam: 165 mm (fat)\n\nMM04844:3\n3 st assetter.\nMått - Diam: 19 mm\n\n.",
+    "artifact.ingress.production.place": "Sverige, Skåne, Skåne, Höganäs, Höganäs Keramik, Polhemsgatan 1, Höganäs Museum och Konsthall",
+    "artifact.ingress.producer": "Höganäs Keramik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1970,
+    "artifact.ingress.production.toYear": 1979,
+    "artifact.updatedDate": "2025-12-06T05:18:08.094Z",
+    "artifact.publishedDate": "2014-08-14T09:23:33.508Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Serviser"
+    ],
+    "artifact.ingress.names": [
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sC2pwU2QY",
+    "artifact.defaultPictureIndex": 26817,
+    "artifact.defaultPictureDimension": "3008x2000"
+  },
+  {
+    "identifier.id": "XLM.37802f",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "cbcd1cbc-b4d7-4834-bb7d-bf24727ea046",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386289",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Gräddkanna",
+    "artifact.ingress.description": "Gräddkanna, Bo Fajans, modell B 92 samt konstglasyren 1707, svagt blåtonad vit glasyr, användes under år 1948.",
+    "artifact.ingress.production.fromYear": 1938,
+    "artifact.ingress.production.toYear": 1953,
+    "artifact.updatedDate": "2025-11-26T04:10:32.625Z",
+    "artifact.publishedDate": "2023-04-20T04:20:32.512Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Teservis",
+      "Servis",
+      "Keramik",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Gräddkanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022yhzx1rzgK",
+    "artifact.defaultPictureIndex": 129412,
+    "artifact.defaultPictureDimension": "3237x2290"
+  },
+  {
+    "identifier.id": "XLM.37802g",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "e16561ed-6bcb-4ec8-bab9-483ec09acb26",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213384524",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sockerskål",
+    "artifact.ingress.description": "Sockerskål, Bo Fajans. Servisen tillverkad mellan 1938 och 1953 och är formgiven av Eva Jancke-Björk. Modell B 96, konstglasyr 1707, svagt blåtonad vit glasyr.",
+    "artifact.ingress.production.fromYear": 1938,
+    "artifact.ingress.production.toYear": 1953,
+    "artifact.updatedDate": "2025-11-26T04:10:36.208Z",
+    "artifact.publishedDate": "2023-04-19T04:09:17.442Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Teservis",
+      "Servis",
+      "Keramik",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Sockerskål"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxEQCD1oS",
+    "artifact.defaultPictureIndex": 216421,
+    "artifact.defaultPictureDimension": "4000x2409"
+  },
+  {
+    "identifier.id": "XLM.37802h",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "dddc7886-0767-4c66-97c8-35693279a78c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386293",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat tillhörande teservis, Bo Fajans, modell B 93. Servisen tillverkad mellan 1938 och 1953 och är formgiven av Eva Jancke-Björk. Glaserad med konstglasyren 1707, svagt blåtonad vit glasyr, användes under år 1948.",
+    "artifact.ingress.production.fromYear": 1938,
+    "artifact.ingress.production.toYear": 1953,
+    "artifact.updatedDate": "2025-11-26T04:10:37.940Z",
+    "artifact.publishedDate": "2023-04-20T04:20:35.722Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Teservis",
+      "Servis",
+      "Keramik",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022yhzx1rzkf",
+    "artifact.defaultPictureIndex": 129414,
+    "artifact.defaultPictureDimension": "2007x1959"
+  },
+  {
+    "identifier.id": "JM.57134",
+    "identifier.owner": "S-JK",
+    "artifact.uuid": "6e9f4385-b73e-4f53-a346-52620fda254b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210215110625",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 3,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Teservis, tekanna, och tekoppar med fat, märkta ”RESTAURANG isbiten”.\n\nFöremålsbeskrivningar i underposterna.",
+    "artifact.ingress.producer": "Uppsala-Ekeby AB",
+    "artifact.ingress.producerRole": "Producent",
+    "artifact.updatedDate": "2026-09-13T03:50:49.350Z",
+    "artifact.publishedDate": "2025-04-29T03:41:02.674Z",
+    "artifact.ingress.classification": [
+      "264",
+      "265",
+      "272",
+      "526"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Serviser"
+    ],
+    "artifact.ingress.names": [
+      "Servis",
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGLCiPLP4w",
+    "artifact.defaultPictureIndex": 388199,
+    "artifact.defaultPictureDimension": "4000x2668"
+  },
+  {
+    "identifier.id": "XLM.41056b",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "1d000397-3fae-4e12-993e-4b3515f5c53f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213384547",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sockerskål",
+    "artifact.ingress.description": "Sockerskål, \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:24.449Z",
+    "artifact.publishedDate": "2023-04-19T04:11:04.406Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Sockerskål"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUgoSP48",
+    "artifact.defaultPictureIndex": 135306,
+    "artifact.defaultPictureDimension": "2867x2195"
+  },
+  {
+    "identifier.id": "XLM.41056c",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "59b76bf0-44e7-4234-88b3-e362ed8edaa1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213384548",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Gräddkanna",
+    "artifact.ingress.description": "Gräddkanna, \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:24.632Z",
+    "artifact.publishedDate": "2023-04-19T04:11:05.002Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Gräddkanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSPCt",
+    "artifact.defaultPictureIndex": 133325,
+    "artifact.defaultPictureDimension": "3037x2267"
+  },
+  {
+    "identifier.id": "XLM.41056j",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "823ed9ae-03ef-4552-970e-b12c0f189def",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386555",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett till teservis \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:26.997Z",
+    "artifact.publishedDate": "2023-04-20T04:24:19.188Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Assiett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSP4C",
+    "artifact.defaultPictureIndex": 137616,
+    "artifact.defaultPictureDimension": "2736x2612"
+  },
+  {
+    "identifier.id": "XLM.41056k",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "fbd83727-c8a9-40f5-a4bf-93975bb43257",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386557",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett till teservis \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.\n",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:27.280Z",
+    "artifact.publishedDate": "2023-04-20T04:24:20.148Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Assiett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSP4C",
+    "artifact.defaultPictureIndex": 137616,
+    "artifact.defaultPictureDimension": "2736x2612"
+  },
+  {
+    "identifier.id": "XLM.41056l",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "f392db6d-f6c9-4f1a-b432-2befe5710249",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386559",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett till teservis \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.\n",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:27.294Z",
+    "artifact.publishedDate": "2023-04-20T04:24:20.922Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Assiett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSP4C",
+    "artifact.defaultPictureIndex": 137616,
+    "artifact.defaultPictureDimension": "2736x2612"
+  },
+  {
+    "identifier.id": "XLM.41056m",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "fda9b2cb-c1a3-4655-b659-37eb2bc84cbc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386561",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett till teservis \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.\n",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:28.058Z",
+    "artifact.publishedDate": "2023-04-20T04:24:21.822Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Assiett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSP4C",
+    "artifact.defaultPictureIndex": 137616,
+    "artifact.defaultPictureDimension": "2736x2612"
+  },
+  {
+    "identifier.id": "XLM.41056n",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "b121d0c2-92d3-497a-a459-fa87b2b05598",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386563",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett till teservis \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.\n",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:28.164Z",
+    "artifact.publishedDate": "2023-04-20T04:24:22.664Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Assiett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSP4C",
+    "artifact.defaultPictureIndex": 137616,
+    "artifact.defaultPictureDimension": "2736x2612"
+  },
+  {
+    "identifier.id": "XLM.41056o",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "13663d49-7160-4148-a3c6-8bc270c16e1b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213386565",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett till teservis \"Monsun\", Bo Fajans, formgivare Christina Fiedler, brunglaserad.\n",
+    "artifact.ingress.production.fromYear": 1964,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2026-10-01T04:03:28.282Z",
+    "artifact.publishedDate": "2023-04-20T04:24:23.644Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Konsthantverk",
+      "Keramik",
+      "Industri och hantverk",
+      "Teservis"
+    ],
+    "artifact.ingress.names": [
+      "Assiett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUgoSP4C",
+    "artifact.defaultPictureIndex": 137616,
+    "artifact.defaultPictureDimension": "2736x2612"
+  },
+  {
+    "identifier.id": "SA.05068-B",
+    "identifier.owner": "HS",
+    "artifact.uuid": "e7905696-f4dd-449e-8a80-9c27a74775ef",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025576444",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skål",
+    "artifact.updatedDate": "2026-02-10T16:21:27.093Z",
+    "artifact.publishedDate": "2014-11-22T19:46:05.444Z",
+    "artifact.ingress.subjects": [
+      "Leketøy",
+      "Barndom"
+    ],
+    "artifact.ingress.names": [
+      "Skål",
+      "Dukke-teservise"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2WE8PnZ",
+    "artifact.defaultPictureIndex": 15566,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "NFT.1913-0161AP",
+    "identifier.owner": "NF",
+    "artifact.uuid": "1236d121-ff1d-4051-942f-a72430447d19",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023297091",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Dukkestell",
+    "artifact.ingress.description": "17 deler: \n1 tekanne m lokk, 2 kopper m hank, 2 kopper uten hank, 1 stor kopp uten hank, 4 skåler tilhørende t kopp, 2 små fat, 1 fløtemugge m lokk, 1 sukkerurne m lokk",
+    "artifact.ingress.production.place": "Kina",
+    "artifact.updatedDate": "2026-04-15T22:36:56.922Z",
+    "artifact.publishedDate": "2014-04-09T11:50:47.487Z",
+    "artifact.ingress.classification": [
+      "524",
+      "857"
+    ],
+    "artifact.ingress.subjects": [
+      "Thaulowsamlingen"
+    ],
+    "artifact.ingress.names": [
+      "Dukkestell",
+      "Teservise",
+      "Kaffeservise"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 38,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0138YtwCRoQT",
+    "artifact.defaultPictureIndex": 685566,
+    "artifact.defaultPictureDimension": "4000x2998"
+  },
+  {
+    "identifier.id": "NF.1913-1093U",
+    "identifier.owner": "NF",
+    "artifact.uuid": "ef002aef-6183-47a3-8237-5fe413beb877",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023139240",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.updatedDate": "2026-04-15T05:06:56.225Z",
+    "artifact.publishedDate": "2014-04-07T20:40:47.742Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Teserviser",
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Del av teservise"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVRDFk4E",
+    "artifact.defaultPictureIndex": 153979,
+    "artifact.defaultPictureDimension": "1345x863"
+  },
+  {
+    "identifier.id": "NF.1913-1093W",
+    "identifier.owner": "NF",
+    "artifact.uuid": "b781531e-4f84-42dd-af43-f56536f7b50d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023139242",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.updatedDate": "2026-04-15T05:06:57.222Z",
+    "artifact.publishedDate": "2014-04-07T20:40:58.207Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Teserviser",
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Del av teservise"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03UVRDFk4F",
+    "artifact.defaultPictureIndex": 154087,
+    "artifact.defaultPictureDimension": "1351x902"
+  },
+  {
+    "identifier.id": "SKAFOR.0016854",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "3912fc80-70c5-4f5c-bf08-7cb4c2db9f34",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024609697",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 4,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Två koppar med lock.",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-05-07T04:05:32.071Z",
+    "artifact.publishedDate": "2014-08-14T08:13:17.207Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Koppar",
+      "Tekoppar",
+      "Crêmekoppar",
+      "Ostindiskt",
+      "Födans servering"
+    ],
+    "artifact.ingress.names": [
+      "Servis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042sC2brQhue",
+    "artifact.defaultPictureIndex": 13224,
+    "artifact.defaultPictureDimension": "2794x2025"
+  },
+  {
+    "identifier.id": "SKAFOR.0016670",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "b907be2c-643c-4157-b421-c456b6c760fc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024605954",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Lock",
+    "artifact.ingress.description": "Lock till tekopp, av vitt porslin med blå dekor. Uppvikt kant med uddar, blå målad fjälldekor. Locket vilar i falsar på kopp SKAFOR.0016671.",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-05-07T04:34:23.611Z",
+    "artifact.publishedDate": "2014-08-14T07:59:09.100Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264",
+      "272",
+      "136",
+      "137",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Husgeråd",
+      "Lock",
+      "Tedrickande",
+      "Tekoppar",
+      "Ostindiskt",
+      "Fiskfjäll",
+      "Kronblad"
+    ],
+    "artifact.ingress.names": [
+      "Lock"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042sC2VTnokP",
+    "artifact.defaultPictureIndex": 13222,
+    "artifact.defaultPictureDimension": "1377x1036"
+  },
+  {
+    "identifier.id": "SKAFOR.0016668",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "94a06430-155c-4044-a3a4-fc335fab9ee4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024605920",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Lock",
+    "artifact.ingress.description": "Lock till tekopp, av vitt porslin med blå dekor. Uppvikt kant med uddar, blå fjälldekor. Locket vilar i falsar på kopp SKAFOR.0016669.",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-05-07T05:21:29.342Z",
+    "artifact.publishedDate": "2014-08-14T07:59:02.547Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264",
+      "272",
+      "136",
+      "137",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Husgeråd",
+      "Lock",
+      "Tedrickande",
+      "Tekoppar",
+      "Ostindiskt",
+      "Fiskfjäll",
+      "Kronblad"
+    ],
+    "artifact.ingress.names": [
+      "Lock"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012sC2VTnoNK",
+    "artifact.defaultPictureIndex": 13223,
+    "artifact.defaultPictureDimension": "1377x1036"
+  },
+  {
+    "identifier.id": "NF.1909-0274",
+    "identifier.owner": "NF",
+    "artifact.uuid": "42d89e97-7393-4021-9df5-65f9123b3bbb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023133696",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "Kann med lokk og flettet lærgrep på hanken",
+    "artifact.updatedDate": "2026-09-28T03:20:33.051Z",
+    "artifact.publishedDate": "2014-04-07T18:56:47.014Z",
+    "artifact.ingress.classification": [
+      "263",
+      "264",
+      "272",
+      "272.5",
+      "796",
+      "804"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tinnkande",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "013AjPVTEjMa",
+    "artifact.defaultPictureIndex": 688094,
+    "artifact.defaultPictureDimension": "6000x4002"
+  },
+  {
+    "identifier.id": "VM01699",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "7453ecf0-966f-4eeb-9203-061fa6a9fbec",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025092135",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEKANNA",
+    "artifact.ingress.description": "Vit tekanna i nyrokoko dekorerad med blå blommor. Kannan är trasig: Den saknar öra på locket. Omärkt.\n\n\nI kannan ligger en papperslapp på vilken det står följande: \"Gåva av Fru Herman Carlsson Egna Hem\"",
+    "artifact.ingress.production.place": "Sverige, Stockholm, Stockholm, Stockholm",
+    "artifact.ingress.producer": "Rörstrands Porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2026-09-25T03:56:00.166Z",
+    "artifact.publishedDate": "2014-09-09T10:46:32.614Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drycker"
+    ],
+    "artifact.ingress.names": [
+      "TEKANNA"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWWjvxatS",
+    "artifact.defaultPictureIndex": 121763,
+    "artifact.defaultPictureDimension": "2736x2300"
+  },
+  {
+    "identifier.id": "NØT.02103",
+    "identifier.owner": "NOD",
+    "artifact.uuid": "ac0008f9-e6a9-4750-8c82-346f43ee92e4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011022715796",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "Kanne med sil.",
+    "artifact.ingress.production.fromYear": 1930,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2024-04-23T04:45:58.238Z",
+    "artifact.publishedDate": "2014-03-17T15:44:36.546Z",
+    "artifact.ingress.classification": [
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Mat og drikke"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0236JSLNJm2t",
+    "artifact.defaultPictureIndex": 507334,
+    "artifact.defaultPictureDimension": "4000x3682"
+  },
+  {
+    "identifier.id": "SA.00773",
+    "identifier.owner": "HS",
+    "artifact.uuid": "f725101b-6892-41bc-8866-d57122fe7c68",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025574154",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 4,
+    "artifact.ingress.title": "Kanne",
+    "artifact.updatedDate": "2026-02-10T15:39:41.277Z",
+    "artifact.publishedDate": "2014-11-22T13:30:55.748Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uN2W9e5oK",
+    "artifact.defaultPictureIndex": 23923,
+    "artifact.defaultPictureDimension": "3872x2592"
+  },
+  {
+    "identifier.id": "XLM.R00530",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "1a8d4897-534c-4fd0-aed2-145207d12179",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028305639",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp och fat",
+    "artifact.ingress.description": "Kopp med fat, 6 st, Ostindiskt porslin. <dekor i rött, blått och guld med figuriner. Kopp utan öra. Vit glasyrmed överglasyrmålning i blått, orange, gulbrunt. Figurer och bårder mm.\nUtan fabrikationsmärke, kompaniporslin.",
+    "artifact.updatedDate": "2025-06-12T04:14:19.840Z",
+    "artifact.publishedDate": "2019-03-21T06:03:59.245Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kopp och fat",
+      "Kopp med fat",
+      "Servering och förtäring",
+      "Kopp",
+      "Fat",
+      "Tekopp",
+      "Tekopp med fat",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin",
+      "Drycker",
+      "Dryckeskärl"
+    ],
+    "artifact.ingress.names": [
+      "Kopp och fat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347SfkPi6t",
+    "artifact.defaultPictureIndex": 160511,
+    "artifact.defaultPictureDimension": "3606x1878"
+  },
+  {
+    "identifier.id": "XLM.R00603",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "e4649383-9b01-4278-a35c-e4d8528cbc8a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028263471",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp och fat",
+    "artifact.ingress.description": "Två par koppar med fat, ostindiskt porslin, polykroma blommor. Öronen avslagna.",
+    "artifact.updatedDate": "2025-06-12T04:14:32.492Z",
+    "artifact.publishedDate": "2019-02-23T06:05:34.088Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kaffe",
+      "Kaffekopp",
+      "Tekopp",
+      "Tekopp med fat",
+      "Fat",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin"
+    ],
+    "artifact.ingress.names": [
+      "Kopp och fat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03346xEsrUYx",
+    "artifact.defaultPictureIndex": 159586,
+    "artifact.defaultPictureDimension": "3653x2317"
+  },
+  {
+    "identifier.id": "XLM.R00619",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "c9d1dff4-1176-492b-83b2-99f2a3a18201",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028305649",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp och fat",
+    "artifact.ingress.description": "Kopp och fat, ostindiskt porslin, dekor i blått, rött och guld. koppen utan öra. Vit glasyr med överglasyrmålning i orange, blått och guld. Bårder och blommor.\nutan fabrikationsmärke, kompaniporslin.",
+    "artifact.updatedDate": "2025-06-12T04:14:35.910Z",
+    "artifact.publishedDate": "2019-03-21T06:04:08.850Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kaffe",
+      "Kaffekopp",
+      "Kopp",
+      "Kopp med fat",
+      "Kopp och fat",
+      "Fat",
+      "Servering och förtäring",
+      "Te",
+      "Tekopp",
+      "Tekopp med fat",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin"
+    ],
+    "artifact.ingress.names": [
+      "Kopp och fat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03347SfkPiQV",
+    "artifact.defaultPictureIndex": 160528,
+    "artifact.defaultPictureDimension": "2747x1898"
+  },
+  {
+    "identifier.id": "XLM.R00620",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "516516be-5170-45f0-8f77-f7b48f1432a7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028305651",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp och fat",
+    "artifact.ingress.description": "Kopp och fat, ostindiskt porslin, polykrom dekor. koppen utan öra, rel. hög Fatet har i mitten en rel. kraftig upphöjning för koppen. Vit bottenglasyr med överglasyrmålning, delvis emalj. Fåglar, växter och fyrfota djur samt bårder i svart, orange, grönt, blått och guld. Inuti koppen liten brun blomma. Utanpå fatet växter i orange.\nUtan fabrikationsmärke, kompaniporslin.",
+    "artifact.updatedDate": "2025-06-12T04:14:36.702Z",
+    "artifact.publishedDate": "2019-03-21T06:04:12.863Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kaffe",
+      "Kaffekopp",
+      "Te",
+      "Tekopp",
+      "Tekopp med fat",
+      "Kopp",
+      "Kopp med fat",
+      "Kopp och fat",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin",
+      "Servering och förtäring"
+    ],
+    "artifact.ingress.names": [
+      "Kopp och fat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02347SfkQ3Cd",
+    "artifact.defaultPictureIndex": 160533,
+    "artifact.defaultPictureDimension": "2805x2041"
+  },
+  {
+    "identifier.id": "XLM.R00622",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "4aeef879-0c33-47b4-9d68-6c6968849e2f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028263486",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp och fat",
+    "artifact.ingress.description": "Kopp och fat, ostindiskt porslin, polykroma blommor. Kopp utan öra. Vit bottenglasyr med överglasyrmålning; blommor och bårder/ delvis emalj/ i grönt, orange, blått, rött och guld.",
+    "artifact.updatedDate": "2025-06-12T04:14:37.606Z",
+    "artifact.publishedDate": "2019-02-23T06:05:39.409Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kaffe",
+      "Kaffekopp",
+      "Tekopp med fat",
+      "Tekopp",
+      "Fat",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin"
+    ],
+    "artifact.ingress.names": [
+      "Kopp och fat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02346xEsrUZ4",
+    "artifact.defaultPictureIndex": 159588,
+    "artifact.defaultPictureDimension": "2857x1938"
+  },
+  {
+    "identifier.id": "NF.1959-0442AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "4671f380-9825-4f6b-b98d-88b355b89274",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023191670",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1899,
+    "artifact.updatedDate": "2026-09-01T04:49:42.216Z",
+    "artifact.publishedDate": "2014-04-08T09:47:31.834Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03Uz5NiYNZ",
+    "artifact.defaultPictureIndex": 11218,
+    "artifact.defaultPictureDimension": "1446x962"
+  },
+  {
+    "identifier.id": "NF.1910-0415",
+    "identifier.owner": "NF",
+    "artifact.uuid": "e7091d91-790d-4f33-b6c7-94ee15184de5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023134504",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.updatedDate": "2026-09-01T04:12:08.853Z",
+    "artifact.publishedDate": "2014-04-07T19:11:37.518Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne",
+      "Tekanne med lokk",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UVJfkFmH",
+    "artifact.defaultPictureIndex": 11115,
+    "artifact.defaultPictureDimension": "1374x953"
+  },
+  {
+    "identifier.id": "GM.033356",
+    "identifier.owner": "GM",
+    "artifact.uuid": "143bce20-7473-491d-8627-b7f687f8bc4f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027396328",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekannehette",
+    "artifact.ingress.description": "Med hvitsøm eller engelsk broderi og blondekant",
+    "artifact.updatedDate": "2024-01-31T03:25:17.793Z",
+    "artifact.publishedDate": "2017-12-22T06:08:39.156Z",
+    "artifact.ingress.classification": [
+      "353.4"
+    ],
+    "artifact.ingress.subjects": [
+      "Hustekstil"
+    ],
+    "artifact.ingress.names": [
+      "Tekannehette"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUfbS3qA",
+    "artifact.defaultPictureIndex": 370194,
+    "artifact.defaultPictureDimension": "4000x2625"
+  },
+  {
+    "identifier.id": "O 10224.J",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "7580078f-0c5e-4ea7-ba1f-6af8b09c187f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027357400",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp med fat",
+    "artifact.ingress.description": "Tekopp med fat av ljusblått granitporslin.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Gustavsberg",
+    "artifact.ingress.producer": "Gustafsbergs porslinsfabrik",
+    "artifact.ingress.producerRole": "Producent",
+    "artifact.updatedDate": "2026-06-27T04:02:33.702Z",
+    "artifact.publishedDate": "2017-11-16T06:09:56.270Z",
+    "artifact.ingress.classification": [
+      "AAAH"
+    ],
+    "artifact.ingress.subjects": [
+      "Porslin",
+      "Mat ombord"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp med fat",
+      "Porslinservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynTzQghG4",
+    "artifact.defaultPictureIndex": 371377,
+    "artifact.defaultPictureDimension": "3806x2160"
+  },
+  {
+    "identifier.id": "O 10224.K",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "676396f2-75e5-4c7e-b113-b4e465365aea",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027357401",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp med fat",
+    "artifact.ingress.description": "Tekopp med fat av ljusblått granitporslin.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Gustavsberg",
+    "artifact.ingress.producer": "Gustafsbergs porslinsfabrik",
+    "artifact.ingress.producerRole": "Producent",
+    "artifact.updatedDate": "2026-06-27T04:02:33.889Z",
+    "artifact.publishedDate": "2017-11-16T06:09:56.566Z",
+    "artifact.ingress.classification": [
+      "AAAH"
+    ],
+    "artifact.ingress.subjects": [
+      "Porslin",
+      "Mat ombord"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp med fat",
+      "Porslinservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ynTzQghG8",
+    "artifact.defaultPictureIndex": 371380,
+    "artifact.defaultPictureDimension": "3806x2160"
+  },
+  {
+    "identifier.id": "O 10224.L",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "e8d0fc54-81d1-4a10-b243-89dacb5b7104",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027357402",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Assiett",
+    "artifact.ingress.description": "Assiett av ljusblått granitporslin.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Gustavsberg",
+    "artifact.ingress.producer": "Gustafsbergs porslinsfabrik",
+    "artifact.ingress.producerRole": "Producent",
+    "artifact.updatedDate": "2026-06-27T04:02:33.973Z",
+    "artifact.publishedDate": "2017-11-16T06:09:56.930Z",
+    "artifact.ingress.classification": [
+      "AAAH"
+    ],
+    "artifact.ingress.subjects": [
+      "Porslin",
+      "Mat ombord"
+    ],
+    "artifact.ingress.names": [
+      "Assiett",
+      "Tekopp med fat",
+      "Porslinservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynTzQghG9",
+    "artifact.defaultPictureIndex": 371381,
+    "artifact.defaultPictureDimension": "3806x2160"
+  },
+  {
+    "identifier.id": "NFM.1982-05824",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "ea00fab0-8dc3-44ba-b045-47c87b634e39",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027982478",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekanne",
+    "artifact.ingress.description": "Tekanne i steingods med påtrykte blomar, med laust lok, helletut og handtak i trespon. Loket er sølvblått.",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2026-06-10T04:56:17.916Z",
+    "artifact.publishedDate": "2018-11-30T06:02:20.143Z",
+    "artifact.ingress.classification": [
+      "323"
+    ],
+    "artifact.ingress.subjects": [
+      "Leiketøy",
+      "Barndom",
+      "Te"
+    ],
+    "artifact.ingress.names": [
+      "Tekanne",
+      "Dokkeservise",
+      "Leiketekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231xxCw1sHH",
+    "artifact.defaultPictureIndex": 37809,
+    "artifact.defaultPictureDimension": "1543x1548"
+  },
+  {
+    "identifier.id": "NFM.2019-00123",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "5f374b98-0eb3-420e-a6bc-8a0fb4df4695",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213970868",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "Kvit kanne i porselen med gull-dekor. Har vore gull på handtaket også, som er slite bort. Lok manglar.",
+    "artifact.updatedDate": "2026-06-10T05:05:08.365Z",
+    "artifact.publishedDate": "2023-11-02T03:34:42.775Z",
+    "artifact.ingress.subjects": [
+      "Kaffi",
+      "Servise",
+      "Fødselsdag",
+      "Te"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Kaffikanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE6jCeAgAS",
+    "artifact.defaultPictureIndex": 45301,
+    "artifact.defaultPictureDimension": "2292x2100"
+  },
+  {
+    "identifier.id": "VMF001054:a-b",
+    "identifier.owner": "S-HKM",
+    "artifact.uuid": "9dfd20b6-4c15-4e33-9bc9-f5b2384edee8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027358033",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp",
+    "artifact.ingress.description": "Tekopp med fat, med svart ornering.",
+    "artifact.updatedDate": "2026-04-26T03:39:14.806Z",
+    "artifact.publishedDate": "2017-11-17T06:04:44.032Z",
+    "artifact.ingress.classification": [
+      "14:3.7"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "57.107118, 12.2520907",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELiA1jeF5h",
+    "artifact.defaultPictureIndex": 343137,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "VMF001053:a-b",
+    "identifier.owner": "S-HKM",
+    "artifact.uuid": "424934ec-45a2-410e-a404-0ab01622ff6c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027358029",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp",
+    "artifact.ingress.description": "Tekopp med fat, med blå ornering.",
+    "artifact.updatedDate": "2026-04-26T03:39:14.817Z",
+    "artifact.publishedDate": "2017-11-17T06:04:42.548Z",
+    "artifact.ingress.classification": [
+      "14:3.7"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "57.107118, 12.2520907",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069ELiA1jeF5i",
+    "artifact.defaultPictureIndex": 343136,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "MM 03600.44",
+    "identifier.owner": "S-SMM-MM",
+    "artifact.uuid": "8c60bea9-fa2a-4f2d-86ad-2ab71e20b6e5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024802642",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tekopp",
+    "artifact.ingress.description": "Tekopp. Tillkom år 1933 genom köp å antikvitetsauktion i Stockholm (från Svensk - Franska konstgalleriet Stockholm) Pris 610 kronor.",
+    "artifact.updatedDate": "2026-03-31T04:04:11.438Z",
+    "artifact.publishedDate": "2014-08-15T08:14:54.725Z",
+    "artifact.ingress.classification": [
+      "ABBOAC"
+    ],
+    "artifact.ingress.names": [
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uKXBq53Gh",
+    "artifact.defaultPictureIndex": 15338,
+    "artifact.defaultPictureDimension": "1923x977"
+  },
+  {
+    "identifier.id": "NF.1910-0954AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "d35f657d-98ff-44c4-9fb1-8f05495dbc48",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023135063",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "Med fat\n",
+    "artifact.updatedDate": "2026-04-14T09:46:33.881Z",
+    "artifact.publishedDate": "2014-04-07T19:22:07.253Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02UVJhEvcm",
+    "artifact.defaultPictureIndex": 11116,
+    "artifact.defaultPictureDimension": "1476x707"
+  },
+  {
+    "identifier.id": "NF.1987-1349",
+    "identifier.owner": "NF",
+    "artifact.uuid": "4387ac9b-f9ea-4788-9a45-cb24d2bbd42b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023218053",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.updatedDate": "2026-04-14T15:37:18.879Z",
+    "artifact.publishedDate": "2014-04-08T16:12:26.498Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Nordiska museet"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UzQxLiuW",
+    "artifact.defaultPictureIndex": 34392,
+    "artifact.defaultPictureDimension": "1528x1146"
+  },
+  {
+    "identifier.id": "NF.1973-0473AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "103981ed-3bdc-4311-8b40-9d14cfad913a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023200789",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanne",
+    "artifact.ingress.description": "Med lokk",
+    "artifact.updatedDate": "2026-04-14T13:27:47.323Z",
+    "artifact.publishedDate": "2014-04-08T12:05:33.660Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Kanne",
+      "Tekanne"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04UzJFvdez",
+    "artifact.defaultPictureIndex": 202536,
+    "artifact.defaultPictureDimension": "1849x1183"
+  },
+  {
+    "identifier.id": "VM22457:2a-b",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "8843148c-da65-4f29-9167-f48ba0641ca1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025187403",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "KOPP med FAT",
+    "artifact.ingress.description": "En av två koppar med fat. Det är stora koppar med stora fat. Kanten innanför vilket koppen skall vara är ovanligt hög, 1,1 cm. På koppen finns blåklocka, maskros, ormbunke och viol. På fatet linnea och förgätmigej.\n\nGivaren hittade kopparna i en ''fyndlåda'' på en auktion. Därefter har de använts som frukostmuggar, gärna när frukosten intagits i trädgården.\n\nKeramiker Vera Haij-Nilsson Dals-Långed Dalsland född 1912 i Vänersborg. Utbildning vid Tekn. Skolan (Konstfack) Stockholm 1929-1934. Praktik i verkstäder och fabriker.\n\nVåren 1935 arbetade hon som praktikant på  Erikssons krukmakeri i St. Mellby där fanns också en broder till keramiker Josefina Björnberg. Eriksson gjorde själva arbetet och Björnberg hjälpte till. Stenebyskolan hade en utställning i Vänersborg och där kom Vera Haij i kontakt med rektorn för skolan Erland Borglund. Hon kom till Steneby 1936 där hon dekorerade keramik som en annan drejade. Arbetena såldes till NK och PUB i Stockholm. På somrarna på 1940 - 1950 talet hade hon elever som hjälpte henne med drejningen. Efter 1950 drejade hon själv.\n\nHon har haft utställningar genom hemslöjden. En utställning tillsammans med konstnären Alvar Lundin i Åmål. För utställningen på Nääs 1980 ville man ha något nytt. Hon gjorde då ''nickedockan'' VM 20 469. Hennes make Helge Nilsson gjorde mekanismen till dockan.\n\n1988 arbetar hon fortfarande på Stenebyskolan.",
+    "artifact.ingress.production.place": "Sverige, Dalsland, Västra Götaland, Bengtsfors, Vedbo, Steneby, Dals-Långed",
+    "artifact.ingress.producer": "Haij-Nilsson, VERA",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1988,
+    "artifact.updatedDate": "2026-03-14T04:11:39.207Z",
+    "artifact.publishedDate": "2014-09-10T02:12:08.880Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Förtäring",
+      "Blomsterdekor"
+    ],
+    "artifact.ingress.names": [
+      "KOPP med FAT",
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022waWFa8Tkc",
+    "artifact.defaultPictureIndex": 132030,
+    "artifact.defaultPictureDimension": "2778x2520"
+  },
+  {
+    "identifier.id": "GFC10570_288 b",
+    "identifier.owner": "S-GOM",
+    "artifact.uuid": "229f0ba2-fd93-4520-84cd-b8a69d319d2d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213409574",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Flintgods med svagt gröntonad glasyr vilket tyder på att detta är en tidig glasyr. Överföringstryck i bruna nyanser. Med blomsterbårder och centralt placerade scener på kvinnor i landskapet. Troligen 1800-talets första del. 2008-04-04 M.N, HGO. FMA.\nFRÅN  --. INKÖP, ELIN PERSSON ANTIKHANDEL, VISBY. DIAM. 9 CM. H. 5,5 CM.. PORSLIN. VITGLASERAT PORSLIN MED BRUNT TRYCKT MÖNSTER PÅ KOPPENS UTSIDA OCH - I EN 2 CM. BRED RAND- PÅ DESS INSIDA: TVÅ KVINNOR I FOTSIDA KLÄDNADER SITTER I ETT LANDSKAP MED ANTYDD GRÖNSKA, SOL OCH EN VULKAN. DEN ENA HÅLLER EN ORM, DEN ANDRA EN URNA MED BRINNANDE OLJA. PÅ EN MUR STÅR EN KORG MED FRUKTER M.M. DESSUOTM BLOM- OCH BLADORNAMENT.. . ADA BLOCKS BOHAG, GÅVA TILL GOTLANDS FORNSAL.",
+    "artifact.updatedDate": "2026-05-05T06:22:53.276Z",
+    "artifact.publishedDate": "2023-04-24T10:01:14.021Z",
+    "artifact.ingress.classification": [
+      "272",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Kulturhistoria"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tekoppsfat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5ESes1Ah",
+    "artifact.defaultPictureIndex": 25031,
+    "artifact.defaultPictureDimension": "1200x895"
+  },
+  {
+    "identifier.id": "OB.15419",
+    "identifier.owner": "OMU",
+    "artifact.uuid": "1422cec4-a5dd-41a0-8599-ff0b590eeea1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213314959",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "tekannevarmer",
+    "artifact.ingress.description": "Tekannevarmer formet som en dukke med hode og kjole. Kjolen tres ned over kannen for å holde den varm.",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2026-09-19T11:17:35.768Z",
+    "artifact.publishedDate": "2023-03-15T03:31:03.717Z",
+    "artifact.ingress.subjects": [
+      "kjøkkenredskaper",
+      "varme",
+      "håndarbeid"
+    ],
+    "artifact.ingress.names": [
+      "tekannevarmer",
+      "kjøkkenutstyr"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBwk5cLicP",
+    "artifact.defaultPictureIndex": 145756,
+    "artifact.defaultPictureDimension": "2662x4000"
+  },
+  {
+    "identifier.id": "NF.1963-0149AB",
+    "identifier.owner": "NF",
+    "artifact.uuid": "4287342e-5c9c-4816-a275-6ae06e5e8c3a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011023193797",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp og skål",
+    "artifact.ingress.production.place": "Norge, Telemark, Porsgrunn",
+    "artifact.ingress.producer": "Porsgrunds Porselænsfabrik A/S",
+    "artifact.ingress.producerRole": "Produsent (K)",
+    "artifact.updatedDate": "2026-09-01T04:55:14.460Z",
+    "artifact.publishedDate": "2014-04-08T10:21:29.513Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Bordstell"
+    ],
+    "artifact.ingress.names": [
+      "Kopp og skål",
+      "Tekopp med skål",
+      "Tekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "59.9138688, 10.752245399999992",
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "01UzBjs7z6",
+    "artifact.defaultPictureIndex": 157827,
+    "artifact.defaultPictureDimension": "1306x905"
+  }
+]

@@ -9,7 +9,7 @@ const ids=new Set(blocked.map(x=>x.id)),urls=new Set(blocked.map(x=>normalizedSo
 const selected=[],imageRejections=[];
 const types=[[/teekeitin/i,['茶炉','Tea Urn']],[/teevati/i,['茶托','Tea Saucer']],[/teekannu|teepannu|tekanna/i,['茶壶','Teapot']],[/teekulho/i,['茶碗','Tea Bowl']],[/teekuppi|tekopp/i,['茶杯','Tea Cup']],[/teerasia|teepurkki|teburk/i,['茶罐','Tea Caddy']],[/teesiivilä/i,['茶滤','Tea Strainer']],[/teelusikka/i,['茶匙','Tea Spoon']]];
 const museumNames={'Suomen kansallismuseo':['芬兰国家博物馆','The National Museum of Finland'],'HKM / Kulttuurihistoriallinen':['赫尔辛基城市博物馆','Helsinki City Museum'],'Turun kaupunginmuseo':['图尔库城市博物馆','Turku City Museum'],'Heinolan museot':['海诺拉博物馆','Museums of Heinola']};
-const folders=['finna-hi'];
+const folders=['finna-hi','finna-hi-next'];
 for(const folder of folders){let downloads;try{downloads=await read('output/round31/'+folder+'/records.json');}catch(e){if(e.code==='ENOENT')continue;throw e;}
 for(const download of downloads){if(download.status!=='downloaded')continue;const raw=rawMap.get(download.recordId),id=download.id;const reject=reason=>imageRejections.push({id,recordId:download.recordId,reason});
 const im=raw?.imagesExtended?.[0],rights=im?.rights,license=rights?.copyright,end=Number(raw?.creationDateRange?.split('/')[1]?.slice(0,4));
