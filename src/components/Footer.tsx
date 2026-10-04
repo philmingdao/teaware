@@ -39,6 +39,7 @@ export default function Footer() {
               >
                 {t('about')}
               </Link>
+              <Link href="/contact" className="text-sm text-[#a0a0a0] hover:text-[#faf9f7] transition-colors">{t('contact')}</Link>
             </nav>
           </div>
 

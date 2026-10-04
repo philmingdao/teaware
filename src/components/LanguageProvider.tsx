@@ -43,7 +43,7 @@ export default function LanguageProvider({ children }: { children: ReactNode }) 
   useEffect(() => {
     document.documentElement.lang = languageTags[locale];
     if (readLocale() === locale) { try { localStorage.setItem(LANGUAGE_KEY, locale); } catch {} }
-    const page = pathname.includes('/cutout-gallery') ? 'closeLook' : pathname.includes('/gallery') ? 'gallery' : pathname.includes('/about') ? 'about' : pathname.includes('/tv') ? 'tv' : null;
+    const page = pathname.includes('/cutout-gallery') ? 'closeLook' : pathname.includes('/gallery') ? 'gallery' : pathname.includes('/about') ? 'about' : pathname.includes('/tv') ? 'tv' : pathname.includes('/contact') ? 'contact' : null;
     const updateTitle = () => {
       const artworkHeading = pathname.includes('/artwork') ? document.querySelector('main h1')?.textContent : null;
       const prefix = artworkHeading || (page ? translate(locale, page) : '');

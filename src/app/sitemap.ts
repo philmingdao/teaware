@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    { url: `${FULL_URL}/contact/`, changeFrequency: 'monthly', priority: 0.5 },
   ];
 
   const artworkPages: MetadataRoute.Sitemap = artworks.map((artwork) => ({

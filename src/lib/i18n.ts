@@ -14,6 +14,7 @@ export const messages = {
   exhibition: ['展览', 'Exhibition', '展覧会', '전시'],
   collection: ['藏品', 'Collection', '収蔵品', '소장품'],
   about: ['关于展览', 'About the exhibition', '展覧会について', '전시 소개'],
+  contact: ['联系 Phil', 'Contact Phil', 'Phil へのお問い合わせ', 'Phil에게 연락하기'],
   home: ['首页', 'Home', 'ホーム', '홈'],
   language: ['语言', 'Language', '言語', '언어'],
   menu: ['切换菜单', 'Toggle menu', 'メニューを切り替え', '메뉴 전환'],

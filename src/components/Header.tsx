@@ -59,6 +59,7 @@ export default function Header() {
             >
               {t('about')}
             </Link>
+            <Link href="/contact" className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors link-elegant">{t('contact')}</Link>
             <div className="w-px h-4 bg-[#ebe8e1] dark:bg-[#252320]" />
             <LanguageSwitcher />
             <DarkModeToggle />
@@ -124,6 +125,7 @@ export default function Header() {
               >
                 {t('about')}
               </Link>
+              <Link href="/contact" className="text-sm tracking-wide text-[#3d3d3d] dark:text-[#c5c3bf] py-2" onClick={() => setIsMobileMenuOpen(false)}>{t('contact')}</Link>
             </div>
           </div>
         )}
