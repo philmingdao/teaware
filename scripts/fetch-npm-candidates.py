@@ -4,9 +4,9 @@ Uses only advertised public IIIF services, not CAPTCHA download endpoints.
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from datetime import datetime,timezone
-import hashlib,json,subprocess,re,html,time,sys
+import hashlib,json,subprocess,re,html,time,sys,os
 root=Path('source-probe');root.mkdir(exist_ok=True)
-rows=json.loads(Path('research/npm-candidates-4000.json').read_text()); shard=int(sys.argv[1]);rows=rows[shard::3]
+rows=json.loads(Path(os.environ.get('NPM_CANDIDATES','research/npm-candidates-4000.json')).read_text()); shard=int(sys.argv[1]);rows=rows[shard::int(os.environ.get('NPM_SHARDS','3'))]
 def sha(b):return hashlib.sha256(b).hexdigest()
 def fetch(p,url):
  if p.exists() and p.stat().st_size:return p.read_bytes()
@@ -21,7 +21,7 @@ def work(row):
   fields={clean(k):[clean(v) for v in re.split('<br\s*/?>',v)] for k,v in re.findall(r'<tr>\s*<td>(.*?)</td>\s*<td>(.*?)</td>\s*</tr>',table,re.S)}
   title=fields['品名'][0];desc=' '.join(fields.get('說明',[]))
   # Candidate gate only: exact tea use still needs source and image review.
-  if not re.search(r'茶(?:壺|杯|盞|碗|盌|盃|圓|鍾|鐘|盅|罐|葉罐|盒|盤|托|筒|棗|則|杓|釜|爐|器|具)|奶茶|酥油茶|品茗|飲茶|泡茶|煮茶|煎茶|泡飲|烹茶|茗碗|茗壺',title+' '+desc):return {'id':id,'status':'no-tea-use-lead','fields':fields,'sourceUrl':url}
+  if not os.environ.get('NPM_SKIP_LEAD_GATE') and not re.search(r'茶(?:壺|杯|盞|碗|盌|盃|圓|鍾|鐘|盅|罐|葉罐|盒|盤|托|筒|棗|則|杓|釜|爐|器|具)|奶茶|酥油茶|品茗|飲茶|泡茶|煮茶|煎茶|泡飲|烹茶|茗碗|茗壺',title+' '+desc):return {'id':id,'status':'no-tea-use-lead','fields':fields,'sourceUrl':url}
   raw=fetch(folder/'manifest.json',f'https://digitalarchive.npm.gov.tw/Integrate/GetJson?cid={id}&dept=U');m=json.loads(raw)
   canvases=m['sequences'][0]['canvases']; default=re.search(r"var def = '(.*?)';",s)
   chosen=next((c for c in canvases if default and c['label']==default.group(1)),canvases[0]);service=chosen['images'][0]['resource']['service']['@id']

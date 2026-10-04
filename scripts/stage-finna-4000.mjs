@@ -14,9 +14,9 @@ for(const folder of folders){let downloads;try{downloads=await read('output/roun
 for(const download of downloads){if(download.status!=='downloaded')continue;const raw=rawMap.get(download.recordId),id=download.id;const reject=reason=>imageRejections.push({id,recordId:download.recordId,reason});
 const im=raw?.imagesExtended?.[0],rights=im?.rights,license=rights?.copyright,end=Number(raw?.creationDateRange?.split('/')[1]?.slice(0,4));
 if(!raw||!raw.identifierString||!rights||!['CC BY 4.0','CC BY 3.0','CC BY 2.0','CC0','PDM','Public Domain'].includes(license)||!end||end>1920){reject('unverified-image-rights-or-historical-date');continue;}
-const type=types.find(([re])=>re.test(raw.title))?.[1];if(!type||/myssy|patalappu|piirustus|valokuva|kangas|nukke|lelu|kansi$/i.test(raw.title)){reject('not-an-independent-tea-object');continue;}
+const type=types.find(([re])=>re.test(raw.title))?.[1];if(!type||/myssy|patalappu|piirustus|valokuva|kangas|nukke|lelu|leikkikalu|leikki|kansi$/i.test(raw.title)){reject('not-an-independent-tea-object');continue;}
 const events=raw.events?.valmistus||[],materialOriginal=[...new Set(events.flatMap(x=>x.materials||[]))].join('; '),places=[...new Set(events.flatMap(x=>x.places||[]))].join('; '),makers=[...new Set(events.flatMap(x=>(x.actors||[]).map(a=>a.name)))].join('; ');
-let material='未详';for(const [re,zh]of [[/posliini|porslin/i,'瓷'],[/fajanssi|fajans/i,'陶'],[/kivitavara|stengods/i,'炻器'],[/keramiikka|keramik/i,'陶瓷'],[/hopea|silver/i,'银'],[/messinki|mässing/i,'黄铜'],[/kupari|koppar/i,'铜'],[/tina|tenn/i,'锡'],[/lasi|glas/i,'玻璃'],[/puu|trä/i,'木']])if(re.test(materialOriginal)){material=zh;break;}
+let material='未详';for(const [re,zh]of [[/piiposliini/i,'陶'],[/uushopea/i,'镍银'],[/posliini|porslin/i,'瓷'],[/fajanssi|fajans/i,'陶'],[/kivitavara|stengods/i,'炻器'],[/keramiikka|keramik/i,'陶瓷'],[/hopea|silver/i,'银'],[/messinki|mässing/i,'黄铜'],[/kupari|koppar/i,'铜'],[/tina|tenn/i,'锡'],[/lasi|glas/i,'玻璃'],[/puu|trä/i,'木']])if(re.test(materialOriginal)){material=zh;break;}
 const museum=raw.institutions?.[0],names=museumNames[museum?.value]||[museum?.translated||museum?.value,museum?.translated||museum?.value];
 if(!names[0]){reject('museum-unidentified');continue;}
 const date=clean(events.map(x=>x.date).filter(Boolean).join('; '))||raw.creationDateRange;
