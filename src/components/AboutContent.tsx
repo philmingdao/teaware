@@ -3,6 +3,7 @@ import { useLanguage } from './LanguageProvider';
 import { museumName } from '@/lib/i18n';
 import { artworks } from '@/data/artworks';
 import Link from './LocaleLink';
+import MuseumResources from './MuseumResources';
 
 // The disclosure reflects the current catalogue rather than a historical source list.
 const sources = Array.from(artworks.reduce((map, item) => {
@@ -43,6 +44,7 @@ export default function AboutContent() {
           </div>)}
         </div>
         <div className="divider-elegant !my-12" />
+        <MuseumResources locale={locale} />
         <h2 className="text-2xl mb-6">{t('presentation')}</h2>
         <p>{t('presentationText')}</p>
         <blockquote className="bg-[#1a1a1a] text-[#faf9f7] text-center text-lg p-8 mt-12">{t('motto')}</blockquote>
