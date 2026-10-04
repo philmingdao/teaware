@@ -81,6 +81,37 @@ for(const input of inputs) {
     assert.equal(item.rawSha256,item.downloadEvidence.sha256);
     const end=Number(item.raw.creationDateRange?.split('/')[1]?.slice(0,4));assert(end>0&&end<=1920);
     assert(row.creditLine.includes(rights.copyright)&&row.creditLine.includes('Background removed and cropped by Teaware.'));
+  } else if(row.id.startsWith('nmk-')) {
+    assert.equal(item.raw.fields['소장품번호'],row.accessionNumber);assert(!row.accessionNumber.startsWith('건판'));
+    assert.equal(item.raw.sourceUrl,row.sourceUrl);assert.equal(item.raw.imageSource,item.imageSource);
+    assert.equal(item.raw.imageSha256,item.rawSha256);assert.equal(item.raw.licenseUrl,'https://www.kogl.or.kr/info/licenseType1.do');
+    const page=await fs.readFile(path.join(path.dirname(poolPath),'cache',digest(Buffer.from(row.sourceUrl))+'.html'));
+    assert.equal(digest(page),item.raw.pageSha256);assert(page.toString().includes('new_img_opencode1.jpg'));
+    assert(item.imageSource.startsWith('https://www.museum.go.kr/relic_image/'));
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
+    assert(row.creditLine.includes('KOGL Type 1')&&row.creditLine.includes('Background removed and cropped by Teaware.'));
+  } else if(row.id.startsWith('nationalmuseum-')) {
+    assert.equal(item.raw.fields.licens,'Public Domain');assert.equal(item.raw.fields.inventarienummer.join('; '),row.accessionNumber);
+    assert.equal(item.raw.fields.titel.join('; '),row.titleOriginal);
+    assert.equal(row.sourceUrl,'https://media.nationalmuseum.se/search/all/media/'+item.raw.raw.id);
+    const advertised=[...item.raw.raw.downloadables,item.raw.raw.previews.preview].map(x=>new URL(x.url,'https://media.nationalmuseum.se').href);
+    assert(advertised.includes(item.imageSource));assert.equal(item.raw.sha256,item.rawSha256);
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
+    assert(row.creditLine.includes('Background removed and cropped by Teaware.'));
+  } else if(row.id.startsWith('dimu-')) {
+    const x=item.raw.raw,im=x.media.pictures.find(p=>p.identifier===item.raw.index['artifact.defaultMediaIdentifier']);
+    assert.equal(x.artifactType,'Thing');assert.equal(x.identifier.id,row.accessionNumber);
+    assert.equal(x.partOfCollection.owner.name,row.sourceMuseumEnglish);
+    assert.equal(row.sourceUrl,'https://digitaltmuseum.org/'+x.uniqueId);
+    assert.equal(item.imageSource,'https://ems.dimu.org/image/'+im.identifier+'?dimension=1200x1200');
+    const rights=im.licenses?.length?im.licenses:x.licenses,allowed=new Set(['by','by-sa','CC0 1.0','pdm','zero']);
+    assert(rights.length&&x.licenses.length&&[...rights,...x.licenses].every(l=>l.system==='CC'&&allowed.has(l.code)));
+    assert.deepEqual(rights,item.raw.effectiveImageLicenses);
+    assert.equal(item.raw.sha256,item.rawSha256);assert(Math.max(im.width,im.height)>=1200);
+    const span=x.eventWrap.production.timespan;assert(span.toYear>0&&span.toYear<=1920);
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
+    assert(row.creditLine.includes('Background removed and cropped by Teaware.'));
+    if(rights.some(l=>l.code==='by-sa'))assert(row.creditLine.includes('same CC BY-SA license'));
   } else assert.fail(`Unverified staging source ${row.id}`);
   assert.equal(input.inputPath,item.inputPath,`Unexpected image path ${row.id}`);
   const relative=path.relative(path.dirname(poolPath),item.inputPath);

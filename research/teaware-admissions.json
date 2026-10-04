@@ -8,5 +8,943 @@
     "sourceUrl": "https://www.clevelandart.org/art/2020.186",
     "evidence": "The museum description states that bowls of this type and shape were used for drinking tea.",
     "reviewedAt": "2026-10-03"
+  },
+  "npm-1073": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1073?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類執壺，由晚唐至北宋早期，經常出現於北方窯系，與西安出土唐太和三年(829)王明哲墓出土「老得家茶瓶」形制相似，亦和唐代劉府君墓出土邢窯白釉執壺雷同，又和國立臺中自然科學博物館所藏唐代滑石茶器組中的短流茶瓶相近，此類型制是唐代用來裝煮沸水點茶的茶瓶",
+    "descriptionSha256": "24f606913f3687b4aca6b31f881cbb831f392126ad534f008d388ad4220b0948",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1074": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1074?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "長沙窯製作多種日常茶器如單柄壺、茶瓶、茶碗、茶末盒等多帶器銘如「荼埦」、「荼盞子」、「大茶合」、「鎮國茶瓶」，可見飲茶風氣在湖南地區頗為盛行",
+    "descriptionSha256": "6cd28a1cdfb0f6b1ea8640f6076bf7617c1d7a5f6ee8b404596aecf0e5ce4077",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1078": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1078?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "典型宋代茶托形制「形如碗而帶托盤，下有足",
+    "descriptionSha256": "15d584b15efb53713e8df08622a43f061454af1daa10b0c498fdaf3a4f832994",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1082": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1082?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "碗形造型為典型宋代點茶茶盞，此類茶盞的口徑與足徑比例相差甚大，故而重心不甚平穩，因此必須配置茶托，此或為宋人茶盞多置於托上的主因之一",
+    "descriptionSha256": "6fcfff7a437c36d9213431c0b4f4916e3943239dcc920757e59dab2d1791612e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1084": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1084?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "器形典雅秀麗，製作極為規整，此類形制、尺寸似沿襲元大都出土的青花花卉紋帶托茶盞，不曾出現於元代之前",
+    "descriptionSha256": "3b33bbf9dfcf130709bd0e6493543bb564ca02ce0f4fa6954f9e292a8b791291",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1087": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1087?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "清室善後委員會清點時或依清宮舊名定為「永樂款白瓷脫胎暗龍茶盅」",
+    "descriptionSha256": "331e55173b4419626ecc831841fc3241dbb70f5849f886001bb83fe462dcbbb8",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1089": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1089?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "外壁口沿淺劃暗花或青花繪飾轉枝花卉一道，器心為折枝茶花，外加雙圈",
+    "descriptionSha256": "48fab03ed1a1c771efd8d0f0121b43433397d3d315fffef6d2c85449917a1053",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1090": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1090?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "…」此類尺寸的撇口碗器，與宣德白茶盞相近，亦與《江西大志》上所載的嘉靖白瓷暗龍紋茶盅大小、形制非常接近，因此可以相信，這類碗器或從永樂開始已成為明清茶碗的標準形制",
+    "descriptionSha256": "f3d903f30a4b3deb2eb6218233845e58528d9bb173aa6f290dd92da4e13843d1",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1091": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1091?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": " 這類尖足小碗，胎骨比起一般宣德碗器略厚，其器用為何，無人論及，不過如據明末文震亨《長物志》卷十二〈茶壺、茶盞〉中曾說：「宣廟有尖足茶盞，料精式雅，質厚難冷，潔白如玉，可試茶色，盞中第一",
+    "descriptionSha256": "3db76f3ed9d87f8c4a6033f9a8592cf18c2585d01738da2155f72cab78c0debb",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1098": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1098?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "本器清室繕後委員會清點帳上登錄名稱為「成化款鬥彩茶杯」",
+    "descriptionSha256": "ca3c3df950b1343f148631e10d58cd7ea276c97c44b013d1b458bc7d2e4e257f",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1112": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1112?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此碗在清室善後委員會清點清宮舊藏時，依據舊籤品名定為「甜白八方茶盅」，可以確定清代用為品茶茶盅，如據明人載記「品茶用甌，白瓷為良",
+    "descriptionSha256": "a8217c86d05e131e86862884d3b22d774070dae677e579aa41b1cf759dae9714",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1113": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1113?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "這類尺寸的小碗，自明代洪武以降即出現於每一時代，口徑大約在九至十公分左右，與文獻上所提的茶盅尺寸大致相符，應即為為明人飲茶的茶盅，也是明代多種茶盅內最為常見的形制，嘉、萬期間此類黃釉茶盅尤為盛行，《江西大志》曾載萬曆十九年(1591)燒製「暗花雲龍寶相花全黃茶鍾一千二百件」，惟本器並無暗花紋飾",
+    "descriptionSha256": "65883097f587e9530ab9f0c73caf54fa9a4d36ad43f928cbbd5de749c3b1557c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1115": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1115?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此碗貼有清宮舊黃籤，上書「三等萬窯青花白地玲瓏銀裡茶盅四件」，清代用其作為茶盅",
+    "descriptionSha256": "d5a8c7229fe75d253d8f2b0a9cb25c54a8d1e4a1e0b4904add88c471c0216c11",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1117": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1117?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此器五彩鮮豔，為萬曆典型器，舊名為茶葉罐",
+    "descriptionSha256": "893e6f039172e0f7d001be9a28f6e0ef2281c2c4af9537d68f8ebd47026dd91e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1123": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1123?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "碗心畫側開折枝月季花一朵，外壁褐地上繪飾牡丹、月季、小雛菊等；器蓋蓋面畫月季、菊花、小雛菊、茶花，蓋內底則飾俯視盛開的月季一朵",
+    "descriptionSha256": "0838611eb9c79ecf493153f087fee7ffd95d1bb08be5ca5413d01ed755f9c88d",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1124": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1124?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "碗外壁畫四組四季折枝花卉紋，有牡丹、月季；牡丹、雛菊；茶花、梅花；菊花等，碗心飾桃紅月季花一朵",
+    "descriptionSha256": "70c7bbe50aa2f4fca46d20c1b10924b6f8e30e1ab67049b5e5f15e314483b910",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1125": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1125?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "三季花果紋茶碗，紋飾以果實為主，花卉為副，為了凸顯果實，因此主體的桃實、荔枝、枇杷等畫得較大，花卉較小",
+    "descriptionSha256": "1caef15214f31e0cbfdd7a5aab44bf06946839b5771c5b176b91105ec75e7459",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1128": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1128?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類型蓋罐為貯藏茶葉的茶葉罐，除青花外亦有鬥彩器，以青花鉤竹葉輪廓，高溫燒成後再施綠彩低溫燒成，相當雅緻",
+    "descriptionSha256": "de5bfebc0595a8562a9cfacb4bb02f5ee58a2fe0f1b20b093babd755823db24c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1135": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1135?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": " 雍正御用茶壺，喜愛簡約大方造形，此類壺身較短，壺口略大的茶壺為雍正時期所常見，單色釉如霽青(圖版100 )、茶葉末(圖版101 )琺瑯彩瓷茶壺，均為相同造型",
+    "descriptionSha256": "15a7bdf83482e455f8e555c4c0c5640647f8c4b3a6958405513111ee1abce995",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1140": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1140?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正胭脂紅器精緻高雅，尤其小巧茶盅撇口的外沿露白一周、齊邊，實屬不易，同類型器亦有吹綠釉者",
+    "descriptionSha256": "0537919488f96ccc44bba7a01e1f78fda71bdacac2a07d7d7c1003f95f9f68ba",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1141": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1141?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸小杯作品茗之用，清室善後委員會點交清冊中原品名為「雍正款松石綠茶盃」，有撇口、及敞直口兩種",
+    "descriptionSha256": "b6036fb586ab0c9a03fe3bc0146bd9e3651883fbaccdd5e450aa7e7565a5d206",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1142": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1142?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸小杯或為品茗之用，清室善後委員會點交清冊中原品名為「雍正款松石綠茶盃」",
+    "descriptionSha256": "4c6d87893804fdaa53be1e526bdbee8a9d25ef3b0a159a46b7c745074d54c7f0",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1145": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1145?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "畫工細緻，形制典雅，院藏同為「列」字品號者，亦有一對與《琺瑯、玻璃、宜興、磁胎陳設檔案》內所載相同，名為「磁胎畫琺瑯墨梅白地茶鍾」",
+    "descriptionSha256": "8d94d9ae34e3c4c884bde12aeaea8c1f07df5805c08acfd387a7fd55aa085122",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1146": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1146?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此器在《琺瑯、玻璃、宜興、磁胎陳設檔案》所載名為「瓷胎畫琺瑯黃菊花白地茶鍾，壹對」，為雍正十年(1732)八月初八日傳旨燒造，九月初八日製成",
+    "descriptionSha256": "19c0fab6bd2658fe67c1e24d6da67dad577e475226051a47442c696b1c27671b",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1149": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1149?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐尤多，可見雍正皇帝素好品茶，雖罕見其對啜茗的感想詩文，然由《宮中檔雍正朝奏摺》中頻見其賞賜大臣貢茶，而且常是連瓶帶茶一起賜與，有時又加賜茶碗，可以想見雍正時期宮廷飲茶風氣興盛，因此宮中留下如此多量的各式茶碗、茶壺、茶罐",
+    "descriptionSha256": "6b31e45be9694272f05a4289bda6bfc1144f711c72a0335f7ea04657e27a5ea3",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1154": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1154?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期此類蓋罐，亦有單色釉青瓷器，型制與茶葉罐類似，不過比一般高十五公分左右的茶罐高出許多，此或為貯藏量較多的茶葉而製",
+    "descriptionSha256": "c9b08acc7fa8d90ded17e94bd73d9af78a786f4d6d78cffe5fdd05ccc2291ac6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1167": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1167?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "蓋碗仿雕漆燒製而成，或與雕漆茶壺成套，為乾隆帝愛用的茶器之一",
+    "descriptionSha256": "908598d89562976dcc0b2d4bc49a9e8812fe015e1debd05a9f83897c8dade543",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1169": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1169?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此套杯小巧精緻，由於胎地是紫砂胎泥，推測應該也是清宮用來飲茶的茶杯",
+    "descriptionSha256": "25ae73836d7e22b84ce1c202788e3e9b0314a90e710953dad559a94b8ed08a9a",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1170": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1170?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此套杯小巧精緻，由於胎地是紫砂胎泥，推測應該也是清宮用來飲茶的茶杯",
+    "descriptionSha256": "3e3f735c5762dcb3425a38b6e7bd37ebf423cb71d2f64d03121b3ac5d562eca7",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1171": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1171?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此套杯小巧精緻，由於胎地是紫砂胎泥，推測應該也是清宮用來飲茶的茶杯",
+    "descriptionSha256": "1a5236b9ccac310157e075de80988fac50bebdd12423d9e32a26970e89f833aa",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1172": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1172?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此套杯小巧精緻，由於胎地是紫砂胎泥，推測應該也是清宮用來飲茶的茶杯",
+    "descriptionSha256": "bba5ef58b4f393d92d462b783047264b3158490babedfc9123739e6d0d511cf8",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1173": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1173?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此套杯小巧精緻，由於胎地是紫砂胎泥，推測應該也是清宮用來飲茶的茶杯",
+    "descriptionSha256": "6e5cbcdb2c36130480165c403bb17203890fc6f4435c14ca300c91ad750f77ec",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1174": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1174?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此器在《琺瑯、玻璃、宜興、磁胎陳設檔案》內所載名為「瓷胎畫琺瑯白番團花紅地茶鍾 壹對」，與本院所藏的二件相同",
+    "descriptionSha256": "12f1e7f5f3788cef92c3f9f04da9c0d8e992e665354f636a326ebb61a89de9c3",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1180": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1180?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": " 清代前期康熙、雍正、乾隆三朝作為品茶用的茶碗或茶鍾，其口徑約在十至十一公分左右，有撇口、敞口及直口等",
+    "descriptionSha256": "416edd4d2cc21b280b1f58922d8382157e7eb0acbb2f189597b8f4eba0d2c0d7",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1183": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1183?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此茶碗在《琺瑯、玻璃、宜興、磁胎陳設檔案》內所載名為：「瓷胎畫琺瑯山水人物白地茶碗，壹對」，本院亦藏兩件，山水背景相似，然人物略異，皆為乾清宮端凝殿北小庫內所藏",
+    "descriptionSha256": "431addcc93b09443c7e512a5a841531c244ea60bc7fd73d18ce62ab31c2e985b",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1188": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1188?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類蓋罐，從康熙開始至道光皆見製作，有數種尺寸，是清宮用來裝各種茶葉的茶罐，舊名為「乾隆款豆綠茶罐」",
+    "descriptionSha256": "d372b51e458d94dbac0f0a75f81cd5ef29ac3ee1705020499a733fcb5dd0d568",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1206": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1206?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "茶罐紋飾象徵「萬福連連」吉祥寓意，「萬」字符號與「福」字，以及蓮花的諧音為「連」，而纏枝蓮又有「連綿不斷」之意",
+    "descriptionSha256": "dacaa303060d572ade823d6ecf8f4dc588d18727d3fb8a8f61a1b6839cec6361",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1207": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1207?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "相同紋飾釉彩慈禧太后大雅齋瓷器亦多量製作，有金魚缸、茶碗、蓋碗、碟盤等，圖樣名稱為「淺綠地藤羅花」",
+    "descriptionSha256": "82cb17173aed4e21964c58ea0d3bda1c1962d5da3b63a1073955359de2e59cc8",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1208": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1208?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "「長春同慶」款器為同治年間所製，此蓋碗作飲茶用，無托，紋飾皆為長壽吉祥花紋，可能為慈禧太后御用茶器",
+    "descriptionSha256": "827f40eb4098115da87842ea4af6c809111de9114cd5d2d0f4c5a41d23c0d9fa",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1212": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1212?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類帶把茶杯，或為西洋貢禮",
+    "descriptionSha256": "20f44a5396785771c483e04bb1d7761360b13d79144a0721cd27307d5503624d",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1472": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1472?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "北宋中葉後，講究飲茶藝術的文士們喜愛用黑色茶碗來襯托白色的茶湯，一時黑色茶碗的製作從福建建窯擴及南北各大窯場，且各具特色",
+    "descriptionSha256": "9a33ac221950769c4380b9369440c8101ba3894d071871c300dac4453ba6be95",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1499": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1499?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "傳世一件，道光十五年（1835）《琺瑯玻璃宜興磁胎陳設檔案》著錄為「磁胎畫琺瑯黃地芝仙祝壽茶鍾壹件」",
+    "descriptionSha256": "7bd96e73c61d61048433904ee3250cd9dc15fb0722df7803c34d2befabbf175e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-1551": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/1551?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "多穆壺為藏人拌、盛酥油茶的器皿，藏語稱為董莫（mdong-mo）或多穆",
+    "descriptionSha256": "eaaec3caedefe562e85f645aa0bc923e17a3d4129e77be51f1b9ef951ab7f005",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-19144": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/19144?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期常用為茶葉罐",
+    "descriptionSha256": "fa674c2a343faa11a797efdf448bc8d943c75cdb05c77f19648fac4b7b00a0e6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-19145": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/19145?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期常用為茶葉罐",
+    "descriptionSha256": "fa674c2a343faa11a797efdf448bc8d943c75cdb05c77f19648fac4b7b00a0e6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-19146": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/19146?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期常用為茶葉罐",
+    "descriptionSha256": "fa674c2a343faa11a797efdf448bc8d943c75cdb05c77f19648fac4b7b00a0e6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-20440": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/20440?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐頗多，可見雍正時期宮廷飲茶風氣之興盛",
+    "descriptionSha256": "4f76a4bf6350ee90066b1a605a93195ddf968cec77607efca32f29ef107921f9",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-20441": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/20441?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐頗多，可見雍正時期宮廷飲茶風氣之興盛",
+    "descriptionSha256": "33241f7f6050dd24397aa8f3702ceaa71e4556370bd9fd6fcb4f58a91092118c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-20442": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/20442?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐頗多，可見雍正時期宮廷飲茶風氣之興盛",
+    "descriptionSha256": "33241f7f6050dd24397aa8f3702ceaa71e4556370bd9fd6fcb4f58a91092118c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-20443": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/20443?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐頗多，可見雍正時期宮廷飲茶風氣之興盛",
+    "descriptionSha256": "33241f7f6050dd24397aa8f3702ceaa71e4556370bd9fd6fcb4f58a91092118c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-20444": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/20444?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐頗多，可見雍正時期宮廷飲茶風氣之興盛",
+    "descriptionSha256": "33241f7f6050dd24397aa8f3702ceaa71e4556370bd9fd6fcb4f58a91092118c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-20445": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/20445?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "雍正時期青釉或青花茶葉罐頗多，可見雍正時期宮廷飲茶風氣之興盛",
+    "descriptionSha256": "33241f7f6050dd24397aa8f3702ceaa71e4556370bd9fd6fcb4f58a91092118c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-21587": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/21587?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "茶圓外壁施胭脂紅釉，器內及足內施白釉，內壁白釉下印飾雙雲龍紋",
+    "descriptionSha256": "0a967d332c722b2ee39a7aaa631d90cd8b5ebd68a98d786c0c71cbbb60ad0096",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-21728": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/21728?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此壺雖無年款，但在乾隆二十八年(1762)景德鎮燒造入熱河的瓷器貢物中，便有一項「仿拉古里茶碗」的名目，足見此時已能燒造此壺類型的釉色",
+    "descriptionSha256": "46de7bf8fa64135f64e10387c006a3b221d46b0225350336512cf9d2643bdf94",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-21729": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/21729?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此壺雖無年款，但在乾隆二十八年(1763)景德鎮燒造入熱河的瓷器貢物中，便有一項「仿拉古里茶碗」的名目，足見此時已能燒造此壺類型的釉色",
+    "descriptionSha256": "f8a33639f6714213a435b5a59d8701927541f09e9e4c32228785481422a9f574",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-22664": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/22664?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "蓋罐，斂口，短頸，斜肩，圓腹，凹足，帶圓弧平頂蓋，全器作茶葉罐式",
+    "descriptionSha256": "dc97f6330b2cc6151fbd31f108e2889c94443b285afbd97bf2cefd6692170949",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-23169": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/23169?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "茶葉罐，直圓口，短頸，豐肩，圓腹下斂，圈足，帶拱形圓鈕蓋",
+    "descriptionSha256": "7376654d929a824b06c0c0001377fd345ac1a558b5ec16eb5939388f5e7978fc",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26154": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26154?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "典型撇口茶鍾造形，全器除足底外均施紅釉，釉色鮮紅，橘皮紋棕眼明顯，口足均露白邊一道，近底足處，白釉泛青",
+    "descriptionSha256": "14be08866677f39e8d065514ed0218473082fcaeb5d16c9afd43b7f005cc4f63",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26572": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26572?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此茶碗在《琺瑯、玻璃、宜興、磁胎陳設檔案》內所載名為：「瓷胎畫琺瑯山水人物白地茶碗，壹對」，本院亦藏兩件(另一件為故瓷17025)，皆為乾清宮端凝殿北小庫內所藏；此對小碗所繪之山水背景相似，然人物略異，畫樣、佈局不同",
+    "descriptionSha256": "994db76304180433a64ccd2cf10a28dc2dd69a0e0d13c338da35b80f4c596616",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26740": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26740?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "院藏此類茶鍾共十對",
+    "descriptionSha256": "ea4169cc75e5c377b3e3a5dd9b6b5ec503e4ca968b5fc820dedd75b8939381fc",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26741": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26741?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "院藏此類茶鍾共十對",
+    "descriptionSha256": "6ce5ed2cea8f46d58b93108686e7d0629bba24f3e853cba9171bc220fd7df5cb",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26742": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26742?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "院藏此類茶鍾共十對",
+    "descriptionSha256": "059a4f2d96e2e8cbf11b33651858174fee261889eeeebf800dbf3d9fd76cf6f6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26743": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26743?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "院藏此類茶鍾共十對",
+    "descriptionSha256": "059a4f2d96e2e8cbf11b33651858174fee261889eeeebf800dbf3d9fd76cf6f6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-26859": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/26859?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "盞托是用以盛放茶盞，以免茶盞燙手難以禮敬；托圈可固定盞的位置",
+    "descriptionSha256": "8f773f7db7f3a2aefaf873767d20a69da54fbac7d9f99fead2ebf045eb54749a",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-27197": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/27197?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "斗笠式廣口、小足、斜直壁的茶碗，口緣鑲金扣稜，底部於施釉後凹雕一周勒出足型，足與底略平，微凹入",
+    "descriptionSha256": "28df06bc24e4b2845c7628d0c362cdea936a06d15124fa5a68206971ae5585dd",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-27490": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/27490?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": " 此器在《琺瑯、玻璃、宜興、磁胎陳設檔案》所載名為「瓷胎畫琺瑯黃菊花白地茶鍾，壹對」，為雍正十年(1732)八月初八日傳旨燒造，九月初八日製成",
+    "descriptionSha256": "53917d91852865a899635377e9735de95c1c1958e4f50bbfd1678fecfaf7260e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-28089": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/28089?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此式盞樣與吉州窯葉文碗相近，應亦供茶碗之用",
+    "descriptionSha256": "8651e04b8a231b948801fa900e5c49c334afdfecb644bd1bbe99019d6196a48e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-28237": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/28237?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": " 這類蓋罐作何器用，明代文獻並無記載，至於清代則常見與其他茶器擺設一起，北京故宮博物院所藏描繪〈乾隆皇帝雪景行樂圖〉中，乾隆皇帝的侍僕們正在忙以雪水烹煎三清茶的茶器當中，即見著與本器類似的茶罐置於其中，顯示這類蓋內帶高圈沿的蓋罐，可與蓋身貼合，不易滑動，亦可密封免於受潮，或多作儲藏茶葉使用，與院藏故瓷005954相同，蓋內沿均有較深圈壁，多數的明清錫茶葉罐蓋亦復相同作法",
+    "descriptionSha256": "018f5cd04ed2401c0dc53357d80dd8d37029b58fdf63dbbec7df4f41fc9818d5",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-28676": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/28676?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "相同紋飾釉彩慈禧太后大雅齋瓷器亦多量製作，有金魚缸、茶碗、蓋碗、碟盤等，圖樣名稱為「淺綠地藤羅花」",
+    "descriptionSha256": "82cb17173aed4e21964c58ea0d3bda1c1962d5da3b63a1073955359de2e59cc8",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-29407": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/29407?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "明高濂《燕閒清賞箋》內〈論饒器新舊古窯〉中述及景德鎮窯：「宣德年造…青花如龍、松梅靶茶杯、人物、海獸酒靶杯、砂小壺…此等發古未有",
+    "descriptionSha256": "a8cbd2dbd8b6eefc62bdbed7489ca7c22efcab05bf31226937513470f26007fd",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-29984": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/29984?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此種盈握斗笠碗，為宋人茶盞",
+    "descriptionSha256": "be0fcbebfdac7abfca8f23780d162a69fbea3f8c4400ac333b950a5dd47b1175",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-3025": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/3025?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "這件僧帽壺應沿襲永樂、宣德僧帽壺造型而來，都是藏人盛放奶茶的禮佛用器，材質除瓷器外還有玉器、宜興紫砂、掐絲琺瑯等",
+    "descriptionSha256": "54c261d721c4a7a7612e472979f244e93e56a8e0afe8cea0f93b2be39eaa1a0d",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-3027": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/3027?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "全壺的造形正是《大清會典》所載用以賞賜的「茶筒」",
+    "descriptionSha256": "6be799d19257628072f0ae8466c60c04c9a56a492860026418b9cf83881a5da5",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-31412": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/31412?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "在「致如來大寶法王書及賞單」中，可以看到在永樂六年（1408）正月初一時，永樂皇帝曾致贈給大寶法王五件帶五龍紋，四件帶雙龍的白瓷茶鐘，並配有紅油斜皮骰手",
+    "descriptionSha256": "4822de1de053c861800b310469a61d75bcca2c3e55dbb89d9aa70d9cff08ed61",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-31413": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/31413?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "在「致如來大寶法王書及賞單」中，可以看到在永樂六年（1408）正月初一時，永樂皇帝曾致贈給大寶法王五件帶五龍紋，四件帶雙龍的白瓷茶鐘，並配有紅油斜皮骰手",
+    "descriptionSha256": "9457bcc0a08e074291ba316de936d4b01a19ca2bf62719c8ba9ba73b7cd1f603",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33037": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33037?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "斗笠式茶盞，寬侈口、小圈足、器壁自口至足成斜線，尖底，內心圓凹下",
+    "descriptionSha256": "9b14111fccac43b4e44f80c8a571e04e8204880a3e92088ab39d950348e1b3fc",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33072": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33072?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": " 茶鍾貼有清宮舊黃籤，上書「三等萬窯青花白地玲瓏銀裡茶鍾四件」作為茶鍾使用",
+    "descriptionSha256": "4a91fdb02589fbbf8090dc8e052edce3e69063b0215a275df3dec5981bc49068",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33203": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33203?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "f465b9f3d66eaa7c4c027dbec5822c182580e4b5403b0b82aea962208875e6ce",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33204": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33204?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "松石綠釉茶杯敞口，直弧壁，矮圈足",
+    "descriptionSha256": "19ead10e6e8214e4bf29d0a9e283289f9fe73f316e0228d9683fb8363f414c9e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33205": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33205?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33206": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33206?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33207": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33207?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "f465b9f3d66eaa7c4c027dbec5822c182580e4b5403b0b82aea962208875e6ce",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33208": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33208?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33209": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33209?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "松石綠釉茶杯敞口，直弧壁，矮圈足",
+    "descriptionSha256": "51f78838658d7d5646db02a4e0d1688781aa0abc2966ca543818dbec1ac3da4c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33210": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33210?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33211": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33211?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "f465b9f3d66eaa7c4c027dbec5822c182580e4b5403b0b82aea962208875e6ce",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33212": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33212?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33213": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33213?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33214": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33214?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33215": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33215?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33216": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33216?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33217": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33217?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33218": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33218?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33219": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33219?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33220": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33220?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33221": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33221?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33222": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33222?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33223": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33223?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33224": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33224?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33225": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33225?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33226": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33226?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "f465b9f3d66eaa7c4c027dbec5822c182580e4b5403b0b82aea962208875e6ce",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33227": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33227?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "f465b9f3d66eaa7c4c027dbec5822c182580e4b5403b0b82aea962208875e6ce",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33228": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33228?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33229": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33229?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "f465b9f3d66eaa7c4c027dbec5822c182580e4b5403b0b82aea962208875e6ce",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33230": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33230?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "松石綠釉茶杯敞口，直弧壁，矮圈足",
+    "descriptionSha256": "51f78838658d7d5646db02a4e0d1688781aa0abc2966ca543818dbec1ac3da4c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-33231": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/33231?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "此類尺寸為小號茶圓，亦稱茶盃，雍正《活計檔》記載宮廷燒製有大號與小號磁茶圓之分，口徑10公分者為大號茶圓",
+    "descriptionSha256": "1dfc4082d05965aa1ca211173b5e300568fb89ee675fac9e6facfa809bef9416",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-35770": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/35770?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "茶鍾呈八方形，斂直口，深壁，矮圈足",
+    "descriptionSha256": "5f4b01f95e8b6f3d5fe2ee74b8423fc9e4b180320eacd5b837ace55acb6c92db",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-37806": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/37806?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "萬曆五彩名聞東瀛，日人稱為「萬曆赤繪」，長久以來頗受茶界青睞",
+    "descriptionSha256": "a4f01df00f5b4157bdb0aa4f7b680e88a65e08963d9788228e9db26b61b4378c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-40063": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/40063?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "奶茶碗為景德鎮御窯廠以瓷仿拉古里木紋理製作而成",
+    "descriptionSha256": "d788aaf150e0ee5a611e67a40ed6bc60e02934de66c0ab236edaf98c72db44fe",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-41316": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/41316?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "這是一套清康熙帝的飲茶用器",
+    "descriptionSha256": "c9abe773f0960b83b375629309ab4fd2ac3e6a715b2d7f8ff0ca7882566d3210",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-41320": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/41320?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "清宮留存康熙時代的宜興胎琺瑯彩茶具傳世僅十九件，器形主要為茶壺和蓋碗，每件都以細筆作畫，悉數收藏於國立故宮博物院",
+    "descriptionSha256": "11c9bf39418459691624c5d17479667e25a671c7b0fd833407cc67012da90462",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-41321": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/41321?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "清宮留存康熙時代的宜興胎琺瑯彩茶具傳世僅十九件，器形主要為茶壺和蓋碗，每件都以細筆作畫，悉數收藏於國立故宮博物院",
+    "descriptionSha256": "11c9bf39418459691624c5d17479667e25a671c7b0fd833407cc67012da90462",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-54924": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/54924?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "多穆壺為藏人拌、盛酥油茶的器皿，藏語稱為董莫（mdong-mo）或多穆",
+    "descriptionSha256": "3dbf5695b4b0f5b513048fda9909d9ea077ab821ea9fbf9f878384a2e6c98e03",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-54925": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/54925?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "多穆壺為藏人拌、盛酥油茶的器皿，藏語稱為董莫（mdong-mo）或多穆",
+    "descriptionSha256": "3dbf5695b4b0f5b513048fda9909d9ea077ab821ea9fbf9f878384a2e6c98e03",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-54926": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/54926?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "多穆壺為藏人拌、盛酥油茶的器皿，藏語稱為董莫（mdong-mo）或多穆",
+    "descriptionSha256": "3dbf5695b4b0f5b513048fda9909d9ea077ab821ea9fbf9f878384a2e6c98e03",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-55": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/55?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "北宋中葉後，講究飲茶藝術的文士們喜愛用黑色茶碗來襯托白色的茶湯，一時黑色茶碗的製作從福建建窯擴及南北大窯場，且各具特色",
+    "descriptionSha256": "6acdfed9389ae7937f3d4c8875585a1bc28e0c3467bd5907ad8490e26f3ded9f",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-55004": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/55004?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "清宮仿藏式所製的銀質茶壺",
+    "descriptionSha256": "d07571535cf4d773a127b24df7f5641a6a9e759e053fb019c5455b36c929163a",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-61546": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/61546?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "作茶葉罐式造型，直口，短頸，豐肩，斂腹，圈足，帶平頂蓋",
+    "descriptionSha256": "75a57444aeb66a7d34b4fbd613dbf7920b8a957882c9316f38c934068352983b",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-62760": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/62760?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "自康熙年間每年初春藏地常進貢木碗賀年，宮廷中常用來飲奶茶，稱為「奶子碗」，雍正年間仍沿襲此習，《活計檔》記載，噶倫貝子康濟鼐進札布札牙木碗；達賴喇嘛進札固里木碗大小五個",
+    "descriptionSha256": "e5250001d3c9a596c6297944b0d4f784ca567837d7225aa89d7c377b3a0f16c9",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76823": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76823?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "鑄鐵茶釜圓直口，短頸，弧肩，圓直腹，底微內斂，帶双獸耳圈環及銅蓋",
+    "descriptionSha256": "788d4060c020510939c875bed157e0f99654d9f0304da7eb6397c450e3d6223e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76825": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76825?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "茶釜，筒身，雙獸耳圓環，帶鐵蓋，為點茶時燒水用的鐵釜",
+    "descriptionSha256": "84e66c9bf215f1b7a6941d424b1ce4d7cfcf1e7648b9c9eb2aa31dd42144a4d6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76863": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76863?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "本件為小型煎茶提籃茶器組之一，為野外喫茶時使用",
+    "descriptionSha256": "60f6942a0d0f78a62881fdb25a1f28e6848ec5395071f6a1c0fa357eafb809cf",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76864": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76864?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "本件為小型煎茶提籃茶器組之一，為野外喫茶時使用",
+    "descriptionSha256": "60f6942a0d0f78a62881fdb25a1f28e6848ec5395071f6a1c0fa357eafb809cf",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76865": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76865?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "本件為小型煎茶提籃茶器組之一，為野外喫茶時使用",
+    "descriptionSha256": "3fcde052176bf7b8b2b77a266b0be6ff9d547313de700fdb7add49af55d6910e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76866": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76866?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "本件為小型煎茶提籃茶器組之一，為野外喫茶時使用",
+    "descriptionSha256": "3fcde052176bf7b8b2b77a266b0be6ff9d547313de700fdb7add49af55d6910e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76867": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76867?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "本件為小型煎茶提籃茶器組之一，為野外喫茶時使用",
+    "descriptionSha256": "3fcde052176bf7b8b2b77a266b0be6ff9d547313de700fdb7add49af55d6910e",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76868": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76868?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "小型煎茶提籃茶器組二十四組件之一組，悉數收納竹編提籃內",
+    "descriptionSha256": "ac30a01c106f02b102be8d42950b12df2269db12ec3dd2abb3525d90d07c7363",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76869": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76869?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "小型煎茶提籃茶器組二十四組件之一組，悉數收納竹編提籃內",
+    "descriptionSha256": "8e5a677459b0c6f9492b7869692c2a1f1e0c31c1c124a48c13ea81483fe7f13d",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76870": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76870?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "小型煎茶提籃茶器組二十四組件之一組，悉數收納竹編提籃內",
+    "descriptionSha256": "9192afbd41877902da8fa385bc5e720656c95fc39530ddf206f1b0b929a49bd6",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76909": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76909?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "蒔繪茶箱 蒔繪桐菊流水茶棗 Lacquer box",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76938": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76938?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "茶釜，無頸，平肩上鑄獸形雙耳，器身為八瓣海棠形，近底處呈弧形內收，平底，平銅蓋，珠寶形鈕",
+    "descriptionSha256": "2a87117b5fb77fc6a76669d11894466824937c4e576e6d292382eceea1fadf16",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-76974": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/76974?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "鑄鐵茶釜直口，短頸，弧肩，腰部周圍環繞一圈出簷(日文稱「羽」)，便於放置風爐爐口",
+    "descriptionSha256": "1a301b5d3ed892e8d32229ce5d3b65af437f1c550194d639d8191975f58f8f33",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-77140": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/77140?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "白泥風爐，口沿三峰，爐身有一橫長形風口，風門上「從月／因風」刻銘，爐一側下方｢清｣字六角印銘，一側上方刻有竹葉淺紋。應是五代清水六兵衛所造。",
+    "descriptionSha256": "c2c6f7371438b908ecb1ac18634b0d59c799bfff4ab916c3d6514df48840ca2c",
+    "reviewedAt": "2026-10-04"
+  },
+  "npm-92": {
+    "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/92?dep=U",
+    "evidence": "Museum description or inventory name identifies this object as a tea vessel or tea utensil; original wording and uncertainty retained.",
+    "sourceQuote": "宋人嗜茶，臨安城內茶肆中賣茶所用茶具「止用瓷盞漆托供賣」，不用銀器（吳自牧，《夢梁錄》）",
+    "descriptionSha256": "be20293cca49b705b3165842b5bc67bc7e4cba695714a28c3ef7ae22e4140531",
+    "reviewedAt": "2026-10-04"
   }
 }

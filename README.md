@@ -2,9 +2,9 @@
 
 **East Asian Teaware Artistic Gallery** — Open-Access Museum Collection
 
-> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 3,000 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
+> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 4,000 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
 > 
-> Explore East Asian teaware and global cultural exchange through 3,000 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
+> Explore East Asian teaware and global cultural exchange through 4,000 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
 
 🌐 **Live: [philmingdao.github.io/teaware](https://philmingdao.github.io/teaware/)** · Open Access · Per-artwork licensing
 

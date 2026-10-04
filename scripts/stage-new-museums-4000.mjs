@@ -1,0 +1,38 @@
+import fs from 'node:fs/promises';import crypto from 'node:crypto';import sharp from 'sharp';
+import {classifyTeaware,normalizedSourceUrl} from './teaware-policy.mjs';import {physicalObjectKey} from './teaware-identity.mjs';
+const source=process.argv[2];if(!['nmk','nationalmuseum'].includes(source))throw Error('Unknown source');
+const root=`output/round30-${source}`,read=async p=>JSON.parse(await fs.readFile(p,'utf8')),hash=b=>crypto.createHash('sha256').update(b).digest('hex'),join=x=>Array.isArray(x)?x.join('; '):String(x||'');
+await fs.mkdir(root+'/originals',{recursive:true});await fs.mkdir(root+'/cache',{recursive:true});
+const active=await read('src/data/artworks.json'),blocked=[...active,...(await read('research/teaware-exclusions.json')).entries,...(await read('research/teaware-duplicate-aliases.json')).entries];
+const ids=new Set(blocked.map(x=>x.id)),urls=new Set(blocked.map(x=>normalizedSourceUrl(x.sourceUrl))),keys=new Set(active.map(physicalObjectKey).filter(Boolean)),hashes=new Set(Object.values((await read('src/data/collection-cutouts.json')).assets).map(x=>x.sourceSha256));
+const selected=[],imageRejections=[],downloads=await read(source==='nmk'?'output/round30/nmk-cloud/records.json':'output/round30/nationalmuseum/downloaded.json');
+for(const raw of downloads){if(raw.status!=='downloaded')continue;let id,artwork,file,sha,imageSource=raw.imageSource,page;
+if(source==='nmk'){
+ id='nmk-'+raw.id;const f=raw.fields,acc=f['소장품번호'];if(!acc||acc.startsWith('건판'))continue;
+ const native=[raw.title,f['다른명칭']].filter(Boolean).join('; '),countryEra=f['국적/시대']||'',mat=f['재질']||'';
+ const type=/차솥/.test(native)?['茶釜','Tea Kettle']:/다관|주전자|茶壺/.test(native)?['茶壶','Teapot']:/찻숟가락|茶匙/.test(native)?['茶匙','Tea Spoon']:/茶器|다기/.test(native)?['茶器','Tea Ware']:['茶碗','Tea Bowl'];
+ const material=/백자/.test(mat)?['瓷','Porcelain']:/청자/.test(mat)?['陶瓷','Celadon ceramic']:/청동/.test(mat)?['青铜','Bronze']:/철/.test(mat)?['铁','Iron']:/도자/.test(mat)?['陶瓷','Ceramic']:['未详',mat||'Unspecified'];
+ const dynasty=[['고려','高丽','Goryeo'],['조선','朝鲜','Joseon'],['에도','江户','Edo'],['모모야마','桃山','Momoyama'],['중국 - 원','元','Yuan'],['중국 - 송','宋','Song'],['중국 - 명','明','Ming'],['일제강점','日本殖民时期','Japanese colonial period'],['근대','近代','Modern period']].find(([k])=>countryEra.includes(k));
+ const country=countryEra.startsWith('중국')?'中国':countryEra.startsWith('일본')?'日本':countryEra.startsWith('한국')?'韩国':'馆方未详';
+ let han=(f['다른명칭']||raw.title).normalize('NFKC').split(',').find(x=>/^[\s\p{Script=Han}「」（）·]+$/u.test(x)&&x.trim().length>1)?.trim();
+ if(!han||/茶罐/.test(han)&&type[0]==='茶壶')han=(material[0]==='未详'?'':material[0])+type[0];
+ artwork={id,titleChinese:han,titleEnglish:(material[1]==='Unspecified'?'':material[1]+' ')+type[1],titleOriginal:native,dynasty:dynasty?.[1]||'未详',dynastyEnglish:dynasty?.[2]||'Unspecified',date:dynasty?.[1]||'年代未详',period:country,material:material[0],materialEnglish:material[1],objectType:type[0],objectTypeEnglish:type[1],dimensions:f['크기']||'',description:`${type[0]}。馆方原名：${raw.title}。${countryEra?'馆方国别与时代：'+countryEra+'。':''}${f['작가']?'馆方制作者：'+f['작가']+'。':''}${raw.description?'馆方说明：'+raw.description:''}`,sourceMuseum:'韩国国立中央博物馆',sourceMuseumEnglish:'National Museum of Korea',accessionNumber:acc,sourceUrl:raw.sourceUrl,imageUrl:`/artworks/${id}.jpg`,imageAlt:native,license:'KOGL Type 1 (attribution; commercial reuse and adaptation permitted)',creditLine:`National Museum of Korea. ${native}. ${acc}. KOGL Type 1 — https://www.kogl.or.kr/info/licenseType1.do . Background removed and cropped by Teaware.`,crawlBatchId:'reviewed-teaware-4000-2026-10-04'};
+ file=`output/round30/nmk-cloud/images/${raw.id}.jpg`;sha=raw.imageSha256;page=await fs.readFile(`output/round30/nmk-cloud/pages/${raw.id}.html`);if(hash(page)!==raw.pageSha256||!page.toString().includes('new_img_opencode1.jpg'))throw Error('NMK page or license changed');
+}else{
+ const f=raw.fields,native=join(f.titel),eng=join(f.titel_en),acc=join(f.inventarienummer);if(f.licens!=='Public Domain'||!acc||/^Lock till|potpour|eller flaska|schatull|leksak/i.test(native)||/Inger Persson/.test(join(f.konstnar)))continue;
+ id='nationalmuseum-'+hash(Buffer.from(acc)).slice(0,14);const type=/fat till|tefat/i.test(native)?['茶托','Tea Saucer']:/tekanna/i.test(native)?['茶壶','Teapot']:/tedosa|teburk/i.test(native)?['茶罐','Tea Caddy']:/tesil/i.test(native)?['茶滤','Tea Strainer']:['茶杯','Tea Cup'];
+ const sub=join(f.underkategori),material=/Keramik/i.test(sub)?'陶瓷':/Metall/i.test(sub)?'金属':'未详';
+ artwork={id,titleChinese:(material==='未详'?'':material)+type[0],titleEnglish:eng||type[1],titleOriginal:native,dynasty:'未详',dynastyEnglish:'Unspecified',date:'年代未详',period:'馆方未详',material,materialEnglish:sub||'Unspecified',objectType:type[0],objectTypeEnglish:type[1],dimensions:'',description:`${type[0]}。馆方原名：${native}。${join(f.konstnar)?'馆方制作者：'+join(f.konstnar)+'。':''}此媒体目录未列制作年代。`,sourceMuseum:'瑞典国家博物馆',sourceMuseumEnglish:'Nationalmuseum, Sweden',accessionNumber:acc,sourceUrl:`https://media.nationalmuseum.se/search/all/media/${raw.raw.id}`,imageUrl:`/artworks/${id}.jpg`,imageAlt:eng||native,license:'Public Domain (Nationalmuseum image-specific designation)',creditLine:`Nationalmuseum, Sweden. ${acc}. Public Domain. Background removed and cropped by Teaware.`,crawlBatchId:'reviewed-teaware-4000-2026-10-04'};
+ file=`output/round30/nationalmuseum/images/${raw.raw.id}.jpg`;sha=raw.sha256;
+}
+if(id==='nmk-225683'){Object.assign(artwork,{titleChinese:'茶罐',titleEnglish:'Tea Caddy',objectType:'茶罐',objectTypeEnglish:'Tea Caddy'});artwork.description=artwork.description.replace('茶壶。','茶罐。');}
+if(id==='nmk-174946')Object.assign(artwork,{titleEnglish:'Porcelain Tea Cup and Saucer',objectType:'茶杯',objectTypeEnglish:'Tea Cup'});
+const reject=reason=>imageRejections.push({id,reason,sourceUrl:artwork.sourceUrl});const key=physicalObjectKey(artwork);
+if(ids.has(id)||keys.has(key)||urls.has(normalizedSourceUrl(artwork.sourceUrl))){reject('duplicate-physical-object-or-view');continue;}
+if(classifyTeaware({...artwork,titleEnglish:artwork.titleOriginal}).decision!=='admit'){reject('native-tea-use-unverified');continue;}
+try{const b=await fs.readFile(file);if(hash(b)!==sha)throw Error('Source bytes changed');const info=await sharp(b).metadata();if(Math.max(info.width,info.height)<1200)throw Error('Native image below 1200');
+const normalized=await sharp(b).rotate().resize({width:1600,height:1600,fit:'inside',withoutEnlargement:true}).jpeg({quality:95,mozjpeg:true}).toBuffer(),sourceSha256=hash(normalized);if(hashes.has(sourceSha256)){reject('duplicate-source-image');continue;}
+const inputPath=root+'/originals/'+id+'.jpg';await fs.writeFile(inputPath,normalized);await fs.writeFile(root+'/cache/'+hash(Buffer.from(imageSource))+'.bin',b);if(page)await fs.writeFile(root+'/cache/'+hash(Buffer.from(artwork.sourceUrl))+'.html',page);
+selected.push({artwork,raw,imageSource,retrievedAt:new Date().toISOString(),rawMetadataSha256:hash(Buffer.from(JSON.stringify(raw))),inputPath,sourceSha256,rawSha256:hash(b),width:info.width,height:info.height});ids.add(id);keys.add(key);urls.add(normalizedSourceUrl(artwork.sourceUrl));hashes.add(sourceSha256);
+}catch(e){reject(String(e));}}
+await fs.writeFile(root+'/downloaded.json',JSON.stringify({selected,imageRejections},null,2));await fs.writeFile(root+'/metadata.json',JSON.stringify(selected.map(x=>x.artwork),null,2));await fs.writeFile(root+'/inputs.json',JSON.stringify(selected.map(x=>({id:x.artwork.id,inputPath:x.inputPath,sourceSha256:x.sourceSha256,title:x.artwork.titleChinese,museum:x.artwork.sourceMuseum,kind:'object'})),null,2));console.log({source,selected:selected.length,rejected:imageRejections.length});

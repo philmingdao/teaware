@@ -59,3 +59,13 @@ test('museum original names supply evidence but generated Chinese labels do not'
   assert.equal(classifyTeaware({titleEnglish:'Bowl',titleChinese:'茶碗',objectTypeEnglish:'Tea Bowl'}).decision,'review');
   assert.equal(classifyTeaware({titleEnglish:'Tea whisk motif',titleOriginal:'茶筅文様緞子',materialEnglish:'Silk'}).decision,'reject');
 });
+
+test('traditional Chinese museum names and Unicode native tea names establish tea use', () => {
+  for (const name of ['茶盞','茶盃','茶鍾','茶鐘','茶棗','茶葉罐','茶盌','茶器','teesiivilä','teekuppipari','Tesil','Teskje','Tekanne','Tesilssked','다완','찻잔','차솥']) {
+    assert.equal(classifyTeaware({titleOriginal:name,materialEnglish:'Ceramic'}).decision,'admit',name);
+  }
+  assert.equal(classifyTeaware({titleOriginal:'茶花瓶',materialEnglish:'Porcelain'}).decision,'review');
+  assert.equal(classifyTeaware({titleOriginal:'Vase',materialEnglish:'tea-dust glaze'}).decision,'reject');
+  assert.equal(classifyTeaware({titleOriginal:'茶器図譜',materialEnglish:'Paper'}).decision,'reject');
+  assert.equal(classifyTeaware({titleOriginal:'notteesiiviläshape',materialEnglish:'Silver'}).decision,'review');
+});
