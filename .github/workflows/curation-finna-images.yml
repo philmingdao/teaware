@@ -8,11 +8,11 @@ permissions:
 jobs:
   images:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2]
+        shard: [0]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,6 +21,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: finna-images-${{ matrix.shard }}
+          name: finna-historical-images
           path: source-probe
           retention-days: 1
