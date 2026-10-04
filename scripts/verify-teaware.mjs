@@ -2,6 +2,7 @@
 // the current importer. A contaminated catalogue cannot build or publish.
 import fs from 'node:fs/promises';
 import { classifyTeaware, normalizedSourceUrl } from './teaware-policy.mjs';
+import { physicalObjectKey, canonicalInstitution } from './teaware-identity.mjs';
 
 export async function verifyTeaware() {
   const catalogue = JSON.parse(await fs.readFile('src/data/artworks.json', 'utf8'));
@@ -13,10 +14,14 @@ export async function verifyTeaware() {
   const duplicateIds = new Set(aliases.entries.map(row => row.id));
   const blockedIds = new Set(exclusions.entries.map(row => row.id));
   const blockedUrls = new Set(exclusions.entries.map(row => normalizedSourceUrl(row.sourceUrl)));
-  const ids = new Set(), sources = new Set(), failures = [];
+  const ids = new Set(), sources = new Set(), physicalObjects = new Map(), failures = [];
   for (const item of catalogue) {
     if (ids.has(item.id)) failures.push(`${item.id}: duplicate ID`);
     ids.add(item.id);
+    const objectKey = physicalObjectKey(item);
+    if (canonicalInstitution(item) === 'rijksmuseum' && !objectKey) failures.push(`${item.id}: invalid Rijksmuseum object number`);
+    if (objectKey && physicalObjects.has(objectKey)) failures.push(`${item.id}: same physical object as ${physicalObjects.get(objectKey)} (${objectKey})`);
+    if (objectKey) physicalObjects.set(objectKey, item.id);
     const source = normalizedSourceUrl(item.sourceUrl);
     if (sources.has(source)) failures.push(`${item.id}: duplicate source object`);
     sources.add(source);

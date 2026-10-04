@@ -50,3 +50,7 @@ expand.log
 /output/collection-curation/
 /output/round28/
 scripts/__pycache__/
+
+/output/round29/
+
+/output/round29-*/

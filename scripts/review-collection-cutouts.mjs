@@ -6,7 +6,8 @@ import sharp from 'sharp';
 
 const root = process.argv.slice(2).find(value => !value.startsWith('--')) ?? 'output/collection-cutouts';
 const dark = process.argv.includes('--dark');
-const artworks = new Map(JSON.parse(await fs.readFile('src/data/artworks.json', 'utf8')).map(a => [a.id, a]));
+const cataloguePath = process.argv.find(value => value.startsWith('--catalogue='))?.slice('--catalogue='.length) || 'src/data/artworks.json';
+const artworks = new Map(JSON.parse(await fs.readFile(cataloguePath, 'utf8')).map(a => [a.id, a]));
 const records = JSON.parse(await fs.readFile(`${root}/results.json`, 'utf8')).filter(row => artworks.has(row.id));
 const review = `${root}/review`;
 await fs.mkdir(review, { recursive: true });

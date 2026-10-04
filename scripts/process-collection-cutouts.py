@@ -174,6 +174,7 @@ def export(image, alpha, bounds, path, size, margin, quality):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--inputs', type=Path, default=Path('output/collection-cutouts/inventory.json'))
+    parser.add_argument('--staged-pool', type=Path, help='Reviewed download pool; provisional processing only, not publication')
     parser.add_argument('--model', type=Path, required=True)
     parser.add_argument('--output', type=Path, default=Path('output/collection-cutouts'))
     parser.add_argument('--limit', type=int)
@@ -199,11 +200,14 @@ def main():
     node = shutil.which('node')
     if not node: parser.error('Node is required for tea-only admission verification')
     subprocess.run([node, 'scripts/verify-teaware.mjs'], check=True)
-    catalogue = {row['id']: row for row in json.loads(Path('src/data/artworks.json').read_text())}
-    for item in items:
-        artwork = catalogue.get(item['id'])
-        if not artwork or item.get('kind') != 'object' or item['inputPath'] != 'public' + artwork['imageUrl']:
-            parser.error('Only current tea-ware originals may be processed: ' + item['id'])
+    if args.staged_pool:
+        subprocess.run([node, 'scripts/verify-staged-teaware.mjs', str(args.staged_pool), str(args.inputs)], check=True)
+    else:
+        catalogue = {row['id']: row for row in json.loads(Path('src/data/artworks.json').read_text())}
+        for item in items:
+            artwork = catalogue.get(item['id'])
+            if not artwork or item.get('kind') != 'object' or item['inputPath'] != 'public' + artwork['imageUrl']:
+                parser.error('Only current tea-ware originals may be processed: ' + item['id'])
     repairs = json.loads(args.repairs.read_text()) if args.repairs else {}
     if args.backend == 'mps':
         model_sha = hashlib.sha256(''.join(digest(args.model / name) for name in ['model.safetensors', 'birefnet.py', 'BiRefNet_config.py', 'config.json']).encode()).hexdigest()

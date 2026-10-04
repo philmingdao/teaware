@@ -1,0 +1,506 @@
+{
+  "retrievedAt": "2026-10-04T06:49:39.835Z",
+  "previousTotal": 2000,
+  "finalTotal": 1974,
+  "repairs": [
+    {
+      "id": "rks-20090117",
+      "old": "1",
+      "accession": "AK-NM-6545-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090117",
+      "sourceSha256": "50e53a0c6c721a38f55e091bcb192e4ee72f7f21b9f705fdbfc7e8468da20956"
+    },
+    {
+      "id": "rks-20090119",
+      "old": "1",
+      "accession": "AK-NM-6549-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090119",
+      "sourceSha256": "a6e321ce8cf8f96877e5884e34bf8b960b253510f8ad21855e292b32ec0264ac"
+    },
+    {
+      "id": "rks-20083405",
+      "old": "1",
+      "accession": "AK-NM-6562-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20083405",
+      "sourceSha256": "188d323880dccd0acb2ec960379c0432b227ecfac9ee5ea27e6919983a05690a"
+    },
+    {
+      "id": "rks-20090127",
+      "old": "1",
+      "accession": "AK-RBK-14723-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090127",
+      "sourceSha256": "8cad21a2d7c4e972e69b1c17d95042a3d47733a56742ec8098da7e31be3d7603"
+    },
+    {
+      "id": "rks-20090180",
+      "old": "1",
+      "accession": "AK-RBK-15828-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090180",
+      "sourceSha256": "965cdeaeab9f938222e0f1b542651a1d99325562c8bb44eedff2e5ba049fd03c"
+    },
+    {
+      "id": "rks-20090191",
+      "old": "1",
+      "accession": "AK-NM-6573-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090191",
+      "sourceSha256": "351cbed2f434464a5e2b0cb087b990b6ac7f5bd29b1de1bf5c8a9a75a679c792"
+    },
+    {
+      "id": "rks-20090193",
+      "old": "1",
+      "accession": "AK-NM-6574-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090193",
+      "sourceSha256": "5c30db2500ffcc4296e2b8ccb64167e2310d2cd1d269c5e695633ab7c8abadda"
+    },
+    {
+      "id": "rks-20090195",
+      "old": "1",
+      "accession": "AK-NM-6561-A-1",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20090195",
+      "sourceSha256": "73e348772b2cb0b10459ff6eb64df9273cf2f74384bf2fb8f1bd5cbdc43e53d9"
+    },
+    {
+      "id": "rks-200413089",
+      "old": "2",
+      "accession": "BK-1999-86-B",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200413089",
+      "sourceSha256": "06894f9287f76daeffd1203afdfa4af636c7e83039a7c1c5e01ecbd5f518dd53"
+    },
+    {
+      "id": "rks-200480314",
+      "old": "1",
+      "accession": "BK-1979-25-A",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200480314",
+      "sourceSha256": "346410d1a255aa7e6b672f3eeb1fd7c8ffd419e437ea68ab5ddd3616ba2fb532"
+    },
+    {
+      "id": "rks-20023067",
+      "old": "2",
+      "accession": "BK-NM-5783-73-B",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20023067",
+      "sourceSha256": "8979e8c519af3323a75d3efaaa7b5a631ca145546d3a0ebda5f8f3810282a9ce"
+    },
+    {
+      "id": "rks-20032436",
+      "old": "1",
+      "accession": "BK-1972-81-A",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20032436",
+      "sourceSha256": "ec1204acc58eb561aa83c5b707e5baf901ff1f42e4e065d9acc14d0c569ea1ab"
+    },
+    {
+      "id": "rks-20032496",
+      "old": "2",
+      "accession": "BK-1968-44-B",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20032496",
+      "sourceSha256": "835f5329e155b7b01ae86389f1eabe3cba23bc9bc194ffa0542574ce33b5a247"
+    },
+    {
+      "id": "rks-200416209",
+      "old": "658",
+      "accession": "BK-14656-68",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200416209",
+      "sourceSha256": "105b9e5c3359638fa3c31b20d4ea5ef8bed75511c62cbcd04de11db5541ffcdd"
+    },
+    {
+      "id": "rks-200418006",
+      "old": "2",
+      "accession": "BK-1983-223-B",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200418006",
+      "sourceSha256": "495b90aefb300f304ecebadff4050f5e74bc494e9edfec64ac43d2a2f3001c5d"
+    },
+    {
+      "id": "rks-200416109",
+      "old": "4",
+      "accession": "BK-1977-240-D",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200416109",
+      "sourceSha256": "e3a0bd134676bbd658c6779e0dfe8bea791b5e63b74c4217020ba7480609418a"
+    },
+    {
+      "id": "rks-20052853",
+      "old": "5",
+      "accession": "NG-1991-8-5",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20052853",
+      "sourceSha256": "89c2411e92cbcd003050c1e42c7b15fb1a17299b9bca4f5b1695efa938e08d09"
+    },
+    {
+      "id": "rks-20052860",
+      "old": "8",
+      "accession": "NG-1991-8-8",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20052860",
+      "sourceSha256": "3a880354972dc469a3199f01501c38d7b050e021742d046525800794871b9215"
+    },
+    {
+      "id": "rks-20052861",
+      "old": "9",
+      "accession": "NG-1991-8-9",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20052861",
+      "sourceSha256": "56da42181aea6829f1b7a2fb8e4592218aedebdc2d5494365d25c6cd828bd6de"
+    },
+    {
+      "id": "rks-20052863",
+      "old": "10",
+      "accession": "NG-1991-8-10",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20052863",
+      "sourceSha256": "cb15bfec330dfd2537575f55ec80e09d26f29f1c677a0f035fa0e47df7cbe157"
+    },
+    {
+      "id": "rks-20066175",
+      "old": "2",
+      "accession": "BK-1981-22-2",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066175",
+      "sourceSha256": "3a587eab83ff8b02cb807bb37c0eb365fb7435d4ed138ea2be54550d2cdfded4"
+    },
+    {
+      "id": "rks-20066178",
+      "old": "6",
+      "accession": "BK-1981-22-6",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066178",
+      "sourceSha256": "e8d7a58f251df898b585537de0bb602dc75bda2cb7055f59d0680dacebec8dd5"
+    },
+    {
+      "id": "rks-20066179",
+      "old": "7",
+      "accession": "BK-1981-22-7",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066179",
+      "sourceSha256": "26e7072228a94c8d22c9d8f60421c7e038fdcd364922f068149be30d1c8a6bf1"
+    },
+    {
+      "id": "rks-20066184",
+      "old": "12",
+      "accession": "BK-1981-22-12",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066184",
+      "sourceSha256": "945c95eaef5a9b2ed31a56dd15500244794b25ff079c94ecf8fb28257a0bd8a2"
+    },
+    {
+      "id": "rks-20066185",
+      "old": "13",
+      "accession": "BK-1981-22-13",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066185",
+      "sourceSha256": "4bc1eed6e3b1ec8b2550b4f3f5557347b19f44aa1390b54cf6f50325c8468c3c"
+    },
+    {
+      "id": "rks-20066186",
+      "old": "14",
+      "accession": "BK-1981-22-14",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066186",
+      "sourceSha256": "8d4e54a2bc28a1e1a102865eaab307435e3864965cfa3f2b3ef3b71edad3d89c"
+    },
+    {
+      "id": "rks-20066187",
+      "old": "15",
+      "accession": "BK-1981-22-15",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066187",
+      "sourceSha256": "c0461bb834fc37a4a55102b7abbcce4222f37fb2f48cc6d5596892eedb8e33ff"
+    },
+    {
+      "id": "rks-20066188",
+      "old": "16",
+      "accession": "BK-1981-22-16",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066188",
+      "sourceSha256": "26173592860d039dd9188d1552892aeb2154a69de703c9bf832180bb4c13eb58"
+    },
+    {
+      "id": "rks-20066190",
+      "old": "18",
+      "accession": "BK-1981-22-18",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066190",
+      "sourceSha256": "5836f0f7d819654e1891d5fe0c42f3eee163d63d6541afdab8eab77c6aef8314"
+    },
+    {
+      "id": "rks-20066191",
+      "old": "19",
+      "accession": "BK-1981-22-19",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066191",
+      "sourceSha256": "a39fdf00dda52e6b145cbccb81878323a61c1b5f2bb5ea6dc7f416a19bbc19ee"
+    },
+    {
+      "id": "rks-20066192",
+      "old": "20",
+      "accession": "BK-1981-22-20",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066192",
+      "sourceSha256": "6fd67113a0a5260daf6b224aebfdc1830270074802d8ac08810d2e04207d82f5"
+    },
+    {
+      "id": "rks-20066193",
+      "old": "21",
+      "accession": "BK-1981-22-21",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066193",
+      "sourceSha256": "a83bbf5240ce5324549f009885b8e33ac9f053708f6b57dd1ff2ea66772a6b4c"
+    },
+    {
+      "id": "rks-20066194",
+      "old": "22",
+      "accession": "BK-1981-22-22",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066194",
+      "sourceSha256": "7115d75d5c4561098f33080c60cb8bf95b836a562ef3c54a0e3addd00653fa18"
+    },
+    {
+      "id": "rks-20066195",
+      "old": "23",
+      "accession": "BK-1981-22-23",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066195",
+      "sourceSha256": "c730771502d28dad0b36feee2d22251744363eabe9b5f990948a899d1bfec461"
+    },
+    {
+      "id": "rks-20066196",
+      "old": "24",
+      "accession": "BK-1981-22-24",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066196",
+      "sourceSha256": "b3bfcbbc70ff077ec51c875265c98c3285a6167a37f59a40519a1b8834d14ff1"
+    },
+    {
+      "id": "rks-20066197",
+      "old": "25",
+      "accession": "BK-1981-22-25",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066197",
+      "sourceSha256": "23b52054b5b621cb3a376883896b32fdaa7b1addf1a90bd6dded183d4556a4e1"
+    },
+    {
+      "id": "rks-20066199",
+      "old": "27",
+      "accession": "BK-1981-22-27",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20066199",
+      "sourceSha256": "a6bc3acb409b9e1ad116b9523fa865501d96fa793214c88c2810cccf2b0eedd3"
+    },
+    {
+      "id": "rks-20067667",
+      "old": "6",
+      "accession": "BK-1977-240-F",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20067667",
+      "sourceSha256": "157960dc314198f144682c9c164c1d435469daee8df62ce49ab2195019a1c58b"
+    },
+    {
+      "id": "rks-200908693",
+      "old": "5",
+      "accession": "BK-2025-35-33-5",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200908693",
+      "sourceSha256": "5480dbea76c5e567fac13a084d93e82d885a6dca7d4c45d9619bc0109d0f75c3"
+    },
+    {
+      "id": "rks-20067560",
+      "old": "4",
+      "accession": "BK-1983-77-D",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20067560",
+      "sourceSha256": "2dc1fe623f4da7b862e3e8a851a4c24c7a04e2a6521d902f121e520c34b316d5"
+    },
+    {
+      "id": "rks-20067561",
+      "old": "5",
+      "accession": "BK-1983-77-E",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20067561",
+      "sourceSha256": "09981d7d0209b823fe0a1857a02c6e64998453e4ae5282236d1240d99aba3dfe"
+    },
+    {
+      "id": "rks-20067563",
+      "old": "7",
+      "accession": "BK-1983-77-G",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20067563",
+      "sourceSha256": "ddce0499e9b9871238b0d94875b9f23b84488cade84655769d107cc2838cf10c"
+    }
+  ],
+  "mergedAliases": [
+    {
+      "id": "wiki-83525563",
+      "canonicalId": "rks-20025015",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_Theepot_van_rood_steengoed_met_gouden_montuur,_AK-NM-13267.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-NM-13267",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20025015",
+      "sourceSha256": "da63ed9c62193b13284e02d29cb79bb50d7cc9ecb74a1d070a78f28ad75f38db"
+    },
+    {
+      "id": "wiki-83184796",
+      "canonicalId": "rks-20023598",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theekom_met_een_%27hazenvel%27_glazuur,_AK-MAK-105.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-MAK-105",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20023598",
+      "sourceSha256": "5c87edbf2ff36fc8375700dbace8deb32aa030595b60a3d907677973845d76cb"
+    },
+    {
+      "id": "wiki-83184804",
+      "canonicalId": "rks-20023626",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theekom_met_een_%27hazenvel%27_glazuur,_AK-MAK-106.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-MAK-106",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20023626",
+      "sourceSha256": "c3618518c7ab4b71e905e2f8772a2200e83a5502e22c1156cb8a6e51863086eb"
+    },
+    {
+      "id": "wiki-83208499",
+      "canonicalId": "rks-20023625",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theekom_met_een_%27hazenvel%27_glazuur,_AK-MAK-541.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-MAK-541",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20023625",
+      "sourceSha256": "8322f62d93c28b371560305129b68252cd79f550675c69c4f869f96a0efeba7c"
+    },
+    {
+      "id": "wiki-83208562",
+      "canonicalId": "rks-20023627",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theekom_met_een_%27hazenvel%27_glazuur,_AK-MAK-544.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-MAK-544",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20023627",
+      "sourceSha256": "82a68de66d4555116f4276e0964949953eaf638027f7d8ebead40114d1a8b7bc"
+    },
+    {
+      "id": "wiki-83211352",
+      "canonicalId": "rks-200106526",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_van_rood_steengoed,_AK-MAK-633.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-MAK-633",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200106526",
+      "sourceSha256": "b63e1dc6ac73f9a9a3d9d7b7bf34d47f5b6f0cd24ecf4ae7fa37390f066cf6f7"
+    },
+    {
+      "id": "wiki-83230462",
+      "canonicalId": "rks-20062129",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_met_parel_najagende_draken,_kraanvogels_en_herten,_AK-MAK-1481.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-MAK-1481",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20062129",
+      "sourceSha256": "9ce5710952ad5c131c865f1962dc9b9a56d9da4cba6531b26fbb1099dc42c79c"
+    },
+    {
+      "id": "wiki-83525572",
+      "canonicalId": "rks-200107348",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_van_rood_steengoed_met_gouden_randen,_AK-NM-12405.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-NM-12405",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200107348",
+      "sourceSha256": "00c473475eb5ed539ce4e8e786d845e028a33558ce445cc5757ebacd823005b6"
+    },
+    {
+      "id": "wiki-83525622",
+      "canonicalId": "rks-200107350",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_met_druivenranken_en_eekhoorns,_AK-NM-6574.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-NM-6574",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200107350",
+      "sourceSha256": "ef1131309b691a1128957be4d85db99116b171297487378cda38c918d1ed919d"
+    },
+    {
+      "id": "wiki-83525632",
+      "canonicalId": "rks-200107351",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeshoekige_theepot_met_een_persoon_op_een_drakenkop_tussen_golven,_AK-NM-6573.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-NM-6573",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200107351",
+      "sourceSha256": "090871263c2f3c54a5e361f1629c423b8e71e0e0161d410f6eb8d1b2c2a35773"
+    },
+    {
+      "id": "wiki-83525644",
+      "canonicalId": "rks-200107352",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_met_prunustakken,_vogels_en_een_vlinder,_AK-NM-6568-A.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-NM-6568-A",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200107352",
+      "sourceSha256": "7dcb21c631b28f9a59f418beffa28d58ee32f8fd4a25e2c6d3a886361ef0b906"
+    },
+    {
+      "id": "wiki-83525661",
+      "canonicalId": "rks-20025018",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theepot_met_een_vergulde_montuur_Theepot_met_een_jongen_tussen_bloemranken,_AK-RBK-1963-50.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-RBK-1963-50",
+      "evidenceUrl": "https://id.rijksmuseum.nl/20025018",
+      "sourceSha256": "77444985a8a0c5737261b2d31242b00f5ee05dcb9319c09daf167345e7bf70f2"
+    },
+    {
+      "id": "wiki-83525677",
+      "canonicalId": "rks-200107354",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vierkante_theepot_met_shishi_in_reli%C3%ABf,_AK-NM-6561-A.jpg",
+      "reason": "same-museum-object-number-official-record-and-visual-pair-confirmed",
+      "institution": "Rijksmuseum",
+      "accessionNumber": "AK-NM-6561-A",
+      "evidenceUrl": "https://id.rijksmuseum.nl/200107354",
+      "sourceSha256": "caee1e52e2219ceea42db7d8af56b9bf9565563bb02fba2640369f50ed09385b"
+    }
+  ],
+  "visualReview": "output/round29/baseline-pairs.png; all13pairs depict matching physical objects; output/round29/multipart-0.png through multipart-2.png",
+  "multipartPolicy": "Full accession suffixes retained; no suffix stripping or shared-photo merging",
+  "manifest": {
+    "total": 1974,
+    "uniqueAssets": 1966,
+    "bytes": 132806428
+  },
+  "assemblyAliases": [
+    {
+      "childId": "rks-20090117",
+      "parentId": "rks-200107362",
+      "childAccession": "AK-NM-6545-1",
+      "childTitle": "Teapot with a horsemen in a landscape",
+      "parentTitle": "Teapot with a horsemen in a landscape",
+      "parentAccession": "AK-NM-6545"
+    },
+    {
+      "childId": "rks-20090119",
+      "parentId": "rks-200107363",
+      "childAccession": "AK-NM-6549-1",
+      "childTitle": "Teapot with flower sprays",
+      "parentTitle": "Teapot with flower sprays",
+      "parentAccession": "AK-NM-6549"
+    },
+    {
+      "childId": "rks-20090127",
+      "parentId": "rks-200107227",
+      "childAccession": "AK-RBK-14723-1",
+      "childTitle": "Teapot with powder blue and pearl chasing dragons in gold",
+      "parentTitle": "Teapot with powder blue and pearl chasing dragons in gold",
+      "parentAccession": "AK-RBK-14723"
+    },
+    {
+      "childId": "rks-20090180",
+      "parentId": "rks-200107050",
+      "childAccession": "AK-RBK-15828-1",
+      "childTitle": "Teapot with light brown, flowering plants and antiquities",
+      "parentTitle": "Teapot with light brown, flowering plants and antiquities",
+      "parentAccession": "AK-RBK-15828"
+    },
+    {
+      "childId": "rks-20090191",
+      "parentId": "rks-200107351",
+      "childAccession": "AK-NM-6573-1",
+      "childTitle": "Teapot with a Standing Figure Amidst Waves",
+      "parentTitle": "Hexagonal tea pot with a figure on a dragon's head amid waves",
+      "parentAccession": "AK-NM-6573"
+    },
+    {
+      "childId": "rks-20090193",
+      "parentId": "rks-200107350",
+      "childAccession": "AK-NM-6574-1",
+      "childTitle": "Teapot in the Shape of a Melon",
+      "parentTitle": "Teapot with grapevines and squirrels",
+      "parentAccession": "AK-NM-6574"
+    },
+    {
+      "childId": "rks-20090195",
+      "parentId": "rks-200107354",
+      "childAccession": "AK-NM-6561-A-1",
+      "childTitle": "Teapot with a Decoration of Lions",
+      "parentTitle": "Square teapot with shishi in relief",
+      "parentAccession": "AK-NM-6561-A"
+    }
+  ],
+  "archivedAggregateGroups": [
+    "rks-200413087",
+    "rks-200113544",
+    "rks-200418003",
+    "rks-200411446",
+    "rks-200413943",
+    "rks-200416130"
+  ]
+}

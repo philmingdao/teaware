@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "record": {
+        "id": "rks-200413087",
+        "titleChinese": "银、木茶壶",
+        "titleEnglish": "Theeservies, bestaande uit theepot, melkkan en suikerpot",
+        "dynasty": "欧洲",
+        "dynastyEnglish": "Europe",
+        "period": "Amsterdam; Amsterdam",
+        "date": "1833",
+        "material": "银、木",
+        "materialEnglish": "ebony (wood), silver (metal)",
+        "objectType": "茶壶",
+        "objectTypeEnglish": "Teapot",
+        "dimensions": "",
+        "description": "Theeservies, bestaande uit theepot, melkkan en suikerpot。馆方年代：1833。产地／文化：Amsterdam; Amsterdam。材质：ebony (wood), silver (metal)。现藏于荷兰国立博物馆。",
+        "sourceMuseum": "荷兰国立博物馆",
+        "sourceMuseumEnglish": "Rijksmuseum",
+        "accessionNumber": "BK-1999-86",
+        "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1999-86--428f7ff3c4d3e61fa6536e990b967105",
+        "imageUrl": "/artworks/rks-200413087.jpg",
+        "imageAlt": "Theeservies, bestaande uit theepot, melkkan en suikerpot",
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "",
+        "crawlBatchId": "reviewed-teaware-2026-10-03"
+      },
+      "memberIds": [
+        "rks-200413089"
+      ],
+      "reason": "aggregate-service-overview-overlaps-independently-registered-vessels",
+      "evidence": [
+        {
+          "id": "rks-200413089",
+          "accessionNumber": "BK-1999-86-B",
+          "partOfEvidence": "https://id.rijksmuseum.nl/200413089"
+        }
+      ]
+    },
+    {
+      "record": {
+        "id": "rks-200113544",
+        "titleChinese": "东亚银器茶壶",
+        "titleEnglish": "Theeservies bestaande uit een warmwaterkan, theepot, suikerpot, melkkan en presenteerblad",
+        "dynasty": "东亚",
+        "dynastyEnglish": "East Asia",
+        "period": "Germany",
+        "date": "c. 1905",
+        "material": "银器",
+        "materialEnglish": "silver (metal)",
+        "objectType": "茶壶",
+        "objectTypeEnglish": "tea service",
+        "dimensions": "",
+        "description": "此件茶壶为东亚时期之作品。年代：c. 1905。现藏于荷兰国立博物馆。",
+        "sourceMuseum": "荷兰国立博物馆",
+        "sourceMuseumEnglish": "Rijksmuseum",
+        "accessionNumber": "BK-1968-44",
+        "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1968-44--f6476971f8809e96451d22545419b122",
+        "imageUrl": "/artworks/rks-200113544.jpg",
+        "imageAlt": "Theeservies bestaande uit een warmwaterkan, theepot, suikerpot, melkkan en presenteerblad - c. 1905",
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "crawlBatchId": "round23-expansion-1790614162539"
+      },
+      "memberIds": [
+        "rks-20032496"
+      ],
+      "reason": "aggregate-service-overview-overlaps-independently-registered-vessels",
+      "evidence": [
+        {
+          "id": "rks-20032496",
+          "accessionNumber": "BK-1968-44-B",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20032496"
+        }
+      ]
+    },
+    {
+      "record": {
+        "id": "rks-200418003",
+        "titleChinese": "茶具组合",
+        "titleEnglish": "Koffie- en theeservies, zestien delen, wit, met blauwe biezen en peervormige dekselknoppen",
+        "dynasty": "未详",
+        "dynastyEnglish": "Unspecified",
+        "period": "Maastricht",
+        "date": "c. 1860 - c. 1890",
+        "material": "未核实",
+        "materialEnglish": "creamware",
+        "objectType": "茶具组合",
+        "objectTypeEnglish": "Tea Service",
+        "dimensions": "",
+        "description": "Koffie- en theeservies, zestien delen, wit, met blauwe biezen en peervormige dekselknoppen。馆方年代：c. 1860 - c. 1890。产地／文化：Maastricht。材质：creamware。现藏于荷兰国立博物馆。",
+        "sourceMuseum": "荷兰国立博物馆",
+        "sourceMuseumEnglish": "Rijksmuseum",
+        "accessionNumber": "BK-1983-223",
+        "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1983-223--77cba1e6404670cb5ae76b350956ab52",
+        "imageUrl": "/artworks/rks-200418003.jpg",
+        "imageAlt": "Koffie- en theeservies, zestien delen, wit, met blauwe biezen en peervormige dekselknoppen",
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "",
+        "crawlBatchId": "reviewed-teaware-2026-10-03"
+      },
+      "memberIds": [
+        "rks-200418006"
+      ],
+      "reason": "aggregate-service-overview-overlaps-independently-registered-vessels",
+      "evidence": [
+        {
+          "id": "rks-200418006",
+          "accessionNumber": "BK-1983-223-B",
+          "partOfEvidence": "https://id.rijksmuseum.nl/200418006"
+        }
+      ]
+    },
+    {
+      "record": {
+        "id": "rks-200411446",
+        "titleChinese": "炻器茶具组合",
+        "titleEnglish": "Theeservies van chromolith steengoed, versierd in blauw en geelbruin",
+        "dynasty": "未详",
+        "dynastyEnglish": "Unspecified",
+        "period": "",
+        "date": "c. 1911 - c. 1912",
+        "material": "炻器",
+        "materialEnglish": "stoneware",
+        "objectType": "茶具组合",
+        "objectTypeEnglish": "Tea Service",
+        "dimensions": "",
+        "description": "Theeservies van chromolith steengoed, versierd in blauw en geelbruin。馆方年代：c. 1911 - c. 1912。材质：stoneware。现藏于荷兰国立博物馆。",
+        "sourceMuseum": "荷兰国立博物馆",
+        "sourceMuseumEnglish": "Rijksmuseum",
+        "accessionNumber": "BK-1977-240",
+        "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1977-240--7c53abac19c1a5cece44ebd50ece9c06",
+        "imageUrl": "/artworks/rks-200411446.jpg",
+        "imageAlt": "Theeservies van chromolith steengoed, versierd in blauw en geelbruin",
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "",
+        "crawlBatchId": "reviewed-teaware-2026-10-03"
+      },
+      "memberIds": [
+        "rks-200416109",
+        "rks-20067667"
+      ],
+      "reason": "aggregate-service-overview-overlaps-independently-registered-vessels",
+      "evidence": [
+        {
+          "id": "rks-200416109",
+          "accessionNumber": "BK-1977-240-D",
+          "partOfEvidence": "https://id.rijksmuseum.nl/200416109"
+        },
+        {
+          "id": "rks-20067667",
+          "accessionNumber": "BK-1977-240-F",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20067667"
+        }
+      ]
+    },
+    {
+      "record": {
+        "id": "rks-200413943",
+        "titleChinese": "东亚陶器茶壶",
+        "titleEnglish": "Theeservies bestaande uit theepot, melkkan, suikerpot en twaalf koppen en schotels",
+        "dynasty": "东亚",
+        "dynastyEnglish": "East Asia",
+        "period": "Maastricht",
+        "date": "1934",
+        "material": "陶器",
+        "materialEnglish": "earthenware",
+        "objectType": "茶壶",
+        "objectTypeEnglish": "tea service",
+        "dimensions": "",
+        "description": "此件茶壶为东亚时期之作品。年代：1934。现藏于荷兰国立博物馆。",
+        "sourceMuseum": "荷兰国立博物馆",
+        "sourceMuseumEnglish": "Rijksmuseum",
+        "accessionNumber": "BK-1981-22",
+        "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1981-22--c9c000d3d0349b9dfa1a40a721882b61",
+        "imageUrl": "/artworks/rks-200413943.jpg",
+        "imageAlt": "Theeservies bestaande uit theepot, melkkan, suikerpot en twaalf koppen en schotels - 1934",
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "crawlBatchId": "round24-expansion-1790647522443"
+      },
+      "memberIds": [
+        "rks-20066175",
+        "rks-20066178",
+        "rks-20066179",
+        "rks-20066184",
+        "rks-20066185",
+        "rks-20066186",
+        "rks-20066187",
+        "rks-20066188",
+        "rks-20066190",
+        "rks-20066191",
+        "rks-20066192",
+        "rks-20066193",
+        "rks-20066194",
+        "rks-20066195",
+        "rks-20066196",
+        "rks-20066197",
+        "rks-20066199"
+      ],
+      "reason": "aggregate-service-overview-overlaps-independently-registered-vessels",
+      "evidence": [
+        {
+          "id": "rks-20066175",
+          "accessionNumber": "BK-1981-22-2",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066175"
+        },
+        {
+          "id": "rks-20066178",
+          "accessionNumber": "BK-1981-22-6",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066178"
+        },
+        {
+          "id": "rks-20066179",
+          "accessionNumber": "BK-1981-22-7",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066179"
+        },
+        {
+          "id": "rks-20066184",
+          "accessionNumber": "BK-1981-22-12",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066184"
+        },
+        {
+          "id": "rks-20066185",
+          "accessionNumber": "BK-1981-22-13",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066185"
+        },
+        {
+          "id": "rks-20066186",
+          "accessionNumber": "BK-1981-22-14",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066186"
+        },
+        {
+          "id": "rks-20066187",
+          "accessionNumber": "BK-1981-22-15",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066187"
+        },
+        {
+          "id": "rks-20066188",
+          "accessionNumber": "BK-1981-22-16",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066188"
+        },
+        {
+          "id": "rks-20066190",
+          "accessionNumber": "BK-1981-22-18",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066190"
+        },
+        {
+          "id": "rks-20066191",
+          "accessionNumber": "BK-1981-22-19",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066191"
+        },
+        {
+          "id": "rks-20066192",
+          "accessionNumber": "BK-1981-22-20",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066192"
+        },
+        {
+          "id": "rks-20066193",
+          "accessionNumber": "BK-1981-22-21",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066193"
+        },
+        {
+          "id": "rks-20066194",
+          "accessionNumber": "BK-1981-22-22",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066194"
+        },
+        {
+          "id": "rks-20066195",
+          "accessionNumber": "BK-1981-22-23",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066195"
+        },
+        {
+          "id": "rks-20066196",
+          "accessionNumber": "BK-1981-22-24",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066196"
+        },
+        {
+          "id": "rks-20066197",
+          "accessionNumber": "BK-1981-22-25",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066197"
+        },
+        {
+          "id": "rks-20066199",
+          "accessionNumber": "BK-1981-22-27",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20066199"
+        }
+      ]
+    },
+    {
+      "record": {
+        "id": "rks-200416130",
+        "titleChinese": "陶茶具组合",
+        "titleEnglish": "Theeservies met een veelkleurig bloemendecor",
+        "dynasty": "欧洲",
+        "dynastyEnglish": "Europe",
+        "period": "England",
+        "date": "c. 1930 - c. 1940",
+        "material": "陶",
+        "materialEnglish": "uranium oxide, earthenware",
+        "objectType": "茶具组合",
+        "objectTypeEnglish": "Tea Service",
+        "dimensions": "",
+        "description": "Theeservies met een veelkleurig bloemendecor。馆方年代：c. 1930 - c. 1940。产地／文化：England。材质：uranium oxide, earthenware。现藏于荷兰国立博物馆。",
+        "sourceMuseum": "荷兰国立博物馆",
+        "sourceMuseumEnglish": "Rijksmuseum",
+        "accessionNumber": "BK-1983-77",
+        "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1983-77--0be655cda5e9d8c9ca6a9d13a983e278",
+        "imageUrl": "/artworks/rks-200416130.jpg",
+        "imageAlt": "Theeservies met een veelkleurig bloemendecor",
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "",
+        "crawlBatchId": "reviewed-teaware-2026-10-03"
+      },
+      "memberIds": [
+        "rks-20067560",
+        "rks-20067561",
+        "rks-20067563"
+      ],
+      "reason": "aggregate-service-overview-overlaps-independently-registered-vessels",
+      "evidence": [
+        {
+          "id": "rks-20067560",
+          "accessionNumber": "BK-1983-77-D",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20067560"
+        },
+        {
+          "id": "rks-20067561",
+          "accessionNumber": "BK-1983-77-E",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20067561"
+        },
+        {
+          "id": "rks-20067563",
+          "accessionNumber": "BK-1983-77-G",
+          "partOfEvidence": "https://id.rijksmuseum.nl/20067563"
+        }
+      ]
+    }
+  ]
+}

@@ -100335,6 +100335,190 @@
       "sourceSha256": "35557de8a3206107c462debda2bad36b71184c73e30500deb946d714b833194b",
       "reason": "partial-detail-photograph",
       "evidence": "Visual review: unsuitable primary collection image. Antique Regency rosewood dual compartment tea caddy-2 | Ceramics | Antique Regency rosewood dual compartment tea caddy-2.jpg"
+    },
+    {
+      "id": "rks-200413087",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1999-86--428f7ff3c4d3e61fa6536e990b967105",
+      "titleEnglish": "Theeservies, bestaande uit theepot, melkkan en suikerpot",
+      "reason": "aggregate-service-overview-overlaps-independent-members",
+      "evidence": "rks-200413089"
+    },
+    {
+      "id": "rks-200113544",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1968-44--f6476971f8809e96451d22545419b122",
+      "titleEnglish": "Theeservies bestaande uit een warmwaterkan, theepot, suikerpot, melkkan en presenteerblad",
+      "reason": "aggregate-service-overview-overlaps-independent-members",
+      "evidence": "rks-20032496"
+    },
+    {
+      "id": "rks-200418003",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1983-223--77cba1e6404670cb5ae76b350956ab52",
+      "titleEnglish": "Koffie- en theeservies, zestien delen, wit, met blauwe biezen en peervormige dekselknoppen",
+      "reason": "aggregate-service-overview-overlaps-independent-members",
+      "evidence": "rks-200418006"
+    },
+    {
+      "id": "rks-200411446",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1977-240--7c53abac19c1a5cece44ebd50ece9c06",
+      "titleEnglish": "Theeservies van chromolith steengoed, versierd in blauw en geelbruin",
+      "reason": "aggregate-service-overview-overlaps-independent-members",
+      "evidence": "rks-200416109, rks-20067667"
+    },
+    {
+      "id": "rks-200413943",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1981-22--c9c000d3d0349b9dfa1a40a721882b61",
+      "titleEnglish": "Theeservies bestaande uit theepot, melkkan, suikerpot en twaalf koppen en schotels",
+      "reason": "aggregate-service-overview-overlaps-independent-members",
+      "evidence": "rks-20066175, rks-20066178, rks-20066179, rks-20066184, rks-20066185, rks-20066186, rks-20066187, rks-20066188, rks-20066190, rks-20066191, rks-20066192, rks-20066193, rks-20066194, rks-20066195, rks-20066196, rks-20066197, rks-20066199"
+    },
+    {
+      "id": "rks-200416130",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1983-77--0be655cda5e9d8c9ca6a9d13a983e278",
+      "titleEnglish": "Theeservies met een veelkleurig bloemendecor",
+      "reason": "aggregate-service-overview-overlaps-independent-members",
+      "evidence": "rks-20067560, rks-20067561, rks-20067563"
+    },
+    {
+      "id": "wmc-45601921",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJapanese%20rice%20bowl%20chawan.JPG",
+      "titleEnglish": "Japanese rice bowl chawan",
+      "reason": "explicit-non-tea-function",
+      "evidence": "Native source title explicitly identifies a sake bottle or rice bowl; tea-whisk shape and chawan wording do not establish tea use."
+    },
+    {
+      "id": "wiki-27322080",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sake_Bottle_(tokkuri)_in_the_Form_of_a_Tea_Whisk_LACMA_M.2006.214.39.jpg",
+      "titleEnglish": "Sake Bottle (tokkuri) in the Form of a Tea Whisk LACMA M.2006.214.39",
+      "reason": "explicit-non-tea-function",
+      "evidence": "Native source title explicitly identifies a sake bottle or rice bowl; tea-whisk shape and chawan wording do not establish tea use."
+    },
+    {
+      "id": "met-63748",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63748",
+      "titleEnglish": "Set of Five Sencha Teacups (Sencha wan) with Lattice Pattern",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.268.677"
+    },
+    {
+      "id": "met-63747",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63747",
+      "titleEnglish": "Set of Five Sencha Teacups (Sencha wan) with Lattice Pattern",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.268.676"
+    },
+    {
+      "id": "met-63745",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63745",
+      "titleEnglish": "Set of Five Sencha Teacups (Sencha wan) with Lattice Pattern",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.268.674"
+    },
+    {
+      "id": "met-63746",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63746",
+      "titleEnglish": "Set of Five Sencha Teacups (Sencha wan) with Lattice Pattern",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.268.675"
+    },
+    {
+      "id": "met-460667",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/460667",
+      "titleEnglish": "Small covered wine pot or teapot",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1710"
+    },
+    {
+      "id": "met-210914",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/210914",
+      "titleEnglish": "Tea cup (part of a service)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "64.101.305"
+    },
+    {
+      "id": "met-210901",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/210901",
+      "titleEnglish": "Tea caddy (part of a service)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "64.101.301a, b"
+    },
+    {
+      "id": "met-461499",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/461499",
+      "titleEnglish": "Hexagonal wine pot or teapot",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1706"
+    },
+    {
+      "id": "met-461264",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/461264",
+      "titleEnglish": "Hexagonal teapot or winepot (pair with 1975.1.1706)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1707"
+    },
+    {
+      "id": "met-460930",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/460930",
+      "titleEnglish": "Small covered winepot or teapot",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1711"
+    },
+    {
+      "id": "met-460931",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/460931",
+      "titleEnglish": "Small covered winepot or teapot",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1712"
+    },
+    {
+      "id": "met-461217",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/461217",
+      "titleEnglish": "Small covered wine pot or teapot",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1714"
+    },
+    {
+      "id": "met-461225",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/461225",
+      "titleEnglish": "Covered teapot or wine pot (pair with 1975.1.1705)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1704"
+    },
+    {
+      "id": "met-460875",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/460875",
+      "titleEnglish": "Covered teapot or wine pot (pair with 1975.1.1704)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1705"
+    },
+    {
+      "id": "met-461277",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/461277",
+      "titleEnglish": "Small covered winepot or teapot (similar to 1975.1.1714, and 1975.1.16-17)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1715"
+    },
+    {
+      "id": "met-460932",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/460932",
+      "titleEnglish": "Small covered winepot or teapot (similar to 1975.1.1714-15 and 1975.1.1717)",
+      "reason": "single-object-record-illustrated-by-shared-service-or-group-photograph",
+      "evidence": "Visual comparison of original and transparent photographs; distinct museum inventory numbers retained in this exclusion archive.",
+      "accessionNumber": "1975.1.1716"
     }
   ]
 }

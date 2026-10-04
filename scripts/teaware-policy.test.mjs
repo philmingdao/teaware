@@ -49,3 +49,13 @@ test('a tea-related caption cannot admit a silk cushion or a known printed depic
 test('Commons file names use the same identity with URL encoding and underscores', () => {
   assert.equal(normalizedSourceUrl('https://commons.wikimedia.org/wiki/File%3ATea%20Bowl.jpg'), normalizedSourceUrl('https://commons.wikimedia.org/wiki/File:Tea_Bowl.jpg'));
 });
+
+test('explicit rice and sake functions take precedence over tea-like names or shapes', () => {
+  assert.equal(classify('Japanese rice bowl chawan', 'Ceramics'), 'reject');
+  assert.equal(classify('Sake Bottle in the Form of a Tea Whisk', 'Stoneware'), 'reject');
+});
+test('museum original names supply evidence but generated Chinese labels do not', () => {
+  assert.equal(classifyTeaware({titleEnglish:'Fresh water jar',titleOriginal:'朝鮮唐津水指',materialEnglish:'Stoneware'}).decision,'admit');
+  assert.equal(classifyTeaware({titleEnglish:'Bowl',titleChinese:'茶碗',objectTypeEnglish:'Tea Bowl'}).decision,'review');
+  assert.equal(classifyTeaware({titleEnglish:'Tea whisk motif',titleOriginal:'茶筅文様緞子',materialEnglish:'Silk'}).decision,'reject');
+});

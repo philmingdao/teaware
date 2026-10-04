@@ -3,8 +3,12 @@
 export const POLICY_VERSION = 'tea-only-2026-10-03';
 // These source images are visibly publication pages, despite their legacy
 // imported object names. Image review takes precedence over the wrong labels.
-const publicationImages = new Set(['va-O105017', 'va-O152809', 'va-O168455', 'mia-54323']);
+const publicationImages = new Set(['va-O105017', 'va-O152809', 'va-O168455', 'mia-54323', 'colbase-tnm-125608', 'colbase-tnm-127326', 'colbase-tnm-130718', 'rks-200341097']);
 const nonObjectImages = new Map([
+  ['colbase-kyohaku-172865', 'source-tea-name-mismatch-paper-confectionery-dish'],
+  ['colbase-kyohaku-173794', 'partial-detail-and-multiple-object-photo'],
+  ['colbase-tnm-147837', 'multiple-object-photo-instead-of-individual-caddy'],
+  ['rks-20084210', 'fragment-photograph'],
   ['va-O91953', 'textile-image'],
   ...['rks-20083849', 'rks-20083850', 'rks-20083851'].map(id => [id, 'textile-image']),
   ['mia-28559', 'display-case-or-shelf-photo'],
@@ -22,7 +26,7 @@ const vesselMaterial = /\b(?:porcelain|stoneware|earthenware|ceramic|silver|bron
 const flatMedium = /\b(?:prints?|paintings?|drawing|photograph|woodcut|woodblock|woodburytype|albumen|ink|watercolou?r|gouache|lithograph|etching|canvas|photogravure)\b/i;
 const textileNames = /\b(?:robe|textile|fabric|cloth|stole|coat|shawl|tapestry|rug|garment|kimono|costume|embroidery|embroidered|dress|silk panel)\b/i;
 const textileMaterial = /\b(?:silk|cotton|wool|linen|textile|velvet|satin|brocade)\b/i;
-const teaNames = /\b(?:tea[ -]?(?:pots?|bowls?|cups?|cadd(?:y|ies)|sets?|services?|containers?|canisters?|jars?|chests?|boxes?|utensils?|wares?|kettles?|trays?|scoops?|spoons?|urns?|infusers?|whisks?|strainers?|holders?|storage jars?|ceremony water jars?)|tea[- ]leaf storage jars?|tea and coffee (?:service|set)|chawan|chaire|mizusashi|chashaku|chasen|natsume|yunomi|kyusu|kyuusu|hōhin|hohin|theepot|theekom|theekop(?:je)?|theeservies|(?:stof)?theebus|teekanne|teeschale|teetasse|théière|teiera|tekanna)\b|茶碗|茶盌|茶入|茶壺|茶壶|茶杯|茶盏|茶道具|水指|茶筅|茶杓/i;
+const teaNames = /\b(?:tea[ -]?(?:pots?|bowls?|cups?|cadd(?:y|ies)|sets?|services?|containers?|canisters?|jars?|chests?|boxes?|utensils?|wares?|kettles?|trays?|scoops?|spoons?|urns?|infusers?|whisks?|strainers?|holders?|storage jars?|ceremony water jars?)|tea[- ]leaf storage jars?|tea and coffee (?:service|set)|chawan|chaire|mizusashi|chashaku|chasen|natsume|yunomi|kyusu|kyuusu|hōhin|hohin|theepot|theekom|theekop(?:je)?|theeservies|(?:stof)?theebus|teekanne|teeschale|teetasse|théière|bol à thé|theelepel|theezeef|theeblad|teiera|tekanna)\b|茶碗|茶盌|茶入|茶壺|茶壶|茶杯|茶盏|茶道具|水指|急須|湯呑|茶筅|茶杓/i;
 const nonTeaNames = /\b(?:epitaph|tomb|burial|funerary|snuff|tobacco|wine|libation|ritual|sacrificial|food vessel|grain serving|brush[- ]?(?:pot|washer|rest)|water dropper|inkstone|cosmetic|pillow|jardini[eè]re|flower ?pot|candlestick|candle ?holder|lamp|statue|figurine|sculpture|pendant|bracelet|ornament|necklace|earring|belt|weapon|sword|arrowhead|tile|roof|brick|seal paste|soup|tureen|sauce boat|mustard|punch bowl|finger bowl|custard|chocolate pot|chest with print)\b/i;
 const nonTeaType = /\b(?:vase|figure|buddha|snuff|brush|pillow|wine|libation|ritual|tile|jardiniere|seal|sculpture|jewellery|weapon|dish|plate|platter)\b/i;
 
@@ -34,17 +38,18 @@ export function sourceEvidence(artwork) {
     // host/path or numeric museum ID supplies no tea-use evidence.
     filename = url.includes('File:') ? url.split('File:')[1].replace(/[_]/g, ' ') : '';
   } catch { /* malformed URLs provide no evidence */ }
-  return [artwork.titleEnglish, artwork.materialEnglish, filename].filter(Boolean).join(' | ').replace(/<[^>]*>/g, '').normalize('NFKC');
+  return [artwork.titleEnglish, artwork.titleOriginal, artwork.materialEnglish, filename].filter(Boolean).join(' | ').replace(/<[^>]*>/g, '').normalize('NFKC');
 }
 
 export function classifyTeaware(artwork, reviewed = {}) {
   const evidence = sourceEvidence(artwork);
   if (nonObjectImages.has(artwork.id)) return { decision: 'reject', reason: nonObjectImages.get(artwork.id), evidence: 'Visual review: unsuitable primary collection image. ' + evidence };
   if (publicationImages.has(artwork.id)) return { decision: 'reject', reason: 'publication-page-image', evidence: 'Visual source-image review: printed book/catalogue page. ' + evidence };
-  const names = [artwork.titleEnglish, artwork.materialEnglish, artwork.objectTypeEnglish].join(' ');
+  const names = [artwork.titleEnglish, artwork.titleOriginal, artwork.materialEnglish, artwork.objectTypeEnglish].join(' ');
   // Material names in the V&A import are often the actual source object name.
-  const primary = [artwork.titleEnglish, artwork.materialEnglish].join(' ');
+  const primary = [artwork.titleEnglish, artwork.titleOriginal, artwork.materialEnglish].join(' ');
   const tea = evidence.match(teaNames)?.[0];
+  if(/^(?:Japanese )?rice bowl\b|^sake (?:bottle|flask)\b|^tokkuri\b/i.test(artwork.titleEnglish||''))return {decision:'reject',reason:'explicit-non-tea-function',evidence};
   if (/分記|絵巻|図譜|画帖|書状|文書|手紙|消息|書付|墨蹟|書跡/.test(primary)) {
     return { decision: 'reject', reason: 'flat-artwork-or-publication', evidence };
   }

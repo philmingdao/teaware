@@ -6,18 +6,20 @@ import { execFile as execFileCallback } from 'node:child_process';
 import { promisify } from 'node:util';
 import sharp from 'sharp';
 import { classifyTeaware, normalizedSourceUrl } from './teaware-policy.mjs';
+import { physicalObjectKey, rijksObjectNumber, linkedArtNotation } from './teaware-identity.mjs';
 
 const execFile = promisify(execFileCallback);
-const root = 'output/round28';
+const root = process.env.TEAWARE_STAGE_ROOT || 'output/round29';
 await fs.mkdir(`${root}/cache`, { recursive: true });
 await fs.mkdir(`${root}/originals`, { recursive: true });
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const active = JSON.parse(await fs.readFile('src/data/artworks.json', 'utf8'));
 const exclusions = JSON.parse(await fs.readFile('research/teaware-exclusions.json', 'utf8')).entries;
-const knownIds = new Set([...active, ...exclusions].map(a => a.id));
+const priorRejections = JSON.parse(await fs.readFile('research/teaware-expansion-2026-10-03.json', 'utf8')).rejected;
+const knownIds = new Set([...active, ...exclusions, ...priorRejections].map(a => a.id));
 for (const row of JSON.parse(await fs.readFile('research/teaware-duplicate-aliases.json','utf8')).entries) knownIds.add(row.id);
-const knownUrls = new Set([...active, ...exclusions].map(a => normalizedSourceUrl(a.sourceUrl)));
-const knownAccessions = new Set(active.filter(a => a.accessionNumber).map(a => `${a.sourceMuseumEnglish}|${a.accessionNumber.toLowerCase().replace(/\s/g, '')}`));
+const knownUrls = new Set([...active, ...exclusions, ...priorRejections].filter(a => a.sourceUrl).map(a => normalizedSourceUrl(a.sourceUrl)));
+const knownAccessions = new Set(active.map(physicalObjectKey).filter(Boolean));
 const knownHashes = new Set(JSON.parse(await fs.readFile('src/data/collection-cutouts.json', 'utf8')).assets ? Object.values(JSON.parse(await fs.readFile('src/data/collection-cutouts.json', 'utf8')).assets).map(a => a.sourceSha256) : []);
 const candidates = new Map();
 const rejected = [];
@@ -26,7 +28,7 @@ async function get(url, json = true) {
   const filename = `${root}/cache/${hash(Buffer.from(url))}.${json ? 'json' : 'bin'}`;
   try { const bytes = await fs.readFile(filename); return json ? JSON.parse(bytes) : bytes; }
   catch { /* missing cache */ }
-  const { stdout } = await execFile('curl', ['--location', '--fail', '--silent', '--show-error', '--retry', '2', '--max-time', '60', '-H', json ? 'Accept: application/json' : 'Accept: image/*', url], { encoding: 'buffer', maxBuffer: 32 * 1024 * 1024 });
+  const { stdout } = await execFile('curl', ['--noproxy', '*', '--location', '--fail', '--silent', '--show-error', '--retry', '2', '--max-time', '60', '-H', json ? 'Accept: application/json' : 'Accept: image/*', url], { encoding: 'buffer', maxBuffer: 32 * 1024 * 1024 });
   const parsed = json ? JSON.parse(stdout) : stdout;
   await fs.writeFile(filename, stdout);
   return parsed;
@@ -36,8 +38,8 @@ function objectLabel(title) {
   if (/tea.*whisk holder/i.test(title)) return ['茶筅架', 'Tea Whisk Holder'];
   if (/canteen.*tea.*utensil/i.test(title)) return ['茶具盒', 'Tea Utensil Case'];
   if (/tea.*(?:chest|box)/i.test(title)) return ['茶箱', 'Tea Chest'];
-  if (/tea.*(?:scoop|spoon)|^teaspoon/i.test(title)) return ['茶匙', 'Tea Spoon'];
-  if (/tea.*(?:strainer|infuser)/i.test(title)) return ['茶滤', 'Tea Strainer'];
+  if (/tea.*(?:scoop|spoon)|^teaspoon|theelepel/i.test(title)) return ['茶匙', 'Tea Spoon'];
+  if (/tea.*(?:strainer|infuser)|theezeef/i.test(title)) return ['茶滤', 'Tea Strainer'];
   if (/tea.*urn/i.test(title)) return ['茶水器', 'Tea Urn'];
   if (/tea.*tray|theeblad/i.test(title)) return ['茶盘', 'Tea Tray'];
   if (/tea.?caddy.*stand/i.test(title)) return ['茶罐托', 'Tea Caddy Stand'];
@@ -111,10 +113,11 @@ function record({id,title,material,date,origin,museum,museumZh,accession,sourceU
   const materialZh = materialLabel(material);
   const row = {id,titleChinese:(materialZh === '未核实' ? '' : materialZh)+objectType,titleEnglish:clean(title),dynasty,dynastyEnglish,period:clean(origin),date:clean(date)||'馆方未详',material:materialZh,materialEnglish:clean(material),objectType,objectTypeEnglish,dimensions:clean(dimensions),description:`${clean(title)}。馆方年代：${clean(date)||'未详'}。${origin ? `产地／文化：${clean(origin)}。` : ''}材质：${clean(material)||'未详'}。现藏于${museumZh}。`,sourceMuseum:museumZh,sourceMuseumEnglish:museum,accessionNumber:clean(accession),sourceUrl,imageUrl:`/artworks/${id}.jpg`,imageAlt:clean(title),license,creditLine:clean(credit),crawlBatchId:'reviewed-teaware-2026-10-03'};
   const decision = classifyTeaware(row);
-  const accessionKey = `${museum}|${row.accessionNumber.toLowerCase().replace(/\s/g, '')}`;
+  const accessionKey = physicalObjectKey(row);
   if (knownIds.has(id) || knownUrls.has(normalizedSourceUrl(sourceUrl)) || (row.accessionNumber && knownAccessions.has(accessionKey))) return;
   if (decision.decision !== 'admit') { rejected.push({id,reason:decision.reason,sourceUrl}); return; }
-  candidates.set(id, {artwork:row,imageSource,evidence:decision,raw});
+  candidates.set(id, {artwork:row,imageSource,evidence:decision,raw,retrievedAt:new Date().toISOString(),rawMetadataSha256:hash(Buffer.from(JSON.stringify(raw))),imageLicenseUrl:id.startsWith('met-')?'https://www.metmuseum.org/about-the-met/policies-and-documents/open-access':raw.rights?.[0]});
+  if (accessionKey) knownAccessions.add(accessionKey);
 }
 async function mia() {
   for (const query of ['tea','teapot','chawan','mizusashi','chaire','yunomi','teacup','teaspoon','tea strainer','tea urn','chashaku','chasen','natsume','kyusu']) {
@@ -179,7 +182,7 @@ async function artic() {
     const params=encodeURIComponent(JSON.stringify({query,fields:fields.split(','),limit:100,page}));
     const data=await get(`https://api.artic.edu/api/v1/artworks/search?params=${params}`);
     searches.push({source:'artic',page,total:data.pagination.total});
-    for (const x of data.data) if (x.is_public_domain && x.image_id) record({id:`artic-${x.id}`,title:x.title,material:x.medium_display,date:x.date_display,origin:[x.place_of_origin,x.artist_display].filter(Boolean).join('; '),museum:'Art Institute of Chicago',museumZh:'芝加哥艺术博物馆',accession:x.main_reference_number,sourceUrl:`https://www.artic.edu/artworks/${x.id}`,imageSource:`${data.config.iiif_url}/${x.image_id}/full/843,/0/default.jpg`,license:'CC0 (Art Institute of Chicago Open Access)',dimensions:x.dimensions,credit:x.credit_line,raw:x});
+    for (const x of data.data) if (x.is_public_domain && x.image_id) record({id:`artic-${x.id}`,title:x.title,material:x.medium_display,date:x.date_display,origin:[x.place_of_origin,x.artist_display].filter(Boolean).join('; '),museum:'Art Institute of Chicago',museumZh:'芝加哥艺术博物馆',accession:x.main_reference_number,sourceUrl:`https://www.artic.edu/artworks/${x.id}`,imageSource:`${data.config.iiif_url}/${x.image_id}/full/1686,/0/default.jpg`,license:'CC0 (Art Institute of Chicago Open Access)',dimensions:x.dimensions,credit:x.credit_line,raw:x});
     if (page>=data.pagination.total_pages) break;
   }
   console.log('Art Institute staged:', [...candidates.keys()].filter(id=>id.startsWith('artic-')).length);
@@ -192,9 +195,9 @@ async function met() {
     return;
   }
   const ids=new Set();
-  for (const q of process.argv.includes('--met-extra-only') ? ['tea','chawan','mizusashi','yunomi','chaire','natsume','teacup','teaspoon','tea urn','tea infuser','tea strainer','tea caddy spoon'] : ['teapot','tea bowl','tea cup','tea caddy','tea service','tea kettle']) {
-    for (let offset=0;offset<1000;offset+=500) {
-      const url=`https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&title=true&q=${encodeURIComponent(q)}&limit=500&offset=${offset}`;
+  for (const q of process.argv.includes('--met-extra-only') ? ['tea','chawan','mizusashi','yunomi','natsume','teacup','teaspoon','tea urn','tea infuser','tea strainer','tea caddy spoon'] : ['teapot','tea bowl','tea cup','tea caddy','tea service','tea kettle']) {
+    for (let offset=0;offset<10000;offset+=500) {
+      const url=`https://collectionapi.metmuseum.org/public/collection/v1.1/search?${process.argv.includes('--met-full-index')?'':'hasImages=true&'}title=true&q=${encodeURIComponent(q)}&limit=500&offset=${offset}`;
       const data=await get(url);searches.push({source:'met',q,offset,total:data.total});
       for (const id of data.objectIDs||[]) if (!knownIds.has(`met-${id}`)) ids.add(id);
       if (offset+500>=data.total) break;
@@ -214,28 +217,31 @@ async function met() {
   }));
   console.log('Met staged:', [...candidates.keys()].filter(id=>id.startsWith('met-')).length);
 }
-function notation(entity) {
-  const terms = entity?.notation || [];
-  const names = (entity?.identified_by || []).filter(x => x.type === 'Name');
-  const term = terms.find(x => x['@language'] === 'en') || terms[0];
-  const name = names.find(x => x.language?.some(l => l.id.includes('300388277'))) || names[0];
-  return clean(entity?._label || term?.['@value'] || term?.content || name?.content);
-}
+function notation(entity) { return clean(linkedArtNotation(entity)); }
 async function rijks() {
   const ids=new Set();
-  for (const term of process.argv.includes('--rijks-extra-only') ? ['theekom','chawan','mizusashi','tea','theeketel'] : ['theepot','theekop','theebus','theeservies']) {
-    let url=`https://data.rijksmuseum.nl/search/collection?title=${term}&imageAvailable=true`;
+  for (const term of process.argv.includes('--rijks-accessories-only') ? ['theelepel','theezeef','theeblad','tea spoon','tea strainer','tea scoop','tea urn'] : process.argv.includes('--rijks-extra-only') ? ['theekom','chawan','mizusashi','tea','theeketel'] : ['theepot','theekop','theebus','theeservies']) {
+    let url=`https://data.rijksmuseum.nl/search/collection?title=${encodeURIComponent(term)}&imageAvailable=true`;
     for (let page=0;url&&page<12;page++) {
-      const data=await get(url);searches.push({source:'rijks',term,page,total:data.partOf.totalItems});
+      let data;try{data=await get(url);}catch(error){rejected.push({source:'rijks',term,reason:String(error).slice(-240)});break;}searches.push({source:'rijks',term,page,total:data.partOf.totalItems});
       for (const x of data.orderedItems) if (!knownIds.has(`rks-${x.id.split('/').pop()}`)) ids.add(x.id);
       url=data.next?.id;
     }
   }
   const resolveLimit=Number(process.argv.find(x=>x.startsWith('--rijks-resolve='))?.split('=')[1]||260);
-  let cursor=0;const queue=[...ids].slice(0,resolveLimit);
+  const statePath=`${root}/rijks-resolution.json`;
+  let previous={resolved:[],candidates:[]};
+  try { previous=JSON.parse(await fs.readFile(statePath,'utf8')); } catch { /* first batch */ }
+  const resolved=new Set(previous.resolved);
+  for(const item of previous.candidates) if(!knownIds.has(item.artwork.id)) { candidates.set(item.artwork.id,item); const key=physicalObjectKey(item.artwork); if(key) knownAccessions.add(key); }
+  let cursor=0;const queue=[...ids].filter(id=>!resolved.has(id)).slice(0,resolveLimit);
+  let checkpoint=Promise.resolve();
+  function saveResolution(){const snapshot=JSON.stringify({discovered:[...ids],resolved:[...resolved],remaining:[...ids].filter(id=>!resolved.has(id)),candidates:[...candidates.values()].filter(item=>item.artwork.id.startsWith('rks-')),retrievedAt:new Date().toISOString()},null,2); checkpoint=checkpoint.then(()=>fs.writeFile(statePath,snapshot));return checkpoint;}
+  await saveResolution();
   await Promise.all(Array.from({length:3},async()=>{
     while(cursor<queue.length) {
       const url=queue[cursor++],id=`rks-${url.split('/').pop()}`;
+      let failed=false;
       try {
         const x=await get(url);
         const names=(x.identified_by||[]).filter(x=>x.type==='Name');
@@ -243,10 +249,21 @@ async function rijks() {
         const material=(x.made_of||[]).map(notation).filter(Boolean).join(', ');
         const date=notation(x.produced_by?.timespan);
         const origin=(x.produced_by?.part||[]).flatMap(x=>(x.took_place_at||[]).map(notation)).filter(Boolean).join('; ');
-        const accession=(x.identified_by||[]).find(x=>x.type==='Identifier' && x.classified_as?.some(t=>t.id.endsWith('/22015218')||t.id.endsWith('/300312355')))?.content;
+        const accession=rijksObjectNumber(x);
         const sourceUrl=(x.subject_of||[]).flatMap(s=>s.digitally_carried_by||[]).flatMap(d=>d.access_point||[])[0]?.id||url;
         const probe={titleEnglish:title,materialEnglish:material,id,sourceUrl};
         if (classifyTeaware(probe).decision!=='admit') continue;
+        let assemblyPart=false;
+        for(const relation of x.part_of||[]) {
+          if(relation.type!=='HumanMadeObject'||!relation.id) continue;
+          const parent=await get(relation.id);
+          const names=(parent.identified_by||[]).filter(item=>item.type==='Name');
+          const parentTitle=names.find(item=>item.language?.some(language=>language.id.includes('300388277')))?.content||names[0]?.content||parent._label||'';
+          if(/tea.?pot|theepot/i.test(parentTitle)&&!/tea.*(?:service|set)|theeservies/i.test(parentTitle)) {
+            rejected.push({id,reason:'part-of-complete-teapot-assembly',sourceUrl,parentId:relation.id,parentTitle});assemblyPart=true;break;
+          }
+        }
+        if(assemblyPart) continue;
         if (!x.shows?.[0]?.id) continue;
         const visual=await get(x.shows[0].id);
         const rights=(visual.subject_to||[]).flatMap(s=>s.classified_as||[]).map(x=>x.id).filter(Boolean);
@@ -255,11 +272,13 @@ async function rijks() {
         let imageSource=digital.access_point?.[0]?.id;
         if (!imageSource) continue;
         imageSource=imageSource.replace('/full/max/','/full/!1600,1600/');
-        record({id,title,material,date,origin,museum:'Rijksmuseum',museumZh:'荷兰国立博物馆',accession,sourceUrl,imageSource,license:'Public Domain (Rijksmuseum Open Access)',dimensions:(x.dimension||[]).map(notation).filter(Boolean).join('; '),raw:{object:x,rights}});
-      } catch(e) { rejected.push({id,reason:String(e).slice(0,200)}); }
+        record({id,title,material,date,origin,museum:'Rijksmuseum',museumZh:'荷兰国立博物馆',accession,sourceUrl,imageSource,license:'Public Domain (Rijksmuseum Open Access)',dimensions:(x.dimension||[]).map(notation).filter(Boolean).join('; '),raw:{object:x,visual,digital,rights}});
+      } catch(e) { failed=true; rejected.push({id,reason:String(e).slice(0,200)}); }
+      finally { if(!failed) resolved.add(url); await saveResolution(); }
       if (cursor%50===0) console.log('Rijks resolved',cursor,'/',queue.length);
     }
   }));
+  await saveResolution();
   console.log('Rijks staged:', [...candidates.keys()].filter(id=>id.startsWith('rks-')).length);
 }
 if (process.argv.includes('--relabel-pool')) {
@@ -275,9 +294,9 @@ if (process.argv.includes('--relabel-pool')) {
   await fs.writeFile(`${root}/pool.json`,JSON.stringify(pool,null,2));
   process.exit(0);
 }
-const discoveryPath=`${root}/${process.argv.includes('--smithsonian-only')?'discovery-si':process.argv.includes('--mia-only')?'discovery-mia':process.argv.includes('--walters-only')?'discovery-walters':process.argv.includes('--rijks-extra-only')?'discovery-rijks-extra':process.argv.includes('--met-extra-only')?'discovery-met-extra':'discovery'}.json`;
+const discoveryPath=`${root}/${process.argv.includes('--smithsonian-only')?'discovery-si':process.argv.includes('--mia-only')?'discovery-mia':process.argv.includes('--walters-only')?'discovery-walters':process.argv.includes('--rijks-accessories-only')?'discovery-rijks-accessories':process.argv.includes('--rijks-extra-only')?'discovery-rijks-extra':process.argv.includes('--rijks-only')?'discovery-rijks':process.argv.includes('--met-extra-only')?'discovery-met-extra':process.argv.includes('--met-only')?'discovery-met':'discovery'}.json`;
 if (!process.argv.includes('--download-only')) {
-  const status=await Promise.allSettled(process.argv.includes('--smithsonian-only')?[smithsonian()]:process.argv.includes('--mia-only')?[mia()]:process.argv.includes('--walters-only')?[walters()]:process.argv.includes('--rijks-extra-only')?[rijks()]:process.argv.includes('--met-extra-only')?[met()]:[mia(),artic(),met(),rijks()]);
+  const status=await Promise.allSettled(process.argv.includes('--smithsonian-only')?[smithsonian()]:process.argv.includes('--mia-only')?[mia()]:process.argv.includes('--walters-only')?[walters()]:(process.argv.includes('--rijks-accessories-only')||process.argv.includes('--rijks-extra-only')||process.argv.includes('--rijks-only'))?[rijks()]:(process.argv.includes('--met-extra-only')||process.argv.includes('--met-only'))?[met()]:[mia(),artic(),met(),rijks()]);
   for (const [i,result] of status.entries()) if(result.status==='rejected') rejected.push({source:['mia','artic','met','rijks'][i],reason:String(result.reason)});
   await fs.writeFile(discoveryPath,JSON.stringify({retrievedAt:new Date().toISOString(),searches,candidates:[...candidates.values()],rejected},null,2));
 } else {
@@ -309,7 +328,7 @@ async function download(item) {
     const rawSha256=hash(bytes);
     if(knownHashes.has(rawSha256)) throw new Error('duplicate image');
     const metadata=await sharp(bytes).metadata();
-    if(Math.max(metadata.width||0,metadata.height||0)<800) throw new Error('source below 800 pixels');
+    if(Math.max(metadata.width||0,metadata.height||0)<1200) throw new Error('source below 1200 pixels');
     const normalized=await sharp(bytes).rotate().resize({width:1600,height:1600,fit:'inside',withoutEnlargement:true}).jpeg({quality:95,mozjpeg:true}).toBuffer();
     const sourceSha256=hash(normalized);
     if(knownHashes.has(sourceSha256)) throw new Error('duplicate normalized image');
