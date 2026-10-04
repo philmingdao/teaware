@@ -1,25 +1,25 @@
-// Stage only museum-named historical tea objects, retaining image-specific CC rights.
+// Stage museum-named tea objects with image-specific CC rights; preserve source dates.
 import fs from 'node:fs/promises';import path from 'node:path';import crypto from 'node:crypto';import sharp from 'sharp';
 import {classifyTeaware,normalizedSourceUrl} from './teaware-policy.mjs';import {physicalObjectKey} from './teaware-identity.mjs';
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8')),hash=b=>crypto.createHash('sha256').update(b).digest('hex'),clean=s=>String(s||'').replace(/\s+/g,' ').trim();
-const root='output/round31-finna';await fs.mkdir(root+'/originals',{recursive:true});await fs.mkdir(root+'/cache',{recursive:true});
+const root=process.env.TEAWARE_STAGE_ROOT||'output/round31-finna';await fs.mkdir(root+'/originals',{recursive:true});await fs.mkdir(root+'/cache',{recursive:true});
 const rawMap=new Map((await read('output/round30/finna-all-raw.json')).map(x=>[x.id,x]));
 const active=await read('src/data/artworks.json'),blocked=[...active,...(await read('research/teaware-exclusions.json')).entries,...(await read('research/teaware-duplicate-aliases.json')).entries];
 const ids=new Set(blocked.map(x=>x.id)),urls=new Set(blocked.map(x=>normalizedSourceUrl(x.sourceUrl))),keys=new Set(active.map(physicalObjectKey).filter(Boolean)),hashes=new Set(Object.values((await read('src/data/collection-cutouts.json')).assets).map(x=>x.sourceSha256));
 const selected=[],imageRejections=[];
-const types=[[/teekeitin/i,['茶炉','Tea Urn']],[/teevati/i,['茶托','Tea Saucer']],[/teekannu|teepannu|tekanna/i,['茶壶','Teapot']],[/teekulho/i,['茶碗','Tea Bowl']],[/teekuppi|tekopp/i,['茶杯','Tea Cup']],[/teerasia|teepurkki|teburk/i,['茶罐','Tea Caddy']],[/teesiivilä/i,['茶滤','Tea Strainer']],[/teelusikka/i,['茶匙','Tea Spoon']]];
+const types=[[/teekeitin|samovaari/i,['茶炉','Tea Urn']],[/teevati/i,['茶托','Tea Saucer']],[/teekannu|teepannu|tekanna/i,['茶壶','Teapot']],[/teekulho/i,['茶碗','Tea Bowl']],[/teekuppi|tekopp/i,['茶杯','Tea Cup']],[/teerasia|teepurkki|teburk/i,['茶罐','Tea Caddy']],[/teesiivilä/i,['茶滤','Tea Strainer']],[/teelusikka/i,['茶匙','Tea Spoon']]];
 const museumNames={'Suomen kansallismuseo':['芬兰国家博物馆','The National Museum of Finland'],'HKM / Kulttuurihistoriallinen':['赫尔辛基城市博物馆','Helsinki City Museum'],'Turun kaupunginmuseo':['图尔库城市博物馆','Turku City Museum'],'Heinolan museot':['海诺拉博物馆','Museums of Heinola']};
-const folders=['finna-hi','finna-hi-next'];
+const folders=(process.env.FINNA_FOLDERS||'finna-hi,finna-hi-next').split(',');
 for(const folder of folders){let downloads;try{downloads=await read('output/round31/'+folder+'/records.json');}catch(e){if(e.code==='ENOENT')continue;throw e;}
 for(const download of downloads){if(download.status!=='downloaded')continue;const raw=rawMap.get(download.recordId),id=download.id;const reject=reason=>imageRejections.push({id,recordId:download.recordId,reason});
 const im=raw?.imagesExtended?.[0],rights=im?.rights,license=rights?.copyright,end=Number(raw?.creationDateRange?.split('/')[1]?.slice(0,4));
-if(!raw||!raw.identifierString||!rights||!['CC BY 4.0','CC BY 3.0','CC BY 2.0','CC0','PDM','Public Domain'].includes(license)||!end||end>1920){reject('unverified-image-rights-or-historical-date');continue;}
-const type=types.find(([re])=>re.test(raw.title))?.[1];if(!type||/myssy|patalappu|piirustus|valokuva|kangas|nukke|lelu|leikkikalu|leikki|kansi$/i.test(raw.title)){reject('not-an-independent-tea-object');continue;}
+if(!raw||!raw.identifierString||!rights||!['CC BY 4.0','CC BY 3.0','CC BY 2.0','CC0','PDM','Public Domain'].includes(license)){reject('unverified-image-rights-or-identity');continue;}
+const type=types.find(([re])=>re.test(raw.title))?.[1];if(!type||/myssy|patalappu|piirustus|valokuva|kangas|nukke|nuken|dockservis|docka|lelu|leikkikalu|leikki|kansi$/i.test(raw.title)){reject('not-an-independent-tea-object');continue;}
 const events=raw.events?.valmistus||[],materialOriginal=[...new Set(events.flatMap(x=>x.materials||[]))].join('; '),places=[...new Set(events.flatMap(x=>(x.places||[]).map(p=>typeof p==='string'?p:p.placeName||p.name||'').filter(Boolean)))].join('; '),makers=[...new Set(events.flatMap(x=>(x.actors||[]).map(a=>a.name)))].join('; ');
 let material='未详';for(const [re,zh]of [[/piiposliini/i,'陶'],[/uushopea/i,'镍银'],[/posliini|porslin/i,'瓷'],[/fajanssi|fajans/i,'陶'],[/kivitavara|stengods/i,'炻器'],[/keramiikka|keramik/i,'陶瓷'],[/hopea|silver/i,'银'],[/messinki|mässing/i,'黄铜'],[/kupari|koppar/i,'铜'],[/tina|tenn/i,'锡'],[/lasi|glas/i,'玻璃'],[/puu|trä/i,'木']])if(re.test(materialOriginal)){material=zh;break;}
 const museum=raw.institutions?.[0],names=museumNames[museum?.value]||[museum?.translated||museum?.value,museum?.translated||museum?.value];
 if(!names[0]){reject('museum-unidentified');continue;}
-const date=clean(events.map(x=>x.date).filter(Boolean).join('; '))||raw.creationDateRange;
+const date=clean(events.map(x=>x.date).filter(Boolean).join('; '))||raw.creationDateRange||'馆方未注明制作年代 / Date not recorded';
 const photoCredit=[rights.creditLine,...(rights.rightsHolders||[]).map(x=>x.name),...(raw.buildings||[]).map(x=>x.translated)].flat().filter(Boolean).map(clean);
 const artwork={id,titleChinese:(material==='未详'?'':material)+type[0],titleEnglish:type[1],titleOriginal:raw.title,dynasty:'未详',dynastyEnglish:'Unspecified',date,period:places||'馆方未详',material,materialEnglish:materialOriginal||'Unspecified',objectType:type[0],objectTypeEnglish:type[1],dimensions:(raw.physicalDescriptions||[]).map(clean).join('; '),description:`${type[0]}。馆方原名：${raw.title}。年代：${date}。${places?'制作地点：'+places+'。':''}${makers?'制作者：'+makers+'。':''}馆方原文：${(raw.summary||[]).map(clean).join(' ')}`,sourceMuseum:names[0],sourceMuseumEnglish:names[1],accessionNumber:raw.identifierString,sourceUrl:download.sourceUrl,imageUrl:`/artworks/${id}.jpg`,imageAlt:raw.title,license:`${license} (Finna; image-specific museum license)`,creditLine:[...new Set([names[1],...photoCredit])].join('; ')+`. ${license}. ${rights.link||''} Background removed and cropped by Teaware.`,crawlBatchId:'reviewed-teaware-6000-2026-10-04'};
 const key=physicalObjectKey(artwork);if(!key||ids.has(id)||keys.has(key)||urls.has(normalizedSourceUrl(artwork.sourceUrl))){reject('duplicate-or-missing-physical-identity');continue;}

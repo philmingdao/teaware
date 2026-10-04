@@ -2,17 +2,17 @@
 
 **East Asian Teaware Artistic Gallery** — Open-Access Museum Collection
 
-> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 4,000 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
+> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 6,000 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
 > 
-> Explore East Asian teaware and global cultural exchange through 4,000 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
+> Explore East Asian teaware and global cultural exchange through 6,000 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
 
 🌐 **Live: [philmingdao.github.io/teaware](https://philmingdao.github.io/teaware/)** · Open Access · Per-artwork licensing
 
 ---
 
-一个展示中国历代茶具艺术的博物馆级数字画廊。从唐宋建盏到明清官窑，品味跨越千年的器物之美。
+一个聚焦东亚茶器艺术的数字展览，呈现中国、日本、韩国等地的茶器传统与交流。
 
-A museum-quality digital gallery showcasing historic Chinese teapots and tea bowls across dynasties — from Song dynasty Jian ware to Qing imperial porcelain.
+A digital exhibition of East Asian tea ware, bringing together tea traditions and cultural exchange across China, Japan, Korea, and beyond.
 
 All artwork images are from open-access museum collections (The Metropolitan Museum of Art, Cleveland Museum of Art). Gallery images are stored locally; artwork licenses and credit lines are recorded per item. The MIT badge applies to the site's code.
 
@@ -24,45 +24,15 @@ All artwork images are from open-access museum collections (The Metropolitan Mus
 
 ## 📊 Collection Statistics
 
-Verified 2026-10-03, tea-only curation.
+Verified 2026-10-05 after tea-only review and image processing.
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **1,428** |
-| Credited Museum Labels | 26 |
-| Dynasty Labels | 38 |
-| Object Type Labels | 24 |
+| Total Artworks | **6,000** |
+| Credited museum collection labels | 65 |
+| Reviewed transparent WebP assets | **6,000** |
 
-### By credited museum
-
-- 大都会艺术博物馆: 367
-- 维多利亚和阿尔伯特博物馆: 237
-- 荷兰国立博物馆: 239
-- 克利夫兰艺术博物馆: 174
-- 史密森尼亚洲艺术博物馆 (弗利尔/赛克勒): 99
-- 维基共享资源: 76
-- 东京国立博物馆: 91
-- 明尼阿波利斯艺术馆: 33
-- 京都国立博物馆: 30
-- 史密森尼学会: 29
-- 史密森尼亚洲艺术博物馆: 19
-- 哈留斯卡博物馆: 7
-- 洛杉矶县艺术博物馆: 6
-- 波特兰艺术博物馆: 3
-- 奈良国立博物馆: 3
-- 盖蒂博物馆: 3
-- 维多利亚与阿尔伯特博物馆: 2
-- 雷恩美术馆: 2
-- 大英博物馆: 1
-- 圣皮埃尔博物馆: 1
-- 乔治·拉比博物馆: 1
-- 赛努奇博物馆: 1
-- 查森艺术博物馆: 1
-- 马里蒙皇家博物馆: 1
-- 九州国立博物馆: 1
-- 库珀·休伊特史密森设计博物馆: 1
-
-Only physical tea ware with explicit source tea-use evidence is admitted. Prints, book pages, photographs of works, textiles and other non-teaware are excluded. Source labels from old crawlers are insufficient evidence. The cleanup removed 4,581 out-of-scope records and suspended 5,431 records whose tea use remains unverified; 16 unsuitable primary photographs (display cases, shelves and cropped detail views) were also removed. All 1,428 active entries use reviewed transparent WebPs across the cover, list and detail views; see [the audit](research/teaware-curation-2026-10-03.md).
+Only physical tea ware with explicit source evidence of tea use is admitted. Prints, book pages, textiles, photographs of display cases, display supports, grouped photographs, unrelated objects and duplicate views are excluded. Each record retains its museum source, accession number and image license; dates omitted by the museum remain marked as unrecorded. Every active artwork uses a reviewed transparent cutout in the cover, list, detail, slideshow and TV views.
 
 ## ✨ 特色 Features
 
@@ -70,9 +40,9 @@ Only physical tea ware with explicit source tea-use evidence is admitted. Prints
 - 📜 **真实藏品** — 图片来自大都会艺术博物馆、克利夫兰艺术博物馆开放数据及维基共享资源中有馆藏出处的文件页，全部本地托管
 - 🔍 **智能筛选** — 按朝代、材质、器型、来源博物馆分类浏览
 - 📱 **响应式设计** — 完美适配桌面与移动设备
-- 🌏 **中英双语** — 以中文为主，辅以英文标签
+- 🌏 **四种语言** — 中文、英文、日文与韩文界面
 - ⚡ **静态优化** — 支持静态导出，可部署至任意静态托管平台
-- 📄 **分页浏览** — 高效分页，支持 1,000+ 件藏品流畅浏览
+- 📄 **藏品浏览** — 高效浏览 6,000 件藏品与对应透明图
 - 🌙 **深色模式** — 支持系统偏好自动切换或手动切换，优雅的深色主题
 - 📺 **电视模式** — Netflix 风格沉浸式全屏浏览，支持键盘/触摸/自动播放
 

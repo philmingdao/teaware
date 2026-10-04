@@ -6,14 +6,14 @@ const active=await read('src/data/artworks.json'),blocked=[...active,...(await r
 const ids=new Set(blocked.map(x=>x.id)),urls=new Set(blocked.map(x=>normalizedSourceUrl(x.sourceUrl))),keys=new Set(active.map(physicalObjectKey).filter(Boolean)),hashes=new Set(Object.values((await read('src/data/collection-cutouts.json')).assets).map(x=>x.sourceSha256));
 for(const file of ['output/round30-dimu/cutouts/approvals.json','output/round31-dimu-legacy/cutouts/approvals.json']){const decisions=await read(file);for(const d of decisions)if(d.decision==='reject')ids.add(d.id);}
 const selected=[],imageRejections=[],allowed=new Set(['by','by-sa','CC0 1.0','pdm','zero']);
-const types=[[/Skål til tekopp|\b(?:tefat|teefat)\b/i,['茶托','Tea Saucer']],[/\b(?:tekanna|tekanne|teekanne)\b/i,['茶壶','Teapot']],[/\b(?:tekopp|teetasse|tekrus)\b/i,['茶杯','Tea Cup']],[/\b(?:tedosa|teburk|teedose)\b/i,['茶罐','Tea Caddy']],[/\b(?:teskje|tesked|teeske|teelöffel)\b/i,['茶匙','Tea Spoon']],[/\b(?:tesil|teesieb)\b/i,['茶滤','Tea Strainer']],[/\b(?:chawan|teskål|teeskål|teeschale)\b/iu,['茶碗','Tea Bowl']]];
-types.push([/\b(?:tekjele|tekittel|teurne)\b/i,['煮茶壶','Tea Kettle']],[/\b(?:teebrett|tebrett)\b/i,['茶盘','Tea Tray']]);
+const types=[[/Skål til tekopp|\b(?:tefat|teefat|tekoppsfat)\b/i,['茶托','Tea Saucer']],[/\b(?:tekanna|tekanne|teekanne)\b/i,['茶壶','Teapot']],[/\b(?:tekopp|teetasse|tekrus|temugg)\b/i,['茶杯','Tea Cup']],[/\b(?:tedosa|teburk|teedose|theburk|tedåse|teboks|te-boks)\b/i,['茶罐','Tea Caddy']],[/\b(?:teskei|teskje|tesked|teeske|teelöffel)\b/i,['茶匙','Tea Spoon']],[/\b(?:tesil|teesieb)\b/i,['茶滤','Tea Strainer']],[/\b(?:chawan|teskål|teeskål|teeschale)\b/iu,['茶碗','Tea Bowl']]];
+types.push([/\b(?:teurne|samovar)\b/i,['茶炉','Tea Urn']],[/\b(?:tekjele|tekittel)\b/i,['煮茶壶','Tea Kettle']],[/\b(?:teebrett|tebrett)\b/i,['茶盘','Tea Tray']]);
 const limit=Number(process.env.CURATION_LIMIT||10000);
 for(const raw of await read(inputRoot+'/downloaded.json')){
  if(selected.length>=limit)break;
  if(raw.status!=='downloaded')continue;const x=raw.raw,index=raw.index,id='dimu-'+raw.id,reject=reason=>imageRejections.push({id,reason}),native=[x.title,...(x.names||[]).map(n=>n.name)].filter(Boolean).join('; ');
  const type=types.find(([re])=>re.test(native))?.[1],prod=x.eventWrap?.production||{},span=prod.timespan||{},museum=x.partOfCollection?.owner?.name;
- if(!type||!museum||!x.identifier?.id||x.artifactType!=='Thing'||(span.toYear&&span.toYear>1920)){reject('missing-native-tea-name-or-historical-production-or-identity');continue;}
+ if(!type||!museum||!x.identifier?.id||x.artifactType!=='Thing'){reject('missing-native-tea-name-or-identity');continue;}
  if(/fragment|leketøy|leksak|dockservis|del av dock|dukke|dukkehus|leksaks|lock till|ritning|fotografi|avbildning/i.test(native+' '+(x.description||''))){reject('non-independent-object-or-toy');continue;}
  if(prod.description?.includes('2. halvdel')&&span.toYear%100===49){reject('contradictory-museum-production-date');continue;}
  const recordLicenses=x.licenses||[],im=x.media?.pictures?.find(p=>p.identifier===index['artifact.defaultMediaIdentifier']),rights=im?.licenses?.length?im.licenses:recordLicenses;

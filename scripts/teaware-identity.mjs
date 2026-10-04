@@ -1,6 +1,8 @@
 // Institution + full museum object number identifies a physical object across
 // official records and licensed mirrors. Keep all part suffixes and separators.
 const institutions = new Map([
+  ['Hallwylska museet', 'hallwyl'],
+  ['Hallwylska Museum', 'hallwyl'],
   ['Rijksmuseum', 'rijksmuseum'],
   ['The Metropolitan Museum of Art', 'met'],
   ['Metropolitan Museum of Art', 'met'],

@@ -9,7 +9,7 @@ while start<int(os.environ.get('DIMU_DISCOVERY_LIMIT','2000')):
  path=ROOT/f'index-{start:04}.json'
  if path.exists(): x=json.loads(path.read_text())
  else:
-  u='https://api.dimu.org/api/solr/select?'+urllib.parse.urlencode({'q':q,'fq':os.environ.get('DIMU_FILTER','artifact.type:Thing AND artifact.hasPictures:true AND artifact.ingress.production.toYear:[* TO 1920]'),'wt':'json','rows':10,'start':start,'api.key':'demo'})
+  u='https://api.dimu.org/api/solr/select?'+urllib.parse.urlencode({'q':q,'fq':os.environ.get('DIMU_FILTER','artifact.type:Thing AND artifact.hasPictures:true AND artifact.ingress.production.toYear:[* TO 1920]'),'sort':'artifact.uniqueId asc','wt':'json','rows':10,'start':start,'api.key':'demo'})
   try:
    for attempt in range(3):
     try:
