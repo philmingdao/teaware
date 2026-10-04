@@ -1,0 +1,22 @@
+name: Retrieve open Museums Victoria tea objects
+on:
+  push:
+    branches: [expansion-6000]
+    paths: ['scripts/fetch-victoria-teaware.py', '.github/workflows/curation-victoria.yml']
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: python scripts/fetch-victoria-teaware.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: victoria-tea-images
+          path: source-probe
+          retention-days: 1
