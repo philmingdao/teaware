@@ -2,7 +2,7 @@ name: Retrieve public high-resolution tea images
 on:
   push:
     branches: [expansion-6000]
-    paths: ['.github/workflows/curation-finna-hires.yml', 'scripts/fetch-finna-hires.py', 'research/finna-hires-candidates-6000.json']
+    paths: ['.github/workflows/curation-finna-hires.yml', 'scripts/fetch-finna-hires.py', 'research/finna-hires-candidates-6000-next.json']
 permissions:
   contents: read
 jobs:
@@ -13,10 +13,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           lfs: false
-      - run: python scripts/fetch-finna-hires.py
+      - run: FINNA_CANDIDATES=research/finna-hires-candidates-6000-next.json python scripts/fetch-finna-hires.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: finna-hires-tea-images
+          name: finna-hires-tea-images-next
           path: source-probe
           retention-days: 1

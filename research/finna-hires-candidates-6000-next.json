@@ -1,0 +1,38 @@
+[
+  {
+    "id": "finna-5541b7e8108fcd",
+    "recordId": "tmk.160997084622800",
+    "imageSource": "https://museo.disec.fi/Yksa4/download/160997084622800/file/6cb4c0da-568b-43e2-b325-eb8460d69cc3",
+    "sourceUrl": "https://www.finna.fi/Record/tmk.160997084622800",
+    "rights": {
+      "copyright": "CC BY 4.0",
+      "link": "http://creativecommons.org/licenses/by/4.0/deed.en",
+      "rightsHolders": [
+        {
+          "name": "Turun kaupunginmuseo"
+        }
+      ],
+      "description": [
+        "Kuvaa käytettäessä on mainittava tekijä ja/tai valokuvaaja sekä aineistosta vastaava organisaatio."
+      ]
+    }
+  },
+  {
+    "id": "finna-c77e3f0d37744e",
+    "recordId": "tmk.160994931957600",
+    "imageSource": "https://museo.disec.fi/Yksa4/download/160994931957600/file/ef15b194-f95b-44e0-9807-0e922d1ed3d2",
+    "sourceUrl": "https://www.finna.fi/Record/tmk.160994931957600",
+    "rights": {
+      "copyright": "CC BY 4.0",
+      "link": "http://creativecommons.org/licenses/by/4.0/deed.en",
+      "rightsHolders": [
+        {
+          "name": "Turun kaupunginmuseo"
+        }
+      ],
+      "description": [
+        "Kuvaa käytettäessä on mainittava tekijä ja/tai valokuvaaja sekä aineistosta vastaava organisaatio."
+      ]
+    }
+  }
+]

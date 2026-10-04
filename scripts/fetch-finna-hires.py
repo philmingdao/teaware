@@ -1,8 +1,8 @@
 """Retrieve advertised open image URLs. Two workers, bounded downloads, no auth fallback."""
 from pathlib import Path
-import json,subprocess,time,hashlib,concurrent.futures
+import json,subprocess,time,hashlib,concurrent.futures,os
 root=Path('source-probe');root.mkdir(exist_ok=True)
-rows=json.loads(Path('research/finna-hires-candidates-6000.json').read_text())
+rows=json.loads(Path(os.environ.get('FINNA_CANDIDATES','research/finna-hires-candidates-6000.json')).read_text())
 def work(row):
  p=root/(row['id']+'.bin');time.sleep(1)
  proc=subprocess.run(['curl','--fail','--location','--silent','--show-error','--max-time','45','--max-filesize','24000000','--write-out','%{http_code}',row['imageSource'],'-o',str(p)],capture_output=True,text=True)
