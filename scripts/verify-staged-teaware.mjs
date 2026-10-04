@@ -23,13 +23,14 @@ const pool=(await read(poolPath)).selected;
 const inputs=await read(inputsPath);
 const byId=new Map(pool.map(item=>[item.artwork.id,item]));
 assert.equal(byId.size,pool.length,'Duplicate staging IDs');
+let stagedReviews={};try{stagedReviews=await read(path.join(path.dirname(poolPath),'admissions.json'));}catch(e){if(e.code!=='ENOENT')throw e;}
 const hashes=new Set();
 for(const input of inputs) {
   const item=byId.get(input.id), row=item?.artwork;
   assert(row && input.kind==='object',`Unknown staged object ${input.id}`);
   assert(!ids.has(row.id),`Existing or rejected object ${row.id}`);
   assert(!urls.has(normalizedSourceUrl(row.sourceUrl)),`Existing source ${row.id}`);
-  assert.equal(classifyTeaware(row).decision,'admit',`Tea-use evidence ${row.id}`);
+  assert.equal(classifyTeaware(row,stagedReviews).decision,'admit',`Tea-use evidence ${row.id}`);
   const key=physicalObjectKey(row);
   assert(key && !keys.has(key),`Missing or duplicate institution/accession ${row.id}`);
   assert.equal(item.rawMetadataSha256,digest(Buffer.from(JSON.stringify(item.raw))),`Metadata changed ${row.id}`);
@@ -54,6 +55,32 @@ for(const input of inputs) {
     assert(!/^couvercle\b|fragment|tesson|dessin|étude/i.test(item.raw.title),'Paris complete physical tea object');
     const html=await fs.readFile(path.join(path.dirname(poolPath),'cache',digest(Buffer.from(row.sourceUrl))+'.html'));
     assert.equal(digest(html),item.raw.htmlSha256,'Paris source-page evidence unchanged');
+   } else if(row.id.startsWith('npm-')) {
+    assert.equal(item.raw.fields['文物統一編號'][0],row.accessionNumber);
+    assert.equal(item.raw.fields['品名'][0],row.titleOriginal);
+    assert.equal(item.raw.sourceUrl,row.sourceUrl);
+    assert.equal(item.raw.imageSource,item.imageSource);
+    assert(item.imageSource.startsWith('https://iiifod.npm.gov.tw/iiif/2/'));
+    const page=await fs.readFile(path.join(path.dirname(poolPath),'cache',digest(Buffer.from(row.sourceUrl))+'.html'));
+    assert.equal(digest(page),item.raw.pageSha256);
+    assert(page.toString().includes('CC BY 4.0')&&page.toString().includes('不限用途'),'NPM explicit adaptation license');
+    assert(row.creditLine.includes('The National Palace Museum, Taipei, CC BY 4.0 @ www.npm.gov.tw')&&row.creditLine.includes('Background removed and cropped by Teaware.'));
+    if(stagedReviews[row.id]) {
+      const desc=(item.raw.fields['說明']||[]).join(' '), review=stagedReviews[row.id];
+      assert.equal(review.sourceUrl,row.sourceUrl);assert.equal(review.descriptionSha256,digest(Buffer.from(desc)));
+      assert((desc+' '+item.raw.fields['品名'].join(' ')).includes(review.sourceQuote),'Tea-use quotation missing');
+    }
+   } else if(row.id.startsWith('finna-')) {
+    const im=item.raw.imagesExtended[0],rights=im.rights;
+    assert(['CC BY 4.0','CC BY 3.0','CC BY 2.0','CC0','PDM','Public Domain'].includes(rights.copyright),'Finna primary-image license');
+    assert.equal(item.raw.identifierString,row.accessionNumber);
+    assert.equal(item.raw.title,row.titleOriginal);
+    assert.equal(classifyTeaware({...row,titleEnglish:item.raw.title}).decision,'admit','Native source name must establish tea use');
+    assert.equal(row.sourceUrl,'https://www.finna.fi/Record/'+item.raw.id);
+    assert.equal(item.imageSource,new URL(im.urls.master||im.urls.large,'https://api.finna.fi').href);
+    assert.equal(item.rawSha256,item.downloadEvidence.sha256);
+    const end=Number(item.raw.creationDateRange?.split('/')[1]?.slice(0,4));assert(end>0&&end<=1920);
+    assert(row.creditLine.includes(rights.copyright)&&row.creditLine.includes('Background removed and cropped by Teaware.'));
   } else assert.fail(`Unverified staging source ${row.id}`);
   assert.equal(input.inputPath,item.inputPath,`Unexpected image path ${row.id}`);
   const relative=path.relative(path.dirname(poolPath),item.inputPath);

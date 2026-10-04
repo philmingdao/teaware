@@ -1,0 +1,23 @@
+name: Retrieve public Walters tea-object images
+on:
+  push:
+    branches: [expansion-4000]
+    paths: ['scripts/fetch-walters-candidates.py', 'research/walters-candidates-4000.json', '.github/workflows/curation-walters.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: python scripts/fetch-walters-candidates.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: walters-tea-images
+          path: source-probe
+          retention-days: 1
