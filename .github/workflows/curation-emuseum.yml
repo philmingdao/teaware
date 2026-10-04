@@ -1,0 +1,22 @@
+name: Inspect public Korean tea collections
+on:
+  push:
+    branches: [expansion-6000]
+    paths: ['scripts/probe-emuseum-teaware.py', '.github/workflows/curation-emuseum.yml']
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: python scripts/probe-emuseum-teaware.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: emuseum-public-search
+          path: source-probe
+          retention-days: 1
