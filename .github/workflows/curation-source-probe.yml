@@ -1,22 +1,27 @@
-name: Probe public curation sources
+name: Retrieve public curation candidates
 on:
   push:
     branches: [expansion-4000]
-    paths: ['.github/workflows/curation-source-probe.yml', 'scripts/probe-curation-sources.py']
+    paths: ['.github/workflows/curation-source-probe.yml', 'scripts/fetch-npm-candidates.py', 'research/npm-candidates-4000.json']
 permissions:
   contents: read
 jobs:
-  probe:
+  npm:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2]
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: false
-      - name: Retrieve public source samples
-        run: python3 scripts/probe-curation-sources.py
+      - name: Retrieve public source candidates
+        run: python3 scripts/fetch-npm-candidates.py ${{ matrix.shard }}
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: public-curation-source-samples
+          name: npm-candidates-${{ matrix.shard }}
           path: source-probe
           retention-days: 1
