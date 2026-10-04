@@ -1,0 +1,22 @@
+name: Retrieve licensed Korean tea images
+on:
+  push:
+    branches: [expansion-6000]
+    paths: ['.github/workflows/curation-emuseum-images.yml', 'research/emuseum-candidates-6000.json']
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: python scripts/fetch-emuseum-teaware.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: emuseum-tea-images
+          path: source-probe
+          retention-days: 1

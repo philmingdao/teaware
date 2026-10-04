@@ -5,7 +5,7 @@ import {physicalObjectKey} from './teaware-identity.mjs';import {classifyTeaware
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8')),hash=b=>crypto.createHash('sha256').update(b).digest('hex'),write=async(p,x)=>fs.writeFile(p,JSON.stringify(x,null,2)+'\n');
 const baseline=await read('src/data/artworks.json'),before=await read('src/data/collection-cutouts.json');assert.equal(baseline.length,4000,'Expected verified 4000-object baseline; do not run twice');
 const admissions=await read('research/teaware-admissions.json'),exclusions=await read('research/teaware-exclusions.json'),aliases=await read('research/teaware-duplicate-aliases.json');
-const roots=['dimu-legacy','dimu-a','dimu-b','finna','emuseum'].map(x=>'output/round31-'+x),pool=[],rejected=[],allAdmissions={...admissions};
+const roots=['dimu-legacy','dimu-a','dimu-b','dimu-c','finna','emuseum'].map(x=>'output/round31-'+x),pool=[],rejected=[],allAdmissions={...admissions};
 for(const root of roots){
  try{await fs.access(root+'/cutouts/approvals.json');}catch(e){if(e.code==='ENOENT')continue;throw e;}
  const source=await read(root+'/downloaded.json'),downloads=new Map(source.selected.map(x=>[x.artwork.id,x])),records=new Map((await read(root+'/cutouts/results.json')).map(x=>[x.id,x]));

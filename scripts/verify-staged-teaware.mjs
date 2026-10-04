@@ -81,6 +81,16 @@ for(const input of inputs) {
     assert.equal(item.rawSha256,item.downloadEvidence.sha256);
     const end=Number(item.raw.creationDateRange?.split('/')[1]?.slice(0,4));assert(end>0&&end<=1920);
     assert(row.creditLine.includes(rights.copyright)&&row.creditLine.includes('Background removed and cropped by Teaware.'));
+  } else if(row.id.startsWith('emuseum-')) {
+    const x=item.raw;assert.equal(x.fields['소장품번호'],row.accessionNumber);assert(!row.accessionNumber.startsWith('건판'));
+    assert.equal(row.sourceUrl,'https://www.emuseum.go.kr/detail?relicId='+x.relicId);assert.equal(x.imageSource,item.imageSource);assert.equal(x.sha256,item.rawSha256);
+    assert.equal(x.licenseUrl,'https://www.kogl.or.kr/info/licenseType1.do');
+    const page=await fs.readFile(path.join(path.dirname(poolPath),'cache',digest(Buffer.from(row.sourceUrl))+'.html')),html=page.toString();
+    assert.equal(digest(page),x.pageSha256);assert(/https?:\/\/www\.kogl\.or\.kr\/info\/licenseType1\.do/.test(html));
+    const tag=html.match(/<img\b[^>]+id="img_0"[^>]*>/)?.[0];assert(tag,'Advertised primary image missing');
+    assert.equal('https://www.emuseum.go.kr'+tag.match(/\bsrc="([^"]+)"/)[1].replaceAll('&amp;','&'),item.imageSource);
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
+    assert(row.creditLine.includes('KOGL Type 1')&&row.creditLine.includes('Background removed and cropped by Teaware.'));
   } else if(row.id.startsWith('nmk-')) {
     assert.equal(item.raw.fields['소장품번호'],row.accessionNumber);assert(!row.accessionNumber.startsWith('건판'));
     assert.equal(item.raw.sourceUrl,row.sourceUrl);assert.equal(item.raw.imageSource,item.imageSource);
