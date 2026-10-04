@@ -1,0 +1,1099 @@
+[
+  {
+    "identifier.id": "SUM.01783",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "0126dc61-b90c-4428-8181-4c1f40daebb3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025136248",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Empironamentikk på skaft og legg. Ovalt blad",
+    "artifact.ingress.producer": "Beyer, Peder Christensen",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1774,
+    "artifact.ingress.production.toYear": 1808,
+    "artifact.updatedDate": "2026-06-10T05:13:11.985Z",
+    "artifact.publishedDate": "2014-09-09T13:58:07.779Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Teskei",
+      "Sølvskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2kSim2t",
+    "artifact.defaultPictureIndex": 16361,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.03176",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "15435480-8d78-4e82-aa7f-cdf0819b6d1d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025140500",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Dråpeforma blad og vridd skaft. Enden på skaftet har stipla gravert bord og gravert blomstermotiv",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-06-10T05:15:07.058Z",
+    "artifact.publishedDate": "2014-09-09T14:20:39.018Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2rosgHB",
+    "artifact.defaultPictureIndex": 22793,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.03177",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "0187a549-de00-47b2-8307-2848c6814bb1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025140514",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Dråpeforma blad og skaftmed vridd mønster. Enden på skaftet har stipla gravert bord og gravert akantusmotiv",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-06-10T05:15:07.257Z",
+    "artifact.publishedDate": "2014-09-09T14:20:40.495Z",
+    "artifact.ingress.classification": [
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rosgMW",
+    "artifact.defaultPictureIndex": 16367,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.03178",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "b46b6cd1-fc35-4941-92c4-ef59fc218ffe",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025140556",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Dråpeforma blad og søyleforma skaft. Enden på skaftet har stipla gravert bord og gravert blomstermotiv",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-06-10T05:15:07.287Z",
+    "artifact.publishedDate": "2014-09-09T14:20:46.424Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rosgMa",
+    "artifact.defaultPictureIndex": 22796,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.04220",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "caca935e-4660-4a7d-b529-2dbaed655849",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025144709",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "spatellforma skaft",
+    "artifact.ingress.producer": "Larsen, Cornelius",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1816,
+    "artifact.ingress.production.toYear": 1816,
+    "artifact.updatedDate": "2026-06-10T05:16:29.306Z",
+    "artifact.publishedDate": "2014-09-09T14:34:15.642Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Etereiskap",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rrpds9",
+    "artifact.defaultPictureIndex": 16341,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.04221",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "aab3b281-0b9e-453c-b259-1300881bd953",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025144713",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "spatellforma skaft",
+    "artifact.ingress.producer": "Iversen d.e., Rasmus Andreas",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1840,
+    "artifact.ingress.production.toYear": 1840,
+    "artifact.updatedDate": "2026-06-10T05:16:29.479Z",
+    "artifact.publishedDate": "2014-09-09T14:34:16.614Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Etereiskap",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2rrpdsC",
+    "artifact.defaultPictureIndex": 16343,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.04222",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "cb15cfcc-382e-4947-9cfc-a16b7903c7a7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025144716",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Form: old english\n",
+    "artifact.ingress.producer": "Børs, Torbjørn Ludvig Synnestvedt",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1869,
+    "artifact.ingress.production.toYear": 1869,
+    "artifact.updatedDate": "2026-06-10T05:16:29.649Z",
+    "artifact.publishedDate": "2014-09-09T14:34:17.936Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "272.21",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Etereiskap",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rrpdsE",
+    "artifact.defaultPictureIndex": 16345,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.04223",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "c623af71-bd5d-45d6-ad51-146aacc32d62",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025144719",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Form: old english\n",
+    "artifact.ingress.production.fromYear": 1890,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2026-06-10T05:16:29.722Z",
+    "artifact.publishedDate": "2014-09-09T14:34:18.926Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Etereiskap",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rrpdwX",
+    "artifact.defaultPictureIndex": 16348,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.04224",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "1f3c1a27-d1af-4d1a-93c4-c341353f1f6f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025144721",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Form: fiolinforma skaft, rokoko. Enkel rifla rand rundt skaft. Stempel er forsvunne i samband med ein reparasjon.",
+    "artifact.ingress.production.fromYear": 1850,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-06-10T05:16:29.855Z",
+    "artifact.publishedDate": "2014-09-09T14:34:19.882Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Etereiskap",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rrpdwb",
+    "artifact.defaultPictureIndex": 16350,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.04225",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "946a811e-d469-4a4c-940c-09b7e2e406a3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025144723",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Form: fiolinforma skaft, rokoko\n",
+    "artifact.ingress.production.fromYear": 1850,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-06-10T05:16:29.819Z",
+    "artifact.publishedDate": "2014-09-09T14:34:20.811Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.21",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Etereiskap",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rrpdwd",
+    "artifact.defaultPictureIndex": 16352,
+    "artifact.defaultPictureDimension": "4272x2848"
+  },
+  {
+    "identifier.id": "SUM.04406",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "2fedc143-0635-4283-a515-4abdec4108f2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025145042",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Spatellforma skaft",
+    "artifact.updatedDate": "2026-06-10T05:16:43.574Z",
+    "artifact.publishedDate": "2014-09-09T14:37:14.217Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21",
+      "412"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Sølvskei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rrqKD3",
+    "artifact.defaultPictureIndex": 16619,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06442",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "edd32711-1650-45dd-ba8a-0021336694de",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025147698",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:19:45.111Z",
+    "artifact.publishedDate": "2014-09-09T14:58:14.870Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Kaffiskei",
+      "Skei til å røre i drikke med"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rupdUF",
+    "artifact.defaultPictureIndex": 19268,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.08577",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "55fd6b74-2dcd-4188-929e-3a2bccac6708",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025151729",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Forma på skeia har trekk frå empirestilen. Langt skaft med smal legg og breiare spiss ende. Pæreforma, djupt blad. Gravering langs heile skaftkanten og på endeflata. Kan vere empire.",
+    "artifact.ingress.producer": "Angell-Jakobsen",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1810,
+    "artifact.ingress.production.toYear": 1830,
+    "artifact.updatedDate": "2026-06-10T05:23:01.249Z",
+    "artifact.publishedDate": "2014-09-09T15:31:54.007Z",
+    "artifact.ingress.classification": [
+      "264",
+      "326.81",
+      "326.85"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Sølvskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rzGbmh",
+    "artifact.defaultPictureIndex": 21572,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.10073",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "8b71fe5c-108c-4798-938d-61ac9b27e97c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025154195",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:25:21.739Z",
+    "artifact.publishedDate": "2014-09-09T15:49:55.336Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2yMRBA3",
+    "artifact.defaultPictureIndex": 11178,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.10143",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "a66c197f-67b8-4587-829a-614fcf13c203",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025154635",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:25:29.088Z",
+    "artifact.publishedDate": "2014-09-09T15:52:23.499Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2yNsUsv",
+    "artifact.defaultPictureIndex": 11183,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.10144",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "68967d51-1f01-4e7f-a316-390a8f138763",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025154638",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:25:29.110Z",
+    "artifact.publishedDate": "2014-09-09T15:52:24.440Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2yNsUxF",
+    "artifact.defaultPictureIndex": 11179,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.10145",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "485c567a-29e7-4f35-af17-a27ff9439671",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025154640",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:25:29.200Z",
+    "artifact.publishedDate": "2014-09-09T15:52:25.990Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2yNsUxG",
+    "artifact.defaultPictureIndex": 11177,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.10146",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "c7f78e69-cfc7-4929-9ed8-635e531a095b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025154643",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Fire ulike teskeier av stål",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:25:29.548Z",
+    "artifact.publishedDate": "2014-09-09T15:52:27.646Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.21"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Teskei",
+      "Teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2yNsUxN",
+    "artifact.defaultPictureIndex": 11180,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "MFF6888",
+    "identifier.owner": "S-MFF",
+    "artifact.uuid": "2a32a667-35dd-4867-ac67-fe8b18e733e5",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211691097",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Theburk av tenn",
+    "artifact.ingress.description": "Theburk, \"plunta\", i pressad tenn med ornament i brunt och rött. Gåva av Thea Jansson, Bäck, Indal.",
+    "artifact.updatedDate": "2023-11-20T10:52:15.138Z",
+    "artifact.publishedDate": "2022-06-06T04:07:23.586Z",
+    "artifact.ingress.classification": [
+      "272",
+      "326",
+      "415"
+    ],
+    "artifact.ingress.names": [
+      "Theburk av tenn"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE6jesHe26",
+    "artifact.defaultPictureIndex": 20843,
+    "artifact.defaultPictureDimension": "1166x1706"
+  },
+  {
+    "identifier.id": "GFC10570_288 d",
+    "identifier.owner": "S-GOM",
+    "artifact.uuid": "478ccc6b-8e73-4f32-ab05-b5524c9e5c8b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213409578",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Flintgods med svagt gröntonad glasyr vilket tyder på att detta är en tidig glasyr. Överföringstryck i bruna nyanser. Med blomsterbårder och centralt placerade scener på kvinnor i landskapet. Troligen 1800-talets första del. 2008-04-04 M.N, HGO. FMA.\nFRÅN  --. INKÖP, ELIN PERSSON ANTIKHANDEL, VISBY. DIAM. 14 CM. H. 3 CM.. PORSLIN. VITGLASERAT PORSLIN MED BRUNT TRYCKT MÖNSTER PÅ KOPPENS UTSIDA OCH - I EN 2 CM. BRED RAND- PÅ FATETS INSIDA: TVÅ KVINNOR I FOTSIDA KLÄDNADER SITTER I ETT LANDSKAP MED ANTYDD GRÖNSKA, SOL OCH EN VULKAN. DEN ENA HÅLLER EN ORM, DEN ANDRA EN URNA MED BRINNANDE OLJA. PÅ EN MUR STÅR EN KORG MED FRUKTER M.M. DESSUOTM BLOM- OCH BLADORNAMENT.. . ADA BLOCKS BOHAG, GÅVA TILL GOTLANDS FORNSAL.",
+    "artifact.updatedDate": "2026-05-05T09:50:28.205Z",
+    "artifact.publishedDate": "2023-04-24T10:01:15.327Z",
+    "artifact.ingress.classification": [
+      "272",
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Kulturhistoria"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tekoppsfat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5ESes1F5",
+    "artifact.defaultPictureIndex": 25033,
+    "artifact.defaultPictureDimension": "1200x895"
+  },
+  {
+    "identifier.id": "DM 16795-577",
+    "identifier.owner": "S-DM",
+    "artifact.uuid": "1ccd5d6b-8c00-4bca-af98-98d0a7b0a4d0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213571042",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Burk",
+    "artifact.ingress.description": "Burk för thé innehållande diverse småsaker.\n\nText: 'Lundgrens imperial Ceylon thé.\n\nTillhör Erik Åkerströms skomakarverkstad ifrån Sifferbo, Gagnef.\n\nGåva sommaren 1993.",
+    "artifact.updatedDate": "2025-05-29T05:02:03.053Z",
+    "artifact.publishedDate": "2023-06-16T03:38:46.916Z",
+    "artifact.ingress.classification": [
+      "294"
+    ],
+    "artifact.ingress.subjects": [
+      "Skomakeri",
+      "Hantverk och industri"
+    ],
+    "artifact.ingress.names": [
+      "Burk",
+      "Theburk"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5EtkZ2nH",
+    "artifact.defaultPictureIndex": 144453,
+    "artifact.defaultPictureDimension": "3238x4000"
+  },
+  {
+    "identifier.id": "NFM.1988-00506",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "da678dcd-42ec-46cc-a2cb-f755007ba33b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026280504",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Lita skei. Enkelt strekmønster. Truleg bitemerker i skeibladet. Truleg brukt til barneskei.",
+    "artifact.ingress.production.toYear": 1872,
+    "artifact.updatedDate": "2026-06-10T04:58:28.708Z",
+    "artifact.publishedDate": "2016-02-23T05:11:31.163Z",
+    "artifact.ingress.classification": [
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Barndom"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "Barneskei",
+      "Sølvskei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wZ19vjyR9",
+    "artifact.defaultPictureIndex": 27517,
+    "artifact.defaultPictureDimension": "3272x818"
+  },
+  {
+    "identifier.id": "NFM.0000-07293-1",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "f67985e0-06af-4911-bd93-3cfb72683ad9",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027038276",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei.",
+    "artifact.ingress.producer": "Oneida Community Limited",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1913,
+    "artifact.ingress.production.toYear": 1930,
+    "artifact.updatedDate": "2026-06-10T04:51:28.722Z",
+    "artifact.publishedDate": "2017-06-14T06:04:33.553Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "795"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Sølv",
+      "Religiøs sekt",
+      "Kommunisme",
+      "Blome"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUaBTbSu",
+    "artifact.defaultPictureIndex": 32861,
+    "artifact.defaultPictureDimension": "3208x964"
+  },
+  {
+    "identifier.id": "NFM.0000-07293-2",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "72ab023e-98b2-43b9-8b1a-c70a19ddb261",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027038282",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei.",
+    "artifact.ingress.producer": "Oneida Community Limited",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1913,
+    "artifact.ingress.production.toYear": 1930,
+    "artifact.updatedDate": "2026-06-10T04:51:29.070Z",
+    "artifact.publishedDate": "2017-06-14T06:04:37.374Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "795"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Sølv",
+      "Religiøs sekt",
+      "Kommunisme",
+      "Blome"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUaBTbXJ",
+    "artifact.defaultPictureIndex": 32863,
+    "artifact.defaultPictureDimension": "3116x880"
+  },
+  {
+    "identifier.id": "NFM.0000-07293-3",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "d625874a-77e8-41b9-82a3-7d84834e7562",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027038290",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei.",
+    "artifact.ingress.producer": "Oneida Community Limited",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1913,
+    "artifact.ingress.production.toYear": 1930,
+    "artifact.updatedDate": "2026-06-10T04:51:29.103Z",
+    "artifact.publishedDate": "2017-06-14T06:04:40.924Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "795"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Sølv",
+      "Religiøs sekt",
+      "Kommunisme",
+      "Blome"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032ykUaBTbbf",
+    "artifact.defaultPictureIndex": 32865,
+    "artifact.defaultPictureDimension": "2776x791"
+  },
+  {
+    "identifier.id": "NFM.0000-07293-4",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "0a50fd8f-9592-422b-9b44-e8647c5442c9",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027038295",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei.",
+    "artifact.ingress.producer": "Oneida Community Limited",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1913,
+    "artifact.ingress.production.toYear": 1930,
+    "artifact.updatedDate": "2026-06-10T04:51:29.052Z",
+    "artifact.publishedDate": "2017-06-14T06:04:44.216Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "795"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Sølv",
+      "Religiøs sekt",
+      "Kommunisme",
+      "Blome"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUaBTvPq",
+    "artifact.defaultPictureIndex": 32867,
+    "artifact.defaultPictureDimension": "2692x779"
+  },
+  {
+    "identifier.id": "NFM.0000-07293-5",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "af405c1a-8ecc-4888-890e-c71b09838e73",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027038304",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei.",
+    "artifact.ingress.producer": "Oneida Community Limited",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.ingress.production.fromYear": 1913,
+    "artifact.ingress.production.toYear": 1930,
+    "artifact.updatedDate": "2026-06-10T04:51:29.572Z",
+    "artifact.publishedDate": "2017-06-14T06:04:49.072Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "795"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Sølv",
+      "Religiøs sekt",
+      "Kommunisme",
+      "Blome"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUaBTvPy",
+    "artifact.defaultPictureIndex": 32869,
+    "artifact.defaultPictureDimension": "3077x814"
+  },
+  {
+    "identifier.id": "NFM.0000-07303",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "e08c0ce5-3a96-43b4-8588-0468b2ae4218",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027052979",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei. Særs lett. Aluminium.",
+    "artifact.updatedDate": "2026-06-10T04:51:31.210Z",
+    "artifact.publishedDate": "2017-06-27T06:01:56.765Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Andre verdskrig",
+      "Blome"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUoJ1ukR",
+    "artifact.defaultPictureIndex": 33092,
+    "artifact.defaultPictureDimension": "3080x1956"
+  },
+  {
+    "identifier.id": "NFM.1987-00043",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "701bfd19-b936-439e-8ab1-fd801fa51423",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027053077",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "2 teskeier. Skaftenda er profilert. Truleg av aluminium. Dei er lette.",
+    "artifact.updatedDate": "2026-06-10T04:57:23.412Z",
+    "artifact.publishedDate": "2017-06-27T06:02:43.821Z",
+    "artifact.ingress.classification": [
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Kaffiservering",
+      "Måltid",
+      "2. verdenskrig",
+      "Andre verdskrig"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUoJ2aQX",
+    "artifact.defaultPictureIndex": 33106,
+    "artifact.defaultPictureDimension": "2832x2520"
+  },
+  {
+    "identifier.id": "NFM.1987-00043-1",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "fe755714-c2c2-46e1-af4f-64722bf17d8c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027053088",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskei. Skaftenda er profilert. Truleg av aluminium. Lett.",
+    "artifact.updatedDate": "2026-06-10T04:57:23.975Z",
+    "artifact.publishedDate": "2017-06-27T06:02:47.479Z",
+    "artifact.ingress.classification": [
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Kaffiservering",
+      "Måltid",
+      "2. verdenskrig",
+      "Andre verdskrig"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUoJ2aZP",
+    "artifact.defaultPictureIndex": 33104,
+    "artifact.defaultPictureDimension": "3232x1588"
+  },
+  {
+    "identifier.id": "NFM.1987-00043-2",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "089ba1c5-289c-46ce-8e1d-96e1bcb0da91",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027053099",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Teskeier. Skaftenda er profilert. Truleg av aluminium. Lett.",
+    "artifact.updatedDate": "2026-06-10T04:57:23.719Z",
+    "artifact.publishedDate": "2017-06-27T06:02:50.695Z",
+    "artifact.ingress.classification": [
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Kaffiservering",
+      "Måltid",
+      "2. verdenskrig",
+      "Andre verdskrig"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUoJ2adu",
+    "artifact.defaultPictureIndex": 33102,
+    "artifact.defaultPictureDimension": "2852x2120"
+  },
+  {
+    "identifier.id": "NFM.1988-00466",
+    "identifier.owner": "NFM",
+    "artifact.uuid": "125e21d2-0b56-4329-8179-d0da6140a423",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027053109",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Skei",
+    "artifact.ingress.description": "Aluminium. Særs lett. Stripe midt på skaft som dekor.",
+    "artifact.updatedDate": "2026-06-10T04:58:26.866Z",
+    "artifact.publishedDate": "2017-06-27T06:02:54.335Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "328"
+    ],
+    "artifact.ingress.subjects": [
+      "Bestikk",
+      "Borddekking",
+      "Måltid",
+      "Kaffiservering"
+    ],
+    "artifact.ingress.names": [
+      "Skei",
+      "teskei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ykUoJ2and",
+    "artifact.defaultPictureIndex": 33107,
+    "artifact.defaultPictureDimension": "2892x1000"
+  }
+]
