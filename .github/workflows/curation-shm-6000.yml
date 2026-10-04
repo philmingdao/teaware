@@ -1,0 +1,22 @@
+name: Retrieve open SHM tea object photographs
+on:
+  push:
+    branches: [expansion-6000]
+    paths: ['.github/workflows/curation-shm-6000.yml', 'scripts/fetch-shm-teaware.py']
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: python -u scripts/fetch-shm-teaware.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shm-open-tea-photographs
+          path: source-probe
+          retention-days: 1
