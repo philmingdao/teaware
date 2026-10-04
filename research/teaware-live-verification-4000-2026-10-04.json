@@ -1,0 +1,403 @@
+{
+  "verifiedAt": "2026-10-04T13:25:39.469Z",
+  "site": "https://philmingdao.github.io/teaware/gallery/",
+  "catalogueCount": 4000,
+  "uniqueTransparentUrls": 4000,
+  "liveCatalogueEqualsBuild": true,
+  "catalogueSha256": "fc9b413603a79cb555a26b9a3963877f758b73d9a235c2f069f753868a2f6bfa",
+  "sampledImageCount": 48,
+  "allSampledHashesMatched": true,
+  "samples": [
+    {
+      "id": "npm-1073",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/3ea9e176f25176fb15e08d92d5c9200af31ce4ad1f9b9bb90355ac624ffbae7c.webp",
+      "sha256": "89461e4e0e7fed02fe62a94ca26aa6192789edae9b3cc4ee766f6a13f1b89066",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 27930
+    },
+    {
+      "id": "dimu-011023139238",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/8cdd142d4a12e5922868792c3821b525ed279053500aa307fdc13be2e796eabe.webp",
+      "sha256": "d9b5e54622c7d58147ce375f17246eeff7b0a4d19a9ec7ebc17169fe3bebe888",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 34908
+    },
+    {
+      "id": "dimu-011024605477",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/fbe39ea242dcf7bf8b7750cb26a5b89a8a16dbb0b55cf75273e1f844dd9ec6d3.webp",
+      "sha256": "2346b16dd19dacf77cb3ec723c15fdefe5db987bbaa71664379ca8ea0289b26f",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 90392
+    },
+    {
+      "id": "nmk-103040",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/698de6ea585a499e4c7beb5130234fd1c0c7704628cf7c411a98c5f29054d584.webp",
+      "sha256": "2d669ef394f1e009e95e19ebacf7261fce94a1e0edcbfa93a9d835189d4f4e02",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 69138
+    },
+    {
+      "id": "dimu-0210213373040",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/a9c4133a6476024f4398e0468a3e99531986741122976c26e0811ef7a0bf08a2.webp",
+      "sha256": "e640012bf1daced5138abb48991aafbf9956aabda5e774bb76f15279354e3587",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 57658
+    },
+    {
+      "id": "nationalmuseum-06882dfae28689",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/3942e7dfdbe89efdeb99dd2e7470d755441d4b2d09b2222f7c42ea9773183431.webp",
+      "sha256": "dfd9a02c766112060d40a874ddcadea468cfe240a2bb06dee15809f8522550e8",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 101192
+    },
+    {
+      "id": "finna-05d4e7f9172af7",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/2063ec46c2cd67860b6c9452f4adc887fd214587751635169a57493f32865381.webp",
+      "sha256": "7db951ad101d2f7ee6cab72559042d34c8c11899aa4f0e575d794e44a3cc4090",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 50118
+    },
+    {
+      "id": "finna-07ac445a4a8962",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/5a2466b7dec0de488a83fe4c102d69ae56b6a1060c808cd98ba6abe45985c4ab.webp",
+      "sha256": "8d2419c015a03d0158854a73fcb20142e559508f6c92923eabffe5d02f326038",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 121720
+    },
+    {
+      "id": "finna-17c8288da686ad",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/99020b18dce0df9f9569642c82dec4b6b8653e62ec542b6cbb306b7e5663819f.webp",
+      "sha256": "bd5cfd2c1c85e48210bf1ceffeafa52d7de718dfc1e14bdc559fbf3c89f235b5",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 57128
+    },
+    {
+      "id": "finna-07f91ff8a54bac",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/f2a2b5bb6d7791b61ddcc437b0e1e30629a4b9acaf60ae255eeeadafdecc1e31.webp",
+      "sha256": "6ca8ce6609342beb345664c1e5ace0eba32561d51caac5d9f64eb8fa4981d634",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 103438
+    },
+    {
+      "id": "finna-18a5817afeff31",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/1e3a8c8538d4ddfd6fae196157717ca2dcbebfa83a101b819bbaf7ca802db2bf.webp",
+      "sha256": "cd6e4da8b4033674fa879ee2baee47838a00355d22140f8cbedc35deec1a2ace",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 70222
+    },
+    {
+      "id": "finna-0eaea7b33d9651",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/b3620891904835c8d188726e339b23fc0543d7eddf5905349877e43618c79969.webp",
+      "sha256": "bb1dcff82b5f70b57e2d1082214006b362225d99ed06cd2db7d48c7ae8e5a19e",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 69500
+    },
+    {
+      "id": "finna-22af37c852a232",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/ee30c2a63ca33a946d32fcb0a0a8f0c8b3090e61776d938b70007de9dba4de9c.webp",
+      "sha256": "eb6a8847ad60b8fce8efe7dfdaa42e1fedd00c221f18469fac615822c2e5d3f7",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 64230
+    },
+    {
+      "id": "finna-2fb74b62ecae73",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/254681f1d9b18af6d3f9d905a1442d7df0e53ac640688ebd1f37d402e4e6f456.webp",
+      "sha256": "cbdcac559c41693c41ae0c24c4acfa5bd1b79f1cb86b2b4783178215d39f4c7f",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 60870
+    },
+    {
+      "id": "finna-31c08ac8ae8c8c",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/f84058fae4ca24f6955bad2f05235936ab5b1eecf908251d0119a80bc9001237.webp",
+      "sha256": "d22b4ef895f2ceba55712bac47c84f7571ba02e87265d0ca989cf686d8a05a3d",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 79616
+    },
+    {
+      "id": "finna-354194030d051d",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/29be6c4f4baf2ff570d3e3a77265a324a0ee8aa6910a9cba3f7690fdee330638.webp",
+      "sha256": "ed124cc7f26ad0ef1d7e714275c91285cc97149b786099f5051cc8b6fc54a5ae",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 93980
+    },
+    {
+      "id": "finna-4355c887b1832f",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/d4214bf9c5415998d2d975040270ea33579c7443a4084d4de953b3128daa3f5c.webp",
+      "sha256": "258b1de592b1c9f416fc84e3ed3a6f8b7a9ef6d0bccbc54a6fef35744504ca40",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 126694
+    },
+    {
+      "id": "finna-66339fba1a1d4b",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/e316952b3d5426173152e3b75cb2d2e51ad98ce2e2a9d4d99adb10348bf99273.webp",
+      "sha256": "01b3d3ff19523cce3eba797f87410b10560dafdb759d4a4d27e29242f61852aa",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 73616
+    },
+    {
+      "id": "finna-7bbf0eff1d6942",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/911f39f6060da4075cc2edb74d44c7093a7cdfedd4b54b4ea73e81cd261b839e.webp",
+      "sha256": "8ed541c3d4154fc08764a907af66f728c00e0069f584dc4096443c10440b9028",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 61348
+    },
+    {
+      "id": "finna-a67df61466e9b6",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/aa02e5030a817e5b18f22538295419d42893014b90cd0f5eb70f0cb8df2ea0c9.webp",
+      "sha256": "b9faaa02a9c20f6fc8a61dcd920ce7037c0f7a4e19598e2de53b3e2b49dba97b",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 111436
+    },
+    {
+      "id": "finna-26a44d9fd4a888",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/c58c31738d61d9d34fdeca33aed7116a3f2a635e0f19ace56ae23ab647fadc44.webp",
+      "sha256": "6dd85ee00a642cb76773d9dab15a744047050ec99334f6af95da57b4687ab943",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 53010
+    },
+    {
+      "id": "finna-306eb4d04585c2",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/75f3334ffb01b4f62dd30c557a0bd2baa913df79adc417dc2ac55c6b2c8aa6ed.webp",
+      "sha256": "6d528e23cef59c9082225ff5811dac1da323b7867db4f1702652ed59db39b9e4",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 38706
+    },
+    {
+      "id": "dimu-011025172496",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/de7951000a6d798ba32bd37643476342ee12a830d370b9d582db4c994f4bfab7.webp",
+      "sha256": "3cd32c1142549a796dae0a6fb977aa6301afaab2dd5e4b2edefe17354230ff8f",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 62292
+    },
+    {
+      "id": "dimu-011025132021",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/a909d52cd6f707e58dfd563e6d70083c68aab27b4fe96a5731b44043dde57e6f.webp",
+      "sha256": "a27602b4e82928563620d561d7375380344783bf3630aa637c4efee53a106c80",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 71482
+    },
+    {
+      "id": "dimu-011025210696",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/10d32e517e4d2c1c45a3341879e561795a8dd6fd76653ba050f124ed34d88be7.webp",
+      "sha256": "8626e18df0b9cdbef1085916983e93b4aa93581ffba29057f7398ce04ebe6e64",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 90684
+    },
+    {
+      "id": "dimu-011025259099",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/5bd5aa666d9577846260b8fc65de8ac948c833ab8076303ee7897124af693c02.webp",
+      "sha256": "677fa79b32efc495d20ad7d22885aba79c06ca9842a071b874e2f20429a7799f",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 92326
+    },
+    {
+      "id": "dimu-0210211406933",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/d3d9e20165f5f47a3e7bd541c60491692d39782e48529725b8911733a5ae98a7.webp",
+      "sha256": "88c38c1e23e4e18e0e28e4dcdfbde4f98f1136f04c0fd66bca6cabb95a4bb0b0",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 32030
+    },
+    {
+      "id": "dimu-0210211658500",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/357401075cdb4be38cff649c8af67aed4aa2f21f142db8509e9cd9cea6bc114b.webp",
+      "sha256": "c28c24322f2f056fe98bf4129bc5bd3f8c2cd6ab715c4816acf5b6205dd515a3",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 141652
+    },
+    {
+      "id": "dimu-0210211876850",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/0ecdf781c9053fa92505a1294118098e1304a69d42f9c19c93af763ac365a10d.webp",
+      "sha256": "1ed8353856e4e48c7b555195d040e7c8a6dfe4c1a124e3233ec6fa428b687767",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 63088
+    },
+    {
+      "id": "dimu-0210213553389",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/9e541f6ed29ddee3963f178ceaba62274b943e2a3748b9ca1d829a298c814ebb.webp",
+      "sha256": "1185c1ed21e0324768b113901ec295cbaf89060171cce1392445172adf8fb533",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 48636
+    },
+    {
+      "id": "dimu-021025493043",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/fc1f89cb7cc85244d6d3eb19d2c07037ce1ef6a7f9f452c6e7bd7bae767bd2fd.webp",
+      "sha256": "e2440edf8867ee6cc2b09b215fff41e56c7803ae5f8ec89e56bcdb2827ff2a37",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 110456
+    },
+    {
+      "id": "dimu-021025572844",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/db0bc01361e3e8fe349f7b1d909ef406375acb0ea03340383345f24ea42055ee.webp",
+      "sha256": "71cfce82d8ffcd28689f98f7589790e11177ac5f16ca118615f4011541213e85",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 98722
+    },
+    {
+      "id": "dimu-021025969669",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/064498faccaa3f006a55d5d4e7d920e8bc63859eaa57b4b4cba783e3176d0738.webp",
+      "sha256": "fd6f9e42cb7df2c5aef4c55f50bc3fc60a1ac95f2ef88d3ae20df5ce978f2595",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 98204
+    },
+    {
+      "id": "dimu-021026330172",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/dc3a1484814b7a9b733b69a8a8e31455afe5d074d5ea48348ee0646a6d378627.webp",
+      "sha256": "4a631bcda0b39eaac208b45cdd7c2287c88a34263f72ad66e444f1717f53916b",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 46824
+    },
+    {
+      "id": "npm-1472",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/8bd1748f3e551f638000c76b7ab6772de87411129c7e246fc30f891c715921c9.webp",
+      "sha256": "e916c8dfb47068d676097ee5bf88877f1adf48ff236e29312b435b406ff4b6f0",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 49914
+    },
+    {
+      "id": "npm-27351",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/2e32741a486cc453fe7dd28ab30f64cded0d0a8c8614118f08285f1868c6f46f.webp",
+      "sha256": "2c7c17cb22cfecad3a6b3775400133ad024e1522e6a974cc3db2b5f97b4ce6c2",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 46846
+    },
+    {
+      "id": "npm-37530",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/46e784f609bc02c940d8340e1e2b4a0061edda2eeddd5acc8cc847485070c47c.webp",
+      "sha256": "543183f0581ea25c0f4244d30fba690ca8cfd805d6baaabfd931905033b9a62c",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 42192
+    },
+    {
+      "id": "npm-77114",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/b9782316c2572d975c047f2230f04c61d7e6e1de63876f79d5b3c18106673437.webp",
+      "sha256": "87b4cba157778114ab0989b6948eed66a97f676a939946391667a9c0a3a230d4",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 95084
+    },
+    {
+      "id": "dimu-011023204431",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/3876132420c2362742ba4a328fa713e8089eb84f50885365f568b8517a5ac88a.webp",
+      "sha256": "578d4135b877cc85499ca07ae0bb0487018e6c901cd3a1af3edab7bd0064a18d",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 64454
+    },
+    {
+      "id": "finna-5a81f1ac1ec17a",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/a43a13a1d38b9e470ca1bfa5f52f9c0f5b70d1b35dd91d39225a9fbfd3a9f869.webp",
+      "sha256": "dc9d3e5171f2f30cda137af3557b01102090550c8f3b8d3a522588c06a07372a",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 50726
+    },
+    {
+      "id": "dimu-011023171492",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/2ab599ebaf2690354c804cb93dbb84e98b408cdc4737ffab602117ac4be5c348.webp",
+      "sha256": "34c8585e98aa6276f39ca99e46b0056c8f659fe3459e121bd3b64f9e6efde332",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 32392
+    },
+    {
+      "id": "finna-ef294059f53cde",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/e1b3b69de7ea0e3711f7849d47aeb469eb64ddbf066d819109dbc48ba8aba4dd.webp",
+      "sha256": "0633222634fdbabb5332ae11e49817bee124be078e042d2ceffe515f437bc51e",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 155288
+    },
+    {
+      "id": "va-O73977",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/c94d7f7d4f44e576636f16eef607f860439a00f51f629070516e809af6290229.webp",
+      "sha256": "ea4980b354603c8c93a7622563bf2b4ce346aa903b0b7f1cc4bdc236db229fa5",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 164002
+    },
+    {
+      "id": "si-fsg-F1898.486a-b",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/e16273c77fc216c51c7208fa5510d53d07ecc33845c771fde914a16e64d992fa.webp",
+      "sha256": "9c2dc5e650c8b4efb8a97e77e876ccb3550ca861bae0f70b80a79e3a8840ebce",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 37558
+    },
+    {
+      "id": "va-O184576",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/7a7bae1e6d27e6a3723defba2fc82d60d2389efd13a8b4ad6d51d4b5d049b0ae.webp",
+      "sha256": "4b45dd9ddf42fa83bcc0202de40fdaeeb7fd55212738110444ed653af482d0a7",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 34974
+    },
+    {
+      "id": "colbase-kyohaku-2805",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/e1976768d26c81c9e58c081fff024c3e79e667e5e1f4c19ec4ff67884ebb6338.webp",
+      "sha256": "2f2987dfeb29e87101db4c741bb1ac6af5c1240aeb3846ac386520e9be49eab7",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 63906
+    },
+    {
+      "id": "paris-musee-cernuschi-183578",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/215039190b6c99aa20af031edcf2410e1961c5d9d81e37849c6f01526766bc56.webp",
+      "sha256": "5a57b97bb32707cdafb8339064557630404c62fef9940029c8d89a30f8da5b04",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 52400
+    },
+    {
+      "id": "mia-10201",
+      "url": "https://philmingdao.github.io/teaware/collection-cutouts/5cca8a28fc8be0ee7f7b1b738d004dc66e01ffe4eeeeb5dd1961b24fc9525857.webp",
+      "sha256": "ff6aef51479c0872673da9362e8dd35c9c7a566ae35c0bc5fcdf1a24b236bcc8",
+      "alpha": true,
+      "width": 1200,
+      "bytes": 161376
+    }
+  ],
+  "deployment": {
+    "commit": "3fc08049c8ba2e7687da82b1d29dd365a97ddc94",
+    "workflowRun": 37205264692,
+    "conclusion": "success",
+    "url": "https://github.com/philmingdao/teaware/actions/runs/37205264692"
+  },
+  "browserVerification": "Production gallery displayed 4000 objects after reload."
+}

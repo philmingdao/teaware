@@ -29729,6 +29729,15 @@
     "build": "next build --webpack + package-collection-images",
     "policyTests": 11,
     "baselineUnchanged": true,
-    "online": "pending"
+    "online": {
+      "verifiedAt": "2026-10-04T13:25:39.469Z",
+      "catalogueCount": 4000,
+      "uniqueTransparentUrls": 4000,
+      "liveCatalogueEqualsBuild": true,
+      "sampledImageCount": 48,
+      "allSampledHashesMatched": true,
+      "workflowRun": 37205264692,
+      "proof": "research/teaware-live-verification-4000-2026-10-04.json"
+    }
   }
 }
