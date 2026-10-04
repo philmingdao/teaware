@@ -1,0 +1,279 @@
+[
+  {
+    "identifier.id": "AM.076204",
+    "identifier.owner": "S-AM",
+    "artifact.uuid": "d76b769d-e7c8-4866-afb7-82c7b0293e4d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024433740",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Dosa",
+    "artifact.ingress.description": "Grupp I:II \n\nTillhör äldre sjukvårdsmateriel.",
+    "artifact.updatedDate": "2026-05-22T03:31:36.576Z",
+    "artifact.publishedDate": "2014-08-13T02:27:48.410Z",
+    "artifact.ingress.subjects": [
+      "Sjukvård"
+    ],
+    "artifact.ingress.names": [
+      "Dosa",
+      "Dosa av järnbleck innehållande tre teskedar"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042sB3QNq8ei",
+    "artifact.defaultPictureIndex": 104734,
+    "artifact.defaultPictureDimension": "1538x1110"
+  },
+  {
+    "identifier.id": "VM17372:1-4",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "e34954c8-ab94-4b02-8ef7-0d47bea2bdfd",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025174813",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEKOPPAR",
+    "artifact.ingress.description": "Tekoppar ''blå eld'' vit kopp med blått fat.",
+    "artifact.ingress.production.place": "Sverige, Västergötland, Västra Götaland, Lidköping, Lidköping",
+    "artifact.ingress.producer": "Rörstrands Porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1951,
+    "artifact.updatedDate": "2026-09-12T03:58:50.514Z",
+    "artifact.publishedDate": "2014-09-09T20:15:23.506Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drycker"
+    ],
+    "artifact.ingress.names": [
+      "TEKOPPAR"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWWy3VDrf",
+    "artifact.defaultPictureIndex": 122140,
+    "artifact.defaultPictureDimension": "3056x1004"
+  },
+  {
+    "identifier.id": "SKAFOR.0016652B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "9439badc-06aa-43fa-b035-1864b73ce6ca",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407129",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Lock",
+    "artifact.ingress.description": "Lock till tekanna av keramik. Lockets knopp består av en knotig gren. Oläsliga stämplar under locket, tryckta i godset.",
+    "artifact.ingress.production.fromYear": 1800,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-05-07T09:39:29.551Z",
+    "artifact.publishedDate": "2014-10-01T03:02:06.969Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Husgeråd",
+      "Kannor",
+      "Lock",
+      "Tedrickande",
+      "Tekannor"
+    ],
+    "artifact.ingress.names": [
+      "Lock"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uM2rRTtW3",
+    "artifact.defaultPictureIndex": 16469,
+    "artifact.defaultPictureDimension": "1262x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0017942B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "1df97fb5-27ca-4839-a824-91184da3abc0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807756",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Lock",
+    "artifact.ingress.description": "Lock, tillhörande tekannan, av porslin. Lockets knopp är formad som en frukt. Dekor med bårder av rutmönster och krysantemer, medaljonger med blad- och blomstermönster samt ströblommor. Dekor i blå underglasyr med förgyllda detaljer.",
+    "artifact.updatedDate": "2026-05-07T05:01:23.335Z",
+    "artifact.publishedDate": "2022-10-05T03:49:03.467Z",
+    "artifact.ingress.classification": [
+      "272",
+      "25"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Dryckesvanor",
+      "Kannor",
+      "Lock",
+      "Ostindiskt",
+      "Tekannor",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Lock"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZy7P",
+    "artifact.defaultPictureIndex": 34862,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "GFC11127_2",
+    "identifier.owner": "S-GOM",
+    "artifact.uuid": "37558abf-540c-453d-8885-4938456c0ccd",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213382560",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Sked",
+    "artifact.ingress.description": "AV ALUMINIUM. 3 ST. L. 13 CM. 1 TESKED TRASIG, (AVFÖRES).",
+    "artifact.updatedDate": "2026-05-05T08:20:36.733Z",
+    "artifact.publishedDate": "2023-04-18T09:33:03.501Z",
+    "artifact.ingress.names": [
+      "Sked",
+      "Teskedar"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBxEQ9DhYK",
+    "artifact.defaultPictureIndex": 11318,
+    "artifact.defaultPictureDimension": "1900x982"
+  },
+  {
+    "identifier.id": "SKANM.0304577B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "133a3e87-b2d0-4f1c-9cef-0a2bc7a86343",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214584497",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Lock",
+    "artifact.ingress.description": "Lock till pipkittel. Vit emalj. Knopp på lockets ovansida. Emaljen har släppt på vissa ställen, något rostig. ",
+    "artifact.ingress.producer": "Kockums",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1900,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2026-05-07T05:29:23.856Z",
+    "artifact.publishedDate": "2024-08-09T05:09:59.164Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Emaljföremål",
+      "Kannor",
+      "Tekannor",
+      "Museimiljö på Skansen->Skånegården"
+    ],
+    "artifact.ingress.names": [
+      "Lock"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHCrYmzEF",
+    "artifact.defaultPictureIndex": 91121,
+    "artifact.defaultPictureDimension": "4032x3024"
+  },
+  {
+    "identifier.id": "XLM.R00277",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "8ca139a1-7f56-4452-b694-a34475ef501e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028258542",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kaffekanna",
+    "artifact.ingress.description": "Kaffekanna/tekanna, ostindiskt porslin med dekor av polykoroma blommor och guld. Bukig med svängd pip. Rundat handtag, något bukigt lock med knopp. Vit med överglasyrfärger, delvi emalj. Växter och ornamentytor, guld, rött, grönt och blått.\nUtan fabrikationsmärke, kompaniporslin.",
+    "artifact.updatedDate": "2025-06-12T04:14:10.048Z",
+    "artifact.publishedDate": "2019-02-22T06:05:15.246Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kaffe",
+      "Kaffekanna",
+      "Tekannor",
+      "Te",
+      "Kanna",
+      "Kannor",
+      "Servering och förtäring",
+      "Serveringskanna",
+      "Serveringskärl",
+      "Porslin",
+      "Keramik",
+      "Keramik/Porslin"
+    ],
+    "artifact.ingress.names": [
+      "Kaffekanna",
+      "Kanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03346x8SGbbo",
+    "artifact.defaultPictureIndex": 159567,
+    "artifact.defaultPictureDimension": "3191x2341"
+  },
+  {
+    "identifier.id": "XLM.06996",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "a12e4c67-4694-49d4-b1e8-78c88d06d114",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028764440",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kanna",
+    "artifact.ingress.description": "Kanna av bleckplåt. Raka sidor, svart trähandtag. Lång pip, bukigt lock.",
+    "artifact.updatedDate": "2025-06-05T11:18:07.683Z",
+    "artifact.publishedDate": "2020-08-28T03:30:38.937Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "574"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Kanna",
+      "Tekannor",
+      "Kaffekanna",
+      "Te",
+      "Kaffe",
+      "Servering och förtäring",
+      "Serveringskanna",
+      "Födans servering"
+    ],
+    "artifact.ingress.names": [
+      "Kanna"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0336JRfBXiuM",
+    "artifact.defaultPictureIndex": 138199,
+    "artifact.defaultPictureDimension": "2459x2861"
+  }
+]
