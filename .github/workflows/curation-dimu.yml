@@ -1,0 +1,23 @@
+name: Retrieve public DigitaltMuseum tea objects
+on:
+  push:
+    branches: [expansion-4000]
+    paths: ['scripts/fetch-dimu-teaware.py', '.github/workflows/curation-dimu.yml', 'research/dimu-candidates-4000.json']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - run: DIMU_OUTPUT=source-probe DIMU_CANDIDATES=research/dimu-candidates-4000.json python scripts/fetch-dimu-teaware.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dimu-tea-images
+          path: source-probe
+          retention-days: 1
