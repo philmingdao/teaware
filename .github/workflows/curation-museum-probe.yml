@@ -12,8 +12,8 @@ jobs:
     steps:
       - run: |
           mkdir source-probe
-          curl --fail --location --silent --show-error --max-time 60 https://samlingar.shm.se/ -o source-probe/shm-home.html
-          curl --fail --location --silent --show-error --max-time 60 https://skd-online-collection.skd.museum/ -o source-probe/skd-home.html
+          curl --fail --location --silent --show-error --max-time 60 https://samlingar.shm.se/assets/main-f46c60b74e6f22c0b811.js -o source-probe/shm-main.js
+          curl --fail --location --silent --show-error --max-time 60 'https://samlingar.shm.se/sok?type=object&query=tekanna&hasImage=1' -o source-probe/shm-search.html
       - uses: actions/upload-artifact@v4
         if: always()
         with:
