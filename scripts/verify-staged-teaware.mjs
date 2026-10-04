@@ -77,7 +77,7 @@ for(const input of inputs) {
     assert.equal(item.raw.title,row.titleOriginal);
     assert.equal(classifyTeaware({...row,titleEnglish:item.raw.title}).decision,'admit','Native source name must establish tea use');
     assert.equal(row.sourceUrl,'https://www.finna.fi/Record/'+item.raw.id);
-    assert.equal(item.imageSource,new URL(im.urls.master||im.urls.large,'https://api.finna.fi').href);
+    const advertised=[new URL(im.urls.master||im.urls.large,'https://api.finna.fi').href,...[im.highResolution?.master,im.highResolution?.original].flat().filter(Boolean).map(x=>x.url)].filter(Boolean);assert(advertised.includes(item.imageSource),'Finna image URL must be supplied by the source');
     assert.equal(item.rawSha256,item.downloadEvidence.sha256);
     const end=Number(item.raw.creationDateRange?.split('/')[1]?.slice(0,4));assert(end>0&&end<=1920);
     assert(row.creditLine.includes(rights.copyright)&&row.creditLine.includes('Background removed and cropped by Teaware.'));

@@ -6,8 +6,8 @@ const active=await read('src/data/artworks.json'),blocked=[...active,...(await r
 const ids=new Set(blocked.map(x=>x.id)),urls=new Set(blocked.map(x=>normalizedSourceUrl(x.sourceUrl))),keys=new Set(active.map(physicalObjectKey).filter(Boolean)),hashes=new Set(Object.values((await read('src/data/collection-cutouts.json')).assets).map(x=>x.sourceSha256));
 for(const file of ['output/round30-dimu/cutouts/approvals.json','output/round31-dimu-legacy/cutouts/approvals.json']){const decisions=await read(file);for(const d of decisions)if(d.decision==='reject')ids.add(d.id);}
 const selected=[],imageRejections=[],allowed=new Set(['by','by-sa','CC0 1.0','pdm','zero']);
-const types=[[/Skål til tekopp/i,['茶托','Tea Saucer']],[/\b(?:tekanna|tekanne|teekanne)\b/i,['茶壶','Teapot']],[/\b(?:tekopp|teetasse)\b/i,['茶杯','Tea Cup']],[/\b(?:tedosa|teburk|teedose)\b/i,['茶罐','Tea Caddy']],[/\b(?:teskje|tesked)\b/i,['茶匙','Tea Spoon']],[/\b(?:tesil|teesieb)\b/i,['茶滤','Tea Strainer']],[/\b(?:chawan|teskål|teeschale)\b/iu,['茶碗','Tea Bowl']]];
-types.push([/\b(?:tekjele|tekittel)\b/i,['煮茶壶','Tea Kettle']],[/\bteebrett\b/i,['茶盘','Tea Tray']]);
+const types=[[/Skål til tekopp|\b(?:tefat|teefat)\b/i,['茶托','Tea Saucer']],[/\b(?:tekanna|tekanne|teekanne)\b/i,['茶壶','Teapot']],[/\b(?:tekopp|teetasse)\b/i,['茶杯','Tea Cup']],[/\b(?:tedosa|teburk|teedose)\b/i,['茶罐','Tea Caddy']],[/\b(?:teskje|tesked|teeske|teelöffel)\b/i,['茶匙','Tea Spoon']],[/\b(?:tesil|teesieb)\b/i,['茶滤','Tea Strainer']],[/\b(?:chawan|teskål|teeskål|teeschale)\b/iu,['茶碗','Tea Bowl']]];
+types.push([/\b(?:tekjele|tekittel)\b/i,['煮茶壶','Tea Kettle']],[/\b(?:teebrett|tebrett)\b/i,['茶盘','Tea Tray']]);
 const limit=Number(process.env.CURATION_LIMIT||10000);
 for(const raw of await read(inputRoot+'/downloaded.json')){
  if(selected.length>=limit)break;

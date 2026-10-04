@@ -1,0 +1,3664 @@
+[
+  {
+    "identifier.id": "SUM.07009",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "8c39405c-5a37-497c-bd2d-2c8daa933dd3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149071",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Serveringsbrett",
+    "artifact.ingress.description": "Form: Sirkelforma. Loddrett kant med fane rundt",
+    "artifact.ingress.production.fromYear": 1955,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:20:35.171Z",
+    "artifact.publishedDate": "2014-09-09T15:07:57.824Z",
+    "artifact.ingress.classification": [
+      "211",
+      "264",
+      "482",
+      "484"
+    ],
+    "artifact.ingress.names": [
+      "Serveringsbrett",
+      "Serveringsbrikke",
+      "Tebrett",
+      "Brett for servering ved måltid"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wZW38Kogf",
+    "artifact.defaultPictureIndex": 27906,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "MM 16695.1",
+    "identifier.owner": "S-SMM-MM",
+    "artifact.uuid": "8d14aa4d-a6be-43d0-8c8b-784f5ba2445b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024813721",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Cylindriskt fat i vitt porslin. Dekorerat med lilla riksvapnet samt därunder texten: \" H M Sverige \". Dekoren utfört i blått. På undersidan stämplat i blått: Rörstrand.",
+    "artifact.ingress.producer": "Rörstrands porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2026-02-15T00:31:21.078Z",
+    "artifact.publishedDate": "2014-08-15T10:12:07.356Z",
+    "artifact.ingress.classification": [
+      "ABBOAC"
+    ],
+    "artifact.ingress.subjects": [
+      "Sverige pansarskepp"
+    ],
+    "artifact.ingress.names": [
+      "Tefat",
+      "Tefat, H M Sverige"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349w5r84WF",
+    "artifact.defaultPictureIndex": 456950,
+    "artifact.defaultPictureDimension": "6000x4000"
+  },
+  {
+    "identifier.id": "MM 16695.2",
+    "identifier.owner": "S-SMM-MM",
+    "artifact.uuid": "45d107db-9a0d-4324-9d84-213cfbde25b8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024813722",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Cylindriskt fat i vitt porslin. Dekorerat med lilla riksvapnet samt därunder texten: \" H M Sverige \". Dekoren utfört i blått. På undersidan stämplat i blått: Rörstrand. Dessutom ett påklistrat munlack i blått med vit text enligt följande: Karl Björkmans Jern-Glas- & Porslinshandel Ronnebygatan 36 Karlskrona.",
+    "artifact.ingress.producer": "Rörstrands porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2026-02-15T00:31:21.686Z",
+    "artifact.publishedDate": "2014-08-15T10:12:07.887Z",
+    "artifact.ingress.classification": [
+      "ABBOAC"
+    ],
+    "artifact.ingress.subjects": [
+      "Sverige pansarskepp"
+    ],
+    "artifact.ingress.names": [
+      "Tefat",
+      "Tefat, H M Sverige"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "03349w5r84WK",
+    "artifact.defaultPictureIndex": 456951,
+    "artifact.defaultPictureDimension": "5345x3563"
+  },
+  {
+    "identifier.id": "SKAFOR.0017953",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "4fa47e47-49d2-420b-a4c7-55efd91e3c88",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807796",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Skålformat tefat av porslin med låg fotring. Förgylld kant och brätte med bård av rutmönster och krysantemer samt ströblommor. I fatets spegel blad- och blomstermönster. Dekor i blå underglasyr.",
+    "artifact.updatedDate": "2026-05-07T06:52:00.634Z",
+    "artifact.publishedDate": "2022-10-05T03:49:42.653Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Ostindiskt",
+      "Dryckens servering",
+      "Fat",
+      "Museimiljö på Skansen->Tottieska gården",
+      "Tefat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXaJHf",
+    "artifact.defaultPictureIndex": 34952,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "SKAFOR.0016667",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "afcd286e-8e90-40bd-bfad-5d7e3a4fa874",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024605915",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till tekopp, av vitt porslin med blå dekor. Utsidan vit, guldkant, bård vid kanten, sex fält med olika växtmotiv med guldmålning, figurscen i spegeln. \nFatet hör ihop med kopp SKAFOR.0016666, trots att dekoren inte stämmer.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1662,
+    "artifact.ingress.production.toYear": 1722,
+    "artifact.updatedDate": "2026-05-07T09:40:41.256Z",
+    "artifact.publishedDate": "2014-08-14T07:59:01.025Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264",
+      "272",
+      "136",
+      "137",
+      "531",
+      "532"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Husgeråd",
+      "Tedrickande",
+      "Tefat",
+      "Ostindiskt",
+      "Födans servering",
+      "Blad",
+      "Blommor",
+      "Människofigurer"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042sC2VTnoHq",
+    "artifact.defaultPictureIndex": 13240,
+    "artifact.defaultPictureDimension": "2241x2241"
+  },
+  {
+    "identifier.id": "SKAFOR.0016661",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "e58ed71e-d662-4a1a-ac11-947512eb9c88",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024605812",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat tillverkat av porslin med gulgrå färgton. Rundade sidor med uddig kant. Målad dekor på insidan/spegeln: änder, stenar, blommor i flera färger. \nFatet hör ihop med kopp SKAFOR.0016660.",
+    "artifact.ingress.production.fromYear": 1750,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2026-05-07T06:21:18.797Z",
+    "artifact.publishedDate": "2014-08-14T07:58:30.896Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264",
+      "272",
+      "136",
+      "137",
+      "532"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Husgeråd",
+      "Tedrickande",
+      "Tefat",
+      "Ostindiskt",
+      "Födans servering",
+      "Blommor",
+      "Fåglar",
+      "Stenar"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022sC2VTnTtP",
+    "artifact.defaultPictureIndex": 13245,
+    "artifact.defaultPictureDimension": "2362x2241"
+  },
+  {
+    "identifier.id": "SKAFOR.0016662",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "9a640277-3b12-48f0-8bca-3af66b808d6f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024605831",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till tekopp, av vitt porslin med blå dekor. Utsidan slät, insidan med reliefdekor och bård med blommor och flygfän samt kantbård.\nFatet hör ihop med kopp SKAFOR.0016663.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1736,
+    "artifact.ingress.production.toYear": 1795,
+    "artifact.updatedDate": "2026-05-07T09:28:03.652Z",
+    "artifact.publishedDate": "2014-08-14T07:58:34.592Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264",
+      "272",
+      "136",
+      "137",
+      "532"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Husgeråd",
+      "Tedrickande",
+      "Tefat",
+      "Ostindiskt",
+      "Födans servering",
+      "Blommor",
+      "Insekter"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sC2VTnTxk",
+    "artifact.defaultPictureIndex": 13244,
+    "artifact.defaultPictureDimension": "2362x2241"
+  },
+  {
+    "identifier.id": "SKAFOR.0016665",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "8699c547-0091-468c-b617-67ba09032a64",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024605893",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till tekopp, av vitt porslin med blå dekor. Vit utsida, guldkant upptill, därunder bård samt sex fält med olika växtmotiv, i spegeln figurscen. \nFatet hör ihop med kopp SKAFOR.0016665.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1662,
+    "artifact.ingress.production.toYear": 1722,
+    "artifact.updatedDate": "2026-05-07T05:40:07.838Z",
+    "artifact.publishedDate": "2014-08-14T07:58:51.862Z",
+    "artifact.ingress.classification": [
+      "353",
+      "264",
+      "272",
+      "137",
+      "531",
+      "532"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Husgeråd",
+      "Tedrickande",
+      "Tefat",
+      "Ostindiskt",
+      "Födans servering",
+      "Blad",
+      "Blommor",
+      "Människofigurer"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022sC2VTnULt",
+    "artifact.defaultPictureIndex": 13242,
+    "artifact.defaultPictureDimension": "2363x2241"
+  },
+  {
+    "identifier.id": "SKAFOR.0017955",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "f232eb95-887d-41ac-9b66-483f15c58b30",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807804",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Skålformat tefat av porslin. Förgylld kant och brätte med bård av rutmönster och krysantemer samt ströblommor. I fatets spegel blad- och blomstermönster. Fatet med låg fotring. Dekor i blå underglasyr.",
+    "artifact.updatedDate": "2026-05-07T05:41:58.790Z",
+    "artifact.publishedDate": "2022-10-05T03:49:51.124Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Tefat",
+      "Ostindiskt",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXaJSX",
+    "artifact.defaultPictureIndex": 34957,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "M 8601",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "ae7741bd-0dc5-48ae-b65a-1e9bb093e702",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210213376170",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat av porslin med dekor av blomman Linnaea borealis i rosa och grön, inklusive synligt rotsystem.  \nTill fatet finns tillhörande tekopp och kaffekopp.",
+    "artifact.ingress.production.fromYear": 1755,
+    "artifact.ingress.production.toYear": 1755,
+    "artifact.updatedDate": "2026-09-25T04:41:31.550Z",
+    "artifact.publishedDate": "2023-04-14T03:55:39.586Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Tefat",
+      "Linné",
+      "Blomma"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5DzUk29x",
+    "artifact.defaultPictureIndex": 118827,
+    "artifact.defaultPictureDimension": "4000x2959"
+  },
+  {
+    "identifier.id": "XLM.16671",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "706fa6c6-871d-49ca-876e-ec82c5fd5141",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027438281",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat i flintgods, Gefle Porslin. Gulglaserat.",
+    "artifact.updatedDate": "2025-07-04T04:09:02.949Z",
+    "artifact.publishedDate": "2018-02-02T06:06:16.243Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Tefat",
+      "Keramik/Porslin",
+      "Industri och hantverk",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231uU9G2GnL",
+    "artifact.defaultPictureIndex": 147225,
+    "artifact.defaultPictureDimension": "2492x2537"
+  },
+  {
+    "identifier.id": "XLM.16670",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "521056f1-d64e-4062-adf0-d7cacdbcd9c4",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027438277",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat i flintgods, Upsala-Ekeby, Gefle. Dekor: gult band och grå linje. Modell: Pigg. Design: Kjell Blomberg.",
+    "artifact.ingress.production.fromYear": 1956,
+    "artifact.ingress.production.toYear": 1956,
+    "artifact.updatedDate": "2025-07-04T04:09:02.454Z",
+    "artifact.publishedDate": "2018-02-02T06:06:14.450Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Tefat",
+      "Keramik/Porslin",
+      "Industri och hantverk",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331uU9G2GnD",
+    "artifact.defaultPictureIndex": 153050,
+    "artifact.defaultPictureDimension": "2424x2408"
+  },
+  {
+    "identifier.id": "SKAFOR.0017872D",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "aac88ea5-c3c2-4623-9696-d885110b1484",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214557130",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat av porslin med förgyllda kanter om en blå rutbård. Under den en fleur de lis bård kring kanten och brätte i guld och blått. Fatets spegel är dekorerad med byggnader, båtar och ett flodlandskap. Dekoren utförd i blå underglasyr.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1760,
+    "artifact.ingress.production.toYear": 1780,
+    "artifact.updatedDate": "2026-06-23T03:59:07.742Z",
+    "artifact.publishedDate": "2024-06-21T04:25:52.957Z",
+    "artifact.ingress.classification": [
+      "272",
+      "25",
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Serveringskärl",
+      "Tefat",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGiRdFSC2",
+    "artifact.defaultPictureIndex": 32310,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "XLM.20670",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "8077b5b9-e7f8-46ae-bc5d-2cb57e550cce",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027017638",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat, Bo Fajans, design Tom Wilson. Glaserat lergods, beige med bruna stänk. Försänkning, 85 mm diam, för koppens botten. Smalt uppvridet bräm.",
+    "artifact.ingress.production.fromYear": 1967,
+    "artifact.ingress.production.toYear": 1967,
+    "artifact.updatedDate": "2025-09-19T04:15:00.588Z",
+    "artifact.publishedDate": "2017-05-24T06:10:05.130Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Keramik",
+      "Tefat",
+      "Konsthantverk"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE5EDZmzxP",
+    "artifact.defaultPictureIndex": 217588,
+    "artifact.defaultPictureDimension": "3592x2627"
+  },
+  {
+    "identifier.id": "SUM.07270",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "0c601c05-7573-4796-be52-bb8c0ec8f1ce",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149334",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Form: rund, skrår ut oppover med utkraga munning",
+    "artifact.ingress.production.fromYear": 1963,
+    "artifact.ingress.production.toYear": 1969,
+    "artifact.updatedDate": "2026-06-10T05:20:56.628Z",
+    "artifact.publishedDate": "2014-09-09T15:10:31.432Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "kaffikopp",
+      "tefat",
+      "til å ha kaffi i",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rwKdeo",
+    "artifact.defaultPictureIndex": 19528,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.07271",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "5a6f6fca-4dcd-49f0-9b84-638bb08cd48f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149338",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "rund, skrår ut oppover. Utkraga munningsrand",
+    "artifact.ingress.production.fromYear": 1963,
+    "artifact.ingress.production.toYear": 1969,
+    "artifact.updatedDate": "2026-06-10T05:20:56.711Z",
+    "artifact.publishedDate": "2014-09-09T15:10:35.635Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "kaffikopp",
+      "tefat",
+      "til å ha kaffi i",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rwKdex",
+    "artifact.defaultPictureIndex": 19530,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.07278",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "54bf60c5-228c-4b6f-b760-1ba4d42a4363",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149361",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Rund, skrår ut oppover med utsvungen munning",
+    "artifact.ingress.production.fromYear": 1963,
+    "artifact.ingress.production.toYear": 1969,
+    "artifact.updatedDate": "2026-06-10T05:20:57.466Z",
+    "artifact.publishedDate": "2014-09-09T15:10:56.169Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "kaffikopp",
+      "tefat",
+      "til å ha kaffi i",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rxkb9H",
+    "artifact.defaultPictureIndex": 19789,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.09414",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "7a4d4b5b-fb8a-4da7-864e-8e137211bd3a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025152855",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Påtrykt blomstermotiv i raudt, grønt og grått",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:24:18.640Z",
+    "artifact.publishedDate": "2014-09-09T15:41:03.153Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272.22"
+    ],
+    "artifact.ingress.subjects": [
+      "Kjøkkenutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Tefat",
+      "Tefat til kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2s1kv9v",
+    "artifact.defaultPictureIndex": 5968,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SKAFOR.0018930A",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "61bba234-12af-484f-89fa-73347a20763d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214691209",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kopp, med rund form. På brättet en smal förgylld list och en bård med treklöverblad. Fatets spegeln är odekorerad. Under fatet fabriksmärke Gustavsberg med servisnamn Gunnar.\n",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:13.631Z",
+    "artifact.publishedDate": "2024-10-10T04:06:51.500Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiJZvEFB",
+    "artifact.defaultPictureIndex": 94830,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018930A-D",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "c04e9b6e-13fb-48f4-9b99-802a9d075994",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214691211",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 4,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till koppar, med rund form. På brättet en smal förgylld list och en bård med treklöverblad. Fatens speglar är odekorerad. Under faten fabriksmärke Gustavsberg med servisnamn Gunnar.\n\n\n4 st.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:13.676Z",
+    "artifact.publishedDate": "2024-10-10T04:07:23.729Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiJZvEFD",
+    "artifact.defaultPictureIndex": 94829,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018930B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "d6cff5ce-f73f-4b3d-a824-751557c7e8eb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214691212",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kopp, med rund form. På brättet en smal förgylld list och en bård med treklöverblad. Fatets spegeln är odekorerad. Under fatet fabriksmärke Gustavsberg med servisnamn Gunnar.\n\n",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:14.005Z",
+    "artifact.publishedDate": "2024-10-10T04:07:40.926Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiJZvEFE",
+    "artifact.defaultPictureIndex": 94832,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018930C",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "441acbc0-f057-4c86-819e-baf35457603e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214691213",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kopp, med rund form. På brättet en smal förgylld list och en bård med treklöverblad. Fatets spegeln är odekorerad. Under fatet fabriksmärke Gustavsberg med servisnamn Gunnar.\n\n",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:14.144Z",
+    "artifact.publishedDate": "2024-10-10T04:07:42.577Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiJZvEFF",
+    "artifact.defaultPictureIndex": 94834,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0018930D",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "35bb013d-3353-4a3c-8e96-09720a2e2c5b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214691214",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kopp, med rund form. På brättet en smal förgylld list och en bård med treklöverblad. Fatets spegeln är odekorerad. Under fatet fabriksmärke Gustavsberg med servisnamn Gunnar.\n",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Värmdö, Värmdö skeppslag, Gustavsberg",
+    "artifact.ingress.producer": "Wennerberg, Gunnar",
+    "artifact.ingress.producerRole": "Designer/Formgivare",
+    "artifact.ingress.production.fromYear": 1905,
+    "artifact.ingress.production.toYear": 1909,
+    "artifact.updatedDate": "2025-05-19T04:05:14.247Z",
+    "artifact.publishedDate": "2024-10-10T04:07:47.889Z",
+    "artifact.ingress.classification": [
+      "264",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Serviser",
+      "Kaffeserviser",
+      "Teserviser"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHiJZvEFJ",
+    "artifact.defaultPictureIndex": 94836,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SKAFOR.0017867A-G",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "2e8c2379-4d99-43de-b9f6-9c34cabd53cc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807710",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 7,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffe- och tekoppar. Skålformat fat som upptill på insidan är dekorerad med en bård med vinranksmotiv i guld och rött. Indragen glaserad fotring. Centrerat i fatet en medaljong med landskapsvinjett ton i ton, en camaieu, i sepia.",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2025-05-19T04:01:41.043Z",
+    "artifact.publishedDate": "2022-10-05T03:47:44.665Z",
+    "artifact.ingress.classification": [
+      "26",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Dryckeskärl",
+      "Ostindiskt",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat",
+      "Kaffefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZdrp",
+    "artifact.defaultPictureIndex": 27251,
+    "artifact.defaultPictureDimension": "3456x3456"
+  },
+  {
+    "identifier.id": "MM.000008",
+    "identifier.owner": "MKG",
+    "artifact.uuid": "1e88d3f3-8d66-41ba-8a92-bf994c206170",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011022794422",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp med skål",
+    "artifact.ingress.description": "Minnekopp . ",
+    "artifact.updatedDate": "2026-02-12T14:11:09.040Z",
+    "artifact.publishedDate": "2014-03-18T08:49:14.711Z",
+    "artifact.ingress.classification": [
+      "264",
+      "264.2",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Serveringsredskap",
+      "Drikkestell"
+    ],
+    "artifact.ingress.names": [
+      "Kopp med skål",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04SWLe7Txs",
+    "artifact.defaultPictureIndex": 1638,
+    "artifact.defaultPictureDimension": "3008x2000"
+  },
+  {
+    "identifier.id": "MM 24375",
+    "identifier.owner": "S-SMM-MM",
+    "artifact.uuid": "d579ae1e-4f6d-47e4-b079-d2539e58171d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024819927",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat av vitt benporslin, bräm = 40 mm, sluttande. På brämet förgyllt emblem: ett krönt stockankare omgivet av tågvirkeslinga. På undersidan fotring samt stämpel och text i guld: ett stockankare, däröver \" GUSTAVSBERG \"  under tillverkarens emblem text: \" BENPORSLIN VDN B555 MADE IN SWEDEN \".",
+    "artifact.ingress.producer": "Gustafsbergs porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2026-02-15T00:38:03.136Z",
+    "artifact.publishedDate": "2014-08-15T11:40:25.401Z",
+    "artifact.ingress.classification": [
+      "ABBOAC"
+    ],
+    "artifact.ingress.subjects": [
+      "Chefen för kustflottan"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uKXJNbsVL",
+    "artifact.defaultPictureIndex": 16387,
+    "artifact.defaultPictureDimension": "1723x1820"
+  },
+  {
+    "identifier.id": "MM 16602",
+    "identifier.owner": "S-SMM-MM",
+    "artifact.uuid": "b269d3ef-7a52-4b86-b9c0-594766e6dbe8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024813556",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat av vit porslin. Inuti fatet motiv i orange färg (engelsk) jaktscen: sex ryttare, ett antal jakthundar, några träd (björkar) i bakgrunden hus med kors på taken. Runt kanten ett guldband. Fatet är insatt i en metallställning för upphängning.",
+    "artifact.updatedDate": "2026-02-15T00:31:03.951Z",
+    "artifact.publishedDate": "2014-08-15T10:09:31.072Z",
+    "artifact.ingress.classification": [
+      "ABBOAC"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349SzJNntY",
+    "artifact.defaultPictureIndex": 453555,
+    "artifact.defaultPictureDimension": "6000x4000"
+  },
+  {
+    "identifier.id": "MM.000035",
+    "identifier.owner": "MKG",
+    "artifact.uuid": "ced0478f-cc61-44af-b908-27af4d6c6bc7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011022794479",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 1,
+    "artifact.ingress.title": "Kopp med skål og asjett",
+    "artifact.ingress.description": "Mønstret kaffekopp , likt mønster på tefat og asjett. Koppen er hvit inni.\nKaffekoppen er rundet ned mot foten. Asjett og tefat har lett fordypning ned mot sentrum.",
+    "artifact.updatedDate": "2026-03-05T03:22:59.093Z",
+    "artifact.publishedDate": "2014-03-18T08:49:33.707Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "272",
+      "136",
+      "137"
+    ],
+    "artifact.ingress.subjects": [
+      "Drikkestell",
+      "Serveringsredskap",
+      "Fugler"
+    ],
+    "artifact.ingress.names": [
+      "Kopp med skål og asjett",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04SWLe7oDg",
+    "artifact.defaultPictureIndex": 1669,
+    "artifact.defaultPictureDimension": "3008x2000"
+  },
+  {
+    "identifier.id": "XLM.18112",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "7c5b595f-21e9-476a-86d3-b94289484ac8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028702841",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat, 2st. Glaserad. vit med kant och ränder i guld. Räfflad dekor på undersidan märke: \"TENERIFFA GEFLE\". Märket delvis oläsligt. Skapad av Arthur Percy för Gefle Porslinsfabrik 1943.",
+    "artifact.ingress.production.fromYear": 1943,
+    "artifact.updatedDate": "2025-06-05T12:01:27.758Z",
+    "artifact.publishedDate": "2020-07-04T03:29:17.465Z",
+    "artifact.ingress.classification": [
+      "272",
+      "323"
+    ],
+    "artifact.ingress.subjects": [
+      "Te",
+      "Dryckens servering",
+      "Industri och hantverk"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.coordinate": "60.67538856220841, 17.14259360599483",
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0234AwkR85Aa",
+    "artifact.defaultPictureIndex": 151973,
+    "artifact.defaultPictureDimension": "2606x2621"
+  },
+  {
+    "identifier.id": "VM16221",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "a573a7af-eb7a-460b-8fa5-b8d853b3d024",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025171949",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEFAT",
+    "artifact.ingress.description": "Ett fat till kaffekopp. Dekor med fem små blommor.\nInköpt på Knutssons Auktion, Vänersborg",
+    "artifact.ingress.production.place": "Sverige, Västergötland, Västra Götaland, Lidköping, Lidköping",
+    "artifact.updatedDate": "2026-05-07T03:56:00.391Z",
+    "artifact.publishedDate": "2014-09-09T19:14:32.234Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Förtäring"
+    ],
+    "artifact.ingress.names": [
+      "TEFAT"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wZzgywiSu",
+    "artifact.defaultPictureIndex": 129529,
+    "artifact.defaultPictureDimension": "1584x1581"
+  },
+  {
+    "identifier.id": "SKAFOR.0017867G",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "5e6e0d4c-2b1a-4326-9457-6404a902f080",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807719",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffe- och tekoppar. Skålformat fat som upptill på insidan är dekorerad med en bård med vinranksmotiv i guld och rött. Indragen glaserad fotring.Centrerat i fatet en medaljong med landskapsvinjett ton i ton, en camaieu, i sepia. ",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2026-05-07T04:16:44.918Z",
+    "artifact.publishedDate": "2022-10-05T03:48:01.622Z",
+    "artifact.ingress.classification": [
+      "25",
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Drycker",
+      "Dryckens servering",
+      "Ostindiskt",
+      "Serviser->Barnserviser",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Fat",
+      "Kaffefat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZxjJ",
+    "artifact.defaultPictureIndex": 27264,
+    "artifact.defaultPictureDimension": "3456x3456"
+  },
+  {
+    "identifier.id": "SKAFOR.0017951",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "5b531390-46ce-46a9-872a-f98516d23ebb",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807792",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Skålformat tefat av porslin. Upptill en förgylld kant och ett brätte dekorerat med en bård av rutmönster och krysantemer samt ströblommor. I fatets spegel blad- och blomstermönster. Fatet har låg fotring. Dekor i blå underglasyr.",
+    "artifact.updatedDate": "2026-05-07T08:36:54.449Z",
+    "artifact.publishedDate": "2022-10-05T03:49:38.361Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Servering och förtäring",
+      "Dryckens servering",
+      "Ostindiskt",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXaJ8t",
+    "artifact.defaultPictureIndex": 34947,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "SKAFOR.0017867B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "1985d884-7b32-4ea5-8035-18c5ebe0a2e6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807714",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffe- och tekoppar. Skålformat fat som upptill på insidan är dekorerad med en bård med vinranksmotiv i guld och rött. Indragen glaserad fotring. Centrerat i fatet en medaljong med landskapsvinjett ton i ton, en camaieu, i sepia.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2026-05-07T08:43:17.932Z",
+    "artifact.publishedDate": "2022-10-05T03:47:49.364Z",
+    "artifact.ingress.classification": [
+      "272",
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Drycker",
+      "Dryckens servering",
+      "Koppar",
+      "Ostindiskt",
+      "Serviser->Barnserviser",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Fat",
+      "Kaffefat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZxeu",
+    "artifact.defaultPictureIndex": 27254,
+    "artifact.defaultPictureDimension": "3456x3456"
+  },
+  {
+    "identifier.id": "SKAFOR.0017957",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "05329e95-dc2b-4dc8-b61e-ebcc15453862",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807811",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Skålformat tefat av porslin. Förgylld kant och brätte med bård av rutmönster och krysantemer samt ströblommor. I fatets spegel blad - och blommönster. Fatet med låg fotring. Dekor i blå underglasyr.",
+    "artifact.updatedDate": "2026-05-07T07:47:08.978Z",
+    "artifact.publishedDate": "2022-10-05T03:49:56.916Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Dryckesvanor",
+      "Ostindiskt",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXaJWs",
+    "artifact.defaultPictureIndex": 34962,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "SKAFOR.0017959",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "510af2ba-fec4-4ee1-9d26-417121754ea8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807818",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Skålformat tefat av porslin. Förgylld kant och brätte med bård av rutmönster och krysantemer samt ströblommor. I fatets spegel blad- och blomstermönster. Fatet med låg fotring. Dekor i blå underglasyr.",
+    "artifact.updatedDate": "2026-05-07T09:48:34.897Z",
+    "artifact.publishedDate": "2022-10-05T03:50:03.750Z",
+    "artifact.ingress.classification": [
+      "272",
+      "27"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Servering och förtäring",
+      "Dryckens servering",
+      "Ostindiskt",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXaJbK",
+    "artifact.defaultPictureIndex": 34967,
+    "artifact.defaultPictureDimension": "4000x3000"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688A-L",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "eb7bdbce-5cde-4ab1-a60a-458a1663fae8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024606532",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 12,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin, 12 stycken. Faten är dekorerade på insidorna med ett mittmotiv föreställande blomor i rött och grönt. På insidorna upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatens brätten har mjukveckade sidor. Fatens kanter har en pilbågeform som följer brättenas mjuka veck.",
+    "artifact.updatedDate": "2026-05-07T06:23:26.539Z",
+    "artifact.publishedDate": "2014-08-14T08:01:44.057Z",
+    "artifact.ingress.classification": [
+      "323",
+      "27",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Porslinstillverkning",
+      "Tekoppar",
+      "Ostindiskt",
+      "Museimiljö på Skansen->Tottieska gården",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uM2juS45w",
+    "artifact.defaultPictureIndex": 16578,
+    "artifact.defaultPictureDimension": "1701x899"
+  },
+  {
+    "identifier.id": "SKAFOR.0017867A",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "9302a690-911a-417c-b392-ccdbb02c4617",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807713",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffe- och tekoppar. Skålformat fat som upptill på insidan är dekorerad med en bård med vinranksmotiv i guld och rött. Indragen glaserad fotring. Centrerat i fatet en medaljong med landskapsvinjett ton i ton, en camaieu, i sepia.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2026-05-07T04:42:26.279Z",
+    "artifact.publishedDate": "2022-10-05T03:47:47.502Z",
+    "artifact.ingress.classification": [
+      "272",
+      "272",
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Husgeråd",
+      "Ostindiskt",
+      "Serviser->Barnserviser",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Fat",
+      "Kaffefat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZdro",
+    "artifact.defaultPictureIndex": 27252,
+    "artifact.defaultPictureDimension": "3456x3456"
+  },
+  {
+    "identifier.id": "SKANM.0139870",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "1beb57be-5753-4c02-bb7c-686eac9abea2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026616364",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat av flintgods med blå dekor av blommor, nyrokokostil.",
+    "artifact.ingress.production.fromYear": 1890,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2026-05-07T06:35:08.258Z",
+    "artifact.publishedDate": "2016-10-19T06:15:38.611Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Konstnärsdon",
+      "Födans servering",
+      "Museimiljö på Skansen->Kronbergs ateljé"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032yhzAD8qfd",
+    "artifact.defaultPictureIndex": 20979,
+    "artifact.defaultPictureDimension": "2097x1998"
+  },
+  {
+    "identifier.id": "SKANM.0140075A-B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "37755414-acf2-4c07-a526-3fd334a7a019",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026616028",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat, 2 st, av vitglaserat flintgods. Runt på låg fotring. Troligen använt för att lägga upp oljefärg.",
+    "artifact.ingress.production.fromYear": 1850,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-05-07T09:16:54.558Z",
+    "artifact.publishedDate": "2016-10-19T06:07:42.808Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Födans servering",
+      "Museimiljö på Skansen->Kronbergs ateljé"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032yhzABgCh3",
+    "artifact.defaultPictureIndex": 20676,
+    "artifact.defaultPictureDimension": "3547x2093"
+  },
+  {
+    "identifier.id": "SKAFOR.0017867E",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "1aebc8a6-bdaf-4354-aba7-b10efe20c0d7",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807717",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffe- och tekoppar. Skålformat fat som upptill på insidan är dekorerad med en bård med vinranksmotiv i guld och rött. Indragen glaserad fotring.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2026-05-07T04:54:51.784Z",
+    "artifact.publishedDate": "2022-10-05T03:47:58.107Z",
+    "artifact.ingress.classification": [
+      "25",
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Drycker",
+      "Dryckens servering",
+      "Ostindiskt",
+      "Serviser->Barnserviser",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Fat",
+      "Kaffefat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZxez",
+    "artifact.defaultPictureIndex": 27260,
+    "artifact.defaultPictureDimension": "3456x3456"
+  },
+  {
+    "identifier.id": "SKAFOR.0016787",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "265c8a3f-8abb-4899-af0f-fc4a332756cf",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025838632",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till tekopp, tillverkat av porslin, med rund form. Spegel dekorerad med motiv som visar landskapscen med fiskare,bebyggelse, träd och vegetation. Fatet är dekorerat med bårder runt kanten.",
+    "artifact.updatedDate": "2026-05-07T05:36:23.563Z",
+    "artifact.publishedDate": "2015-04-17T06:14:11.466Z",
+    "artifact.ingress.classification": [
+      "27",
+      "226",
+      "227",
+      "341",
+      "501",
+      "795",
+      "637"
+    ],
+    "artifact.ingress.subjects": [
+      "Te",
+      "Tedrickande",
+      "Tekoppar",
+      "Museimiljö på Skansen->Hazeliushuset",
+      "Arkitektur",
+      "Fångst",
+      "Kyrkor",
+      "Landskap"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWWBN9fwJ",
+    "artifact.defaultPictureIndex": 12265,
+    "artifact.defaultPictureDimension": "2004x1940"
+  },
+  {
+    "identifier.id": "SKAFOR.0016686",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "dd1e4505-37fe-48b6-b3e0-f1e3feb47b91",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024606499",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 26,
+    "artifact.ingress.title": "Servis",
+    "artifact.ingress.description": "Teservis av porslin, bestånde av 24 delar, varav 12 stycken koppar och 12 stycken fat. Bård i rött, guld och svart och blomstermotiv i rött, orange och grönt mot vit botten.",
+    "artifact.updatedDate": "2026-05-07T07:13:17.523Z",
+    "artifact.publishedDate": "2014-08-14T08:01:35.569Z",
+    "artifact.ingress.classification": [
+      "323",
+      "27",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Tefat",
+      "Ostindiskt",
+      "Museimiljö på Skansen->Tottieska gården",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Servis",
+      "Teservis"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012sC2VVF7Yb",
+    "artifact.defaultPictureIndex": 11917,
+    "artifact.defaultPictureDimension": "2859x1594"
+  },
+  {
+    "identifier.id": "SKAFOR.0017867C",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "09c87f94-b7f7-4fe6-a497-1ed60ace5fb6",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210211807715",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffe- och tekoppar. Skålformat fat som upptill på insidan är dekorerad med en bård med vinranksmotiv i guld och rött. Indragen glaserad fotring. Centrerat i fatet en medaljong med landskapsvinjett ton i ton, en camaieu, i sepia.",
+    "artifact.ingress.production.place": "Kina (CN)",
+    "artifact.ingress.production.fromYear": 1790,
+    "artifact.ingress.production.toYear": 1810,
+    "artifact.updatedDate": "2026-05-07T05:26:04.921Z",
+    "artifact.publishedDate": "2022-10-05T03:47:56.094Z",
+    "artifact.ingress.classification": [
+      "26"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Dryckens servering",
+      "Ostindiskt",
+      "Serviser->Barnserviser",
+      "Museimiljö på Skansen->Tottieska gården"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Fat",
+      "Kaffefat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EBskTXZxex",
+    "artifact.defaultPictureIndex": 27256,
+    "artifact.defaultPictureDimension": "3456x3456"
+  },
+  {
+    "identifier.id": "KMK.05773",
+    "identifier.owner": "KMK",
+    "artifact.uuid": "9bf96d1b-ecf2-4049-b63d-23c4e6cabd07",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021025489713",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Servise",
+    "artifact.ingress.description": "Skål til kaffekopp merket med Porsgrunn porselen. Forgylt kant.",
+    "artifact.updatedDate": "2026-09-25T04:00:36.456Z",
+    "artifact.publishedDate": "2014-11-04T03:49:58.960Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.names": [
+      "Servise",
+      "Til å ha under kaffekoppen",
+      "tefat",
+      "kaffeskål"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EGMChmbijY",
+    "artifact.defaultPictureIndex": 676616,
+    "artifact.defaultPictureDimension": "3966x2644"
+  },
+  {
+    "identifier.id": "NSM.NSSR.15672",
+    "identifier.owner": "NSM",
+    "artifact.uuid": "1c778241-12c0-43d0-8e73-a071399865ac",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024219084",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Åtte hvite tefat med NSSR-logo. Diverse produksjonsår (1968-1996)",
+    "artifact.ingress.producer": "Porsgrund Porselen",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.updatedDate": "2018-10-27T04:35:01.164Z",
+    "artifact.publishedDate": "2014-08-11T09:43:28.450Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "642.7"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap",
+      "Servise"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Asjett",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sA3QmEvGv",
+    "artifact.defaultPictureIndex": 603815,
+    "artifact.defaultPictureDimension": "3984x2408"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688E",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "b28df70f-2d4e-48c4-8464-e748aab9ce3b",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407220",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:07.165Z",
+    "artifact.publishedDate": "2014-10-01T03:02:51.716Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uM2rRUENC",
+    "artifact.defaultPictureIndex": 16587,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688F",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "69e93f60-73f1-4ad0-ae0d-2bdd1cc0b0c1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407231",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:11.190Z",
+    "artifact.publishedDate": "2014-10-01T03:02:54.882Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uM2rRUEWx",
+    "artifact.defaultPictureIndex": 16589,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688G",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "830962e3-98c1-4d63-8733-970f1a2b2e6f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407240",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:13.767Z",
+    "artifact.publishedDate": "2014-10-01T03:02:58.269Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uM2rRUEfk",
+    "artifact.defaultPictureIndex": 16591,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688H",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "a33a64b2-ed41-4a9f-abdd-2d58745f7562",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407251",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:21.046Z",
+    "artifact.publishedDate": "2014-10-01T03:03:01.346Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uM2rRUZYK",
+    "artifact.defaultPictureIndex": 16593,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688I",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "ea8ec35d-22e0-4e48-b22e-bba4f9ff4e1d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407261",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:23.218Z",
+    "artifact.publishedDate": "2014-10-01T03:03:04.406Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uM2rRUZct",
+    "artifact.defaultPictureIndex": 16595,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "BEH.000109",
+    "identifier.owner": "MKG",
+    "artifact.uuid": "e55933af-111e-4eea-a40d-acbf4bbbc155",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011022792361",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp / tefat /asjett",
+    "artifact.ingress.description": "9 stk kopper. 8 stk tefat/skål. 5 stk. asjett. Merket med havnevesenets emblem. ",
+    "artifact.updatedDate": "2026-02-12T10:18:01.103Z",
+    "artifact.publishedDate": "2014-03-18T08:34:43.229Z",
+    "artifact.ingress.classification": [
+      "264.2"
+    ],
+    "artifact.ingress.subjects": [
+      "Kaffeutstyr"
+    ],
+    "artifact.ingress.names": [
+      "Kopp / tefat /asjett"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "04SWLZeprM",
+    "artifact.defaultPictureIndex": 22299,
+    "artifact.defaultPictureDimension": "3187x1304"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688K",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "625a0752-8954-4bf3-9613-11a8dd0eca3c",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407278",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:28.053Z",
+    "artifact.publishedDate": "2014-10-01T03:03:10.401Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uM2rRUZvP",
+    "artifact.defaultPictureIndex": 16599,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688L",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "921a41ac-23c6-4fb0-af73-7b10fc9cc8c1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407284",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:30.816Z",
+    "artifact.publishedDate": "2014-10-01T03:03:12.130Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Teserviser",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Te",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uM2rRUZzp",
+    "artifact.defaultPictureIndex": 16601,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688A",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "54aa59c8-1e6d-49f8-bfbe-1e0642bb4187",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407188",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:52:48.675Z",
+    "artifact.publishedDate": "2014-10-01T03:02:40.186Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uM2rRUDz5",
+    "artifact.defaultPictureIndex": 16579,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688B",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "4af280e4-1fb5-4cc1-aca3-e675e7a37732",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407199",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:52:53.421Z",
+    "artifact.publishedDate": "2014-10-01T03:02:43.592Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uM2rRUE8p",
+    "artifact.defaultPictureIndex": 16582,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688C",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "b4760d78-aedb-4a06-8484-f8b6500860a2",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407205",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:01.631Z",
+    "artifact.publishedDate": "2014-10-01T03:02:46.510Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uM2rRUEDH",
+    "artifact.defaultPictureIndex": 16583,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "SKAFOR.0016688D",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "3cf6a0ae-e236-42a4-92dc-72901088d018",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025407212",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Fatet är dekorerat på insidan med ett mittmotiv föreställande blomor i rött och grönt. På insidan upptill mot kanten en bård med guld och nedanför den ytterligare en bård med mönster i rött, guld. Fatets brätte har mjukveckade sidor. Fatets kant har en pilbågeform som följer brättets mjuka veck.",
+    "artifact.ingress.production.fromYear": 1770,
+    "artifact.ingress.production.toYear": 1800,
+    "artifact.updatedDate": "2024-11-11T11:53:04.139Z",
+    "artifact.publishedDate": "2014-10-01T03:02:49.045Z",
+    "artifact.ingress.classification": [
+      "27",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Dryckens servering",
+      "Tekoppar",
+      "Porslinstillverkning",
+      "Ostindiskt",
+      "Blommor"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uM2rRUEHj",
+    "artifact.defaultPictureIndex": 16585,
+    "artifact.defaultPictureDimension": "1559x1039"
+  },
+  {
+    "identifier.id": "MM 24376",
+    "identifier.owner": "S-SMM-MM",
+    "artifact.uuid": "d489caab-e9c4-47dc-8820-fae61c5021cc",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024819929",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat av vitt benporslin, bräm = 40 mm, sluttande. På brämet förgyllt emblem: ett krönt stockankare omgivet av tågvirkeslinga. På undersidan fotring samt stämpel och text i guld: ett stockankare, däröver \" GUSTAVSBERG \"  under tillverkarens emblem text: \" BENPORSLIN VDN B555 MADE IN SWEDEN \".",
+    "artifact.ingress.producer": "Gustafsbergs porslinsfabrik",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2022-03-04T04:40:03.757Z",
+    "artifact.publishedDate": "2014-08-15T11:40:26.169Z",
+    "artifact.ingress.classification": [
+      "ABBOAC"
+    ],
+    "artifact.ingress.subjects": [
+      "Chefen för kustflottan"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uKXJNbsVM",
+    "artifact.defaultPictureIndex": 16388,
+    "artifact.defaultPictureDimension": "1704x1782"
+  },
+  {
+    "identifier.id": "SKAFOR.0005626I",
+    "identifier.owner": "S-SK",
+    "artifact.uuid": "c2c48b57-c072-4caa-b496-53052e3c4583",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214583891",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat till kaffekopp. Vågigt formad räfflad dekor längs ytterkanterna. ",
+    "artifact.ingress.producer": "Wood & Sons",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 2000,
+    "artifact.ingress.production.toYear": 2009,
+    "artifact.updatedDate": "2024-12-17T04:12:40.203Z",
+    "artifact.publishedDate": "2024-08-09T03:53:00.737Z",
+    "artifact.ingress.subjects": [
+      "Kaffekoppar",
+      "Tefat",
+      "Tekoppar",
+      "Kaffefat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Kaffefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGHCrXGf6Z",
+    "artifact.defaultPictureIndex": 91660,
+    "artifact.defaultPictureDimension": "4032x3024"
+  },
+  {
+    "identifier.id": "VM17758",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "aef1f841-8ad7-4eb9-aef7-ee76ec13e43e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025176428",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEFAT",
+    "artifact.ingress.description": "Tefat. Blå dekor på vit botten: ''Kokarder'' och bård. \"Gustafsberg 1929 G3\" inpräglat på undersidan.\n\n\n\nInköpt på Lions loppmarknad i Vänersborg.",
+    "artifact.ingress.producer": "Gustafsberg",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2025-08-01T04:01:27.364Z",
+    "artifact.publishedDate": "2014-09-09T20:56:51.835Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Servering",
+      "Förtäring"
+    ],
+    "artifact.ingress.names": [
+      "TEFAT"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012wWWjvxajd",
+    "artifact.defaultPictureIndex": 121774,
+    "artifact.defaultPictureDimension": "2420x2353"
+  },
+  {
+    "identifier.id": "NSM.NSSR.15454",
+    "identifier.owner": "NSM",
+    "artifact.uuid": "99dfc2e9-c06e-46b5-90ec-26af901a8c52",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024218590",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fire identiske tefat med spor for kopp og NSSR-logo",
+    "artifact.ingress.producer": "Porsgrund Porselen",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.updatedDate": "2018-10-27T04:34:36.342Z",
+    "artifact.publishedDate": "2014-08-11T09:41:26.690Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "642.7"
+    ],
+    "artifact.ingress.subjects": [
+      "Spiseredskap",
+      "Servise"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Asjett",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sA3QmDF27",
+    "artifact.defaultPictureIndex": 597427,
+    "artifact.defaultPictureDimension": "4000x2662"
+  },
+  {
+    "identifier.id": "AM.002455",
+    "identifier.owner": "S-AM",
+    "artifact.uuid": "ddc62259-39a3-4b35-8a0f-4dca463ec2c3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024251975",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat till servis. Gråblå fajans med lilla riksvapnet i blått som emblem. Märkt i botten. Kantstött. I gåvan ingår fem tefat. Koppar saknas.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Stockholm, Stockholm",
+    "artifact.ingress.producer": "Gustavsberg",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2025-08-26T03:28:24.386Z",
+    "artifact.publishedDate": "2014-08-11T11:35:31.288Z",
+    "artifact.ingress.classification": [
+      "264",
+      "704"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Mat och dryck"
+    ],
+    "artifact.ingress.names": [
+      "Tefat",
+      "Porslin"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sA3kXG1ma",
+    "artifact.defaultPictureIndex": 55868,
+    "artifact.defaultPictureDimension": "1230x1089"
+  },
+  {
+    "identifier.id": "AM.002456",
+    "identifier.owner": "S-AM",
+    "artifact.uuid": "479e8c1c-1b29-49d8-80d4-33c569904122",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024251981",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat till servis. Gråblå fajans med lilla riksvapnet i blått som emblem. Märkt i botten. Kantstött.I  gåvan ingår fem tefat. Koppar saknas.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Stockholm, Stockholm",
+    "artifact.ingress.producer": "Gustavsberg",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2025-08-26T03:28:24.583Z",
+    "artifact.publishedDate": "2014-08-11T11:35:32.197Z",
+    "artifact.ingress.classification": [
+      "264",
+      "704"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Mat och dryck"
+    ],
+    "artifact.ingress.names": [
+      "Tefat",
+      "Porslin"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012sA3kXG1me",
+    "artifact.defaultPictureIndex": 55869,
+    "artifact.defaultPictureDimension": "1271x1122"
+  },
+  {
+    "identifier.id": "NSM.NSSR.15455",
+    "identifier.owner": "NSM",
+    "artifact.uuid": "f72a740f-2658-4f7f-a0b9-d8f98b73a0af",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024218595",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fire identiske tefat med spor for kopp og NSSR-logo.",
+    "artifact.ingress.producer": "Porsgrund Porselen",
+    "artifact.ingress.producerRole": "Produsent",
+    "artifact.updatedDate": "2018-10-27T04:34:36.729Z",
+    "artifact.publishedDate": "2014-08-11T09:41:27.908Z",
+    "artifact.ingress.classification": [
+      "264.2",
+      "642.7"
+    ],
+    "artifact.ingress.subjects": [
+      "Servise",
+      "Spiseredskap"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Asjett",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032sA3QmDZpE",
+    "artifact.defaultPictureIndex": 597428,
+    "artifact.defaultPictureDimension": "4000x2662"
+  },
+  {
+    "identifier.id": "AM.002453",
+    "identifier.owner": "S-AM",
+    "artifact.uuid": "4af0275d-6c76-4e7d-b174-c6f56fdf3672",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011024251967",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat till servis. Gråblå fajans med lilla riksvapnet i blått som emblem. Märkt i botten. Kantstött. I gåvan ingår fem tefat. Koppar saknas.",
+    "artifact.ingress.production.place": "Sverige, Uppland, Stockholm, Stockholm, Stockholm",
+    "artifact.ingress.producer": "Gustavsberg",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2025-08-26T03:28:24.174Z",
+    "artifact.publishedDate": "2014-08-11T11:35:29.528Z",
+    "artifact.ingress.classification": [
+      "264",
+      "704"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Mat och dryck"
+    ],
+    "artifact.ingress.names": [
+      "Tefat",
+      "Porslin"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012sA3kXG1h9",
+    "artifact.defaultPictureIndex": 55866,
+    "artifact.defaultPictureDimension": "1335x1106"
+  },
+  {
+    "identifier.id": "VM01690:1",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "5030a708-81ce-400c-bcc2-5fb7bad291d3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025092036",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEFAT",
+    "artifact.ingress.description": "Målade små blommor och brun kant.",
+    "artifact.ingress.production.place": "Meissen",
+    "artifact.ingress.producer": "Meissen",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1763,
+    "artifact.ingress.production.toYear": 1774,
+    "artifact.updatedDate": "2024-07-02T04:52:05.425Z",
+    "artifact.publishedDate": "2014-09-09T10:46:19.301Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drycker"
+    ],
+    "artifact.ingress.names": [
+      "TEFAT"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2JJ6Rew",
+    "artifact.defaultPictureIndex": 68354,
+    "artifact.defaultPictureDimension": "2056x2012"
+  },
+  {
+    "identifier.id": "VM01690:2",
+    "identifier.owner": "S-VM",
+    "artifact.uuid": "b7882051-b08d-4172-93ab-8c8382a014e0",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025092066",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "TEFAT",
+    "artifact.ingress.description": "Målade små blommor och brun kant.",
+    "artifact.ingress.production.place": "Meissen",
+    "artifact.ingress.producer": "Meissen",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1763,
+    "artifact.ingress.production.toYear": 1774,
+    "artifact.updatedDate": "2024-07-02T04:52:08.901Z",
+    "artifact.publishedDate": "2014-09-09T10:46:23.268Z",
+    "artifact.ingress.classification": [
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Drycker"
+    ],
+    "artifact.ingress.names": [
+      "TEFAT"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2JJ66nM",
+    "artifact.defaultPictureIndex": 57054,
+    "artifact.defaultPictureDimension": "2099x2083"
+  },
+  {
+    "identifier.id": "NTMT.01050",
+    "identifier.owner": "MUHO",
+    "artifact.uuid": "2c845c3e-28de-4129-9143-1e11ecb8a1e1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011022813868",
+    "artifact.hasChildren": true,
+    "artifact.childCount": 2,
+    "artifact.ingress.title": "Kopp",
+    "artifact.ingress.description": "1:Koppen står på stett, hank med dekor i gods, rillemønster i porselen. \n2: Rundt fat med rillemønster i porselen.",
+    "artifact.updatedDate": "2026-07-03T06:56:11.817Z",
+    "artifact.publishedDate": "2014-03-18T11:23:02.622Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "415"
+    ],
+    "artifact.ingress.subjects": [
+      "Underskål",
+      "Tefat"
+    ],
+    "artifact.ingress.names": [
+      "Kopp",
+      "Vennskapskopp",
+      "Kaffikopp",
+      "Tekopp",
+      "Drikkekopp",
+      "Fat "
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "013Ajsvc7Wwb",
+    "artifact.defaultPictureIndex": 209046,
+    "artifact.defaultPictureDimension": "3820x2547"
+  },
+  {
+    "identifier.id": "SUM.06741",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "e70bd846-e6aa-43db-a334-4c8a1b943470",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025148506",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Rund, smalnar nede til ein stett som er gullforgylt",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:20:13.798Z",
+    "artifact.publishedDate": "2014-09-09T15:03:07.480Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kopp",
+      "Til å drikke kaffi av",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2rwHGkT",
+    "artifact.defaultPictureIndex": 19783,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06740",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "094118f6-6e43-45d7-b90a-2f5419a0f697",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025148488",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Form: Rund, smal nede. Sidene på koppen er litt ruglete. Utheva mønster rundt koppen og rundt kanten av skåla",
+    "artifact.ingress.production.fromYear": 1970,
+    "artifact.ingress.production.toYear": 1980,
+    "artifact.updatedDate": "2026-06-10T05:20:13.792Z",
+    "artifact.publishedDate": "2014-09-09T15:03:01.056Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kopp",
+      "Til å drikke kaffi av",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 4,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rwHGg4",
+    "artifact.defaultPictureIndex": 19781,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06745",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "3813d8db-0cc4-4fdd-b2b7-e04107713174",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025148536",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt glassert fat utan mønster med ring i botnen til kopp",
+    "artifact.ingress.production.fromYear": 1885,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2026-06-10T05:20:14.164Z",
+    "artifact.publishedDate": "2014-09-09T15:03:20.476Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat",
+      "fat som skal vere under kaffikoppen"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rwHGyi",
+    "artifact.defaultPictureIndex": 19514,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06746",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "52dda9c2-cd5f-4aae-8b93-203346da5fba",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025148543",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt glassert fat utan mønster. Ring i botnen til kopp",
+    "artifact.ingress.production.fromYear": 1885,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2026-06-10T05:20:14.302Z",
+    "artifact.publishedDate": "2014-09-09T15:03:22.714Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "tefat",
+      "fat som skal vere under kaffikoppen"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rwHGyk",
+    "artifact.defaultPictureIndex": 19515,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06747",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "1aa4badd-8340-4587-9643-88deb2ea2794",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025148550",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt fat med gulldekor langs munning. Ring i botn til kopp. Fatet er delt opp i seksjonar med opphøga strekar frå sentrum mot kant.",
+    "artifact.ingress.production.fromYear": 1920,
+    "artifact.updatedDate": "2026-06-10T05:20:14.589Z",
+    "artifact.publishedDate": "2014-09-09T15:03:25.440Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "tefat",
+      "fat som skal vere under kaffikoppen"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rwHH43",
+    "artifact.defaultPictureIndex": 19516,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.07273",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "5ed397aa-4e5f-47d5-a88a-a9518b900dca",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149347",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Rund, skrår ut oppover",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.updatedDate": "2026-06-10T05:20:56.850Z",
+    "artifact.publishedDate": "2014-09-09T15:10:42.102Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "kopp med skål",
+      "kaffikopp med skål",
+      "til å drikka kaffi med",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rxkazT",
+    "artifact.defaultPictureIndex": 19533,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.07275",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "fc6dd420-3557-4832-be10-684f729e7377",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149354",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Form: Rund, skrår ut oppover",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.updatedDate": "2026-06-10T05:20:57.133Z",
+    "artifact.publishedDate": "2014-09-09T15:10:48.308Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "kopp med skål",
+      "kaffikopp med skål",
+      "til å drikka kaffi med",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rxkazc",
+    "artifact.defaultPictureIndex": 19536,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06993",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "50d2fc27-affa-4fd5-b555-4571e9f6b912",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149046",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rund, rifla kant. Ranker rundt munningsranda",
+    "artifact.updatedDate": "2026-06-10T05:20:33.451Z",
+    "artifact.publishedDate": "2014-09-09T15:07:43.956Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "tefat",
+      "kaffiskål",
+      "til å ha kaffikopp på"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rwJcuW",
+    "artifact.defaultPictureIndex": 19522,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06992",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "6c183626-d405-4368-b4b8-abd28a1640bf",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149043",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/ tefat",
+    "artifact.ingress.description": "Rund, rett kantoppe. Smalnar av mot stett.\nStøypt akantusranke rundt munning på kopp og skål,",
+    "artifact.updatedDate": "2026-06-10T05:20:33.670Z",
+    "artifact.publishedDate": "2014-09-09T15:07:41.869Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/ tefat",
+      "kaffikopp",
+      "Kaffikopp",
+      "Til å drikke kaffi med"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rwJcuP",
+    "artifact.defaultPictureIndex": 19520,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.06994",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "c8a7b804-1ae5-4897-a97e-65d1fe9aaca1",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149048",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rund, rifla kant. Ranker rundt munningsranda",
+    "artifact.updatedDate": "2026-06-10T05:20:33.710Z",
+    "artifact.publishedDate": "2014-09-09T15:07:45.898Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "tefat",
+      "kaffiskål",
+      "til å ha kaffikopp på"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032uL2rwJcyn",
+    "artifact.defaultPictureIndex": 19523,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.02913",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "67097e3c-3b61-4d5a-ab83-19c50ec0d074",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025138825",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt glassert fat utan mønster med ring for kopp",
+    "artifact.ingress.production.fromYear": 1885,
+    "artifact.ingress.production.toYear": 1910,
+    "artifact.updatedDate": "2026-06-10T05:14:42.983Z",
+    "artifact.publishedDate": "2014-09-09T14:16:39.121Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "tefat",
+      "fat som skal vere under kaffikoppen"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2kViQUJ",
+    "artifact.defaultPictureIndex": 19486,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.03450",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "4c7c8cec-f215-4646-b954-e7ad011bdf9a",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025142431",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt fat med tre ulike dekorasjonselement i kvitt og gull. Ring i botnen til kopp.",
+    "artifact.ingress.production.fromYear": 1930,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2026-06-10T05:15:31.087Z",
+    "artifact.publishedDate": "2014-09-09T14:25:19.167Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat",
+      "Høyrer til under kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rougni",
+    "artifact.defaultPictureIndex": 19488,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.03748",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "18dfff09-6c04-4097-84cd-9c6c493ea6d3",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025143835",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Rund kopp som smalnar ned mot stetten. Lett utoverliggande munningsrand. Horisontale støypte ringar midt på koppen og i botnen på skåla. Markert kvar koppen skal stå på skåla.\nTo koppar og ei skål",
+    "artifact.ingress.production.fromYear": 1960,
+    "artifact.ingress.production.toYear": 1970,
+    "artifact.updatedDate": "2026-06-10T05:15:55.346Z",
+    "artifact.publishedDate": "2014-09-09T14:28:19.868Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kaffikopp",
+      "Til å drikke kaffi med",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2rqMfQd",
+    "artifact.defaultPictureIndex": 19490,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.02526",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "c2802612-1dab-44f1-b081-3321d995c8aa",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025137968",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Rund sylindrisk kopp som flatar ut mot ein liten stett, Svakt utoverhengande munningsrand.\nSkåla har ring som syner kvar koppen skal stå. \nBylgjande munningsrand",
+    "artifact.ingress.production.fromYear": 1940,
+    "artifact.ingress.production.toYear": 1950,
+    "artifact.updatedDate": "2026-06-10T05:14:10.180Z",
+    "artifact.publishedDate": "2014-09-09T14:10:41.811Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kaffikopp",
+      "Til å drikke kaffi med",
+      "Kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2kVfimj",
+    "artifact.defaultPictureIndex": 19755,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.07213",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "173b5259-52db-4c67-b5b1-d81be19e9afe",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025149235",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt fat. Modell \"Brun fasan\"",
+    "artifact.ingress.production.fromYear": 1901,
+    "artifact.ingress.production.toYear": 1920,
+    "artifact.updatedDate": "2026-06-10T05:20:50.066Z",
+    "artifact.publishedDate": "2014-09-09T15:09:33.571Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat",
+      "Skål / fat til kopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rwKJ24",
+    "artifact.defaultPictureIndex": 19527,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.09842",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "7d539ae8-c873-42ac-b8ff-0c81911e67d8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025153661",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Kaffikopp med tefat/skål. Kopppen har konkav form med fotring og stor hank. Dekorert med naturalistiske raude roser. På skåla er to roseknoppar med blad. Riflete fane på skåla.\nLik SUM.09843",
+    "artifact.updatedDate": "2026-06-10T05:25:00.755Z",
+    "artifact.publishedDate": "2014-09-09T15:46:28.053Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kaffikopp",
+      "Drikkekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "012uL2s3EuMz",
+    "artifact.defaultPictureIndex": 10969,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.09843",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "80585426-8f70-42fd-9b95-96444cc82e31",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025153662",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Kopp m/tefat",
+    "artifact.ingress.description": "Kaffikopp med tefat/skål. Kopppen har konkav form med fotring og stor hank. Dekorert med naturalistiske raude roser. På skåla er to roseknoppar med blad. Riflete fane på skåla.\nLik SUM.09842",
+    "artifact.updatedDate": "2026-06-10T05:25:00.929Z",
+    "artifact.publishedDate": "2014-09-09T15:46:28.713Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Kopp m/tefat",
+      "Kaffikopp",
+      "Drikkekopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2s3EuSG",
+    "artifact.defaultPictureIndex": 10971,
+    "artifact.defaultPictureDimension": "2592x1944"
+  },
+  {
+    "identifier.id": "SUM.05923",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "a1f5b10c-078f-4a8f-9465-2121634fc68d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025146723",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Rundt fat med rifla rand i godset rundt heile kanten, smal gullstripe på begge sider av denne. Måla dekor med eit gardstun som motiv.\nRing i botnen for kopp",
+    "artifact.ingress.production.fromYear": 1950,
+    "artifact.ingress.production.toYear": 1965,
+    "artifact.updatedDate": "2026-06-10T05:18:55.935Z",
+    "artifact.publishedDate": "2014-09-09T14:51:37.566Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272.22"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat",
+      "fat/skål til underlag for kaffikopp"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "042uL2rtMKcC",
+    "artifact.defaultPictureIndex": 19497,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "SUM.08410",
+    "identifier.owner": "SUM",
+    "artifact.uuid": "622e7dad-d696-468f-ae84-aa7d6eb5f9cf",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "011025151503",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Koppestell",
+    "artifact.ingress.description": "2 koppar, eit tefat og ei skei. Deler av større sett",
+    "artifact.ingress.production.fromYear": 1958,
+    "artifact.ingress.production.toYear": 1960,
+    "artifact.updatedDate": "2026-06-10T05:22:46.948Z",
+    "artifact.publishedDate": "2014-09-09T15:30:09.341Z",
+    "artifact.ingress.classification": [
+      "524"
+    ],
+    "artifact.ingress.names": [
+      "Koppestell",
+      "leikebestikk",
+      "leikekoppesett med koppar, tefat og skei"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022uL2rzGFuk",
+    "artifact.defaultPictureIndex": 24290,
+    "artifact.defaultPictureDimension": "4000x2667"
+  },
+  {
+    "identifier.id": "S 5974.5",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "40cabc03-72ff-4758-842b-2459d35e2316",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210215773181",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Porslin",
+    "artifact.ingress.description": "Vitt tefat med blått tryck.",
+    "artifact.updatedDate": "2026-06-11T04:03:30.259Z",
+    "artifact.publishedDate": "2025-12-16T04:46:07.423Z",
+    "artifact.ingress.subjects": [
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Porslin",
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EJYBF18m6E",
+    "artifact.defaultPictureIndex": 869218,
+    "artifact.defaultPictureDimension": "6000x4220"
+  },
+  {
+    "identifier.id": "S 5977.5",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "95a8753c-9a59-4974-a592-ecbc2e343e8e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210215773192",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Porslin",
+    "artifact.ingress.description": "Vitt tefat med blå kant.",
+    "artifact.updatedDate": "2026-06-11T04:03:31.243Z",
+    "artifact.publishedDate": "2025-12-16T04:46:16.264Z",
+    "artifact.ingress.subjects": [
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Porslin",
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "069EJYBF18mAe",
+    "artifact.defaultPictureIndex": 869200,
+    "artifact.defaultPictureDimension": "6000x3926"
+  },
+  {
+    "identifier.id": "XLM.30251f",
+    "identifier.owner": "S-XLM",
+    "artifact.uuid": "d04e545c-c90b-4fea-a2ad-a2e2d7eef301",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021028557530",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Fem tefat tillhörande teservis \"Amanita\", från Gefle Porslinsfabrik.",
+    "artifact.ingress.production.fromYear": 1949,
+    "artifact.ingress.production.toYear": 1957,
+    "artifact.updatedDate": "2026-04-28T03:58:51.640Z",
+    "artifact.publishedDate": "2020-03-26T05:27:21.808Z",
+    "artifact.ingress.classification": [
+      "264",
+      "323",
+      "531"
+    ],
+    "artifact.ingress.subjects": [
+      "Industri och hantverk",
+      "Servering och förtäring"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by-sa"
+    ],
+    "artifact.pictureCount": 1,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "02349wsYtEjw",
+    "artifact.defaultPictureIndex": 137612,
+    "artifact.defaultPictureDimension": "2112x1332"
+  },
+  {
+    "identifier.id": "TEKS0019434",
+    "identifier.owner": "S-TEK",
+    "artifact.uuid": "c8c5b844-a146-46b8-8e12-b3048b29f452",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026350336",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Två tefat av olika fajansmassa och lika hårt brända men samma form. Stämpel: \"Rörstrand\".",
+    "artifact.ingress.producer": "Rörstrand",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.updatedDate": "2026-09-16T04:04:49.369Z",
+    "artifact.publishedDate": "2016-03-20T08:55:04.096Z",
+    "artifact.ingress.classification": [
+      "5721"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "032wZW9fpcwK",
+    "artifact.defaultPictureIndex": 134360,
+    "artifact.defaultPictureDimension": "3538x3543"
+  },
+  {
+    "identifier.id": "SM 20030.28",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "ce2b82ea-f545-431b-93cf-ee6653c75c0d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026286550",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Runt tefat av fajans, vitglaserat med brun ytterkant. Blådekorerat med stiliserade bladrankor och bär. Glasyren delvis bortfallen. I fatet påtäffades spannmål.",
+    "artifact.updatedDate": "2026-08-14T03:42:54.709Z",
+    "artifact.publishedDate": "2016-02-25T06:11:24.334Z",
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Sjöfynd",
+      "Vrakfynd"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022wZ1GVj7fJ",
+    "artifact.defaultPictureIndex": 297459,
+    "artifact.defaultPictureDimension": "3008x2832"
+  },
+  {
+    "identifier.id": "SM 24707",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "0f94ccb6-45bd-4eb4-ad11-5652459da469",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027801300",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat, skålformat, vit glaserat med blå dekor: figur sittande framför pagod. Hör till teservis.",
+    "artifact.ingress.production.place": "Nederländerna, Delft, Gasthuislaan, bij de Paradijspoort",
+    "artifact.ingress.producer": "De porceleyne Bijl",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1750,
+    "artifact.updatedDate": "2026-08-12T03:52:24.763Z",
+    "artifact.publishedDate": "2018-05-17T06:03:58.976Z",
+    "artifact.ingress.classification": [
+      "AAAQ"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Älvsnabbenvraket"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231wTSwhCJG",
+    "artifact.defaultPictureIndex": 388615,
+    "artifact.defaultPictureDimension": "4000x2769"
+  },
+  {
+    "identifier.id": "SM 24705",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "49afb3e3-cb20-407c-af7e-2e821c1f9173",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027807433",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat.\n",
+    "artifact.updatedDate": "2026-08-12T03:52:24.799Z",
+    "artifact.publishedDate": "2018-05-23T07:22:16.800Z",
+    "artifact.ingress.classification": [
+      "AAAQ"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Porslin",
+      "Älvsnabbenvraket"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231wTZWgKrj",
+    "artifact.defaultPictureIndex": 388792,
+    "artifact.defaultPictureDimension": "4000x2769"
+  },
+  {
+    "identifier.id": "SM 24719",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "a2ab17df-cb45-4d18-bcc2-bcff1ff34663",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027801322",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat i fajans, vitglaserat. Blå dekor: figur sittande framför pagod. Hör till teservis.",
+    "artifact.ingress.producer": "De porceleyne Bijl",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1750,
+    "artifact.updatedDate": "2026-08-12T03:52:28.378Z",
+    "artifact.publishedDate": "2018-05-17T06:04:15.856Z",
+    "artifact.ingress.classification": [
+      "AAAQ"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Porslin",
+      "Älvsnabbenvraket"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 6,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331wTSwhCXT",
+    "artifact.defaultPictureIndex": 388628,
+    "artifact.defaultPictureDimension": "4000x2769"
+  },
+  {
+    "identifier.id": "SM 24720",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "0535daba-788f-4bcb-b4fc-fec927c965db",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027801324",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Djupt fat av ljusbränt lergods, fajans, med vit tennglasyr och blå dekor: figur sittande framför pagod. Hör till teservis",
+    "artifact.ingress.production.place": "Nederländerna, Delft, Gasthuislaan, bij de Paradijspoort",
+    "artifact.ingress.producer": "De porceleyne Bijl",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1754,
+    "artifact.updatedDate": "2026-08-12T03:52:28.461Z",
+    "artifact.publishedDate": "2018-05-17T06:04:16.754Z",
+    "artifact.ingress.classification": [
+      "AAAQ"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Porslin",
+      "Älvsnabbenvraket"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 5,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0231wTSwhXKi",
+    "artifact.defaultPictureIndex": 388633,
+    "artifact.defaultPictureDimension": "4000x2769"
+  },
+  {
+    "identifier.id": "SM 24722",
+    "identifier.owner": "S-SMM-SM",
+    "artifact.uuid": "c7626346-60d0-4c8e-9ae6-88be29c2ddbf",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027807855",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Skålformad ljusbränt lergods, fajans, vit tennglasyr med blå dekor: Figur sittande framför pagod.",
+    "artifact.ingress.production.place": "Nederländerna, Delft, Gasthuislaan, bij de Paradijspoort",
+    "artifact.ingress.producer": "De porceleyne Bijl",
+    "artifact.ingress.producerRole": "Tillverkare",
+    "artifact.ingress.production.fromYear": 1700,
+    "artifact.ingress.production.toYear": 1750,
+    "artifact.updatedDate": "2026-08-12T03:52:30.427Z",
+    "artifact.publishedDate": "2018-05-24T06:05:25.054Z",
+    "artifact.ingress.classification": [
+      "AAAQ"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Porslin",
+      "Älvsnabbenvraket"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "0331wTZWigXt",
+    "artifact.defaultPictureIndex": 388817,
+    "artifact.defaultPictureDimension": "4000x2842"
+  },
+  {
+    "identifier.id": "M 17594-3",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "867f43b3-7360-4bcf-914f-d8e9387804e9",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214463948",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat. Vitglaserat med guldkant. \n\nInskrivet i huvudbok 1963.",
+    "artifact.ingress.production.fromYear": 1884,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-09-30T05:59:23.732Z",
+    "artifact.publishedDate": "2024-04-19T03:43:26.006Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Koppar",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE9iifnfxa",
+    "artifact.defaultPictureIndex": 124303,
+    "artifact.defaultPictureDimension": "4000x2456"
+  },
+  {
+    "identifier.id": "M 17342",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "bc05ff2d-c2d9-451e-9017-81fc1289f99e",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214235440",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat av porslin. Vitt med grågrönt mönster, förgyllda detaljer.\n(påminner starkt om \"Wexiö Guld\"). \n\nInskrivet i huvudkatalog 1962.",
+    "artifact.ingress.production.fromYear": 1870,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-09-30T05:58:23.705Z",
+    "artifact.publishedDate": "2024-02-08T03:39:27.076Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGiKBfZhR",
+    "artifact.defaultPictureIndex": 126277,
+    "artifact.defaultPictureDimension": "3640x4000"
+  },
+  {
+    "identifier.id": "M 17344",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "c6322cb7-9421-4044-9dbe-a0576a857431",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214287224",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat. Vitt med grågrönt mönster, förgyllda detaljer.\nSamma servis som föregående, annan modell.\n\nInskrivet i huvudkatalog 1962.",
+    "artifact.ingress.production.fromYear": 1870,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-09-30T05:58:24.444Z",
+    "artifact.publishedDate": "2024-03-07T03:49:32.962Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGiKBfZmi",
+    "artifact.defaultPictureIndex": 126279,
+    "artifact.defaultPictureDimension": "3741x4000"
+  },
+  {
+    "identifier.id": "M 17345",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "890f25f0-d994-48f0-82db-07e8f9ec0c0f",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214287225",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat. Vitt med grågrönt mönster, förgyllda detaljer.\nSamma servis som föregående, annan modell.\n\nInskrivet i huvudkatalog 1962.",
+    "artifact.ingress.production.fromYear": 1870,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-09-30T05:58:24.494Z",
+    "artifact.publishedDate": "2024-03-07T03:49:36.683Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGiKBfZmn",
+    "artifact.defaultPictureIndex": 126281,
+    "artifact.defaultPictureDimension": "3741x4000"
+  },
+  {
+    "identifier.id": "M 17346",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "16bf67ce-808d-4577-b187-3d1ed518997d",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214287228",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Fat. Vitt med grågrönt mönster, förgyllda detaljer.\nSamma servis som föregående, annan modell.\n\nInskrivet i huvudkatalog 1962.",
+    "artifact.ingress.production.fromYear": 1870,
+    "artifact.ingress.production.toYear": 1880,
+    "artifact.updatedDate": "2026-09-30T05:58:24.792Z",
+    "artifact.publishedDate": "2024-03-07T03:49:39.532Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Husgeråd",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EGGiKBfZr7",
+    "artifact.defaultPictureIndex": 126283,
+    "artifact.defaultPictureDimension": "3691x4000"
+  },
+  {
+    "identifier.id": "M 21022-9",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "26915a51-d1b5-4329-9501-16cb016c6fa8",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021026870635",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat, av porslin.\nDekor: Blommor och blad i ljusgrönt och förgyllning, jämte fågel och fjäril på vit botten. Kantbård med kors.\n\nInskrivet i huvudkatalog 1968.",
+    "artifact.ingress.production.fromYear": 1899,
+    "artifact.ingress.production.toYear": 1899,
+    "artifact.updatedDate": "2026-09-30T06:09:10.157Z",
+    "artifact.publishedDate": "2017-01-25T06:07:11.593Z",
+    "artifact.ingress.classification": [
+      "264"
+    ],
+    "artifact.ingress.subjects": [
+      "Porslin",
+      "Husgeråd",
+      "Fat"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022yiziWva1V",
+    "artifact.defaultPictureIndex": 67631,
+    "artifact.defaultPictureDimension": "3038x3038"
+  },
+  {
+    "identifier.id": "M 17594-4",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "bbf5a009-78b7-4ce9-b7d9-5774306cfd63",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "0210214463950",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Tefat",
+    "artifact.ingress.description": "Tefat. Vitglaserat med guldkant. \n\nInskrivet i huvudbok 1963.",
+    "artifact.ingress.production.fromYear": 1884,
+    "artifact.ingress.production.toYear": 1900,
+    "artifact.updatedDate": "2026-09-30T05:59:24.436Z",
+    "artifact.publishedDate": "2024-04-19T03:43:27.296Z",
+    "artifact.ingress.classification": [
+      "264",
+      "272"
+    ],
+    "artifact.ingress.subjects": [
+      "Fat",
+      "Husgeråd"
+    ],
+    "artifact.ingress.names": [
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 2,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "019EE9iifng2x",
+    "artifact.defaultPictureIndex": 124306,
+    "artifact.defaultPictureDimension": "4000x2684"
+  },
+  {
+    "identifier.id": "M 66616",
+    "identifier.owner": "S-KPS",
+    "artifact.uuid": "bddfa9f5-dff8-4e6f-b003-027d981bf570",
+    "artifact.type": "Thing",
+    "artifact.uniqueId": "021027410130",
+    "artifact.hasChildren": false,
+    "artifact.ingress.title": "Fat",
+    "artifact.ingress.description": "Tefat i flintgods.\nRosa lysterdekor i form av slingor och blad.",
+    "artifact.ingress.production.fromYear": 1820,
+    "artifact.ingress.production.toYear": 1840,
+    "artifact.updatedDate": "2026-09-30T07:16:16.311Z",
+    "artifact.publishedDate": "2018-01-12T06:18:13.912Z",
+    "artifact.ingress.classification": [
+      "264",
+      "353"
+    ],
+    "artifact.ingress.subjects": [
+      "Heminredning"
+    ],
+    "artifact.ingress.names": [
+      "Fat",
+      "Tefat"
+    ],
+    "artifact.ingress.license": [
+      "CC by"
+    ],
+    "artifact.pictureCount": 3,
+    "artifact.hasPictures": true,
+    "artifact.defaultMediaIdentifier": "022ynUtjT1iP",
+    "artifact.defaultPictureIndex": 72274,
+    "artifact.defaultPictureDimension": "4000x2829"
+  }
+]
