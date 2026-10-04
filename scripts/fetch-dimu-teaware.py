@@ -28,7 +28,7 @@ def work(r):
   b=fetch(u,R/'images'/(uid+'.jpg'))
   return {'id':uid,'status':'downloaded','index':r,'raw':x,'image':im,'imageSource':u,'sha256':hashlib.sha256(b).hexdigest(),'effectiveImageLicenses':override or licenses,'licenseOrigin':'image-override' if override else 'record-license'}
  except urllib.error.HTTPError as e:
-  if e.code in [429,503]:raise
+  if e.code in [401,403,429,503]:raise
   return {'id':uid,'status':'error','error':str(e)}
  except Exception as e:return {'id':uid,'status':'error','error':str(e)}
 candidates=[]
@@ -41,5 +41,10 @@ candidates.sort(key=lambda r:(not bool(re.search('Kina|Japan|Korea',str(r),re.I)
 (R/'candidates.json').write_text(json.dumps(candidates,ensure_ascii=False,indent=2));print('CANDIDATES',len(candidates),flush=True)
 out=[]
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as p:
- for v in p.map(work,candidates):
-  out.append(v);(R/'downloaded.json').write_text(json.dumps(out,ensure_ascii=False,indent=2));print(len(out),v['id'],v['status'],flush=True)
+ for start in range(0,len(candidates),2):
+  try:
+   batch=list(p.map(work,candidates[start:start+2]))
+  except urllib.error.HTTPError as e:
+   print('Access or rate restriction; stopping',e,flush=True);break
+  for v in batch:
+   out.append(v);(R/'downloaded.json').write_text(json.dumps(out,ensure_ascii=False,indent=2));print(len(out),v['id'],v['status'],flush=True)
