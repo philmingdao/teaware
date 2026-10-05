@@ -1,0 +1,1675 @@
+{
+  "date": "2026-10-05",
+  "target": 6000,
+  "before": 4978,
+  "added": 28,
+  "after": 5006,
+  "remaining": 994,
+  "policy": "East Asian tea vessels only; exclude all tea spoons, scoops and spoon-like variants; one distinct accession per record; image rights checked per source; transparent images visually reviewed.",
+  "visualReview": "Compared each accepted cutout with its original. Items with museum stands, inventory tags, groups, missing parts, or visually redundant series were excluded.",
+  "processing": "1200x1200 lossless-alpha WebP, 10% margin. Previously reviewed images retain their recorded local segmentation model and processing hash; new additions use the same project cutout standard.",
+  "totalsByMuseum": {
+    "The Walters Art Museum": 14,
+    "Tokyo National Museum": 2,
+    "Koskipirtti ja Museotalo": 1,
+    "Turku City Museum": 1,
+    "Rijksmuseum": 3,
+    "National Museum of Korea": 2,
+    "Hallwylska museet": 4,
+    "Wien Museum": 1
+  },
+  "items": [
+    {
+      "id": "walters-11780",
+      "accessionNumber": "49.1929",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.1929",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Chinese_-_Tea_Bowl_-_Walters_491929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1800,
+        1264
+      ],
+      "sourceSha256": "14f31695dd25fc0f5ec66c1deeaf4e251962e3a3b55d856b2ea133e923a66ebc",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.1929. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Chinese - Tea Bowl - Walters 491929.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Chinese_-_Tea_Bowl_-_Walters_491929.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/11780\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/11780\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.1929"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Bowl",
+        "objectType": "Tea Bowl",
+        "titleEnglish": "Tea Bowl",
+        "description": "东亚灰釉炻器茶碗。馆方断代：9世纪；具体产地未载。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/43a618d59d3228745e317d906b8c62874f488c34e94dcec3f0119fb73643cd9c.webp",
+        "candidateSha256": "7a7cf967381b510f50915e78b2dc417d4ee7064dda3d6035c3ea6dbd9cdd8a4d",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 59760
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.39589,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01207,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-12974",
+      "accessionNumber": "49.434",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.434",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Japanese_-_Chaire_%28Tea_Caddy%29_-_Walters_49434_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1387,
+        1799
+      ],
+      "sourceSha256": "1c01cff0363fab83171b63ae2c7656d6783a097a540fa0ea9f15c3f4a4d88429",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.434. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Chaire (Tea Caddy) - Walters 49434 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Chaire_(Tea_Caddy)_-_Walters_49434_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/12974\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/12974\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.434"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Chaire (Tea Caddy)",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Chaire (Tea Caddy)",
+        "description": "日本茶入（茶罐）。馆方年代：1650-1799 (Edo)。材质：white stoneware with clear glaze, ivory lid。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/250190db3d758e57b338972c9f33a614400c037487dc66f1ef2c6cbe930671b8.webp",
+        "candidateSha256": "7a4b251d659973c948f9ab06f1c942094a7b037dced2605a92eddcbd8a90b5d0",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 84486
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.27468,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01122,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-16006",
+      "accessionNumber": "49.2119",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.2119",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Japanese_-_Tea_Bowl_-_Walters_492119_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1800,
+        1737
+      ],
+      "sourceSha256": "cf06bd9c65e7adca01a2994a47f182ba62b94519e09c539b94567aed528f16e6",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.2119. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Bowl - Walters 492119 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Bowl_-_Walters_492119_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/16006\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/16006\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.2119"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Bowl",
+        "objectType": "Tea Bowl",
+        "titleEnglish": "Tea Bowl",
+        "description": "日本乐烧茶碗。馆方年代：19th century。材质：Earthenware ceramic, glaze (Raku)。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/61005b13cc1360dca9a099c79defef43ef53c102bfb92811bdfc38627033e02c.webp",
+        "candidateSha256": "c32f47ccbde9031e2136877b000cbf9d5272c3ec9953199b688600500c2ab2d6",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 186972
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.34095,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.00964,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-21294",
+      "accessionNumber": "49.440",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.440",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Japanese_-_Tea_Bowl_-_Walters_49440_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1799,
+        1765
+      ],
+      "sourceSha256": "c3807407bd2b0f280cbeca3e5b1101c03bd840c78a27eb2345f571540e4f827a",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.440. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Bowl - Walters 49440 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Bowl_-_Walters_49440_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/21294\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/21294\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.440"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Bowl",
+        "objectType": "Tea Bowl",
+        "titleEnglish": "Tea Bowl",
+        "description": "日本白天目茶碗。馆方年代：1700-1850 (Edo)。材质：stoneware with rice-straw ash glaze。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/faa9ce2737f277ee0641d694f7c6f34b6449b5ae4760c3d05d3b34db4ca0d76f.webp",
+        "candidateSha256": "4c6100757e6a79106ed67e362fdb00f66b51bd20a6a473af42b531b82e4a4ebe",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 51018
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.26814,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01079,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-38023",
+      "accessionNumber": "49.134",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.134",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Korean_-_Tea_Bowl_with_Slip-inlaid_Decoration_-_Walters_49134_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1799,
+        1575
+      ],
+      "sourceSha256": "32167e88643739b01a9c851f51f4eea62ee81b926c6a0cb12a9a7478abf7cce6",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.134. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Korean - Tea Bowl with Slip-inlaid Decoration - Walters 49134 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Korean_-_Tea_Bowl_with_Slip-inlaid_Decoration_-_Walters_49134_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/38023\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/38023\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.134"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Bowl with Slip-inlaid Decoration",
+        "objectType": "Tea Bowl",
+        "titleEnglish": "Tea Bowl with Slip-inlaid Decoration",
+        "description": "朝鲜王朝镶嵌纹茶碗。馆方年代：1639-1717 (Joseon)。材质：stoneware with white slip under celadon glaze。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/9179a6a20c69b0810e5de67ea0fefd38b1897fffa62a56183a10ffbdc46c6c23.webp",
+        "candidateSha256": "4cd9d8ef5d7bd7d71d26ced82badaea4263a5ff6d11b8111ba187cf3a964a3b6",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 55236
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.20568,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01284,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-17644",
+      "accessionNumber": "49.1158",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.1158",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Japanese_-_Tea_Caddy_-_Walters_491158_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1327,
+        1800
+      ],
+      "sourceSha256": "dfd77e005626aaac32a555826e25c7d50dee8628bbeab50fd261a3e349f5f978",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.1158. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Caddy - Walters 491158 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Caddy_-_Walters_491158_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/17644\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/17644\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.1158"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Caddy",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Tea Caddy",
+        "description": "日本铁釉茶入。馆方年代：1st half 19th century (Edo)。材质：stoneware with iron glaze, ivory lid。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/a84d2bc8531531860a403ccf11c9cb989201dd23fbdd78a8f162b19359c9215e.webp",
+        "candidateSha256": "7c5f2cd47e75d1e4884772c16a52d07552d7b20ef85135d17f2448a8112be390",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 72146
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.24118,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01024,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-13024",
+      "accessionNumber": "49.1171",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.1171",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Japanese_-_Tea_Caddy_in_%22Katatsuki%22_%28Shouldered_Jar%29_Form_-_Walters_491171_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1570,
+        1799
+      ],
+      "sourceSha256": "86a710245e345f2d7f7860d6b758ad5e7fc52a462f885d0274e29eecb52b49bb",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.1171. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Caddy in \"Katatsuki\" (Shouldered Jar) Form - Walters 491171 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Caddy_in_%22Katatsuki%22_(Shouldered_Jar)_Form_-_Walters_491171_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/13024\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/13024\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.1171"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Caddy in \"\"Katatsuki\"\" (Shouldered Jar) Form",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Tea Caddy in \"\"Katatsuki\"\" (Shouldered Jar) Form",
+        "description": "日本肩冲形茶入。馆方年代：ca. 1590-1599 (Momoyama)。材质：stoneware with iron glaze, ivory lid。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/73e8c72510ea61fffe05eba3e16716cb759884737959a2f3ba9aba2a34714939.webp",
+        "candidateSha256": "d212570c3346ef1a46fb26dc21d7170f406375fcac533a10c2716996441bbcf5",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 94258
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.30156,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.00914,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-30787",
+      "accessionNumber": "49.718",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.718",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Japanese_-_Tea_Caddy_-_Walters_49718.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1480,
+        1800
+      ],
+      "sourceSha256": "97de65b0e42bb89411a98c253cd9b52b836556f128adcdd8ab0d2b208532d62f",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.718. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Caddy - Walters 49718.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Caddy_-_Walters_49718.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/30787\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/30787\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.718"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Caddy",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Tea Caddy",
+        "description": "日本萨摩烧茶罐。馆方年代：late 19th century (Meiji)。材质：white earthenware with overglaze enamels and a silver alloy lid。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/6d864d50d63b6fadfa287ecd54664c90a4e0857e21f84587fe163b66787f0652.webp",
+        "candidateSha256": "b3235e364a0764ec132caf7952f06b2ff7cbeae4ad11544de25cb8d39fafe61f",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 134252
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.28039,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01185,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-2146",
+      "accessionNumber": "49.1938",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.1938",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Chinese_-_Teapot_-_Walters_491938_-_Profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1601,
+        1799
+      ],
+      "sourceSha256": "ec27a7a7955c66bef7f38510b5f3c4e60070f0fc11615c9ebd32055f5be23ae5",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.1938. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Chinese - Teapot - Walters 491938 - Profile.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Chinese_-_Teapot_-_Walters_491938_-_Profile.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/2146\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/2146\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.1938"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Teapot",
+        "objectType": "Teapot",
+        "titleEnglish": "Teapot",
+        "description": "中国粉彩茶壶。馆方年代：1736-1795 (Qing dynasty (1644-1911))。材质：porcelain with overglaze enamels。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/718e45c404bfa8936b3a659833e2bf45ffdde21160d64e68ff5a998a993574da.webp",
+        "candidateSha256": "d2b366093456bead004b8f2977a869967390dacfa2a4a3de937bfb13e977b1a1",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 87508
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.31534,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01635,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-27978",
+      "accessionNumber": "49.1045",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.1045",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Chinese_-_Teapot_in_the_Form_of_Two_Peaches_-_Walters_491045.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1800,
+        1495
+      ],
+      "sourceSha256": "cda07e5815135144cb8d4259d3e4599fe74e42286e95fce762d2ee82b25ef0ea",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.1045. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Chinese - Teapot in the Form of Two Peaches - Walters 491045.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Chinese_-_Teapot_in_the_Form_of_Two_Peaches_-_Walters_491045.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/27978\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/27978\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.1045"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Teapot in the Form of Two Peaches",
+        "objectType": "Teapot",
+        "titleEnglish": "Teapot in the Form of Two Peaches",
+        "description": "中国桃形紫砂茶壶。馆方年代：18th-19th century。材质：stoneware with glaze。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/de840e4832e4b1a43bc8c3e302a84c5c77a2bfcfbc586ea87805f12994929817.webp",
+        "candidateSha256": "86526a326894d85eaf22b3dfd0f17475c33f64de048a628e1a05dc990ae0fe0b",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 110310
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.27678,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01996,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-6665",
+      "accessionNumber": "49.740",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.740",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Chinese_-_Teapot_with_Landscapes_-_Walters_49740_-_View_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1799,
+        1318
+      ],
+      "sourceSha256": "5fbb56b606a5ff3991016da213161f06de6b45e658eec6ea13d4c572c026092a",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.740. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Chinese - Teapot with Landscapes - Walters 49740 - View A.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Chinese_-_Teapot_with_Landscapes_-_Walters_49740_-_View_A.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/6665\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/6665\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.740"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Teapot with Landscapes",
+        "objectType": "Teapot",
+        "titleEnglish": "Teapot with Landscapes",
+        "description": "中国山水纹茶壶。馆方年代：1723-1735 (Qing dynasty (1644-1911))。材质：porcelain, overglaze enamel。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/e267f526d8f3a3cdc9a90e006e613f3942e2b1da023b78591b1fa2b7f4c325f6.webp",
+        "candidateSha256": "2eb0690e927b5f0fbf3d5b23c17e00bcdc3be92d9a681672b6989ac0d9e718b0",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 85360
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.27273,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01386,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-22503",
+      "accessionNumber": "49.233",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.233",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Japanese_-_Tea_Bowl_-_Walters_49233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1800,
+        1326
+      ],
+      "sourceSha256": "8f7eddc7b8ea3ab9642275ba0e88f5b5106709b7732efa6363e048697954e4e3",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.233. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Bowl - Walters 49233.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Bowl_-_Walters_49233.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/22503\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/22503\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.233"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Bowl",
+        "objectType": "Tea Bowl",
+        "titleEnglish": "Tea Bowl",
+        "description": "日本天目茶碗。馆方年代：19th century (Edo)。材质：stoneware with poured iron glaze。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/e8648e5b5f779a3fa4cb870a92185c0bc6f14a8264ef342edad9e3f2c155e2a7.webp",
+        "candidateSha256": "263e34b4fb0706c00dd769403e97739d27b8d4cb2761b5f175759d124ab6956d",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 58418
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.46911,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01135,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-13902",
+      "accessionNumber": "49.1176",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.1176",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Japanese_-_Tea_Caddy_-_Walters_491176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1151,
+        1534
+      ],
+      "sourceSha256": "55f0940405fbd5ed533ce5bf4bba8c5557e76d5f56d80f1a8f363595995f32ba",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.1176. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Caddy - Walters 491176.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Caddy_-_Walters_491176.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/13902\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/13902\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.1176"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Caddy with Ivory Lid",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Tea Caddy with Ivory Lid",
+        "description": "日本象牙盖茶入。馆方年代：early 19th century (Edo)。材质：stoneware with wood-ash and iron glazes, ivory lid。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/0879e2cb95e5e8dbac4094005e9b5c945e6d794baa2c907d086d90841503c1bf.webp",
+        "candidateSha256": "6ff73fb5235a8abe9dd7170710f8f3efb6d3870669ac202571f01ac0fe628777",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 120656
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.33158,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01355,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "walters-21503",
+      "accessionNumber": "49.861",
+      "sourceMuseum": "The Walters Art Museum",
+      "sourceUrl": "https://purl.thewalters.org/art/49.861",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_-_Tea_Caddy_-_Walters_49861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDimensions": [
+        1557,
+        1800
+      ],
+      "sourceSha256": "4cdb7b283b88244ce4ed614757cc8883b85b450544e9fcbba01818e2ab7d9a5b",
+      "rightsEvidence": {
+        "license": "Public Domain Mark (Walters Art Museum image via Wikimedia Commons)",
+        "creditLine": "Walters Art Museum, 49.861. Image contributed by the Walters Art Museum to Wikimedia Commons, Public Domain. Background removed and cropped by Teaware.",
+        "licenseUrl": null,
+        "commons": {
+          "filename": "File:Japanese - Tea Caddy - Walters 49861.jpg",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Caddy_-_Walters_49861.jpg",
+          "licenseShortName": "Public domain",
+          "usageTerms": "Public domain",
+          "imageCredit": "<a href=\"https://en.wikipedia.org/wiki/en:Walters_Art_Museum\" class=\"extiw\" title=\"w:en:Walters Art Museum\"><span title=\"art museum in Baltimore, Maryland, US\">Walters Art Museum</span></a>: <span typeof=\"mw:File\"><a href=\"https://thewalters.org/\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/20px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://thewalters.org/\">Home page</a> <span typeof=\"mw:File\"><a href=\"https://art.thewalters.org/detail/21503\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://art.thewalters.org/detail/21503\">Info about artwork</a>",
+          "waltersSourceRecord": "https://purl.thewalters.org/art/49.861"
+        }
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tea Caddy with Ivory Lid",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Tea Caddy with Ivory Lid",
+        "description": "日本象牙盖茶罐。馆方年代：19th century (Edo)。材质：stoneware with underglaze iron, ivory lid。现藏于沃尔特斯艺术博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/1284bd2f8ef8cfa05ebe217012fdb91214b8b30f604b076a696ffd8b4b45608e.webp",
+        "candidateSha256": "ba92bcbcc548678624e44c06c1b692ef4c7e1c045b2636463589c054dbba508c",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 59490
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.3242,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01626,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Walters object record + Commons public-domain image"
+    },
+    {
+      "id": "colbase-tnm-78916",
+      "accessionNumber": "G-1195",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-1195",
+      "sourceImageUrl": "https://colbase.nich.go.jp/media/tnm/G-1195/image/G-1195_E0181941.jpg",
+      "sourceDimensions": [
+        1600,
+        1067
+      ],
+      "sourceSha256": "4a93eb636e312270f4f7813542026a8c95f28e3563d97106c39b8559fddb23df",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (ColBase terms; source record rights)",
+        "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-1195. Background removed and cropped by Teaware.",
+        "licenseUrl": "https://colbase.nich.go.jp/pages/term?locale=en"
+      },
+      "typeEvidence": {
+        "titleOriginal": "捻貫茶入",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "捻貫茶入",
+        "description": "捻貫茶入。馆方年代：江戸時代・17世紀。馆方作者署名：備前。现藏于东京国立博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/7dfa13dbd55ed133421d9122e7e8cc3828a22340fbdde0489460c04b4c86331d.webp",
+        "candidateSha256": "792dd75aee1a89837186576406e6dfe6026fee370234e8a35f491e2f5366368f",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 75676
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.17149,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01971,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "colbase-tnm-78934",
+      "accessionNumber": "G-1214",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-1214",
+      "sourceImageUrl": "https://colbase.nich.go.jp/media/tnm/G-1214/image/G-1214_E0182301.jpg",
+      "sourceDimensions": [
+        1600,
+        1067
+      ],
+      "sourceSha256": "964d764cecab6b0ae6930655f3b5a67b1ac02eb2c32c175961ab9de96c3fae6b",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (ColBase terms; source record rights)",
+        "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-1214. Background removed and cropped by Teaware.",
+        "licenseUrl": "https://colbase.nich.go.jp/pages/term?locale=en"
+      },
+      "typeEvidence": {
+        "titleOriginal": "三島写水指 ",
+        "objectType": "Mizusashi",
+        "titleEnglish": "三島写水指 ",
+        "description": "三島写水指 。馆方年代：江戸時代・18世紀。馆方作者署名：万古。现藏于东京国立博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/cd25d040ee7883b41a901dcf3c3ca20c165225ddd7c9d9aec0d1c02183e04f1d.webp",
+        "candidateSha256": "6c84d544bb406df629e3aaab6140a24c641451782825c40f4169b058cc9337b6",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 111624
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.21691,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01512,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "finna-04a918976bbc91",
+      "accessionNumber": "KOS1937",
+      "sourceMuseum": "Koskipirtti ja Museotalo",
+      "sourceUrl": "https://www.finna.fi/Record/tmk.175517087694800",
+      "sourceImageUrl": "https://museo.disec.fi/Yksa4/download/175517087694800/file/b8cbbd4b-0863-4b75-8978-8b69d1011baa",
+      "sourceDimensions": [
+        1600,
+        1000
+      ],
+      "sourceSha256": "a80652ad14cce5a9ee336efba6d373700a7a92c29d8a2a86fc8d84225978d5fb",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (Finna; image-specific museum license)",
+        "creditLine": "Koskipirtti ja Museotalo; Ari Kiiskinen; Esinekokoelma. CC BY 4.0. http://creativecommons.org/licenses/by/4.0/deed.en Background removed and cropped by Teaware.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/deed.en"
+      },
+      "typeEvidence": {
+        "titleOriginal": "kannu; teekannu",
+        "objectType": "Teapot",
+        "titleEnglish": "Teapot",
+        "description": "茶壶。馆方原名：kannu; teekannu。年代：valmistusaika 1910 - 1929 arvio。制作地点：valmistuspaikka Japani。馆方原文：fyysinen kuvaus: Posliininen teekannu. Alaosa levenee ylöspäin ja tämän jälkeen kapenee loivasti ylöspäin. Kulmikas kahva. Jyrkästi kapeneva, lovipäinen nokka. Kuultava, valkoinen lasite. Kyljessä, molemmilla puolilla, käsinmaalattu kuvio, jossa kimonopukuisia naisia, penkki, vuori, kukkia ja pensaita Yläreunassa punainen raita ja kultainen reunus. Kahva punainen. Kupumaisessa kannessa maalattuja kukkia ja punainen kahva."
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/306c022b9fc8d57f70db408ee994c72c983374b8340043a6ad2f7470f7e23f6b.webp",
+        "candidateSha256": "5820d8a5b9ad932d632039667a73f349287d596a3fb6aaaaeca75aa7d5ec1039",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 78926
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.46306,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01239,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "finna-5b21170a23216d",
+      "accessionNumber": "TKM11036:",
+      "sourceMuseum": "Turku City Museum",
+      "sourceUrl": "https://www.finna.fi/Record/tmk.160988148990400",
+      "sourceImageUrl": "https://museo.disec.fi/Yksa4/download/160988148990400/file/7eec425d-d627-4180-a231-7caf07782826",
+      "sourceDimensions": [
+        1600,
+        1387
+      ],
+      "sourceSha256": "72a29306c80a748ecad4742011a7ed80f20849d40b35640d00b6f88cc85db8c5",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (Finna; image-specific museum license)",
+        "creditLine": "Turku City Museum; Turun kaupunginmuseo; Esinekokoelma. CC BY 4.0. http://creativecommons.org/licenses/by/4.0/deed.en Background removed and cropped by Teaware.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/deed.en"
+      },
+      "typeEvidence": {
+        "titleOriginal": "kannu; teekannu",
+        "objectType": "Teapot",
+        "titleEnglish": "Teapot",
+        "description": "茶壶。馆方原名：kannu; teekannu。年代：馆方未注明制作年代 / Date not recorded。制作地点：valmistuspaikka Kiina。馆方原文：fyysinen kuvaus: Lieriömäinen valkoinen kannu, jossa on pieni tasainen kansi. Kannessa marja nuppina. Keskelle teekannun kylkeä on sijoitettu kaareva nokka. Käsin maalattu koristelu. Väreinä musta ja kulta. Kannun sekä kannen reunassa kustavilaistyylinen koristenauha. Sivuilla kaksi pientä kukkakimppua."
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/f0ee6ea94e27d3864c7bd89a5512c243defe8e1b938de6fafdbf1943de2cd5fa.webp",
+        "candidateSha256": "15c7d7cda1c58f44dac4b0737759d3f5d0fee9fdca7ce69937d5b7da85a38976",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 71378
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.37668,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01188,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "rks-20083255",
+      "accessionNumber": "AK-NM-13693-1",
+      "sourceMuseum": "Rijksmuseum",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/AK-NM-13693-1--c8f33d18635ea07f15a43e1b34913215",
+      "sourceImageUrl": "https://iiif.micr.io/KgSZT/full/!1600,1600/0/default.jpg",
+      "sourceDimensions": [
+        1260,
+        1600
+      ],
+      "sourceSha256": "8271fd2e603e2ac25f3dd06961e1f8906957866566db8b42ce9be407d7cc75b8",
+      "rightsEvidence": {
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "Rijksmuseum, AK-NM-13693-1. Public Domain (Rijksmuseum Open Access); background removed and cropped by Teaware.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "typeEvidence": {
+        "titleOriginal": null,
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Ovoid tea caddy with flowering plants, swastika and diaper pattern",
+        "description": "Ovoid tea caddy with flowering plants, swastika and diaper pattern。馆方年代：c. 1725 - c. 1749。产地／文化：China。材质：porcelain, glaze, email, gold (metal)。现藏于荷兰国立博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/fa2b84163357e973bf985e2fa00e6ce682e391354e54478f3f7a6a4de1c90f82.webp",
+        "candidateSha256": "02ea6244de8ccaba74aea43c7e78133439178f0185e080df40f93e41c0232b8a",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 80292
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.23621,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01729,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "rks-20087610",
+      "accessionNumber": "AK-KOG-313-6-1",
+      "sourceMuseum": "Rijksmuseum",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/AK-KOG-313-6-1--d3c562e45cb8bdc0e25d3bdfb039d1da",
+      "sourceImageUrl": "https://iiif.micr.io/HPKzZ/full/!1600,1600/0/default.jpg",
+      "sourceDimensions": [
+        1600,
+        1600
+      ],
+      "sourceSha256": "5e5794c174ed9b5663d13229d5fb0ad1511fae92bb7aa22e885ed88a671a4026",
+      "rightsEvidence": {
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "Rijksmuseum, AK-KOG-313-6-1. Public Domain (Rijksmuseum Open Access); background removed and cropped by Teaware.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "typeEvidence": {
+        "titleOriginal": null,
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Rectangular tea caddy with a crucifixion scene",
+        "description": "Rectangular tea caddy with a crucifixion scene。馆方年代：c. 1780。产地／文化：China。材质：gold (metal), glaze, email, porcelain。现藏于荷兰国立博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/2b3986a8184bfaf6cbeaf69b1f71beb25bc8d5ae644185ae41afa59773e851a0.webp",
+        "candidateSha256": "c963c8e7f498bfcd4ee830a293f4297ed3dc188a3f58b311218b674a2e635758",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 67056
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.18819,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01512,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "rks-20087684",
+      "accessionNumber": "AK-RAK-2014-5-1",
+      "sourceMuseum": "Rijksmuseum",
+      "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/AK-RAK-2014-5-1--c2e0a976a63da3759ebcd2caf7fa2da9",
+      "sourceImageUrl": "https://iiif.micr.io/MJjLE/full/!1600,1600/0/default.jpg",
+      "sourceDimensions": [
+        1195,
+        1600
+      ],
+      "sourceSha256": "3cc45b64443570b5dfd12128bb0a9d427b362a889cf3a6edc864cc67e734a3b8",
+      "rightsEvidence": {
+        "license": "Public Domain (Rijksmuseum Open Access)",
+        "creditLine": "Rijksmuseum, AK-RAK-2014-5-1. Public Domain (Rijksmuseum Open Access); background removed and cropped by Teaware.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "typeEvidence": {
+        "titleOriginal": null,
+        "objectType": "Tea Caddy",
+        "titleEnglish": "Ovoid tea caddy with European figures in landscapes",
+        "description": "Ovoid tea caddy with European figures in landscapes。馆方年代：c. 1740 - c. 1745。产地／文化：China。材质：email, porcelain, gold (metal), glaze。现藏于荷兰国立博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/09584a585d054a834e78af48da729d01351bf4ce98048738e31a504041ab09b1.webp",
+        "candidateSha256": "684e4866f3f387ea573a2f879b75cee95a135c39b7fd4ced8552b379a98b3bf8",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 92988
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.25097,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.0171,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "nmk-214883",
+      "accessionNumber": "신도2144",
+      "sourceMuseum": "National Museum of Korea",
+      "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=214883&schM=view&searchId=search",
+      "sourceImageUrl": "https://www.museum.go.kr/relic_image/PS01001001/sdo000/2019/0926182927358/sdo002144-000-90000.jpg",
+      "sourceDimensions": [
+        1600,
+        1201
+      ],
+      "sourceSha256": "c65ae05f68f9bef248a272349d574c1f9ac0507f0cda4525a36959afc90a311b",
+      "rightsEvidence": {
+        "license": "KOGL Type 1 (attribution; commercial reuse and adaptation permitted)",
+        "creditLine": "National Museum of Korea. 천목 찻사발; 天目多盌, 천목 다완. 신도2144. KOGL Type 1 — https://www.kogl.or.kr/info/licenseType1.do . Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "천목 찻사발; 天目多盌, 천목 다완",
+        "objectType": "Tea Bowl",
+        "titleEnglish": "Ceramic Tea Bowl",
+        "description": "茶碗。馆方原名：천목 찻사발。馆方国别与时代：중국 - 원。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/cf832835f3a8250d1368210720acdde940419efcb4fe395a586ccc71499a4fcd.webp",
+        "candidateSha256": "6e611cf8fd2d00334824aed1bc90b7c33f9aee0eb3adbeed091a7aabb5217106",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 41720
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.09263,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01658,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "nmk-68842",
+      "accessionNumber": "덕수3534",
+      "sourceMuseum": "National Museum of Korea",
+      "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=68842&schM=view&searchId=search",
+      "sourceImageUrl": "https://www.museum.go.kr/relic_image/PS01001001/duk000/2019/0925174824378/duk003534-000-70000.jpg",
+      "sourceDimensions": [
+        3000,
+        2000
+      ],
+      "sourceSha256": "b309626bb2f6f726bd36aa833b65aac052041237bdf49f96ab298a9bcd57a199",
+      "rightsEvidence": {
+        "license": "KOGL Type 1 (attribution; commercial reuse and adaptation permitted)",
+        "creditLine": "National Museum of Korea. 백자다관; 白磁茶罐. 덕수3534. KOGL Type 1 — https://www.kogl.or.kr/info/licenseType1.do. Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "백자다관; 白磁茶罐",
+        "objectType": "Tea Caddy",
+        "titleEnglish": "White Porcelain Tea Caddy",
+        "description": "白瓷茶罐（白磁茶罐）。馆方记载为韩国朝鲜王朝器物；尺寸：高13.6厘米、口径7.9厘米、腹径16.7厘米。现藏于韩国国立中央博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/55a619c2ba0e2c01078a08c7da2302e569ef43efb0327eca06fbc54d11079e94.webp",
+        "candidateSha256": "7e1350d9c5fce093d2073e95d8fb80f8ce115d2d7f1e97aa4bdb498dc49164c1",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 86244
+      },
+      "segmentation": {
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.13228,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01486,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "Previously reviewed East Asian museum image batch"
+    },
+    {
+      "id": "shm-513d4269-70cb-4c10-85e5-18d4589cd548",
+      "accessionNumber": "XLVIII:XI:B.a.c.05._HWY",
+      "sourceMuseum": "Hallwylska museet",
+      "sourceUrl": "https://samlingar.shm.se/object/513D4269-70CB-4C10-85E5-18D4589CD548",
+      "sourceImageUrl": "https://media.samlingar.shm.se/item/1BD0B851-3EB3-47DC-8B01-71123D99E689",
+      "sourceDimensions": [
+        1600,
+        1067
+      ],
+      "sourceSha256": "1e595056dbe0507bc0384c7779f7315834f2a436d33ec0f641adaf9bfef2456d",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (selected image; SHM)",
+        "creditLine": "Media: Mohr, Jens. Hallwylska museet/SHM, (CC BY 4.0) Du får bearbeta och dela verket för alla ändamål, även kommersiella, så länge du anger upphovsperson och licensgivare. XLVIII:XI:B.a.c.05._HWY. Source: https://samlingar.shm.se/object/513D4269-70CB-4C10-85E5-18D4589CD548. Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tekanna med lock. Yixing stengods. Qing-dynastin.",
+        "objectType": "Teapot",
+        "titleEnglish": "Pear-Shaped Yixing Teapot",
+        "description": "宜兴紫砂梨形茶壶，壶身压扁，壶盖与壶身相连，圆柄弯曲。馆方断代为清代18世纪。现藏于哈尔维尔博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/22271fb60a1cc628b51c680d08539f0faf45ab445fcf422eb8e62faa26936672.webp",
+        "candidateSha256": "868193a38f4f7aefb85fc8039495d1143e667c40d9abc9552178089a817242fc",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 72418
+      },
+      "segmentation": {
+        "modelSha256": "fa48b4fb0685ab0765115902e3cfd8b8b13d8764adb280ab287afbff8e8e0ed0",
+        "execution": "PyTorchMPS:float16:batch2",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.24929,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01543,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "output/round31-shm"
+    },
+    {
+      "id": "shm-616a6674-9ad2-4baa-8ee7-3db0d4d46e10",
+      "accessionNumber": "XLVIII:XI:B.a.c.08._HWY",
+      "sourceMuseum": "Hallwylska museet",
+      "sourceUrl": "https://samlingar.shm.se/object/616A6674-9AD2-4BAA-8EE7-3DB0D4D46E10",
+      "sourceImageUrl": "https://media.samlingar.shm.se/item/9CA51763-772B-411C-84FD-99E1AD5D03C8",
+      "sourceDimensions": [
+        1600,
+        1067
+      ],
+      "sourceSha256": "e508037ab029f20f69e6033fed4dbf2f989f21d1bbdcf087b3dde552d04cb661",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (selected image; SHM)",
+        "creditLine": "Media: Mohr, Jens. Hallwylska museet/SHM, (CC BY 4.0) Du får bearbeta och dela verket för alla ändamål, även kommersiella, så länge du anger upphovsperson och licensgivare. XLVIII:XI:B.a.c.08._HWY. Source: https://samlingar.shm.se/object/616A6674-9AD2-4BAA-8EE7-3DB0D4D46E10. Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tekanna med lock. Yixing stengods, Republiken Kina.",
+        "objectType": "Teapot",
+        "titleEnglish": "Yixing Teapot with Bamboo-Form Fittings",
+        "description": "宜兴紫砂茶壶，壶嘴、壶把和壶钮以竹枝为形。馆方断代为1911至1923年。现藏于哈尔维尔博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/b55b487b9b40c9e79c856c768f89a4c1fde995d106f752bacb4fcea3b2ce7547.webp",
+        "candidateSha256": "f3db3f218c208f1a0d59ac06153b42ebd8c349a5daf46c14b5b0ec1b2befefe3",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 86464
+      },
+      "segmentation": {
+        "modelSha256": "fa48b4fb0685ab0765115902e3cfd8b8b13d8764adb280ab287afbff8e8e0ed0",
+        "execution": "PyTorchMPS:float16:batch2",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.24987,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01621,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "output/round31-shm"
+    },
+    {
+      "id": "shm-b849020a-150c-4bd6-a646-ca0f014c418f",
+      "accessionNumber": "XLVIII:XI:B.a.c.06._HWY",
+      "sourceMuseum": "Hallwylska museet",
+      "sourceUrl": "https://samlingar.shm.se/object/B849020A-150C-4BD6-A646-CA0F014C418F",
+      "sourceImageUrl": "https://media.samlingar.shm.se/item/29DB0517-FB5F-4F73-8927-58336ED6A042",
+      "sourceDimensions": [
+        1600,
+        1067
+      ],
+      "sourceSha256": "c483d577165525949451281b133e15adee425989a34f3ad21840f2ac7afe0329",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (selected image; SHM)",
+        "creditLine": "Media: Mohr, Jens. Hallwylska museet/SHM, (CC BY 4.0) Du får bearbeta och dela verket för alla ändamål, även kommersiella, så länge du anger upphovsperson och licensgivare. XLVIII:XI:B.a.c.06._HWY. Source: https://samlingar.shm.se/object/B849020A-150C-4BD6-A646-CA0F014C418F. Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tekanna med lock.Yixing-gods.Qing-Republiken Kina.",
+        "objectType": "Teapot",
+        "titleEnglish": "Peach-Form Yixing Teapot",
+        "description": "宜兴紫砂桃形茶壶，壶把与壶钮作枝形，枝上饰桃实与飞蝠。馆方断代为1912至1923年。现藏于哈尔维尔博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/44f54e5546572fc9aa6274f34be434ae5ed4282ae1b30cd90087152648137631.webp",
+        "candidateSha256": "05258330746517e0b304c6b5796dec555bfc9436e01a55654b3bda65797f9b1f",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 77146
+      },
+      "segmentation": {
+        "modelSha256": "fa48b4fb0685ab0765115902e3cfd8b8b13d8764adb280ab287afbff8e8e0ed0",
+        "execution": "PyTorchMPS:float16:batch2",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.26543,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01495,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "output/round31-shm"
+    },
+    {
+      "id": "shm-c585708d-361f-4a36-bf52-553079443b2c",
+      "accessionNumber": "XLVIII:XI:B.a.c.02._HWY",
+      "sourceMuseum": "Hallwylska museet",
+      "sourceUrl": "https://samlingar.shm.se/object/C585708D-361F-4A36-BF52-553079443B2C",
+      "sourceImageUrl": "https://media.samlingar.shm.se/item/DABDAF37-677B-49AF-829D-FDDC2B78E76D",
+      "sourceDimensions": [
+        1600,
+        1067
+      ],
+      "sourceSha256": "132810e69ec1c343e37db9b28baa41f6b16267d177308b8b5028695fa45411c6",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (selected image; SHM)",
+        "creditLine": "Media: Mohr, Jens. Hallwylska museet/SHM, (CC BY 4.0) Du får bearbeta och dela verket för alla ändamål, även kommersiella, så länge du anger upphovsperson och licensgivare. XLVIII:XI:B.a.c.02._HWY. Source: https://samlingar.shm.se/object/C585708D-361F-4A36-BF52-553079443B2C. Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "Tekanna med lock. Yixing-gods. Tidig Qing-dynasti.",
+        "objectType": "Teapot",
+        "titleEnglish": "Square Yixing Teapot with Upright Handle",
+        "description": "宜兴紫砂方形茶壶，配直立方截面壶把、长方形壶盖和方钮。馆方断代为17世纪。现藏于哈尔维尔博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/c4a7a16cc92ad374023cabe882b512f60281ea92e7b4ee47f54e4281bf803db5.webp",
+        "candidateSha256": "e1461a3e78ce201795a112c712c2f4b063fa8a50b162bfecece5eb91c978e166",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 101106
+      },
+      "segmentation": {
+        "modelSha256": "fa48b4fb0685ab0765115902e3cfd8b8b13d8764adb280ab287afbff8e8e0ed0",
+        "execution": "PyTorchMPS:float16:batch2",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.18021,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.02631,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "output/round31-shm"
+    },
+    {
+      "id": "wien-2843262",
+      "accessionNumber": "142493/1",
+      "sourceMuseum": "Wien Museum",
+      "sourceUrl": "https://sammlung.wienmuseum.at/objekt/2843262-japanische-teekanne/",
+      "sourceImageUrl": "https://sammlung.wienmuseum.at/images/objects/2843262/3389384_full.jpg",
+      "sourceDimensions": [
+        1381,
+        1600
+      ],
+      "sourceSha256": "557959f0118d437edf4a5a273a16b80c86bd65529338ef326e3f278352caff57",
+      "rightsEvidence": {
+        "license": "CC BY 4.0 (Wien Museum selected image)",
+        "creditLine": "Unbekannt, Japanische Teekanne, um 1890, Wien Museum Inv.-Nr. 142493/1, CC BY 4.0, Foto: L. Hilzensauer, Wien Museum (https://sammlung.wienmuseum.at/objekt/2843262/). Background removed and cropped by Teaware.",
+        "licenseUrl": null
+      },
+      "typeEvidence": {
+        "titleOriginal": "Japanische Teekanne",
+        "objectType": "Teapot",
+        "titleEnglish": "Japanese Painted Porcelain Teapot",
+        "description": "日本彩绘瓷茶壶。馆方原名为“Japanische Teekanne”，约作于1890年，制作者未详。现藏于维也纳博物馆。"
+      },
+      "transparentAsset": {
+        "url": "/collection-cutouts/ba85a31d33404af54aee46cfba0fd918a118a2e54e75ea6a18d84aeabebb6602.webp",
+        "candidateSha256": "72ef8b0156a0099e1639165bdfa3179d6b82e0ec1ba605c06768e538a6e440c2",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "format": "lossless-alpha WebP",
+        "bytes": 128898
+      },
+      "segmentation": {
+        "modelSha256": "fa48b4fb0685ab0765115902e3cfd8b8b13d8764adb280ab287afbff8e8e0ed0",
+        "execution": "PyTorchMPS:float16:batch2",
+        "maskVersion": "mask-v2-flat-preservation",
+        "exportVersion": "webp-v1-adaptive",
+        "margin": 0.1,
+        "quality": 88,
+        "qa": {
+          "coverage": 0.33341,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01169,
+          "flags": []
+        }
+      },
+      "visualReview": {
+        "status": "reviewed",
+        "comparedWithSource": true,
+        "notes": "Single tea vessel; no spoon or scoop; silhouette, handles, spout, and rim preserved; no display stand, label, group, or background remains in the cutout."
+      },
+      "candidateBatch": "output/round31-wien"
+    }
+  ]
+}

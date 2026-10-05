@@ -32,6 +32,14 @@ const nativeTeaNames = /(?<![\p{L}])(?:theburk|teskei|tekoppsfat|samowar|samovar
 const nonTeaNames = /\b(?:epitaph|tomb|burial|funerary|snuff|tobacco|wine|libation|ritual|sacrificial|food vessel|grain serving|brush[- ]?(?:pot|washer|rest)|water dropper|inkstone|cosmetic|pillow|jardini[eè]re|flower ?pot|candlestick|candle ?holder|lamp|statue|figurine|sculpture|pendant|bracelet|ornament|necklace|earring|belt|weapon|sword|arrowhead|tile|roof|brick|seal paste|soup|tureen|sauce boat|mustard|punch bowl|finger bowl|custard|chocolate pot|chest with print)\b/i;
 const nonTeaType = /\b(?:vase|figure|buddha|snuff|brush|pillow|wine|libation|ritual|tile|jardiniere|seal|sculpture|jewellery|weapon|dish|plate|platter)\b/i;
 
+// Keep the historical catalogue intact, but do not admit more spoon-like
+// tea tools into future expansion batches after the user's curation decision.
+export function isSpoonLikeTeaware(artwork) {
+  const labels = [artwork.objectTypeEnglish, artwork.titleEnglish, artwork.titleOriginal, artwork.titleChinese]
+    .filter(Boolean).join(' ').normalize('NFKC');
+  return /\b(?:tea[- ]?(?:measuring[- ]?)?(?:spoons?|scoops?|ladles?)|teaspoons?|chashaku|cha[- ]?shaku)\b|茶匙|茶勺|茶杓|茶掬い|찻숟가락|차숟가락|차스푼/iu.test(labels);
+}
+
 export function sourceEvidence(artwork) {
   let filename = '';
   try {

@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-05",
+  "target": 6000,
+  "before": 5017,
+  "added": 9,
+  "after": 5026,
+  "remaining": 974,
+  "policy": "East Asian tea vessels only. Tea spoons, tea scoops, ladles, and spoon-like tools are excluded from new additions. Each item has a unique accession, source record, source image, verified item-level CC0 rights, and a visually reviewed transparent cutout.",
+  "imageProcess": "Local BiRefNet Lite CPU segmentation; source RGB retained before resizing; 1200x1200 lossless-alpha WebP with a 10% margin. Each cutout was visually compared with the source on black and white.",
+  "byMuseum": {
+    "Cleveland Museum of Art": 9
+  },
+  "items": [
+    {
+      "id": "cma-111780",
+      "accessionNumber": "1930.305",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1930.305",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1930.305/1930.305_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1930.305. CC0. Source: https://clevelandart.org/art/1930.305. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        2953,
+        3400
+      ],
+      "sourceImageSha256": "be21a5ea3fb74b07f9d1cab06dfefb96b9ab77759746ec4810f3ba3d18655f2e",
+      "processedOriginalSha256": "4ee5f1320d766a2834b6f2cb43129838da799c497e4f5f449503f6e9c527573f",
+      "metadataSha256": "cd0082ab3bb4df951dbcd43d8dbd26c3b786ac7ede98549965e1ebf1c84da7ee",
+      "physicalObjectKey": "cma|1930.305",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1930.305/1930.305_print.jpg"
+      },
+      "titleOriginal": "Tea Cup",
+      "titleChinese": "茶杯",
+      "description": "馆方年代：early 1500s。馆方文化与产地：China, Ming dynasty (1368–1644)。馆方材质与工艺：guri lacquer。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/1cfdad69a82b96af94c5b9ba48e98c65bdda0aa4d53edaab1eceade1d2583d17.webp",
+        "cacheKey": "1cfdad69a82b96af94c5b9ba48e98c65bdda0aa4d53edaab1eceade1d2583d17",
+        "candidateSha256": "7a04c29b2460951e0e5ade0fa9595c554da3a0cd12ea978dbf9083040b185c96",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.26926,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.00913,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-111780",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "1cfdad69a82b96af94c5b9ba48e98c65bdda0aa4d53edaab1eceade1d2583d17",
+          "candidateSha256": "7a04c29b2460951e0e5ade0fa9595c554da3a0cd12ea978dbf9083040b185c96"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-132299",
+      "accessionNumber": "1954.783",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1954.783",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1954.783/1954.783_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1954.783. CC0. Source: https://clevelandart.org/art/1954.783. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        2329
+      ],
+      "sourceImageSha256": "85d85811082fecd613a49bc6e8b05e086692bcc47e10f33d348921e2b3037d1b",
+      "processedOriginalSha256": "8feba10bbf532d18107431fe1f166ed7ce58489c3f16204cee9985cf13f1d8b3",
+      "metadataSha256": "ee6fbb7e045f978fb60cb3706f6107e5a252b57b3bf969c724abeb1742fedd07",
+      "physicalObjectKey": "cma|1954.783",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1954.783/1954.783_print.jpg"
+      },
+      "titleOriginal": "Teabowl",
+      "titleChinese": "茶碗",
+      "description": "馆方年代：1400s–1500s。馆方文化与产地：Japan, Muromachi period (1392–1573)。馆方材质与工艺：Glazed stoneware (Seto ware)。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/bf02db63103a603f504cbc23e1ada086b0405b0e3b990b69ed408350ce37b3ef.webp",
+        "cacheKey": "bf02db63103a603f504cbc23e1ada086b0405b0e3b990b69ed408350ce37b3ef",
+        "candidateSha256": "805f51f610eeeab47b7238f178bdc9d84d83ba4b434b5965a0e8b6d4fa9fccdb",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.27537,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01032,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-132299",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "bf02db63103a603f504cbc23e1ada086b0405b0e3b990b69ed408350ce37b3ef",
+          "candidateSha256": "805f51f610eeeab47b7238f178bdc9d84d83ba4b434b5965a0e8b6d4fa9fccdb"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-133166",
+      "accessionNumber": "1955.558",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1955.558",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1955.558/1955.558_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1955.558. CC0. Source: https://clevelandart.org/art/1955.558. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        2938,
+        3400
+      ],
+      "sourceImageSha256": "cb88f14acfb98253e92566ac6245a959166c63295577e611b3d03a52e861e36b",
+      "processedOriginalSha256": "e2b23fb232ce6a5d6a9fd3ee8774cc39d473f9785143bc21956c4b7b4779db4a",
+      "metadataSha256": "090c52c8a8a545119ee29837b0cd254e17955608dc8c19db186d83f436d59f16",
+      "physicalObjectKey": "cma|1955.558",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1955.558/1955.558_print.jpg"
+      },
+      "titleOriginal": "Covered Tea Kettle",
+      "titleChinese": "带盖茶釜",
+      "description": "馆方年代：1615–1868。馆方文化与产地：Japan, Edo period (1615–1868)。馆方材质与工艺：iron。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/3aff9440dd34dac1e642ddd376a26b90ff84d466e28393604f590a193e01e101.webp",
+        "cacheKey": "3aff9440dd34dac1e642ddd376a26b90ff84d466e28393604f590a193e01e101",
+        "candidateSha256": "c1c104ac56207b67d52db796c13ceece1a68e0a3c2864027ce1b018f267635b9",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.20141,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01999,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-133166",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "3aff9440dd34dac1e642ddd376a26b90ff84d466e28393604f590a193e01e101",
+          "candidateSha256": "c1c104ac56207b67d52db796c13ceece1a68e0a3c2864027ce1b018f267635b9"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-135187",
+      "accessionNumber": "1958.211",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1958.211",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1958.211/1958.211_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1958.211. CC0. Source: https://clevelandart.org/art/1958.211. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        2618
+      ],
+      "sourceImageSha256": "26a0310e0a57106a008bfd46279cd82c32ca88f66e22c2ee9085e47dd388e3dc",
+      "processedOriginalSha256": "596267bcf5bf26de98714ef05efbf237b4a6e7d677bb7421c5f4f42800862320",
+      "metadataSha256": "58a08641834375c6cc207883b668ad509e1caa228f5adcca8a8dab1363c6a532",
+      "physicalObjectKey": "cma|1958.211",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1958.211/1958.211_print.jpg"
+      },
+      "titleOriginal": "Teapot",
+      "titleChinese": "外销茶壶",
+      "description": "馆方年代：c. 1750–1770。馆方文化与产地：China, Chinese Export -- European Market, 18th century。馆方材质与工艺：porcelain。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/d8f591f08fb111c2542fd6318433e1ba0d8fd7600db6923b02a26b3f7a35dab3.webp",
+        "cacheKey": "d8f591f08fb111c2542fd6318433e1ba0d8fd7600db6923b02a26b3f7a35dab3",
+        "candidateSha256": "2fa873f682e4033b0912d0739ef9ce3c3b592c8f0827ab7fa9fe4d1b215de36a",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.17936,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01743,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-135187",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "d8f591f08fb111c2542fd6318433e1ba0d8fd7600db6923b02a26b3f7a35dab3",
+          "candidateSha256": "2fa873f682e4033b0912d0739ef9ce3c3b592c8f0827ab7fa9fe4d1b215de36a"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-135190",
+      "accessionNumber": "1958.212",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1958.212",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1958.212/1958.212_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1958.212. CC0. Source: https://clevelandart.org/art/1958.212. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        2441
+      ],
+      "sourceImageSha256": "89c74396870242fbca462597e85dadcb58d22df49e89bbcb9ef7d2ed5b534dcf",
+      "processedOriginalSha256": "6a88f64329063fd4a38cdefd31ca2d2a53007faf51c6a4cc8e04cbb0da3e43c0",
+      "metadataSha256": "6498d4dac9544d700f5673c3c597c8a94df7a1b15566af87576efec4b3e3c48f",
+      "physicalObjectKey": "cma|1958.212",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1958.212/1958.212_print.jpg"
+      },
+      "titleOriginal": "Teapot",
+      "titleChinese": "外销茶壶",
+      "description": "馆方年代：c. 1775–1800。馆方文化与产地：China, Chinese Export -- English or American Markets, 18th century。馆方材质与工艺：porcelain。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/d8c596112df36062dc34d15950b8b396c1d1488a0e4dd8a9f1306607167fb2d5.webp",
+        "cacheKey": "d8c596112df36062dc34d15950b8b396c1d1488a0e4dd8a9f1306607167fb2d5",
+        "candidateSha256": "015327f6611534a3a21347461ef447abd0641dce2f59c0c964315adea43d5ea4",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.20861,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01626,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-135190",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "d8c596112df36062dc34d15950b8b396c1d1488a0e4dd8a9f1306607167fb2d5",
+          "candidateSha256": "015327f6611534a3a21347461ef447abd0641dce2f59c0c964315adea43d5ea4"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-148766",
+      "accessionNumber": "1976.25",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1976.25",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1976.25/1976.25_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1976.25. CC0. Source: https://clevelandart.org/art/1976.25. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        2903
+      ],
+      "sourceImageSha256": "bfe2c0f7d5cde6cd440e22ddfcfa75ddec459211e0e35b90c003900009ddcad7",
+      "processedOriginalSha256": "2b4a4c9ad23fc40236f06d210f564aab8aea128cbc44d6ea3e4b9a103a408c6c",
+      "metadataSha256": "602f33933d95de431ade679fd4c0adbb42c314149a58001332c0380fd5c7b3b2",
+      "physicalObjectKey": "cma|1976.25",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1976.25/1976.25_print.jpg"
+      },
+      "titleOriginal": "Tea Bowl",
+      "titleChinese": "茶碗",
+      "description": "馆方年代：1600s。馆方文化与产地：Japan, Edo period (1615–1868)。馆方材质与工艺：stoneware with natural ash glaze (Shigaraki ware)。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/75759f646f04ee30dd357447e59abe65989fde0fad778fdc801427e9e4232205.webp",
+        "cacheKey": "75759f646f04ee30dd357447e59abe65989fde0fad778fdc801427e9e4232205",
+        "candidateSha256": "80179f27ea2e8dd1d4e694e1e5d60a037bf2f5e088c57daaa8de70d44c27fee7",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.38809,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.00964,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-148766",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "75759f646f04ee30dd357447e59abe65989fde0fad778fdc801427e9e4232205",
+          "candidateSha256": "80179f27ea2e8dd1d4e694e1e5d60a037bf2f5e088c57daaa8de70d44c27fee7"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-160452",
+      "accessionNumber": "1998.282",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1998.282",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/1998.282/1998.282_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 1998.282. CC0. Source: https://clevelandart.org/art/1998.282. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        2901
+      ],
+      "sourceImageSha256": "cb7d8248055d164dda60a1086282b3db7605cbbd362a2fbfcf1c3eb9d085aff7",
+      "processedOriginalSha256": "f133b70152249ed42663ec817c6c365884f8dea215ddeef31e4441dff62c5f72",
+      "metadataSha256": "161460a01513a1dea874a160bbd5636919c16a4e0972816871e1e951593fb7a9",
+      "physicalObjectKey": "cma|1998.282",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/1998.282/1998.282_print.jpg"
+      },
+      "titleOriginal": "Tea Cup",
+      "titleChinese": "茶杯",
+      "description": "馆方年代：c. 1690。馆方文化与产地：China, Qing dynasty (1644-1911)。馆方材质与工艺：porcelain with blue and white decoration。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/30733fa8e8d1557fcdc92c5c44931a3d0e342a648da503d872807da837e36c2a.webp",
+        "cacheKey": "30733fa8e8d1557fcdc92c5c44931a3d0e342a648da503d872807da837e36c2a",
+        "candidateSha256": "eeb7b11508eaa18a4cec7be04ca299400926afaf5b7f87b39167a2d27af5541d",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.34215,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01063,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-160452",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "30733fa8e8d1557fcdc92c5c44931a3d0e342a648da503d872807da837e36c2a",
+          "candidateSha256": "eeb7b11508eaa18a4cec7be04ca299400926afaf5b7f87b39167a2d27af5541d"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-447815",
+      "accessionNumber": "2022.176",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/2022.176",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/2022.176/2022.176_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 2022.176. CC0. Source: https://clevelandart.org/art/2022.176. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        3312
+      ],
+      "sourceImageSha256": "10737b5c3ae9f9c893173a43f82cf4ae57bdcd2c2a0161009c273708cc186a88",
+      "processedOriginalSha256": "7d0da011d14782678bcbb83dac0b7c54b4b88759d9163e9b97443c72727a5698",
+      "metadataSha256": "fc4d894e39a1d08f24e3491ca1d3d1e7d7c9439b00fe54f0f6cdcb0fac00c41c",
+      "physicalObjectKey": "cma|2022.176",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/2022.176/2022.176_print.jpg"
+      },
+      "titleOriginal": "Teapot with Ruyi Motifs",
+      "titleChinese": "如意纹茶壶",
+      "description": "馆方年代：1893–1914。馆方文化与产地：Japan, Meiji period (1868–1912)。馆方材质与工艺：Porcelain with molded design and iron handles。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/4668caf541a50593706cf702874ef4fe24482de08d372fb525ede157a0cbf8c9.webp",
+        "cacheKey": "4668caf541a50593706cf702874ef4fe24482de08d372fb525ede157a0cbf8c9",
+        "candidateSha256": "2015a7c6b9a61321e9af6f13e965945c37f2efe8300eb437a79bf51686e2d423",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.23054,
+          "components": 3,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01846,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-447815",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "4668caf541a50593706cf702874ef4fe24482de08d372fb525ede157a0cbf8c9",
+          "candidateSha256": "2015a7c6b9a61321e9af6f13e965945c37f2efe8300eb437a79bf51686e2d423"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    },
+    {
+      "id": "cma-447784",
+      "accessionNumber": "2022.184",
+      "sourceMuseum": "Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/2022.184",
+      "imageSource": "https://openaccess-cdn.clevelandart.org/2022.184/2022.184_print.jpg",
+      "license": "CC0 (Cleveland Museum of Art Open Access; item marked CC0)",
+      "creditLine": "Cleveland Museum of Art. 2022.184. CC0. Source: https://clevelandart.org/art/2022.184. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3400,
+        2717
+      ],
+      "sourceImageSha256": "6a6d02b95900e91220d9d691bc9983dd4890d8871eace45b8c6af7fabd0fc58d",
+      "processedOriginalSha256": "15c7b886379b2a7d8eed0173c171f23febe948e7bb69efa416d9957392b3480e",
+      "metadataSha256": "b9a9b187ce60a6388907a9564e5d425d9f15566f8c2fafd6e8883a838349a887",
+      "physicalObjectKey": "cma|2022.184",
+      "rightsEvidence": {
+        "share_license_status": "CC0",
+        "imageSource": "https://openaccess-cdn.clevelandart.org/2022.184/2022.184_print.jpg"
+      },
+      "titleOriginal": "Teabowl with Pinks",
+      "titleChinese": "石竹花卉纹茶碗",
+      "description": "馆方年代：1893–1914。馆方文化与产地：Japan, Meiji period (1868–1912)。馆方材质与工艺：Stoneware with crackled glaze and overglaze color enamel and gold。现藏于克利夫兰艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/012e314110b108070c9993c2bd02ec3dc5ad0f3e9cd5e09cde80dfef51ec580f.webp",
+        "cacheKey": "012e314110b108070c9993c2bd02ec3dc5ad0f3e9cd5e09cde80dfef51ec580f",
+        "candidateSha256": "65764b48addf87ce5e456cd038a2f0b22a6d1271035363e862b1110d18cd620f",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.2766,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01022,
+          "flags": []
+        },
+        "approval": {
+          "id": "cma-447784",
+          "decision": "approve",
+          "notes": "逐张核对馆藏原图与透明主体；器物完整、外轮廓及提梁/壶嘴/纹饰保留，黑白底无残留背景、无茶匙或第二物体；透明边缘通过。",
+          "reviewedAt": "2026-10-05",
+          "cacheKey": "012e314110b108070c9993c2bd02ec3dc5ad0f3e9cd5e09cde80dfef51ec580f",
+          "candidateSha256": "65764b48addf87ce5e456cd038a2f0b22a6d1271035363e862b1110d18cd620f"
+        }
+      },
+      "visualReview": "Source and cutout compared on black and white. Complete single tea vessel; rim, handles, spout and decoration retained; transparent perimeter; no spoon, stand, label or extra object."
+    }
+  ]
+}

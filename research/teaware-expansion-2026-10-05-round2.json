@@ -1,0 +1,561 @@
+{
+  "date": "2026-10-05",
+  "target": 6000,
+  "before": 5006,
+  "added": 11,
+  "after": 5017,
+  "remaining": 983,
+  "policy": "East Asian tea vessels only. Tea spoons, tea scoops, ladles, and spoon-like tools are excluded from new additions. Each item needs a unique accession, source record, source image, verified image rights, and visually reviewed transparent cutout.",
+  "imageProcess": "Local BiRefNet Lite CPU segmentation; source RGB retained before 1200x1200 resizing; 10% margin; lossless-alpha WebP. Every exported cutout was compared to its source on black and white.",
+  "byMuseum": {
+    "Tokyo National Museum": 6,
+    "The Metropolitan Museum of Art": 5
+  },
+  "items": [
+    {
+      "id": "colbase-tnm-78413",
+      "accessionNumber": "G-569",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-569",
+      "imageSource": "https://colbase.nich.go.jp/media/tnm/G-569/image/G-569_E0182848.jpg",
+      "license": "CC BY 4.0 (ColBase terms; source record rights)",
+      "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-569. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3000,
+        2000
+      ],
+      "sourceImageSha256": "3c3fc40359555df45b3ca0760362c0f13b18ec36c2074dda75c35b2deaa555ab",
+      "processedOriginalSha256": "fc7295c2f59cbabba6e7598dcf4f6ad99fb068f3b502a8561849468303aa6dfa",
+      "metadataSha256": "489fa7ab4284e3710c22b465b87f29796c9566aceb32fc687b5efa52e9910112",
+      "physicalObjectKey": "museum:tokyo national museum|G-569",
+      "rightsEvidence": {
+        "recordRights": "ccby",
+        "category": "工芸:芸能・芸道:茶道具",
+        "accession": "G-569"
+      },
+      "titleOriginal": "皆口茶入",
+      "titleEnglish": "皆口茶入",
+      "description": "皆口茶入。馆方年代：江戸時代・17世紀。馆方作者署名：瀬戸。现藏于东京国立博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/a890d26c962fe7c605a12d0833e6c6aaac04016549be8a021bbb1abb77a9f5d4.webp",
+        "cacheKey": "a890d26c962fe7c605a12d0833e6c6aaac04016549be8a021bbb1abb77a9f5d4",
+        "candidateSha256": "7996743cf68ff3c5f1d7d51997526f2b0e7f795c912130afe6c6c3a30a1424ba",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.2219,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01426,
+          "flags": []
+        },
+        "approval": {
+          "id": "colbase-tnm-78413",
+          "cacheKey": "a890d26c962fe7c605a12d0833e6c6aaac04016549be8a021bbb1abb77a9f5d4",
+          "candidateSha256": "7996743cf68ff3c5f1d7d51997526f2b0e7f795c912130afe6c6c3a30a1424ba",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "colbase-tnm-78506",
+      "accessionNumber": "G-668",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-668",
+      "imageSource": "https://colbase.nich.go.jp/media/tnm/G-668/image/G-668_E0183098.jpg",
+      "license": "CC BY 4.0 (ColBase terms; source record rights)",
+      "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-668. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        2606,
+        3000
+      ],
+      "sourceImageSha256": "a7365708791d429154f0e5308e5aa3cd062ed4277e73305e2869e0def239e7ea",
+      "processedOriginalSha256": "610c33ecdaf37ecca5017f386e4d1ea2ba1a112dfd9969140490dd13e6390b5c",
+      "metadataSha256": "79e76718f93405d7d1dab257c5d7baf9be3f820ec4175bae60aa6da5bfa771e8",
+      "physicalObjectKey": "museum:tokyo national museum|G-668",
+      "rightsEvidence": {
+        "recordRights": "ccby",
+        "category": "工芸:芸能・芸道:茶道具",
+        "accession": "G-668"
+      },
+      "titleOriginal": "褐釉擂座水指",
+      "titleEnglish": "褐釉擂座水指",
+      "description": "褐釉擂座水指。馆方年代：江戸時代。馆方作者署名：瀬戸。现藏于东京国立博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/806bbbb7c5e9e658719142de013cde9a746115d82144b226f096793d7c186996.webp",
+        "cacheKey": "806bbbb7c5e9e658719142de013cde9a746115d82144b226f096793d7c186996",
+        "candidateSha256": "8693b92ccb186b8b8354b82a59f709585fea515a7e4ac99ca5ed4a98e4fac4d6",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.28321,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.0127,
+          "flags": []
+        },
+        "approval": {
+          "id": "colbase-tnm-78506",
+          "cacheKey": "806bbbb7c5e9e658719142de013cde9a746115d82144b226f096793d7c186996",
+          "candidateSha256": "8693b92ccb186b8b8354b82a59f709585fea515a7e4ac99ca5ed4a98e4fac4d6",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "colbase-tnm-78906",
+      "accessionNumber": "G-1185",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-1185",
+      "imageSource": "https://colbase.nich.go.jp/media/tnm/G-1185/image/G-1185_E0182941.jpg",
+      "license": "CC BY 4.0 (ColBase terms; source record rights)",
+      "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-1185. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3000,
+        2000
+      ],
+      "sourceImageSha256": "939eb44753bd6307e1bd63f65142db8be865608235824f2fd261f7ee4dc4b714",
+      "processedOriginalSha256": "94a17fec400f714cd2d77bcac4b43b0f8eb482e4140cc68f9b82079b3bce1588",
+      "metadataSha256": "760de408077bbb6b13c9f8516e49abfdec3313b21024ef2c69ee72edcc02232a",
+      "physicalObjectKey": "museum:tokyo national museum|G-1185",
+      "rightsEvidence": {
+        "recordRights": "ccby",
+        "category": "工芸:芸能・芸道:茶道具",
+        "accession": "G-1185"
+      },
+      "titleOriginal": "瓢形擂座茶入",
+      "titleEnglish": "瓢形擂座茶入",
+      "description": "瓢形擂座茶入。馆方年代：江戸時代・17世紀。馆方作者署名：瀬戸。现藏于东京国立博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/89d3ec28984ec876ff4f92d755736376f6f3f7b75c5e2697fd0538ae926820d4.webp",
+        "cacheKey": "89d3ec28984ec876ff4f92d755736376f6f3f7b75c5e2697fd0538ae926820d4",
+        "candidateSha256": "6697b4f37eb368ed6fd50628a391c940fe94120cc2a9ee28fc7b45efc22bea8c",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.12228,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01963,
+          "flags": []
+        },
+        "approval": {
+          "id": "colbase-tnm-78906",
+          "cacheKey": "89d3ec28984ec876ff4f92d755736376f6f3f7b75c5e2697fd0538ae926820d4",
+          "candidateSha256": "6697b4f37eb368ed6fd50628a391c940fe94120cc2a9ee28fc7b45efc22bea8c",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "colbase-tnm-80137",
+      "accessionNumber": "G-4354",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-4354",
+      "imageSource": "https://colbase.nich.go.jp/media/tnm/G-4354/image/G-4354_E0180210.jpg",
+      "license": "CC BY 4.0 (ColBase terms; source record rights)",
+      "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-4354. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3000,
+        2000
+      ],
+      "sourceImageSha256": "a238774f6ee3b1a584f0032fff8f257d8f28dc80ce0b037202b99b5fca4ad7f3",
+      "processedOriginalSha256": "1383eb6260995c496767396950f8f4f955d6df9935bab96b5103f974524c91c3",
+      "metadataSha256": "a79543ab6d8862a238f169940f6d940850f92932126cf1ff06c2de9ece3ecf02",
+      "physicalObjectKey": "museum:tokyo national museum|G-4354",
+      "rightsEvidence": {
+        "recordRights": "ccby",
+        "category": "工芸:芸能・芸道:茶道具",
+        "accession": "G-4354"
+      },
+      "titleOriginal": "褐釉水指",
+      "titleEnglish": "褐釉水指",
+      "description": "褐釉水指。馆方年代：江戸時代・19世紀。馆方作者署名：岡田久太作。现藏于东京国立博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/491c1f6ec9ab3abd4a6c3ece2d0f694daeee23c6d1703ad9cdad880aad05a94e.webp",
+        "cacheKey": "491c1f6ec9ab3abd4a6c3ece2d0f694daeee23c6d1703ad9cdad880aad05a94e",
+        "candidateSha256": "82d04bfb887700394d64950af16819ca093680bd4883e736736392a6ae1c5af8",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.25696,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01385,
+          "flags": []
+        },
+        "approval": {
+          "id": "colbase-tnm-80137",
+          "cacheKey": "491c1f6ec9ab3abd4a6c3ece2d0f694daeee23c6d1703ad9cdad880aad05a94e",
+          "candidateSha256": "82d04bfb887700394d64950af16819ca093680bd4883e736736392a6ae1c5af8",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "colbase-tnm-80599",
+      "accessionNumber": "G-5089",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-5089",
+      "imageSource": "https://colbase.nich.go.jp/media/tnm/G-5089/image/G-5089_C0042112.jpg",
+      "license": "CC BY 4.0 (ColBase terms; source record rights)",
+      "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-5089. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3000,
+        2525
+      ],
+      "sourceImageSha256": "dd4c38343ac7f3af49d01208b59a81d6ee03ad916e9a47429c6a86a07ea1c2e0",
+      "processedOriginalSha256": "3726b6229a553902c06785e190643cff10f3f80d3e658a00b10c9d41f27d4da4",
+      "metadataSha256": "fafc8e9d5684afb8b12c460068569f7f5a7d23904fcc8eab6a172e9ff5bb1510",
+      "physicalObjectKey": "museum:tokyo national museum|G-5089",
+      "rightsEvidence": {
+        "recordRights": "ccby",
+        "category": "工芸:芸能・芸道:茶道具",
+        "accession": "G-5089"
+      },
+      "titleOriginal": "漆彩急須",
+      "titleEnglish": "漆彩急須",
+      "description": "漆彩急須。馆方年代：江戸時代・19世紀。馆方作者署名：豊楽焼。现藏于东京国立博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/c1810a4b10387fe71c439e8d4b13ef7d14c5d37d138b8deb936f0bc075ced311.webp",
+        "cacheKey": "c1810a4b10387fe71c439e8d4b13ef7d14c5d37d138b8deb936f0bc075ced311",
+        "candidateSha256": "74d5943c55216841fcce345364158eed4d98c01c022ef5068ecd8069efab9cdb",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.29811,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01625,
+          "flags": []
+        },
+        "approval": {
+          "id": "colbase-tnm-80599",
+          "cacheKey": "c1810a4b10387fe71c439e8d4b13ef7d14c5d37d138b8deb936f0bc075ced311",
+          "candidateSha256": "74d5943c55216841fcce345364158eed4d98c01c022ef5068ecd8069efab9cdb",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "colbase-tnm-80758",
+      "accessionNumber": "G-5306",
+      "sourceMuseum": "Tokyo National Museum",
+      "sourceUrl": "https://colbase.nich.go.jp/collection_items/tnm/G-5306",
+      "imageSource": "https://colbase.nich.go.jp/media/tnm/G-5306/image/G-5306_E0181981.jpg",
+      "license": "CC BY 4.0 (ColBase terms; source record rights)",
+      "creditLine": "Source: ColBase (Tokyo National Museum), https://colbase.nich.go.jp/collection_items/tnm/G-5306. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        3000,
+        2000
+      ],
+      "sourceImageSha256": "c8625f5e394ab73c384b75d7aaa2c9777a5f3f7f1a93747198429c753f451dcf",
+      "processedOriginalSha256": "7ae7db1d674540425613c8404d448ac314b92c5946946e2d660c22e97af7d27b",
+      "metadataSha256": "17da96fcbe73b3105c819505b49e9c7c8027c6628da50ab24a02e50c50477d0e",
+      "physicalObjectKey": "museum:tokyo national museum|G-5306",
+      "rightsEvidence": {
+        "recordRights": "ccby",
+        "category": "工芸:芸能・芸道:茶道具",
+        "accession": "G-5306"
+      },
+      "titleOriginal": "備前平水指",
+      "titleEnglish": "備前平水指",
+      "description": "備前平水指。馆方年代：江戸時代・17世紀。馆方作者署名：備前。现藏于东京国立博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/2da396e226a77d2e148e24350c7acd8261a33064103639567f025d9b46ae61b2.webp",
+        "cacheKey": "2da396e226a77d2e148e24350c7acd8261a33064103639567f025d9b46ae61b2",
+        "candidateSha256": "c69f1958d6f8bebb7cd12376750aeb7b54544be1e800df20b3a87f0a12d8d9c7",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.24291,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01138,
+          "flags": []
+        },
+        "approval": {
+          "id": "colbase-tnm-80758",
+          "cacheKey": "2da396e226a77d2e148e24350c7acd8261a33064103639567f025d9b46ae61b2",
+          "candidateSha256": "c69f1958d6f8bebb7cd12376750aeb7b54544be1e800df20b3a87f0a12d8d9c7",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "met-63135",
+      "accessionNumber": "29.100.660",
+      "sourceMuseum": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63135",
+      "imageSource": "https://images.metmuseum.org/CRDImages/as/original/29_100_660_O_sf.jpg",
+      "license": "CC0 (The Metropolitan Museum of Art Open Access; item marked public domain)",
+      "creditLine": "The Metropolitan Museum of Art. 29.100.660. CC0, marked public domain by The Met. Source: https://www.metmuseum.org/art/collection/search/63135. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        1212,
+        1533
+      ],
+      "sourceImageSha256": "5578abb9fa50c1705af65bbf5bf44d4c32c5911eb047f4ec2eea0ed238d40296",
+      "processedOriginalSha256": "b717d1c7bb4c1af4ae717d55ed7b42e9b6ca3ff6d0598726eaeb99fc552c5b6a",
+      "metadataSha256": "62105164d60078a402dde47ce5b442c7a7f39c459c10e5549c50af3f80e5e9df",
+      "physicalObjectKey": "met|29.100.660",
+      "rightsEvidence": {
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/29_100_660_O_sf.jpg"
+      },
+      "titleOriginal": "Tea jar",
+      "titleEnglish": "Tea jar",
+      "description": "茶入。馆方原名：Tea jar。馆方年代：18th century。馆方产地／文化：Japan; Edo period (1615–1868)。馆方材质：Fine gray clay with thick brown glaze (Kiyomizu ware)。现藏于大都会艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/21455d2097da90fa808ab52ffe49ecffc73307eaf44ac469d054487183cd124e.webp",
+        "cacheKey": "21455d2097da90fa808ab52ffe49ecffc73307eaf44ac469d054487183cd124e",
+        "candidateSha256": "53a3e17f292f00f23c5321814fdde9d17e9c6bdba4b74e0ec62d091ef1949aa4",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.29598,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01318,
+          "flags": []
+        },
+        "approval": {
+          "id": "met-63135",
+          "cacheKey": "21455d2097da90fa808ab52ffe49ecffc73307eaf44ac469d054487183cd124e",
+          "candidateSha256": "53a3e17f292f00f23c5321814fdde9d17e9c6bdba4b74e0ec62d091ef1949aa4",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "met-62998",
+      "accessionNumber": "23.225.178a, b",
+      "sourceMuseum": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/62998",
+      "imageSource": "https://images.metmuseum.org/CRDImages/as/original/54746.jpg",
+      "license": "CC0 (The Metropolitan Museum of Art Open Access; item marked public domain)",
+      "creditLine": "The Metropolitan Museum of Art. 23.225.178a, b. CC0, marked public domain by The Met. Source: https://www.metmuseum.org/art/collection/search/62998. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        4000,
+        3580
+      ],
+      "sourceImageSha256": "4c98d3b1f811bfcb7f12bb746b0274e18ff437fa7f3bc177c62874c436399df9",
+      "processedOriginalSha256": "1e68d8a96900a275b5c633abdd286cebbc96fbb88cf17927b1f071158f274685",
+      "metadataSha256": "6201f396ec6824ceed75f6a2c1ae1e552c453c42281e676e33725717203f2a86",
+      "physicalObjectKey": "met|23.225.178A,B",
+      "rightsEvidence": {
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/54746.jpg"
+      },
+      "titleOriginal": "Tea jar",
+      "titleEnglish": "Tea jar",
+      "description": "茶入。馆方原名：Tea jar。馆方年代：1800。馆方产地／文化：Japan; Edo period (1615–1868)。馆方材质：Porcelain decorated in blue under the glaze (Arita ware, Imari type)。现藏于大都会艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/520ce6b712efa0b14edf380ec1ca15dca84609504e8672bd60be573dfe2499e1.webp",
+        "cacheKey": "520ce6b712efa0b14edf380ec1ca15dca84609504e8672bd60be573dfe2499e1",
+        "candidateSha256": "4c61fe767aabdf8e1bc182326a3fc7f242e9f7d4ac708afc5ca73efcd97b2d67",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.31158,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01496,
+          "flags": []
+        },
+        "approval": {
+          "id": "met-62998",
+          "cacheKey": "520ce6b712efa0b14edf380ec1ca15dca84609504e8672bd60be573dfe2499e1",
+          "candidateSha256": "4c61fe767aabdf8e1bc182326a3fc7f242e9f7d4ac708afc5ca73efcd97b2d67",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "met-48248",
+      "accessionNumber": "79.2.1298a, b",
+      "sourceMuseum": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/48248",
+      "imageSource": "https://images.metmuseum.org/CRDImages/as/original/79_2_1298ab_O1_sf.jpg",
+      "license": "CC0 (The Metropolitan Museum of Art Open Access; item marked public domain)",
+      "creditLine": "The Metropolitan Museum of Art. 79.2.1298a, b. CC0, marked public domain by The Met. Source: https://www.metmuseum.org/art/collection/search/48248. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        2667,
+        4000
+      ],
+      "sourceImageSha256": "bc4ad7f61bd46d1e198358c8133575d8ea51de80e2ecc312ac7c181ad8a9eef6",
+      "processedOriginalSha256": "2cc1cf7f8ee5807d99c2663fce8f927b126ff6455e8c21f587d97a8565fc6d4b",
+      "metadataSha256": "2ee1dda019c5b97ca33d6d07d2124d60fdbe472191462d8090f6849d6a507925",
+      "physicalObjectKey": "met|79.2.1298A,B",
+      "rightsEvidence": {
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/79_2_1298ab_O1_sf.jpg"
+      },
+      "titleOriginal": "Tea caddy with flowers",
+      "titleEnglish": "Tea caddy with flowers",
+      "description": "茶罐。馆方原名：Tea caddy with flowers。馆方年代：late 18th–early 19th century。馆方产地／文化：China; Qing dynasty (1644–1911), Jiaqing period (1796–1820)。馆方材质：Porcelain with polychrome enamels over a blue ground (Jingdezhen ware)。现藏于大都会艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/0d73258d5caf8af2b74734fd6d9cb5fa682d2525f4a4cffb5931d49ea3f28547.webp",
+        "cacheKey": "0d73258d5caf8af2b74734fd6d9cb5fa682d2525f4a4cffb5931d49ea3f28547",
+        "candidateSha256": "0fe6aa32a84887e8a26273dd139e0e27c2f39c2d86809f3da8d2abfba545c3c0",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.36978,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.00953,
+          "flags": []
+        },
+        "approval": {
+          "id": "met-48248",
+          "cacheKey": "0d73258d5caf8af2b74734fd6d9cb5fa682d2525f4a4cffb5931d49ea3f28547",
+          "candidateSha256": "0fe6aa32a84887e8a26273dd139e0e27c2f39c2d86809f3da8d2abfba545c3c0",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "met-57958",
+      "accessionNumber": "22.42.2a, b",
+      "sourceMuseum": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/57958",
+      "imageSource": "https://images.metmuseum.org/CRDImages/as/original/22_42_2ab_O_1_sf.jpg",
+      "license": "CC0 (The Metropolitan Museum of Art Open Access; item marked public domain)",
+      "creditLine": "The Metropolitan Museum of Art. 22.42.2a, b. CC0, marked public domain by The Met. Source: https://www.metmuseum.org/art/collection/search/57958. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        1686,
+        1932
+      ],
+      "sourceImageSha256": "4402d5f18830eedb47905e5f73d8f9bc727dc7a6d8d67387069b10dcc8c3733b",
+      "processedOriginalSha256": "75637d4c837f773db1a378529323f64eb907011db5ea9e14a939c943157a061a",
+      "metadataSha256": "1e954fbb2f4413bf882f112225be82ca549c08b81c2c11f87455491fdd2a2c8b",
+      "physicalObjectKey": "met|22.42.2A,B",
+      "rightsEvidence": {
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/22_42_2ab_O_1_sf.jpg"
+      },
+      "titleOriginal": "Tea Caddy with Cover",
+      "titleEnglish": "Tea Caddy with Cover",
+      "description": "茶罐。馆方原名：Tea Caddy with Cover。馆方年代：late 18th century。馆方产地／文化：Japan; Edo period (1615–1868)。馆方材质：Gold lacquer。现藏于大都会艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/a8c01994c41d058eab4f008ec13ac5f00a7a39eac35d9b65beb2eddd09415bb6.webp",
+        "cacheKey": "a8c01994c41d058eab4f008ec13ac5f00a7a39eac35d9b65beb2eddd09415bb6",
+        "candidateSha256": "fce4c5eab95edee3d517b31d02b1a5422106e789e819da36a37d6347ecf48e2c",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.47969,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01505,
+          "flags": []
+        },
+        "approval": {
+          "id": "met-57958",
+          "cacheKey": "a8c01994c41d058eab4f008ec13ac5f00a7a39eac35d9b65beb2eddd09415bb6",
+          "candidateSha256": "fce4c5eab95edee3d517b31d02b1a5422106e789e819da36a37d6347ecf48e2c",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    },
+    {
+      "id": "met-63094",
+      "accessionNumber": "25.215.11a, b",
+      "sourceMuseum": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63094",
+      "imageSource": "https://images.metmuseum.org/CRDImages/as/original/25_215_11ab_S1_sf.jpg",
+      "license": "CC0 (The Metropolitan Museum of Art Open Access; item marked public domain)",
+      "creditLine": "The Metropolitan Museum of Art. 25.215.11a, b. CC0, marked public domain by The Met. Source: https://www.metmuseum.org/art/collection/search/63094. Background removed and cropped by Teaware.",
+      "nativeDimensions": [
+        1196,
+        1446
+      ],
+      "sourceImageSha256": "f516ab725b2f0ba35d9a006d8e7ae69d4214d68dd26138ac65c50a441978dbac",
+      "processedOriginalSha256": "3aa5a6330732f37b3faba3a1d2cbc619e3ad04072dd598faf5760abce476ab29",
+      "metadataSha256": "13ecac5c94a85ca1ed9f0c9d046c4a0d3cb32efbef54ca1b3a989c5d887b2aab",
+      "physicalObjectKey": "met|25.215.11A,B",
+      "rightsEvidence": {
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/25_215_11ab_S1_sf.jpg"
+      },
+      "titleOriginal": "Tea jar with cover",
+      "titleEnglish": "Tea jar with cover",
+      "description": "茶入。馆方原名：Tea jar with cover。馆方年代：ca. 1745。馆方产地／文化：Japan; Edo period (1615–1868)。馆方材质：Pottery (Satsuma ware)。现藏于大都会艺术博物馆。",
+      "cutout": {
+        "url": "/collection-cutouts/c1c8621448e7d0881ef6fb71752fca57ad94911763ee2c428a7445536ac7bac7.webp",
+        "cacheKey": "c1c8621448e7d0881ef6fb71752fca57ad94911763ee2c428a7445536ac7bac7",
+        "candidateSha256": "fa80e2ef72028617a6dd8730b53a8be21eb8ed431ac27649a2713f3b5c34b08c",
+        "modelSha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "execution": "CPUExecutionProvider",
+        "qa": {
+          "coverage": 0.25051,
+          "components": 1,
+          "substantialComponents": 1,
+          "borderCoverage": 0,
+          "uncertainAlpha": 0.01293,
+          "flags": []
+        },
+        "approval": {
+          "id": "met-63094",
+          "cacheKey": "c1c8621448e7d0881ef6fb71752fca57ad94911763ee2c428a7445536ac7bac7",
+          "candidateSha256": "fa80e2ef72028617a6dd8730b53a8be21eb8ed431ac27649a2713f3b5c34b08c",
+          "decision": "approve",
+          "reviewedBy": "Codex visual review",
+          "reviewedAt": "2026-10-05",
+          "notes": "Compared the source photograph with the transparent cutout on black and white. Confirmed one complete tea vessel, preserved silhouette, lid/rim/handle and decoration, transparent perimeter, no display stand, label, extra vessel, or background. Tea spoons/scoops are excluded."
+        }
+      },
+      "visualReview": "Compared source and cutout on black and white. Single complete tea vessel; silhouette, lid/rim/handles and decoration preserved; transparent perimeter; no stand, label, extra vessel, spoon, or background."
+    }
+  ]
+}

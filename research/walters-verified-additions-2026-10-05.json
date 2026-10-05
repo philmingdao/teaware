@@ -1,0 +1,362 @@
+[
+  {
+    "id": "walters-1725",
+    "accession": "67.251",
+    "title": "Covered jar for powdered tea/ natsume; Overlapping poem papers/shikishi",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/67.251",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_67.251_VwA_DD_T14.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "a5eee350eee3b4f58fe054f1978ebc96091094afb3e19bd79911060b2cff5a41",
+    "sourceDimensions": [
+      1185,
+      1461
+    ],
+    "cutoutSha256": "fafc127fd27cd27180ba7f14db1252626cd620919194c3f836f521063b743886",
+    "visualApproval": {
+      "id": "walters-1725",
+      "cacheKey": "9ed3b66bc84978779c6bedc721c8d1a666a849bea9ff3e7bfa33633aff209fdc",
+      "candidateSha256": "fafc127fd27cd27180ba7f14db1252626cd620919194c3f836f521063b743886",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "850a6e18a64442e94f971a6f93e2d953b6fbf983f49066e840067a2f85dd3a4d",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-5979",
+    "accession": "49.2799",
+    "title": "Teapot for the Siamese (Thai) Market",
+    "culture": "Chinese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.2799",
+    "imageSource": "https://art.thewalters.org/images/raw/PS4_49.2799_VwA_DD_AT22_31761-lpr.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "1eb45b99296dbb5fcbcc628175a7d62d17d4a71efc9109e91da28ca052397268",
+    "sourceDimensions": [
+      2400,
+      2107
+    ],
+    "cutoutSha256": "ad5cc8c24690511f7fc2d1fa4afd4d98c8357a0e0d15dc0c213a79b69c8c444c",
+    "visualApproval": {
+      "id": "walters-5979",
+      "cacheKey": "9d9b56e59a9de7bdaeb54138e1cffba897baedf11dbc233613f8015917e52591",
+      "candidateSha256": "ad5cc8c24690511f7fc2d1fa4afd4d98c8357a0e0d15dc0c213a79b69c8c444c",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "d0cef55dd661fe5565efcdfe28fc21314e8e84ea7c33e9a2e65867f4c4a7da17",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-10514",
+    "accession": "49.914",
+    "title": "Teapot with Buddhist Emblems",
+    "culture": "Chinese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.914",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.914_SIdeA_DD_T16-tms.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "0f36c87380a4b2bea05742c9583860e759371d3e389b3a2bc4cac999b6197401",
+    "sourceDimensions": [
+      1800,
+      1556
+    ],
+    "cutoutSha256": "39984b26bee29a0cae56e2cf3cd875361ea12cd647de76d71df54ccd32544c50",
+    "visualApproval": {
+      "id": "walters-10514",
+      "cacheKey": "03e2917d19cb191f228e5ecda694d80b01204e6870c6a0931e4614ed0d575c1e",
+      "candidateSha256": "39984b26bee29a0cae56e2cf3cd875361ea12cd647de76d71df54ccd32544c50",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "314b03f9f8c1dc2d9ea75a417b056e6636200c98377fdc9ed6e2af9b3b5d6d89",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-12544",
+    "accession": "2005.78.10",
+    "title": "Tea Caddy or Covered Jar with Dragonfly",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/2005.78.10",
+    "imageSource": "https://art.thewalters.org/images/raw/ARG_2005.78.10_Fnt_UK.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "1393e13bd9ba7aaddcbbcfd52650883ff8801e5b51de6591e49fb8d6af703cca",
+    "sourceDimensions": [
+      1189,
+      1500
+    ],
+    "cutoutSha256": "b55194e3eaf6be6f8319e6c6b347ea34b26bce7fec29917c14b328ff7ec4184d",
+    "visualApproval": {
+      "id": "walters-12544",
+      "cacheKey": "ffb9f545875ae1c6ae0b18b2b703f187d7e3294bff6e81a7d391563885f81a8b",
+      "candidateSha256": "b55194e3eaf6be6f8319e6c6b347ea34b26bce7fec29917c14b328ff7ec4184d",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "a4ec99f4e004124f3b360e01acfdfcaab267444eb01496e0f04fdfb447549d73",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-15824",
+    "accession": "49.1172",
+    "title": "Tea Caddy with Ivory Lid",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.1172",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.1172_Prof_DD_T06.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "18eec4496008f2ce188cfe94b123383584f564bfb3b77a0b497d5219fd461b3c",
+    "sourceDimensions": [
+      1800,
+      1732
+    ],
+    "cutoutSha256": "75bd698c4588a8fa788b21bbefe067d2502fef299640663efebb7984712381a5",
+    "visualApproval": {
+      "id": "walters-15824",
+      "cacheKey": "fb3e2b0f5076d3c099a7414e25fa905615e045ebdc4967e115e04d4eb1b247e9",
+      "candidateSha256": "75bd698c4588a8fa788b21bbefe067d2502fef299640663efebb7984712381a5",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "55188dffd45e670141d7c8fbbf8951e9405ca684f7772721077607ffbf947669",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-20110",
+    "accession": "49.1200",
+    "title": "Tea Bowl with “Hare’s Fur” Pattern",
+    "culture": "Chinese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.1200",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.1200_Fnt_DD_T14.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "d0d54b539cbfda55888b6b15c1ce67a93e5c610d5786639664e1b75dae6bb7a2",
+    "sourceDimensions": [
+      2086,
+      1800
+    ],
+    "cutoutSha256": "50e03938088d9b0f19a507f86542cef55d7c680e7e29939567031f55c4c8b83d",
+    "visualApproval": {
+      "id": "walters-20110",
+      "cacheKey": "481cbdf0abbc647a9f95e8fd57f9eefdc547560a1734f799dd88d6e0fc818e72",
+      "candidateSha256": "50e03938088d9b0f19a507f86542cef55d7c680e7e29939567031f55c4c8b83d",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "bfb47cc65eb0f1c9758b9aefcb2b2d18ff7b355fa1e45df14165415ec4caba5f",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-23395",
+    "accession": "49.2121",
+    "title": "Tea Bowl",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.2121",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.2121_Prof_DD_T07.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "ff39a9f1701d0bcbdda0747e50692bae99457180480ebac049aa0bcda33e3b4e",
+    "sourceDimensions": [
+      1769,
+      1799
+    ],
+    "cutoutSha256": "4cabf73cb778cbf2d1a0fd9227721a48a21c5defaa81e224b6ddb4c56828c67e",
+    "visualApproval": {
+      "id": "walters-23395",
+      "cacheKey": "2d3eb9822f4ea7ce42278f398868ea7fce65b61082f4d4d9e2d96f401a1ec170",
+      "candidateSha256": "4cabf73cb778cbf2d1a0fd9227721a48a21c5defaa81e224b6ddb4c56828c67e",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "40133516984a73c4dd8a85fd8fb3934c25bfe1cb8bcbc4692aff7fe03774a41d",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-28419",
+    "accession": "49.918",
+    "title": "Teapot with Figures in a Mountain Landscape",
+    "culture": "Chinese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.918",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.918_SideA_DD_T16-tms.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "1005d36a9b7b3bf064c6de84ca355370ca64d7d7ec537c177d0adc9deef1b29b",
+    "sourceDimensions": [
+      1800,
+      1441
+    ],
+    "cutoutSha256": "c557767fda128bffe112efd9cf24c60afd193ffefc77ac631b66ce88005e4834",
+    "visualApproval": {
+      "id": "walters-28419",
+      "cacheKey": "20fdbcb8ffed7e111aa9d8323b6f84959c2cd1f44e4180c1f69449ac99484748",
+      "candidateSha256": "c557767fda128bffe112efd9cf24c60afd193ffefc77ac631b66ce88005e4834",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "6b970b030932c26bbdc0c70d327f10bbdfd56d0c2d734b23c3feceffd3b489ff",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-35437",
+    "accession": "49.1193",
+    "title": "Tea Caddy with Ivory Lid",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.1193",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.1193_SideA_DD_T17-tms.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "f15da5c618f5d189b3aaedc556c6dd87012977864383250bba38b7b4aaf8d879",
+    "sourceDimensions": [
+      1307,
+      1800
+    ],
+    "cutoutSha256": "c3696625d291e3ec5863d2c7092f00fffb6907edb4ab59901215517d6d00eb43",
+    "visualApproval": {
+      "id": "walters-35437",
+      "cacheKey": "5d08e1ec273cce8fe744829763008140a079a56f937a44312427dcace1e8db5e",
+      "candidateSha256": "c3696625d291e3ec5863d2c7092f00fffb6907edb4ab59901215517d6d00eb43",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "679d4678147147fca3e901809d68d32d486b2604f6d0e721128c61f5a6d877d6",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-37200",
+    "accession": "49.989",
+    "title": "Teapot with Dragons and Clouds",
+    "culture": "Chinese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.989",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.989_SideA_DD_T16-tms.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "6016876d7ea922ded1c48c789dc36a5490bd47c440ce4cf496ab02b27face68a",
+    "sourceDimensions": [
+      1721,
+      1800
+    ],
+    "cutoutSha256": "1a8ae75c1d7e96ffca74c2fd43fce5f708ea8f225911b147d57f6aa5ade0f364",
+    "visualApproval": {
+      "id": "walters-37200",
+      "cacheKey": "a14788ab1a3a04c79b8f02916dea0085d83a9f3d6518e6f26890e80a577f33a6",
+      "candidateSha256": "1a8ae75c1d7e96ffca74c2fd43fce5f708ea8f225911b147d57f6aa5ade0f364",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "5784567e4a0e19eb0c9dd7518772d367ed753e49657634c2647020775f3a1e9f",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-37613",
+    "accession": "49.2116",
+    "title": "Tea Bowl",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.2116",
+    "imageSource": "https://art.thewalters.org/images/raw/PS1_49.2116_Prof_DD_T06.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "c1214ba76e3b11e4a6d8f2bfce0d43ea2985140be05ce3a0c699f5b8cd6c575f",
+    "sourceDimensions": [
+      1573,
+      1799
+    ],
+    "cutoutSha256": "15ba8624dfc748d49e729d56bf1375aac4756c3205a93f5f93e66e68e13ad624",
+    "visualApproval": {
+      "id": "walters-37613",
+      "cacheKey": "ee6f76040246c5cc5841886f26341de88e3ff164912c889cd609b00245724f81",
+      "candidateSha256": "15ba8624dfc748d49e729d56bf1375aac4756c3205a93f5f93e66e68e13ad624",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "2650fb39f985071ba37a9d967dee40d3a81c130ced0473a4b16a513d09b37357",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  },
+  {
+    "id": "walters-102049",
+    "accession": "49.2835.1",
+    "title": "Teapot Depicting Characters and Text from Noh Play Long-Nosed Goblin in Kurama (Kurama Tengu)",
+    "culture": "Japanese",
+    "sourceUrl": "https://purl.thewalters.org/art/49.2835.1",
+    "imageSource": "https://art.thewalters.org/images/raw/PS4_49.2835.1_VwA_DD_AT20_18141-tms.jpg",
+    "license": "CC0 (Walters Art Museum Open Data)",
+    "sourceSha256": "5e62de2aaefd0ffe731e0979c37305e7e7893cb37568d21788ddfa452b492b52",
+    "sourceDimensions": [
+      1800,
+      1317
+    ],
+    "cutoutSha256": "60b63c5d841bbc255238f5a748abd845fa09be7909529e2b0c23f0b227379377",
+    "visualApproval": {
+      "id": "walters-102049",
+      "cacheKey": "174688393df99bb70f4e3b381fa13ad6431d146bd175b8a0b9077eb91bc31d70",
+      "candidateSha256": "60b63c5d841bbc255238f5a748abd845fa09be7909529e2b0c23f0b227379377",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared the official original with the transparent candidate on black and white. Confirmed one complete museum-listed tea vessel; clean silhouette and edge, preserved handle opening, spout, lid, foot and surface decoration; no visible background residue."
+    },
+    "metadataSha256": "260c457b19a851f1a278f91b91be9e67cb1bca0c48a9ad61fbd3c0afe2794877",
+    "rightsEvidence": {
+      "policyUrl": "https://thewalters.org/about/policies/rights-reproductions/",
+      "datasetLicense": "CC0",
+      "basis": "The object is an old artwork believed to be in the public domain; the Walters policy releases its public-domain collection images under CC0."
+    }
+  }
+]

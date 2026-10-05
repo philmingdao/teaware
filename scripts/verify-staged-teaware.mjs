@@ -5,7 +5,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import sharp from 'sharp';
-import {classifyTeaware, normalizedSourceUrl} from './teaware-policy.mjs';
+import {classifyTeaware, isSpoonLikeTeaware, normalizedSourceUrl} from './teaware-policy.mjs';
 import {historicalCreatorEvidence} from './colbase-historical-creators.mjs';
 import {physicalObjectKey, rijksObjectNumber} from './teaware-identity.mjs';
 const poolPath=process.argv[2], inputsPath=process.argv[3];
@@ -28,6 +28,7 @@ const hashes=new Set();
 for(const input of inputs) {
   const item=byId.get(input.id), row=item?.artwork;
   assert(row && input.kind==='object',`Unknown staged object ${input.id}`);
+  assert(!isSpoonLikeTeaware(row),`Spoon-like tea tool excluded from expansion ${input.id}`);
   assert(!ids.has(row.id),`Existing or rejected object ${row.id}`);
   assert(!urls.has(normalizedSourceUrl(row.sourceUrl)),`Existing source ${row.id}`);
   assert.equal(classifyTeaware(row,stagedReviews).decision,'admit',`Tea-use evidence ${row.id}`);
@@ -35,6 +36,15 @@ for(const input of inputs) {
   assert(key && !keys.has(key),`Missing or duplicate institution/accession ${row.id}`);
   assert.equal(item.rawMetadataSha256,digest(Buffer.from(JSON.stringify(item.raw))),`Metadata changed ${row.id}`);
   if(row.id.startsWith('met-')) assert(item.raw.isPublicDomain && item.raw.primaryImage===item.imageSource,'Met image-specific rights');
+  else if(row.id.startsWith('cma-')) {
+    assert.equal(item.raw.share_license_status,'CC0','Cleveland image-specific rights');
+    assert.equal(item.raw.accession_number,row.accessionNumber,'Cleveland full accession');
+    assert.equal(item.raw.url,row.sourceUrl,'Cleveland official object page');
+    assert.equal(item.raw.images?.print?.url,item.imageSource,'Cleveland published print-resolution image');
+    assert.equal(item.raw.title,row.titleOriginal,'Cleveland title');
+    assert.equal(row.sourceMuseumEnglish,'Cleveland Museum of Art');
+    assert(row.license.startsWith('CC0')&&row.creditLine.includes('Background removed and cropped by Teaware.'));
+  }
   else if(row.id.startsWith('mia-')) assert(item.raw.rights_type==='Public Domain' && item.raw.Rights_Image_Display==='Full','Mia image-specific rights');
   else if(row.id.startsWith('rks-')) {
     assert.equal(rijksObjectNumber(item.raw.object),row.accessionNumber,'Rijks full accession');
@@ -179,6 +189,38 @@ for(const input of inputs) {
     assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
     assert(row.creditLine.includes('Background removed and cropped by Teaware.'));
     if(rights.some(l=>l.code==='by-sa'))assert(row.creditLine.includes('same CC BY-SA license'));
+  } else if(row.id.startsWith('osaka-')) {
+    const obj=item.raw?.object, image=item.raw?.image, rights=item.raw?.rights;
+    assert.equal(row.sourceMuseumEnglish,'The Museum of Oriental Ceramics, Osaka');
+    assert.equal(obj?.accession,row.accessionNumber,'Osaka full accession');
+    assert.equal(obj?.title,row.titleOriginal,'Osaka official object title');
+    assert.equal(row.sourceUrl,`https://apisites.jmapps.ne.jp/mocoor_o/en/collection/${obj.id}`);
+    assert.equal(image?.url,item.imageSource,'Osaka selected museum image');
+    assert.equal(image?.credit,'六田知弘','Osaka photographer attribution');
+    assert.equal(rights?.code,'CC BY');
+    assert.equal(rights?.openDataPage,row.sourceUrl);
+    assert(/^CC BY\b/.test(row.license));
+    assert(row.creditLine.includes('The Museum of Oriental Ceramics, Osaka')&&row.creditLine.includes('六田知弘')&&row.creditLine.includes('CC BY'));
+    assert(/tea bowl/i.test(obj?.title||''),'Osaka source must explicitly identify a tea bowl');
+    assert(/Southern Song/.test(obj?.period||'')&&Number(obj?.accession)>0);
+  } else if(row.id.startsWith('walters-')) {
+    const source=item.raw?.sourceRecord, obj=source?.object, media=source?.media, rights=item.raw?.rightsEvidence;
+    assert.equal(row.sourceMuseumEnglish,'The Walters Art Museum');
+    assert.equal(obj?.AccessionNumber,row.accessionNumber,'Walters full accession');
+    assert.equal(obj?.Title,row.titleOriginal,'Walters official source title');
+    assert.equal(obj?.Culture,item.raw.culture,'Walters source culture');
+    assert.equal(obj?.ObjectID,row.id.slice('walters-'.length),'Walters source object identity');
+    assert.equal(row.sourceUrl,`https://purl.thewalters.org/art/${row.accessionNumber}`);
+    assert.equal(media?.ImageURL,item.imageSource,'Walters selected source image');
+    assert.equal(item.raw.imageLicense,'CC0');
+    assert.equal(rights?.policyUrl,'https://thewalters.org/about/policies/rights-reproductions/');
+    assert.equal(rights?.datasetLicense,'CC0');
+    assert(/public domain|public-domain/i.test(rights?.basis||''),'Walters image must qualify under its public-domain CC0 policy');
+    assert(Number(obj?.DateEndYear)>0 && Number(obj.DateEndYear)<1956,'Walters object must predate 1956');
+    assert(/tea bowl|teapot|tea caddy|covered jar|natsume/i.test(`${obj?.Title} ${obj?.ObjectName}`),'Walters source must explicitly identify a tea vessel');
+    assert(!/spoon|scoop|ladle|whisk|strainer|infuser|service|set of|pair of|saucer/i.test(`${obj?.Title} ${obj?.ObjectName}`),'Walters spoon-like or grouped object excluded');
+    assert(/^CC0\b/.test(row.license),'Walters image license must be CC0');
+    assert(row.creditLine.includes('The Walters Art Museum') && row.creditLine.includes('Background removed and cropped by Teaware.'));
   } else assert.fail(`Unverified staging source ${row.id}`);
   assert.equal(input.inputPath,item.inputPath,`Unexpected image path ${row.id}`);
   const relative=path.relative(path.dirname(poolPath),item.inputPath);

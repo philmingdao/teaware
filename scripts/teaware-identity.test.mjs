@@ -8,6 +8,10 @@ assert.equal(physicalObjectKey({...base,accessionNumber:'1'}),undefined);
 assert.equal(physicalObjectKey({...base,sourceMuseumEnglish:'Wikimedia Commons'}),undefined);
 assert.equal(rijksObjectNumber({identified_by:[{type:'Identifier',content:'1'},{type:'Identifier',content:'AK-MAK-105',classified_as:[{id:'https://id.rijksmuseum.nl/22015218'}]}]}),'AK-MAK-105');
 assert.notEqual(physicalObjectKey({sourceMuseumEnglish:'The Metropolitan Museum of Art',accessionNumber:'49.18.24'}),physicalObjectKey({sourceMuseumEnglish:'The Metropolitan Museum of Art',accessionNumber:'49.18.25'}));
+const freerLegacy={sourceMuseumEnglish:'Smithsonian National Museum of Asian Art',accessionNumber:'fsg_F1898.134'};
+const freerNative={sourceMuseumEnglish:'Freer Gallery of Art',accessionNumber:'F1898.134'};
+assert.equal(physicalObjectKey(freerLegacy),physicalObjectKey(freerNative));
+assert.notEqual(physicalObjectKey(freerLegacy),physicalObjectKey({...freerNative,accessionNumber:'F1898.135'}));
 console.log('PASS physical-object identity, full multipart suffix, invalid identifiers, top-level Rijks extraction, independent shared-photo records');
 
 assert.equal(linkedArtNotation({notation:{"@value":"porcelain","@language":"en"}}),"porcelain");

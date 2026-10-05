@@ -6,10 +6,16 @@ const institutions = new Map([
   ['Rijksmuseum', 'rijksmuseum'],
   ['The Metropolitan Museum of Art', 'met'],
   ['Metropolitan Museum of Art', 'met'],
+  ['Cleveland Museum of Art', 'cma'],
+  ['The Cleveland Museum of Art', 'cma'],
   ['Minneapolis Institute of Art', 'mia'],
   ['Art Institute of Chicago', 'aic'],
   ['Cooper Hewitt, Smithsonian Design Museum', 'cooper-hewitt'],
   ['National Museum of American History', 'nmah'],
+  ['Smithsonian National Museum of Asian Art', 'smithsonian-nmaa'],
+  ['Smithsonian National Museum of Asian Art (Freer|Sackler)', 'smithsonian-nmaa'],
+  ['Freer Gallery of Art', 'smithsonian-nmaa'],
+  ['Arthur M. Sackler Gallery', 'smithsonian-nmaa'],
 ]);
 export function canonicalInstitution(row) {
   const name = String(row.sourceMuseumEnglish || '').normalize('NFKC').trim();
@@ -23,7 +29,10 @@ export function normalizedAccession(value) {
 }
 export function physicalObjectKey(row) {
   const institution = canonicalInstitution(row);
-  const accession = normalizedAccession(row.accessionNumber);
+  let accession = normalizedAccession(row.accessionNumber);
+  // Older catalog rows prefixed Freer/Sackler accession numbers with `fsg_`.
+  // That prefix is a source-system namespace, not part of the museum number.
+  if (institution === 'smithsonian-nmaa') accession = accession.replace(/^FSG[_-]?/, '');
   if (!institution || !accession) return undefined;
   if (institution === 'rijksmuseum' && !/^[A-Z]+(?:-[A-Z0-9]+)+$/.test(accession)) return undefined;
   return `${institution}|${accession}`;

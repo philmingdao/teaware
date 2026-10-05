@@ -1,0 +1,64 @@
+[
+  {
+    "id": "osaka-25",
+    "accession": "00559",
+    "title": "TEA BOWL, Tenmoku glaze with silvery spots",
+    "sourceUrl": "https://apisites.jmapps.ne.jp/mocoor_o/en/collection/25",
+    "imageSource": "https://ibmuseum.mapps.ne.jp/files/1118/media_files/large/5303.jpg",
+    "license": "CC BY (The Museum of Oriental Ceramics, Osaka Open Data)",
+    "photographer": "六田知弘",
+    "rights": {
+      "code": "CC BY",
+      "licenseUrl": "https://jpsearch.go.jp/en/item/moco_cs-25",
+      "openDataPage": "https://apisites.jmapps.ne.jp/mocoor_o/en/collection/25",
+      "policy": "The 23 images on the museum Open Data site may be used commercially or non-commercially with attribution."
+    },
+    "sourceSha256": "1b7929794ab6c786d1e5e439241a7f0297a87c41fc94b7372cfc6b95227ceba3",
+    "dimensions": [
+      1310,
+      1200
+    ],
+    "cutoutSha256": "0ab8eee0ba506d0fa61c8593c62e6c94a8aa843ad17b8a97dea377138e60faf4",
+    "approval": {
+      "id": "osaka-25",
+      "cacheKey": "d3f0c2f6112ab1fbd86b896040122994cb03db861c71f38c3b608a536769d39d",
+      "candidateSha256": "0ab8eee0ba506d0fa61c8593c62e6c94a8aa843ad17b8a97dea377138e60faf4",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared official original and transparent cutout on black and white. Confirmed a complete museum-listed Southern Song tea bowl; rim and foot intact, embedded glaze detail preserved, clean silhouette and edge, no background residue."
+    },
+    "metadataSha256": "a2f964741d8f89fece54fe9ed0aabdf1977ff44d93baf8171c544b9020e91b9c"
+  },
+  {
+    "id": "osaka-44",
+    "accession": "00598",
+    "title": "TEA BOWL, Tenmoku glaze with leaf design",
+    "sourceUrl": "https://apisites.jmapps.ne.jp/mocoor_o/en/collection/44",
+    "imageSource": "https://ibmuseum.mapps.ne.jp/files/1118/media_files/large/5331.jpg",
+    "license": "CC BY (The Museum of Oriental Ceramics, Osaka Open Data)",
+    "photographer": "六田知弘",
+    "rights": {
+      "code": "CC BY",
+      "licenseUrl": "https://jpsearch.go.jp/en/item/moco_cs-44",
+      "openDataPage": "https://apisites.jmapps.ne.jp/mocoor_o/en/collection/44",
+      "policy": "The 23 images on the museum Open Data site may be used commercially or non-commercially with attribution."
+    },
+    "sourceSha256": "7eed6000af9e54581c607332e22cd3af5a603c577e2ded363a82c68491ce00a0",
+    "dimensions": [
+      1310,
+      1200
+    ],
+    "cutoutSha256": "144905fada8148c94f34f4938e33dc6cb5765c0447eb57b8864898f8b9b2dff4",
+    "approval": {
+      "id": "osaka-44",
+      "cacheKey": "ee4ba0e0256573f13d81dc4123c2635f91edad1e2d74c6fe8dc3982e4756a301",
+      "candidateSha256": "144905fada8148c94f34f4938e33dc6cb5765c0447eb57b8864898f8b9b2dff4",
+      "decision": "approve",
+      "reviewedBy": "Codex visual review",
+      "reviewedAt": "2026-10-05",
+      "notes": "Compared official original and transparent cutout on black and white. Confirmed a complete museum-listed Southern Song tea bowl; rim and foot intact, embedded glaze detail preserved, clean silhouette and edge, no background residue."
+    },
+    "metadataSha256": "3c7bed2d29b7e9f1188a29d3416257b5015fab6a9faf84a2094aef287c5c6d50"
+  }
+]
