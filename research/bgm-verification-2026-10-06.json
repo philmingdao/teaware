@@ -1,0 +1,192 @@
+{
+  "verified": "2026-10-06",
+  "activeTracks": 30,
+  "newDownloads": 20,
+  "reserveTracks": 1,
+  "newTracksBrowserDecoded": 20,
+  "newTrackDurationChecksPassed": 20,
+  "shuffleRoundsChecked": 100,
+  "totalMinutes": 97.75090983333334,
+  "tracks": [
+    {
+      "file": "blossom-valley-paradise-521367.mp3",
+      "seconds": 63.033469,
+      "bytes": 1436067,
+      "sha256": "fc6d348898781581102435c87ad9882ace4f029d327f307b86f6f0e18a10c7b9"
+    },
+    {
+      "file": "chinese-harmony-564699.mp3",
+      "seconds": 159.072,
+      "bytes": 5090304,
+      "sha256": "c67fbb8fba0d6b7f66671a2d79959e6e2e424aa918b2d25583ede684b84c5add"
+    },
+    {
+      "file": "bamboo-grove-434735.mp3",
+      "seconds": 199.992,
+      "bytes": 6399744,
+      "sha256": "22e244695cb51dd5fd8b04459055031b5d3149ab1b9b5a5a997f3e5d204fecfd"
+    },
+    {
+      "file": "east-asian-melody-324382.mp3",
+      "seconds": 104.672625,
+      "bytes": 3349524,
+      "sha256": "8b9c2ba6dcb1bef491d6d2c21ffa734e27de481497f67a9455ee610d05bec939"
+    },
+    {
+      "file": "chinese-china-175674.mp3",
+      "seconds": 140.042438,
+      "bytes": 4481358,
+      "sha256": "1ddfc5767ffcc37b53aa19d8bcece6775c7a1eb83f3a2421fe79515ab6358feb"
+    },
+    {
+      "file": "chinese-new-year-455963.mp3",
+      "seconds": 78.733063,
+      "bytes": 2519458,
+      "sha256": "15836de8fe62067f4e47f85099d5569f2e7b9cc2b9723b01d1418745e95f16a4"
+    },
+    {
+      "file": "moonlit-whispers-353045.mp3",
+      "seconds": 201.96,
+      "bytes": 6462720,
+      "sha256": "a7c7919801ad24368a21b43258eb495570030455b35b77e70ae58964e19d7b2f"
+    },
+    {
+      "file": "china-apalonbeats-560419.mp3",
+      "seconds": 119.510188,
+      "bytes": 3824326,
+      "sha256": "7014b29219da80f7a430dc0e3fa562576296814b28ad2b373535f12dfc189d03"
+    },
+    {
+      "file": "china-mondamusic-589131.mp3",
+      "seconds": 96.024,
+      "bytes": 3072768,
+      "sha256": "f9c367222d2868ab6fea0675db7d389294303535c666434a33f67a5c90c4c316"
+    },
+    {
+      "file": "chinese-kulakovka-295886.mp3",
+      "seconds": 137.038344,
+      "bytes": 4385227,
+      "sha256": "dd600259a4db7e2860872f9c04aee4a79ce37b08cea56d41908bd698e9935e5b"
+    },
+    {
+      "file": "china-solarflex-569518.mp3",
+      "seconds": 74.893062,
+      "bytes": 2396578,
+      "sha256": "dbac775444af20b64dd011f05d55f27b5672d2fd4fa63c2585f03f9ce6bad4a7"
+    },
+    {
+      "file": "guzheng-city.mp3",
+      "seconds": 114.07675,
+      "bytes": 3654552,
+      "sha256": "7d117a43cad22ff05b32340f2bd331368c48342f503eab85b1e5c403043d4be6"
+    },
+    {
+      "file": "morning.mp3",
+      "seconds": 153.31265,
+      "bytes": 3068475,
+      "sha256": "25a18be2e8b47ee75c336d9e27ac709bf71f0409806d696ab49ea2bddc113d80"
+    },
+    {
+      "file": "evening.mp3",
+      "seconds": 186.25305,
+      "bytes": 3727283,
+      "sha256": "45e91c3a804bab0a27f54323a34b3a404cfb172ccace169518384afdb51c311a"
+    },
+    {
+      "file": "kalimba-relaxation-music.mp3",
+      "seconds": 428.068575,
+      "bytes": 17257632,
+      "sha256": "96e24b49f4da2956bb626f1d7465b7cd7a0dc1e35565870c001e850b2140c6a0"
+    },
+    {
+      "file": "mana-two-part-1.mp3",
+      "seconds": 234.03102,
+      "bytes": 9497023,
+      "sha256": "41047f29ea1679a0139947bde8864c7b38b3e97744285583efba5079a88f5a34"
+    },
+    {
+      "file": "mana-two-part-2.mp3",
+      "seconds": 362.03102,
+      "bytes": 14617023,
+      "sha256": "68b491c3bd53f6acb63802c798832baddb61a609452658d586764dc1b03ed311"
+    },
+    {
+      "file": "mana-two-part-3.mp3",
+      "seconds": 192.026122,
+      "bytes": 7816827,
+      "sha256": "1b1024c984cb547aa27670f11e2bd82bb2e27f21991cfd9400fa0943e6fc531d"
+    },
+    {
+      "file": "midnight-tale.mp3",
+      "seconds": 161.56735,
+      "bytes": 6466790,
+      "sha256": "c2862369ae8ed2ae36468bf87f5a77bfa56b9944fd8ebd9703e99a8bc7a6e863"
+    },
+    {
+      "file": "water-lily.mp3",
+      "seconds": 144.065313,
+      "bytes": 4612305,
+      "sha256": "b8c4f3b03a50af34c01a3f3b986a3d411f56a6c0c9a5b00807ccb5d83c74e8c6"
+    },
+    {
+      "file": "dreamer.mp3",
+      "seconds": 204.068594,
+      "bytes": 6532428,
+      "sha256": "615e65c9ca131c11f8e12970644ed74ef822ec4f643b1d9d0085a223600bcdfb"
+    },
+    {
+      "file": "dream-culture.mp3",
+      "seconds": 214.360825,
+      "bytes": 8576659,
+      "sha256": "f12cbb52bd4b92bd6cf8a343645567c119627e9cbf98108a3eb6ac2cc275ee46"
+    },
+    {
+      "file": "floating-cities.mp3",
+      "seconds": 184.058781,
+      "bytes": 5892113,
+      "sha256": "e7365652410d1fbc8a14d87537855d625c1a5fa8b7de8c626f47c13256ef2ddd"
+    },
+    {
+      "file": "northern-glade.mp3",
+      "seconds": 315.036735,
+      "bytes": 5732363,
+      "sha256": "2521e2e76b8dd781ea04a8811a0fb76faaaace1ee2d44e22164fe55de9e0cb7c"
+    },
+    {
+      "file": "cottages.mp3",
+      "seconds": 233.874286,
+      "bytes": 4433764,
+      "sha256": "e856ed25cc7795f8f69c4542cf69c8bf8c3b8eef4790b274f6d279944f428b9b"
+    },
+    {
+      "file": "manor.mp3",
+      "seconds": 233.874286,
+      "bytes": 4433764,
+      "sha256": "d4ac715e45e6fa5a9dcea2441bd56c8ea56312b5fe9d15a87cae2f0e88ae0e19"
+    },
+    {
+      "file": "almost-new.mp3",
+      "seconds": 202.5535,
+      "bytes": 6483966,
+      "sha256": "3cb29102881aa9cb56292753dfa6c92004eddf4e0ad367e979c7292b0e1ac1a0"
+    },
+    {
+      "file": "crinoline-dreams.mp3",
+      "seconds": 246.439219,
+      "bytes": 7888307,
+      "sha256": "471b2f6128040bcd373802a4ad8a1bf7324bfa0fec9e71b0c8f381dc0331246d"
+    },
+    {
+      "file": "almost-bliss.mp3",
+      "seconds": 316.577975,
+      "bytes": 12667215,
+      "sha256": "731e191cef927e43d352bd099ac63cd6ea54a6a84deec3cba77fb59e6903754c"
+    },
+    {
+      "file": "wholesome.mp3",
+      "seconds": 363.80735,
+      "bytes": 14556390,
+      "sha256": "9eadc79a1a2cb68cd63be1432ebf8f8ae3387cb9d2e85f9b8dbc74ba5a96b231"
+    }
+  ]
+}

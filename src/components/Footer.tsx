@@ -1,6 +1,7 @@
 'use client';
 import { useLanguage } from './LanguageProvider';
 import Link from '@/components/LocaleLink';
+import { withBasePath } from '@/lib/paths';
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -47,6 +48,13 @@ export default function Footer() {
           <div>
             <h4 className="text-sm tracking-widest text-[#b8956c] dark:text-[#d4b896] mb-4">{t('credits')}</h4>
             <div className="text-sm text-[#a0a0a0] leading-relaxed space-y-2">
+              <p>
+                <a href={withBasePath('/audio/credits.html')} target="_blank" rel="noopener noreferrer" className="hover:text-[#faf9f7] transition-colors">
+                  BGM · Kevin MacLeod / Pixabay / Freesound
+                </a>
+                <br />
+                <span className="text-xs">Music credits · CC BY 4.0 / Pixabay / CC0</span>
+              </p>
               <p>
                 <a href="https://new.artsmia.org/copyright-and-image-access" target="_blank" rel="noopener noreferrer" className="hover:text-[#faf9f7] transition-colors">Minneapolis Institute of Art</a>
                 <br />
