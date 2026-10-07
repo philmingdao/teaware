@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   ...defaultMetadata,
   verification: {
     google: "1GLUzAN3pgSjjxC8SDb-_dv9go1q2ZqtWrnWQCgjNt4",
+    other: { "msvalidate.01": "E9C12BCB1072D5DC0449A3B73CD73D39" },
   },
 };
 
