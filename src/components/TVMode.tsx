@@ -11,6 +11,7 @@ import { useBackgroundMusic } from '@/hooks/useBackgroundMusic';
 import { withBasePath } from '@/lib/paths';
 import MusicToggle from './MusicToggle';
 import LanguageSwitcher from './LanguageSwitcher';
+import TVFullscreenButton from './TVFullscreenButton';
 import { MuseumStage, MuseumArtifact } from './MuseumExhibit';
 import museumStyles from './MuseumExhibit.module.css';
 import type { Artwork } from '@/types/artwork';
@@ -248,7 +249,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key !== 'Escape' && (event.target as HTMLElement).closest('select, input, textarea')) return;
+      if (event.key !== 'Escape' && (event.target as HTMLElement).closest('a, button, select, input, textarea')) return;
       showUITemporarily();
       switch (event.key) {
         case 'ArrowRight':
@@ -260,6 +261,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
           pauseAndGo(-1);
           break;
         case 'Escape':
+          if (document.fullscreenElement) return;
           close();
           break;
         case 'p':
@@ -398,7 +400,7 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
       )}
 
       <header
-        className={`absolute left-0 right-0 top-0 flex items-center justify-between px-6 py-6 transition-opacity duration-500 motion-reduce:transition-none sm:px-10 lg:px-16 ${showUI ? 'opacity-100' : 'opacity-0'}`}
+        className={`absolute left-0 right-0 top-0 flex flex-wrap items-center justify-between gap-3 px-6 py-6 transition-opacity duration-500 focus-within:opacity-100 motion-reduce:transition-none sm:px-10 lg:px-16 ${showUI ? 'opacity-100' : 'opacity-0'}`}
         style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 1.5rem)' }}
       >
         <button type="button" onClick={close} aria-label={t('backGallery')} className="inline-flex items-center gap-2 text-sm tracking-wide text-white/55 transition-colors hover:text-white">
@@ -406,7 +408,8 @@ export default function TVMode({ collection, onClose }: { collection?: Artwork[]
           <span className="hidden sm:inline">{t('backGallery')}</span>
         </button>
         <Link href="/" className="text-lg tracking-[0.28em] text-white/45 transition-colors hover:text-white/75">{t('brand')}</Link>
-        <div className="flex items-center gap-5">
+        <div className="flex flex-wrap items-center gap-3 sm:gap-5">
+          <TVFullscreenButton />
           <LanguageSwitcher inverted />
           <MusicToggle className="text-white/55 hover:text-white" />
           <button
