@@ -8,7 +8,12 @@ import LanguageProvider from '@/components/LanguageProvider';
 import JsonLd from "@/components/JsonLd";
 import { defaultMetadata, createCollectionPageJsonLd } from "@/lib/seo";
 
-export const metadata: Metadata = defaultMetadata;
+export const metadata: Metadata = {
+  ...defaultMetadata,
+  verification: {
+    google: "1GLUzAN3pgSjjxC8SDb-_dv9go1q2ZqtWrnWQCgjNt4",
+  },
+};
 
 export default function RootLayout({
   children,
