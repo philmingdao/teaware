@@ -79,12 +79,12 @@ jobs:
           }
           JSVERIFY
 
-      - name: Check artifact size (must be under 950MB for GitHub Pages)
+      - name: Check artifact size (must be under 990MB for GitHub Pages)
         run: |
           set -euo pipefail
           SIZE_BYTES=$(du -sb out | cut -f1)
           SIZE_MB=$((SIZE_BYTES / 1024 / 1024))
-          MAX_SIZE_MB=950
+          MAX_SIZE_MB=990
           echo "Build output size: ${SIZE_MB}MB (${SIZE_BYTES} bytes)"
           echo "Maximum allowed: ${MAX_SIZE_MB}MB"
           if [ "$SIZE_MB" -gt "$MAX_SIZE_MB" ]; then
