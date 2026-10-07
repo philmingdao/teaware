@@ -21,7 +21,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          lfs: true
+          lfs: false
+
+      - name: Fetch artwork from Git LFS with retries
+        run: |
+          set -euo pipefail
+          git config --local lfs.concurrenttransfers 2
+          git config --local lfs.transfer.batchSize 20
+          git config --local lfs.transfer.maxretries 12
+          for attempt in 1 2 3; do
+            if git lfs pull; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "ERROR: Git LFS pull failed after $attempt attempts"
+              exit 1
+            fi
+            delay=$((attempt * 15))
+            echo "Git LFS pull failed; retrying in ${delay}s (attempt $((attempt + 1))/3)"
+            sleep "$delay"
+          done
 
       - name: Verify artwork JPEGs (not LFS pointers)
         run: |
