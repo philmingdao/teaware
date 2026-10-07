@@ -2,9 +2,9 @@
 
 import { useLanguage } from './LanguageProvider';
 import { artworkTitle, artworkType, periodName, term } from '@/lib/i18n';
-import Link from '@/components/LocaleLink';
 import { Artwork } from '@/types/artwork';
 import ArtifactImage from './ArtifactImage';
+import { withBasePath } from '@/lib/paths';
 
 interface ArtworkCardProps {
   artwork: Artwork;
@@ -14,8 +14,8 @@ interface ArtworkCardProps {
 export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
   const { locale } = useLanguage();
   return (
-    <Link 
-      href={`/artwork?id=${artwork.id}`}
+    <a
+      href={withBasePath(`/artwork/${encodeURIComponent(artwork.id)}/`)}
       className="group gallery-item block bg-transparent"
       style={{ 
         animationDelay: `${index * 0.1}s`,
@@ -66,6 +66,6 @@ export default function ArtworkCard({ artwork, index = 0 }: ArtworkCardProps) {
           </p>
         )}
       </div>
-    </Link>
+    </a>
   );
 }

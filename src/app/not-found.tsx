@@ -19,7 +19,7 @@ export default function NotFound() {
 
   useEffect(() => {
     if (artworkId) {
-      router.replace(href(`/artwork?id=${encodeURIComponent(artworkId)}`));
+      router.replace(href('/gallery/'));
     }
   }, [artworkId, router, href]);
 

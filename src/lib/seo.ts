@@ -70,7 +70,7 @@ export const defaultMetadata: Metadata = {
     },
   },
   alternates: {
-    canonical: FULL_URL,
+    canonical: `${FULL_URL}/`,
     languages: {
       'zh-CN': `${FULL_URL}/?lang=zh`,
       'en': `${FULL_URL}/?lang=en`,
@@ -82,7 +82,7 @@ export const defaultMetadata: Metadata = {
     type: 'website',
     locale: siteConfig.locale,
     alternateLocale: siteConfig.alternateLocale,
-    url: FULL_URL,
+    url: `${FULL_URL}/`,
     siteName: siteConfig.name.zh,
     title: siteConfig.title.zh,
     description: siteConfig.description.zh,
@@ -113,19 +113,19 @@ export const pageMetadata = {
     title: '藏品浏览 · 茶器收藏',
     titleEn: 'Collection Gallery',
     description: '浏览东亚茶器艺术展全部藏品，按时代与地区、材质、器型和来源筛选。Browse East Asian teaware and cultural exchange.',
-    canonical: `${FULL_URL}/gallery`,
+    canonical: `${FULL_URL}/gallery/`,
   },
   about: {
     title: '关于展览 · 策展理念与数据来源',
     titleEn: 'About the Exhibition',
     description: '了解东亚茶器艺术展的策展理念、当前收录来源和作品许可。Learn about East Asian teaware, collection sources and licensing.',
-    canonical: `${FULL_URL}/about`,
+    canonical: `${FULL_URL}/about/`,
   },
   tv: {
     title: '电视模式 · 沉浸式全屏展览',
     titleEn: 'TV Mode · Immersive Gallery',
     description: '电视/大屏全屏展览模式。Netflix风格沉浸式茶器艺术浏览，支持自动播放、键盘操控。Fullscreen immersive gallery experience for large displays.',
-    canonical: `${FULL_URL}/tv`,
+    canonical: `${FULL_URL}/tv/`,
   },
 };
 
@@ -253,7 +253,7 @@ export function createArtworkJsonLd(artwork: {
     alternateName: artwork.titleEnglish,
     description: artwork.description,
     image: imageUrl,
-    url: `${FULL_URL}/artwork?id=${artwork.id}`,
+    url: `${FULL_URL}/artwork/${encodeURIComponent(artwork.id)}/`,
     dateCreated: artwork.date,
     artMedium: `${artwork.material} / ${artwork.materialEnglish}`,
     artworkSurface: artwork.kiln ? `${artwork.kiln} / ${artwork.kilnEnglish}` : undefined,
