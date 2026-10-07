@@ -3,12 +3,12 @@
 import { useLanguage } from './LanguageProvider';
 import { artworkTitle, periodName, term, museumName } from '@/lib/i18n';
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
-import { useRouter } from 'next/navigation';
 import { CaretLeft, CaretRight, Pause, Play, X } from '@phosphor-icons/react';
 import type { Artwork } from '@/types/artwork';
 import { MuseumStage, MuseumArtifact } from './MuseumExhibit';
 import MusicToggle from './MusicToggle';
 import LanguageSwitcher from './LanguageSwitcher';
+import { withBasePath } from '@/lib/paths';
 
 interface SlideshowProps {
   artworks: Artwork[];
@@ -24,7 +24,6 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
   const [dragStart, setDragStart] = useState(0);
   const [dragOffset, setDragOffset] = useState(0);
   const autoplayIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
-  const router = useRouter();
 
   const totalCount = artworks.length;
   const currentArtwork = artworks[currentIndex];
@@ -110,7 +109,7 @@ export default function Slideshow({ artworks, startIndex = 0, onClose }: Slidesh
 
   const handleViewDetails = () => {
     onClose();
-    router.push(href(`/artwork?id=${currentArtwork.id}`));
+    window.location.assign(withBasePath(href(`/artwork/${encodeURIComponent(currentArtwork.id)}/`)));
   };
 
   if (!currentArtwork) return null;

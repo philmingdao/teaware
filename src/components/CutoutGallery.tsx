@@ -84,7 +84,7 @@ export default function CutoutGallery({ samples }: { samples: Sample[] }) {
             </div>
             <div className={styles.caption}>
               <p className={styles.date}>{record.date} <span>·</span> {term(record.material, locale, record.materialEnglish)}</p>
-              <h2><Link href={`/artwork?id=${sample.id}`}>{title}</Link></h2>
+              <h2><a href={withBasePath(`/artwork/${encodeURIComponent(sample.id)}/`)}>{title}</a></h2>
               <p className={styles.description}>{locale === 'zh' ? sample.description : artworkDescription(record, locale)}</p>
               <a className={styles.source} href={sample.sourceUrl} target="_blank" rel="noreferrer">{museumName(record, locale)} ↗</a>
             </div>
