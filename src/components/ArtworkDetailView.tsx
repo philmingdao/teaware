@@ -17,6 +17,7 @@ import Footer from '@/components/Footer';
 import ArtifactImage from '@/components/ArtifactImage';
 import ArtworkSlideshowButton from '@/components/ArtworkSlideshowButton';
 import TVModeLink from '@/components/TVModeLink';
+import { withBasePath } from '@/lib/paths';
 
 interface Props {
   artwork: Artwork;
@@ -25,7 +26,7 @@ interface Props {
 }
 
 export default function ArtworkDetailView({ artwork, previousArtwork, nextArtwork }: Props) {
-  const { locale, t } = useLanguage();
+  const { locale, t, href } = useLanguage();
 
   useEffect(() => {
     document.title = `${artworkTitle(artwork, locale)} | ${t('siteTitle')}`;
@@ -155,8 +156,8 @@ export default function ArtworkDetailView({ artwork, previousArtwork, nextArtwor
       <section className="py-12 bg-[#f5f3ef] dark:bg-[#171614] border-t border-[#ebe8e1] dark:border-[#252320]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex justify-between items-center gap-4">
-            {previousArtwork ? <Link
-              href={`/artwork/${encodeURIComponent(previousArtwork.id)}/`}
+            {previousArtwork ? <a
+              href={withBasePath(href(`/artwork/${encodeURIComponent(previousArtwork.id)}/`))}
               className="group flex items-center gap-3 text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
             >
               <svg className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -166,12 +167,12 @@ export default function ArtworkDetailView({ artwork, previousArtwork, nextArtwor
                 <span className="block text-xs text-[#999] dark:text-[#6e6c68]">{t('prev')}</span>
                 <span className="block text-sm">{artworkTitle(previousArtwork, locale)}</span>
               </span>
-            </Link> : <div />}
+            </a> : <div />}
             <Link href="/gallery/" className="text-sm text-[#b8956c] dark:text-[#d4b896] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors">
               {t('backGallery')}
             </Link>
-            {nextArtwork ? <Link
-              href={`/artwork/${encodeURIComponent(nextArtwork.id)}/`}
+            {nextArtwork ? <a
+              href={withBasePath(href(`/artwork/${encodeURIComponent(nextArtwork.id)}/`))}
               className="group flex items-center gap-3 text-[#666] dark:text-[#9a9894] hover:text-[#1a1a1a] dark:hover:text-[#e8e6e3] transition-colors"
             >
               <span className="text-right">
@@ -181,7 +182,7 @@ export default function ArtworkDetailView({ artwork, previousArtwork, nextArtwor
               <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
               </svg>
-            </Link> : <div />}
+            </a> : <div />}
           </div>
         </div>
       </section>
