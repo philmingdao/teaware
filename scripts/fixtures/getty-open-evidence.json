@@ -1,0 +1,1021 @@
+{
+  "artwork": {
+    "id": "getty-6d715ea4",
+    "titleChinese": "茶壶",
+    "titleEnglish": "Mounted Teapot",
+    "titleOriginal": "Mounted Teapot",
+    "dynasty": "未详",
+    "dynastyEnglish": "Unspecified",
+    "date": "porcelain about 1662–1690; mounts about 1700–1710",
+    "period": "Unknown",
+    "material": "瓷",
+    "materialEnglish": "Hard-paste porcelain, blue ground color, and traces of gilding; silver mounts",
+    "objectType": "茶壶",
+    "objectTypeEnglish": "Teapot",
+    "dimensions": "Object: 14.8 × 20.2 × 11.8 cm (5 13/16 × 7 15/16 × 4 5/8 in.)",
+    "description": "茶壶。馆方原名：Mounted Teapot。制作年代：porcelain about 1662–1690; mounts about 1700–1710。",
+    "sourceMuseum": "盖蒂博物馆",
+    "sourceMuseumEnglish": "J. Paul Getty Museum",
+    "accessionNumber": "2001.76",
+    "sourceUrl": "https://www.getty.edu/art/collection/object/108J41",
+    "imageUrl": "/artworks/getty-6d715ea4.jpg",
+    "imageAlt": "Mounted Teapot",
+    "license": "CC0 1.0 (Getty Open Content image); CC BY 4.0 (source text)",
+    "creditLine": "The J. Paul Getty Museum, Los Angeles, 2001.76. Background removed and cropped by Teaware.",
+    "crawlBatchId": "reviewed-teaware-6000-2026-10-06"
+  },
+  "raw": {
+    "object": {
+      "id": "object/6d715ea4-9751-45f5-a960-6b949b3cfb3f",
+      "type": "HumanMadeObject",
+      "primary_name": "Mounted Teapot",
+      "title_sort": "mounted teapot",
+      "entity_type": "HumanMadeObject",
+      "dor_id": 132932,
+      "tms_id": 144325,
+      "last_updated--date": "2026-10-06T08:23:12.000Z",
+      "first_seen--date": "2022-03-31T04:52:13.000Z",
+      "is_standalone": true,
+      "is_part": false,
+      "is_parent": false,
+      "number_of_children": 0,
+      "is_root": false,
+      "hierarchical_order_sort": 0,
+      "rel_ids": [
+        "object/6d715ea4-9751-45f5-a960-6b949b3cfb3f",
+        "place/d5797fb6-dace-4996-8a6b-dbda7402a4c6",
+        "place/18fe800e-8436-44df-9ad9-bc3debee1366",
+        "place/a03fec3c-c7a2-4b29-9995-5eddf3ceb0a4",
+        "group/d05ab85a-988f-4dde-891a-035fcc7676e0",
+        "activity/aea692c4-a4ec-5e87-9278-fae1dee4f230",
+        "activity/da060bf5-d8ae-58fa-bf97-e13c2af0deef",
+        "exhibition/367d2f5d-9c11-4a89-90ea-b54623229b73",
+        "exhibition/4b3d8e77-2d6b-42b7-967a-a68d0349c1c0",
+        "document/2d958af4-7741-4276-87d0-c22dbd9c3563",
+        "document/87ab8b12-5d68-4f47-aa1e-7d753d7378d1",
+        "document/1a8a136b-6c09-4a60-b913-ef912b8a1384",
+        "document/db511f58-11c1-4c70-b0c7-f92448322077",
+        "document/fed3fef6-a992-4dad-b414-fd1c2040af73",
+        "person/1cce21f4-f1e5-4a40-bff9-3fd671383449",
+        "person/b26c2379-25d7-4c5f-b45a-a5157eb4fa1a"
+      ],
+      "all_names": [
+        "Mounted Teapot",
+        "Teapot"
+      ],
+      "producers": [
+        {
+          "primary_name": "Unknown",
+          "primary_name--text": "Unknown",
+          "description": "Unknown",
+          "role": [
+            "Artist"
+          ]
+        }
+      ],
+      "known_producers": false,
+      "artist_sort": "unknown",
+      "provenance": [
+        {
+          "owner": [
+            {
+              "id": "person/1cce21f4-f1e5-4a40-bff9-3fd671383449",
+              "primary_name": "Private Collection",
+              "primary_name--text": "Private Collection"
+            }
+          ],
+          "saleNote--text": "sold, Etude Coutonet Veyrac, Nantes, March 28, 2000",
+          "timespan--text": "- 2000"
+        },
+        {
+          "owner": [
+            {
+              "id": "person/b26c2379-25d7-4c5f-b45a-a5157eb4fa1a",
+              "primary_name": "Bernard Steinitz",
+              "primary_name--text": "Bernard Steinitz",
+              "life_dates": "1933 - 2012",
+              "nationality_and_dates": "French, 1933 - 2012"
+            }
+          ],
+          "statement--text": "sold to the J. Paul Getty Museum, 2001.",
+          "timespan--text": "2000 - 2001",
+          "location--text": "Paris, France"
+        }
+      ],
+      "nazi_era_restitution": false,
+      "nazi_era_gaps": true,
+      "materials_parsed": [
+        "Gilding"
+      ],
+      "materials": "Hard-paste porcelain, blue ground color, and traces of gilding; silver mounts",
+      "dimensions": [
+        "Object: 14.8 × 20.2 × 11.8 cm (5 13/16 × 7 15/16 × 4 5/8 in.)"
+      ],
+      "bibliographic_reference_ids": [
+        "document/2d958af4-7741-4276-87d0-c22dbd9c3563",
+        "document/87ab8b12-5d68-4f47-aa1e-7d753d7378d1",
+        "document/1a8a136b-6c09-4a60-b913-ef912b8a1384",
+        "document/db511f58-11c1-4c70-b0c7-f92448322077",
+        "document/fed3fef6-a992-4dad-b414-fd1c2040af73"
+      ],
+      "width": 20.2,
+      "height": 14.8,
+      "depth": 11.8,
+      "culture": [
+        "Chinese and French"
+      ],
+      "object_number": "2001.76",
+      "accession_number": "2001.76",
+      "normalized_accession_number": [
+        "200176"
+      ],
+      "obj_num_sort": "  2001    76                                                                    ",
+      "department": "Sculpture & Decorative Arts",
+      "rights_statement": "No Copyright",
+      "rights_statement_id": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date_created": "porcelain about 1662–1690; mounts about 1700–1710",
+      "date_sort": "porcelain about 1662–1690; mounts about 1700–1710",
+      "description": "This unique and rare mounted teapot, made of precious materials, reflects the value of tea in Europe during the 1700s. It also reveals the European passion for Chinese porcelain, which was prized by discerning collectors who displayed their imported objects in porcelain cabinets. After being imported from China, porcelain objects were often decorated with gold, silver, or gilt bronze mounts to enhance their value and rarity. The silver mounts on this teapot are particularly noteworthy because of their unusual engraved and pierced motifs, and the prominent placement of the hinges. Also, the original porcelain handle was broken and replaced by one that cleverly incorporates a tea leaf into the design. The vessel's striking dappled blue hue resulted from the rediscovery of a color known as powder blue, first invented in the 1400s. To achieve the rich, mottled effect, cobalt pigment was repeatedly blown through a bamboo tube covered at one end by gauze. The intense blue of the ground color combined with the beauty of the engraved and pierced mounts make this a singular object of extraordinary refinement.",
+      "object_type": "Teapot",
+      "classification_and_object_type": [
+        "Teapot",
+        "Decorative Art"
+      ],
+      "alternate_titles": [
+        "Mounted Teapot",
+        "Teapot"
+      ],
+      "image_metadata": [
+        {
+          "id": "https://data.getty.edu/media/image/4dababc2-cec4-58b3-9fc5-41dc199d2391",
+          "altText": "Object Overall",
+          "isDownloadable": true,
+          "descriptiveNote": "3/4 side A, main view, post-cons.",
+          "isDisplayable": true,
+          "isPortrait": false,
+          "isZoomable": true,
+          "disableContextMenu": false,
+          "rightsStatementId": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "rightsIconName": "CC0",
+          "rightsStatement": "Public Domain",
+          "imageService": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741"
+        }
+      ],
+      "manifest": {
+        "url": "https://media.getty.edu/iiif/manifest/3/8a820398-754d-4a0f-a0b4-90e36ed64697",
+        "attribution": [
+          "<p>Images provided here are believed to be in the public domain and     are available under <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0</a>     through Getty&rsquo;s <a href=\"http://www.getty.edu/about/opencontent.html\">Open Content Program</a>.     Texts provided here are &copy; J. Paul Getty Trust, licensed under     <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">CC BY 4.0</a>.     Terms of use for the Getty logo can be found     <a href=\"http://www.getty.edu/legal/copyright.html#logo\"> here</a>.    </p>"
+        ],
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "thumb": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741/full/!300,300/0/default.jpg",
+        "thumbUuid": "6685ac68-2806-481d-8aaf-d38899a80741",
+        "numItems": 1,
+        "altText": "Object Overall"
+      },
+      "colors": [
+        {
+          "r": 65,
+          "g": 87,
+          "b": 143,
+          "h": 223,
+          "s": 55,
+          "v": 56,
+          "percent": 0.005
+        },
+        {
+          "r": 42,
+          "g": 68,
+          "b": 121,
+          "h": 220,
+          "s": 65,
+          "v": 47,
+          "percent": 0.009
+        },
+        {
+          "r": 30,
+          "g": 54,
+          "b": 109,
+          "h": 222,
+          "s": 72,
+          "v": 43,
+          "percent": 0.01
+        },
+        {
+          "r": 43,
+          "g": 60,
+          "b": 89,
+          "h": 218,
+          "s": 52,
+          "v": 35,
+          "percent": 0.005
+        },
+        {
+          "r": 65,
+          "g": 76,
+          "b": 74,
+          "h": 169,
+          "s": 14,
+          "v": 30,
+          "percent": 0.01
+        },
+        {
+          "r": 118,
+          "g": 128,
+          "b": 127,
+          "h": 174,
+          "s": 8,
+          "v": 50,
+          "percent": 0.033
+        },
+        {
+          "r": 53,
+          "g": 77,
+          "b": 134,
+          "h": 222,
+          "s": 60,
+          "v": 53,
+          "percent": 0.007
+        },
+        {
+          "r": 96,
+          "g": 106,
+          "b": 103,
+          "h": 162,
+          "s": 9,
+          "v": 42,
+          "percent": 0.016
+        },
+        {
+          "r": 79,
+          "g": 99,
+          "b": 147,
+          "h": 222,
+          "s": 46,
+          "v": 58,
+          "percent": 0.004
+        },
+        {
+          "r": 143,
+          "g": 152,
+          "b": 156,
+          "h": 198,
+          "s": 8,
+          "v": 61,
+          "percent": 0.231
+        },
+        {
+          "r": 91,
+          "g": 111,
+          "b": 159,
+          "h": 222,
+          "s": 43,
+          "v": 62,
+          "percent": 0.002
+        },
+        {
+          "r": 150,
+          "g": 158,
+          "b": 163,
+          "h": 203,
+          "s": 8,
+          "v": 64,
+          "percent": 0.188
+        },
+        {
+          "r": 69,
+          "g": 86,
+          "b": 114,
+          "h": 217,
+          "s": 39,
+          "v": 45,
+          "percent": 0.002
+        },
+        {
+          "r": 40,
+          "g": 50,
+          "b": 53,
+          "h": 194,
+          "s": 25,
+          "v": 21,
+          "percent": 0.008
+        },
+        {
+          "r": 107,
+          "g": 117,
+          "b": 115,
+          "h": 168,
+          "s": 9,
+          "v": 46,
+          "percent": 0.021
+        },
+        {
+          "r": 7,
+          "g": 15,
+          "b": 41,
+          "h": 226,
+          "s": 83,
+          "v": 16,
+          "percent": 0.015
+        },
+        {
+          "r": 135,
+          "g": 144,
+          "b": 147,
+          "h": 195,
+          "s": 8,
+          "v": 58,
+          "percent": 0.288
+        },
+        {
+          "r": 82,
+          "g": 93,
+          "b": 90,
+          "h": 164,
+          "s": 12,
+          "v": 36,
+          "percent": 0.013
+        },
+        {
+          "r": 18,
+          "g": 36,
+          "b": 91,
+          "h": 225,
+          "s": 80,
+          "v": 36,
+          "percent": 0.024
+        },
+        {
+          "r": 127,
+          "g": 137,
+          "b": 138,
+          "h": 185,
+          "s": 8,
+          "v": 54,
+          "percent": 0.049
+        },
+        {
+          "r": 10,
+          "g": 23,
+          "b": 74,
+          "h": 228,
+          "s": 86,
+          "v": 29,
+          "percent": 0.028
+        }
+      ],
+      "raw_colors": [
+        {
+          "r": 65,
+          "g": 87,
+          "b": 143,
+          "h": 223,
+          "s": 55,
+          "v": 56,
+          "percent": 0.005
+        },
+        {
+          "r": 42,
+          "g": 68,
+          "b": 121,
+          "h": 220,
+          "s": 65,
+          "v": 47,
+          "percent": 0.009
+        },
+        {
+          "r": 220,
+          "g": 228,
+          "b": 227,
+          "h": 173,
+          "s": 4,
+          "v": 89,
+          "percent": 0.008
+        },
+        {
+          "r": 30,
+          "g": 54,
+          "b": 109,
+          "h": 222,
+          "s": 72,
+          "v": 43,
+          "percent": 0.01
+        },
+        {
+          "r": 43,
+          "g": 60,
+          "b": 89,
+          "h": 218,
+          "s": 52,
+          "v": 35,
+          "percent": 0.005
+        },
+        {
+          "r": 65,
+          "g": 76,
+          "b": 74,
+          "h": 169,
+          "s": 14,
+          "v": 30,
+          "percent": 0.01
+        },
+        {
+          "r": 118,
+          "g": 128,
+          "b": 127,
+          "h": 174,
+          "s": 8,
+          "v": 50,
+          "percent": 0.033
+        },
+        {
+          "r": 53,
+          "g": 77,
+          "b": 134,
+          "h": 222,
+          "s": 60,
+          "v": 53,
+          "percent": 0.007
+        },
+        {
+          "r": 96,
+          "g": 106,
+          "b": 103,
+          "h": 162,
+          "s": 9,
+          "v": 42,
+          "percent": 0.016
+        },
+        {
+          "r": 193,
+          "g": 202,
+          "b": 202,
+          "h": 180,
+          "s": 4,
+          "v": 79,
+          "percent": 0.01
+        },
+        {
+          "r": 79,
+          "g": 99,
+          "b": 147,
+          "h": 222,
+          "s": 46,
+          "v": 58,
+          "percent": 0.004
+        },
+        {
+          "r": 143,
+          "g": 152,
+          "b": 156,
+          "h": 198,
+          "s": 8,
+          "v": 61,
+          "percent": 0.231
+        },
+        {
+          "r": 91,
+          "g": 111,
+          "b": 159,
+          "h": 222,
+          "s": 43,
+          "v": 62,
+          "percent": 0.002
+        },
+        {
+          "r": 150,
+          "g": 158,
+          "b": 163,
+          "h": 203,
+          "s": 8,
+          "v": 64,
+          "percent": 0.188
+        },
+        {
+          "r": 69,
+          "g": 86,
+          "b": 114,
+          "h": 217,
+          "s": 39,
+          "v": 45,
+          "percent": 0.002
+        },
+        {
+          "r": 40,
+          "g": 50,
+          "b": 53,
+          "h": 194,
+          "s": 25,
+          "v": 21,
+          "percent": 0.008
+        },
+        {
+          "r": 171,
+          "g": 180,
+          "b": 179,
+          "h": 173,
+          "s": 5,
+          "v": 71,
+          "percent": 0.013
+        },
+        {
+          "r": 107,
+          "g": 117,
+          "b": 115,
+          "h": 168,
+          "s": 9,
+          "v": 46,
+          "percent": 0.021
+        },
+        {
+          "r": 7,
+          "g": 15,
+          "b": 41,
+          "h": 226,
+          "s": 83,
+          "v": 16,
+          "percent": 0.015
+        },
+        {
+          "r": 135,
+          "g": 144,
+          "b": 147,
+          "h": 195,
+          "s": 8,
+          "v": 58,
+          "percent": 0.288
+        },
+        {
+          "r": 82,
+          "g": 93,
+          "b": 90,
+          "h": 164,
+          "s": 12,
+          "v": 36,
+          "percent": 0.013
+        },
+        {
+          "r": 18,
+          "g": 36,
+          "b": 91,
+          "h": 225,
+          "s": 80,
+          "v": 36,
+          "percent": 0.024
+        },
+        {
+          "r": 127,
+          "g": 137,
+          "b": 138,
+          "h": 185,
+          "s": 8,
+          "v": 54,
+          "percent": 0.049
+        },
+        {
+          "r": 10,
+          "g": 23,
+          "b": 74,
+          "h": 228,
+          "s": 86,
+          "v": 29,
+          "percent": 0.028
+        }
+      ],
+      "h1": 223,
+      "s1": 55,
+      "v1": 56,
+      "h2": 220,
+      "s2": 65,
+      "v2": 47,
+      "h3": 222,
+      "s3": 72,
+      "v3": 43,
+      "h4": 218,
+      "s4": 52,
+      "v4": 35,
+      "images": true,
+      "public_credit_line": "The J. Paul Getty Museum, Los Angeles, 2001.76",
+      "open_content": true,
+      "can_download": true,
+      "member_of_exhibition_id": [
+        "exhibition/367d2f5d-9c11-4a89-90ea-b54623229b73",
+        "exhibition/4b3d8e77-2d6b-42b7-967a-a68d0349c1c0"
+      ],
+      "classification": "Decorative Art",
+      "current_location_id": [
+        "place/a03fec3c-c7a2-4b29-9995-5eddf3ceb0a4"
+      ],
+      "center": false,
+      "villa": false,
+      "on_view": false,
+      "current_owner": "museum",
+      "associated_program": "museum",
+      "exhibitions": [
+        {
+          "title--text": "Imagining the Orient",
+          "id": "exhibition/367d2f5d-9c11-4a89-90ea-b54623229b73",
+          "timespan": {
+            "gte": "2004-10-05 00:00:00",
+            "lte": "2005-04-03 23:59:59"
+          },
+          "stops": [
+            {
+              "id": "place/d5797fb6-dace-4996-8a6b-dbda7402a4c6",
+              "timespan": {
+                "gte": "2004-10-05 00:00:00",
+                "lte": "2005-04-03 23:59:59"
+              },
+              "name--text": "J. Paul Getty Museum at the Getty Center (Los Angeles)",
+              "timespan--text": "October 5, 2004 - April 3, 2005"
+            }
+          ],
+          "timespan--text": "October 5, 2004 - April 3, 2005"
+        },
+        {
+          "title--text": "Steeped in History: The Art of Tea",
+          "id": "exhibition/4b3d8e77-2d6b-42b7-967a-a68d0349c1c0",
+          "timespan": {
+            "gte": "2009-08-02 00:00:00",
+            "lte": "2009-11-29 23:59:59"
+          },
+          "stops": [
+            {
+              "id": "place/18fe800e-8436-44df-9ad9-bc3debee1366",
+              "timespan": {
+                "gte": "2009-08-02 00:00:00",
+                "lte": "2009-11-29 23:59:59"
+              },
+              "name--text": "UCLA Fowler Museum of Cultural History (Los Angeles)",
+              "timespan--text": "August 2, 2009 - November 29, 2009"
+            }
+          ],
+          "timespan--text": "August 2, 2009 - November 29, 2009"
+        }
+      ],
+      "exhibition_titles--text": [
+        "Imagining the Orient",
+        "Steeped in History: The Art of Tea"
+      ],
+      "bibliography_titles--text": [
+        "Ellis, Lisa. \"An Investigation into 'Ghosts' and Gilding on a Kangxi Porcelain Pot in the J. Paul Getty Museum.\" Ceramics in America 4 (2004), pp. 281-85, figs. 1-3.",
+        "The J. Paul Getty Museum Handbook of the Collections. 7th ed. (Los Angeles: J. Paul Getty Museum, 2007), p. 212, ill.",
+        "Wilson, Gillian, et al. French Furniture and Gilt Bronzes: Baroque and Régence: Catalogue of the J. Paul Getty Museum Collection (Los Angeles: J. Paul Getty Museum, 2008), p. 372, fig. 16.",
+        "Hohenegger, Beatrice. \"The Tea Craze in the West.\" In Steeped in History: The Art of Tea, exh. cat. Beatrice Hohenegger, ed. (Los Angeles: Fowler Museum at UCLA, 2009), pp. 132-33, no. II.11.",
+        "Micio, Paul. Les Collections de Monsieur frère de Louis XIV: Orfèvrerie et objets d'art des Orléans sous l'Ancien Régime (Paris: Somogy éditions d'Art, 2014), pp. 215, 217, fig. 166."
+      ],
+      "slug_with_path": "/object/108J41",
+      "decade_range": [
+        1660,
+        1670,
+        1680,
+        1690,
+        1700,
+        1710
+      ],
+      "century_range": [
+        1600,
+        1700
+      ],
+      "fifty_year_range": [
+        1650,
+        1700
+      ],
+      "one_year_range": [
+        1662,
+        1663,
+        1664,
+        1665,
+        1666,
+        1667,
+        1668,
+        1669,
+        1670,
+        1671,
+        1672,
+        1673,
+        1674,
+        1675,
+        1676,
+        1677,
+        1678,
+        1679,
+        1680,
+        1681,
+        1682,
+        1683,
+        1684,
+        1685,
+        1686,
+        1687,
+        1688,
+        1689,
+        1690,
+        1691,
+        1692,
+        1693,
+        1694,
+        1695,
+        1696,
+        1697,
+        1698,
+        1699,
+        1700,
+        1701,
+        1702,
+        1703,
+        1704,
+        1705,
+        1706,
+        1707,
+        1708,
+        1709,
+        1710
+      ],
+      "date_range": {
+        "gte": "1662-01-01 00:00:00",
+        "lte": "1710-12-31 23:59:59"
+      },
+      "meta_description": "porcelain about 1662–1690; mounts about 1700–1710; Unknown; Hard-paste porcelain, blue ground color, and traces of gilding; silver mounts; Object: 14.8 × 20.2 × 11.8 cm (5 13/16 × 7 15/16 × 4 5/8 in.); 2001.76",
+      "sessionId": 55252
+    },
+    "manifest": {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "homepage": [
+        {
+          "id": "https://www.getty.edu/art/collection/object/108J41",
+          "type": "Text"
+        }
+      ],
+      "id": "https://media.getty.edu/iiif/manifest/8a820398-754d-4a0f-a0b4-90e36ed64697",
+      "items": [
+        {
+          "height": 2992,
+          "id": "https://media.getty.edu/iiif/manifest/canvas/6685ac68-2806-481d-8aaf-d38899a80741",
+          "items": [
+            {
+              "id": "https://media.getty.edu/iiif/manifest/annopage/p0",
+              "items": [
+                {
+                  "body": {
+                    "height": 2992,
+                    "id": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741/full/max/0/default.jpg",
+                    "service": [
+                      {
+                        "id": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741",
+                        "profile": "level1",
+                        "sizes": [
+                          {
+                            "height": 187,
+                            "width": 226
+                          },
+                          {
+                            "height": 374,
+                            "width": 453
+                          },
+                          {
+                            "height": 748,
+                            "width": 906
+                          },
+                          {
+                            "height": 1496,
+                            "width": 1812
+                          }
+                        ],
+                        "type": "ImageService3"
+                      }
+                    ],
+                    "type": "Image",
+                    "width": 3625
+                  },
+                  "id": "https://media.getty.edu/iiif/manifest/anno-6685ac68-2806-481d-8aaf-d38899a80741",
+                  "motivation": "painting",
+                  "target": "https://media.getty.edu/iiif/manifest/canvas/6685ac68-2806-481d-8aaf-d38899a80741",
+                  "type": "Annotation"
+                }
+              ],
+              "type": "AnnotationPage"
+            }
+          ],
+          "label": {
+            "en": [
+              "3/4 side A, main view, post-cons."
+            ]
+          },
+          "metadata": [
+            {
+              "label": {
+                "en": [
+                  "Open Content Quality"
+                ]
+              },
+              "value": {
+                "en": [
+                  "Yes"
+                ]
+              }
+            }
+          ],
+          "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "thumbnail": [
+            {
+              "id": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741/full/!600,495/0/default.jpg",
+              "service": [
+                {
+                  "id": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741",
+                  "profile": "level1",
+                  "type": "ImageService3"
+                }
+              ],
+              "type": "Image"
+            }
+          ],
+          "type": "Canvas",
+          "width": 3625
+        }
+      ],
+      "label": {
+        "en": [
+          "Mounted Teapot"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Artist/Maker"
+            ]
+          },
+          "value": {
+            "en": [
+              "Unknown"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Title"
+            ]
+          },
+          "value": {
+            "en": [
+              "Mounted Teapot"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Material"
+            ]
+          },
+          "value": {
+            "en": [
+              "Hard-paste porcelain, blue ground color, and traces of gilding; silver mounts"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Dimensions"
+            ]
+          },
+          "value": {
+            "en": [
+              "Object: 14.8  20.2  11.8 cm (5 13/16  7 15/16  4 5/8 in.)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Accession Number"
+            ]
+          },
+          "value": {
+            "en": [
+              "2001.76"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Collection"
+            ]
+          },
+          "value": {
+            "en": [
+              "<a href=\"http://www.getty.edu/art/collection/\">The J. Paul Getty Museum</a>"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Rights Statement"
+            ]
+          },
+          "value": {
+            "en": [
+              "<p>Images provided here are believed to be in the public domain and     are available under <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0</a>     through Getty&rsquo;s <a href=\"http://www.getty.edu/about/opencontent.html\">Open Content Program</a>.     Texts provided here are &copy; J. Paul Getty Trust, licensed under     <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">CC BY 4.0</a>.     Terms of use for the Getty logo can be found     <a href=\"http://www.getty.edu/legal/copyright.html#logo\"> here</a>.    </p>"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date Modified"
+            ]
+          },
+          "value": {
+            "en": [
+              "2026-10-06T09:05:08.367630Z"
+            ]
+          }
+        }
+      ],
+      "provider": [
+        {
+          "id": "https://www.getty.edu/about/",
+          "label": {
+            "en": [
+              "J. Paul Getty Trust"
+            ]
+          },
+          "logo": [
+            {
+              "format": "image/png",
+              "height": 529,
+              "id": "https://www.getty.edu/global/images/getty_logo_primary_blk.png",
+              "type": "Image",
+              "width": 486
+            }
+          ],
+          "type": "Agent"
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "attribution"
+          ]
+        },
+        "value": {
+          "en": [
+            "<p>Images provided here are believed to be in the public domain and     are available under <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0</a>     through Getty&rsquo;s <a href=\"http://www.getty.edu/about/opencontent.html\">Open Content Program</a>.     Texts provided here are &copy; J. Paul Getty Trust, licensed under     <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">CC BY 4.0</a>.     Terms of use for the Getty logo can be found     <a href=\"http://www.getty.edu/legal/copyright.html#logo\"> here</a>.    </p>"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "seeAlso": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/6d715ea4-9751-45f5-a960-6b949b3cfb3f",
+          "type": "Text"
+        }
+      ],
+      "structures": [
+        {
+          "id": "https://media.getty.edu/iiif//manifest/range/8a820398-754d-4a0f-a0b4-90e36ed64697/default.json",
+          "items": [
+            {
+              "id": "https://media.getty.edu/iiif/manifest/canvas/6685ac68-2806-481d-8aaf-d38899a80741",
+              "type": "Canvas"
+            }
+          ],
+          "type": "Range"
+        }
+      ],
+      "summary": {
+        "en": [
+          "<p>This unique and rare mounted teapot, made of precious materials, reflects the value of tea in Europe during the 1700s. It also reveals the European passion for Chinese porcelain, which was prized by discerning collectors who displayed their imported objects in porcelain cabinets. After being imported from China, porcelain objects were often decorated with gold, silver, or gilt bronze mounts to enhance their value and rarity. The silver mounts on this teapot are particularly noteworthy because of their unusual engraved and pierced motifs, and the prominent placement of the hinges. Also, the original porcelain handle was broken and replaced by one that cleverly incorporates a tea leaf into the design. The vessel''s striking dappled blue hue resulted from the rediscovery of a color known as powder blue, first invented in the 1400s. To achieve the rich, mottled effect, cobalt pigment was repeatedly blown through a bamboo tube covered at one end by gauze. The intense blue of the ground color combined with the beauty of the engraved and pierced mounts make this a singular object of extraordinary refinement.</p>"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741/full/!600,495/0/default.jpg",
+          "service": [
+            {
+              "id": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741",
+              "profile": "level1",
+              "type": "ImageService3"
+            }
+          ],
+          "type": "Image"
+        }
+      ],
+      "type": "Manifest"
+    },
+    "imagePath": "../expansion-6000-20261006/getty-mounted.jpg",
+    "getty": true
+  },
+  "imageSource": "https://media.getty.edu/iiif/image/6685ac68-2806-481d-8aaf-d38899a80741/full/max/0/default.jpg",
+  "retrievedAt": "2026-10-06T17:07:58.850Z",
+  "rawMetadataSha256": "d39e8d820ca926d24ec0da94350cc11576da96471f05f4e86fbc994c7f888a3c",
+  "inputPath": "output/20261006-dma-getty/originals/getty-6d715ea4.jpg",
+  "sourceSha256": "d71718eed829f2a428c6e19cc4646e35fffa64cb6af33936301a8a1964adc5ce",
+  "rawSha256": "d2b17138e804ac7114f2f50bc09833b44bd3e89d9395c5c9cd6e1a27376ff471",
+  "width": 3625,
+  "height": 2992
+}

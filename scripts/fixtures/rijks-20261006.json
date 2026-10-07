@@ -1,0 +1,1651 @@
+{
+  "artwork": {
+    "id": "rks-20083101",
+    "titleChinese": "茶壶",
+    "titleEnglish": "Theepot",
+    "titleOriginal": "Theepot",
+    "dynasty": "未详",
+    "dynastyEnglish": "Unspecified",
+    "date": "1809 - 1814",
+    "period": "Nieuwer-Amstel",
+    "material": "瓷",
+    "materialEnglish": "porcelain",
+    "objectType": "茶壶",
+    "objectTypeEnglish": "Teapot",
+    "dimensions": "height 15.9; depth 9.5; diameter 7.7; width 21",
+    "description": "茶壶。馆方原名：Theepot。制作年代：1809 - 1814。",
+    "sourceMuseum": "荷兰国立博物馆",
+    "sourceMuseumEnglish": "Rijksmuseum",
+    "accessionNumber": "BK-1965-93-A",
+    "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1965-93-A--d04c843cf22dca4d0b35c46f19b8e663",
+    "imageUrl": "/artworks/rks-20083101.jpg",
+    "imageAlt": "Theepot",
+    "license": "Public Domain (Rijksmuseum Open Access; selected-image rights: https://creativecommons.org/publicdomain/mark/1.0/)",
+    "creditLine": "Rijksmuseum, BK-1965-93-A. https://creativecommons.org/publicdomain/mark/1.0/. Background removed and cropped by Teaware.",
+    "crawlBatchId": "reviewed-teaware-6000-2026-10-06"
+  },
+  "raw": {
+    "id": "rks-20083101",
+    "title": "Theepot",
+    "material": "porcelain",
+    "accession": "BK-1965-93-A",
+    "sourceUrl": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1965-93-A--d04c843cf22dca4d0b35c46f19b8e663",
+    "object": {
+      "@context": "https://linked.art/ns/v1/linked-art.json",
+      "id": "https://id.rijksmuseum.nl/20083101",
+      "type": "HumanMadeObject",
+      "produced_by": {
+        "type": "Production",
+        "technique": [
+          {
+            "id": "https://id.rijksmuseum.nl/2206730",
+            "type": "Type",
+            "identified_by": [
+              {
+                "type": "Identifier",
+                "assigned_by": [
+                  {
+                    "type": "AttributeAssignment",
+                    "assigned": [
+                      "https://id.rijksmuseum.nl/20083101"
+                    ],
+                    "assigned_property": "influenced_by"
+                  }
+                ],
+                "content": "1",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300456575",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "painting technique"
+              },
+              {
+                "@language": "nl",
+                "@value": "schildertechniek"
+              }
+            ],
+            "equivalent": [
+              {
+                "id": "http://vocab.getty.edu/aat/300053343",
+                "type": "Type"
+              }
+            ]
+          }
+        ],
+        "timespan": {
+          "type": "TimeSpan",
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "1809 - 1814",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388277",
+                  "type": "Language"
+                }
+              ]
+            },
+            {
+              "type": "Name",
+              "content": "1809 - 1814",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388256",
+                  "type": "Language"
+                }
+              ]
+            }
+          ],
+          "begin_of_the_begin": "1809-01-01T00:00:00Z",
+          "end_of_the_end": "1814-12-31T23:59:59Z"
+        },
+        "referred_to_by": [
+          {
+            "type": "LinguisticObject",
+            "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435416",
+                "type": "Type"
+              }
+            ],
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435416",
+                "type": "Type"
+              }
+            ],
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          }
+        ],
+        "part": [
+          {
+            "type": "Production",
+            "carried_out_by": [
+              {
+                "id": "https://id.rijksmuseum.nl/21067041",
+                "type": "Group",
+                "notation": {
+                  "@language": "nl",
+                  "@value": "Koninklijke Porseleinfabriek Dommer & Co."
+                }
+              }
+            ],
+            "identified_by": [
+              {
+                "type": "Identifier",
+                "content": "1",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300456575",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404450",
+                "type": "Type"
+              }
+            ],
+            "technique": [
+              {
+                "id": "https://id.rijksmuseum.nl/2205267",
+                "type": "Type",
+                "notation": [
+                  {
+                    "@language": "nl",
+                    "@value": "porseleinfabriek"
+                  },
+                  {
+                    "@language": "en",
+                    "@value": "porcelain company"
+                  }
+                ],
+                "equivalent": [
+                  {
+                    "id": "http://www.wikidata.org/entity/Q124385627",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "referred_to_by": [
+              {
+                "type": "LinguisticObject",
+                "content": "porcelain company: Koninklijke Porseleinfabriek Dommer & Co., Nieuwer-Amstel",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300435416",
+                    "type": "Type"
+                  }
+                ],
+                "language": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300388277",
+                    "type": "Language"
+                  }
+                ]
+              },
+              {
+                "type": "LinguisticObject",
+                "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300435417",
+                    "type": "Type"
+                  }
+                ],
+                "language": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300388256",
+                    "type": "Language"
+                  }
+                ]
+              },
+              {
+                "type": "LinguisticObject",
+                "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300435417",
+                    "type": "Type"
+                  }
+                ],
+                "language": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300388277",
+                    "type": "Language"
+                  }
+                ]
+              },
+              {
+                "type": "LinguisticObject",
+                "content": "porseleinfabriek: Koninklijke Porseleinfabriek Dommer & Co., Nieuwer-Amstel",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300435416",
+                    "type": "Type"
+                  }
+                ],
+                "language": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300388256",
+                    "type": "Language"
+                  }
+                ]
+              }
+            ],
+            "took_place_at": [
+              {
+                "id": "https://id.rijksmuseum.nl/2302261",
+                "type": "Place",
+                "notation": {
+                  "@language": "nl",
+                  "@value": "Nieuwer-Amstel"
+                },
+                "equivalent": [
+                  {
+                    "id": "http://www.wikidata.org/entity/Q2226170",
+                    "type": "Place"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "subject_of": [
+        {
+          "type": "LinguisticObject",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ],
+          "digitally_carried_by": [
+            {
+              "type": "DigitalObject",
+              "format": "text/html",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300264578",
+                  "type": "Type"
+                }
+              ],
+              "access_point": [
+                {
+                  "id": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1965-93-A--d04c843cf22dca4d0b35c46f19b8e663",
+                  "type": "DigitalObject"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://data.rijksmuseum.nl/20083101",
+          "type": "LinguisticObject",
+          "subject_to": [
+            {
+              "type": "Right",
+              "classified_as": [
+                {
+                  "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300379475",
+              "type": "Type"
+            }
+          ]
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "assigned_by": [
+            {
+              "type": "AttributeAssignment",
+              "assigned": [
+                {
+                  "id": "https://id.rijksmuseum.nl/200143928",
+                  "type": "HumanMadeObject"
+                }
+              ],
+              "assigned_property": "influenced_by"
+            }
+          ],
+          "content": "3",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "Theepot",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "content": "1",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300417200",
+              "type": "Type"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300404670",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        },
+        {
+          "type": "Identifier",
+          "content": "BK-1965-93-A",
+          "classified_as": [
+            {
+              "id": "https://id.rijksmuseum.nl/22015218",
+              "type": "Type",
+              "notation": [
+                {
+                  "@language": "nl",
+                  "@value": "objectnummer"
+                },
+                {
+                  "@language": "en",
+                  "@value": "object number"
+                }
+              ]
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300312355",
+              "type": "Type"
+            }
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://id.rijksmuseum.nl/220176",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ],
+          "notation": [
+            {
+              "@language": "nl",
+              "@value": "theepot"
+            },
+            {
+              "@language": "en",
+              "@value": "teapot"
+            }
+          ],
+          "equivalent": [
+            {
+              "id": "http://vocab.getty.edu/aat/300043022",
+              "type": "Type"
+            }
+          ]
+        }
+      ],
+      "dimension": [
+        {
+          "type": "Dimension",
+          "classified_as": [
+            {
+              "id": "https://id.rijksmuseum.nl/22011",
+              "type": "Type",
+              "notation": [
+                {
+                  "@language": "en",
+                  "@value": "height"
+                },
+                {
+                  "@language": "nl",
+                  "@value": "hoogte"
+                }
+              ],
+              "equivalent": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300055644",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "value": "15.9",
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300379098",
+            "type": "MeasurementUnit"
+          }
+        },
+        {
+          "type": "Dimension",
+          "classified_as": [
+            {
+              "id": "https://id.rijksmuseum.nl/2203",
+              "type": "Type",
+              "notation": [
+                {
+                  "@language": "nl",
+                  "@value": "diepte"
+                },
+                {
+                  "@language": "en",
+                  "@value": "depth"
+                }
+              ],
+              "equivalent": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300072633",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "value": "9.5",
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300379098",
+            "type": "MeasurementUnit"
+          }
+        },
+        {
+          "type": "Dimension",
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "grondvlal",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388256",
+                  "type": "Language"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "https://id.rijksmuseum.nl/2205120",
+              "type": "Type",
+              "notation": [
+                {
+                  "@language": "nl",
+                  "@value": "diameter"
+                },
+                {
+                  "@language": "en",
+                  "@value": "diameter"
+                }
+              ],
+              "equivalent": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300055624",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "value": "7.7",
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300379098",
+            "type": "MeasurementUnit"
+          }
+        },
+        {
+          "type": "Dimension",
+          "classified_as": [
+            {
+              "id": "https://id.rijksmuseum.nl/22012",
+              "type": "Type",
+              "notation": [
+                {
+                  "@language": "nl",
+                  "@value": "breedte"
+                },
+                {
+                  "@language": "en",
+                  "@value": "width"
+                }
+              ],
+              "equivalent": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300055647",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "value": "21",
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300379098",
+            "type": "MeasurementUnit"
+          }
+        }
+      ],
+      "made_of": [
+        {
+          "id": "https://id.rijksmuseum.nl/22051",
+          "type": "Material",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "assigned_by": [
+                {
+                  "type": "AttributeAssignment",
+                  "assigned": [
+                    "https://id.rijksmuseum.nl/20083101"
+                  ],
+                  "assigned_property": "influenced_by"
+                }
+              ],
+              "content": "1",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "notation": [
+            {
+              "@language": "en",
+              "@value": "porcelain"
+            },
+            {
+              "@language": "nl",
+              "@value": "porselein"
+            }
+          ],
+          "equivalent": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010662",
+              "type": "Material"
+            },
+            {
+              "id": "http://www.wikidata.org/entity/Q130693",
+              "type": "Material"
+            }
+          ]
+        }
+      ],
+      "part_of": [
+        {
+          "id": "https://id.rijksmuseum.nl/200143928",
+          "type": "HumanMadeObject"
+        }
+      ],
+      "shows": [
+        {
+          "id": "https://id.rijksmuseum.nl/20283101",
+          "type": "VisualItem"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "content": "diameter 7.7 cm",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "content": "2",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435430",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language"
+            }
+          ]
+        },
+        {
+          "type": "LinguisticObject",
+          "content": "hoogte 15,9 cm x breedte 21 cm x diepte 9,5 cm",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "content": "1",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435430",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        },
+        {
+          "type": "LinguisticObject",
+          "content": "grondvlal: diameter 7,7 cm",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "content": "2",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435430",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        },
+        {
+          "type": "LinguisticObject",
+          "content": "height 15.9 cm x width 21 cm x depth 9.5 cm",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "content": "1",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435430",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language"
+            }
+          ]
+        },
+        {
+          "type": "LinguisticObject",
+          "content": "Theepot in Empirestijl versierd met slingerblad en gouden biezen langs de randen. De theepot heeft een hoge buik en hol gewelfde voet.",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435452",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300404670",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        }
+      ],
+      "equivalent": [
+        {
+          "id": "http://hdl.handle.net/10934/RM0001.COLLECT.628815",
+          "type": "HumanMadeObject"
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://id.rijksmuseum.nl/260251",
+          "type": "Set"
+        },
+        {
+          "id": "https://id.rijksmuseum.nl/260239",
+          "type": "Set"
+        },
+        {
+          "id": "https://id.rijksmuseum.nl/26142",
+          "type": "Set"
+        },
+        {
+          "id": "https://id.rijksmuseum.nl/261231",
+          "type": "Set"
+        },
+        {
+          "id": "https://id.rijksmuseum.nl/260238",
+          "type": "Set"
+        }
+      ]
+    },
+    "parents": [
+      {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://id.rijksmuseum.nl/200143928",
+        "type": "HumanMadeObject",
+        "produced_by": {
+          "type": "Production",
+          "technique": [
+            {
+              "id": "https://id.rijksmuseum.nl/2206730",
+              "type": "Type",
+              "identified_by": [
+                {
+                  "type": "Identifier",
+                  "assigned_by": [
+                    {
+                      "type": "AttributeAssignment",
+                      "assigned": [
+                        "https://id.rijksmuseum.nl/200143928"
+                      ],
+                      "assigned_property": "influenced_by"
+                    }
+                  ],
+                  "content": "1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300456575",
+                      "type": "Type"
+                    }
+                  ]
+                }
+              ],
+              "notation": [
+                {
+                  "@language": "nl",
+                  "@value": "schildertechniek"
+                },
+                {
+                  "@language": "en",
+                  "@value": "painting technique"
+                }
+              ],
+              "equivalent": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300053343",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "timespan": {
+            "type": "TimeSpan",
+            "identified_by": [
+              {
+                "type": "Name",
+                "content": "1809 - 1814",
+                "language": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300388277",
+                    "type": "Language"
+                  }
+                ]
+              },
+              {
+                "type": "Name",
+                "content": "1809 - 1814",
+                "language": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300388256",
+                    "type": "Language"
+                  }
+                ]
+              }
+            ],
+            "begin_of_the_begin": "1809-01-01T00:00:00Z",
+            "end_of_the_end": "1814-12-31T23:59:59Z"
+          },
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435416",
+                  "type": "Type"
+                }
+              ],
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388256",
+                  "type": "Language"
+                }
+              ]
+            },
+            {
+              "type": "LinguisticObject",
+              "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435416",
+                  "type": "Type"
+                }
+              ],
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388277",
+                  "type": "Language"
+                }
+              ]
+            }
+          ],
+          "part": [
+            {
+              "type": "Production",
+              "carried_out_by": [
+                {
+                  "id": "https://id.rijksmuseum.nl/21067041",
+                  "type": "Group",
+                  "notation": {
+                    "@language": "nl",
+                    "@value": "Koninklijke Porseleinfabriek Dommer & Co."
+                  }
+                }
+              ],
+              "identified_by": [
+                {
+                  "type": "Identifier",
+                  "content": "1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300456575",
+                      "type": "Type"
+                    }
+                  ]
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404450",
+                  "type": "Type"
+                }
+              ],
+              "technique": [
+                {
+                  "id": "https://id.rijksmuseum.nl/2205267",
+                  "type": "Type",
+                  "notation": [
+                    {
+                      "@language": "en",
+                      "@value": "porcelain company"
+                    },
+                    {
+                      "@language": "nl",
+                      "@value": "porseleinfabriek"
+                    }
+                  ],
+                  "equivalent": [
+                    {
+                      "id": "http://www.wikidata.org/entity/Q124385627",
+                      "type": "Type"
+                    }
+                  ]
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "content": "porseleinfabriek: Koninklijke Porseleinfabriek Dommer & Co., Nieuwer-Amstel",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300435416",
+                      "type": "Type"
+                    }
+                  ],
+                  "language": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300388256",
+                      "type": "Language"
+                    }
+                  ]
+                },
+                {
+                  "type": "LinguisticObject",
+                  "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300435417",
+                      "type": "Type"
+                    }
+                  ],
+                  "language": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300388256",
+                      "type": "Language"
+                    }
+                  ]
+                },
+                {
+                  "type": "LinguisticObject",
+                  "content": "porcelain company: Koninklijke Porseleinfabriek Dommer & Co., Nieuwer-Amstel",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300435416",
+                      "type": "Type"
+                    }
+                  ],
+                  "language": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300388277",
+                      "type": "Language"
+                    }
+                  ]
+                },
+                {
+                  "type": "LinguisticObject",
+                  "content": "Koninklijke Porseleinfabriek Dommer & Co.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300435417",
+                      "type": "Type"
+                    }
+                  ],
+                  "language": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300388277",
+                      "type": "Language"
+                    }
+                  ]
+                }
+              ],
+              "took_place_at": [
+                {
+                  "id": "https://id.rijksmuseum.nl/2302261",
+                  "type": "Place",
+                  "notation": {
+                    "@language": "nl",
+                    "@value": "Nieuwer-Amstel"
+                  },
+                  "equivalent": [
+                    {
+                      "id": "http://www.wikidata.org/entity/Q2226170",
+                      "type": "Place"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "subject_of": [
+          {
+            "type": "LinguisticObject",
+            "part": [
+              {
+                "type": "LinguisticObject",
+                "content": "Delen van een theeservies. Porselein. Nieuwer-Amstel, ca. 1809 - 1814. Fabriek van Nicolaas Gerard Dommer.",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300048722",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300417268",
+                "type": "Type"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "brief text"
+                  }
+                ]
+              }
+            ],
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ],
+            "digitally_carried_by": [
+              {
+                "type": "DigitalObject",
+                "format": "text/html",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300264578",
+                    "type": "Type"
+                  }
+                ],
+                "access_point": [
+                  {
+                    "id": "https://www.rijksmuseum.nl/nl/collectie/object/BK-1965-93--a40cf0db021cdf4ff420677127de9732",
+                    "type": "DigitalObject"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "https://data.rijksmuseum.nl/200143928",
+            "type": "LinguisticObject",
+            "subject_to": [
+              {
+                "type": "Right",
+                "classified_as": [
+                  {
+                    "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300379475",
+                "type": "Type"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "part": [
+              {
+                "type": "LinguisticObject",
+                "content": "Parts of a tea service. Porcelain. Nieuwer-Amstel, c. 1809 - 1814. Factory of Nicolaas Gerard Dommer.",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300048722",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300417268",
+                "type": "Type"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "brief text"
+                  }
+                ]
+              }
+            ],
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "content": "BK-1965-93",
+            "classified_as": [
+              {
+                "id": "https://id.rijksmuseum.nl/22015218",
+                "type": "Type",
+                "notation": [
+                  {
+                    "@language": "nl",
+                    "@value": "objectnummer"
+                  },
+                  {
+                    "@language": "en",
+                    "@value": "object number"
+                  }
+                ]
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Theeservies",
+            "identified_by": [
+              {
+                "type": "Identifier",
+                "content": "1",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300456575",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "brief text"
+                  }
+                ]
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300417200",
+                "type": "Type"
+              }
+            ],
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/220162",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435443",
+                "type": "Type",
+                "_label": "Type of Work"
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "tea service"
+              },
+              {
+                "@language": "nl",
+                "@value": "theeservies"
+              }
+            ],
+            "equivalent": [
+              {
+                "id": "http://vocab.getty.edu/aat/300227686",
+                "type": "Type"
+              }
+            ]
+          },
+          {
+            "id": "https://id.rijksmuseum.nl/2203763",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435443",
+                "type": "Type",
+                "_label": "Type of Work"
+              }
+            ],
+            "notation": {
+              "@language": "nl",
+              "@value": "vaatwerk"
+            }
+          }
+        ],
+        "made_of": [
+          {
+            "id": "https://id.rijksmuseum.nl/22051",
+            "type": "Material",
+            "identified_by": [
+              {
+                "type": "Identifier",
+                "assigned_by": [
+                  {
+                    "type": "AttributeAssignment",
+                    "assigned": [
+                      "https://id.rijksmuseum.nl/200143928"
+                    ],
+                    "assigned_property": "influenced_by"
+                  }
+                ],
+                "content": "1",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300456575",
+                    "type": "Type"
+                  }
+                ]
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "porcelain"
+              },
+              {
+                "@language": "nl",
+                "@value": "porselein"
+              }
+            ],
+            "equivalent": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010662",
+                "type": "Material"
+              },
+              {
+                "id": "http://www.wikidata.org/entity/Q130693",
+                "type": "Material"
+              }
+            ]
+          }
+        ],
+        "shows": [
+          {
+            "id": "https://id.rijksmuseum.nl/202143928",
+            "type": "VisualItem"
+          }
+        ],
+        "referred_to_by": [
+          {
+            "type": "LinguisticObject",
+            "content": "Theeservies bestaande uit een theepot, een melkkan, een suikerpot en spoelkom versierd met gouden biezen, strooiblaadjes en een golvende twijg rond de hals of rand. Gemerkt: theepot, melkkan en spoelkom: Amstel in zwart. Suikerpot: Amstel No.999 in zwart en ingegrift A. Spoelkom ingegrift: letter R (ook in melkkan) en 6 of 9.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435452",
+                "type": "Type",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "brief text"
+                  }
+                ]
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "brief text"
+                  }
+                ]
+              }
+            ],
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          }
+        ],
+        "equivalent": [
+          {
+            "id": "http://hdl.handle.net/10934/RM0001.COLLECT.59961",
+            "type": "HumanMadeObject"
+          }
+        ],
+        "member_of": [
+          {
+            "id": "https://id.rijksmuseum.nl/260238",
+            "type": "Set"
+          },
+          {
+            "id": "https://id.rijksmuseum.nl/260251",
+            "type": "Set"
+          },
+          {
+            "id": "https://id.rijksmuseum.nl/260239",
+            "type": "Set"
+          },
+          {
+            "id": "https://id.rijksmuseum.nl/26142",
+            "type": "Set"
+          },
+          {
+            "id": "https://id.rijksmuseum.nl/261231",
+            "type": "Set"
+          }
+        ]
+      }
+    ],
+    "visual": {
+      "@context": "https://linked.art/ns/v1/linked-art.json",
+      "id": "https://id.rijksmuseum.nl/20283101",
+      "type": "VisualItem",
+      "subject_to": [
+        {
+          "type": "Right",
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "Public Domain",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388277",
+                  "type": "Language",
+                  "_label": "English"
+                }
+              ]
+            },
+            {
+              "type": "Name",
+              "content": "Publieke domein",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388256",
+                  "type": "Language",
+                  "_label": "Dutch"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+              "type": "Type",
+              "_label": "Public Domain"
+            }
+          ]
+        }
+      ],
+      "subject_of": [
+        {
+          "id": "https://data.rijksmuseum.nl/20283101",
+          "type": "LinguisticObject",
+          "subject_to": [
+            {
+              "type": "Right",
+              "classified_as": [
+                {
+                  "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "type": "Type"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300379475",
+              "type": "Type"
+            }
+          ]
+        }
+      ],
+      "shown_by": [
+        {
+          "id": "https://id.rijksmuseum.nl/20083101",
+          "type": "HumanMadeObject",
+          "equivalent": [
+            {
+              "id": "http://hdl.handle.net/10934/RM0001.COLLECT.628815",
+              "type": "HumanMadeObject"
+            }
+          ]
+        }
+      ],
+      "digitally_shown_by": [
+        {
+          "id": "https://id.rijksmuseum.nl/500118748280113114110120",
+          "type": "DigitalObject"
+        }
+      ]
+    },
+    "digital": {
+      "@context": "https://linked.art/ns/v1/linked-art.json",
+      "id": "https://id.rijksmuseum.nl/500118748280113114110120",
+      "type": "DigitalObject",
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "content": "downloadbaar",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435434",
+              "type": "Type"
+            }
+          ]
+        },
+        {
+          "type": "LinguisticObject",
+          "content": "zichtbaar",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435434",
+              "type": "Type"
+            }
+          ]
+        }
+      ],
+      "access_point": [
+        {
+          "id": "https://iiif.micr.io/MEaus/full/max/0/default.jpg",
+          "type": "DigitalObject"
+        }
+      ],
+      "digitally_shows": [
+        {
+          "id": "https://id.rijksmuseum.nl/20283101",
+          "type": "VisualItem"
+        }
+      ]
+    },
+    "rights": [
+      "https://creativecommons.org/publicdomain/mark/1.0/"
+    ],
+    "info": {
+      "@context": "http://iiif.io/api/image/3/context.json",
+      "id": "https://iiif.micr.io/MEaus",
+      "type": "ImageService3",
+      "protocol": "http://iiif.io/api/image",
+      "profile": "level2",
+      "qualities": [
+        "default",
+        "gray",
+        "color"
+      ],
+      "formats": [
+        "jpg",
+        "png",
+        "webp"
+      ],
+      "tiles": [
+        {
+          "scaleFactors": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "created": 1650737145672,
+      "width": 5732,
+      "height": 6256,
+      "title": "BK-1965-93-A-Original-Cropped.jpg",
+      "tileSize": 1024,
+      "version": "4.0",
+      "viewsWH": false,
+      "organisation": {
+        "name": "Rijksmuseum",
+        "slug": "rijksmuseum",
+        "href": "https://www.rijksmuseum.nl",
+        "logo": {
+          "src": "https://micrio.rijksmuseum.nl/organisations/c334286f-827e-969a-50a6-ef35d584b998.jpg"
+        },
+        "baseUrl": "https://micrio.rijksmuseum.nl/"
+      },
+      "tileBasePath": "https://micrio.rijksmuseum.nl/",
+      "maxArea": 17550000,
+      "extraFeatures": [
+        "baseUriRedirect",
+        "cors",
+        "jsonldMediaType",
+        "regionByPct",
+        "regionByPx",
+        "regionSquare",
+        "rotationBy90s",
+        "sizeByConfinedWh",
+        "sizeByH",
+        "sizeByPct",
+        "sizeByW",
+        "sizeByWh",
+        "sizeUpscaling"
+      ]
+    },
+    "imageSource": "https://iiif.micr.io/MEaus/full/!1600,1600/0/default.jpg",
+    "imagePath": "/Users/apple/Documents/Codex/2026-10-04/task/expansion-6000-20261006/rijks/images/rks-20083101.jpg",
+    "imageSha256": "38a3cb4ab8f72a4c8ca67dc291d2b0256c454854ae6c06d208ee95b74435c1cb",
+    "status": "downloaded",
+    "metadataPolicy": {
+      "url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
+      "quote": "does not claim copyright on associated metadata to these collection objects."
+    }
+  },
+  "imageSource": "https://iiif.micr.io/MEaus/full/!1600,1600/0/default.jpg",
+  "retrievedAt": "2026-10-06T17:17:46.725Z",
+  "rawMetadataSha256": "0192eba3627e7ec52d2307f849b727aab24fd191b1a08aa39155f6a86630e453",
+  "inputPath": "output/20261006-rijks/originals/rks-20083101.jpg",
+  "sourceSha256": "e76fbe8af68bac590e9cdb4efdf289003eaf331b189f9e1bf6f2a64be73f424a",
+  "rawSha256": "38a3cb4ab8f72a4c8ca67dc291d2b0256c454854ae6c06d208ee95b74435c1cb",
+  "width": 1466,
+  "height": 1600
+}

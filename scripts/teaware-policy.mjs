@@ -1,3 +1,4 @@
+import {cmaReviewedNativeQuote} from './cma-native-use-evidence.mjs';
 // Museum/source names carry admission evidence. Generated Chinese labels and
 // fallback objectTypeEnglish values never establish that an object is tea ware.
 export const POLICY_VERSION = 'tea-only-2026-10-03';
@@ -26,7 +27,7 @@ const vesselMaterial = /\b(?:porcelain|stoneware|earthenware|ceramic|silver|bron
 const flatMedium = /\b(?:prints?|paintings?|drawing|photograph|woodcut|woodblock|woodburytype|albumen|ink|watercolou?r|gouache|lithograph|etching|canvas|photogravure)\b/i;
 const textileNames = /\b(?:robe|textile|fabric|cloth|stole|coat|shawl|tapestry|rug|garment|kimono|costume|embroidery|embroidered|dress|silk panel)\b/i;
 const textileMaterial = /\b(?:silk|cotton|wool|linen|textile|velvet|satin|brocade)\b/i;
-const teaNames = /\b(?:tea[ -]?(?:pots?|bowls?|cups?|cadd(?:y|ies)|sets?|services?|containers?|canisters?|jars?|chests?|boxes?|utensils?|wares?|kettles?|trays?|scoops?|spoons?|urns?|infusers?|whisks?|strainers?|holders?|storage jars?|ceremony water jars?)|tea[- ]leaf storage jars?|tea and coffee (?:service|set)|chawan|chaire|mizusashi|chashaku|chasen|natsume|yunomi|kyusu|kyuusu|hōhin|hohin|theepot|theekom|theekop(?:je)?|theeservies|(?:stof)?theebus|teekanne|teeschale|teetasse|teekännchen|teekessel|teedose|teebüchse|teelöffel|teesieb|théière|bol à thé|theelepel|theezeef|theeblad|teiera|tekanna|teekannu|teepannu|teekuppi|tekopp|teekulho|teerasia|teepurkki|teburk|teesiivilä|teelusikka)\b|茶碗|茶盌|茶埦|茶器|茶入|茶壺|茶壶|茶杯|茶盏|茶盞|茶盃|茶鍾|茶鐘|茶棗|茶葉罐|茶道具|水指|急須|湯呑|茶筅|茶杓|다완|찻잔|찻주전자|차주전자|찻통|차호|다호|차통|다관|찻숟가락/i;
+const teaNames = /\b(?:tea[ -]?(?:pots?|bowls?|cups?|cadd(?:y|ies)|sets?|services?|containers?|canisters?|jars?|chests?|box(?:es)?|bins?|utensils?|wares?|kettles?|trays?|scoops?|spoons?|urns?|infusers?|whisks?|strainers?|holders?|storage jars?|ceremony water jars?)|tea[- ]leaf storage jars?|tea[ -]extract pots?|tea and coffee (?:service|set)|chawan|chaire|mizusashi|chashaku|chasen|natsume|yunomi|kyusu|kyuusu|hōhin|hohin|theepot|theekom|theekop(?:je)?|theeservies|(?:stof)?theebus|teekanne|teeschale|teetasse|teekännchen|teekessel|teedose|teebüchse|teelöffel|teesieb|théière|bol à thé|theelepel|theezeef|theeblad|teiera|tekanna|teekannu|teepannu|teekuppi|tekopp|teekulho|teerasia|teepurkki|teburk|teesiivilä|teelusikka)\b|茶碗|茶盌|茶埦|茶器|茶入|茶壺|茶壶|茶杯|茶盏|茶盞|茶盃|茶鍾|茶鐘|茶棗|茶葉罐|茶道具|水指|急須|湯呑|茶筅|茶杓|다완|찻잔|찻주전자|차주전자|찻통|차호|다호|차통|다관|찻숟가락/i;
 // Unicode boundaries retain Finnish ä and Korean source object names.
 const nativeTeaNames = /(?<![\p{L}])(?:theburk|teskei|tekoppsfat|samowar|samovar|tebakke|tebeholder|tekasse|thedåse|thekop|thekedel|temugg|teboks|te-boks|tekande|tekop|tekedel|tepotte|thekande|thepotte|te[- ]?dåse|te[- ]?si|teske|teekeitin|teevati|teesiivilä|teekuppipari|teskål|tedosa|tesil|tesked|tesilssked|tekrus|teurne|tekjele|tekittel|teebrett|tebrett|teeskål|teefat|teeske|tefat|tekanne|teskje|다완|찻잔|차주전자|다관|찻숟가락|차솥)(?![\p{L}])/iu;
 const nonTeaNames = /\b(?:epitaph|tomb|burial|funerary|snuff|tobacco|wine|libation|ritual|sacrificial|food vessel|grain serving|brush[- ]?(?:pot|washer|rest)|water dropper|inkstone|cosmetic|pillow|jardini[eè]re|flower ?pot|candlestick|candle ?holder|lamp|statue|figurine|sculpture|pendant|bracelet|ornament|necklace|earring|belt|weapon|sword|arrowhead|tile|roof|brick|seal paste|soup|tureen|sauce boat|mustard|punch bowl|finger bowl|custard|chocolate pot|chest with print)\b/i;
@@ -52,7 +53,8 @@ export function sourceEvidence(artwork) {
 }
 
 export function classifyTeaware(artwork, reviewed = {}) {
-  const evidence = sourceEvidence(artwork);
+  const nativeQuote=cmaReviewedNativeQuote(artwork,reviewed[artwork.id]);
+  const evidence = [sourceEvidence(artwork),nativeQuote].filter(Boolean).join(" | ");
   if (nonObjectImages.has(artwork.id)) return { decision: 'reject', reason: nonObjectImages.get(artwork.id), evidence: 'Visual review: unsuitable primary collection image. ' + evidence };
   if (publicationImages.has(artwork.id)) return { decision: 'reject', reason: 'publication-page-image', evidence: 'Visual source-image review: printed book/catalogue page. ' + evidence };
   const names = [artwork.titleEnglish, artwork.titleOriginal, artwork.materialEnglish, artwork.objectTypeEnglish].join(' ');

@@ -946,5 +946,54 @@
     "sourceQuote": "宋人嗜茶，臨安城內茶肆中賣茶所用茶具「止用瓷盞漆托供賣」，不用銀器（吳自牧，《夢梁錄》）",
     "descriptionSha256": "be20293cca49b705b3165842b5bc67bc7e4cba695714a28c3ef7ae22e4140531",
     "reviewedAt": "2026-10-04"
+  },
+  "cma-142815": {
+    "sourceUrl": "https://clevelandart.org/art/1966.500.2",
+    "sourceField": "did_you_know",
+    "sourceQuote": "This covered hot water pot is part of a larger tea set.",
+    "descriptionSha256": "72868772f5658b710937181f75ee8f42b5e2202a071a6c033c1c0ab4f1d13077",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
+  },
+  "cma-142824": {
+    "sourceUrl": "https://clevelandart.org/art/1966.500.5",
+    "sourceField": "did_you_know",
+    "sourceQuote": "This jam (<em>varenye</em>) basket is part of a larger tea set.",
+    "descriptionSha256": "e8c0e072c5dd65e93c3175046724077330ae3429a5546f2bf894e9c65f2e15c8",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
+  },
+  "cma-142825": {
+    "sourceUrl": "https://clevelandart.org/art/1966.500.6",
+    "sourceField": "did_you_know",
+    "sourceQuote": "This cake basket is part of a larger tea service.",
+    "descriptionSha256": "ac42f290974f007db328957df1e55b7f7bccf1c4750b6b6bc57b99b139aa8005",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
+  },
+  "cma-142826": {
+    "sourceUrl": "https://clevelandart.org/art/1966.500.7",
+    "sourceField": "did_you_know",
+    "sourceQuote": "This creamer is part of a larger tea service.",
+    "descriptionSha256": "1ba8c3c27f394eac928d5683af1c0d22d84646efa658b0dabfb98c92cc32b260",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
+  },
+  "cma-150157": {
+    "sourceUrl": "https://clevelandart.org/art/1980.74.1",
+    "sourceField": "did_you_know",
+    "sourceQuote": "This tray is part of a tea and coffee service designed by Carlo Bugatti.",
+    "descriptionSha256": "39a78ec09a658586c83e8948485d86d2545f921bbb66d9bf398fe373dcb08198",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
+  },
+  "cma-150158": {
+    "sourceUrl": "https://clevelandart.org/art/1980.74.2",
+    "sourceField": "did_you_know",
+    "sourceQuote": "This creamer is part of a tea and coffee service designed by Carlo Bugatti.",
+    "descriptionSha256": "ceeaae83c5858d37f6ec6bd49d972db75005c9fa2ce3494e2d05c36fca77e3c5",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
+  },
+  "cma-98807": {
+    "sourceUrl": "https://clevelandart.org/art/1918.483",
+    "sourceField": "description",
+    "sourceQuote": "including this elegant tea bowl",
+    "descriptionSha256": "e7b3d0c1ec5fcccb6859b977065e58b11ae6a1655a152eb051d281518144bc1f",
+    "evidence": "The museum specifically identifies this registered object as a tea vessel or component of a tea service; no function inferred from its shape."
   }
 }

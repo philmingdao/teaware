@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import{assertBmaOpenContent}from'./bma-open-content-evidence.mjs';
+const fixture=JSON.parse(fs.readFileSync(new URL('./fixtures/bma-open-content-1972.303.json',import.meta.url)));
+test('Object-specific open content accepts the complete advertised source record',()=>assert.doesNotThrow(()=>assertBmaOpenContent(structuredClone(fixture))));
+test('Another image, missing permission, and a restrictive source credit are rejected',()=>{for(const change of [x=>x.imageSource='https://media.artsbma.org/wp-content/uploads/2025/12/10000000/another.jpg',x=>delete x.raw.permissionQuote,x=>x.raw.openContent=false,x=>x.raw.fields=x.raw.fields.map(f=>f.startsWith('* Credit Line ')?f+' © Rights holder':f)]){const x=structuredClone(fixture);change(x);assert.throws(()=>assertBmaOpenContent(x));}});
+test('Full accession and source date cannot be replaced by a generated label',()=>{for(const change of [x=>x.artwork.accessionNumber='1972',x=>x.artwork.date='1700',x=>x.artwork.titleOriginal='Teapot']){const x=structuredClone(fixture);change(x);assert.throws(()=>assertBmaOpenContent(x));}});

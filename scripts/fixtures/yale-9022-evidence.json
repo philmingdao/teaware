@@ -1,0 +1,311 @@
+{
+  "artwork": {
+    "id": "yale-9022",
+    "titleChinese": "茶碗",
+    "titleEnglish": "Tea Bowl with Flowers",
+    "titleOriginal": "Tea Bowl with Flowers",
+    "dynasty": "未详",
+    "dynastyEnglish": "Unspecified",
+    "date": "12th–13th century",
+    "period": "Chinese",
+    "material": "炻器",
+    "materialEnglish": "Stoneware with paper-cut designs and black-and-brown tortoiseshell glaze (Jizhou ware)",
+    "objectType": "茶碗",
+    "objectTypeEnglish": "Tea Bowl",
+    "dimensions": "2 1/4 × 4 1/4 in. (5.7 × 10.8 cm)",
+    "description": "茶碗。馆方原名：Tea Bowl with Flowers。制作年代：12th–13th century。",
+    "sourceMuseum": "耶鲁大学艺术博物馆",
+    "sourceMuseumEnglish": "Yale University Art Gallery",
+    "accessionNumber": "1971.91.3",
+    "sourceUrl": "https://artgallery.yale.edu/collections/objects/9022",
+    "imageUrl": "/artworks/yale-9022.jpg",
+    "imageAlt": "Tea Bowl with Flowers",
+    "license": "CC0 1.0 (metadata); Public Domain (Yale open-access image; No Copyright - United States)",
+    "creditLine": "Yale University Art Gallery, 1971.91.3. Gift of Dr. Howard Balensweig, B.S. 1943, and Mrs. Carolyn Balensweig. Background removed and cropped by Teaware.",
+    "crawlBatchId": "reviewed-teaware-6000-2026-10-07"
+  },
+  "raw": {
+    "id": "9022",
+    "status": "downloaded",
+    "manifest": {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "id": "https://manifests.collections.yale.edu/yuag/obj/9022",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Unknown, Tea Bowl with Flowers, 12th–13th century"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Copyright Statement"
+            ]
+          },
+          "value": {
+            "en": [
+              "Public domain"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Title"
+            ]
+          },
+          "value": {
+            "en": [
+              "Tea Bowl with Flowers"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Creator(s)"
+            ]
+          },
+          "value": {
+            "en": [
+              "Maker: Unknown"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Culture"
+            ]
+          },
+          "value": {
+            "en": [
+              "Chinese"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "12th–13th century"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Medium"
+            ]
+          },
+          "value": {
+            "en": [
+              "Stoneware with paper-cut designs and black-and-brown tortoiseshell glaze (Jizhou ware)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Dimensions"
+            ]
+          },
+          "value": {
+            "en": [
+              "2 1/4 × 4 1/4 in. (5.7 × 10.8 cm)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Creditline"
+            ]
+          },
+          "value": {
+            "en": [
+              "Gift of Dr. Howard Balensweig, B.S. 1943, and Mrs. Carolyn Balensweig"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Classification"
+            ]
+          },
+          "value": {
+            "en": [
+              "Containers - Ceramics"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Department"
+            ]
+          },
+          "value": {
+            "en": [
+              "Asian Art"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Institution"
+            ]
+          },
+          "value": {
+            "en": [
+              "Yale University Art Gallery"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Object Number"
+            ]
+          },
+          "value": {
+            "en": [
+              "1971.91.3"
+            ]
+          }
+        }
+      ],
+      "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Rights Description"
+          ]
+        },
+        "value": {
+          "en": [
+            "Data Provided about Yale University Art Gallery collections are public domain. Rights restrictions may apply to cultural works or images of those works."
+          ]
+        }
+      },
+      "logo": [
+        {
+          "id": "https://artgallery.yale.edu/sites/default/files/2023-03/LUX_YUAG_logo.png",
+          "type": "Image"
+        }
+      ],
+      "homepage": [
+        {
+          "format": "text/html",
+          "id": "https://artgallery.yale.edu/collections/objects/9022",
+          "label": {
+            "en": [
+              "catalog entry at the Yale University Art Gallery"
+            ]
+          },
+          "language": "en",
+          "type": "Text"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://manifests.collections.yale.edu/canvas/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "Image from Yale University"
+            ]
+          },
+          "height": 2016,
+          "width": 3045,
+          "items": [
+            {
+              "id": "https://manifests.collections.yale.edu/annopage/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://manifests.collections.yale.edu/annotation/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://images.collections.yale.edu/iiif/2/yuag:1451b1e8-1dc1-457e-a118-0abad20c3e42/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "service": [
+                      {
+                        "@id": "https://images.collections.yale.edu/iiif/2/yuag:1451b1e8-1dc1-457e-a118-0abad20c3e42",
+                        "@type": "ImageService2",
+                        "profile": "http://iiif.io/api/image/2/level2.json"
+                      }
+                    ],
+                    "height": 2016,
+                    "width": 3045
+                  },
+                  "target": "https://manifests.collections.yale.edu/canvas/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42"
+                }
+              ]
+            }
+          ],
+          "rendering": [
+            {
+              "id": "https://media.collections.yale.edu/tiff/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42.tif",
+              "type": "Image",
+              "label": {
+                "en": [
+                  "TIFF for download"
+                ]
+              },
+              "format": "image/tiff"
+            }
+          ],
+          "thumbnail": [
+            {
+              "id": "https://media.collections.yale.edu/thumbnail/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 480,
+              "height": 318
+            }
+          ],
+          "metadata": [
+            {
+              "label": {
+                "en": [
+                  "Image Use Rights"
+                ]
+              },
+              "value": {
+                "en": [
+                  "No Copyright - United States"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "manifestUrl": "https://manifests.collections.yale.edu/yuag/obj/9022",
+    "imageSource": "https://media.collections.yale.edu/tiff/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42.tif",
+    "imagePath": "/Users/apple/Documents/Codex/2026-10-04/task/expansion-6000-20261006/yale-pilot/images/yale-9022.jpg",
+    "imageSha256": "a9ff9de90c5bf4ea1c534743a64500894bc7960389e58290dcfb3f77d8d20118",
+    "imagePolicy": {
+      "url": "https://artgallery.yale.edu/using-collection/using-images",
+      "quote": "without further application, authorization, or fees due to the Gallery or to Yale."
+    }
+  },
+  "imageSource": "https://media.collections.yale.edu/tiff/yuag/1451b1e8-1dc1-457e-a118-0abad20c3e42.tif",
+  "retrievedAt": "2026-10-06T17:34:08.805Z",
+  "rawMetadataSha256": "5c8874b9f1f918476e2e9d4488680d7bbfa3cb7fdc7c0a4121f6b89ac841fe9e",
+  "inputPath": "output/20261007-yale-pilot/originals/yale-9022.jpg",
+  "sourceSha256": "2962e3e69e90f8cd8a4fbcf14c6e856b858f0108575882954d5560bbd224d763",
+  "rawSha256": "a9ff9de90c5bf4ea1c534743a64500894bc7960389e58290dcfb3f77d8d20118",
+  "width": 3000,
+  "height": 1986
+}

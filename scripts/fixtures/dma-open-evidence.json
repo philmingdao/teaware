@@ -1,0 +1,407 @@
+{
+  "artwork": {
+    "id": "dma-3196023",
+    "titleChinese": "茶碗",
+    "titleEnglish": "Tea bowl",
+    "titleOriginal": "Tea bowl; work type: Tea bowl",
+    "dynasty": "未详",
+    "dynastyEnglish": "Unspecified",
+    "date": "1810–1825",
+    "period": "Josiah Wedgwood Factory",
+    "material": "陶",
+    "materialEnglish": "Creamware",
+    "objectType": "茶碗",
+    "objectTypeEnglish": "Tea Bowl",
+    "dimensions": "1 7/8 × 2 3/8 × 2 3/8 in. (4.76 × 6.03 × 6.03 cm)",
+    "description": "茶碗。馆方原名：Tea bowl。制作年代：1810–1825。",
+    "sourceMuseum": "达拉斯艺术博物馆",
+    "sourceMuseumEnglish": "Dallas Museum of Art",
+    "accessionNumber": "1991.412.32.4",
+    "sourceUrl": "https://dma.org/art/collection/object/3196023",
+    "imageUrl": "/artworks/dma-3196023.jpg",
+    "imageAlt": "Tea bowl",
+    "license": "Public Domain (Dallas Museum of Art Open Access)",
+    "creditLine": "Dallas Museum of Art, anonymous gift. Image courtesy Dallas Museum of Art. Background removed and cropped by Teaware.",
+    "crawlBatchId": "reviewed-teaware-6000-2026-10-06"
+  },
+  "raw": {
+    "id": "3196023",
+    "object": {
+      "id": "3196023",
+      "number": "1991.412.32.4",
+      "title": "Tea bowl",
+      "department": "Design and Decorative Art",
+      "classification": "Containers",
+      "sub_classification": "(not assigned)",
+      "culture": "",
+      "style": "",
+      "reign": "",
+      "dynasty": "",
+      "period": "",
+      "dated": "1810–1825",
+      "date_begin": "1810",
+      "date_end": "1825",
+      "copyright": {
+        "type": "Public domain",
+        "credit_line": "Image courtesy Dallas Museum of Art"
+      },
+      "label_copy": "",
+      "credit_line": "Dallas Museum of Art, anonymous gift",
+      "historical_attributions": "",
+      "inscriptions": "marked:  WEDGWOOD, etc.",
+      "signed": "",
+      "state_proof": "",
+      "portfolio": "",
+      "pyramid": true,
+      "object_name": "Tea bowl",
+      "edition": "",
+      "medium": "Creamware",
+      "dimensions": "1 7/8 × 2 3/8 × 2 3/8 in. (4.76 × 6.03 × 6.03 cm)",
+      "description": "",
+      "display_status": "on-view",
+      "primary_image": "260797432",
+      "images": [
+        "260797432",
+        "260797510",
+        "260797588",
+        "260797666",
+        "260797744",
+        "260797824"
+      ],
+      "terms": [
+        "creamware",
+        "flowers (plants)",
+        "tea bowl",
+        "Ceramics",
+        "roses",
+        "Staffordshire"
+      ],
+      "packages": [
+        "Total Objs in Collection 2-18-03",
+        "Non-City",
+        "BAM-Obj No Image Dept image attahced",
+        "BAM-all records results from image search",
+        "ARCHIVE-DMA Owned Once was Status Flag",
+        "BAM-Has Obj File MR",
+        "BAM-has all objects",
+        "SR - DMA - Wedgwood",
+        "OLC-topics_decades_1975-1999",
+        "CollectionOnceOnView",
+        "ObjHasObjFileLink",
+        "Public Domain update",
+        "2022.11.02 Design and Dec Arts Containers",
+        "Objects Acquired B/T 1988 - 1992",
+        "2023.08.03 DAD on view for Affinity Board"
+      ],
+      "constituents": [
+        {
+          "name": "Josiah Wedgwood Factory",
+          "firstname": "",
+          "lastname": "",
+          "alt_name": "Josiah Wedgwood Factory",
+          "sort": "Josiah Wedgwood Factory",
+          "sort_name": "Josiah Wedgwood Factory",
+          "begin_year": "1759",
+          "end_year": "0",
+          "gender": null,
+          "nationality": "British",
+          "role": "Maker"
+        }
+      ],
+      "location": [
+        {
+          "display_status": "on-view",
+          "public": "1",
+          "name": "Decorative Arts and Design Study Gallery",
+          "floor": "4"
+        }
+      ],
+      "extended_content": [],
+      "last_harvested_at": "2025-11-11T16:30:02",
+      "updated": "2026-10-01T00:53:48"
+    },
+    "manifest": {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://files.dma.org/collection/production/objects/3196023/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Tea bowl",
+      "metadata": [
+        {
+          "label": "Date",
+          "value": "1810–1825"
+        },
+        {
+          "label": "Classification",
+          "value": [
+            "Containers",
+            "(not assigned)"
+          ]
+        },
+        {
+          "label": "Credit Line",
+          "value": "Dallas Museum of Art, anonymous gift"
+        },
+        {
+          "label": "Object Number",
+          "value": "1991.412.32.4"
+        },
+        {
+          "label": "People",
+          "value": [
+            "Maker: Josiah Wedgwood Factory, British, 1759 - 0"
+          ]
+        },
+        {
+          "label": "Culture",
+          "value": ""
+        },
+        {
+          "label": "Medium",
+          "value": "Creamware"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1 7/8 × 2 3/8 × 2 3/8 in. (4.76 × 6.03 × 6.03 cm)"
+        },
+        {
+          "label": "Description",
+          "value": ""
+        }
+      ],
+      "description": "",
+      "thumbnail": {
+        "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg/full/!170,170/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        },
+        "@type": "dctypes:Image"
+      },
+      "attribution": "Dallas Museum of Art",
+      "logo": {
+        "@id": "https://files.dma.org/sites/default/files/dma-logo.png"
+      },
+      "rendering": {
+        "@id": "https://dma.org/art/collection/object/3196023",
+        "label": "View on dma.org",
+        "format": "text/html"
+      },
+      "within": "https://dma.org/art/collection",
+      "sequences": [
+        {
+          "@id": "3196023-sequence",
+          "@type": "sc:Sequence",
+          "label": "Default",
+          "canvases": [
+            {
+              "@id": "3196023_260797432-canvas",
+              "@type": "sc:Canvas",
+              "height": "1200",
+              "width": "1200",
+              "label": "1991_412_32_4-v02.tif",
+              "images": [
+                {
+                  "@id": "3196023_260797432-annotation",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "3196023_260797432-canvas",
+                  "resource": {
+                    "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": "1200",
+                    "width": "1200",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "3196023_260797510-canvas",
+              "@type": "sc:Canvas",
+              "height": "1200",
+              "width": "1200",
+              "label": "1991_412_32_4-v03.tif",
+              "images": [
+                {
+                  "@id": "3196023_260797510-annotation",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "3196023_260797510-canvas",
+                  "resource": {
+                    "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797510__image.jpg/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": "1200",
+                    "width": "1200",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797510__image.jpg",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "3196023_260797588-canvas",
+              "@type": "sc:Canvas",
+              "height": "1200",
+              "width": "1200",
+              "label": "1991_412_32_4-v04.tif",
+              "images": [
+                {
+                  "@id": "3196023_260797588-annotation",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "3196023_260797588-canvas",
+                  "resource": {
+                    "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797588__image.jpg/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": "1200",
+                    "width": "1200",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797588__image.jpg",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "3196023_260797666-canvas",
+              "@type": "sc:Canvas",
+              "height": "1200",
+              "width": "1200",
+              "label": "1991_412_32_4-v05.tif",
+              "images": [
+                {
+                  "@id": "3196023_260797666-annotation",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "3196023_260797666-canvas",
+                  "resource": {
+                    "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797666__image.jpg/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": "1200",
+                    "width": "1200",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797666__image.jpg",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "3196023_260797744-canvas",
+              "@type": "sc:Canvas",
+              "height": "1200",
+              "width": "1200",
+              "label": "1991_412_32_4-v06.tif",
+              "images": [
+                {
+                  "@id": "3196023_260797744-annotation",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "3196023_260797744-canvas",
+                  "resource": {
+                    "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797744__image.jpg/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": "1200",
+                    "width": "1200",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797744__image.jpg",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "3196023_260797824-canvas",
+              "@type": "sc:Canvas",
+              "height": "1200",
+              "width": "1200",
+              "label": "1991_412_32_4.tif",
+              "images": [
+                {
+                  "@id": "3196023_260797824-annotation",
+                  "@type": "oa:Annotation",
+                  "motivation": "sc:painting",
+                  "on": "3196023_260797824-canvas",
+                  "resource": {
+                    "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797824__image.jpg/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "height": "1200",
+                    "width": "1200",
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797824__image.jpg",
+                      "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "imageSource": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg/full/full/0/default.jpg",
+    "imagePath": "/Users/apple/Documents/Codex/2026-10-04/task/expansion-6000-20261006/dma/images/dma-3196023.jpg",
+    "imageSha256": "663cc1927b422ea4d774c6854d2f5192620331bc8c26bbaa65db67eca646a891",
+    "selectedCanvas": {
+      "@id": "3196023_260797432-canvas",
+      "@type": "sc:Canvas",
+      "height": "1200",
+      "width": "1200",
+      "label": "1991_412_32_4-v02.tif",
+      "images": [
+        {
+          "@id": "3196023_260797432-annotation",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "3196023_260797432-canvas",
+          "resource": {
+            "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": "1200",
+            "width": "1200",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          }
+        }
+      ]
+    },
+    "status": "downloaded",
+    "policy": {
+      "title": "Notice on Open Access and Collection Research",
+      "body": "The DMA is an open-access institution. All public domain works are freely available for downloading, sharing, repurposing, and remixing without restriction. Private domain works are not available.\r\n\r\nObject records are works in progress and may be incomplete. Updates are made as new information becomes available. If you have additional information, spot an error, or see language that you feel we could improve or change, please let us know at curatorial@dma.org. "
+    }
+  },
+  "imageSource": "https://image.dma.org/iiif/2/production__objects__3196023__260797432__image.jpg/full/full/0/default.jpg",
+  "retrievedAt": "2026-10-06T17:07:57.201Z",
+  "rawMetadataSha256": "f6334e9f03195554bd7073ae23e0736eecfa29e9007a4da0fc673bbaff6bb862",
+  "inputPath": "output/20261006-dma-getty/originals/dma-3196023.jpg",
+  "sourceSha256": "b57a4b4e6da7c6f4375a7881d4da03c105a778c9b07246cc09b2b3b41ea0f323",
+  "rawSha256": "663cc1927b422ea4d774c6854d2f5192620331bc8c26bbaa65db67eca646a891",
+  "width": 1200,
+  "height": 1200
+}

@@ -5,6 +5,12 @@ import { classifyTeaware, normalizedSourceUrl } from './teaware-policy.mjs';
 const classify = (titleEnglish, materialEnglish, objectTypeEnglish = 'Tea Bowl/Cup') =>
   classifyTeaware({ titleEnglish, materialEnglish, objectTypeEnglish }).decision;
 
+test('explicit native tea box, bin and extract-pot names retain the same evidence gate', () => {
+  for(const title of ['Tea box','Tea boxes','Tea bin, from a kitchen container set','Tea extract pot']) assert.equal(classify(title,'ceramic'),'admit');
+  assert.equal(classifyTeaware({titleEnglish:'Box',titleChinese:'茶箱',objectTypeEnglish:'Tea box',materialEnglish:'wood'}).decision,'review');
+  assert.equal(classify('Tea box','albumen silver print'),'reject');
+});
+
 test('depictions and publications cannot qualify by their tea-related titles', () => {
   assert.equal(classify('Still Life with Yixing Teapot', 'Oil painting'), 'reject');
   assert.equal(classify('Tea Service', 'Albumen silver print'), 'reject');

@@ -8,6 +8,12 @@ import sharp from 'sharp';
 import {classifyTeaware, isSpoonLikeTeaware, normalizedSourceUrl} from './teaware-policy.mjs';
 import {historicalCreatorEvidence} from './colbase-historical-creators.mjs';
 import {physicalObjectKey, rijksObjectNumber} from './teaware-identity.mjs';
+import {assertBmaOpenContent} from './bma-open-content-evidence.mjs';
+import {assertDmaGettyEvidence} from './dma-getty-evidence.mjs';
+import {assertRijks20261006} from './rijks-20261006-evidence.mjs';
+import {assertYaleEvidence} from './yale-evidence.mjs';
+import {assertMia20261007} from './mia-20261007-evidence.mjs';
+import {cmaNativeTeaUseReview} from './cma-native-use-evidence.mjs';
 const poolPath=process.argv[2], inputsPath=process.argv[3];
 assert(poolPath && inputsPath, 'Provide downloaded pool and input manifest');
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
@@ -42,11 +48,17 @@ for(const input of inputs) {
     assert.equal(item.raw.url,row.sourceUrl,'Cleveland official object page');
     assert.equal(item.raw.images?.print?.url,item.imageSource,'Cleveland published print-resolution image');
     assert.equal(item.raw.title,row.titleOriginal,'Cleveland title');
+    if(stagedReviews[row.id])assert.deepEqual(stagedReviews[row.id],cmaNativeTeaUseReview(item.raw),'Bound Cleveland native-use review');
+    assert.equal(row.date,item.raw.creation_date,'Cleveland source date');
     assert.equal(row.sourceMuseumEnglish,'Cleveland Museum of Art');
     assert(row.license.startsWith('CC0')&&row.creditLine.includes('Background removed and cropped by Teaware.'));
   }
-  else if(row.id.startsWith('mia-')) assert(item.raw.rights_type==='Public Domain' && item.raw.Rights_Image_Display==='Full','Mia image-specific rights');
+  else if(row.id.startsWith('mia-')) {
+    if(item.raw.object) assertMia20261007(item);
+    else assert(item.raw.rights_type==='Public Domain' && item.raw.Rights_Image_Display==='Full','Mia image-specific rights');
+  }
   else if(row.id.startsWith('rks-')) {
+    if(item.raw.metadataPolicy) assertRijks20261006(item);
     assert.equal(rijksObjectNumber(item.raw.object),row.accessionNumber,'Rijks full accession');
     const rights=(item.raw.visual.subject_to||[]).flatMap(s=>s.classified_as||[]).map(x=>x.id);
     assert(rights.some(r=>r.includes('publicdomain')||r.includes('zero/1.0')),'Rijks selected image rights');
@@ -221,6 +233,15 @@ for(const input of inputs) {
     assert(!/spoon|scoop|ladle|whisk|strainer|infuser|service|set of|pair of|saucer/i.test(`${obj?.Title} ${obj?.ObjectName}`),'Walters spoon-like or grouped object excluded');
     assert(/^CC0\b/.test(row.license),'Walters image license must be CC0');
     assert(row.creditLine.includes('The Walters Art Museum') && row.creditLine.includes('Background removed and cropped by Teaware.'));
+  } else if(row.id.startsWith('bma-')) {
+    assertBmaOpenContent(item);
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit','BMA native tea-use evidence');
+  } else if(row.id.startsWith('dma-') || row.id.startsWith('getty-')) {
+    assertDmaGettyEvidence(item);
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
+  } else if(row.id.startsWith('yale-')) {
+    assertYaleEvidence(item);
+    assert.equal(classifyTeaware({...row,titleEnglish:row.titleOriginal}).decision,'admit');
   } else assert.fail(`Unverified staging source ${row.id}`);
   assert.equal(input.inputPath,item.inputPath,`Unexpected image path ${row.id}`);
   const relative=path.relative(path.dirname(poolPath),item.inputPath);
