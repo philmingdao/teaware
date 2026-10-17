@@ -2,9 +2,9 @@
 
 **East Asian Teaware Artistic Gallery** — Open-Access Museum Collection
 
-> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 6,000 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
+> 探索中国、日本与韩国的茶器传统及跨文化交流，收录 5,318 件开放馆藏。提供中文、英文、日文与韩文；作品许可见馆方来源及详情页。
 > 
-> Explore East Asian teaware and global cultural exchange through 6,000 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
+> Explore East Asian teaware and global cultural exchange through 5,318 open museum artworks. Available in Chinese, English, Japanese and Korean; see each artwork for licensing.
 
 🌐 **Live: [philmingdao.github.io/teaware](https://philmingdao.github.io/teaware/)** · Open Access · Per-artwork licensing
 
@@ -28,9 +28,9 @@ Verified 2026-10-05 after tea-only review and image processing.
 
 | Metric | Count |
 |--------|-------|
-| Total Artworks | **6,000** |
-| Credited museum collection labels | 65 |
-| Reviewed transparent WebP assets | **6,000** |
+| Total Artworks | **5,318** |
+| Credited museum collection labels | 107 |
+| Reviewed transparent WebP assets | **5,318** |
 
 Only physical tea ware with explicit source evidence of tea use is admitted. Prints, book pages, textiles, photographs of display cases, display supports, grouped photographs, unrelated objects and duplicate views are excluded. Each record retains its museum source, accession number and image license; dates omitted by the museum remain marked as unrecorded. Every active artwork uses a reviewed transparent cutout in the cover, list, detail, slideshow and TV views.
 
@@ -42,7 +42,7 @@ Only physical tea ware with explicit source evidence of tea use is admitted. Pri
 - 📱 **响应式设计** — 完美适配桌面与移动设备
 - 🌏 **四种语言** — 中文、英文、日文与韩文界面
 - ⚡ **静态优化** — 支持静态导出，可部署至任意静态托管平台
-- 📄 **藏品浏览** — 高效浏览 6,000 件藏品与对应透明图
+- 📄 **藏品浏览** — 高效浏览 5,318 件藏品与对应透明图
 - 🌙 **深色模式** — 支持系统偏好自动切换或手动切换，优雅的深色主题
 - 📺 **电视模式** — Netflix 风格沉浸式全屏浏览，支持键盘/触摸/自动播放
 
