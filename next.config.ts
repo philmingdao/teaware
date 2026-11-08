@@ -5,6 +5,9 @@ const basePath = isProd ? '/teaware' : '';
 
 const nextConfig: NextConfig = {
   output: 'export',
+  // Next allows localhost automatically. 127.0.0.1 is a different dev origin
+  // and otherwise blocks dev assets, so the app never hydrates.
+  allowedDevOrigins: ['127.0.0.1'],
   basePath,
   assetPrefix: basePath,
   trailingSlash: true,
